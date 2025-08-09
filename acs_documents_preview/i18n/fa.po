@@ -1,0 +1,33 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_documents_preview
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 11:53+0000\n"
+"PO-Revision-Date: 2025-04-04 11:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_documents_preview
+#: model:ir.model.fields,field_description:acs_documents_preview.field_acs_document_view_mixin__document_preview_url
+msgid "Document Preview Link"
+msgstr "پیوند پیش‌نمایش سند"
+
+#. module: acs_documents_preview
+#: model:ir.model,name:acs_documents_preview.model_acs_document_view_mixin
+msgid "Document Viewer Mixin"
+msgstr "ترکیب‌گر نمایشگر سند"
+
+#. module: acs_documents_preview
+#. odoo-python
+#: code:addons/acs_documents_preview/models/document_preview.py:0
+#, python-format
+msgid "There are no documents to Preview. Please Add it in chatter."
+msgstr "هیچ سندی برای پیش‌نمایش وجود ندارد. لطفاً آن را در گفت‌وگو بیفزایید."

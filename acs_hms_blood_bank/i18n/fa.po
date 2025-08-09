@@ -1,0 +1,892 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_hms_blood_bank
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 14:58+0000\n"
+"PO-Revision-Date: 2025-04-04 14:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_patient__acs_blood_issuance_count
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_physician__acs_blood_issuance_count
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_partner__acs_blood_issuance_count
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_users__acs_blood_issuance_count
+msgid "#Blood Issuance"
+msgstr "تعداد صدور خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_patient__acs_blood_requisition_count
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_physician__acs_blood_requisition_count
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_partner__acs_blood_requisition_count
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_users__acs_blood_requisition_count
+msgid "#Blood Requisitions"
+msgstr "تعداد درخواست‌های خون"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "<span class=\"o_stat_text\">Transfers</span>"
+msgstr "<span class=\"o_stat_text\">انتقال‌ها</span>"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "<span invisible=\"not acs_blood_issuance_invoicing\"> Invoice Service for Blood Issuance </span>"
+msgstr "<span invisible=\"not acs_blood_issuance_invoicing\"> خدمات فاکتور برای صدور خون </span>"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "<span invisible=\"not acs_blood_requisition_invoicing\"> Invoice Service for Blood Requisition</span>"
+msgstr "<span invisible=\"not acs_blood_requisition_invoicing\"> خدمات فاکتور برای درخواست خون </span>"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_issuance__blood_group__ab+
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_requisition__blood_group__ab+
+msgid "AB+"
+msgstr "AB+"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_issuance__blood_group__ab-
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_requisition__blood_group__ab-
+msgid "AB-"
+msgstr "AB-"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_needaction
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_needaction
+msgid "Action Needed"
+msgstr "نیاز به اقدام"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_ids
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_exception_decoration
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "نمایش استثنای فعالیت"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_state
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_type_icon
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "شمایل نوع فعالیت"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_company__acs_blood_issuance_invoicing
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_config_settings__acs_blood_issuance_invoicing
+msgid "Allow Blood Issuance Invoicing"
+msgstr "اجازه صدور فاکتور برای صدور خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_company__acs_blood_requisition_invoicing
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_config_settings__acs_blood_requisition_invoicing
+msgid "Allow Blood Requisition Invoicing"
+msgstr "اجازه صدور فاکتور برای درخواست خون"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Allow user to Invoice for Blood Issuance"
+msgstr "اجازه به کاربر برای صدور فاکتور صدور خون"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Allow user to Invoice for Blood Requisition"
+msgstr "اجازه به کاربر برای صدور فاکتور درخواست خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_attachment_count
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست‌ها"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_lot_search
+msgid "Available for Issueance"
+msgstr "در دسترس برای صدور"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_lot_search
+msgid "Available for Requisition"
+msgstr "در دسترس برای درخواست"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__product_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__product_id
+msgid "Blood Bag"
+msgstr "کیسه خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__product_id
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__product_id
+msgid "Blood Bag Name. Make sure that the Blood Bag (product) has all the proper information at product level."
+msgstr "نام کیسه خون. اطمینان حاصل کنید که کیسه خون (محصول) تمام اطلاعات لازم را در سطح محصول دارد."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__lot_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__lot_id
+msgid "Blood Bag Serial"
+msgstr "سریال کیسه خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.product_template_action_blood
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_products
+msgid "Blood Bags"
+msgstr "کیسه‌های خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__product_template__hospital_product_type__blood
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_bank_root
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Blood Bank"
+msgstr "بانک خون"
+
+#. module: acs_hms_blood_bank
+#: model:res.groups,name:acs_hms_blood_bank.group_blood_bank_user
+msgid "Blood Bank User"
+msgstr "کاربر بانک خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.action_blood_donor
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.action_partner_blood_donor
+msgid "Blood Donor"
+msgstr "اهداکننده خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__blood_group
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__blood_group
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_stock_lot__blood_group
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_lot_search
+msgid "Blood Group"
+msgstr "گروه خونی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.action_acs_blood_issuance
+#: model:ir.model,name:acs_hms_blood_bank.model_acs_blood_issuance
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_patient__acs_blood_issuance_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_physician__acs_blood_issuance_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_partner__acs_blood_issuance_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_users__acs_blood_issuance_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_stock_lot__issuance_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_stock_move__issuance_id
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_receiver
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_blood_bank_registered_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_partner_form
+msgid "Blood Issuance"
+msgstr "صدور خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_company__acs_blood_issuance_product_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_config_settings__acs_blood_issuance_product_id
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_res_company__acs_blood_issuance_product_id
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_res_config_settings__acs_blood_issuance_product_id
+msgid "Blood Issuance Invoice Product"
+msgstr "محصول فاکتور صدور خون"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Blood Issuance Invoicing"
+msgstr "صورتحساب صدور خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__service_product_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__service_product_id
+#: model:product.template,name:acs_hms_blood_bank.hms_acs_blood_issuance_service_product_template
+msgid "Blood Issuance Service"
+msgstr "خدمت صدور خون"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_form
+msgid "Blood Management"
+msgstr "مدیریت خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__service_product_id
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__service_product_id
+msgid "Blood Process Charge Service"
+msgstr "خدمت هزینه پردازش خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.action_blood_receiver
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.action_partner_blood_receiver
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_acs_blood_issuance_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_acs_blood_issuance_tree
+msgid "Blood Receiver"
+msgstr "گیرنده خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.action_acs_blood_requisition
+#: model:ir.model,name:acs_hms_blood_bank.model_acs_blood_requisition
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_stock_lot__requisition_id
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_user_requisition
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_calendar
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_pivot
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_calendar
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_pivot
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_tree
+msgid "Blood Requisition"
+msgstr "درخواست خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_company__acs_blood_requisition_product_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_config_settings__acs_blood_requisition_product_id
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_res_company__acs_blood_requisition_product_id
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_res_config_settings__acs_blood_requisition_product_id
+msgid "Blood Requisition Invoice Product"
+msgstr "محصول فاکتور درخواست خون"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Blood Requisition Invoicing"
+msgstr "صورتحساب درخواست خون"
+
+#. module: acs_hms_blood_bank
+#: model:product.template,name:acs_hms_blood_bank.hms_acs_blood_requisition_service_product_template
+msgid "Blood Requisition Service"
+msgstr "خدمت درخواست خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_patient__acs_blood_requisition_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_hms_physician__acs_blood_requisition_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_partner__acs_blood_requisition_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_users__acs_blood_requisition_ids
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_blood_bank_registered_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_partner_form
+msgid "Blood Requisitions"
+msgstr "درخواست‌های خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_stock
+msgid "Blood Stock"
+msgstr "موجودی خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_issuance__state__cancel
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_requisition__state__cancel
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_acs_blood_issuance_form
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_blood_donor
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_partner_blood_donor
+msgid "Click to add a Blood Donor."
+msgstr "برای افزودن اهداکننده خون کلیک کنید."
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_acs_blood_issuance
+msgid "Click to add a Blood Issuance."
+msgstr "برای افزودن یک مورد صدور خون کلیک کنید."
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_blood_product_lots
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_blood_receiver
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_partner_blood_receiver
+msgid "Click to add a Blood Receiver."
+msgstr "برای افزودن یک دریافت‌کننده خون کلیک کنید."
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_acs_blood_requisition
+msgid "Click to add a Blood Requisition."
+msgstr "برای افزودن یک درخواست خون کلیک کنید."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model,name:acs_hms_blood_bank.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model,name:acs_hms_blood_bank.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model,name:acs_hms_blood_bank.model_res_partner
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__partner_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__partner_id
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_search
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_search
+msgid "Contact"
+msgstr "مخاطب"
+
+#. module: acs_hms_blood_bank
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_donor_contact
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_receiver_contact
+msgid "Contacts"
+msgstr "مخاطبین"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_acs_blood_issuance_form
+msgid "Create Invoice"
+msgstr "ایجاد صورتحساب"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__create_uid
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__create_date
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__date
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__date
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "Dates"
+msgstr "تاریخ‌ها"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__department_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__department_id
+msgid "Department"
+msgstr "بخش"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__display_name
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_requisition__state__done
+msgid "Donated"
+msgstr "اهدایی"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_form
+msgid "Done"
+msgstr "انجام شده"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_stock_lot__donor_partner_id
+msgid "Donor"
+msgstr "اهداکننده"
+
+#. module: acs_hms_blood_bank
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_donor_root
+msgid "Donors"
+msgstr "اهداکنندگان"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_issuance__state__draft
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_requisition__state__draft
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_follower_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_follower_ids
+msgid "Followers"
+msgstr "دنبال‌کنندگان"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_partner_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال‌کنندگان (طرف‌ها)"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__activity_type_icon
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "شمایل Font Awesome مانند fa-tasks"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_lot_search
+msgid "Group By"
+msgstr "گروه‌بندی بر اساس"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_search
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_search
+msgid "Group By..."
+msgstr "گروه‌بندی بر اساس..."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__has_message
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__company_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__company_id
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_search
+msgid "Hospital"
+msgstr "بیمارستان"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_product_product__hospital_product_type
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_product_template__hospital_product_type
+msgid "Hospital Product Type"
+msgstr "نوع محصول بیمارستانی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_exception_icon
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_exception_icon
+msgid "Icon"
+msgstr "شمایل"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__activity_exception_icon
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "شمایلی برای نمایش فعالیت استثنایی."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__message_needaction
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر علامت‌گذاری شود، پیام‌های جدید نیاز به توجه شما دارند."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__message_has_error
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__message_has_sms_error
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__message_has_error
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت‌گذاری شود، برخی پیام‌ها خطای ارسال دارند."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__invoice_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__invoice_id
+msgid "Invoice"
+msgstr "صورتحساب"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_patient_filter
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_res_partner_filter
+msgid "Is Blood Donor"
+msgstr "اهداکننده خون است"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_stock_lot__is_blood_product
+msgid "Is Blood Product"
+msgstr "محصول خونی است"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_patient_filter
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_res_partner_filter
+msgid "Is Blood Receiver"
+msgstr "دریافت‌کننده خون است"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_is_follower
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_is_follower
+msgid "Is Follower"
+msgstr "دنبال‌کننده است"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__is_outside
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__is_outside
+msgid "Is Outside"
+msgstr "خارجی است"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_acs_blood_issuance_form
+msgid "Issue"
+msgstr "صدور"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_issuance__state__done
+msgid "Issued"
+msgstr "صادر شده"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_lot_search
+msgid "Issued Product"
+msgstr "محصول صادر شده"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__write_uid
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__write_uid
+msgid "Last Updated by"
+msgstr "آخرین‌بار به‌روزرسانی توسط"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__write_date
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__write_date
+msgid "Last Updated on"
+msgstr "تاریخ آخرین‌ به‌روزرسانی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__location
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__location
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "Location"
+msgstr "مکان"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Location to manage consumed Blood."
+msgstr "مکان برای مدیریت خون مصرف‌شده."
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Location to take consumed Blood."
+msgstr "مکان برداشت خون مصرف‌شده."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model,name:acs_hms_blood_bank.model_stock_lot
+msgid "Lot/Serial"
+msgstr "سری/شماره سریال"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_lot_search
+msgid "Lot/Serial Number"
+msgstr "شماره سری/سریال"
+
+#. module: acs_hms_blood_bank
+#: model:ir.actions.act_window,name:acs_hms_blood_bank.action_blood_product_lots
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "Lots/Serial Numbers"
+msgstr "شماره‌های سری/سریال"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_has_error
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای ارسال پیام"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_ids
+msgid "Messages"
+msgstr "پیام‌ها"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__my_activity_date_deadline
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "ضرب‌الاجل فعالیت من"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__name
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__name
+msgid "Name"
+msgstr "نام"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_calendar_event_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "رویداد تقویمی فعالیت بعدی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_date_deadline
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "ضرب‌الاجل فعالیت بعدی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_summary
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_type_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_partner_blood_donor
+#: model_terms:ir.actions.act_window,help:acs_hms_blood_bank.action_partner_blood_receiver
+msgid "No Record Found"
+msgstr "هیچ رکوردی یافت نشد"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_acs_blood_issuance_form
+msgid "Notes..."
+msgstr "یادداشت‌ها..."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_needaction_counter
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_has_error_counter
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__message_needaction_counter
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام‌هایی که نیاز به اقدام دارند"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__message_has_error_counter
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام‌های دارای خطای ارسال"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_search
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_search
+msgid "Outside Requisition"
+msgstr "درخواست خارجی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model,name:acs_hms_blood_bank.model_hms_patient
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__patient_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__patient_id
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_search
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_search
+msgid "Patient"
+msgstr "بیمار"
+
+#. module: acs_hms_blood_bank
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_donor_patient
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_receiver_patients
+msgid "Patients"
+msgstr "بیماران"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__physician_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__physician_id
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_search
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_search
+msgid "Physician"
+msgstr "پزشک"
+
+#. module: acs_hms_blood_bank
+#. odoo-python
+#: code:addons/acs_hms_blood_bank/models/blood_bank.py:0
+#, python-format
+msgid ""
+"Please Set Service Product first for Blood Requisition in Configuration."
+msgstr "لطفاً ابتدا محصول خدمت را برای درخواست خون در پیکربندی تنظیم کنید."
+
+#. module: acs_hms_blood_bank
+#. odoo-python
+#: code:addons/acs_hms_blood_bank/models/blood_bank.py:0
+#, python-format
+msgid "Please Set Service Product first for Blood issuance in Configuration."
+msgstr "لطفاً ابتدا محصول خدمت را برای صدور خون در پیکربندی تنظیم کنید."
+
+#. module: acs_hms_blood_bank
+#. odoo-python
+#: code:addons/acs_hms_blood_bank/models/blood_bank.py:0
+#, python-format
+msgid ""
+"Please define a Blood Bank Stock Location from where the product will be "
+"taken."
+msgstr "لطفاً مکان موجودی بانک خون را که محصول از آن برداشت می‌شود، تعریف کنید."
+
+#. module: acs_hms_blood_bank
+#. odoo-python
+#: code:addons/acs_hms_blood_bank/models/blood_bank.py:0
+#, python-format
+msgid ""
+"Please define a Blood Bank Stock Usage Location where the consumables will "
+"be used."
+msgstr "لطفاً مکان مصرف موجودی بانک خون را که مواد مصرفی در آن استفاده می‌شوند، تعریف کنید."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model,name:acs_hms_blood_bank.model_product_template
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_hms_lot_search
+msgid "Product"
+msgstr "محصول"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid ""
+"Product this lot/serial number contains. You cannot change it anymore if it "
+"has already been moved."
+msgstr "محصولی که این سریال/شماره بچ حاوی آن است. پس از جابجایی دیگر نمی‌توانید آن را تغییر دهید."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__rating_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__rating_ids
+msgid "Ratings"
+msgstr "امتیازات"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_stock_lot__receiver_partner_id
+msgid "Receiver"
+msgstr "دریافت‌کننده"
+
+#. module: acs_hms_blood_bank
+#: model:ir.ui.menu,name:acs_hms_blood_bank.menu_blood_receiver_root
+msgid "Receivers"
+msgstr "دریافت‌کنندگان"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__remark
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__remark
+msgid "Remark"
+msgstr "توضیح"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__user_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__user_id
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_issuance_search
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_search
+msgid "Responsible"
+msgstr "مسئول"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__user_id
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__user_id
+msgid "Responsible Person"
+msgstr "شخص مسئول"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__activity_user_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_requisition__state__running
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_form
+msgid "Running"
+msgstr "در حال انجام"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__message_has_sms_error
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای ارسال پیامک"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__state
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__state
+msgid "Status"
+msgstr "وضعیت"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__activity_state
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت بر اساس فعالیت‌ها\n"
+"معوق: تاریخ سررسید گذشته است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه‌ریزی‌شده: فعالیت‌های آینده."
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Stock Location"
+msgstr "مکان موجودی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_company__acs_blood_stock_location_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_config_settings__acs_blood_stock_location_id
+msgid "Stock Location for Blood"
+msgstr "مکان موجودی برای خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model,name:acs_hms_blood_bank.model_stock_move
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__move_id
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__move_id
+msgid "Stock Move"
+msgstr "انتقال موجودی"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.res_config_settings_view_form
+msgid "Stock Usage Location"
+msgstr "مکان مصرف موجودی"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_issuance__state__to_invoice
+#: model:ir.model.fields.selection,name:acs_hms_blood_bank.selection__acs_blood_requisition__state__to_invoice
+msgid "To Invoice"
+msgstr "برای صدور فاکتور"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "Traceability"
+msgstr "ردیابی"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "Transfers"
+msgstr "انتقالات"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__activity_exception_decoration
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنایی در رکورد."
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_config_settings__acs_blood_usage_location_id
+msgid "Usage Location for Blood"
+msgstr "مکان مصرف برای خون"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_res_company__acs_blood_usage_location_id
+msgid "Usage Location for Blood."
+msgstr "مکان مصرف برای خون."
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_acs_blood_requisition_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.view_acs_blood_issuance_form
+msgid "View Invoice"
+msgstr "مشاهده فاکتور"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_issuance__website_message_ids
+#: model:ir.model.fields,field_description:acs_hms_blood_bank.field_acs_blood_requisition__website_message_ids
+msgid "Website Messages"
+msgstr "پیام‌های وب‌سایت"
+
+#. module: acs_hms_blood_bank
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_issuance__website_message_ids
+#: model:ir.model.fields,help:acs_hms_blood_bank.field_acs_blood_requisition__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات وب‌سایت"
+
+#. module: acs_hms_blood_bank
+#: model_terms:ir.ui.view,arch_db:acs_hms_blood_bank.acs_view_production_lot_form
+msgid "e.g. LOT/0001/20121"
+msgstr "برای مثال LOT/0001/20121"

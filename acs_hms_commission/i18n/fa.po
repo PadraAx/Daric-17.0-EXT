@@ -1,0 +1,142 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_hms_commission
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 15:02+0000\n"
+"PO-Revision-Date: 2025-04-04 15:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "* From the list of rules first matching rule will be applied."
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid ""
+"* From the list of rules last matching rule will be applied.\n"
+"                        * If 'Target Based Commission' is ticked then only rules will be taken into consideration."
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid ""
+"<i class=\"fa fa-info fa-3x text-info float-left\" role=\"img\" aria-"
+"label=\"Info\" title=\"Info\"/>"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.model,name:acs_hms_commission.model_hms_appointment
+msgid "Appointment"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.ui.menu,name:acs_hms_commission.menu_acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "Business Commissions"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.model.fields.selection,name:acs_hms_commission.selection__account_move__hospital_invoice_type__commission
+msgid "Commission"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "Commission Computation Rules"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "Commissions"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.model,name:acs_hms_commission.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: acs_hms_commission
+#: model:ir.model,name:acs_hms_commission.model_commission_bill
+msgid "Create Commission Bill"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.model.fields,field_description:acs_hms_commission.field_account_bank_statement_line__hospital_invoice_type
+#: model:ir.model.fields,field_description:acs_hms_commission.field_account_move__hospital_invoice_type
+#: model:ir.model.fields,field_description:acs_hms_commission.field_account_payment__hospital_invoice_type
+msgid "Hospital Invoice Type"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid ""
+"If we have Commission rules configured on the contact it will have First "
+"priority."
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid ""
+"If we have Commission target rules configured on the contact it will have "
+"First priority."
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.model,name:acs_hms_commission.model_account_move
+msgid "Journal Entry"
+msgstr "سند دفترروزنامه‌"
+
+#. module: acs_hms_commission
+#: model:ir.model,name:acs_hms_commission.model_acs_commission
+msgid "Partner Commission"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.model.fields,field_description:acs_hms_commission.field_acs_commission__invoice_patient_id
+msgid "Patient"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model:ir.model,name:acs_hms_commission.model_hms_physician
+msgid "Physician"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "Second Priority will be given to rules on the role."
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "Second Priority will be given to target rules on the role."
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "Target Rules"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "The detailed algorithm for Commission:"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "The detailed algorithm for the Commission target:"
+msgstr ""
+
+#. module: acs_hms_commission
+#: model_terms:ir.ui.view,arch_db:acs_hms_commission.view_physician_form
+msgid "Third Priority will be given to the percentage on the form."
+msgstr ""

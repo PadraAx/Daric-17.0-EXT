@@ -1,0 +1,1270 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* access_users_manager
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-08 13:30+0000\n"
+"PO-Revision-Date: 2025-02-08 13:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_groups__access_profiles_count
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_profiles_count
+msgid "# Profiles"
+msgstr "# نمایه ها"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/models/access_user_profiles.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "٪ S (کپی)"
+
+#. module: access_users_manager
+#: model:mail.template,body_html:access_users_manager.email_template_password_expiration_before_one
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    Dear <span style=\"font-weight: bold;\" t-out=\"object.name\"></span>,\n"
+"                    <br>\n"
+"                    <br>\n"
+"\n"
+"                    Your odoo password is going to expire after 1 day.\n"
+"                    <br>\n"
+"                    <br>\n"
+"\n"
+"                    Kindly reset it before <span style=\"font-weight: bold;\" t-out=\"object.access_password_expire_date\"></span> .\n"
+"                    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"                        <a href=\"/web/reset_password/direct\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                            Change password\n"
+"                        </a>\n"
+"                    </div>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style = \"margin: 0px ؛ padding: 0px ؛\">\n"
+"                    عزیز <span style = \"font-weight: bold ؛\" t-out = \"object.name\"> </span> ،\n"
+"                    <BR>\n"
+"                    <BR>\n"
+"\n"
+"                    رمز عبور حساب کاربری دریک شما بعد از 1 روز منقضی می شود.\n"
+"                    <BR>\n"
+"                    <BR>\n"
+"\n"
+"                    لطفاً قبل از <span style = \"font-weight: bold ؛\" دوباره تنظیم کنید t-out = \"object.access_password_expire_date\"> </span>.\n"
+"                    <div style = \"حاشیه: 16px 0px 16px 0px ؛\">\n"
+"                        <a href = \"/web/reset_password/direct\" style = \"پس زمینه رنگ: #875a7b ؛ padding: 8px 16px 8px 16px ؛ decoration: هیچ یک ؛ رنگ: #fff ؛ radius: 5px ؛ font-size: 13px ؛ \">\n"
+"                            رمز عبور را تغییر دهید\n"
+"                        </a>\n"
+"                    </div>\n"
+"                </div>"
+
+#. module: access_users_manager
+#: model:mail.template,body_html:access_users_manager.email_template_password_expiration_before_seven
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    Dear <span style=\"font-weight: bold;\" t-out=\"object.name\"></span>,\n"
+"                    <br>\n"
+"                    <br>\n"
+"\n"
+"                    Your odoo password is going to expire after 7 days.\n"
+"                    <br>\n"
+"                    <br>\n"
+"\n"
+"                    Kindly reset it before <span style=\"font-weight: bold;\" t-out=\"object.access_password_expire_date\"></span> .\n"
+"                    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"                        <a href=\"/web/reset_password/direct\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                            Change password\n"
+"                        </a>\n"
+"                    </div>\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div style = \"margin: 0px ؛ padding: 0px ؛\">\n"
+"                    عزیز <span style = \"font-weight: bold ؛\" t-out = \"object.name\"> </span> ،\n"
+"                    <BR>\n"
+"                    <BR>\n"
+"\n"
+"                    رمز عبور حساب کاربری دریک شما بعد از 7 روز منقضی می شود.\n"
+"                    <BR>\n"
+"                    <BR>\n"
+"\n"
+"                    لطفاً قبل از <span style = \"font-weight: bold ؛\" دوباره تنظیم کنید t-out = \"object.access_password_expire_date\"> </span>.\n"
+"                    <div style = \"حاشیه: 16px 0px 16px 0px ؛\">\n"
+"                        <a href = \"/web/reset_password/direct\" style = \"پس زمینه رنگ: #875a7b ؛ padding: 8px 16px 8px 16px ؛ decoration: هیچ یک ؛ رنگ: #fff ؛ radius: 5px ؛ font-size: 13px ؛ \">\n"
+"                            رمز عبور را تغییر دهید\n"
+"                        </a>\n"
+"                    </div>\n"
+"                </div>"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "<span class=\"o_stat_text\">Access Rights</span>"
+msgstr "<span class = \"o_stat_text\"> حقوق دسترسی </span>"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "<span class=\"o_stat_text\">Record Rules</span>"
+msgstr "<span class = \"o_stat_text\"> قواعد ردیف </span>"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "<span class=\"o_stat_text\">Users</span>"
+msgstr "<span class = \"o_stat_text\"> کاربران </span>"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__model_access
+msgid "Access Controls"
+msgstr "کنترل دسترسی"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid "Access Denied"
+msgstr "دسترسی رد شد"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_ir_rule__access_domain_access_id
+msgid "Access Domain Access"
+msgstr "دسترسی به دامنه دسترسی"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_res_groups
+msgid "Access Groups"
+msgstr "گروه های دسترسی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__menu_access
+msgid "Access Menu"
+msgstr "فهرست دسترسی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_model_access_count
+msgid "Access Model Access Count"
+msgstr "دسترسی به تعداد دسترسی مدل"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_user_manager_id
+msgid "Access Pack"
+msgstr "بسته دسترسی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_groups__access_profile_id
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_profile_id
+msgid "Access Profile"
+msgstr "نمایه دسترسی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_profile_based_menu
+msgid "Access Profile Based Menu"
+msgstr "فهرست امکانات مبتنی بر نمایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__access_profile_domain_model
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_profile_domain_model
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_profile_domain_model
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__access_profile_domain_model
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_profile_domain_model
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_profile_domain_model
+msgid "Access Profile Domain Model"
+msgstr "دسترسی به مدل دامنه نمایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_ir_model_access
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_model_access_ids
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_res_user_profiles_form
+msgid "Access Rights"
+msgstr "حق دسترسی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_rules_count
+msgid "Access Rules Count"
+msgstr "دسترسی به قوانین"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__access_action_id
+#: model:ir.model.fields.selection,name:access_users_manager.selection__button_tab_data__access_button_type__action
+msgid "Action"
+msgstr "کنش"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_ir_actions_actions
+msgid "Actions"
+msgstr "کنش ها"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__active
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__active
+#: model:ir.model.fields.selection,name:access_users_manager.selection__recent_activity__access_status__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_admin_user
+msgid "Admin User"
+msgstr "کاربر سرپرست"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_user_management_search
+msgid "All"
+msgstr "همه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__category_id
+msgid "Application"
+msgstr "برنامه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_apply_domain
+msgid "Apply Domain"
+msgstr "اعمال دامنه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_group_category_id
+msgid "Associated category"
+msgstr "دسته مرتبط"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__group_id
+msgid "Associated group"
+msgstr "گروه مرتبط"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_user_profiles__access_group_category_id
+msgid "Associated group's category"
+msgstr "دسته گروه مرتبط"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__access_tab_button_string
+msgid "Attribute String"
+msgstr "رشته ویژگی"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.reset_password_direct
+msgid "Back to Login"
+msgstr "بازگشت به ورود به سامانه"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_base
+msgid "Base"
+msgstr "پایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__button_tab_data__access_type__button
+msgid "Button"
+msgstr "دکمه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_button_tab_access_line
+msgid "Button Access"
+msgstr "دسترسی به دکمه"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_button_tab_access
+msgid "Button Tab Access"
+msgstr "دسترسی به برگه دکمه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__access_button_type
+msgid "Button Type"
+msgstr "نوع دکمه"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.reset_password_link
+msgid "Change Password"
+msgstr "رمز عبور را تغییر دهید"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__recent_activity__access_status__close
+msgid "Closed"
+msgstr "بسته"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_company__color
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__color
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__color
+msgid "Color Index"
+msgstr "شاخص رنگ"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__comment
+msgid "Comment"
+msgstr "توضیحات"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_res_company
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_company_ids
+msgid "Companies"
+msgstr "شرکت ها"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.reset_password_direct
+msgid "Confirm"
+msgstr "تأیید"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.reset_password_direct
+msgid "Confirm New Password"
+msgstr "تایید رمز ورود جدید"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_create
+msgid "Create"
+msgstr "ایجاد"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/models/access_res_users.py:0
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_form_inherit
+#, python-format
+msgid "Create Profile"
+msgstr "ایجاد نمایه"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/models/access_user_profiles.py:0
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_res_user_profiles_form
+#, python-format
+msgid "Create User"
+msgstr "ایجاد کاربر"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__create_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__create_date
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_groups__custom
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__custom
+msgid "Custom"
+msgstr "سفارشی سازی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_ir_rule__custom
+msgid "Custom Rule"
+msgstr "قاعده سفارشی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_user_management__access_disable_debug_mode
+msgid "Deactivate debug mode for the selected users."
+msgstr "حالت اشکال زدایی را برای کاربران انتخاب شده غیرفعال کنید."
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_delete
+msgid "Delete"
+msgstr "حذف"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Disable Chatter"
+msgstr "غیرفعال کردن نوار گفتگو"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Disable Debug Mode"
+msgstr "غیر فعال کردن حالت اشکال زدایی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_disable_debug_mode
+msgid "Disable Developer Mode"
+msgstr "غیر فعال کردن حالت توسعه دهنده"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__display_name
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_domain
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Domain"
+msgstr "دامنه"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_domain_access
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_domain_access_line
+msgid "Domain Access"
+msgstr "دسترسی به دامنه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__access_duration
+msgid "Duration"
+msgstr "مدت"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__button_tab_data__access_button_type__edit
+msgid "Edit"
+msgstr "ویرایش"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Edit Domain Access"
+msgstr "ویرایش دسترسی به دامنه"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Edit Field Access"
+msgstr "ویرایش دسترسی به ستون"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Edit Model Access"
+msgstr "ویرایش دسترسی به مدل"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_mail_template
+msgid "Email Templates"
+msgstr "الگوهای ایمیل"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_config_settings__password_expire_enable
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_general_settings_form_inherit
+msgid "Enable Password Expiration"
+msgstr "فعالسازی انقضای رمز عبور"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__access_is_enabled
+msgid "Enabled"
+msgstr "فعال شد"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_field_id
+msgid "Field"
+msgstr "ستون"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_field_access
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_hide_field_line
+msgid "Field Access"
+msgstr "دسترسی به ستون"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__filter_group_data__access_type__filter
+msgid "Filter"
+msgstr "پالایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__access_filter_group_string
+msgid "Filter / Group string"
+msgstr "رشته پالایه / گروه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_hide_filters_groups_line
+msgid "Filter Group"
+msgstr "گروه پالایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__access_date_from
+msgid "From"
+msgstr "از"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__filter_group_data__access_type__group
+msgid "Group"
+msgstr "گروه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__full_name
+msgid "Group Name"
+msgstr "نام گروه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_user_profiles__share
+msgid "Group created to set access rights for sharing data with some users."
+msgstr ""
+"گروه ایجاد شده برای تنظیم حقوق دسترسی برای به اشتراک گذاری داده ها با برخی "
+"از کاربران."
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_ir_http
+msgid "HTTP Routing"
+msgstr "مسیریابی HTTP"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_server_action_ids
+msgid "Hide Actions"
+msgstr "پنهان کردن کنش ها"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Hide Any Button or Tab"
+msgstr "مخفی سازی هر دکمه یا برگه ای"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Hide Any Filter or Group By"
+msgstr "مخفی سازی هر پالایه یا گروهی"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Hide Any Menus"
+msgstr "مخفی سازی هر فهرست امکاناتی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_hide_archive_unarchive
+msgid "Hide Archive/Unarchive"
+msgstr "پنهان کردن بایگانی/خروج از بایگانی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__access_hide_button_ids
+msgid "Hide Button"
+msgstr "مخفی سازی دکمه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_hide_chatter
+msgid "Hide Chatter"
+msgstr "نوار گفتگو"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_hide_create
+msgid "Hide Create"
+msgstr "مخفی سازی ایجاد"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_hide_delete
+msgid "Hide Delete"
+msgstr "مخفی سازی حذف"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_hide_duplicate
+msgid "Hide Duplicate"
+msgstr "مخفی سازی کپی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_hide_edit
+msgid "Hide Edit"
+msgstr "مخفی سازی ویرایش"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_hide_export
+msgid "Hide Export"
+msgstr "مخفی سازی برونبرد"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__access_hide_filter_ids
+msgid "Hide Filters"
+msgstr "مخفی سازی پالایه ها"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__access_hide_group_ids
+msgid "Hide Groups"
+msgstr "مخفی سازی گروه ها"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__access_kanban_button_ids
+msgid "Hide Kanban Button"
+msgstr "مخفی سازی دکمه کانبان"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_report_action_ids
+msgid "Hide Reports"
+msgstr "مخفی سازی گزارشات"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__access_hide_tab_ids
+msgid "Hide Tab"
+msgstr "مخفی سازی زبانه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_user_management__access_hide_chatter
+msgid "Hide all chatter's for the selected user"
+msgstr "مخفی سازی تمام نوارهای گفتگو برای کاربر انتخاب شده"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__id
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__id
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__id
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__id
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__id
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__id
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__id
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__id
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__id
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__id
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__id
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__implied_ids
+msgid "Inherits"
+msgstr "ارث بری ها"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_res_groups__parent_ids
+#: model:ir.model.fields,help:access_users_manager.field_user_profiles__parent_ids
+msgid ""
+"Inverse relation for the Inherits field. The groups from which this group is"
+" inheriting"
+msgstr ""
+"رابطه معکوس برای زمینه وراثت. گروه هایی که این گروه از آنها به ارث می برند"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_field_invisible
+msgid "Invisible"
+msgstr "نامرئی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__write_uid
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روزرسانی توسط"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__write_date
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز شده در"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__button_tab_data__access_type__link
+msgid "Link"
+msgstr "پیوند"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_tree_inherit
+msgid "Login"
+msgstr "ورود"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__access_login_date
+msgid "Login Date"
+msgstr "تاریخ ورود"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid "Login or Password Is Incorrect"
+msgstr "ورود یا رمز عبور نادرست است"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_form_inherit
+msgid "Logout"
+msgstr "خروج از سامانه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__access_logout_date
+msgid "Logout Date"
+msgstr "تاریخ خروج از سامانه"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Make System Readonly"
+msgstr "فقط خواندنی کردن سامانه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_user_management__access_readonly
+msgid "Make the whole database readonly for the users added in this profile."
+msgstr ""
+"کل پایگاه داده را برای کاربران اضافه شده در این نمایه فقط خواندنی کنید."
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_user_manager_id
+msgid "Management"
+msgstr "مدیریت"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_user_manager_id
+msgid "Management Id"
+msgstr "شناسه مدیریت"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_user_manager_id
+msgid "Management Rule"
+msgstr "قاعده مدیریت"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_ir_ui_menu
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_hide_menu_ids
+msgid "Menu"
+msgstr "فهرست امکانات"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__access_model_id
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__access_model_id
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_model_id
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_model_id
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__access_model_id
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__access_model_id
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_model_id
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Model"
+msgstr "مدل"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_model_access_line
+msgid "Model Access"
+msgstr "دسترسی به مدل"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__access_model_name
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__access_model_name
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_model_name
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__access_model_name
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__access_model_name
+msgid "Model Name"
+msgstr "نام مدل"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_base_module_uninstall
+msgid "Module Uninstall"
+msgstr "حذف افزونه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__access_name
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__access_filter_group_name
+#: model:ir.model.fields,field_description:access_users_manager.field_report_action_data__name
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__name
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__name
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_user_management_search
+msgid "Name"
+msgstr "نام"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.reset_password_direct
+msgid "New Password"
+msgstr "رمزعبور جدید"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__button_tab_data__access_button_type__object
+msgid "Object"
+msgstr "شیء"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.reset_password_direct
+msgid "Old Password"
+msgstr "رمز عبور قدیمی"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid ""
+"Only employees can access this database. Please contact the administrator."
+msgstr ""
+"فقط کارمندان می توانند به این پایگاه داده دسترسی پیدا کنند. لطفا با مدیر سامانه "
+"تماس بگیرید."
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__button_tab_data__access_type__page
+msgid "Page"
+msgstr "صفحه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_groups__trans_parent_ids
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__trans_parent_ids
+msgid "Parent Groups"
+msgstr "گروههای والد"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_groups__parent_ids
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__parent_ids
+msgid "Parents"
+msgstr "والدها"
+
+#. module: access_users_manager
+#: model:mail.template,name:access_users_manager.email_template_password_expiration_before_seven
+msgid "Password Expiration Reminder Before Seven Days "
+msgstr "یادآوری انقضا رمز عبور قبل از هفت روز"
+
+#. module: access_users_manager
+#: model:mail.template,name:access_users_manager.email_template_password_expiration_before_one
+msgid "Password Expiration Reminder before one day "
+msgstr "یادآوری انقضا رمز عبور قبل از یک روز"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_config_settings__password_expire_in_days
+msgid "Password Expire Days"
+msgstr "روزهای منقضی شدن رمز عبور"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_is_passwd_expired
+#, python-format
+msgid "Password Expired"
+msgstr "رمز عبور منقضی شده است"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_general_settings_form_inherit
+msgid "Password Expiry"
+msgstr "انقضا رمز عبور"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid "Password Not Match"
+msgstr "رمز عبور مطابقت ندارد"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_password_expire_date
+msgid "Password expire date"
+msgstr "تاریخ انقضا رمز عبور"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_password_update
+msgid "Password last update time"
+msgstr "آخرین زمان به روزرسانی رمز عبور"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/models/access_res_config_setting.py:0
+#, python-format
+msgid "Please provide expiry day greater than zero..."
+msgstr "لطفاً روز انقضا را بیشتر از صفر فراهم کنید ..."
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_profile_line_ids
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_users_search_inherit
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_user_management_search
+msgid "Profile"
+msgstr "نمایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__is_profile
+msgid "Profile Exist"
+msgstr "نمایه وجود دارد"
+
+#. module: access_users_manager
+#: model:ir.actions.act_window,name:access_users_manager.action_user_access_management
+#: model:ir.ui.menu,name:access_users_manager.menu_user_access_management
+msgid "Profile Management"
+msgstr "مدیریت نمایه"
+
+#. module: access_users_manager
+#: model:ir.ui.menu,name:access_users_manager.menu_user
+msgid "Profile User Manager"
+msgstr "مدیریت دسترسی ها"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/models/access_user_manager.py:0
+#, python-format
+msgid "Profile Users"
+msgstr "نمایه سازی کاربران"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_line_ids
+msgid "Profile lines"
+msgstr "ردیف های نمایه"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_form_inherit
+msgid "Profile management"
+msgstr "مدیریت نمایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_groups__access_profile_ids
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_profile_ids
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_profile_ids
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__access_profile_id
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_profile_ids
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_groups_view_form
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_form_inherit
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_res_users_profile_search
+msgid "Profiles"
+msgstr "نمایه ها"
+
+#. module: access_users_manager
+#: model:ir.ui.menu,name:access_users_manager.menu_user_profiles_form
+msgid "Profiles Form"
+msgstr "فرم نمایه"
+
+#. module: access_users_manager
+#: model:ir.ui.menu,name:access_users_manager.menu_user_profiles_tree
+msgid "Profiles Tree"
+msgstr "درختواره نمایه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_res_groups__access_profile_ids
+#: model:ir.model.fields,help:access_users_manager.field_user_profiles__access_profile_ids
+msgid "Profiles in which the group is involved"
+msgstr "نمایه هایی که در آن گروه درگیر است"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_read
+msgid "Read"
+msgstr "خواندن"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_model_access__access_model_readonly
+msgid "Read-only"
+msgstr "فقط خواندنی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_field_readonly
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_readonly
+msgid "Readonly"
+msgstr "فقط خواندنی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_users__access_recent_activity_line
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_form_inherit
+msgid "Recent Activity"
+msgstr "فعالیت اخیر"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_ir_rule
+msgid "Record Rule"
+msgstr "قاعده ردیف"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_ir_rule
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_record_rule_ids
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_res_user_profiles_form
+msgid "Record Rules"
+msgstr "قواعد ردیف"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_res_groups__access_profile_id
+#: model:ir.model.fields,help:access_users_manager.field_user_profiles__access_profile_id
+msgid "Relation for the groups that represents a profiles"
+msgstr "رابطه برای گروه هایی که نمایانگر نمایه هستند"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_model_access
+msgid "Remove Action from model"
+msgstr "حذف کنش از مدل"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_field_external_link
+msgid "Remove External Link"
+msgstr "حذف پیوند خارجی"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_field_access__access_field_required
+msgid "Required"
+msgstr "لازم"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_access__access_user_manager_id
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_rule_id
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_access__access_user_manager_id
+msgid "Rule"
+msgstr "قاعده"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__rule_groups
+msgid "Rules"
+msgstr "قواعد"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__access_session_id
+msgid "Session Id"
+msgstr "شناسه جلسه"
+
+#. module: access_users_manager
+#: model:ir.model.fields.selection,name:access_users_manager.selection__button_tab_data__access_button_type__set_cover
+msgid "Set Cover"
+msgstr "تنظیم روکش"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.view_general_settings_form_inherit
+msgid "Set Password Expire Days"
+msgstr "تنظیم روزهای انقضای رمز عبور"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_setting_id
+msgid "Setting ID"
+msgstr "شناسه تنظیم"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__share
+msgid "Share Group"
+msgstr "اشتراک گذاری گروه"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid "Sign up is not allowed on this database."
+msgstr "ثبت نام در این پایگاه داده مجاز نیست."
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__access_is_smart_button
+msgid "Smart Button"
+msgstr "دکمه هوشمند"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__access_status
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_form_inherit
+msgid "Status"
+msgstr "حالت"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_report_action_data
+msgid "Store Action Button Data"
+msgstr "ذخیره داده های دکمه کنش"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_button_tab_data
+msgid "Store Button/Tab data"
+msgstr "ذخیره داده های دکمه / زبانه"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_filter_group_data
+msgid "Store Filter / Group Data"
+msgstr "ذخیره داده های پالایه / گروه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_user_rel_ids
+msgid "Store user profiles"
+msgstr "ذخیره نمایه های کاربر"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/access_export.py:0
+#, python-format
+msgid ""
+"There are too many rows (%s rows, limit: %s) to export as Excel 2007-2013 "
+"(.xlsx) format. Consider splitting the export."
+msgstr ""
+"ردیف های زیادی (Rows ٪ S ، Limit: ٪ S) برای برونبرد به عنوان قالب اکسل "
+"2007-2013 (.xlsx) وجود دارد. تقسیم برونبرد را در نظر بگیرید."
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid ""
+"This database is not allowed, Please contact your Admin to activate this "
+"database"
+msgstr ""
+"این پایگاه داده مجاز نیست ، لطفاً برای فعال کردن این پایگاه داده با مدیر سامانه خود"
+" تماس بگیرید"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__access_date_to
+msgid "To"
+msgstr "به"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__trans_implied_ids
+msgid "Transitively inherits"
+msgstr "به صورت روانی وراثت"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_button_tab_data__access_type
+#: model:ir.model.fields,field_description:access_users_manager.field_filter_group_data__access_type
+msgid "Type"
+msgstr "نوع"
+
+#. module: access_users_manager
+#: model:ir.actions.server,name:access_users_manager.cron_update_users_ir_actions_server
+msgid "Update user profiles"
+msgstr "نمایه کاربر را به روز کنید"
+
+#. module: access_users_manager
+#: model:mail.template,subject:access_users_manager.email_template_password_expiration_before_one
+#: model:mail.template,subject:access_users_manager.email_template_password_expiration_before_seven
+msgid "Urgent: Password Expiration Notice"
+msgstr "فوری: اعلامیه انقضا رمز عبور"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_res_users
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profile_lines__access_user_id
+msgid "User"
+msgstr "کاربر"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_user_management
+msgid "User Access Management"
+msgstr "مدیریت دسترسی کاربر"
+
+#. module: access_users_manager
+#: model:ir.actions.server,name:access_users_manager.ir_cron_export_groups_ir_actions_server
+msgid "User Groups Export"
+msgstr "گروه های کاربر صادرات"
+
+#. module: access_users_manager
+#: model:ir.actions.act_window,name:access_users_manager.action_user_management
+#: model:ir.ui.menu,name:access_users_manager.menu_user_management
+msgid "User Management"
+msgstr "مدیریت کاربر"
+
+#. module: access_users_manager
+#: model_terms:ir.ui.view,arch_db:access_users_manager.reset_password_direct
+msgid "User Name"
+msgstr "نام کاربری"
+
+#. module: access_users_manager
+#: model:ir.actions.server,name:access_users_manager.ir_cron_password_expires_ir_actions_server
+msgid "User Password Expire"
+msgstr "رمز عبور کاربر منقضی می شود"
+
+#. module: access_users_manager
+#: model:ir.actions.act_window,name:access_users_manager.action_res_user_profiles_tree
+#: model_terms:ir.ui.view,arch_db:access_users_manager.res_user_tree_inherit
+msgid "User Profile"
+msgstr "مشخصات کاربر"
+
+#. module: access_users_manager
+#: model:ir.actions.act_window,name:access_users_manager.action_user_profiles_form
+#: model:ir.actions.act_window,name:access_users_manager.action_user_profiles_tree
+#: model:ir.model,name:access_users_manager.model_user_profiles
+#: model:ir.module.category,name:access_users_manager.ir_module_category_profiles
+msgid "User Profiles"
+msgstr "نمایه کاربر"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_change_password_user
+msgid "User, Change Password Wizard"
+msgstr "کاربر ، جادوگر رمز عبور را تغییر دهید"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_recent_activity__access_user_id
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_user_ids
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__access_user_ids
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__users
+#: model_terms:ir.ui.view,arch_db:access_users_manager.user_access_management_form
+msgid "Users"
+msgstr "کاربران"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_user_management__access_users_count
+msgid "Users Count"
+msgstr "کاربران حساب می کنند"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_recent_activity
+msgid "Users Login/Logout Activity"
+msgstr "کاربران فعالیت ورود به سامانه/ورود به سامانه"
+
+#. module: access_users_manager
+#: model:ir.model.fields,help:access_users_manager.field_user_profiles__implied_ids
+msgid "Users of this group automatically inherit those groups"
+msgstr "کاربران این گروه به طور خودکار آن گروه ها را به ارث می برند"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_user_profile_lines
+msgid "Users profile activation deactivation"
+msgstr "کاربران غیرفعال سازی فعال سازی نمایه"
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_ir_ui_view
+msgid "View"
+msgstr "نمایش"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_res_groups__view_access
+#: model:ir.model.fields,field_description:access_users_manager.field_user_profiles__view_access
+msgid "Views"
+msgstr "نمایش"
+
+#. module: access_users_manager
+#: model:ir.model.fields,field_description:access_users_manager.field_domain_access__access_write
+msgid "Write"
+msgstr "نوشتن"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid "Wrong login/password"
+msgstr "ورود به سامانه اشتباه/رمز عبور"
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/models/access_field_access.py:0
+#, python-format
+msgid "You can not set field as Readonly and Required at same time."
+msgstr ""
+"شما نمی توانید ستون را به عنوان readonly تنظیم کنید و همزمان مورد نیاز است."
+
+#. module: access_users_manager
+#. odoo-python
+#: code:addons/access_users_manager/controllers/main.py:0
+#, python-format
+msgid ""
+"You do not have access to this database or your invitation has expired. "
+"Please ask for an invitation and be sure to follow the link in your "
+"invitation email."
+msgstr ""
+"شما به این پایگاه داده دسترسی ندارید یا دعوت شما منقضی شده است. لطفاً دعوت "
+"را بخواهید و حتماً لینک را در ایمیل دعوت خود دنبال کنید."
+
+#. module: access_users_manager
+#: model:ir.model,name:access_users_manager.model_filter_group_access
+msgid "filter.group.access"
+msgstr "filter.group.access"
+
+#. module: access_users_manager
+#: model:ir.model.constraint,message:access_users_manager.constraint_user_profile_lines_user_profile_uniq
+msgid "profiles can be assigned to a user only once at a time"
+msgstr "نمایه ها را می توان فقط یک بار به یک کاربر اختصاص داد"

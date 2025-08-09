@@ -1,0 +1,1592 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_statement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-05 22:35+0000\n"
+"PO-Revision-Date: 2025-04-05 22:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_customer_monthly_print
+msgid "(object.name + '_Customer_Monthly_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_customer_overdue_print
+msgid "(object.name + '_Customer_Overdue_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_customert_print
+msgid "(object.name + '_Customer_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_customer_weekly_print
+#: model:ir.actions.report,print_report_name:account_statement.report_supplier_weekly_print
+msgid "(object.name + '_Customer_Weekly_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_customer_due_print
+msgid "(object.name + '_Customer_due_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_supplier_monthly_print
+msgid "(object.name + '_Supplier_Monthly_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_supplier_overdue_print
+msgid "(object.name + '_Supplier_Overdue_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_supplier_print
+msgid "(object.name + '_Supplier_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,print_report_name:account_statement.report_supplier_due_print
+msgid "(object.name + '_Supplier_due_Statement.pdf')"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__first_thirty_day
+#: model:ir.model.fields,field_description:account_statement.field_res_users__first_thirty_day
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+msgid "0-30"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__thirty_sixty_days
+#: model:ir.model.fields,field_description:account_statement.field_res_users__thirty_sixty_days
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+msgid "30-60"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__sixty_ninty_days
+#: model:ir.model.fields,field_description:account_statement.field_res_users__sixty_ninty_days
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+msgid "60-90"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__ninty_plus_days
+#: model:ir.model.fields,field_description:account_statement.field_res_users__ninty_plus_days
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+msgid "90+"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.send_mail_success_page
+msgid ""
+"<b><span style=\"font-size:21px;\">Sent successfully! Thank you.</span></b>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+msgid "<b>Ending Balance</b>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+msgid "<b>Initial Balance</b>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid ""
+"<br/>\n"
+"\t\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t\t<span>Dear Sir/Madam,</span><br/>\n"
+"\t\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t\t<span>Some payments on your account are still due. Please find details below.</span><br/>\n"
+"\t\t\t\t\t\t<br/>\n"
+"\t\t\t\t\t\t<span>Thank you.</span><br/>\n"
+"\t\t\t\t\t\t<span>Best Regards,</span><br/>"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,body_html:account_statement.email_template_customer_over_due_statement
+#: model:mail.template,body_html:account_statement.email_template_supplier_over_due_statement
+msgid ""
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"\t\t\t\t\t<p>Dear <t t-out=\"object.name or ''\"></t>,</p>\n"
+"\t\t\t\t\t<p>\n"
+"\t\t\t\t\tWe have attached your payment statement.\n"
+"\t\t\t\t\tPlease kindly check.\n"
+"\t\t\t\t\t</p>\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\tBest Regards,\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t   <br>\n"
+"\t\t\t\t<t t-out=\"user.company_id.name  or ''\"></t>\n"
+"\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t\t<br>\n"
+"\t\t\t\t</div>\n"
+"\t\t\t\t\n"
+"\t\t\t"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,body_html:account_statement.bi_email_template_customer_due_statement
+#: model:mail.template,body_html:account_statement.email_template_supplier_due_statement
+msgid ""
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"\t\t\t\t\t<p>Dear <t t-out=\"object.name or ''\"></t>,</p>\n"
+"\t\t\t\t\t<p>\n"
+"\t\t\t\t\tWe have attached your payment statement.\n"
+"\t\t\t\t\tPlease kindly check.\n"
+"\t\t\t\t\t</p>\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\tBest Regards,\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t<t t-out=\"user.company_id.name  or ''\"></t>\n"
+"\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t</div>\n"
+"\t\t\t\t\n"
+"\t\t\t"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,body_html:account_statement.email_template_customer_monthly_statement
+#: model:mail.template,body_html:account_statement.email_template_customer_statement
+#: model:mail.template,body_html:account_statement.email_template_customer_weekly_statement
+#: model:mail.template,body_html:account_statement.email_template_supplier_monthly_statement
+#: model:mail.template,body_html:account_statement.email_template_supplier_statement
+#: model:mail.template,body_html:account_statement.email_template_supplier_weekly_statement
+msgid ""
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"\n"
+"\t\t\t\t\t<p>Dear <t t-out=\"object.name or ''\"></t></p>\n"
+"\t\t\t\t\t<p>\n"
+"\t\t\t\t\tWe have attached your payment statement.\n"
+"\t\t\t\t\tPlease kindly check.\n"
+"\n"
+"\t\t\t\t\t</p>\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\tBest Regards,\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t   <br>\n"
+"\t\t\t\t<t t-out=\"user.name  or ''\"></t>\n"
+"\n"
+"\t\t\t\t<br>\n"
+"\t\t\t\t<br>\n"
+"\n"
+"\n"
+"\t\t\t\t</div>\n"
+"\t\t\t"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+msgid "<i class=\"fa fa-download\"/> Print Customer Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+msgid "<i class=\"fa fa-download\"/> Print Supplier Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+msgid "<i class=\"fa fa-envelope\"/> Send Customer Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+msgid "<i class=\"fa fa-envelope\"/> Send Supplier Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_account_res_config_settings_inherited_statement
+msgid "<span>Customer Due/Overdue Statement</span>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+msgid ""
+"<span>Customer account statement</span><br/>\n"
+"\t\t\t\t\t\t<span>Date : </span>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_account_res_config_settings_inherited_statement
+msgid "<span>Supplier Due/Overdue Statement</span>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid ""
+"<span>Supplier account statement</span><br/>\n"
+"\t\t\t\t\t\t<span>Date : </span>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "<strong>Balance :</strong>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+msgid "<strong>Balance Due :</strong>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "<strong>Sub-Total :</strong>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "<strong>Supplier Balance Due :</strong>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "<strong>Supplier Total Amount OverDue :</strong>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+msgid "<strong>Total Amount OverDue :</strong>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+msgid "<strong>Total Supplier Amount OverDue :</strong>"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+msgid "Account"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_account_res_config_settings_inherited_statement
+msgid "Account Statement in portal Configuartion"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__period__all
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_period__all
+msgid "All"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__amount_residual
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__amount_residual
+msgid "Amount Due"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__amount_residual_signed
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__amount_residual_signed
+msgid "Amount Due Signed"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_send_statement_cron_ir_actions_server
+msgid "Automatic Send Customer Monthly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_send_overdue_statement_cron_ir_actions_server
+msgid "Automatic Send Customer Overdue Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_weekly_statement_cron_ir_actions_server
+msgid "Automatic Send Customer Weekly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_send_customer_due_statement_cron_ir_actions_server
+msgid "Automatic Send Customer due Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_send_supplier_statement_cron_ir_actions_server
+msgid "Automatic Send Supplier Monthly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_send_supplier_overdue_statement_cron_ir_actions_server
+msgid "Automatic Send Supplier Overdue Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_weekly_supplier_statement_cron_ir_actions_server
+msgid "Automatic Send Supplier Weekly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.server,name:account_statement.autometic_send_supplier_due_statement_cron_ir_actions_server
+msgid "Automatic Send Supplier due Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_account_bank_statement_line__result
+#: model:ir.model.fields,field_description:account_statement.field_account_move__result
+#: model:ir.model.fields,field_description:account_statement.field_account_payment__result
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__result
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__result
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Balance"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_due_amt
+msgid "Balance Due"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__monthly_statement_line__invoice_type__bill
+#: model:ir.model.fields.selection,name:account_statement.selection__weekly_statement_line__invoice_type__bill
+msgid "Bill"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__due_customer_statement__both
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__due_supplier_statement__both
+msgid "Both"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__monthly_statement_line__state__cancel
+#: model:ir.model.fields.selection,name:account_statement.selection__weekly_statement_line__state__cancel
+msgid "Cancelled"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "Communication"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model,name:account_statement.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__company_id
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__company_id
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__company_id
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__company_id
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__company_id
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__company_id
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__company_id
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__company_id
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: account_statement
+#: model:ir.model,name:account_statement.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: account_statement
+#: model:ir.model,name:account_statement.model_res_partner
+msgid "Contact"
+msgstr "مخاطب"
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__create_uid
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__create_date
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_account_bank_statement_line__credit_amount
+#: model:ir.model.fields,field_description:account_statement.field_account_move__credit_amount
+#: model:ir.model.fields,field_description:account_statement.field_account_payment__credit_amount
+msgid "Credit/paid"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__currency_id
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__current_date
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__current_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__current_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__current_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__current_date
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__current_date
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__current_date
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__current_date
+#: model:ir.model.fields,field_description:account_statement.field_res_users__current_date
+msgid "Current Date"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__partner_id
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__partner_id
+msgid "Customer"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.bi_email_template_customer_due_statement
+msgid "Customer Due Statement email"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_customer_monthly_print
+msgid "Customer Monthly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_customer_monthly_statement
+msgid "Customer Monthly Statement Email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Customer Monthly Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_customer_overdue_print
+msgid "Customer Overdue Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_customer_over_due_statement
+msgid "Customer Overdue Statement email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Customer Overdue Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_customert_print
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_breadcrumbs
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_count_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+msgid "Customer Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__is_customer_statement_portal
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__is_customer_statement_portal
+msgid "Customer Statement Portal"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_customer_statement
+msgid "Customer Statement email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Customer Statement email sent to %s, "
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Customer Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Customer Statements"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_customer_weekly_print
+msgid "Customer Weekly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_customer_weekly_statement
+msgid "Customer Weekly Statement Email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Customer Weekly Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_customer_due_print
+msgid "Customer due Statement"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Customer due Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__balance_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_users__balance_invoice_ids
+msgid "Customer move lines"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__supplier_invoice_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_users__supplier_invoice_ids
+msgid "Customers move lines"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "Date"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__due_customer_statement
+msgid "Dislay Customer Due/overdue Statements "
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__due_customer_statement
+msgid "Dislay Customer Due/overdue Statements  "
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__due_supplier_statement
+msgid "Dislay Supplier Due/overdue Statements "
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__due_supplier_statement
+msgid "Dislay Supplier Due/overdue Statements  "
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_account_res_config_settings_inherited_statement
+msgid "Display Due/Overdue Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__display_name
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+msgid "Download"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__monthly_statement_line__state__draft
+#: model:ir.model.fields.selection,name:account_statement.selection__weekly_statement_line__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "Due"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__invoice_date_due
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__invoice_date_due
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "Due Date"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model,name:account_statement.model_mail_template
+msgid "Email Templates"
+msgstr "قالب ایمیل"
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__end_date
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__end_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__end_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__end_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__end_date
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__end_date
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__end_date
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__end_date
+#: model:ir.model.fields,field_description:account_statement.field_res_users__end_date
+msgid "End Date"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_config_settings.py:0
+#: code:addons/account_statement/models/res_config_settings.py:0
+#, python-format
+msgid "Enter Valid Statement Date Range"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_weekly_days__4
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__weekly_days__4
+msgid "Friday"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__id
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__id
+msgid "ID"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid ""
+"If not specified by the latest follow-up level, it will send from the "
+"default email template"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__invoice_id
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__invoice_id
+#: model:ir.model.fields.selection,name:account_statement.selection__monthly_statement_line__invoice_type__invoice
+#: model:ir.model.fields.selection,name:account_statement.selection__weekly_statement_line__invoice_type__invoice
+msgid "Invoice"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__invoice_date
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__invoice_date
+msgid "Invoice Date"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "Invoice Number"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__invoice_type
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__invoice_type
+msgid "Invoice Type"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Invoice line"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+msgid "Invoice/Bill Date"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+msgid "Invoice/Debits"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "Invoices/Credit"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+msgid "Invoices/Debit"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__amount_total
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__amount_total
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Invoices/Debits"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model,name:account_statement.model_account_move
+msgid "Journal Entry"
+msgstr "سند دفترروزنامه‌"
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__write_uid
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__write_date
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_weekly_days__0
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__weekly_days__0
+msgid "Monday"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__month_name
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__month_name
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__month_name
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__month_name
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__month_name
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__month_name
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__month_name
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__month_name
+#: model:ir.model.fields,field_description:account_statement.field_res_users__month_name
+msgid "Month"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+msgid "Month:"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__period__monthly
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_period__monthly
+msgid "Monthly"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__monthly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_payment_amount_due_amt
+msgid "Monthly Balance Due"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+msgid "Monthly Customer Statement:"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model,name:account_statement.model_monthly_statement_line
+msgid "Monthly Statement Line"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__monthly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_statement_line_ids
+msgid "Monthly Statement Lines"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+msgid "Monthly Supplier Statement:"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__monthly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_payment_amount_overdue_amt
+msgid "Monthly Total Overdue Amount"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__name
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__name
+msgid "Name"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+msgid "Number"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__due_customer_statement__only_due
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__due_supplier_statement__only_due
+msgid "Only Due"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__due_customer_statement__only_overdue
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__due_supplier_statement__only_overdue
+msgid "Only Overdue"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__opt_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_users__opt_statement
+msgid "Opt Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_account_bank_statement_line__invoice_origin
+#: model:ir.model.fields,field_description:account_statement.field_account_move__invoice_origin
+#: model:ir.model.fields,field_description:account_statement.field_account_payment__invoice_origin
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__invoice_origin
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__invoice_origin
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "Origin"
+msgstr "مبدا"
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "Paid"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+msgid "Payment/Credits"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_statement
+msgid "Payments/Credit"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__credit_amount
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__credit_amount
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Payments/Credits"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_monthly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "Payments/Debit"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__period
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__period
+msgid "Period"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__sup_period
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__sup_period
+msgid "Period "
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__monthly_statement_line__state__posted
+#: model:ir.model.fields.selection,name:account_statement.selection__weekly_statement_line__state__posted
+msgid "Posted"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Print Customer Overdue Payments"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Print Customer Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Print Customer due Payments"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Print Supplier Overdue Payments"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Print Supplier Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Print Supplier due Payments"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Print overdue payments report independent of follow-up line"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "Reference number"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_weekly_days__5
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__weekly_days__5
+msgid "Saturday"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__send_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__send_statement
+msgid "Send Customer Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Send Due Payment"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_customer_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+msgid "Send Mail"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Send Overdue Payment"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Send Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__send_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__send_supplier_statement
+msgid "Send Supplier Statement"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Send due Payment"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_account_bank_statement_line__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_account_move__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_account_payment__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__is_set_statments
+#: model:ir.model.fields,field_description:account_statement.field_res_users__is_set_statments
+msgid "Set Staments"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__start_date
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__start_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__start_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__start_date
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__start_date
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__start_date
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__start_date
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__start_date
+#: model:ir.model.fields,field_description:account_statement.field_res_users__start_date
+msgid "Start Date"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__statement_days
+msgid "Statement Date"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__statement_days
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__sup_statement_days
+msgid "Statement Send Date"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__sup_statement_days
+msgid "Statement Send Date "
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__due_customer_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_users__due_customer_statement
+msgid "Statements"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__due_supplier_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_users__due_supplier_statement
+msgid "Statements "
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__state
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__state
+msgid "Status"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_weekly_days__6
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__weekly_days__6
+msgid "Sunday"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__payment_amount_due_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_due_amt_supplier
+msgid "Supplier Balance Due"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_supplier_due_statement
+msgid "Supplier Due Statement email"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Supplier Invoice line"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__monthly_payment_supplier_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_payment_supplier_amount_due_amt
+msgid "Supplier Monthly Balance Due"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_supplier_monthly_print
+msgid "Supplier Monthly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_supplier_monthly_statement
+msgid "Supplier Monthly Statement Email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Supplier Monthly Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__monthly_payment_supplier_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__monthly_payment_supplier_amount_overdue_amt
+msgid "Supplier Monthly Total Overdue Amount"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_supplier_overdue_print
+msgid "Supplier Overdue Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_supplier_over_due_statement
+msgid "Supplier Overdue Statement email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Supplier Overdue Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_supplier_print
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_breadcrumbs
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_supplier_statement_view
+#: model_terms:ir.ui.view,arch_db:account_statement.portal_suuplier_statement_count_view
+msgid "Supplier Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__is_supplier_statement_portal
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__is_supplier_statement_portal
+msgid "Supplier Statement Portal"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_supplier_statement
+msgid "Supplier Statement email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Supplier Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.view_partner_inherit_followup_form
+msgid "Supplier Statements"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__weekly_supplier_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__weekly_supplier_payment_amount_due_amt
+msgid "Supplier Weekly Balance Due"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_supplier_weekly_print
+msgid "Supplier Weekly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,name:account_statement.email_template_supplier_weekly_statement
+msgid "Supplier Weekly Statement Email"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Supplier Weekly Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__weekly_supplier_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__weekly_supplier_payment_amount_overdue_amt
+msgid "Supplier Weekly Total Overdue Amount"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.actions.report,name:account_statement.report_supplier_due_print
+msgid "Supplier due Statement"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Supplier due Statement email sent to %s-%s"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,help:account_statement.field_account_bank_statement_line__invoice_origin
+#: model:ir.model.fields,help:account_statement.field_account_move__invoice_origin
+#: model:ir.model.fields,help:account_statement.field_account_payment__invoice_origin
+msgid "The document(s) that generated the invoice."
+msgstr "مدرک(ها) که این فاکتور را ایجاد کرده است."
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_weekly_days__3
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__weekly_days__3
+msgid "Thursday"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__total
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__total
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__total
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__total
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__total
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__total
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__total
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__total
+#: model:ir.model.fields,field_description:account_statement.field_res_users__total
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_overdue_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_due_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_overdue_statement
+msgid "Total"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_overdue_amt
+msgid "Total Overdue Amount"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_monthly_statement_line__amount_total_signed
+#: model:ir.model.fields,field_description:account_statement.field_weekly_statement_line__amount_total_signed
+msgid "Total Signed"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__payment_amount_overdue_amt_supplier
+#: model:ir.model.fields,field_description:account_statement.field_res_users__payment_amount_overdue_amt_supplier
+msgid "Total Supplier Overdue Amount"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_weekly_days__1
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__weekly_days__1
+msgid "Tuesday"
+msgstr ""
+
+#. module: account_statement
+#. odoo-python
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#: code:addons/account_statement/models/res_partner.py:0
+#, python-format
+msgid "Unsupported report type %s found."
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_weekly_days__2
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__weekly_days__2
+msgid "Wednesday"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__period__weekly
+#: model:ir.model.fields.selection,name:account_statement.selection__res_company__sup_period__weekly
+msgid "Weekly"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__weekly_payment_amount_due_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__weekly_payment_amount_due_amt
+msgid "Weekly Balance Due"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_customer_weekly_statement
+msgid "Weekly Customer Statement:"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__weekly_days
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__weekly_days
+msgid "Weekly Send Day"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_res_company__sup_weekly_days
+#: model:ir.model.fields,field_description:account_statement.field_res_config_settings__sup_weekly_days
+msgid "Weekly Send Day "
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model,name:account_statement.model_weekly_statement_line
+msgid "Weekly Statement Line"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__weekly_statement_line_ids
+#: model:ir.model.fields,field_description:account_statement.field_res_users__weekly_statement_line_ids
+msgid "Weekly Statement Lines"
+msgstr ""
+
+#. module: account_statement
+#: model_terms:ir.ui.view,arch_db:account_statement.report_supplier_weekly_statement
+msgid "Weekly Supplier Statement:"
+msgstr ""
+
+#. module: account_statement
+#: model:ir.model.fields,field_description:account_statement.field_acs_laboratory__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_acs_radiology__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_insurance_company__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_patient__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_hms_physician__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_insurance_tpa__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_medical_representative__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_partner__weekly_payment_amount_overdue_amt
+#: model:ir.model.fields,field_description:account_statement.field_res_users__weekly_payment_amount_overdue_amt
+msgid "Weekly Total Overdue Amount"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,subject:account_statement.email_template_customer_monthly_statement
+msgid "{{user.company_id.name}} Customer Monthly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,subject:account_statement.bi_email_template_customer_due_statement
+#: model:mail.template,subject:account_statement.email_template_customer_over_due_statement
+#: model:mail.template,subject:account_statement.email_template_customer_statement
+msgid "{{user.company_id.name}} Customer Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,subject:account_statement.email_template_supplier_monthly_statement
+msgid "{{user.company_id.name}} Supplier Monthly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,subject:account_statement.email_template_supplier_due_statement
+#: model:mail.template,subject:account_statement.email_template_supplier_over_due_statement
+#: model:mail.template,subject:account_statement.email_template_supplier_statement
+msgid "{{user.company_id.name}} Supplier Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,subject:account_statement.email_template_customer_weekly_statement
+msgid "{{user.company_id.name}}Customer weekly Statement"
+msgstr ""
+
+#. module: account_statement
+#: model:mail.template,subject:account_statement.email_template_supplier_weekly_statement
+msgid "{{user.company_id.name}}Supplier weekly Statement"
+msgstr ""

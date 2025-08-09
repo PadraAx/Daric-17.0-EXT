@@ -1,0 +1,727 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_consent_form
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 11:49+0000\n"
+"PO-Revision-Date: 2025-04-04 11:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "&amp;times;"
+msgstr "&times;"
+
+#. module: acs_consent_form
+#: model:mail.template,body_html:acs_consent_form.acs_consent_form_email
+msgid ""
+"<div style=\"margin:auto;background: #FFFFFF;color:#777777\">\n"
+"    <p>Hello <t t-out=\"object.partner_id.name\"></t>,</p>\n"
+"    <p>Your Consent Forms details.</p>\n"
+"    <ul> \n"
+"        <li>\n"
+"            <p>Reference Number: <t t-out=\"object.name\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Subject: <t t-out=\"object.subject\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>Portal Access Link:  <a t-attf-href=\"{{ object.acs_access_url }}\"><t t-out=\"object.acs_access_url\"></t></a></p>\n"
+"        </li>\n"
+"    </ul>\n"
+"    <p>Please feel free to call anytime for further information or any query.</p>\n"
+"\n"
+"    <p>Best regards.</p><br>\n"
+"</div>\n"
+"\n"
+"            "
+msgstr ""
+"<div style=\"margin:auto;background: #FFFFFF;color:#777777\">\n"
+"    <p>سلام <t t-out=\"object.partner_id.name\"></t>,</p>\n"
+"    <p>جزئیات فرم‌های رضایت شما.</p>\n"
+"    <ul> \n"
+"        <li>\n"
+"            <p>شماره مرجع: <t t-out=\"object.name\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>موضوع: <t t-out=\"object.subject\"></t></p>\n"
+"        </li>\n"
+"        <li>\n"
+"            <p>لینک دسترسی به پرتال:  <a t-attf-href=\"{{ object.acs_access_url }}\"><t t-out=\"object.acs_access_url\"></t></a></p>\n"
+"        </li>\n"
+"    </ul>\n"
+"    <p>لطفاً در صورت نیاز به اطلاعات بیشتر یا هرگونه سوال، در هر زمان با ما تماس بگیرید.</p>\n"
+"\n"
+"    <p>با احترام.</p><br>\n"
+"</div>\n"
+"\n"
+"            "
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "<i class=\"fa fa-check\"/>Accept &amp; Sign"
+msgstr "<i class=\"fa fa-check\"/>قبول و امضا"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "<i class=\"fa fa-download\"/> Download"
+msgstr "<i class=\"fa fa-download\"/> دانلود"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "<i class=\"fa fa-print\"/> Print"
+msgstr "<i class=\"fa fa-print\"/> چاپ"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.consent_form_report_document
+msgid "<i><strong>Consent Form</strong></i>"
+msgstr "<i><strong>فرم رضایت</strong></i>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid ""
+"<span class=\"badge rounded-pill text-bg-info\">\n"
+"                                            <span class=\"d-none d-md-inline\"> Draft</span>\n"
+"                                        </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-info\">\n"
+"                                            <span class=\"d-none d-md-inline\"> پیش‌نویس</span>\n"
+"                                        </span>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid ""
+"<span class=\"badge rounded-pill text-bg-success\">\n"
+"                                            <span class=\"d-none d-md-inline\"> Signed</span>\n"
+"                                        </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-success\">\n"
+"                                            <span class=\"d-none d-md-inline\"> امضا شده</span>\n"
+"                                        </span>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid ""
+"<span class=\"badge rounded-pill text-bg-warning\">\n"
+"                                            <span class=\"d-none d-md-inline\"> Tosign</span>\n"
+"                                        </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-warning\">\n"
+"                                            <span class=\"d-none d-md-inline\"> برای امضا</span>\n"
+"                                        </span>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid ""
+"<span class=\"o_stat_text\">Customer</span>\n"
+"                                <span class=\"o_stat_text\">Preview</span>"
+msgstr ""
+"<span class=\"o_stat_text\">مشتری</span>\n"
+"                                <span class=\"o_stat_text\">پیش‌نمایش</span>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "<span>Accepted on the behalf of:</span>"
+msgstr "<span>قبول شده به نمایندگی از:</span>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "<span>By signing this, I agree to the All terms:</span>"
+msgstr "<span>با امضای این، من با تمام شرایط موافقت می‌کنم:</span>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.consent_form_report_document
+msgid "<strong>Customer Signature</strong><br/>"
+msgstr "<strong>امضای مشتری</strong><br/>"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid ""
+"<strong>Thank You!</strong><br/>\n"
+"                        Your consent form has been signed."
+msgstr ""
+"<strong>متشکریم!</strong><br/>\n"
+"                        فرم رضایت شما امضا شده است."
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "Accept Details"
+msgstr "قبول جزئیات"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__access_warning
+msgid "Access warning"
+msgstr "هشدار دسترسی"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_needaction
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_needaction
+msgid "Action Needed"
+msgstr "اقدام لازم"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_ids
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_ids
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_exception_decoration
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "تزئین استثنا فعالیت"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_state
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_type_icon
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_attachment_count
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست‌ها"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__tag_ids
+msgid "Classify and analyze your Consent Forms"
+msgstr "فرم‌های رضایت خود را طبقه‌بندی و تحلیل کنید"
+
+#. module: acs_consent_form
+#: model_terms:ir.actions.act_window,help:acs_consent_form.action_acs_consent_form_template_view
+msgid "Click to add Consent Form Template."
+msgstr "برای افزودن قالب فرم رضایت، کلیک کنید."
+
+#. module: acs_consent_form
+#: model_terms:ir.actions.act_window,help:acs_consent_form.action_acs_consent_form
+msgid "Click to add a Digial Document."
+msgstr "برای افزودن یک سند دیجیتال، کلیک کنید."
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "Close"
+msgstr "بستن"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__color
+msgid "Color Index"
+msgstr "شاخص رنگ"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: acs_consent_form
+#: model:ir.ui.menu,name:acs_consent_form.menu_consent_form_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: acs_consent_form
+#: model:ir.actions.act_window,name:acs_consent_form.action_acs_consent_form
+#: model:ir.actions.report,name:acs_consent_form.report_acs_consent_form
+#: model:ir.model,name:acs_consent_form.model_acs_consent_form
+#: model:ir.ui.menu,name:acs_consent_form.menu_acs_consent_form
+#: model:ir.ui.menu,name:acs_consent_form.menu_consent_form
+#: model:mail.template,name:acs_consent_form.acs_consent_form_email
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_search
+msgid "Consent Form"
+msgstr "فرم رضایت"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__consent_form_content
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__consent_form_content
+msgid "Consent Form Content"
+msgstr "محتوای فرم رضایت"
+
+#. module: acs_consent_form
+#: model:ir.actions.act_window,name:acs_consent_form.action_acs_consent_form_template_view
+#: model:ir.model,name:acs_consent_form.model_acs_consent_form_template
+#: model:ir.ui.menu,name:acs_consent_form.menu_acs_consent_form_template
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_template_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_template_search
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_template_tree
+msgid "Consent Form Template"
+msgstr "قالب فرم رضایت"
+
+#. module: acs_consent_form
+#: model:res.groups,name:acs_consent_form.group_consent_form_manager
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.portal_my_home
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.portal_my_home_menu_hms
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_tree
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_partner_form
+msgid "Consent Forms"
+msgstr "فرم‌های رضایت"
+
+#. module: acs_consent_form
+#. odoo-python
+#: code:addons/acs_consent_form/controllers/main.py:0
+#, python-format
+msgid "Consent signed by %s"
+msgstr "فرم رضایت توسط %s امضا شد"
+
+#. module: acs_consent_form
+#: model:ir.model,name:acs_consent_form.model_res_partner
+msgid "Contact"
+msgstr "مخاطب"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_template_form
+msgid "Content"
+msgstr "محتوا"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__create_uid
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__create_uid
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__create_date
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__create_date
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__access_url
+msgid "Customer Portal URL"
+msgstr "آدرس پورتال مشتری"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__date
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.consent_form_report_document
+msgid "Date. :"
+msgstr "تاریخ: "
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid "Digial Document"
+msgstr "سند دیجیتال"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid "Digial Document Content"
+msgstr "محتوای سند دیجیتال"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__display_name
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__display_name
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid "Document"
+msgstr "سند"
+
+#. module: acs_consent_form
+#: model:ir.model,name:acs_consent_form.model_acs_consent_form_tag
+msgid "Document Tags"
+msgstr "برچسب‌های سند"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+msgid "Download"
+msgstr "دانلود"
+
+#. module: acs_consent_form
+#: model:ir.model.fields.selection,name:acs_consent_form.selection__acs_consent_form__state__draft
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_follower_ids
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_follower_ids
+msgid "Followers"
+msgstr "دنبال‌کنندگان"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_partner_ids
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال‌کنندگان (شرکا)"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__activity_type_icon
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "شمایل فونت آوسام مانند fa-tasks"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid "Get Data"
+msgstr "دریافت داده‌ها"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.consent_form_report_document
+msgid "Given By:"
+msgstr "ارائه شده توسط:"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__has_message
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_document_content
+msgid "History"
+msgstr "تاریخچه"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__id
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__id
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_exception_icon
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_exception_icon
+msgid "Icon"
+msgstr "شمایل"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__activity_exception_icon
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "شمایلی برای نشان دادن یک فعالیت استثنایی."
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__message_needaction
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر فعال باشد، پیام‌های جدید نیاز به توجه شما دارند."
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__message_has_error
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__message_has_sms_error
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__message_has_error
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر فعال باشد، برخی پیام‌ها دارای خطای تحویل هستند."
+
+#. module: acs_consent_form
+#. odoo-python
+#: code:addons/acs_consent_form/controllers/main.py:0
+#, python-format
+msgid "Invalid signature data."
+msgstr "داده‌های امضا نامعتبر هستند."
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_is_follower
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_is_follower
+msgid "Is Follower"
+msgstr "دنبال‌کننده است"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__write_uid
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__write_uid
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__write_uid
+msgid "Last Updated by"
+msgstr "آخرین بروزرسانی توسط"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__write_date
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__write_date
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__write_date
+msgid "Last Updated on"
+msgstr "آخرین بروزرسانی در"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_has_error
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_ids
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_ids
+msgid "Messages"
+msgstr "پیام‌ها"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__my_activity_date_deadline
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: acs_consent_form
+#. odoo-python
+#: code:addons/acs_consent_form/controllers/main.py:0
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__name
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_tag__name
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+#, python-format
+msgid "Name"
+msgstr "نام"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.consent_form_report_document
+msgid "Name :"
+msgstr "نام:"
+
+#. module: acs_consent_form
+#. odoo-python
+#: code:addons/acs_consent_form/controllers/main.py:0
+#, python-format
+msgid "Newest"
+msgstr "جدیدترین"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_date_deadline
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت فعالیت بعدی"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_summary
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_type_id
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_needaction_counter
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_has_error_counter
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__message_needaction_counter
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام‌هایی که نیاز به اقدام دارند"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__message_has_error_counter
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام‌هایی با خطای ارسال"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid "Other Information"
+msgstr "اطلاعات دیگر"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__partner_id
+msgid "Partner"
+msgstr "همکار"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__partner_id
+msgid "Partner to whom Document assigned"
+msgstr "همکاری که سند به او اختصاص داده شده است"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__acs_access_url
+msgid "Portal Access Link"
+msgstr "لینک دسترسی به پورتال"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__access_url
+msgid "Portal Access URL"
+msgstr "آدرس URL دسترسی به پورتال"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid "Print"
+msgstr "چاپ"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__print_header_in_report
+msgid "Print Header"
+msgstr "سرصفحه چاپ"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid "Reference"
+msgstr "ارجاع"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.consent_form_report_document
+msgid "Reg No:"
+msgstr "شماره ثبت:"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__activity_user_id
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__message_has_sms_error
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای ارسال پیامک"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__access_token
+msgid "Security Token"
+msgstr "توکن امنیتی"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid "Send By Mail"
+msgstr "ارسال از طریق ایمیل"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__acs_signature
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.consent_form_report_document
+msgid "Signature"
+msgstr "امضا"
+
+#. module: acs_consent_form
+#. odoo-python
+#: code:addons/acs_consent_form/controllers/main.py:0
+#, python-format
+msgid "Signature is missing."
+msgstr "امضا موجود نیست."
+
+#. module: acs_consent_form
+#: model:ir.model.fields.selection,name:acs_consent_form.selection__acs_consent_form__state__signed
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid "Signed"
+msgstr "امضا شده"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__acs_signed_on
+msgid "Signed On"
+msgstr "امضا شده در"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid "State"
+msgstr "وضعیت"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__state
+msgid "Status"
+msgstr "وضعیت"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__activity_state
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت بر اساس فعالیت‌ها\n"
+"اتمام مهلت: تاریخ مهلت گذشته است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه‌ریزی‌شده: فعالیت‌های آینده."
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__subject
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_search
+msgid "Tag"
+msgstr "برچسب"
+
+#. module: acs_consent_form
+#: model:ir.model.constraint,message:acs_consent_form.constraint_acs_consent_form_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "نام برچسب قبلاً وجود دارد!"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__tag_ids
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__template_id
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__name
+msgid "Template"
+msgstr "الگو"
+
+#. module: acs_consent_form
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.my_consent_forms
+msgid "There are currently no Consent Forms for your account."
+msgstr "در حال حاضر هیچ فرم رضایت‌نامه‌ای برای حساب شما وجود ندارد."
+
+#. module: acs_consent_form
+#: model:ir.model.fields.selection,name:acs_consent_form.selection__acs_consent_form__state__tosign
+#: model_terms:ir.ui.view,arch_db:acs_consent_form.view_acs_consent_form_form
+msgid "To Sign"
+msgstr "برای امضا"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__acs_has_to_be_signed
+msgid "To be Signed"
+msgstr "برای امضا بودن"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__activity_exception_decoration
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنایی ثبت شده."
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__user_id
+msgid "User"
+msgstr "کاربر"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__user_id
+msgid "User who provided Document"
+msgstr "کاربری که سند را ارائه داده است"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form__website_message_ids
+#: model:ir.model.fields,field_description:acs_consent_form.field_acs_consent_form_template__website_message_ids
+msgid "Website Messages"
+msgstr "پیام‌های وب‌سایت"
+
+#. module: acs_consent_form
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form__website_message_ids
+#: model:ir.model.fields,help:acs_consent_form.field_acs_consent_form_template__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات وب‌سایت"
+
+#. module: acs_consent_form
+#: model:mail.template,subject:acs_consent_form.acs_consent_form_email
+msgid "{{ object.partner_id.name }} Your Consent Form"
+msgstr "{{ object.partner_id.name }} فرم رضایت‌نامه شما"
