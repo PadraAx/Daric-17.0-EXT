@@ -1,0 +1,66 @@
+# Sphinx build directories
+_build/
+
+# Dotfiles (General Exclusions)
+.*
+!.gitignore
+!.github
+!.mailmap
+
+# Python cache & compiled files
+*.py[cod]
+__pycache__/
+
+# Setup.py egg_info
+*.egg-info
+
+# Odoo Filestore (This should never be tracked)
+odoo/filestore/
+
+# Odoo Maintenance Migration Scripts
+odoo/addons/base/maintenance/
+
+# Windows-specific configuration and installer files
+odoo.conf
+install/win32/*.bat
+install/win32/meta.py
+
+# Windows-specific build requirements
+setup/win32/static/less/
+setup/win32/static/wkhtmltopdf/
+setup/win32/static/postgresql*.exe
+
+# JavaScript dependencies (Avoid committing Node.js-related files)
+node_modules/
+jsconfig.json
+tsconfig.json
+package-lock.json
+package.json
+.husky/
+
+# Virtual environments & build artifacts
+venv/
+.env/
+bin/
+build/
+dist/
+include/
+lib/
+man/
+share/
+
+# Odoo Static Files (This is where your issue may come from)
+# ⚠️ Make sure this does not ignore important static files in custom modules
+# (Don't ignore `static/` globally, only unnecessary generated files)
+*.min.js
+*.min.css
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# PyCharm & VS Code settings (Optional)
+.idea/
+.vscode/

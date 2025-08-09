@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_slide_slide_inherited_form">
+            <field name="name">slide.slide.inherited.form</field>
+            <field name="model">slide.slide</field>
+            <field name="inherit_id" ref="website_slides.view_slide_slide_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='document_binary_content']" position="before">
+                     <field name="content_doc_file_name" invisible="1"/>
+                </xpath>
+                <xpath expr="//field[@name='document_binary_content']" position="attributes">
+                    <attribute name="filename">content_doc_file_name</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
