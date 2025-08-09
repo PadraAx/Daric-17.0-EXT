@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_business_domain_categories_form" model="ir.ui.view">
+    <field name="model">requirement.business.domain.categories</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <field name="code"/>
+            <field name="category_id" />
+            <field name="name"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_business_domain_categories_tree" model="ir.ui.view">
+    <field name="model">requirement.business.domain.categories</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="1" editable="top">
+        <header>
+        </header>
+           <field name="code" readonly="1"/>
+            <field name="category_id"  options="{'no_create': False, 'no_create_edit':True,'no_open': False}"/>
+            <field name="name"/>
+            <field name="create_uid" />
+            <field name="create_date" />
+            <field name="write_uid" optional="hide"/>
+            <field name="write_date" optional="hide"/>
+      </tree>
+    </field>
+  </record>
+  <record id="view_business_domain_categories_search" model="ir.ui.view">
+    <field name="model">requirement.business.domain.categories</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="code"/>
+        <field name="name"/>
+        <field name="category_id"/>
+         
+      </search>
+    </field>
+  </record>
+  <record id="action_business_domain_categories" model="ir.actions.act_window">
+    <field name="name">Business Domain Categories</field>
+    <field name="res_model">requirement.business.domain.categories</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Business Domain Category'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Business Domain Categories
+  "
+    id="menu_business_domain_categories"
+    parent="menu_configuration"
+    action="action_business_domain_categories"
+    sequence="2">
+  </menuitem>
+
+</odoo>

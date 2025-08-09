@@ -1,0 +1,15 @@
+<odoo>
+    <record id="add_salesperson_in_so_kanban" model="ir.ui.view">
+        <field name="name">add.salesperson.in.so.kanban</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_sale_order_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//kanban/field[@name='name']" position="after">
+                <field name="user_id"/>
+            </xpath>
+            <xpath expr="//kanban/templates/t/div/div[2]/div" position="inside">
+                <field name="user_id"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

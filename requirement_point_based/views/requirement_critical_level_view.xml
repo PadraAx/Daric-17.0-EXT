@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="view_critical_level_tree_inherited" model="ir.ui.view">
+      <field name="name">requirement.critical.level.tree.inherited</field>
+      <field name="model">requirement.critical.level</field>
+      <field name="inherit_id" ref="requirement.view_critical_level_tree" />
+      <field name="priority">1000</field>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='description']" position="after">
+          <field name="critical_point"/>
+      </xpath>
+    
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_critical_level_form_inherited">
+      <field name="name">requirement.critical.level.form.inherited</field>
+      <field name="model">requirement.critical.level</field>
+      <field name="inherit_id" ref="requirement.view_critical_level_form" />
+      <field name="arch" type="xml">
+          <xpath expr="//field[@name='description']" position="after">
+            <field name="critical_point"/>
+          </xpath>
+          
+      </field>
+  </record>
+</data>
+
+
+</odoo>

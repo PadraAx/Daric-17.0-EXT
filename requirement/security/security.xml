@@ -1,0 +1,115 @@
+<odoo>
+    <record id="module_category_bra" model="ir.module.category">
+        <field name="name">DTM</field>
+        <field name="description">DTM</field>
+        <field name="sequence">2</field>
+    </record>
+
+    <record id="group_bra_user" model="res.groups">
+        <field name="name">User</field>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]" />
+        <field name="category_id" ref="module_category_bra" />
+    </record>
+
+    <record id="group_bra_reviewer" model="res.groups">
+        <field name="name">Reviewer</field>
+        <field name="implied_ids" eval="[(4, ref('requirement.group_bra_user'))]" />
+        <field name="category_id" ref="module_category_bra" />  
+    </record>
+
+    <record id="group_bra_analyst" model="res.groups">
+        <field name="name">Analyst</field>
+        <field name="implied_ids" eval="[(4, ref('requirement.group_bra_reviewer'))]" />
+        <field name="category_id" ref="module_category_bra" />  
+    </record>
+
+    <record id="group_bra_admin" model="res.groups">
+        <field name="name">Administrator</field>
+        <field name="implied_ids" eval="[(4, ref('requirement.group_bra_analyst'))]" />
+        <field name="category_id" ref="module_category_bra" />
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>  
+    </record>
+
+
+       <!-- Requirement user-->
+       <record id="business_requirement_user_read_rule" model="ir.rule">
+            <field name="name">Business Requirement user Read</field>
+            <field name="model_id" ref="model_requirement_requirement"/>
+            <field name="groups" eval="[(4, ref('requirement.group_bra_user'))]"/>
+            <field name="domain_force">[('create_uid', '=', user.id)]</field>
+        </record>
+        <!-- <record id="business_requirement_user_write_rule" model="ir.rule">
+            <field name="name">Business Requirement user Write</field>
+            <field name="model_id" ref="model_requierment"/>
+            <field name="groups" eval="[(4, ref('requirement.group_bra_user'))]"/>
+            <field name="perm_read" eval="0"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="0"/>
+            <field name="perm_unlink" eval="0"/>
+            <field name="domain_force">[('create_uid', '=', user.id)]</field>
+        </record> -->
+           <!--  reviewer-->
+        <record id="business_requirement_reviewer_write_rule" model="ir.rule">
+            <field name="name">Business Requirement reviewer Write</field>
+            <field name="model_id" ref="model_requirement_requirement"/>
+            <field name="groups" eval="[(4, ref('requirement.group_bra_reviewer'))]"/>
+            <field name="domain_force">user.get_requierment_record()</field>
+        </record>
+        <!--  analyst-->
+        <!-- <record id="business_requirement_analyst_write_rule" model="ir.rule">
+        <field name="name">Business Requirement analyst Write</field>
+        <field name="model_id" ref="model_requierment"/>
+        <field name="groups" eval="[(4, ref('requirement.group_bra_analyst'))]"/>
+        <field name="perm_read" eval="0"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">[user.get_requierment_record()]</field>
+      </record> -->
+
+      <record id="business_requirement_review_reviewer_rule" model="ir.rule">
+        <field name="name">Business Requirement review read</field>
+        <field name="model_id" ref="model_requirement_review"/>
+        <field name="groups" eval="[(4, ref('requirement.group_bra_reviewer'))]"/>
+        <field name="domain_force">user.get_review_record_read()</field>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="0"/>
+      </record>
+
+      <record id="business_requirement_review_reviewer_rule" model="ir.rule">
+        <field name="name">Business Requirement review write</field>
+        <field name="model_id" ref="model_requirement_review"/>
+        <field name="groups" eval="[(4, ref('requirement.group_bra_reviewer'))]"/>
+        <field name="domain_force">user.get_review_record_write()</field>
+        <field name="perm_read" eval="0"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+      </record>
+        <!--  attachment-->
+      <!-- <record id="business_requirement_attachment_access_rule" model="ir.rule">
+        <field name="name">Access Attachments for Requirement</field>
+        <field name="model_id" ref="base.model_ir_attachment"/>
+        <field name="domain_force">[('res_model', '=', 'requierment')]</field>
+        <field name="groups" eval="[(4, ref('requirement.group_bra_user'))]"/>
+    </record> -->
+      <!--  admin-->
+        <record id="business_requirement_admin_rule" model="ir.rule">
+            <field name="name">Business Requirement Admin</field>
+            <field name="model_id" ref="model_requirement_requirement"/>
+            <field name="groups" eval="[(4, ref('requirement.group_bra_admin'))]"/>
+            <field name="domain_force">[(1, '=', 1)]</field>
+          </record>
+
+          <record id="business_requirement_review_admin_rule" model="ir.rule">
+            <field name="name">Business Requirement Review Admin</field>
+            <field name="model_id" ref="model_requirement_review"/>
+            <field name="groups" eval="[(4, ref('requirement.group_bra_admin'))]"/>
+            <field name="domain_force">[(1, '=', 1)]</field>
+          </record>
+    <data>     
+       
+    </data>
+</odoo>

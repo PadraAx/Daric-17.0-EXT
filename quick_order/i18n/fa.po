@@ -1,0 +1,645 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quick_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-21 12:18+0000\n"
+"PO-Revision-Date: 2025-04-21 12:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list_button
+msgid "+ Create new shopping list"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple_body
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order_details
+msgid ".<br/>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid ""
+"<i class=\"fa fa-spinner fa-pulse fa-3x fa-fw\"/>\n"
+"                        <span class=\"sr-only\">Loading...</span>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.main_table_data
+msgid ""
+"<i class=\"fa fa-spinner fa-pulse fa-3x fa-fw\"/>\n"
+"              <span class=\"sr-only\">Loading...</span>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid ""
+"<i class=\"fa fa-star\"/>  Browse entire product catalog quickly to mass "
+"order products from the website."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid ""
+"<i class=\"fa fa-star\"/>  Create multiple priority shopping lists in your "
+"account and add them directly to cart whenever you need."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid "<i class=\"fa fa-star\"/>  Do your bulk Shopping in a few minutes."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid ""
+"<i class=\"fa fa-star\"/>  The Quick Order feature lets you add the products"
+" in the shopping cart in quick succession."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid ""
+"<span class=\"check-modal\"/>\n"
+"                    Select All"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple_body
+msgid ""
+"<span class=\"fa fa-trash\" style=\"font-size: 16px;\">\n"
+"                <span>Remove</span>\n"
+"              </span>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+msgid ""
+"<span class=\"fa fa-trash\"/>\n"
+"                    Clear all"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_search_main_template
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "<strong class=\"me-auto\">Warning</strong>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list_confirm_model
+msgid "<strong>Are you sure to add products in your Shopping List</strong>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "<strong>Enter the Shopping List name</strong>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_shopping_list_model
+msgid "<strong>Shopping List Name</strong>"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_search_main_template
+msgid "ADDED PRODUCTS"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid "Add To List"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list_button
+msgid "Add To Shopping List"
+msgstr ""
+
+#. module: quick_order
+#: model:quick.order.message,message_on_delete_all_products:quick_order.quick_order_message_demo
+msgid "All Products are successfully deleted from your Quick Order list"
+msgstr ""
+
+#. module: quick_order
+#. odoo-python
+#: code:addons/quick_order/model/quick_order_message.py:0
+#, python-format
+msgid "Another record already exist for this website!!!"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+msgid "CREATED DATE"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_shopping_list_model
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list_confirm_model
+msgid "Cancel"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_search_main_template
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list_confirm_model
+msgid "Close"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model,name:quick_order.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_search_main_template
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "Create &amp; save your own shopping list for quick checkout."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "Create Order"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_shopping_list_model
+msgid "Create Shopping List"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid "Create an account"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__create_date
+msgid "Created Date"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__create_uid
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__create_uid
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__create_date
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "Delete List"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__description
+msgid "Description"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__display_name
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__display_name
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields.selection,name:quick_order.selection__quick_order__state__done
+msgid "Done"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_filter
+msgid "Done Order"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields.selection,name:quick_order.selection__quick_order__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_filter
+msgid "Draft Order"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_filter
+msgid "Group By"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model,name:quick_order.model_ir_http
+msgid "HTTP Routing"
+msgstr "مسیریابی HTTP"
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__id
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__id
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__id
+msgid "ID"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.main_table_data
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order_details
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid "IMAGE"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.main_table_data
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid "INTERNAL REFERENCE"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order_details
+msgid "INTERNAL REFERENCE #"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__write_uid
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__write_uid
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__write_date
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid "Log In"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__message_on_delete_all_products
+msgid "Message on delete all products from Quick Order list"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__message_on_empty_order_list
+msgid "Message on empty Order list"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__message_on_empty_shopping_list
+msgid "Message on empty Shopping list"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__message_on_product_search
+msgid "Message on no Product found in search"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__empty_shopping_list_submit
+msgid "Message on submit empty Shopping list into Cart"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__name
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__name
+msgid "Name"
+msgstr ""
+
+#. module: quick_order
+#: model:quick.order.message,message_on_product_search:quick_order.quick_order_message_demo
+msgid "No Products found for the related keyword"
+msgstr ""
+
+#. module: quick_order
+#: model:quick.order.message,message_on_empty_order_list:quick_order.quick_order_message_demo
+msgid "No Products found in your Order list"
+msgstr ""
+
+#. module: quick_order
+#: model:quick.order.message,empty_shopping_list_submit:quick_order.quick_order_message_demo
+msgid "No Products in your Shopping list for added into the Order Cart"
+msgstr ""
+
+#. module: quick_order
+#: model:quick.order.message,message_on_empty_shopping_list:quick_order.quick_order_message_demo
+msgid "No Shopping List available. Please create a new one"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+msgid "ORDER DATE"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list_confirm_model
+msgid "Ok"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__state
+msgid "Order State"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.main_table_data
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid "PRICE"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+#: model_terms:ir.ui.view,arch_db:quick_order.main_table_data
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order_details
+msgid "PRODUCT"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_shopping_list_model
+msgid "Please provide a name to the Shopping list"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid "Please select at least one variant"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__product_id
+msgid "Products"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order_details
+msgid "QUANTITY"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+msgid "QUICK ORDER #"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__quantity
+msgid "Quantity"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.actions.act_window,name:quick_order.quick_order_action
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_line__quick_order_id
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_home_menu_sale
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_search_main_template
+#: model_terms:ir.ui.view,arch_db:quick_order.res_config_setting_quick_order_form
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "Quick Order"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.ui.menu,name:quick_order.quick_order_main_menu
+msgid "Quick Order Config"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__quick_order_line
+msgid "Quick Order Line"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__name
+#: model:ir.ui.menu,name:quick_order.quick_order_message_sub_menu
+msgid "Quick Order Message"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.res_config_setting_quick_order_form
+msgid "Quick Order Messages"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.actions.act_window,name:quick_order.quick_order_message_action
+msgid "Quick Order message"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.ui.menu,name:quick_order.quick_order_sub_menu
+#: model_terms:ir.ui.view,arch_db:quick_order.header
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_done_data
+msgid "Quick Orders"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "RENAME SHOPPING LIST"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+msgid "Re-Order"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_search_main_template
+msgid "SELECT PRODUCTS TO ADD"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+msgid "SUB TOTAL"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_filter
+msgid "Search Order"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_done_data
+msgid "See your orders here"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid "Select Variants"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields.selection,name:quick_order.selection__quick_order__state__shopping_list
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_filter
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list_hover_button
+msgid "Shopping List"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "Shopping List name is not empty."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_shopping_list_model
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "Submit"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+msgid "TOTAL PRODUCTS"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order_details
+msgid "There are currently no product in your quick order."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order
+msgid "There are currently no quick order for your account."
+msgstr ""
+
+#. module: quick_order
+#. odoo-python
+#: code:addons/quick_order/model/quick_order.py:0
+#: code:addons/quick_order/model/quick_order.py:0
+#, python-format
+msgid ""
+"There is a product have already exits in your Quick Order. Please update the"
+" existing one or delete"
+msgstr ""
+
+#. module: quick_order
+#. odoo-python
+#: code:addons/quick_order/model/quick_order.py:0
+#, python-format
+msgid ""
+"There is already Quotation order %s in draft state for this customer. You "
+"can not create another draft qucik order for this customer. Please update "
+"the exixting one"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid "To use Quick Order feature you need sign in to your account."
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+msgid "Total :"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+msgid "Total Qty. :"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_cart_mutliple
+#: model_terms:ir.ui.view,arch_db:quick_order.portal_my_quick_order_details
+msgid "UNIT PRICE"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__write_date
+msgid "Updated Date"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__user_id
+msgid "User"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_filter
+msgid "Users"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.row_select_model
+msgid "VARIENT"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_cart
+msgid "View Details"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_search_main_template
+msgid ""
+"We removed product from your Quick order line because it is no longer "
+"available"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid ""
+"We removed product from your Shopping list because it is no longer available"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.res_config_setting_quick_order_form
+msgid "You can configure translatable message to be displayed on website"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_cart
+msgid "Your Shopping List is empty"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.add_to_shopping_list_model
+msgid "enter shopping list name"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_list
+msgid "enter the shopping list name"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.shopping_cart
+msgid "items"
+msgstr ""
+
+#. module: quick_order
+#: model_terms:ir.ui.view,arch_db:quick_order.quick_order_public_user_sugges
+msgid "or"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model,name:quick_order.model_quick_order
+msgid "quick.order"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model,name:quick_order.model_quick_order_line
+msgid "quick.order.line"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model,name:quick_order.model_quick_order_message
+msgid "quick.order.message"
+msgstr ""
+
+#. module: quick_order
+#: model:ir.model.fields,field_description:quick_order.field_quick_order__website_id
+#: model:ir.model.fields,field_description:quick_order.field_quick_order_message__website_id
+msgid "website"
+msgstr ""

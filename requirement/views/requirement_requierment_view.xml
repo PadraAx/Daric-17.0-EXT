@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_requirement_form" model="ir.ui.view">
+    <field name="model">requirement.requirement</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+     
+      <form>
+        <header>
+          <field name="user_id" invisible="1"/>
+          <field name="create_uid" invisible="1"/>
+          <field name="has_write_access" invisible="1"/>
+          <field name="allowed_company_ids" invisible="1"/> 
+          <field name="allowed_business_domain_ids" invisible="1"/>
+          <button name="action_send_for_review" string="Send for Review" type="object"
+          class="oe_highlight"
+          invisible="state not in['1'] or not(has_write_access == True)"
+          data-hotkey="I" />
+          <button string="Submit Review" type="action"
+          invisible="state not in['2']  or not(has_write_access == True)"
+          name="%(action_review_create_wizard)d" class="btn-primary"/>
+          <field name="state" widget="statusbar" nolable="1"/>
+
+          <button name="action_cancel" string="Cancel" type="object"
+          invisible="state not in['1','2','3'] or status == 'Cancelled' or create_uid != uid"
+          data-hotkey="R" />
+        </header>
+        <sheet>
+          <div class="oe_button_box" name="button_box">
+            <!-- <button type="object" icon="fa-file-text-o" class="oe_stat_button" name="action_view_documents">
+                    <div class="o_field_widget o_stat_info">
+                      <span class="o_stat_value"> <field name="doc_ids_count"/></span>
+                      <span class="o_stat_text">Documents</span>
+                  </div>
+             </button> -->
+            <button type="object" icon="fa-thumbs-o-up" class="oe_stat_button" name="action_view_reviews">
+                    <div class="o_field_widget o_stat_info">
+                      <span class="o_stat_value"> <field name="review_ids_count" digits="[2]"/></span>
+                      <span class="o_stat_text">Reviews</span>
+                  </div>
+              </button>
+        </div>
+        <h1 class="d-flex">
+          <field name="priority" widget="priority" class="me-3" readonly="state != '1' or has_write_access == False"/>
+        </h1>
+         <div class="oe_title pe-0">
+        
+          <h1 class="d-flex justify-content-between align-items-center">
+              <div class="d-flex w-100">
+                  <field name="name" readonly="state != '1' or has_write_access == False" options="{'line_breaks': False}" widget="text" class="o_task_name text-truncate w-md-75 w-100 pe-2" placeholder="Requirment Title..."/>
+              </div>
+              <div class="d-flex justify-content-start o_state_container w-100 w-md-50 w-lg-25">
+                <!-- widget="project_task_state_selection" -->
+                  <field name="status" readonly="1"/> 
+              </div>
+            
+          </h1>
+      </div>
+          <group>
+            <group> 
+               <field name="req_code"/>
+              <field name="requirement_type" readonly="1"/>
+              <field name="company_id" readonly="state != '1' or has_write_access == False" options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"/>
+            </group>
+            <group>
+
+              <field name="businessdomain_category_id" readonly="1" options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"/>
+              <field name="business_domain_id" readonly="state != '1' or has_write_access == False" options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"/>
+              <field name="tag_ids" widget="many2many_tags" readonly="state != '1' or has_write_access == False" options="{'color_field': 'color'}" />
+              
+            </group>
+          
+          
+          </group>
+          <notebook>
+            <page string="Description" name="page_description">
+              <group>
+                <field name="description" placeholder="Enter your description"
+                options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" readonly="state != '1' or has_write_access == False"/>
+              </group>
+            </page>
+            <page string="Reviewers" name="page_reviewed">
+              <group>
+                <field name="review_ids"  nolabel="1" colspan="2">
+                  <tree string="Reviewers" create="0" >
+                      <field name="review_code"/>
+                      <field name="critical_level_id"/>
+                      <field name="create_uid" string="Reviewer" widget="many2one_avatar_user"/>
+                  </tree>
+                  </field>
+              </group>
+            </page>
+          </notebook>
+        </sheet>
+          <!-- Chatter -->
+          <div class="oe_chatter" >
+            <field name="message_follower_ids" widget="mail_followers"/>
+            <field name="activity_ids" widget="mail_activity"/>
+            <field name="message_ids" widget="mail_thread"/>
+          </div>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_requirement_tree" model="ir.ui.view">
+    <field name="model">requirement.requirement</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc">
+        <header>
+        </header>
+        <field name="req_code"/>
+        <field name="requirement_type"/>
+        <field name="businessdomain_category_id"/>
+        <field name="business_domain_id"/>
+        <field name="name"/>
+        <field name="state"/>
+        <field name="status"/>
+        <field name="tag_ids" widget="many2many_tags"/>
+        <field name="is_favorite" string="Favorite" nolabel="1" widget="boolean_favorite" optional="hide"/>
+        <field name="create_uid" />
+        <field name="create_date" />
+        <field name="write_uid" optional="hide"/>
+        <field name="write_date" optional="hide"/>
+        <button string="View Reviews" name="action_view_reviews" type="object"/>
+      </tree>
+    </field>
+  </record>
+  <record id="view_requirement_search" model="ir.ui.view">
+    <field name="model">requirement.requirement</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="req_code"/>
+        <field name="requirement_type"/>
+        <field name="businessdomain_category_id"/>
+        <field name="business_domain_id"/>
+        <field name="name"/>
+        <field name="description"/>
+        <field name="state"/>
+        <field name="status"/>
+        <field name="create_uid" />
+        <field name="create_date" />
+        <field name="write_uid" />
+        <field name="write_date" />
+        <filter name="filter_my_requirement" string="My requirement" domain="[('create_uid', '=' , uid)]" />
+        <filter name="filter_Unreviewed_requirement" string="Unreviewed" domain="[('review_ids', '=', False)]"/>
+        <filter name="filter_Archived_requirement" string="Archived" domain="[('active', '=', False)]"/>
+      </search>
+    </field>
+  </record>
+
+  <record id="view_requirement_kanban" model="ir.ui.view">
+    <field name="name">requirement.requirement.kanban.ext</field>
+    <field name="model">requirement.requirement</field>
+    <field name="arch" type="xml">
+      <!-- on_create="quick_create"
+      class="o_kanban_small_column o_kanban_project_tasks"
+      quick_create_view="requirement.quick_create_req_form" -->
+        <kanban
+            quick_create="false"
+            default_group_by="state"
+            default_order="is_favorite desc, priority desc, name, id"
+        >
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_color_4 oe_kanban_global_click oe_kanban_content oe_kanban_card">
+                <div class="o_project_kanban_main d-flex align-items-baseline gap-1">
+                  <field name="is_favorite" widget="boolean_favorite" nolabel="1" force_save="1"/>
+                  <div class="oe_kanban_content">
+                    <div class="o_kanban_record_top">
+                      <div class="o_kanban_record_headings">
+                          <strong class="o_kanban_record_title">
+                            <field name="name"/>
+                          </strong>
+                      </div>
+                    </div>
+                    <div class="o_kanban_record_body">
+                      <field name="requirement_type"/>
+                      <br/>
+                      <field name="businessdomain_category_id"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="o_kanban_record_bottom mt-3">
+                    <div class="oe_kanban_bottom_left">
+                      <div class="o_project_kanban_boxes d-flex align-items-baseline">
+                        <a class="o_project_kanban_box" name="action_view_reviews" type="object">
+                          <div>
+                            <span class="o_value"><field name="review_ids_count" digits="[2]"/></span>
+                            <span class="o_label ms-1">Reviews</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="oe_kanban_bottom_right">
+                    </div>
+                </div>
+              </div>
+            </t>
+          </templates>
+      </kanban>
+    </field>
+  </record>
+
+  <!-- <record id="quick_create_req_form" model="ir.ui.view">
+    <field name="name">requirement.requirement.form.quick_create</field>
+    <field name="model">requirement.requirement</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+        <form class="o_form_project_tasks">
+          <header>
+            <field name="has_write_access" invisible="1"/>
+            <field name="state" invisible="1"/>
+            <field name="allowed_business_domain_ids" invisible="1"/>
+          </header>
+            <group>
+              <field name="name" readonly="state != '1' or has_write_access == False" options="{'line_breaks': False}" widget="text" class="o_task_name text-truncate w-md-75 w-100 pe-2" placeholder="Requirment Title..."/>
+              <field name="company_id" readonly="state != '1' or has_write_access == False" options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"/>
+              <field name="business_domain_id" readonly="state != '1' or has_write_access == False" options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"/>
+            </group>
+        </form>
+    </field>
+  </record> -->
+
+  <record model="ir.ui.view" id="view_requirement_graph">
+    <field name="name">requirement.graph</field>
+    <field name="model">requirement.requirement</field>
+    <field name="type">graph</field>
+ 
+    <field name="arch" type="xml">
+      <graph string="requirement" type="bar" sample="1">
+      
+        <field name="id" type="count" string="Count" />
+        <!-- <field name="reviews_point" type="measure" string="Reviews Point" widget="float"/> -->
+      </graph>
+    </field>
+  </record>
+
+  <record model="ir.ui.view" id="view_requirement_pivot">
+    <field name="name">requirement.pivot</field>
+    <field name="model">requirement.requirement</field>
+    <field name="type">pivot</field>
+    <field name="arch" type="xml">
+      <pivot string="requirement"  sample="1" >
+  
+        <field name="id" type="count" string="Count" />
+        <!-- <field name="reviews_point" type="measure" string="Reviews Point" widget="float"/> -->
+      </pivot>
+    </field>
+  </record>
+
+  <record id="action_requirement" model="ir.actions.act_window">
+    <field name="name">Requirements</field>
+    <field name="res_model">requirement.requirement</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search,kanban</field>
+    <field name="context">{'search_default_filter_my_requirement': 1}</field>
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'requirement'
+      </p>
+    </field>
+  </record>
+
+  <record id="action_requirement_graph" model="ir.actions.act_window">
+    <field name="name">Requirements Analysis</field>
+    <field name="res_model">requirement.requirement</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">graph,pivot,search</field>
+    <field name="context">{'search_default_filter_my_requirement': 1}</field>
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'requirement'
+      </p>
+    </field>
+  </record>
+
+  <menuitem name="Requirements"
+  id="menu_requirement"
+  parent="menu_bra_root"
+  action="action_requirement"
+  sequence="1">
+</menuitem>
+  <!-- <menuitem name="Requirements"
+  id="menu_requirement_all"
+  parent="menu_requirement"
+  action="action_requirement"
+  sequence="2">
+</menuitem> -->
+
+<menuitem name="Requirements Analysis"
+      id="menu_requirement_graph"
+      parent="menu_reporting"
+      action="action_requirement_graph"
+      sequence="1">
+</menuitem>
+
+
+
+</odoo>

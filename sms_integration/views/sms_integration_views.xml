@@ -1,0 +1,68 @@
+<odoo>
+    <data>
+        <!-- SMS Integration Configuration Form -->
+        <record id="view_sms_integration_form" model="ir.ui.view">
+            <field name="name">sms.integration.form</field>
+            <field name="model">sms.integration</field>
+            <field name="arch" type="xml">
+                <form string="SMS Integration">
+                    <group>
+                        <field name="api_key"/>
+                        <field name="linenumber"/>
+                    </group>
+                    <group>
+                        <button name="send_sms" string="Send SMS" type="object" class="oe_highlight"/>
+                        <button name="send_bulk_sms" string="Send Bulk SMS" type="object"/>
+                    </group>
+                    <group>
+                        <field name="last_sent_sms" readonly="1"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <!-- OTP Login Configuration Form -->
+        <record id="view_sms_integration_otp_config_form" model="ir.ui.view">
+            <field name="name">sms.integration.otp.config.form</field>
+            <field name="model">ir.config_parameter</field>
+            <field name="arch" type="xml">
+                <form string="OTP Login Configuration">
+                    <group>
+                        <field name="key" string="Key" readonly="1"/>
+                        <field name="value" string="Value"/>
+                    </group>
+                    <group>
+                        <button name="save" string="Save" type="object" class="oe_highlight"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action to open the SMS Integration Form -->
+        <record id="action_sms_integration_form" model="ir.actions.act_window">
+            <field name="name">SMS Integration</field>
+            <field name="res_model">sms.integration</field>
+            <field name="view_mode">form</field>
+            <field name="target">current</field>
+        </record>
+
+        <!-- Action to open OTP Login Configuration -->
+        <record id="action_sms_integration_otp_config" model="ir.actions.act_window">
+            <field name="name">OTP Login Configuration</field>
+            <field name="res_model">ir.config_parameter</field>
+            <field name="view_mode">form</field>
+            <field name="target">current</field>
+            <field name="domain">[('key', '=', 'sms_integration.otp_login_enabled')]</field>
+        </record>
+
+        <!-- Menu Item to access SMS Integration -->
+        <menuitem id="sms_integration_menu" name="SMS Integration" parent="base.menu_custom" sequence="10"/>
+
+        <!-- Menu Item for SMS Settings -->
+        <menuitem id="sms_integration_submenu" name="SMS Settings" parent="sms_integration_menu" action="action_sms_integration_form"/>
+
+        <!-- Menu Item for OTP Login Settings -->
+        <menuitem id="sms_integration_otp_config_submenu" name="OTP Login Configuration" parent="sms_integration_menu" action="action_sms_integration_otp_config"/>
+
+    </data>
+</odoo>

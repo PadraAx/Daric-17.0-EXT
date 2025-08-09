@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="view_business_domains_tree_inherited" model="ir.ui.view">
+      <field name="name">view.business.domains.tree.inherited</field>
+      <field name="model">requirement.business.domains</field>
+      <field name="inherit_id" ref="requirement.view_business_domains_tree" />
+      <field name="priority">1000</field>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='imp_status']" position="after">
+          <field name="min_score"/>
+      </xpath>
+    
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_business_domains_form_inherited">
+      <field name="name">view.business.domains.form.inherited</field>
+      <field name="model">requirement.business.domains</field>
+      <field name="inherit_id" ref="requirement.view_business_domains_form" />
+      <field name="arch" type="xml">
+          <xpath expr="//field[@name='imp_status']" position="after">
+            <field name="min_score"/>
+          </xpath>
+          
+      </field>
+  </record>
+</data>
+
+</odoo>

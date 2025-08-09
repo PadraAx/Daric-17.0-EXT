@@ -1,0 +1,464 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_survey_extra_fields
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-21 12:25+0000\n"
+"PO-Revision-Date: 2025-04-21 12:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_textbox_for_pattern
+msgid "#{question.validation_sh_textbox_placeholder}"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "18:00"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "20"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-03"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-05"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-W18"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-W26"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "60 (In seconds)"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "9:00"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_address
+msgid "<option value=\"\" disabled=\"disabled\" selected=\"selected\">Country...</option>"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_address
+msgid ""
+"<option value=\"\" disabled=\"disabled\" selected=\"selected\">State / "
+"Province...</option>"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_many2one
+msgid "<option value=\"\">Select...</option>"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_address
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_address
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_address
+msgid "Address"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__answer_type
+msgid "Answer Type"
+msgstr "نوع پاسخ"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_city_label
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "City Label"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_signature
+msgid "Clear"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_color
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_color
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_color
+msgid "Color"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_country_id
+msgid "Country"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_country_id_label
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "Country Label"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_email
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_email
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_email
+msgid "E-mail"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_file
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_file
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_file
+msgid "File"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_file_fname
+msgid "File Name"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model,name:sh_survey_extra_fields.model_ir_http
+msgid "HTTP Routing"
+msgstr "مسیریابی HTTP"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__access_token
+msgid "Identification token"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model,name:sh_survey_extra_fields.model_survey_question
+msgid "Inherit Survey Question for extra fields"
+msgstr "سوال نظرسنجی"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_is_sh_textbox_pattern
+msgid "Input must be in specified pattern"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_many2many
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_many2many
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_many2many
+msgid "Many2many"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_many2one
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_many2one
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_many2one
+msgid "Many2one"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_month_max
+msgid "Maximum Month"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_range_max
+msgid "Maximum Range"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_time_max
+msgid "Maximum Time"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_week_max
+msgid "Maximum Week"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_month_min
+msgid "Minimum Month"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_range_min
+msgid "Minimum Range"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_time_min
+msgid "Minimum Time"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_week_min
+msgid "Minimum Week"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__que_sh_many2many_model_id
+msgid "Model"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__que_sh_many2one_model_id
+msgid "Model "
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_month
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_month
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_month
+msgid "Month"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_month_step
+msgid "Month Step"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_password
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_password
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_password
+msgid "Password"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_password_maxlen
+msgid "Password Maximum Length"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_password_minlen
+msgid "Password Minimum Length"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__question_type
+msgid "Question Type"
+msgstr "نوع سوال"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_range
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_range
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_range
+msgid "Range"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_range_step
+msgid "Range Step"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_city
+msgid "Show City Field?"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_country_id
+msgid "Show Country Field?"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_state_id
+msgid "Show State Field?"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_street
+msgid "Show Street Field?"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_street2
+msgid "Show Street2 Field?"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_zip
+msgid "Show Zip Field?"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_signature
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_signature
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_signature
+msgid "Signature"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_signature_src
+msgid "Signature src"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_state_id
+msgid "State"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_state_id_label
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "State Label"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_street2_label
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "Street 2 Label"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_street_label
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "Street Label"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model,name:sh_survey_extra_fields.model_survey_user_input
+msgid "Survey User Input"
+msgstr "ورود کاربر نظرسنجی"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model,name:sh_survey_extra_fields.model_survey_user_input_line
+msgid "Survey User Input Line for extra fields"
+msgstr "سطر ورود کاربر نظرسنجی"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_textbox_pattern
+msgid "Textbox Pattern"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_textbox_placeholder
+msgid "Textbox Placeholder"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#. odoo-javascript
+#: code:addons/sh_survey_extra_fields/static/src/js/sh_survey_extra_fields.js:0
+#, python-format
+msgid "This answer must be an URL."
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#. odoo-javascript
+#: code:addons/sh_survey_extra_fields/static/src/js/sh_survey_extra_fields.js:0
+#, python-format
+msgid "This answer must be an email address."
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#. odoo-javascript
+#: code:addons/sh_survey_extra_fields/static/src/js/sh_survey_extra_fields.js:0
+#, python-format
+msgid "This is not a date"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#. odoo-python
+#: code:addons/sh_survey_extra_fields/models/survey.py:0
+#, python-format
+msgid "This question requires an answer."
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_file_print
+msgid "This question was skipped"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_time
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_time
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_time
+msgid "Time"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_time_step
+msgid "Time Step"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_url
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_url
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_url
+msgid "URL"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_city
+msgid "Value Ans Sh City"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_street
+msgid "Value Ans Sh Street"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_street2
+msgid "Value Ans Sh Street2"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_zip
+msgid "Value Ans Sh Zip"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_week
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_week
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_week
+msgid "Week"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_week_step
+msgid "Week Step"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__sh_is_show_zip_label
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "Zip Label"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "[0-9]{4}"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_email
+msgid "example@domain.com"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_time
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_url
+msgid "https://example.com"
+msgstr ""
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "nnnn"
+msgstr ""

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem
+            id="menu_bra_root"
+            name="Requirements"
+            web_icon="requirement,static/description/icon.png"
+            sequence="0"
+            groups="requirement.group_bra_user"
+            />
+            <menuitem name="Analyses"
+                id="menu_analysis"
+                parent="menu_bra_root"
+                sequence="4"/>
+
+            <menuitem name="Reporting"
+                id="menu_reporting"
+                parent="menu_bra_root"
+                sequence="6"/>
+
+            <menuitem name="Configuration"
+                id="menu_configuration"
+                parent="menu_bra_root"
+                groups="requirement.group_bra_admin"
+                sequence="7"/>
+
+            <!-- <menuitem name="Settings"
+                id="menu_settings"
+                parent="menu_configuration"
+                sequence="1"/>   -->
+</odoo>

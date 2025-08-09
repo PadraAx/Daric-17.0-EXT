@@ -1,0 +1,45 @@
+<odoo>
+    <!-- OTP Request Page -->
+    <template id="otp_request_page" name="OTP Request Page">
+        <t t-call="website.layout">
+            <div class="container">
+                <h2>Login with OTP</h2>
+                <form action="/web/login" method="post">
+                    <div class="form-group">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="text" name="phone_number" class="form-control" required="required"/>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send OTP</button>
+                </form>
+            </div>
+        </t>
+    </template>
+
+    <!-- OTP Verification Page -->
+    <template id="otp_verification_page" name="OTP Verification Page">
+        <t t-call="website.layout">
+            <div class="container">
+                <h2>Enter OTP</h2>
+                <form action="/web/login" method="post">
+                    <div class="form-group">
+                        <label for="otp_code">OTP Code</label>
+                        <input type="text" name="otp_code" class="form-control" required="required"/>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Verify OTP</button>
+                </form>
+            </div>
+        </t>
+    </template>
+
+    <!-- OTP Error Page (Invalid or Expired OTP) -->
+    <template id="otp_error_page" name="OTP Error Page">
+        <t t-call="website.layout">
+            <div class="container">
+                <h2>Invalid or Expired OTP</h2>
+                <p>Your OTP code is invalid or has expired. Please request a new one.</p>
+                <a href="/web/login" class="btn btn-secondary">Back to Login</a>
+            </div>
+        </t>
+    </template>
+
+</odoo>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <data>
+          <record id="view_review_tree_inherited" model="ir.ui.view">
+            <field name="name">requirement.review.tree.inherited</field>
+            <field name="model">requirement.review</field>
+            <field name="inherit_id" ref="requirement.view_review_tree" />
+            <field name="priority">1000</field>
+            <field name="arch" type="xml">
+              <xpath expr="//field[@name='critical_level_id']" position="after">
+                <field name="point" readonly="1" digits="[2]"/>
+            </xpath>
+          
+            </field>
+          </record>
+
+          <record model="ir.ui.view" id="view_review_form_inherited">
+            <field name="name">requirement.review.form.inherited</field>
+            <field name="model">requirement.review</field>
+            <field name="inherit_id" ref="requirement.view_review_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='critical_level_id']" position="after">
+                  <field name="point" readonly="1" digits="[2]"/>
+                </xpath>
+            </field>
+        </record>
+      </data>
+</odoo>

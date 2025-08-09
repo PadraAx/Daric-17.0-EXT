@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+              <record id="view_requirement_tree_inherited" model="ir.ui.view">
+                <field name="name">requirement.requirement.tree.inherited</field>
+                <field name="model">requirement.requirement</field>
+                <field name="inherit_id" ref="requirement.view_requirement_tree" />
+                <field name="priority">1000</field>
+                <field name="arch" type="xml">
+                  <xpath expr="//field[@name='tag_ids']" position="after">
+                    <field name="reviews_point" digits="[2]"/>
+                </xpath>
+              
+                </field>
+              </record>
+
+              <record model="ir.ui.view" id="view_requirement_form_inherited">
+                <field name="name">requirement.requirement.form.inherited</field>
+                <field name="model">requirement.requirement</field>
+                <field name="inherit_id" ref="requirement.view_requirement_form" />
+                <field name="arch" type="xml">
+                    <xpath expr="//field[@name='review_ids_count']" position="replace">
+                      <field name="reviews_point" digits="[2]"/>
+                    
+                    </xpath>
+                </field>
+            </record>
+
+            <record model="ir.ui.view" id="view_requirement_pivot_inherited">
+              <field name="name">requirement.requirement.pivot.inherited</field>
+              <field name="model">requirement.requirement</field>
+              <field name="inherit_id" ref="requirement.view_requirement_pivot" />
+              <field name="arch" type="xml">
+                  <xpath expr="//field[@name='id']" position="after">
+                    <field name="reviews_point" type="measure" string="Reviews Point" widget="float"/>
+                  </xpath>
+              </field>
+          </record>
+
+          <record model="ir.ui.view" id="view_requirement_graph_inherited">
+            <field name="name">requirement.requirement.graph.inherited</field>
+            <field name="model">requirement.requirement</field>
+            <field name="inherit_id" ref="requirement.view_requirement_graph" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='id']" position="after">
+                  <field name="reviews_point" type="measure" string="Reviews Point" widget="float"/>
+                </xpath>
+            </field>
+          </record>
+
+  </data>
+
+</odoo>

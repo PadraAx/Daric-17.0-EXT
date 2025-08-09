@@ -1,0 +1,1878 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* setu_cash_flow_forecasting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-08 16:22+0000\n"
+"PO-Revision-Date: 2025-02-08 16:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_setu_budget_forecast_settings
+msgid ""
+"\n"
+"        This model is used to install and automate some activities in the budget forecasting\n"
+"        Like, Auto confirm, validate and done Budget... \n"
+"    "
+msgstr ""
+"این مدل برای نصب و خودکار سازی برخی فعالیت ها در پیش بینی بودجه استفاده می شود\n"
+"        مانند ، تأیید خودکار ، اعتبار و بودجه انجام شده ..."
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecash_group.py:0
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecash_group.py:0
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "٪ S (کپی)"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__calculation_pattern
+msgid ""
+"-Cash Forecast will be calculated by taking the Average value of the entries"
+" of option selected in Calculate from functionality for Number of days "
+"entered-Cash Forecast will be calculated by taking the Average value of the "
+"entries of option selected in Calculate from functionality for Number of "
+"Entries entered-Entries of same forecast period of previous year will be "
+"consideredwhile calculating Cash Forecast"
+msgstr ""
+"-پیش بینی Cash با در نظر گرفتن میانگین مقدار ورودی های گزینه انتخاب شده در "
+"محاسبه از عملکرد برای تعداد روزهای پیش بینی شده با پول محاسبه می شود با "
+"گرفتن مقدار متوسط ​​ورودی های گزینه انتخاب شده در محاسبه از عملکرد برای "
+"تعداد تعداد ورودی های وارد شده از همان دوره پیش بینی سال گذشته در عین حال "
+"محاسبه پیش بینی نقدینگی در نظر گرفته می شود"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__calculate_from
+msgid ""
+"-Past Accounting Entries of the Accounts that are selected in Account tab "
+"will be considered based on option that you select in Calculation Pattern "
+"-Entries of previous forecast calculated will be considered-All of Pending "
+"Payable to Vendors or Pending Receivable from Customers from the Accounts "
+"that are selected in Accounts tab will be considered-Entries will be "
+"considered from Forecast Type that you select in Dependant Forecast Type tab"
+msgstr ""
+"-ورودی های حسابداری از حسابهایی که در برگه حساب انتخاب شده اند بر اساس گزینه"
+" ای که شما در الگوی محاسبه انتخاب می کنید -در نظر گرفته می شود -پیش بینی های"
+" قبلی محاسبه شده ، همه در انتظار پرداخت قابل پرداخت به فروشندگان یا در "
+"انتظار دریافت قابل دریافت از مشتریان از حساب های آن است. در برگه حساب ها "
+"انتخاب می شوند-ورودی ها از نوع پیش بینی ای که در برگه نوع پیش بینی وابسته "
+"انتخاب می کنید در نظر گرفته می شود"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+msgid ""
+"<strong>\n"
+"                                                Install Setu Budget Forecasting\n"
+"                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                پیش بینی بودجه را نصب کنید\n"
+"                                            </strong>"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+msgid ""
+"<strong>\n"
+"                                                Setu Budget Forecasting is enabled now.\n"
+"                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                پیش بینی بودجه اکنون فعال شده است.\n"
+"                                            </strong>"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecasting_installation_wizard
+msgid ""
+"<strong>Just click on \"Extract\" button which will add the \"Budget Forecast\"\n"
+"                                        functionality, after that please follow below steps,\n"
+"                                </strong>\n"
+"                                <br/>\n"
+"                                <br/>"
+msgstr ""
+"<strong> فقط روی دکمه \"استخراج\" کلیک کنید که \"پیش بینی بودجه\" را اضافه می کند\n"
+"                                        عملکرد ، پس از آن لطفاً مراحل زیر را دنبال کنید ،\n"
+"                                </strong>\n"
+"                                <br/>\n"
+"                                <br/>"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__account_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__account_ids
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.local_account_book_search_view
+msgid "Account"
+msgstr "حساب"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.local_account_book_search_view
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.local_account_book_tree_view
+msgid "Account Book"
+msgstr "دفتر حساب"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/onboarding_onboarding_step.py:0
+#: code:addons/setu_cash_flow_forecasting/models/res_company.py:0
+#, python-format
+msgid "Accounting Periods"
+msgstr "دوره حسابداری"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__account_ids
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__account_ids
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.cash_forecast_tag_view_form
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Accounts"
+msgstr "حسابها"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_needaction
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_needaction
+msgid "Action Needed"
+msgstr "اقدام مورد نیاز"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,button_text:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_type
+msgid "Add Forecast Types"
+msgstr "انواع پیش بینی را اضافه کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,button_text:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_categories
+msgid "Add Forecast categories"
+msgstr "دسته های پیش بینی را اضافه کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+msgid "Analytic Account"
+msgstr "حساب تحلیلی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.module.module,summary:setu_cash_flow_forecasting
+msgid "The cash Forecast solution calculates and allows end users to know the available cash in the upcoming future considering the Opening balance, all cash receipts, and all cash expenditures."
+msgstr "راه‌حل پیش‌بینی جریان نقدی، موجودی نقد در آینده را با توجه به موجودی اولیه، تمام دریافت‌های نقدی و تمام هزینه‌های نقدی محاسبه کرده و به کاربران امکان می‌دهد از آن مطلع شوند."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.module.module,description:setu_cash_flow_forecasting
+msgid "The cash Forecast solution calculates and allows end users to know the available cash in the upcoming future considering the Opening balance, all cash receipts, and all cash expenditures. Also, various statistical and analytical reports allow users to have a complete insight into all income and expenditures for each period."
+msgstr "راه‌حل پیش‌بینی جریان نقدی، موجودی نقد در آینده را با توجه به موجودی اولیه، تمام دریافت‌های نقدی و تمام هزینه‌های نقدی محاسبه کرده و به کاربران امکان می‌دهد از آن مطلع شوند. همچنین، گزارش‌های آماری و تحلیلی مختلف به کاربران این امکان را می‌دهند که دید کاملی از تمام درآمدها و هزینه‌ها در هر دوره زمانی داشته باشند."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__analytic_account_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__analytic_account_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__analytic_account_id
+msgid "Analytic Accounts"
+msgstr "حساب های تحلیلی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Apply Filter"
+msgstr "پالایه را اعمال کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_attachment_count
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__auto_calculate
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__auto_calculate
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Auto Calculate"
+msgstr "محاسبه خودکار"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Auto Calculation formula"
+msgstr "فرمول محاسبه خودکار"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__calculation_pattern__average
+msgid "Average Value of Last X Days"
+msgstr "ارزش متوسط ​​روزهای آخرین روز"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__calculation_pattern__average_entries
+msgid "Average Value of Last X Entries"
+msgstr "مقدار متوسط ​​ورودی های X آخرین"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Bar Chart"
+msgstr "نمودار نوار"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__calculate_from__dependant
+msgid "Base on Dependant Forecast"
+msgstr "پایه در پیش بینی وابسته"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+msgid "Budget Forecast Settings"
+msgstr "تنظیمات پیش بینی بودجه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__calculate
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_create_update_cash_forecast
+msgid "Calculate"
+msgstr "محاسبه کردن"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__calculated_base_on
+msgid "Calculate Base on"
+msgstr "محاسبه بر اساس"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_create_update_cash_forecast
+msgid "Calculate Cash Forecast"
+msgstr "پیش بینی نقدینگی را محاسبه کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__calculate_from
+msgid "Calculate from"
+msgstr "محاسبه از"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,description:setu_cash_flow_forecasting.onboarding_onboarding_step_create_forecast
+msgid "Calculate your first Cash Forecast."
+msgstr "اولین پیش بینی نقدینگی خود را محاسبه کنید."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__calculation_pattern
+msgid "Calculation pattern"
+msgstr "الگوی محاسبه"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_create_update_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecasting_installation_wizard
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding,name:setu_cash_flow_forecasting.onboarding_onboarding_cash_dashboard
+msgid "Cash Dashboard Onboarding"
+msgstr "پیشخوان نقدی سوار بر"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+#, python-format
+msgid "Cash Flow Forecasting"
+msgstr "پیش بینی جریان نقدی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+msgid "Cash Flow Value"
+msgstr "ارزش جریان نقدی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/wizard/create_update_cash_forecast.py:0
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.actions_setu_cash_forecast
+#: model:ir.model,name:setu_cash_flow_forecasting.model_setu_cash_forecast
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__name
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_main_setu_cash_forecast
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_setu_cash_forecast
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_sub_setu_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_pivot_view
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_custom_pivot_view
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#, python-format
+msgid "Cash Forecast"
+msgstr "پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_setu_cash_forecast_report
+msgid "Cash Forecast Analysis"
+msgstr "تجزیه و تحلیل پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Cash Forecast Calculation"
+msgstr "محاسبه پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_income_expense_report_pivot_view
+msgid "Cash Forecast Cash Out"
+msgstr "پیش بینی پول نقد پول"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.actions_setu_cash_forecast_categories
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_setu_cash_forecast_group
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_categories
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_categories_search
+msgid "Cash Forecast Categories"
+msgstr "دسته های پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_setu_cash_forecast_categories
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Cash Forecast Category"
+msgstr "دسته پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Cash Forecast Configuration"
+msgstr "پیکربندی پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_setu_cash_flow_forecasting_dashboard
+msgid "Cash Forecast Dashboard"
+msgstr "پیشخوان پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+msgid "Cash Forecast Date"
+msgstr "تاریخ پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.setu_cash_forecast_expense_report_action_view
+msgid "Cash Forecast Expense Report"
+msgstr "گزارش هزینه پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.setu_cash_forecast_income_report_action_view
+msgid "Cash Forecast Income Report"
+msgstr "گزارش درآمد پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.server,name:setu_cash_flow_forecasting.setu_cash_forecast_actual_value_cron_ir_actions_server
+msgid "Cash Forecast Real Value"
+msgstr "پیش بینی نقدینگی ارزش واقعی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.setu_cash_forecast_report_action_view
+msgid "Cash Forecast Report Analysis"
+msgstr "تجزیه و تحلیل گزارش پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_custom_graph_view
+msgid "Cash Forecast Report Graph"
+msgstr "نمودار گزارش پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.cash_forecast_tag_action
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_account_account__cash_forecast_tag
+msgid "Cash Forecast Tag"
+msgstr "برچسب پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_cash_forecast_tag
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.cash_forecast_tag_view_form
+msgid "Cash Forecast Tags"
+msgstr "برچسب های پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/account_account.py:0
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.actions_setu_cash_forecast_type
+#: model:ir.model,name:setu_cash_flow_forecasting.model_setu_cash_forecast_type
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__cash_forecast_type_ids
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_setu_cash_forecast_type
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+#, python-format
+msgid "Cash Forecast Type"
+msgstr "نوع پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.module.category,name:setu_cash_flow_forecasting.category_setu_cash_flow_forecasting
+msgid "Cash Forecasting"
+msgstr "پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_categories_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Cash IN"
+msgstr "پول نقد کردن"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_type__income
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_categories__type__income
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_report__forecast_type__income
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__type__income
+msgid "Cash In"
+msgstr "پول نقد کردن"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_setu_cash_forecast_income_report
+msgid "Cash In Analysis"
+msgstr "پول نقد در تجزیه و تحلیل"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Cash In V/S Cash Out Forecasted Value"
+msgstr "پیش‌بینی ارزش ورود و خروج نقدی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_type__expense
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_categories_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Cash OUT"
+msgstr "پول نقد"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_setu_cash_forecast_expense_report
+msgid "Cash OUT Analysis"
+msgstr "تجزیه و تحلیل پول نقد"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_categories__type__expense
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_report__forecast_type__expense
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__type__expense
+msgid "Cash Out"
+msgstr "پول نقد"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_cash_forecast_fiscal_period
+msgid "Cash forecast Fiscal Period"
+msgstr "دوره مالی پیش بینی نقدینگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_cash_forecast_fiscal_year
+msgid "Cash forecast Fiscal Year"
+msgstr "پیش بینی نقدینگی سال مالی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Cash-In"
+msgstr "پول نقد"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Cash-In Forecast V/S Real"
+msgstr "پیش‌بینی ورود نقدی در برابر مقدار واقعی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Cash-Out"
+msgstr "پول نقد"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Cash-Out Forecast V/S Real"
+msgstr "پیش‌بینی خروج نقدی در برابر مقدار واقعی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__cash_forecast_category_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__cash_forecast_category_id
+msgid "Categories Name"
+msgstr "نام"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__cash_forecast_category_id
+msgid "Category name"
+msgstr "نام گروه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_account_account
+msgid "Chart Of Account"
+msgstr "حساب"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__child_forecast_ids
+msgid "Child forecast types"
+msgstr "انواع پیش بینی کودک"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Close"
+msgstr "بستن"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__cash_dashboard_onboarding_state__closed
+msgid "Closed"
+msgstr "بسته"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_type__closing
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_categories__type__closing
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_report__forecast_type__closing
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__type__closing
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_categories_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Closing Forecast"
+msgstr "پیش بینی بسته شدن"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__code
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__code
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__code
+msgid "Code"
+msgstr "رمز"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__company_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__company_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__company_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__company_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__company_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__company_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__company_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__company_id
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.local_account_book_search_view
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Company"
+msgstr "شرکت"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.kanban_setu_cash_forecast_type
+msgid "Company :"
+msgstr "شرکت:"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_sub_setu_cash_forecast_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,button_text:setu_cash_flow_forecasting.onboarding_onboarding_step_fiscal_year
+msgid "Configure Fiscal years & Period"
+msgstr "سالها و دوره مالی را پیکربندی کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,button_text:setu_cash_flow_forecasting.onboarding_onboarding_step_create_forecast
+msgid "Create"
+msgstr "ایجاد کردن"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.actions_create_update_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_create_update_cash_forecast
+msgid "Create / Update Cash Forecast"
+msgstr "پیش بینی نقدینگی را ایجاد / به روز کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.server,name:setu_cash_flow_forecasting.action_create_cash_forecast_type
+msgid "Create Cash Forecast Type"
+msgstr "نوع پیش بینی نقدینگی ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,title:setu_cash_flow_forecasting.onboarding_onboarding_step_create_forecast
+msgid "Create Forecast"
+msgstr "پیش بینی ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_cash_forecast_fiscal_year
+msgid "Create Monthly Period"
+msgstr "دوره ماهانه ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/onboarding_onboarding_step.py:0
+#: code:addons/setu_cash_flow_forecasting/models/res_company.py:0
+#, python-format
+msgid "Create a Cash Forecast"
+msgstr "پیش بینی نقدینگی ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/onboarding_onboarding_step.py:0
+#: code:addons/setu_cash_flow_forecasting/models/res_company.py:0
+#, python-format
+msgid "Create a Forecast Categories"
+msgstr "یک دسته پیش بینی ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/onboarding_onboarding_step.py:0
+#: code:addons/setu_cash_flow_forecasting/models/res_company.py:0
+#, python-format
+msgid "Create a Forecast Type"
+msgstr "یک نوع پیش بینی ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_create_update_cash_forecast
+msgid "Create or Update Cash Forecast from wizard"
+msgstr "پیش بینی نقدینگی را از جادوگر ایجاد یا به روز کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_cash_forecast_fiscal_period
+msgid "Create or Update Forecast"
+msgstr "پیش بینی را ایجاد یا به روز کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.actions.act_window,help:setu_cash_flow_forecasting.actions_setu_cash_forecast
+#: model_terms:ir.actions.act_window,help:setu_cash_flow_forecasting.setu_cash_forecast_report_action_view
+msgid "Create your Cash Forecast"
+msgstr "پیش بینی نقدینگی خود را ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_flow_forecasting_dashboard__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__create_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_flow_forecasting_dashboard__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__create_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__credit
+msgid "Credit Amount"
+msgstr "مبلغ اعتباری"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__company_currency_id
+msgid "Currency"
+msgstr "پول"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Current Fiscal Period"
+msgstr "دوره مالی فعلی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Current Fiscal Year"
+msgstr "سال مالی جاری"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Custom Fiscal Period"
+msgstr "دوره مالی سفارشی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__cash_forecast_fiscal_year__period_interval__days
+msgid "Daily"
+msgstr "روزمره"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.client,name:setu_cash_flow_forecasting.action_setu_cash_flow_forecasting_dashboard_menu
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_dashboard
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__date
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.local_account_book_search_view
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__debit
+msgid "Debit Amount"
+msgstr "مبلغ بدهی"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,description:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_type
+msgid ""
+"Define Income/Expense Type for each Income/Expense category,\n"
+"                formulation of Cash Forecast and link multiple accounts."
+msgstr ""
+"نوع درآمد/هزینه را برای هر دسته از درآمد/هزینه تعریف کنید ،\n"
+"                فرمولاسیون پیش بینی نقدینگی و پیوند چندین حساب."
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,description:setu_cash_flow_forecasting.onboarding_onboarding_step_fiscal_year
+msgid "Define your Fiscal years & Fiscal Period."
+msgstr "سالهای مالی و دوره مالی خود را تعریف کنید."
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,description:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_categories
+msgid "Define your multiple categories of Income/Expense."
+msgstr "چند دسته از درآمد/هزینه خود را تعریف کنید."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__dep_forecast_ids
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__dep_forecast_ids
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Dependant Forecast Type"
+msgstr "نوع پیش بینی وابسته"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__difference_value
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__difference_value
+msgid "Difference Value"
+msgstr "مقدار تفاوت"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_flow_forecasting_dashboard__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__display_name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__display_name
+msgid "Display Name"
+msgstr "نام"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__cash_dashboard_onboarding_state__done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__create_forecast_data_state__done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__fiscal_year_setup_data_state__done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__forecast_category_setup_data_state__done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__forecast_type_setup_data_state__done
+msgid "Done"
+msgstr "انجام شده"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__install_setu_budget_forecasting
+msgid "Enable Budget Forecasting"
+msgstr "پیش بینی بودجه را فعال کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+msgid "Enable To Include Budget Forecast."
+msgstr "شامل پیش بینی بودجه است."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__auto_calculate
+msgid ""
+"Enable this option if Cash Forecast should be calculated based on Auto "
+"Calculation Formula set.If this option is disabled then Cash Forecast will "
+"be calculated based on Fixed Value that you enter"
+msgstr ""
+"این گزینه را فعال کنید اگر پیش بینی نقدینگی باید بر اساس فرمول محاسبه خودکار "
+"محاسبه شود. اگر این گزینه غیرفعال باشد ، پیش بینی نقدینگی بر اساس مقدار ثابت که"
+" وارد می کنید محاسبه می شود"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__is_recurring
+msgid ""
+"Enable this option to Calculate Forecast repeatedly after the monthsthat you"
+" select in Forecast Execution Duration"
+msgstr ""
+"این گزینه را فعال کنید تا پیش بینی را بارها و بارها پس از ماه هایی که در مدت"
+" زمان اجرای پیش بینی انتخاب کردید محاسبه کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__end_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__end_date
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/cash_forecast_period.py:0
+#, python-format
+msgid "End Date should be greater than Start Date"
+msgstr "تاریخ پایان باید بیشتر از تاریخ شروع باشد"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__extra_gain_and_loss
+msgid "Extra Gain and Loss"
+msgstr "سود و ضرر اضافی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecasting_installation_wizard
+msgid "Extract"
+msgstr "استخراج کردن"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+msgid "Extract Budget Forecast"
+msgstr "پیش بینی بودجه را استخراج کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,done_text:setu_cash_flow_forecasting.onboarding_onboarding_step_create_forecast
+msgid "First Forecast Created!"
+msgstr "پیش بینی اول ایجاد شده!"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.action_cash_forecast_fiscal_period
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__fiscal_period_ids
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__period_id
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_cash_forecast_fiscal_period
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_cash_forecast_fiscal_year
+msgid "Fiscal Period"
+msgstr "دوره مالی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.action_cash_forecast_fiscal_year
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__fiscal_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__fiscal_year_id
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_cash_forecast_fiscal_year
+msgid "Fiscal Year"
+msgstr "سال مالی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__fixed_value
+msgid "Fixed value"
+msgstr "مقدار ثابت"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/js/pivot.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/js/pivot.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/js/pivot.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/js/pivot.xml:0
+#, python-format
+msgid "Flip axis"
+msgstr "محور تلنگر"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_follower_ids
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_partner_ids
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (شرکا)"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__percentage_by_type
+msgid "Forecast (%)"
+msgstr "پیش بینی (٪)"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,title:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_categories
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+msgid "Forecast Category"
+msgstr "دسته پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecash_group.py:0
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecash_group.py:0
+#, python-format
+msgid "Forecast Category you want to create is duplicate"
+msgstr "دسته پیش بینی که می خواهید ایجاد کنید تکراری است"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__forecast_date
+msgid "Forecast Date"
+msgstr "تاریخ پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__forecast_end_period
+msgid "Forecast End Period"
+msgstr "دوره پایان پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Forecast Execution Duration"
+msgstr "مدت زمان اجرای پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__recurring_duration_interval
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Forecast Execution Duration(In Months)"
+msgstr "مدت زمان اجرای پیش بینی (در ماه ها)"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Forecast Execution Duration(In days)"
+msgstr "مدت زمان اجرای پیش بینی (در روزها)"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Forecast Execution Duration(In weeks)"
+msgstr "مدت زمان اجرای پیش بینی (در هفته ها)"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+msgid "Forecast Group"
+msgstr "گروه پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__forecast_period_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__forecast_period_id
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+msgid "Forecast Period"
+msgstr "دوره پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,title:setu_cash_flow_forecasting.onboarding_onboarding_step_fiscal_year
+msgid "Forecast Periods"
+msgstr "دوره های پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__forecast_property
+msgid "Forecast Property"
+msgstr "دارایی پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__forecast_start_period
+msgid "Forecast Start Period"
+msgstr "دوره شروع پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__forecast_type_id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__forecast_type_id
+#: model:onboarding.onboarding.step,title:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_type
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+msgid "Forecast Type"
+msgstr "نوع پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,done_text:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_type
+msgid "Forecast Type Created!"
+msgstr "نوع پیش بینی ایجاد شده!"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__forecast_value
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__forecast_value
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__create_update_cash_forecast__calculate__forecast
+msgid "Forecast Value"
+msgstr "مقدار پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast.py:0
+#, python-format
+msgid "Forecast data not unique."
+msgstr "داده های پیش بینی منحصر به فرد نیست."
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#, python-format
+msgid "Forecast type you want to create is duplicate"
+msgstr "نوع پیش بینی ای که می خواهید ایجاد کنید تکراری است"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__forecast_start_period
+msgid "Forecast will be calculated from the period that is selected here"
+msgstr "پیش بینی از دوره ای که در اینجا انتخاب می شود محاسبه می شود"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__forecast_end_period
+msgid "Forecast will be calculated up to the period that is selected here"
+msgstr "پیش بینی تا دوره ای که در اینجا انتخاب می شود محاسبه می شود"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Forecasted Ratio Chart"
+msgstr "نمودار نسبت پیش بینی شده"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Forecasted Value Chart"
+msgstr "نمودار ارزش پیش بینی شده"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__forecasting_tag
+msgid "Forecasting Tag"
+msgstr "برچسب پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+msgid "Future Period Forecast"
+msgstr "پیش بینی دوره آینده"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__forecast_type
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__type
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__forecast_type
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__type
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_categories_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.tree_setu_cash_forecast
+msgid "Group"
+msgstr "گروه"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.kanban_setu_cash_forecast_type
+msgid "Group :"
+msgstr "گروه:"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.local_account_book_search_view
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_categories_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Group By"
+msgstr "گروه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__has_message
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__has_message
+msgid "Has Message"
+msgstr "پیام دارد"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__help_for_wizard
+msgid "Help"
+msgstr "کمک"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_flow_forecasting_dashboard__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__id
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast__message_needaction
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "در صورت بررسی ، پیام های جدید به توجه شما نیاز دارند."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast__message_has_error
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast__message_has_sms_error
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_has_error
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "در صورت بررسی ، برخی از پیام ها خطای تحویل دارند."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__create_update_cash_forecast__calculated_base_on__demo
+msgid "Imported Account Data"
+msgstr "داده های حساب وارداتی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.actions_setu_budget_forecasting_installation_wizard
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_res_config_settings__include_budget_forecast
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__include_budget_forecast
+msgid "Include Budget Forecast"
+msgstr "شامل پیش بینی بودجه"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_graph_view
+msgid "Income Graph"
+msgstr "نمودار درآمد"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/get_rule.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/get_rule.xml:0
+#, python-format
+msgid "Info"
+msgstr "اطلاعات"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+msgid "Install"
+msgstr "نصب کردن"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_res_config_settings__module_setu_budget_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__module_setu_budget_forecasting
+msgid "Install Setu Budget Forecasting"
+msgstr "پیش بینی بودجه را نصب کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__install_image
+msgid "Installation Image"
+msgstr "تصویر نصب"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Invisible in Reports"
+msgstr "در گزارش ها نامرئی است"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__invisible_in_report
+msgid "Invisible in report"
+msgstr "در گزارش نامرئی است"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_is_follower
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_is_follower
+msgid "Is Follower"
+msgstr "پیرو است"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__is_group_for_opening
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__is_group_for_opening
+msgid "Is Group For Opening Balance"
+msgstr "برای باز کردن تعادل گروهی است"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__cash_dashboard_onboarding_state__just_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__create_forecast_data_state__just_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__fiscal_year_setup_data_state__just_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__forecast_category_setup_data_state__just_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__forecast_type_setup_data_state__just_done
+msgid "Just done"
+msgstr "فقط انجام شده"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__kanban_dashboard_graph
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__kanban_dashboard_graph
+msgid "Kanban Dashboard Graph"
+msgstr "نمودار پیشخوان Kanban"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_flow_forecasting_dashboard__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__write_uid
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز شده توسط"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_budget_forecasting_installation_wizard__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_flow_forecasting_dashboard__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__write_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز شده در"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Line Chart"
+msgstr "نمودار خط"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.act_window,name:setu_cash_flow_forecasting.local_account_book_act_window
+#: model:ir.model,name:setu_cash_flow_forecasting.model_local_account_book
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.local_account_book_menu
+msgid "Local Account Book"
+msgstr "کتاب حساب محلی"
+
+#. module: setu_cash_flow_forecasting
+#: model:res.groups,name:setu_cash_flow_forecasting.group_setu_cash_flow_forecasting_manager
+msgid "Manager"
+msgstr "مدیر"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Manual Calculate"
+msgstr "محاسبه دستی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_has_error
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_ids
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_ids
+msgid "Messages"
+msgstr "پیام"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_ir_module_module
+msgid "Module"
+msgstr "افزونه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__cash_forecast_fiscal_year__period_interval__months
+msgid "Monthly"
+msgstr "ماهانه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__multiply_by
+msgid "Multiply by"
+msgstr "ضرب توسط"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_tag__name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__name
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__name
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Name"
+msgstr "نام"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_type__net_forecast
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_categories__type__net_forecast
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__type__net_forecast
+msgid "Net Forecasting"
+msgstr "پیش بینی خالص"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "No Data Found"
+msgstr "هیچ داده ای یافت نشد"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__cash_dashboard_onboarding_state__not_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__create_forecast_data_state__not_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__fiscal_year_setup_data_state__not_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__forecast_category_setup_data_state__not_done
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__res_company__forecast_type_setup_data_state__not_done
+msgid "Not done"
+msgstr "انجام نشده"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__number_of_period_months
+msgid "Number Of Periods"
+msgstr "تعداد دوره ها"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_needaction_counter
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Number of Days"
+msgstr "تعداد روزها"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Number of Entries"
+msgstr "تعداد ورودی ها"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__average_value_of_days
+msgid "Number of days"
+msgstr "تعداد روزها"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_has_error_counter
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast__message_needaction_counter
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast__message_has_error_counter
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام ها با خطای تحویل"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_onboarding_onboarding
+msgid "Onboarding"
+msgstr "معارفه سازمانی"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,step_image_alt:setu_cash_flow_forecasting.onboarding_onboarding_step_create_forecast
+msgid "Onboarding Create Forecast"
+msgstr "ورود به سامانه پیش بینی ایجاد کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,step_image_alt:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_categories
+msgid "Onboarding Forecast Category"
+msgstr "دسته پیش بینی سوارکاری"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,step_image_alt:setu_cash_flow_forecasting.onboarding_onboarding_step_fiscal_year
+msgid "Onboarding Forecast Periods"
+msgstr "دوره های پیش بینی سوارکاری"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,step_image_alt:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_type
+msgid "Onboarding Forecast Type"
+msgstr "نوع پیش بینی سوارکاری"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_onboarding_onboarding_step
+msgid "Onboarding Step"
+msgstr "مراحل معارفه سازمانی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_type__opening
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_categories__type__opening
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_report__forecast_type__opening
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__type__opening
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_categories_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Opening Forecast"
+msgstr "پیش بینی افتتاحیه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_property__over
+msgid "Over Forecast"
+msgstr "پیش بینی بیش از"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Overall forecasted Cash-In will be displayed in this Graph."
+msgstr "به طور کلی پیش بینی پول نقد در این نمودار نمایش داده می شود."
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Overall forecasted Cash-Out will be displayed in this Graph."
+msgstr "کل پول نقد پیش بینی شده در این نمودار نمایش داده می شود."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__parent_forecast_type_id
+msgid "Parent forecast type"
+msgstr "نوع پیش بینی والدین"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__calculate_from__past_account_entries
+msgid "Past Accounting Entries"
+msgstr "ورودی های حسابداری گذشته"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_search
+msgid "Past Period Forecast"
+msgstr "پیش بینی دوره گذشته"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__calculate_from__past_period_forecasting_entries
+msgid "Past Period Forecasting Entries"
+msgstr "مدخل پیش بینی دوره گذشته"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__calculate_from__pending
+msgid "Pending Payable / Receivable"
+msgstr "در انتظار پرداخت / دریافتنی"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_search
+msgid "Period"
+msgstr "دوره"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_create_update_cash_forecast__period_domain
+msgid "Period Domain"
+msgstr "دامنه دوره"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__period_interval
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__period_interval
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__period_interval
+msgid "Period Interval"
+msgstr "فاصله زمانی"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Please Choose Fiscal Period"
+msgstr "لطفا دوره مالی را انتخاب کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#, python-format
+msgid "Please Enter greater then 0 values For '{}'"
+msgstr "لطفاً برای \"{}\" بیشتر از 0 مقادیر را وارد کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#, python-format
+msgid "Please Enter positive values For 'Multiply by'"
+msgstr "لطفاً مقادیر مثبت را برای \"ضرب در\" وارد کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Please Select Proper Date"
+msgstr "لطفا تاریخ مناسب را انتخاب کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#, python-format
+msgid "Please select valid period range."
+msgstr "لطفاً محدوده دوره معتبر را انتخاب کنید."
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#, python-format
+msgid "Please set proper account in cash forecast type"
+msgstr "لطفاً حساب مناسب را در نوع پیش بینی نقدینگی تنظیم کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Ratio"
+msgstr "نسبت"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__create_update_cash_forecast__calculated_base_on__real
+msgid "Real Account Data"
+msgstr "داده های حساب واقعی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__real_value
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_report__real_value
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__create_update_cash_forecast__calculate__real
+msgid "Real Value"
+msgstr "ارزش واقعی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__real_value_multiply_by
+msgid "Real value multiply by"
+msgstr "مقدار واقعی ضرب توسط"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_type_search
+msgid "Recurring"
+msgstr "عود"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__is_recurring
+msgid "Recurring forecast"
+msgstr "پیش بینی مکرر"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecash_group.py:0
+#: code:addons/setu_cash_flow_forecasting/models/setu_cash_forecast_type.py:0
+#, python-format
+msgid "Refund Orders"
+msgstr "سفارشات بازپرداخت"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.menu_sub_setu_cash_forecast_reporting
+msgid "Reporting"
+msgstr "گزارش"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__message_has_sms_error
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیام کوتاه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast_type__calculation_pattern__seasonal
+msgid "Same Period Previous Year"
+msgstr "همان دوره سال گذشته"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_cash_forecast_fiscal_year
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_categories
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.form_setu_cash_forecast_type
+msgid "Save"
+msgstr "ذخیره"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.search_cash_forecast_fiscal_year
+msgid "Search Fiscal Years"
+msgstr "سالهای مالی را جستجو کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Selecione uma opçao"
+msgstr "Selecione uma opçao"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__recurring_duration_interval
+msgid ""
+"Select duration in Months after which you wish to Execute next "
+"ForecastForecast will be executed after the number of Months that is "
+"selected here between duration of Forecast Start Period and Forecast End "
+"Period"
+msgstr ""
+"مدت زمان را انتخاب کنید که پس از آن می خواهید پیش بینی بعدی را اجرا کنید پس "
+"از تعداد ماه هایی که در اینجا بین مدت زمان شروع پیش بینی و دوره پایان پیش "
+"بینی انتخاب می شود ، اجرا می شود"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_categories__sequence
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__sequence
+msgid "Sequence"
+msgstr "ترتیب"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_res_config_settings__include_budget_forecast
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_budget_forecast_settings__include_budget_forecast
+msgid "Set True To Include Budget Forecast"
+msgstr "درست است که شامل پیش بینی بودجه است"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/setu_budget_forecast_settings.py:0
+#: model:ir.actions.server,name:setu_cash_flow_forecasting.action_setu_budget_forecast_settings
+#: model:ir.ui.menu,name:setu_cash_flow_forecasting.setu_budget_forecasting_settings
+#, python-format
+msgid "Settings - Budget Forecast"
+msgstr "تنظیمات - پیش بینی بودجه"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecasting_installation_wizard
+msgid "Setu Budget Forecast Configuration"
+msgstr "پیکربندی پیش بینی بودجه SETU"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_budget_forecast_settings_form
+msgid "Setu Budget Forecast Settings"
+msgstr "تنظیمات پیش بینی بودجه SETU"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_setu_budget_forecasting_installation_wizard
+msgid "Setu Budget Forecasting Installation Wizard"
+msgstr "جادوگر نصب پیش بینی بودجه SETU"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_setu_cash_forecast_report
+msgid "Setu Cash Forecast Report"
+msgstr "گزارش پیش بینی نقدینگی setu"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_period__start_date
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_cash_forecast_fiscal_year__start_date
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_res_company__cash_dashboard_onboarding_state
+msgid "State of the Cash dashboard onboarding panel"
+msgstr "پانل پیشخوان نقدی روی صفحه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_res_company__create_forecast_data_state
+msgid "State of the onboarding Create Forecast data step"
+msgstr "حالت ورود به سامانه مرحله پیش بینی داده ایجاد می کند"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_res_company__fiscal_year_setup_data_state
+msgid "State of the onboarding Fiscal Year data step"
+msgstr "مرحله داده های سال مالی ورود به سامانه"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_res_company__forecast_category_setup_data_state
+msgid "State of the onboarding Forecast Category data step"
+msgstr "مرحله داده های دسته پیش بینی پردازش مرحله"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_res_company__forecast_type_setup_data_state
+msgid "State of the onboarding Forecast Type data step"
+msgstr "مرحله داده های نوع پیش بینی پردازنده"
+
+#. module: setu_cash_flow_forecasting
+#: model:onboarding.onboarding.step,done_text:setu_cash_flow_forecasting.onboarding_onboarding_step_fiscal_year
+#: model:onboarding.onboarding.step,done_text:setu_cash_flow_forecasting.onboarding_onboarding_step_forecast_categories
+msgid "Step Completed!"
+msgstr "مرحله به پایان رسید!"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.actions.act_window,help:setu_cash_flow_forecasting.local_account_book_act_window
+msgid "There is no examples click here to add new Account history."
+msgstr "برای افزودن تاریخچه حساب جدید ، اینجا کلیک کنید."
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/cash_forecast_period.py:0
+#, python-format
+msgid "This Start Date, End Date or Code is used in other fiscal year"
+msgstr "این تاریخ شروع ، تاریخ پایان یا کد در سال مالی دیگر استفاده می شود"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/cash_forecast_period.py:0
+#, python-format
+msgid "This date period is already created"
+msgstr "این دوره تاریخ قبلاً ایجاد شده است"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid ""
+"This graph compares forecasted Cash-In versus Real Cash-In of each type for "
+"the duration that user selects."
+msgstr ""
+"این نمودار برای مدت زمانی که کاربر انتخاب می کند ، نقدی پیش بینی شده در "
+"مقابل پول نقد واقعی هر نوع را مقایسه می کند."
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid ""
+"This graph compares forecasted Cash-Out versus Real Cash-Out of each type "
+"for the duration that user selects."
+msgstr ""
+"این نمودار برای مدت زمانی که کاربر انتخاب می کند ، نقدی پیش بینی شده در "
+"مقابل پول نقد واقعی از هر نوع را مقایسه می کند."
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__multiply_by
+msgid ""
+"This option allows you to increment the Forecast Value by percentage that "
+"you enter here.For eg: To increment forecast value by 5% enter 0.05. To "
+"double the forecast value enter 2"
+msgstr ""
+"این گزینه به شما امکان می دهد مقدار پیش بینی را بر اساس درصد که در اینجا "
+"وارد می کنید افزایش دهید. به عنوان مثال: برای افزایش مقدار پیش بینی 5 ٪ 0.05"
+" را وارد کنید. برای دو برابر کردن مقدار پیش بینی 2 را وارد کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/js/pivot.js:0
+#, python-format
+msgid "Total"
+msgstr "مجموع"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_property__true
+msgid "True Value"
+msgstr "ارزش واقعی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__setu_cash_forecast__forecast_property__under
+msgid "Under Forecast"
+msgstr "تحت پیش بینی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.actions.server,name:setu_cash_flow_forecasting.ir_actions_update_forecast_from_forecast_type
+msgid "Update Forecast from Forecast Type"
+msgstr "پیش بینی را از نوع پیش بینی به روز کنید"
+
+#. module: setu_cash_flow_forecasting
+#: model:res.groups,name:setu_cash_flow_forecasting.group_setu_cash_flow_forecasting_user
+msgid "User"
+msgstr "کاربر"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "Value"
+msgstr "ارزش"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast__website_message_ids
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_setu_cash_forecast_type__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های تارنما"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast__website_message_ids
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات تارنما"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields.selection,name:setu_cash_flow_forecasting.selection__cash_forecast_fiscal_year__period_interval__weeks
+msgid "Weekly"
+msgstr "هفتگی"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,help:setu_cash_flow_forecasting.field_setu_cash_forecast_type__real_value_multiply_by
+msgid ""
+"While calculating Real Value of this type, if valuation of account appears "
+"negative and you wish to display it positive then multiply it with -1"
+msgstr ""
+"در حالی که ارزش واقعی این نوع را محاسبه می کنید ، اگر ارزیابی حساب منفی به "
+"نظر می رسد و می خواهید آن را مثبت نمایش دهید و سپس آن را با -1 ضرب کنید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/cash_forecast_period.py:0
+#: code:addons/setu_cash_flow_forecasting/models/cash_forecast_period.py:0
+#, python-format
+msgid "You can't Delete period Because This Period Forecast already created"
+msgstr ""
+"شما نمی توانید دوره را حذف کنید زیرا این دوره پیش بینی می شود که قبلاً ایجاد"
+" شده است"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-python
+#: code:addons/setu_cash_flow_forecasting/models/res_config_settings.py:0
+#: code:addons/setu_cash_flow_forecasting/models/setu_budget_forecast_settings.py:0
+#, python-format
+msgid ""
+"You don't have Enterprise Version of odoo please upgrade to enable budget "
+"forecast"
+msgstr ""
+"شما نسخه شرکت Odoo را ندارید ، لطفاً برای فعال کردن پیش بینی بودجه ارتقا "
+"دهید"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "bar"
+msgstr "نوار"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model,name:setu_cash_flow_forecasting.model_cash_forecast_tag
+msgid "cash.forecast.tag"
+msgstr "cash.forecast.tag"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.cash_forecast_tag_view_tree
+msgid "cash_forecast_tag_tree"
+msgstr "Cash_forecast_tag_tree"
+
+#. module: setu_cash_flow_forecasting
+#: model:ir.model.fields,field_description:setu_cash_flow_forecasting.field_local_account_book__description
+msgid "description"
+msgstr "شرح"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "line"
+msgstr "خط"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "ratio_chart"
+msgstr "نسبت_چارت"
+
+#. module: setu_cash_flow_forecasting
+#: model_terms:ir.ui.view,arch_db:setu_cash_flow_forecasting.setu_cash_forecast_report_view_tree
+msgid "setu_cash_forecast_report_tree"
+msgstr "setu_cash_forecast_report_tree"
+
+#. module: setu_cash_flow_forecasting
+#. odoo-javascript
+#: code:addons/setu_cash_flow_forecasting/static/src/xml/setu_cash_forecast_dashboard.xml:0
+#, python-format
+msgid "value_chart"
+msgstr "ارزش"

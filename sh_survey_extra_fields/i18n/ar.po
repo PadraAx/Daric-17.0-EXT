@@ -1,0 +1,276 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_survey_extra_fields
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-30 12:14+0000\n"
+"PO-Revision-Date: 2020-10-30 12:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_textbox_for_pattern
+msgid "#{question.validation_sh_textbox_placeholder}"
+msgstr "#{question.validation_sh_textbox_placeholder}"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "18:00"
+msgstr "18:00"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "20"
+msgstr "20"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-03"
+msgstr "2018-03"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-05"
+msgstr "2018-05"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-W18"
+msgstr "2018-W18"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "2018-W26"
+msgstr "2018-W26"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "60 (In seconds)"
+msgstr "60 (في ثواني)"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.sh_survey_extra_fields_survey_que_form_view
+msgid "9:00"
+msgstr "09:00"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__answer_type
+msgid "Answer Type"
+msgstr "الجواب نوع"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_file_print
+msgid "Click here to download file"
+msgstr "انقر هنا لتحميل الملف"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_color
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_color
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_color
+msgid "Color"
+msgstr "اللون"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__display_name
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input__display_name
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_email
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_email
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_email
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_file
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_file
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_file
+msgid "File"
+msgstr "ملف"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_file_fname
+msgid "File Name"
+msgstr "اسم الملف"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__id
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input__id
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__id
+msgid "ID"
+msgstr "هوية شخصية"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model,name:sh_survey_extra_fields.model_survey_question
+msgid "Inherit Survey Question for extra fields"
+msgstr "سؤال المسح وراثة لحقول إضافية"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_is_sh_textbox_pattern
+msgid "Input must be in specified pattern"
+msgstr "يجب أن يكون الإدخال في نمط محدد"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question____last_update
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input____last_update
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل ل"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_month_max
+msgid "Maximum Month"
+msgstr "أقصى شهر"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_range_max
+msgid "Maximum Range"
+msgstr "أقصى مدى"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_time_max
+msgid "Maximum Time"
+msgstr "أقصى وقت"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_week_max
+msgid "Maximum Week"
+msgstr "أقصى أسبوع"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_month_min
+msgid "Minimum Month"
+msgstr "الحد الأدنى شهر"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_range_min
+msgid "Minimum Range"
+msgstr "المدى الدنيا"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_time_min
+msgid "Minimum Time"
+msgstr "الحد الأدنى من الوقت"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_week_min
+msgid "Minimum Week"
+msgstr "الحد الأدنى أسبوع"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_month
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_month
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_month
+msgid "Month"
+msgstr "شهر"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_month_step
+msgid "Month Step"
+msgstr "الخطوة الشهر"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_password
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_password
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_password
+msgid "Password"
+msgstr "كلمه السر"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_password_maxlen
+msgid "Password Maximum Length"
+msgstr "كلمة طول الحد الأقصى"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_password_minlen
+msgid "Password Minimum Length"
+msgstr "كلمة طول الدنيا"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__question_type
+msgid "Question Type"
+msgstr "نوع السؤال"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_range
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_range
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_range
+msgid "Range"
+msgstr "نطاق"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_range_step
+msgid "Range Step"
+msgstr "الخطوة مجموعة"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model,name:sh_survey_extra_fields.model_survey_user_input
+msgid "Survey User Input"
+msgstr "مسح إدخالات المستخدم"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model,name:sh_survey_extra_fields.model_survey_user_input_line
+msgid "Survey User Input Line for extra fields"
+msgstr "مسح الخط إدخالات المستخدم للحقول إضافية"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_textbox_pattern
+msgid "Textbox Pattern"
+msgstr "النص نمط"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_textbox_placeholder
+msgid "Textbox Placeholder"
+msgstr "نص عنصر نائب"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_time
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_time
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_time
+msgid "Time"
+msgstr "زمن"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_time_step
+msgid "Time Step"
+msgstr "خطوة زمنية"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_url
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_url
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_url
+msgid "URL"
+msgstr "URL"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_user_input_line__value_ans_sh_week
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_question__question_type__que_sh_week
+#: model:ir.model.fields.selection,name:sh_survey_extra_fields.selection__survey_user_input_line__answer_type__ans_sh_week
+msgid "Week"
+msgstr "أسبوع"
+
+#. module: sh_survey_extra_fields
+#: model:ir.model.fields,field_description:sh_survey_extra_fields.field_survey_question__validation_sh_week_step
+msgid "Week Step"
+msgstr "الأسبوع الخطوة"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_email
+msgid "example@domain.com"
+msgstr "example@domain.com"
+
+#. module: sh_survey_extra_fields
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_time
+#: model_terms:ir.ui.view,arch_db:sh_survey_extra_fields.tmpl_sh_url
+msgid "https://example.com"
+msgstr "https://example.com"

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_business_domains_form" model="ir.ui.view">
+    <field name="model">requirement.business.domains</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <field name="icon_image" widget="image" class="oe_avatar"/>
+          <field name="code" readonly="1"/>
+          <div class="oe_title ">
+            <h1>
+              <field name="name" options="{'line_breaks': False}" widget="text"  placeholder="Business Domain Title..."/> 
+            </h1>
+            </div>
+          <group>
+        <field name="businessdomain_category_id" options="{'no_create': False, 'no_create_edit':True,'no_open': True}"  />
+        <field name="module_id"/>
+        <field name="module_state" readonly="1"/>
+        <field name="application"  readonly="1"/>
+        <field name="imp_status" readonly="module_state != 'installed'"/>
+          </group>
+          <notebook>
+            <page string="Description" name="page_description">
+              <group>
+                <field name="description" placeholder="Enter your description"
+                options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" />
+              </group>
+            </page>
+            <page string="Integrations" name="page_integrations">
+                  <field name="integration_ids" nolabel="1" colspan="2">
+
+                  <tree string="Integrations" create="1" >
+                    <control>
+                      <create name="add_line_control" string="Add a new integration">
+                      </create>
+                    </control>
+                    <field name="integration_id" />
+                    <field name="integration_type"/>
+                    <field name="icon_image" widget="image" class="oe_avatar"/>
+                  </tree>
+                </field>
+            </page>
+            <page string="Projects" name="page_projects">
+              <field name="project_ids" nolabel="1" colspan="2" >
+              <tree string="Projects" create="1">
+                
+              </tree>
+            </field>
+          </page>
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_business_domains_tree" model="ir.ui.view">
+    <field name="model">requirement.business.domains</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" >
+        <header>      
+        </header>
+        <field name="code" readonly="1"/>
+        <field name="businessdomain_category_id" options="{'no_create': True, 'no_create_edit':True,'no_open': True}"  />
+        <field name="module_id"/>
+        <field name="module_state" readonly="1"/>
+        <field name="application"  readonly="1"/>
+        <field name="name"/>
+        <field name="imp_status" readonly="module_state != 'installed'"/>
+        <field name="create_uid" />
+        <field name="create_date" />
+        <field name="write_uid" optional="hide"/>
+        <field name="write_date" optional="hide"/>
+      </tree>
+    </field>
+  </record>
+  <record id="view_business_domains_search" model="ir.ui.view">
+    <field name="model">requirement.business.domains</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="code"/>
+            <field name="name"/>
+            <field name="imp_status"/>
+            <field name="businessdomain_category_id"/>
+          <field name="module_id"/>
+          <field name="application"/>    
+          <field name="description"/>
+         
+      
+      </search>
+    </field>
+  </record>
+  <record id="action_business_domains" model="ir.actions.act_window">
+    <field name="name">Business Domains</field>
+    <field name="res_model">requirement.business.domains</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Business Domain'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Business Domains"
+    id="menu_business_domains"
+    parent="menu_configuration"
+    action="action_business_domains"
+    sequence="3">
+  </menuitem>
+
+</odoo>

@@ -1,0 +1,331 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* refer_friend_and_earn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-21 12:21+0000\n"
+"PO-Revision-Date: 2025-04-21 12:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid ""
+"<i style=\"color: #6e4975;font-family: initial; margin-left: 45px;\">\n"
+"                                    Wish you a happy\n"
+"                                    Shopping.........!!!!!!!!!!!!\n"
+"                                </i>"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid ""
+"<span>\n"
+"                            <b>Now</b>\n"
+"                        </span>\n"
+"                        ,you can introduce us to your friends and earn points.\n"
+"                        You have a unique referral code, and can send it to\n"
+"                        your\n"
+"                        friends and request\n"
+"                        them to log in to the site by using the referral code\n"
+"                        and,\n"
+"                        they are also able to\n"
+"                        refer another friends and can earn.For single sign up\n"
+"                        of\n"
+"                        your fiends, by using the referral code\n"
+"                        can have points, and now you can buy the products at\n"
+"                        exciting discount price.\n"
+"                        <br/>\n"
+"                        <br/>"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#. odoo-python
+#: code:addons/refer_friend_and_earn/controllers/refer_friend_and_earn.py:0
+#, python-format
+msgid "Another user is already registered using this email address."
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.point_form
+msgid "Apply"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.ui.menu,name:refer_friend_and_earn.apply_discounts_action_menu
+msgid "Apply Discount"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.actions.act_window,name:refer_friend_and_earn.apply_discounts_action
+msgid "Apply Discounts"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model,name:refer_friend_and_earn.model_apply_discounts
+msgid "Apply discounts according to the points"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Close"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model,name:refer_friend_and_earn.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: refer_friend_and_earn
+#: model:ir.model,name:refer_friend_and_earn.model_res_partner
+msgid "Contact"
+msgstr "مخاطب"
+
+#. module: refer_friend_and_earn
+#. odoo-python
+#: code:addons/refer_friend_and_earn/controllers/refer_friend_and_earn.py:0
+#, python-format
+msgid "Could not create a new account."
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:product.template,name:refer_friend_and_earn.discount_product
+msgid "Discount"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__discount
+msgid "Discount in %"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_apply_discounts__discount
+msgid "Discounts in Percentage"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Email"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__end_points
+#: model:ir.model.fields,help:refer_friend_and_earn.field_apply_discounts__end_points
+msgid "Ending points"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Enter your code"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.lack_of_points_template
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.website_success_page
+msgid "Go Back"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.have_points
+msgid ""
+"I have\n"
+"                                            points"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__id
+msgid "ID"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid ""
+"Mail to your\n"
+"                                        friend"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_res_partner__points
+#: model:ir.model.fields,help:refer_friend_and_earn.field_res_users__points
+msgid "Points acquired"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_sale_order__points_applied
+msgid "Points applied"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_sale_order__points_applied
+msgid "Points applied to the corresponding sale order"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Points:"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:mail.template,subject:refer_friend_and_earn.mail_template_refer_and_earn
+msgid "Refer And Earn"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:mail.template,name:refer_friend_and_earn.mail_template_refer_and_earn
+msgid "Refer Code: Refer and Earn"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Refer Your Friend and Earn"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:website.menu,name:refer_friend_and_earn.refer_and_earn
+msgid "Refer and Earn"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_res_partner__referral_code
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_res_users__referral_code
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.signup_referral_code
+msgid "Referral Code"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_res_partner__referral_code
+#: model:ir.model.fields,help:refer_friend_and_earn.field_res_users__referral_code
+msgid "Referral code"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model,name:refer_friend_and_earn.model_sale_order
+msgid "Sales Order"
+msgstr "سفارش فروش"
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Send"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Share"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "Sign up:"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_res_config_settings__sign_up_points
+msgid "Signup Points"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.lack_of_points_template
+msgid ""
+"Sorry !!!!!!!!!!!!!\n"
+"                            <br/>\n"
+"                            Please enter valid points"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_apply_discounts__starting_points
+msgid "Starting point"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_apply_discounts__starting_points
+msgid "Starting points"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.website_success_page
+msgid ""
+"Thank you!!!!!!!!!!!!!\n"
+"                            <br/>\n"
+"                            Your Referral code has been successfully sent"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_sale_order__discount_applied
+msgid "The percentage of discount applied"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_sale_order__discount_applied
+msgid "discount applied"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "email"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_res_partner__points
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_res_users__points
+msgid "points"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.point_form
+msgid "points..."
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model_terms:ir.ui.view,arch_db:refer_friend_and_earn.refer_earn_template
+msgid "send"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_res_config_settings__sign_up_points
+msgid "shows how much points will earn for single signup"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,help:refer_friend_and_earn.field_res_partner__sign_up
+#: model:ir.model.fields,help:refer_friend_and_earn.field_res_users__sign_up
+msgid "shows number of signup happens by using your referral code"
+msgstr ""
+
+#. module: refer_friend_and_earn
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_res_partner__sign_up
+#: model:ir.model.fields,field_description:refer_friend_and_earn.field_res_users__sign_up
+msgid "signups"
+msgstr ""

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_feature_category_form" model="ir.ui.view">
+    <field name="model">requirement.feature.category</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <field name="code"/>
+            <field name="businessdomain_category_id"/>
+            <field name="business_domain_id"/>
+            <field name="name"/>
+           
+        
+          </group>
+
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_feature_category_tree" model="ir.ui.view">
+    <field name="model">requirement.feature.category</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="1" editable="top">
+        <header>
+        </header>
+        <field name="code"/>
+        <field name="businessdomain_category_id"/>
+        <field name="business_domain_id"/>
+        <field name="name"/>
+        <field name="create_uid" />
+        <field name="create_date" />
+        <field name="write_uid" optional="hide"/>
+        <field name="write_date" optional="hide"/>
+            </tree>
+    </field>
+  </record>
+  <record id="view_feature_category_search" model="ir.ui.view">
+    <field name="model">requirement.feature.category</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="code"/>
+        <field name="businessdomain_category_id"/>
+        <field name="business_domain_id"/>
+        <field name="name"/>
+      </search>
+    </field>
+  </record>
+  <record id="action_feature_category" model="ir.actions.act_window">
+    <field name="name">Feature Categories</field>
+    <field name="res_model">requirement.feature.category</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Feature Category'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Feature Categories"
+    id="menu_feature_category"
+    parent="menu_configuration"
+    action="action_feature_category"
+    sequence="4">
+  </menuitem>
+
+</odoo>

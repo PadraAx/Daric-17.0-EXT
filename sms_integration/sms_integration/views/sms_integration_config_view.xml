@@ -1,0 +1,30 @@
+<odoo>
+    <data>
+        <!-- SMS Integration Settings -->
+        <record id="view_sms_integration_config_settings" model="ir.ui.view">
+            <field name="name">sms.integration.config.settings.form</field>
+            <field name="model">res.config.settings</field>
+            <field name="arch" type="xml">
+                <form string="SMS Integration Settings">
+                    <group>
+                        <field name="otp_login_enabled"/>
+                        <field name="sms_api_key"/>
+                        <field name="sms_linenumber"/>
+                    </group>
+                    <footer>
+                        <button name="save" string="Save" type="object" class="btn btn-primary"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action to open settings -->
+        <record id="action_sms_integration_config_settings" model="ir.actions.act_window">
+            <field name="name">SMS Integration Settings</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_sms_integration_config_settings"/>
+            <field name="target">current</field>
+        </record>
+    </data>
+</odoo>

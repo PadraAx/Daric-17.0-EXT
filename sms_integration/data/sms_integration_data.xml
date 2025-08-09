@@ -1,0 +1,32 @@
+<odoo>
+    <data>
+        <!-- Access Rights for SMS Integration -->
+        <record id="sms_integration_access_rule" model="ir.model.access">
+            <field name="name">sms.integration access</field>
+            <field name="model_id" ref="model_sms_integration"/>
+            <field name="group_id" ref="base.group_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <!-- Configuration Parameter for OTP Login -->
+        <record id="sms_integration_otp_login_enabled" model="ir.config_parameter">
+            <field name="key">sms_integration.otp_login_enabled</field>
+            <field name="value">True</field>
+        </record>
+
+        <!-- Configuration Parameter for SMS Integration API -->
+        <record id="sms_integration_api_key" model="ir.config_parameter">
+            <field name="key">sms_integration.api_key</field>
+            <field name="value">your-api-key-here</field>
+        </record>
+
+        <record id="sms_integration_line_number" model="ir.config_parameter">
+            <field name="key">sms_integration.linenumber</field>
+            <field name="value">your-line-number-here</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,1366 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* requirement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 01:58+0000\n"
+"PO-Revision-Date: 2025-02-14 01:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_business_domains_integration__integration_type
+msgid ""
+"\n"
+"                1. Functional Integration (Modules work together to provide extended functionality.)\n"
+"                2. Intra-Module Inheritance(In Odoo, a module can extend the functionality of another module using inheritance. There are two types: Classical Inheritance, View Inheritance)\n"
+"                3. External Service Integration (API Integration)\n"
+"                Odoo integrates with external services via APIs. Common examples include: Payment Gateways (e.g., PayPal, Stripe). Shipping Providers (e.g., FedEx, UPS). External APIs (e.g., Google Maps for geo-location, social media for marketing).\n"
+"                4. Connector Modules\n"
+"                Connector modules are used to sync Odoo with external systems, including: E-commerce Platforms (e.g., Magento, WooCommerce, Shopify). CRM Systems (e.g., Salesforce). Marketplaces (e.g., Amazon, eBay).\n"
+"                5. Reporting Integration\n"
+"                Odoo integrates with various reporting tools for advanced reporting capabilities: Business Intelligence (BI) Tools (e.g., integrating Odoo with Power BI or Tableau).\n"
+"                6. Third-Party App Integration\n"
+"                Odoo has a marketplace with third-party apps that extend or integrate with core modules. These apps can be installed to add industry-specific functionality, improve usability, or introduce new features, like project management tools, fleet management, or POS systems.\n"
+"                7. Website Integration\n"
+"                Website & eCommerce: Odoo’s Website module integrates with CRM, Sales, Inventory, and Accounting for eCommerce.\n"
+"                8. Middleware Integration\n"
+"                Odoo can integrate with middleware systems that serve as an intermediary for connecting multiple software applications (like ERP, CRM, or databases), ensuring smooth data exchange.\n"
+"                9. Custom API Development\n"
+"                Odoo provides an XML-RPC API and JSON-RPC API for creating custom integrations to connect with third-party applications. Developers can build custom connectors to link Odoo with non-standard systems.\n"
+"                10. IoT Integration\n"
+"                Odoo integrates with IoT (Internet of Things) devices. For example: Point of Sale (POS) systems integrate with barcode scanners, printers, or scales.\n"
+"        "
+msgstr ""
+"1. یکپارچه سازی عملکردی (ماژول ها با هم کار می کنند تا عملکرد گسترده ای را ارائه دهند.)\n"
+"                2. وراثت درون ماژول (در Odoo، یک ماژول می تواند عملکرد ماژول دیگری را با استفاده از وراثت گسترش دهد. دو نوع وجود دارد: ارث بردن کلاسیک، وراثت مشاهده)\n"
+"                3. یکپارچه سازی خدمات خارجی (ادغام API)\n"
+"                Odoo با سرویس های خارجی از طریق API ها ادغام می شود. مثال‌های رایج عبارتند از: درگاه‌های پرداخت (به عنوان مثال، پی پال، استریپ). ارائه دهندگان حمل و نقل (به عنوان مثال، FedEx، UPS). API های خارجی (به عنوان مثال، نقشه های گوگل برای موقعیت جغرافیایی، رسانه های اجتماعی برای بازاریابی).\n"
+"                4. ماژول های رابط\n"
+"                ماژول‌های رابط برای همگام‌سازی Odoo با سامانه‌های خارجی، از جمله: پلتفرم‌های تجارت الکترونیک (مانند Magento، WooCommerce، Shopify) استفاده می‌شوند. سامانه های CRM (به عنوان مثال، Salesforce). بازارها (به عنوان مثال، آمازون، eBay).\n"
+"                5. یکپارچه سازی گزارش\n"
+"                Odoo با ابزارهای گزارش دهی مختلف برای قابلیت های گزارش دهی پیشرفته ادغام می شود: ابزارهای هوش تجاری (BI) (به عنوان مثال، ادغام Odoo با Power BI یا Tableau).\n"
+"                6. یکپارچه سازی برنامه های شخص ثالث\n"
+"                Odoo بازاری با برنامه های شخص ثالث دارد که با ماژول های اصلی گسترش یا ادغام می شوند. این برنامه ها را می توان برای افزودن عملکردهای خاص صنعت، بهبود قابلیت استفاده یا معرفی ویژگی های جدید مانند ابزارهای مدیریت پروژه، مدیریت ناوگان یا سامانه های POS نصب کرد.\n"
+"                7. یکپارچه سازی تارنما\n"
+"                تارنما و تجارت الکترونیک: ماژول تارنما Odoo با CRM، فروش، موجودی، و حسابداری برای تجارت الکترونیک ادغام می شود.\n"
+"                8. یکپارچه سازی میان افزار\n"
+"                Odoo می‌تواند با سامانه‌های میان‌افزاری که به‌عنوان واسطه برای اتصال چندین نرم‌افزار (مانند ERP، CRM یا پایگاه‌های داده) عمل می‌کنند، ادغام شود و تبادل داده‌ها را تضمین کند.\n"
+"                9. توسعه API سفارشی\n"
+"                Odoo یک XML-RPC API و JSON-RPC API برای ایجاد ادغام های سفارشی برای اتصال با برنامه های شخص ثالث ارائه می دهد. توسعه دهندگان می توانند کانکتورهای سفارشی برای پیوند Odoo با سامانه های غیر استاندارد بسازند.\n"
+"                10. یکپارچه سازی اینترنت اشیا\n"
+"                Odoo با دستگاه های IoT (اینترنت اشیا) ادغام می شود. به عنوان مثال: سامانه های پایانه فروش (POS) با اسکنر بارکد، چاپگر یا ترازو یکپارچه می شوند."
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__6
+msgid " Third-Party App Integration"
+msgstr "ادغام برنامه شخص ثالث"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_kanban
+msgid "<span class=\"o_label ms-1\">Reviews</span>"
+msgstr "<span class=\"o_label ms-1\">نظرات</span>"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "<span class=\"o_stat_text\">Reviews</span>"
+msgstr "<span class=\"o_stat_text\">نظرات</span>"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_needaction
+msgid "Action Needed"
+msgstr "اقدام مورد نیاز"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__active_to_next_state
+msgid "Activate to change status"
+msgstr "برای تغییر وضعیت فعال کنید"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__active
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__active
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__active
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__active
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__active
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__active
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_ids
+msgid "Activities"
+msgstr "فعالیت ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "دکوراسیون استثنایی فعالیت"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_assignments
+msgid "Add a new 'Assignment'"
+msgstr "افزودن یک \"تکلیف\" جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_business_domain_categories
+msgid "Add a new 'Business Domain Category'"
+msgstr "اضافه کردن یک \"دسته دامنه تجاری\" جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_business_domains_integration
+msgid "Add a new 'Business Domain Integration'"
+msgstr "افزودن یک «ادغام دامنه تجاری» جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_business_domains
+msgid "Add a new 'Business Domain'"
+msgstr "افزودن یک «دامنه تجاری» جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_critical_level
+msgid "Add a new 'Critical Level'"
+msgstr "افزودن یک \"سطح بحرانی\" جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_feature_category
+msgid "Add a new 'Feature Category'"
+msgstr "افزودن یک «دسته ویژگی» جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_feature
+msgid "Add a new 'Feature'"
+msgstr "افزودن یک «ویژگی» جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_review
+msgid "Add a new 'Review'"
+msgstr "افزودن یک \"نظر\" جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_solution
+msgid "Add a new 'Solution'"
+msgstr "افزودن یک \"راه حل\" جدید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_requirement_graph
+msgid "Add a new 'requirement'"
+msgstr "اضافه کردن یک \"نیاز\" جدید"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_business_domains_form
+msgid "Add a new integration"
+msgstr "یک ادغام جدید اضافه کنید"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_requirement_tag
+msgid "Add a new tag"
+msgstr "یک برچسب جدید اضافه کنید"
+
+#. module: requirement
+#: model:res.groups,name:requirement.group_bra_admin
+msgid "Administrator"
+msgstr "مدیر"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__allowed_business_domain_ids
+msgid "Allowed Business Domain"
+msgstr "دامنه کسب و کار مجاز"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__allowed_company_ids
+msgid "Allowed Companies"
+msgstr "شرکت های مجاز"
+
+#. module: requirement
+#: model:ir.ui.menu,name:requirement.menu_analysis
+msgid "Analyses"
+msgstr "تجزیه و تحلیل می کند"
+
+#. module: requirement
+#: model:res.groups,name:requirement.group_bra_analyst
+msgid "Analyst"
+msgstr "تحلیلگر"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__application
+msgid "Application"
+msgstr "برنامه"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_search
+msgid "Archived"
+msgstr "بایگانی شد"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_assignments
+#: model:ir.model,name:requirement.model_requirement_assignments
+#: model:ir.ui.menu,name:requirement.menu_assignments
+msgid "Assignments"
+msgstr "تکالیف"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__attachment_ids
+msgid "Attachments"
+msgstr "پیوست ها"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Average Rating"
+msgstr "میانگین امتیاز"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Avg 7 Days Customer Satisfaction"
+msgstr "میانگین رضایت مشتری 7 روزه"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Avg Last 7 days"
+msgstr "میانگین 7 روز گذشته"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Avg Open Hours"
+msgstr "میانگین ساعات کار"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_res_config_settings__module_requirement_point_based
+#: model_terms:ir.ui.view,arch_db:requirement.res_config_settings_view_form
+msgid "Based on Reviewer Points"
+msgstr "بر اساس امتیاز داور"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__business_domain_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__integration_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__business_domain_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__business_domain_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__business_domain_id
+msgid "Business Domain"
+msgstr "دامنه کسب و کار"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_business_domain_categories
+#: model:ir.model,name:requirement.model_requirement_business_domain_categories
+msgid "Business Domain Categories"
+msgstr "دسته های دامنه کسب و کار"
+
+#. module: requirement
+#: model:ir.ui.menu,name:requirement.menu_business_domain_categories
+msgid "Business Domain Categories   "
+msgstr "دسته های دامنه کسب و کار"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__businessdomain_category_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__businessdomain_category_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__businessdomain_category_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__businessdomain_category_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__businessdomain_category_id
+msgid "Business Domain Category"
+msgstr "دسته دامنه کسب و کار"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_business_domains_form
+msgid "Business Domain Title..."
+msgstr "عنوان دامنه تجاری ..."
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_business_domains
+#: model:ir.model,name:requirement.model_requirement_business_domains
+#: model:ir.ui.menu,name:requirement.menu_business_domains
+msgid "Business Domains"
+msgstr "دامنه های تجاری"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_business_domains_integration
+#: model:ir.model,name:requirement.model_requirement_business_domains_integration
+msgid "Business Domains Integration"
+msgstr "ادغام دامنه های تجاری"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__requirement_type__1
+msgid "Business Requirement"
+msgstr "الزامات تجاری"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__category_id
+msgid "Businessdomain Technical Category"
+msgstr "دسته فنی حوزه تجاری"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_extract_relationships_wizard
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__requirement_type__2
+msgid "Change Request"
+msgstr "درخواست تغییر"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Closed Tickets"
+msgstr "بلیط های بسته"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__code
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__code
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__code
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__req_code
+msgid "Code"
+msgstr "کد"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__color
+msgid "Color"
+msgstr "رنگ"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__comments
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__comments
+msgid "Comments"
+msgstr "نظرات"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_solution_type__solution_type__5
+msgid "Community app"
+msgstr "برنامه انجمن"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__company_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__company_domain
+msgid "Company Domain"
+msgstr "دامنه شرکت"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: requirement
+#: model:ir.ui.menu,name:requirement.menu_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__4
+msgid "Connector Modules"
+msgstr "ماژول های رابط"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_graph
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_pivot
+msgid "Count"
+msgstr "بشمار"
+
+#. module: requirement
+#: model_terms:ir.actions.act_window,help:requirement.action_review_create_wizard
+msgid "Create Review"
+msgstr "ایجاد بررسی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_extract_relationships_wizard__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__create_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_extract_relationships_wizard__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__create_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_requirement_critical_level
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__critical_level_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__critical_level_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__critical_level_id
+msgid "Critical Level"
+msgstr "سطح بحرانی"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_critical_level
+#: model:ir.ui.menu,name:requirement.menu_critical_level
+msgid "Critical Levels"
+msgstr "سطوح بحرانی"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__9
+msgid "Custom API Development"
+msgstr "توسعه API سفارشی"
+
+#. module: requirement
+#: model:ir.module.category,description:requirement.module_category_bra
+#: model:ir.module.category,name:requirement.module_category_bra
+msgid "DTM"
+msgstr "DTM"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Daily Target"
+msgstr "هدف روزانه"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_solution_type__solution_type__2
+msgid "Data Import"
+msgstr "واردات داده"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__description
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__description
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__description
+#: model_terms:ir.ui.view,arch_db:requirement.view_business_domains_form
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_solution_type__solution_type__3
+msgid "Development"
+msgstr "توسعه"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.review_create_wizard_form
+msgid "Discard"
+msgstr "لغو"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_extract_relationships_wizard__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__display_name
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__doc_ids_count
+msgid "Documents"
+msgstr "اسناد"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__state__1
+msgid "Draft"
+msgstr "پیش نویس"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_feature_form
+msgid "Enter your Specifications"
+msgstr "مشخصات خود را وارد کنید"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.review_create_wizard_form
+#: model_terms:ir.ui.view,arch_db:requirement.view_review_form
+msgid "Enter your comments"
+msgstr "نظرات خود را وارد کنید"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_business_domains_form
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Enter your description"
+msgstr "توضیحات خود را وارد کنید"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__3
+msgid "External Service Integration (API Integration)"
+msgstr "یکپارچه سازی خدمات خارجی (ادغام API)"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_extract_relationships_wizard
+msgid "Extract"
+msgstr "استخراج کنید"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_extract_relationships_wizard
+#: model_terms:ir.ui.view,arch_db:requirement.view_extract_relationships_wizard
+msgid "Extract Relationships Wizard"
+msgstr "Extract Relationships Wizard"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Failed Tickets"
+msgstr "بلیط های ناموفق"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__is_favorite
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_tree
+msgid "Favorite"
+msgstr "مورد علاقه"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_requirement_feature
+msgid "Feature"
+msgstr "ویژگی"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_feature_category
+#: model:ir.model,name:requirement.model_requirement_feature_category
+#: model:ir.ui.menu,name:requirement.menu_feature_category
+msgid "Feature Categories"
+msgstr "دسته بندی ویژگی ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__feature_cat_id
+msgid "Feature Category"
+msgstr "دسته ویژگی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__code
+msgid "Feature Code"
+msgstr "کد ویژگی"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_feature_form
+msgid "Feature Title..."
+msgstr "عنوان ویژگی..."
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_feature
+#: model:ir.ui.menu,name:requirement.menu_feature
+msgid "Features"
+msgstr "ویژگی ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (همکار تجاری)"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "نماد عالی فونت به عنوان مثال کارهای فا"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__1
+msgid "Functional Integration"
+msgstr "یکپارچه سازی عملکردی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__group_id
+msgid "Group"
+msgstr "گروه"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__has_write_access
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__has_write_access
+msgid "Has write access"
+msgstr "دسترسی نوشتن دارد"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__priority__3
+msgid "High"
+msgstr "بالا"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "High Priority"
+msgstr "اولویت بالا"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_extract_relationships_wizard__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__id
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__icon_image
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__icon_image
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_exception_icon
+msgid "Icon"
+msgstr "نماد"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "نمادی برای نشان دادن یک فعالیت استثنایی."
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر علامت زده شود، پیام‌های جدید به توجه شما نیاز دارند."
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__message_has_error
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت زده شود، برخی از پیام ها دارای خطای تحویل هستند."
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__imp_status
+msgid "Implementation State"
+msgstr "دولت اجرا"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains__imp_status__2
+msgid "Implementation in Progress"
+msgstr "پیاده سازی در حال انجام است"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains__imp_status__3
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__state__5
+msgid "Implemented"
+msgstr "اجرا شد"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__state__3
+msgid "In Anlysis"
+msgstr "در آنالیز"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__state__4
+msgid "In Project"
+msgstr "در پروژه"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__state__2
+msgid "In Review"
+msgstr "در بررسی"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_solution_type__solution_type__4
+msgid "Integration"
+msgstr "یکپارچه سازی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__integration_type
+msgid "Integration Typer"
+msgstr "یکپارچه سازی Typer"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__integration_ids
+#: model_terms:ir.ui.view,arch_db:requirement.view_business_domains_form
+msgid "Integrations"
+msgstr "ادغام ها"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__2
+msgid "Intra-Module Inheritance"
+msgstr "وراثت درون ماژول"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__10
+msgid "IoT Integration"
+msgstr "ادغام اینترنت اشیا"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_is_follower
+msgid "Is Follower"
+msgstr "فالوور است"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__is_manager
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__is_manager
+msgid "Is manager"
+msgstr "مدیر است"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_extract_relationships_wizard__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__write_uid
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_extract_relationships_wizard__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__write_date
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__priority__1
+msgid "Low"
+msgstr "کم"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__favorite_user_ids
+msgid "Members"
+msgstr "اعضا"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_ids
+msgid "Messages"
+msgstr "پیام ها"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__8
+msgid "Middleware Integration"
+msgstr "یکپارچه سازی میان افزار"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__module_state
+msgid "Module Status"
+msgstr "وضعیت ماژول"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__module_id
+msgid "Module Technical Name"
+msgstr "نام فنی ماژول"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "My Performance"
+msgstr "عملکرد من"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "My Tickets"
+msgstr "بلیط های من"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_search
+msgid "My requirement"
+msgstr "نیاز من"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_tag__name
+msgid "Name"
+msgstr "نام"
+
+#. module: requirement
+#: model:ir.model.constraint,message:requirement.constraint_requirement_critical_level_uniq_name
+#: model:ir.model.constraint,message:requirement.constraint_requirement_tag_uniq_tag_name
+msgid "Name must be unique"
+msgstr "نام باید منحصر به فرد باشد"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "رویداد تقویم فعالیت بعدی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت فعالیت بعدی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__priority__2
+msgid "Normal"
+msgstr "عادی"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains__imp_status__1
+msgid "Not Implemented"
+msgstr "اجرا نشده است"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام های دارای خطای تحویل"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Open Tickets"
+msgstr "بلیط ها را باز کنید"
+
+#. module: requirement
+#. odoo-python
+#: code:addons/requirement/models/requirement_requierment.py:0
+#, python-format
+msgid "Operation not supported"
+msgstr "عملیات پشتیبانی نمی شود"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains_integration__parent_id
+msgid "Parent"
+msgstr "پدر و مادر"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__parent_id
+msgid "Parent Record"
+msgstr "سابقه والدین"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__partner_id
+msgid "Partner"
+msgstr "همکار تجاری"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Percentage of tickets that were closed without failing any SLAs."
+msgstr "درصد بلیط هایی که بدون رد شدن هیچ SLA بسته شدند."
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__priority
+msgid "Priority"
+msgstr "اولویت"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__project_ids
+#: model_terms:ir.ui.view,arch_db:requirement.view_business_domains_form
+msgid "Projects"
+msgstr "پروژه ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__rating_ids
+msgid "Ratings"
+msgstr "رتبه بندی ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__child_ids
+msgid "Related Records"
+msgstr "سوابق مرتبط"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__parent_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__parent_id
+msgid "Related Requierment"
+msgstr "نیاز مرتبط"
+
+#. module: requirement
+#: model:ir.ui.menu,name:requirement.menu_reporting
+msgid "Reporting"
+msgstr "گزارش"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__5
+msgid "Reporting Integration"
+msgstr "یکپارچه سازی گزارش"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_requirement_requirement
+#: model_terms:ir.ui.view,arch_db:requirement.res_config_settings_view_form
+msgid "Requirement"
+msgstr "مورد نیاز"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_requirement_review_create_wizard
+msgid "Requirement Review Create Wizard"
+msgstr "بررسی نیازمندی ها Create Wizard"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_requirement_tag
+msgid "Requirement Tag"
+msgstr "برچسب مورد نیاز"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_requirement
+#: model:ir.ui.menu,name:requirement.menu_bra_root
+#: model:ir.ui.menu,name:requirement.menu_requirement
+msgid "Requirements"
+msgstr "الزامات"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_requirement_graph
+#: model:ir.ui.menu,name:requirement.menu_requirement_graph
+msgid "Requirements Analysis"
+msgstr "تجزیه و تحلیل نیازمندی ها"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Requirment Title..."
+msgstr "عنوان مورد نیاز ..."
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_assignments__user_id
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_review_create_wizard
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__review_id
+#: model_terms:ir.ui.view,arch_db:requirement.review_create_wizard_form
+#: model_terms:ir.ui.view,arch_db:requirement.view_review_form
+msgid "Review"
+msgstr "بررسی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__review_code
+msgid "Review Code"
+msgstr "کد بازبینی"
+
+#. module: requirement
+#: model:res.groups,name:requirement.group_bra_reviewer
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Reviewer"
+msgstr "داور"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Reviewers"
+msgstr "داوران"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_review
+#: model:ir.model,name:requirement.model_requirement_review
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__review_ids
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__review_ids_count
+#: model:ir.ui.menu,name:requirement.menu_review
+msgid "Reviews"
+msgstr "بررسی ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__reviews_point
+msgid "Reviews Point"
+msgstr "نقطه نظرات"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "SLA Success Rate"
+msgstr "نرخ موفقیت SLA"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیامک"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Sample"
+msgstr "نمونه"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_extract_relationships_wizard
+msgid "Sample: \"/odoo17/odoo/addons\""
+msgstr "نمونه: \"/odoo17/odoo/addons\""
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.res_config_settings_view_form
+msgid "Select 'Based on Reviewer Points' to calculate the review score"
+msgstr "برای محاسبه امتیاز بازبینی، \"بر اساس امتیاز بازبینی\" را انتخاب کنید"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.res_config_settings_view_form
+msgid ""
+"Select how you want to calculate the average review score: Based on all "
+"reviews or reviewer points."
+msgstr ""
+"نحوه محاسبه میانگین امتیاز مرور را انتخاب کنید: بر اساس همه نظرات یا "
+"امتیازات بازبین."
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Send for Review"
+msgstr "ارسال برای بررسی"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__sequence
+msgid "Sequence"
+msgstr "دنباله"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.requirement_config_settings_action
+#: model:ir.ui.menu,name:requirement.requirement_config_settings_menu
+msgid "Settings"
+msgstr "تنظیمات"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_requirement_solution
+msgid "Solution"
+msgstr "راه حل"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution__solution_code
+msgid "Solution Code"
+msgstr "کد راه حل"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_solution_type__solution_type
+msgid "Solution Type"
+msgstr "نوع راه حل"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_requirement_solution_type
+msgid "Solution Types"
+msgstr "انواع راه حل"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_solution
+msgid "Solutions"
+msgstr "راه حل ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__specifications
+#: model_terms:ir.ui.view,arch_db:requirement.view_feature_form
+msgid "Specifications"
+msgstr "مشخصات"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__state
+msgid "Stage"
+msgstr "مرحله"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_solution_type__solution_type__1
+msgid "Standard"
+msgstr "استاندارد"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__status
+msgid "Status"
+msgstr "حالت"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت بر اساس فعالیت ها\n"
+"سررسید: تاریخ سررسید گذشته است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه ریزی شده: فعالیت های آینده."
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.review_create_wizard_form
+msgid "Submit"
+msgstr "ارسال کنید"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_form
+msgid "Submit Review"
+msgstr "ارسال نظر"
+
+#. module: requirement
+#. odoo-python
+#: code:addons/requirement/wizard/review_create_wizard_view.py:0
+#, python-format
+msgid "Successfully!"
+msgstr "با موفقیت!"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_extract_relationships_wizard
+#: model:ir.ui.menu,name:requirement.menu_view_action_extract_relationships_wizard
+msgid "System Architecture"
+msgstr "معماری سامانه"
+
+#. module: requirement
+#: model:ir.actions.act_window,name:requirement.action_requirement_tag
+#: model:ir.ui.menu,name:requirement.menu_requirement_tag
+msgid "Tages"
+msgstr "Tages"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__tag_ids
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__tag_ids
+#: model:ir.model.fields,field_description:requirement.field_requirement_review__tag_ids
+#: model:ir.model.fields,field_description:requirement.field_requirement_review_create_wizard__tag_ids
+msgid "Tags"
+msgstr "برچسب ها"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__task_id
+msgid "Task"
+msgstr "وظیفه"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__category_id
+msgid "Technical Category"
+msgstr "دسته فنی"
+
+#. module: requirement
+#: model:ir.model.constraint,message:requirement.constraint_requirement_business_domains_check_min_score
+msgid "The Minimum score should be positive."
+msgstr "کمینه نمره باید مثبت باشد."
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Three stars, maximum score"
+msgstr "سه ستاره، بیشینه امتیاز"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Tickets"
+msgstr "بلیط"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Tickets Analysis"
+msgstr "تجزیه و تحلیل بلیط"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domain_categories__name
+#: model:ir.model.fields,field_description:requirement.field_requirement_business_domains__name
+#: model:ir.model.fields,field_description:requirement.field_requirement_critical_level__name
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature__name
+#: model:ir.model.fields,field_description:requirement.field_requirement_feature_category__name
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__name
+msgid "Title"
+msgstr "عنوان"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Today"
+msgstr "امروز"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Today Average Rating"
+msgstr "میانگین امتیاز امروز"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Two stars, with a maximum of three"
+msgstr "دو ستاره، با بیشینه سه"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنا در ثبت."
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_search
+msgid "Unreviewed"
+msgstr "بررسی نشده"
+
+#. module: requirement
+#. odoo-javascript
+#: code:addons/requirement/static/src/components/requirement_dashboard/requirement_dashboard.xml:0
+#, python-format
+msgid "Urgent"
+msgstr "فوری"
+
+#. module: requirement
+#: model:ir.model,name:requirement.model_res_users
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__user_id
+#: model:res.groups,name:requirement.group_bra_user
+msgid "User"
+msgstr "کاربر"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_requirement__priority__0
+msgid "Very Low"
+msgstr "خیلی کم"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_tree
+msgid "View Reviews"
+msgstr "مشاهده نظرات"
+
+#. module: requirement
+#: model:ir.model.fields.selection,name:requirement.selection__requirement_business_domains_integration__integration_type__7
+msgid "Website Integration"
+msgstr "یکپارچه سازی تارنما"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های تارنما"
+
+#. module: requirement
+#: model:ir.model.fields,help:requirement.field_requirement_requirement__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات تارنما"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__workspace_id
+msgid "Workspace"
+msgstr "فضای کار"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_critical_level_tree
+msgid "active to show"
+msgstr "فعال برای نشان دادن"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_extract_relationships_wizard__name
+msgid "addons path"
+msgstr "مسیر افزونه ها"
+
+#. module: requirement
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_graph
+#: model_terms:ir.ui.view,arch_db:requirement.view_requirement_pivot
+msgid "requirement"
+msgstr "نیاز"
+
+#. module: requirement
+#: model:ir.model.fields,field_description:requirement.field_requirement_requirement__requirement_type
+msgid "requirement Type"
+msgstr "نوع نیاز"

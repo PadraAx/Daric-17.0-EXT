@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_review_form" model="ir.ui.view">
+    <field name="model">requirement.review</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+          <field name="has_write_access" invisible="1"/>
+        </header>
+        <sheet>
+          <group>
+            <field name="review_code" readonly="1"/>
+            <field name="critical_level_id" readonly="not has_write_access" widget="radio" options="{'horizontal': true}" nolabel="1" colspan="2"/>
+        
+            <field name="parent_id" readonly="1"/>
+            <field name="tag_ids" widget="many2many_tags"  readonly="not has_write_access"/> 
+          </group>
+          <notebook>
+            <page string="Review" name="page_review">
+              <group>
+                <field name="comments"  readonly="not has_write_access" placeholder="Enter your comments"
+                options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" />
+              </group>
+            </page>
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_review_tree" model="ir.ui.view">
+    <field name="model">requirement.review</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="0">
+        <header>
+        </header>
+            <field name="review_code"/>
+            <field name="critical_level_id"/>
+         
+            <field name="parent_id" widget="many2one"/>
+            <field name="tag_ids" widget="many2many_tags"/>
+            <field name="create_uid" />
+            <field name="create_date" />
+            <field name="write_uid" optional="hide"/>
+            <field name="write_date" optional="hide"/>
+            </tree>
+    </field>
+  </record>
+  <record id="view_review_search" model="ir.ui.view">
+    <field name="model">requirement.review</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+            <field name="review_code"/>
+            <field name="critical_level_id"/>
+            <field name="parent_id"/>
+      </search>
+    </field>
+  </record>
+  <record id="action_review" model="ir.actions.act_window">
+    <field name="name">Reviews</field>
+    <field name="res_model">requirement.review</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Review'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Reviews"
+    id="menu_review"
+    parent="menu_bra_root"
+    action="action_review"
+    sequence="3">
+  </menuitem>
+
+</odoo>

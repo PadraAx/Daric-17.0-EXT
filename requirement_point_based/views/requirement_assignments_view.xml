@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <data>
+            <record id="view_assignments_tree_inherited" model="ir.ui.view">
+              <field name="name">view.assignments.tree.inherited</field>
+              <field name="model">requirement.assignments</field>
+              <field name="inherit_id" ref="requirement.view_assignments_tree" />
+              <field name="priority">1000</field>
+              <field name="arch" type="xml">
+                <xpath expr="//field[@name='company_id']" position="after">
+                  <field name="weight_factor" />
+              </xpath>
+            
+              </field>
+            </record>
+
+            <record model="ir.ui.view" id="view_assignments_form_inherited">
+              <field name="name">view.assignments.form.inherited</field>
+              <field name="model">requirement.assignments</field>
+              <field name="inherit_id" ref="requirement.view_assignments_form" />
+              <field name="arch" type="xml">
+                  <xpath expr="//field[@name='company_id']" position="after">
+                    <field name="weight_factor" />
+                  </xpath>
+                  
+              </field>
+          </record>
+      </data>
+
+</odoo>

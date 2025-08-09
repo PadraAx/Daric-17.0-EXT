@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_critical_level_form" model="ir.ui.view">
+    <field name="model">requirement.critical.level</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <field name="name"/>  
+            <field name="description"/>
+            <field name="active_to_next_state" widget="boolean_toggle"/>
+          </group>
+
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_critical_level_tree" model="ir.ui.view">
+    <field name="model">requirement.critical.level</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="1" editable="top">
+        <header>
+        </header>
+            <field name="name"/>  
+            <field name="description"/>
+            <field name="active_to_next_state" />
+          
+            <field name="create_uid" />
+            <field name="create_date" />
+            
+            <field name="write_uid" optional="hide"/>
+            <field name="write_date" optional="hide"/>
+      
+            <button name="action_active_to_next_state" type="object"
+            invisible="active_to_next_state"
+            class="fa fa-check btn-success" title="active to show"/>
+      </tree>
+    </field>
+  </record>
+  <record id="view_critical_level_search" model="ir.ui.view">
+    <field name="model">requirement.critical.level</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+       
+        <field name="name"/>
+        <field name="description"/>
+     
+      </search>
+    </field>
+  </record>
+  <record id="action_critical_level" model="ir.actions.act_window">
+    <field name="name">Critical Levels</field>
+    <field name="res_model">requirement.critical.level</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Critical Level'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Critical Levels"
+    id="menu_critical_level"
+    parent="menu_configuration"
+    action="action_critical_level"
+    sequence="8">
+  </menuitem>
+
+</odoo>
