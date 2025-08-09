@@ -1,0 +1,1016 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_agriculture
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 00:45+0000\n"
+"PO-Revision-Date: 2025-02-13 00:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.farmer_cropping_request_kanban
+msgid "<span style=\"font-weight:bold\">Crop:</span>"
+msgstr "<span style=\"font-weight:bold\">برش:</span>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.farmer_cropping_request_kanban
+msgid "<span style=\"font-weight:bold\">Name :</span>"
+msgstr "<span style=\"font-weight:bold\">نام:</span>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.farmer_cropping_request_kanban
+msgid "<span style=\"font-weight:bold\">Responsible User:</span>"
+msgstr "<span style=\"font-weight:bold\">کاربر مسئول:</span>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+msgid "<strong>Company: </strong>"
+msgstr "<strong>شرکت: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "<strong>Crop Period End : </strong>"
+msgstr "<strong>پایان دوره برش: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "<strong>Crop Period Start: </strong>"
+msgstr "<strong>شروع دوره برش: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+msgid "<strong>End Date: </strong>"
+msgstr "<strong>تاریخ پایان: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "<strong>Name:</strong>"
+msgstr "<strong>نام:</strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+msgid "<strong>Project: </strong>"
+msgstr "<strong>پروژه: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+msgid "<strong>Responsible User: </strong>"
+msgstr "<strong>کاربر مسئول: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+msgid "<strong>Start Date: </strong>"
+msgstr "<strong>تاریخ شروع: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+msgid "<strong>State: </strong>"
+msgstr "<strong>وضعیت: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "<strong>Stock Location: </strong>"
+msgstr "<strong>محل انبار: </strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+msgid "<strong>Supervisor:</strong>"
+msgstr "<strong>سرپرست:</strong>"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "<strong>Warehouse:</strong>"
+msgstr "<strong>انبار:</strong>"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_needaction
+msgid "Action Needed"
+msgstr "اقدام مورد نیاز"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_ids
+msgid "Activities"
+msgstr "فعالیت ها"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "دکوراسیون استثنایی فعالیت"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.agricultural_management_topmenu
+#: model:ir.ui.menu,name:odoo_agriculture.agriculture_topmenu
+msgid "Agriculture"
+msgstr "کشاورزی"
+
+#. module: odoo_agriculture
+#: model:res.groups,name:odoo_agriculture.group_agriculture_manager
+msgid "Agriculture Manager"
+msgstr "مدیر کشاورزی"
+
+#. module: odoo_agriculture
+#: model:res.groups,name:odoo_agriculture.group_agriculture_user
+msgid "Agriculture User"
+msgstr "کاربر کشاورزی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__partner_id
+msgid "Animal"
+msgstr "حیوان"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__animal_count
+msgid "Animal Count"
+msgstr "تعداد حیوانات"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_animal_form
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__animal_ids
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_task__animal_ids
+#: model:ir.ui.menu,name:odoo_agriculture.animal_submenu
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_tasks_template_form
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Animals"
+msgstr "حیوانات"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__farmer_cropping_request__state__cancel
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.configuration_topmenu
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Confirm"
+msgstr "تایید کنید"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__farmer_cropping_request__state__confirm
+msgid "Confirmed"
+msgstr "تایید شد"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_res_partner
+msgid "Contact"
+msgstr "مخاطب"
+
+#. module: odoo_agriculture
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_animal_form
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_farmers_form
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_locations_form
+msgid "Create a new customer in your address book"
+msgstr "یک مشتری جدید در دفترچه آدرس خود ایجاد کنید"
+
+#. module: odoo_agriculture
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_view_farmer_cropping_project
+msgid "Create a new project"
+msgstr "یک پروژه جدید ایجاد کنید"
+
+#. module: odoo_agriculture
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_view_farmer_cropping_task
+msgid "Create a new task"
+msgstr "یک کار جدید ایجاد کنید"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__create_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__create_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__crop_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__crop_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__crop_ids
+msgid "Crop"
+msgstr "برش"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.project_task_view_inherited
+msgid "Crop Animals"
+msgstr "کشت حیوانات"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_project__crop_count
+msgid "Crop Count"
+msgstr "تعداد محصول"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_crops_dieases
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__crops_dieases_ids
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Crop Dieases"
+msgstr "بیماری های زراعی"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "Crop Dieases Cure"
+msgstr "درمان بیماری های زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_crops_dieases_cure
+msgid "Crop Dieases Cures"
+msgstr "درمان بیماری های زراعی"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.project_task_view_inherited
+msgid "Crop Equipments"
+msgstr "تجهیزات زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_crops_fleet_act
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.project_task_view_inherited
+msgid "Crop Fleets"
+msgstr "ناوگان محصول"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_crops_incident
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.project_task_view_inherited
+msgid "Crop Incidents"
+msgstr "حوادث زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__crop_labour_ids
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Crop Labours"
+msgstr "کار زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__crop_material_ids
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Crop Materials"
+msgstr "مواد زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__crop_overhead_ids
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Crop Overheads"
+msgstr "سربار محصول"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__crop_period_end
+msgid "Crop Period End"
+msgstr "پایان دوره برش"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__crop_period_start
+msgid "Crop Period Start"
+msgstr "شروع دوره برش"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_crops_tasks_template
+msgid "Crop Process Templates"
+msgstr "الگوهای فرآیند برش"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__crop_task_ids
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Crop Processes"
+msgstr "فرآیندهای زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_view_farmer_cropping_project
+msgid "Crop Project Requests"
+msgstr "درخواست های پروژه برش"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_project__custom_request_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_task__custom_request_id
+msgid "Crop Request"
+msgstr "درخواست برش"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_project__crop_request_count
+msgid "Crop Request Count"
+msgstr "تعداد درخواست برش"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_farmer_cropping_request
+#: model:ir.actions.report,name:odoo_agriculture.report_farmer_cropping_request
+#: model:ir.model,name:odoo_agriculture.model_farmer_cropping_request
+#: model:ir.ui.menu,name:odoo_agriculture.croping_request_submenu
+#: model:ir.ui.menu,name:odoo_agriculture.farmer_cropping_request_menu
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.project_project_view_inherited
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_pivot
+msgid "Crop Requests"
+msgstr "درخواست های برش"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_view_farmer_cropping_task
+msgid "Crop Task Requests"
+msgstr "درخواست های وظیفه برش"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Crop..."
+msgstr "برش..."
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_farmer_location_crop
+#: model:ir.actions.report,name:odoo_agriculture.report_farmer_location_crops
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__crops_dieases_cures_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__crop_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_partner__crop_ids
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_users__crop_ids
+#: model:ir.ui.menu,name:odoo_agriculture.crops_submenu
+#: model:ir.ui.menu,name:odoo_agriculture.crops_topmenu
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.project_project_view_inherited
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.res_patner_view_inherited
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "Crops"
+msgstr "محصولات زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_crops_animals
+msgid "Crops Animals"
+msgstr "محصولات زراعی حیوانات"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__crops_dieases_cure_id
+msgid "Crops Dieases Cure"
+msgstr "درمان بیماری های زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_task__crop_incident_ids
+msgid "Crops Incident"
+msgstr "رخداد محصولات زراعی"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Crops Labour"
+msgstr "کار زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_crops_materials_job
+msgid "Crops Materials Job"
+msgstr "شغل مواد زراعی"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Crops Processes"
+msgstr "فرآیندهای محصولات زراعی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__crops_tasks_template_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__crops_tasks_template_id
+msgid "Crops Tasks Template"
+msgstr "Crops Tasks Template"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__datetime
+msgid "Datetime"
+msgstr "زمان تاریخ"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__description
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__description
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__description
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__description
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__description
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__internal_note
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__description
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__description
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_animals_form
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_fleet_form
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_incident_form
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_form
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Description..."
+msgstr "توضیحات..."
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Dieases"
+msgstr "بیماری ها"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__dieases_count
+msgid "Dieases Count"
+msgstr "شمارش بیماری ها"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.dieases_cure_submenu
+msgid "Dieases Cures"
+msgstr "بیماری ها را درمان می کند"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__display_name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__farmer_cropping_request__state__done
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Done"
+msgstr "انجام شد"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__end_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__end_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__end_date
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__equipment_count
+msgid "Equipment Count"
+msgstr "تعداد تجهیزات"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__equipment_ids
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_task__equipment_ids
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_tasks_template_form
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Equipments"
+msgstr "تجهیزات"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_locations_form
+#: model:ir.ui.menu,name:odoo_agriculture.location_submenu
+msgid "Farm Locations"
+msgstr "مکان های مزرعه"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.res_patner_view_inherited
+msgid "Farmer Details"
+msgstr "جزئیات کشاورز"
+
+#. module: odoo_agriculture
+#: model:ir.actions.act_window,name:odoo_agriculture.action_farmers_form
+#: model:ir.ui.menu,name:odoo_agriculture.farmer_menu
+msgid "Farmers"
+msgstr "کشاورزان"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__fleet_count
+msgid "Fleet Count"
+msgstr "تعداد ناوگان"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__fleet_ids
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_task__fleet_ids
+#: model:ir.ui.menu,name:odoo_agriculture.fleet_submenu_oo
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_tasks_template_form
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Fleets"
+msgstr "ناوگان"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (همکار تجاری)"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "نماد عالی فونت به عنوان مثال کارهای فا"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.res_patner_view_inherited
+msgid "Google Map"
+msgstr "نقشه گوگل"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.farmer_cropping_request_kanban
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_animals_search
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_fleet_search
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_incident_search
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_materials_job_search
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_tasks_template_search
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_search
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_location_crop_search
+msgid "Group By"
+msgstr "گروه توسط"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_exception_icon
+msgid "Icon"
+msgstr "نماد"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "نمادی برای نشان دادن یک فعالیت استثنایی."
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر علامت زده شود، پیام‌های جدید به توجه شما نیاز دارند."
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__message_has_error
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت زده شود، برخی از پیام ها دارای خطای تحویل هستند."
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__image
+msgid "Image"
+msgstr "تصویر"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__farmer_cropping_request__state__in_progress
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "In Progress"
+msgstr "در حال انجام است"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.incident_submenu
+msgid "Incidents"
+msgstr "حوادث"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_crops_materials_job_form
+msgid "Internal Note"
+msgstr "یادداشت داخلی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__internal_note
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_cropping_request
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Internal Notes"
+msgstr "یادداشت های داخلی"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Internal Notes..."
+msgstr "یادداشت های داخلی ..."
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_partner__is_animal
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_users__is_animal
+msgid "Is Animal?"
+msgstr "حیوان است؟"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_project_task__is_cropping_request
+msgid "Is Cropping Request?"
+msgstr "آیا برش درخواست است؟"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_partner__is_farmer
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_users__is_farmer
+msgid "Is Farmer?"
+msgstr "کشاورز است؟"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_is_follower
+msgid "Is Follower"
+msgstr "فالوور است"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_partner__is_location
+#: model:ir.model.fields,field_description:odoo_agriculture.field_res_users__is_location
+msgid "Is Location?"
+msgstr "موقعیت مکانی است؟"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__crops_materials_job__internal_type__labour
+msgid "Labour"
+msgstr "کار"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__write_uid
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__write_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__location_id
+msgid "Location"
+msgstr "مکان"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__crops_materials_job__internal_type__material
+msgid "Material"
+msgstr "مواد"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_ids
+msgid "Messages"
+msgstr "پیام ها"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_dieases_cure__name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__name
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__name
+msgid "Name"
+msgstr "نام"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__farmer_cropping_request__state__new
+msgid "New"
+msgstr "جدید"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "رویداد تقویم فعالیت بعدی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت فعالیت بعدی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__number
+msgid "Number"
+msgstr "شماره"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام های دارای خطای تحویل"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Number..."
+msgstr "شماره..."
+
+#. module: odoo_agriculture
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_animal_form
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_farmers_form
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_locations_form
+msgid "Odoo helps you easily track all activities related to a customer."
+msgstr ""
+"Odoo به شما کمک می کند تا به راحتی تمام فعالیت های مربوط به یک مشتری را "
+"ردیابی کنید."
+
+#. module: odoo_agriculture
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_view_farmer_cropping_task
+msgid ""
+"Odoo's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
+"                    You can track progress, discuss on tasks, attach documents, etc."
+msgstr ""
+"مدیریت پروژه Odoo به شما امکان می دهد تا خط لوله وظایف خود را به طور موثر مدیریت کنید.<br>\n"
+"                    می توانید پیشرفت را پیگیری کنید، در مورد وظایف بحث کنید، اسناد را پیوست کنید و غیره."
+
+#. module: odoo_agriculture
+#: model_terms:ir.actions.act_window,help:odoo_agriculture.action_view_farmer_cropping_project
+msgid ""
+"Odoo's project management allows you to manage the pipeline of your tasks efficiently.<br>\n"
+"                You can track progress, discuss on tasks, attach documents, etc."
+msgstr ""
+"مدیریت پروژه Odoo به شما امکان می دهد تا خط لوله وظایف خود را به طور موثر مدیریت کنید.<br>\n"
+"                می توانید پیشرفت را پیگیری کنید، در مورد وظایف بحث کنید، اسناد را پیوست کنید و غیره."
+
+#. module: odoo_agriculture
+#: model:ir.model.fields.selection,name:odoo_agriculture.selection__crops_materials_job__internal_type__overhead
+msgid "Overhead"
+msgstr "سربار"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.crops_tasks_template_submenu
+msgid "Process Template"
+msgstr "الگوی فرآیند"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "Processes"
+msgstr "فرآیندها"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__product_id
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "Product"
+msgstr "محصول"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_project_project
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__project_id
+msgid "Project"
+msgstr "پروژه"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__project_count
+msgid "Project Count"
+msgstr "تعداد پروژه"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.projects_submenu
+#: model:ir.ui.menu,name:odoo_agriculture.projects_topmenu
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Projects"
+msgstr "پروژه ها"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__quantity
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__quantity
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__quantity
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "Quantity"
+msgstr "مقدار"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__rating_ids
+msgid "Ratings"
+msgstr "رتبه بندی ها"
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Reset to Draft"
+msgstr "بازنشانی به پیش نویس"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__activity_user_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__responsible_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیامک"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.stages_topmenu
+msgid "Stages"
+msgstr "مراحل"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__start_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__start_date
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__start_date
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__state
+msgid "State"
+msgstr "ایالت"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت بر اساس فعالیت ها\n"
+"سررسید: تاریخ سررسید گذشته است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه ریزی شده: فعالیت های آینده."
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__location_id
+msgid "Stock Location"
+msgstr "محل سهام"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__user_id
+msgid "Supervisor"
+msgstr "سرپرست"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_project_task
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_animals__task_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__task_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_incident__task_id
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_tasks_template__task_id
+msgid "Task"
+msgstr "وظیفه"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__task_count
+msgid "Task Count"
+msgstr "تعداد کارها"
+
+#. module: odoo_agriculture
+#: model:ir.ui.menu,name:odoo_agriculture.tasks_topmenu
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.view_farmer_cropping_request_form
+msgid "Tasks"
+msgstr "وظایف"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__internal_type
+msgid "Type"
+msgstr "تایپ کنید"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنا در ثبت."
+
+#. module: odoo_agriculture
+#: model_terms:ir.ui.view,arch_db:odoo_agriculture.template_report_farmer_location_crops
+msgid "Unit Of Measure"
+msgstr "واحد اندازه گیری"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_materials_job__uom_id
+msgid "Unit of Measure"
+msgstr "واحد اندازه گیری"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_crops_fleet__vehicle_id
+msgid "Vehicle"
+msgstr "وسیله نقلیه"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_location_crops__warehouse_id
+msgid "Warehouse"
+msgstr "انبار"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,field_description:odoo_agriculture.field_farmer_cropping_request__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های وب سایت"
+
+#. module: odoo_agriculture
+#: model:ir.model.fields,help:odoo_agriculture.field_farmer_cropping_request__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات وب سایت"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_crops_animals
+msgid "crops.animals"
+msgstr "محصولات زراعی.حیوانات"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_crops_dieases
+msgid "crops.dieases"
+msgstr "محصولات زراعی.بیماری ها"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_crops_dieases_cure
+msgid "crops.dieases.cure"
+msgstr "محصولات زراعی.درمان می شود"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_crops_fleet
+msgid "crops.fleet"
+msgstr "محصولات زراعی.ناوگان"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_crops_incident
+msgid "crops.incident"
+msgstr "محصولات.حادثه"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_crops_materials_job
+msgid "crops.materials.job"
+msgstr "محصولات.مواد.شغل"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_crops_tasks_template
+msgid "crops.tasks.template"
+msgstr "محصولات.وظایف.قالب"
+
+#. module: odoo_agriculture
+#: model:ir.model,name:odoo_agriculture.model_farmer_location_crops
+msgid "farmer.location.crops"
+msgstr "کشاورز.محل.محصولات"

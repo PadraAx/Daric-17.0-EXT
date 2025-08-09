@@ -1,0 +1,134 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* muk_web_enterprise_theme
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-19 12:52+0000\n"
+"PO-Revision-Date: 2025-01-19 12:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Apps Active"
+msgstr "برنامه‌های فعال"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_company__background_image_dark
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_background_image_dark
+msgid "Apps Menu Background Dark Image"
+msgstr "تصویر تیره پس‌زمینه فهرست امکانات برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_company__background_image_light
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_background_image_light
+msgid "Apps Menu Background Light Image"
+msgstr "تصویر روشن پس‌زمینه فهرست امکانات برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Apps Text"
+msgstr "متن برنامه ها"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "AppsBar"
+msgstr "نوار برنامه ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_color_appbar_active_dark
+msgid "AppsBar Active Dark Color"
+msgstr "رنگ تیره فعال نوار برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_color_appbar_active_light
+msgid "AppsBar Active Light Color"
+msgstr "رنگ روشن فعال نوار برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_color_appbar_background_dark
+msgid "AppsBar Background Dark Color"
+msgstr "رنگ تیره پس‌زمینه نوار برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_color_appbar_background_light
+msgid "AppsBar Background Light Color"
+msgstr "رنگ روشن پس‌زمینه نوار برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_color_appbar_text_dark
+msgid "AppsBar Text Dark Color"
+msgstr "رنگ تیره متن نوار برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_color_appbar_text_light
+msgid "AppsBar Text Light Color"
+msgstr "رنگ روشن متن نوار برنامه‌ها"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Backend Theme"
+msgstr "پِیرنگ پشتگاه"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Background"
+msgstr "پس زمینه"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model,name:muk_web_enterprise_theme.model_res_company
+msgid "Companies"
+msgstr "شرکت ها"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_company__favicon
+#: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__theme_favicon
+msgid "Company Favicon"
+msgstr "فاویکون شرکت"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model,name:muk_web_enterprise_theme.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Dark Mode Background Image"
+msgstr "تصویر پس زمینه حالت تاریک"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Favicon"
+msgstr "فاویکون"
+
+#. module: muk_web_enterprise_theme
+#: model:ir.model,name:muk_web_enterprise_theme.model_ir_http
+msgid "HTTP Routing"
+msgstr "مسیریابی HTTP"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Light Mode Background Image"
+msgstr "تصویر پس زمینه حالت نور"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Set the background image for the apps menu"
+msgstr "تصویر پس زمینه را برای فهرست امکانات برنامه ها تنظیم کنید"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Set your own Logo for the appsbar"
+msgstr "لوگوی خود را برای نوار برنامه تنظیم کنید"
+
+#. module: muk_web_enterprise_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
+msgid "Set your own favicon"
+msgstr "فاویکون خود را تنظیم کنید"
