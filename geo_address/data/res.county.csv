@@ -1,0 +1,483 @@
+id,country_id:id,state_id:id,name
+county_ir_001,base.ir,state_ir_34,شهرستان اردبيل
+county_ir_002,base.ir,state_ir_34,شهرستان اصلاندوز
+county_ir_003,base.ir,state_ir_34,شهرستان انگوت
+county_ir_004,base.ir,state_ir_34,شهرستان بيله سوار
+county_ir_005,base.ir,state_ir_34,شهرستان پارس آباد
+county_ir_006,base.ir,state_ir_34,شهرستان خلخال
+county_ir_007,base.ir,state_ir_34,شهرستان سرعين
+county_ir_008,base.ir,state_ir_34,شهرستان کوثر
+county_ir_009,base.ir,state_ir_34,شهرستان گرمي
+county_ir_010,base.ir,state_ir_34,شهرستان مشگين شهر
+county_ir_011,base.ir,state_ir_34,شهرستان نمين
+county_ir_012,base.ir,state_ir_34,شهرستان نير
+county_ir_013,base.ir,state_ir_12,شهرستان اردستان
+county_ir_014,base.ir,state_ir_12,شهرستان اصفهان
+county_ir_015,base.ir,state_ir_12,شهرستان آران و بيدگل
+county_ir_016,base.ir,state_ir_12,شهرستان برخوار
+county_ir_017,base.ir,state_ir_12,شهرستان بوئين مياندشت
+county_ir_018,base.ir,state_ir_12,شهرستان تيران و کرون
+county_ir_019,base.ir,state_ir_12,شهرستان جرقويه
+county_ir_020,base.ir,state_ir_12,شهرستان چادگان
+county_ir_021,base.ir,state_ir_12,شهرستان خميني شهر
+county_ir_022,base.ir,state_ir_12,شهرستان خوانسار
+county_ir_023,base.ir,state_ir_12,شهرستان خور و بيابانک
+county_ir_024,base.ir,state_ir_12,شهرستان دهاقان
+county_ir_025,base.ir,state_ir_12,شهرستان سميرم
+county_ir_026,base.ir,state_ir_12,شهرستان شاهين شهر و ميمه
+county_ir_027,base.ir,state_ir_12,شهرستان شهرضا
+county_ir_028,base.ir,state_ir_12,شهرستان فريدن
+county_ir_029,base.ir,state_ir_12,شهرستان فريدونشهر
+county_ir_030,base.ir,state_ir_12,شهرستان فلاورجان
+county_ir_031,base.ir,state_ir_12,شهرستان کاشان
+county_ir_032,base.ir,state_ir_12,شهرستان کوهپايه
+county_ir_033,base.ir,state_ir_12,شهرستان گلپايگان
+county_ir_034,base.ir,state_ir_12,شهرستان لنجان
+county_ir_035,base.ir,state_ir_12,شهرستان مبارکه
+county_ir_036,base.ir,state_ir_12,شهرستان نائين
+county_ir_037,base.ir,state_ir_12,شهرستان نجف آباد
+county_ir_038,base.ir,state_ir_12,شهرستان نطنز
+county_ir_039,base.ir,state_ir_12,شهرستان هرند
+county_ir_040,base.ir,state_ir_12,شهرستان ورزنه
+county_ir_041,base.ir,state_ir_40,شهرستان اشتهارد
+county_ir_042,base.ir,state_ir_40,شهرستان چهار باغ
+county_ir_043,base.ir,state_ir_40,شهرستان ساوجبلاغ
+county_ir_044,base.ir,state_ir_40,شهرستان طالقان
+county_ir_045,base.ir,state_ir_40,شهرستان فرديس
+county_ir_046,base.ir,state_ir_40,شهرستان کرج
+county_ir_047,base.ir,state_ir_40,شهرستان نظرآباد
+county_ir_048,base.ir,state_ir_30,شهرستان ايلام
+county_ir_049,base.ir,state_ir_30,شهرستان ايوان
+county_ir_050,base.ir,state_ir_30,شهرستان آبدانان
+county_ir_051,base.ir,state_ir_30,شهرستان بدره
+county_ir_052,base.ir,state_ir_30,شهرستان چرداول
+county_ir_053,base.ir,state_ir_30,شهرستان چوار
+county_ir_054,base.ir,state_ir_30,شهرستان دره شهر
+county_ir_055,base.ir,state_ir_30,شهرستان دهلران
+county_ir_056,base.ir,state_ir_30,شهرستان سيروان
+county_ir_057,base.ir,state_ir_30,شهرستان ملکشاهي
+county_ir_058,base.ir,state_ir_30,شهرستان مهران
+county_ir_059,base.ir,state_ir_30,شهرستان هليلان
+county_ir_060,base.ir,state_ir_10,شهرستان اسکو
+county_ir_061,base.ir,state_ir_10,شهرستان اهر
+county_ir_062,base.ir,state_ir_10,شهرستان آذرشهر
+county_ir_063,base.ir,state_ir_10,شهرستان بستان آباد
+county_ir_064,base.ir,state_ir_10,شهرستان بناب
+county_ir_065,base.ir,state_ir_10,شهرستان تبريز
+county_ir_066,base.ir,state_ir_10,شهرستان جلفا
+county_ir_067,base.ir,state_ir_10,شهرستان چاراويماق
+county_ir_068,base.ir,state_ir_10,شهرستان خدا آفرين
+county_ir_069,base.ir,state_ir_10,شهرستان سراب
+county_ir_070,base.ir,state_ir_10,شهرستان شبستر
+county_ir_071,base.ir,state_ir_10,شهرستان عجب شير
+county_ir_072,base.ir,state_ir_10,شهرستان کليبر
+county_ir_073,base.ir,state_ir_10,شهرستان ليلان
+county_ir_074,base.ir,state_ir_10,شهرستان مراغه
+county_ir_075,base.ir,state_ir_10,شهرستان مرند
+county_ir_076,base.ir,state_ir_10,شهرستان ملکان
+county_ir_077,base.ir,state_ir_10,شهرستان ميانه
+county_ir_078,base.ir,state_ir_10,شهرستان هريس
+county_ir_079,base.ir,state_ir_10,شهرستان هشترود
+county_ir_080,base.ir,state_ir_10,شهرستان هوراند
+county_ir_081,base.ir,state_ir_10,شهرستان ورزقان
+county_ir_082,base.ir,state_ir_11,شهرستان اروميه
+county_ir_083,base.ir,state_ir_11,شهرستان اشنويه
+county_ir_084,base.ir,state_ir_11,شهرستان باروق
+county_ir_085,base.ir,state_ir_11,شهرستان بوکان
+county_ir_086,base.ir,state_ir_11,شهرستان پلدشت
+county_ir_087,base.ir,state_ir_11,شهرستان پيرانشهر
+county_ir_088,base.ir,state_ir_11,شهرستان تکاب
+county_ir_089,base.ir,state_ir_11,شهرستان چالدران
+county_ir_090,base.ir,state_ir_11,شهرستان چايپاره
+county_ir_091,base.ir,state_ir_11,شهرستان چهاربرج
+county_ir_092,base.ir,state_ir_11,شهرستان خوي
+county_ir_093,base.ir,state_ir_11,شهرستان سردشت
+county_ir_094,base.ir,state_ir_11,شهرستان سلماس
+county_ir_095,base.ir,state_ir_11,شهرستان شاهين دژ
+county_ir_096,base.ir,state_ir_11,شهرستان شوط
+county_ir_097,base.ir,state_ir_11,شهرستان ماکو
+county_ir_098,base.ir,state_ir_11,شهرستان مهاباد
+county_ir_099,base.ir,state_ir_11,شهرستان مياندوآب
+county_ir_100,base.ir,state_ir_11,شهرستان ميرآباد
+county_ir_101,base.ir,state_ir_11,شهرستان نقده
+county_ir_102,base.ir,state_ir_24,شهرستان بوشهر
+county_ir_103,base.ir,state_ir_24,شهرستان تنگستان
+county_ir_104,base.ir,state_ir_24,شهرستان جم
+county_ir_105,base.ir,state_ir_24,شهرستان دشتستان
+county_ir_106,base.ir,state_ir_24,شهرستان دشتي
+county_ir_107,base.ir,state_ir_24,شهرستان دير
+county_ir_108,base.ir,state_ir_24,شهرستان ديلم
+county_ir_109,base.ir,state_ir_24,شهرستان عسلويه
+county_ir_110,base.ir,state_ir_24,شهرستان کنگان
+county_ir_111,base.ir,state_ir_24,شهرستان گناوه
+county_ir_112,base.ir,state_ir_33,شهرستان اسلامشهر
+county_ir_113,base.ir,state_ir_33,شهرستان بهارستان
+county_ir_114,base.ir,state_ir_33,شهرستان پاکدشت
+county_ir_115,base.ir,state_ir_33,شهرستان پرديس
+county_ir_116,base.ir,state_ir_33,شهرستان پيشوا
+county_ir_117,base.ir,state_ir_33,شهرستان تهران
+county_ir_118,base.ir,state_ir_33,شهرستان دماوند
+county_ir_119,base.ir,state_ir_33,شهرستان رباط کريم
+county_ir_120,base.ir,state_ir_33,شهرستان ري
+county_ir_121,base.ir,state_ir_33,شهرستان شميرانات
+county_ir_122,base.ir,state_ir_33,شهرستان شهريار
+county_ir_123,base.ir,state_ir_33,شهرستان فيروزکوه
+county_ir_124,base.ir,state_ir_33,شهرستان قدس
+county_ir_125,base.ir,state_ir_33,شهرستان قرچک
+county_ir_126,base.ir,state_ir_33,شهرستان ملارد
+county_ir_127,base.ir,state_ir_33,شهرستان ورامين
+county_ir_128,base.ir,state_ir_25,شهرستان اردل
+county_ir_129,base.ir,state_ir_25,شهرستان بروجن
+county_ir_130,base.ir,state_ir_25,شهرستان بن
+county_ir_131,base.ir,state_ir_25,شهرستان خانميرزا
+county_ir_132,base.ir,state_ir_25,شهرستان سامان
+county_ir_133,base.ir,state_ir_25,شهرستان شهر کرد
+county_ir_134,base.ir,state_ir_25,شهرستان فارسان
+county_ir_135,base.ir,state_ir_25,شهرستان فرخ شهر
+county_ir_136,base.ir,state_ir_25,شهرستان فلارد
+county_ir_137,base.ir,state_ir_25,شهرستان کوهرنگ
+county_ir_138,base.ir,state_ir_25,شهرستان کيار
+county_ir_139,base.ir,state_ir_25,شهرستان لردگان
+county_ir_140,base.ir,state_ir_38,شهرستان بشرويه
+county_ir_141,base.ir,state_ir_38,شهرستان بيرجند
+county_ir_142,base.ir,state_ir_38,شهرستان خوسف
+county_ir_143,base.ir,state_ir_38,شهرستان درميان
+county_ir_144,base.ir,state_ir_38,شهرستان زيرکوه
+county_ir_145,base.ir,state_ir_38,شهرستان سرايان
+county_ir_146,base.ir,state_ir_38,شهرستان سربيشه
+county_ir_147,base.ir,state_ir_38,شهرستان طبس
+county_ir_148,base.ir,state_ir_38,شهرستان فردوس
+county_ir_149,base.ir,state_ir_38,شهرستان قائنات
+county_ir_150,base.ir,state_ir_38,شهرستان نهبندان
+county_ir_151,base.ir,state_ir_13,شهرستان باخرز
+county_ir_152,base.ir,state_ir_13,شهرستان بجستان
+county_ir_153,base.ir,state_ir_13,شهرستان بردسکن
+county_ir_154,base.ir,state_ir_13,شهرستان تايباد
+county_ir_155,base.ir,state_ir_13,شهرستان تربت جام
+county_ir_156,base.ir,state_ir_13,شهرستان تربت حيدريه
+county_ir_157,base.ir,state_ir_13,شهرستان جغتاي
+county_ir_158,base.ir,state_ir_13,شهرستان جوين
+county_ir_159,base.ir,state_ir_13,شهرستان چناران
+county_ir_160,base.ir,state_ir_13,شهرستان خليل آباد
+county_ir_161,base.ir,state_ir_13,شهرستان خواف
+county_ir_162,base.ir,state_ir_13,شهرستان خوشاب
+county_ir_163,base.ir,state_ir_13,شهرستان داورزن
+county_ir_164,base.ir,state_ir_13,شهرستان درگز
+county_ir_165,base.ir,state_ir_13,شهرستان رشتخوار
+county_ir_166,base.ir,state_ir_13,شهرستان زاوه
+county_ir_167,base.ir,state_ir_13,شهرستان زبرخان
+county_ir_168,base.ir,state_ir_13,شهرستان سبزوار
+county_ir_169,base.ir,state_ir_13,شهرستان سرخس
+county_ir_170,base.ir,state_ir_13,شهرستان ششتمد
+county_ir_171,base.ir,state_ir_13,شهرستان صالح آباد
+county_ir_172,base.ir,state_ir_13,شهرستان طرقبه شانديز
+county_ir_173,base.ir,state_ir_13,شهرستان فريمان
+county_ir_174,base.ir,state_ir_13,شهرستان فيروزه
+county_ir_175,base.ir,state_ir_13,شهرستان قوچان
+county_ir_176,base.ir,state_ir_13,شهرستان کاشمر
+county_ir_177,base.ir,state_ir_13,شهرستان کلات
+county_ir_178,base.ir,state_ir_13,شهرستان کوهسرخ
+county_ir_179,base.ir,state_ir_13,شهرستان گلبهار
+county_ir_180,base.ir,state_ir_13,شهرستان گناباد
+county_ir_181,base.ir,state_ir_13,شهرستان مشهد
+county_ir_182,base.ir,state_ir_13,شهرستان مه ولات
+county_ir_183,base.ir,state_ir_13,شهرستان ميان جلگه
+county_ir_184,base.ir,state_ir_13,شهرستان نيشابور
+county_ir_185,base.ir,state_ir_39,شهرستان اسفراين
+county_ir_186,base.ir,state_ir_39,شهرستان بام و صفي آباد
+county_ir_187,base.ir,state_ir_39,شهرستان بجنورد
+county_ir_188,base.ir,state_ir_39,شهرستان جاجرم
+county_ir_189,base.ir,state_ir_39,شهرستان راز و جرگلان
+county_ir_190,base.ir,state_ir_39,شهرستان سملقان
+county_ir_191,base.ir,state_ir_39,شهرستان شيروان
+county_ir_192,base.ir,state_ir_39,شهرستان فاروج
+county_ir_193,base.ir,state_ir_39,شهرستان گرمه
+county_ir_194,base.ir,state_ir_39,شهرستان مانه
+county_ir_195,base.ir,state_ir_14,شهرستان اميديه
+county_ir_196,base.ir,state_ir_14,شهرستان انديکا
+county_ir_197,base.ir,state_ir_14,شهرستان انديمشک
+county_ir_198,base.ir,state_ir_14,شهرستان اهواز
+county_ir_199,base.ir,state_ir_14,شهرستان ايذه
+county_ir_200,base.ir,state_ir_14,شهرستان آبادان
+county_ir_201,base.ir,state_ir_14,شهرستان آغاجاري
+county_ir_202,base.ir,state_ir_14,شهرستان باغ ملک
+county_ir_203,base.ir,state_ir_14,شهرستان باوي
+county_ir_204,base.ir,state_ir_14,شهرستان بندرماهشهر
+county_ir_205,base.ir,state_ir_14,شهرستان بهبهان
+county_ir_206,base.ir,state_ir_14,شهرستان حميديه
+county_ir_207,base.ir,state_ir_14,شهرستان خرمشهر
+county_ir_208,base.ir,state_ir_14,شهرستان دزپارت
+county_ir_209,base.ir,state_ir_14,شهرستان دزفول
+county_ir_210,base.ir,state_ir_14,شهرستان دشت آزادگان
+county_ir_211,base.ir,state_ir_14,شهرستان رامشير
+county_ir_212,base.ir,state_ir_14,شهرستان رامهرمز
+county_ir_213,base.ir,state_ir_14,شهرستان شادگان
+county_ir_214,base.ir,state_ir_14,شهرستان شوش
+county_ir_215,base.ir,state_ir_14,شهرستان شوشتر
+county_ir_216,base.ir,state_ir_14,شهرستان صيدون
+county_ir_217,base.ir,state_ir_14,شهرستان کارون
+county_ir_218,base.ir,state_ir_14,شهرستان کرخه
+county_ir_219,base.ir,state_ir_14,شهرستان گتوند
+county_ir_220,base.ir,state_ir_14,شهرستان لالي
+county_ir_221,base.ir,state_ir_14,شهرستان مسجد سليمان
+county_ir_222,base.ir,state_ir_14,شهرستان هفتگل
+county_ir_223,base.ir,state_ir_14,شهرستان هنديجان
+county_ir_224,base.ir,state_ir_14,شهرستان هويزه
+county_ir_225,base.ir,state_ir_26,شهرستان ابهر
+county_ir_226,base.ir,state_ir_26,شهرستان ايجرود
+county_ir_227,base.ir,state_ir_26,شهرستان خدابنده
+county_ir_228,base.ir,state_ir_26,شهرستان خرمدره
+county_ir_229,base.ir,state_ir_26,شهرستان زنجان
+county_ir_230,base.ir,state_ir_26,شهرستان سلطانيه
+county_ir_231,base.ir,state_ir_26,شهرستان طارم
+county_ir_232,base.ir,state_ir_26,شهرستان ماهنشان
+county_ir_233,base.ir,state_ir_31,شهرستان آرادان
+county_ir_234,base.ir,state_ir_31,شهرستان دامغان
+county_ir_235,base.ir,state_ir_31,شهرستان سرخه
+county_ir_236,base.ir,state_ir_31,شهرستان سمنان
+county_ir_237,base.ir,state_ir_31,شهرستان شاهرود
+county_ir_238,base.ir,state_ir_31,شهرستان گرمسار
+county_ir_239,base.ir,state_ir_31,شهرستان مهدي شهر
+county_ir_240,base.ir,state_ir_31,شهرستان ميامي
+county_ir_241,base.ir,state_ir_21,شهرستان ايرانشهر
+county_ir_242,base.ir,state_ir_21,شهرستان بمپور
+county_ir_243,base.ir,state_ir_21,شهرستان تفتان
+county_ir_244,base.ir,state_ir_21,شهرستان چاه بهار
+county_ir_245,base.ir,state_ir_21,شهرستان خاش
+county_ir_246,base.ir,state_ir_21,شهرستان دشتياري
+county_ir_247,base.ir,state_ir_21,شهرستان دلگان
+county_ir_248,base.ir,state_ir_21,شهرستان راسک
+county_ir_249,base.ir,state_ir_21,شهرستان زابل
+county_ir_250,base.ir,state_ir_21,شهرستان زاهدان
+county_ir_251,base.ir,state_ir_21,شهرستان زرآباد
+county_ir_252,base.ir,state_ir_21,شهرستان زهک
+county_ir_253,base.ir,state_ir_21,شهرستان سراوان
+county_ir_254,base.ir,state_ir_21,شهرستان سرباز
+county_ir_255,base.ir,state_ir_21,شهرستان سيب سوران
+county_ir_256,base.ir,state_ir_21,شهرستان فنوج
+county_ir_257,base.ir,state_ir_21,شهرستان قصرقند
+county_ir_258,base.ir,state_ir_21,شهرستان کنارک
+county_ir_259,base.ir,state_ir_21,شهرستان گلشن
+county_ir_260,base.ir,state_ir_21,شهرستان لاشار
+county_ir_261,base.ir,state_ir_21,شهرستان مهرستان
+county_ir_262,base.ir,state_ir_21,شهرستان ميرجاوه
+county_ir_263,base.ir,state_ir_21,شهرستان نيک شهر
+county_ir_264,base.ir,state_ir_21,شهرستان نيمروز
+county_ir_265,base.ir,state_ir_21,شهرستان هامون
+county_ir_266,base.ir,state_ir_21,شهرستان هيرمند
+county_ir_267,base.ir,state_ir_15,شهرستان ارسنجان
+county_ir_268,base.ir,state_ir_15,شهرستان استهبان
+county_ir_269,base.ir,state_ir_15,شهرستان اقليد
+county_ir_270,base.ir,state_ir_15,شهرستان اوز
+county_ir_271,base.ir,state_ir_15,شهرستان آباده
+county_ir_272,base.ir,state_ir_15,شهرستان بختگان
+county_ir_273,base.ir,state_ir_15,شهرستان بوانات
+county_ir_274,base.ir,state_ir_15,شهرستان بيضاء
+county_ir_275,base.ir,state_ir_15,شهرستان پاسارگاد
+county_ir_276,base.ir,state_ir_15,شهرستان جهرم
+county_ir_277,base.ir,state_ir_15,شهرستان جويم
+county_ir_278,base.ir,state_ir_15,شهرستان خرامه
+county_ir_279,base.ir,state_ir_15,شهرستان خرم بيد
+county_ir_280,base.ir,state_ir_15,شهرستان خفر
+county_ir_281,base.ir,state_ir_15,شهرستان خنج
+county_ir_282,base.ir,state_ir_15,شهرستان داراب
+county_ir_283,base.ir,state_ir_15,شهرستان رستم
+county_ir_284,base.ir,state_ir_15,شهرستان زرقان
+county_ir_285,base.ir,state_ir_15,شهرستان زرين دشت
+county_ir_286,base.ir,state_ir_15,شهرستان سپيدان
+county_ir_287,base.ir,state_ir_15,شهرستان سرچهان
+county_ir_288,base.ir,state_ir_15,شهرستان سروستان
+county_ir_289,base.ir,state_ir_15,شهرستان شيراز
+county_ir_290,base.ir,state_ir_15,شهرستان فراشبند
+county_ir_291,base.ir,state_ir_15,شهرستان فسا
+county_ir_292,base.ir,state_ir_15,شهرستان فيروزآباد
+county_ir_293,base.ir,state_ir_15,شهرستان قير و کارزين
+county_ir_294,base.ir,state_ir_15,شهرستان کازرون
+county_ir_295,base.ir,state_ir_15,شهرستان کوار
+county_ir_296,base.ir,state_ir_15,شهرستان کوه چنار
+county_ir_297,base.ir,state_ir_15,شهرستان گراش
+county_ir_298,base.ir,state_ir_15,شهرستان لارستان
+county_ir_299,base.ir,state_ir_15,شهرستان لامرد
+county_ir_300,base.ir,state_ir_15,شهرستان مرودشت
+county_ir_301,base.ir,state_ir_15,شهرستان ممسني
+county_ir_302,base.ir,state_ir_15,شهرستان مهر
+county_ir_303,base.ir,state_ir_15,شهرستان ني ريز
+county_ir_304,base.ir,state_ir_36,شهرستان البرز
+county_ir_305,base.ir,state_ir_36,شهرستان آبيک
+county_ir_306,base.ir,state_ir_36,شهرستان آوج
+county_ir_307,base.ir,state_ir_36,شهرستان بوئين زهرا
+county_ir_308,base.ir,state_ir_36,شهرستان تاکستان
+county_ir_309,base.ir,state_ir_36,شهرستان قزوين
+county_ir_310,base.ir,state_ir_35,شهرستان جعفر آباد
+county_ir_311,base.ir,state_ir_35,شهرستان قم
+county_ir_312,base.ir,state_ir_35,شهرستان کهک
+county_ir_313,base.ir,state_ir_22,شهرستان بانه
+county_ir_314,base.ir,state_ir_22,شهرستان بيجار
+county_ir_315,base.ir,state_ir_22,شهرستان دهگلان
+county_ir_316,base.ir,state_ir_22,شهرستان ديواندره
+county_ir_317,base.ir,state_ir_22,شهرستان سروآباد
+county_ir_318,base.ir,state_ir_22,شهرستان سقز
+county_ir_319,base.ir,state_ir_22,شهرستان سنندج
+county_ir_320,base.ir,state_ir_22,شهرستان قروه
+county_ir_321,base.ir,state_ir_22,شهرستان کامياران
+county_ir_322,base.ir,state_ir_22,شهرستان مريوان
+county_ir_323,base.ir,state_ir_16,شهرستان ارزوئيه
+county_ir_324,base.ir,state_ir_16,شهرستان انار
+county_ir_325,base.ir,state_ir_16,شهرستان بافت
+county_ir_326,base.ir,state_ir_16,شهرستان بردسير
+county_ir_327,base.ir,state_ir_16,شهرستان بم
+county_ir_328,base.ir,state_ir_16,شهرستان جازموريان
+county_ir_329,base.ir,state_ir_16,شهرستان جيرفت
+county_ir_330,base.ir,state_ir_16,شهرستان رابر
+county_ir_331,base.ir,state_ir_16,شهرستان راور
+county_ir_332,base.ir,state_ir_16,شهرستان رفسنجان
+county_ir_333,base.ir,state_ir_16,شهرستان رودبار جنوب
+county_ir_334,base.ir,state_ir_16,شهرستان ريگان
+county_ir_335,base.ir,state_ir_16,شهرستان زرند
+county_ir_336,base.ir,state_ir_16,شهرستان سيرجان
+county_ir_337,base.ir,state_ir_16,شهرستان شهربابک
+county_ir_338,base.ir,state_ir_16,شهرستان عنبرآباد
+county_ir_339,base.ir,state_ir_16,شهرستان فارياب
+county_ir_340,base.ir,state_ir_16,شهرستان فهرج
+county_ir_341,base.ir,state_ir_16,شهرستان قلعه گنج
+county_ir_342,base.ir,state_ir_16,شهرستان کرمان
+county_ir_343,base.ir,state_ir_16,شهرستان کهنوج
+county_ir_344,base.ir,state_ir_16,شهرستان کوهبنان
+county_ir_345,base.ir,state_ir_16,شهرستان گنبکي
+county_ir_346,base.ir,state_ir_16,شهرستان منوجان
+county_ir_347,base.ir,state_ir_16,شهرستان نرماشير
+county_ir_348,base.ir,state_ir_17,شهرستان اسلام آباد غرب
+county_ir_349,base.ir,state_ir_17,شهرستان پاوه
+county_ir_350,base.ir,state_ir_17,شهرستان ثلاث باباجاني
+county_ir_351,base.ir,state_ir_17,شهرستان جوانرود
+county_ir_352,base.ir,state_ir_17,شهرستان دالاهو
+county_ir_353,base.ir,state_ir_17,شهرستان روانسر
+county_ir_354,base.ir,state_ir_17,شهرستان سر پل ذهاب
+county_ir_355,base.ir,state_ir_17,شهرستان سنقر
+county_ir_356,base.ir,state_ir_17,شهرستان صحنه
+county_ir_357,base.ir,state_ir_17,شهرستان قصرشيرين
+county_ir_358,base.ir,state_ir_17,شهرستان کرمانشاه
+county_ir_359,base.ir,state_ir_17,شهرستان کنگاور
+county_ir_360,base.ir,state_ir_17,شهرستان گيلانغرب
+county_ir_361,base.ir,state_ir_17,شهرستان هرسين
+county_ir_362,base.ir,state_ir_32,شهرستان باشت
+county_ir_363,base.ir,state_ir_32,شهرستان بهمئي
+county_ir_364,base.ir,state_ir_32,شهرستان بوير احمد
+county_ir_365,base.ir,state_ir_32,شهرستان چرام
+county_ir_366,base.ir,state_ir_32,شهرستان دنا
+county_ir_367,base.ir,state_ir_32,شهرستان کهگيلويه
+county_ir_368,base.ir,state_ir_32,شهرستان گچساران
+county_ir_369,base.ir,state_ir_32,شهرستان لنده
+county_ir_370,base.ir,state_ir_32,شهرستان مارگون
+county_ir_371,base.ir,state_ir_37,شهرستان آزادشهر
+county_ir_372,base.ir,state_ir_37,شهرستان آق قلا
+county_ir_373,base.ir,state_ir_37,شهرستان بندر گز
+county_ir_374,base.ir,state_ir_37,شهرستان ترکمن
+county_ir_375,base.ir,state_ir_37,شهرستان راميان
+county_ir_376,base.ir,state_ir_37,شهرستان علي آباد کتول
+county_ir_377,base.ir,state_ir_37,شهرستان کرد کوي
+county_ir_378,base.ir,state_ir_37,شهرستان کلاله
+county_ir_379,base.ir,state_ir_37,شهرستان گاليکش
+county_ir_380,base.ir,state_ir_37,شهرستان گرگان
+county_ir_381,base.ir,state_ir_37,شهرستان گميشان
+county_ir_382,base.ir,state_ir_37,شهرستان گنبد کاووس
+county_ir_383,base.ir,state_ir_37,شهرستان مراوه تپه
+county_ir_384,base.ir,state_ir_37,شهرستان مينودشت
+county_ir_385,base.ir,state_ir_18,شهرستان املش
+county_ir_386,base.ir,state_ir_18,شهرستان آستارا
+county_ir_387,base.ir,state_ir_18,شهرستان آستانه اشرفيه
+county_ir_388,base.ir,state_ir_18,شهرستان بندر انزلي
+county_ir_389,base.ir,state_ir_18,شهرستان خمام
+county_ir_390,base.ir,state_ir_18,شهرستان رشت
+county_ir_391,base.ir,state_ir_18,شهرستان رضوانشهر
+county_ir_392,base.ir,state_ir_18,شهرستان رودبار
+county_ir_393,base.ir,state_ir_18,شهرستان رودسر
+county_ir_394,base.ir,state_ir_18,شهرستان سياهکل
+county_ir_395,base.ir,state_ir_18,شهرستان شفت
+county_ir_396,base.ir,state_ir_18,شهرستان صومعه سرا
+county_ir_397,base.ir,state_ir_18,شهرستان طوالش
+county_ir_398,base.ir,state_ir_18,شهرستان فومن
+county_ir_399,base.ir,state_ir_18,شهرستان لاهيجان
+county_ir_400,base.ir,state_ir_18,شهرستان لنگرود
+county_ir_401,base.ir,state_ir_18,شهرستان ماسال
+county_ir_402,base.ir,state_ir_27,شهرستان ازنا
+county_ir_403,base.ir,state_ir_27,شهرستان اليگودرز
+county_ir_404,base.ir,state_ir_27,شهرستان بروجرد
+county_ir_405,base.ir,state_ir_27,شهرستان پلدختر
+county_ir_406,base.ir,state_ir_27,شهرستان چگني
+county_ir_407,base.ir,state_ir_27,شهرستان خرم آباد
+county_ir_408,base.ir,state_ir_27,شهرستان دلفان
+county_ir_409,base.ir,state_ir_27,شهرستان دورود
+county_ir_410,base.ir,state_ir_27,شهرستان رومشکان
+county_ir_411,base.ir,state_ir_27,شهرستان سلسله
+county_ir_412,base.ir,state_ir_27,شهرستان کوهدشت
+county_ir_413,base.ir,state_ir_27,شهرستان معمولان
+county_ir_414,base.ir,state_ir_19,شهرستان آمل
+county_ir_415,base.ir,state_ir_19,شهرستان بابل
+county_ir_416,base.ir,state_ir_19,شهرستان بابلسر
+county_ir_417,base.ir,state_ir_19,شهرستان بهشهر
+county_ir_418,base.ir,state_ir_19,شهرستان تنکابن
+county_ir_419,base.ir,state_ir_19,شهرستان جويبار
+county_ir_420,base.ir,state_ir_19,شهرستان چالوس
+county_ir_421,base.ir,state_ir_19,شهرستان رامسر
+county_ir_422,base.ir,state_ir_19,شهرستان ساري
+county_ir_423,base.ir,state_ir_19,شهرستان سواد کوه
+county_ir_424,base.ir,state_ir_19,شهرستان سوادکوه شمالي
+county_ir_425,base.ir,state_ir_19,شهرستان سيمرغ
+county_ir_426,base.ir,state_ir_19,شهرستان عباس آباد
+county_ir_427,base.ir,state_ir_19,شهرستان فريدونکنار
+county_ir_428,base.ir,state_ir_19,شهرستان قائم شهر
+county_ir_429,base.ir,state_ir_19,شهرستان کلاردشت
+county_ir_430,base.ir,state_ir_19,شهرستان گلوگاه
+county_ir_431,base.ir,state_ir_19,شهرستان محمود آباد
+county_ir_432,base.ir,state_ir_19,شهرستان مياندورود
+county_ir_433,base.ir,state_ir_19,شهرستان نکا
+county_ir_434,base.ir,state_ir_19,شهرستان نور
+county_ir_435,base.ir,state_ir_19,شهرستان نوشهر
+county_ir_436,base.ir,state_ir_20,شهرستان اراک
+county_ir_437,base.ir,state_ir_20,شهرستان آشتيان
+county_ir_438,base.ir,state_ir_20,شهرستان تفرش
+county_ir_439,base.ir,state_ir_20,شهرستان خمين
+county_ir_440,base.ir,state_ir_20,شهرستان خنداب
+county_ir_441,base.ir,state_ir_20,شهرستان دليجان
+county_ir_442,base.ir,state_ir_20,شهرستان زرنديه
+county_ir_443,base.ir,state_ir_20,شهرستان ساوه
+county_ir_444,base.ir,state_ir_20,شهرستان شازند
+county_ir_445,base.ir,state_ir_20,شهرستان فراهان
+county_ir_446,base.ir,state_ir_20,شهرستان کميجان
+county_ir_447,base.ir,state_ir_20,شهرستان محلات
+county_ir_448,base.ir,state_ir_23,شهرستان ابوموسي
+county_ir_449,base.ir,state_ir_23,شهرستان بستک
+county_ir_450,base.ir,state_ir_23,شهرستان بشاگرد
+county_ir_451,base.ir,state_ir_23,شهرستان بندرعباس
+county_ir_452,base.ir,state_ir_23,شهرستان بندرلنگه
+county_ir_453,base.ir,state_ir_23,شهرستان پارسيان
+county_ir_454,base.ir,state_ir_23,شهرستان جاسک
+county_ir_455,base.ir,state_ir_23,شهرستان حاجي آباد
+county_ir_456,base.ir,state_ir_23,شهرستان خمير
+county_ir_457,base.ir,state_ir_23,شهرستان رودان
+county_ir_458,base.ir,state_ir_23,شهرستان سيريک
+county_ir_459,base.ir,state_ir_23,شهرستان قشم
+county_ir_460,base.ir,state_ir_23,شهرستان ميناب
+county_ir_461,base.ir,state_ir_28,شهرستان اسدآباد
+county_ir_462,base.ir,state_ir_28,شهرستان بهار
+county_ir_463,base.ir,state_ir_28,شهرستان تويسرکان
+county_ir_464,base.ir,state_ir_28,شهرستان درگزين
+county_ir_465,base.ir,state_ir_28,شهرستان رزن
+county_ir_466,base.ir,state_ir_28,شهرستان فامنين
+county_ir_467,base.ir,state_ir_28,شهرستان کبودرآهنگ
+county_ir_468,base.ir,state_ir_28,شهرستان ملاير
+county_ir_469,base.ir,state_ir_28,شهرستان نهاوند
+county_ir_470,base.ir,state_ir_28,شهرستان همدان
+county_ir_471,base.ir,state_ir_29,شهرستان ابرکوه
+county_ir_472,base.ir,state_ir_29,شهرستان اردکان
+county_ir_473,base.ir,state_ir_29,شهرستان اشکذر
+county_ir_474,base.ir,state_ir_29,شهرستان بافق
+county_ir_475,base.ir,state_ir_29,شهرستان بهاباد
+county_ir_476,base.ir,state_ir_29,شهرستان تفت
+county_ir_477,base.ir,state_ir_29,شهرستان خاتم
+county_ir_478,base.ir,state_ir_29,شهرستان زارچ
+county_ir_479,base.ir,state_ir_29,شهرستان مروست
+county_ir_480,base.ir,state_ir_29,شهرستان مهريز
+county_ir_481,base.ir,state_ir_29,شهرستان ميبد
+county_ir_482,base.ir,state_ir_29,شهرستان يزد

@@ -1,0 +1,62 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tits_group_partner
+#
+# Translators:
+# Olivier ANDRE <frsw194@gmail.com>, 2021
+# Geoffrey_GMF <gmf@odoo.com>, 2021
+# Rémi CAZENAVE, 2021
+# Martin Trigaux, 2021
+# Lucas Deliege <lud@odoo.com>, 2021
+# Alexandra Jubert <aju@odoo.com>, 2021
+# Jonathan Castillo <jcs@odoo.com>, 2021
+# Cyrille de Lambert <cyrille.delambert@auguria.fr>, 2021
+# RHTodoo, 2021
+# Thomas Deleval <thd@odoo.com>, 2021
+# sakodoo <sak@odoo.com>, 2021
+# Cécile Collart <cco@odoo.com>, 2021
+# Camille Dantinne <cmd@odoo.com>, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-16 13:18+0000\n"
+"PO-Revision-Date: 2021-09-14 12:18+0000\n"
+"Last-Translator: Camille Dantinne <cmd@odoo.com>, 2021\n"
+"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: tits_group_partner
+#: model:ir.model.fields,field_description:tits_group_partner.field_res_partner__partner_group_id
+msgid "Partner group"
+msgstr "Groupe client"
+
+#. module: tits_group_partner
+#: model:ir.model.fields,field_description:tits_group_partner.field_res_partner_group__partner_ids
+msgid "Partner"
+msgstr "Client"
+
+#. module: tits_group_partner
+#: model:ir.model.fields,field_description:tits_group_partner.field_res_partner_group__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: tits_group_partner
+#: model:ir.model.fields.selection,name:tits_group_partner.selection__res_partner_group__type_res__customer
+msgid "Customer"
+msgstr "Client"
+
+#. module: tits_group_partner
+#: model:ir.model.fields.selection,name:tits_group_partner.selection__res_partner_group__type_res__vendor
+msgid "Vendor"
+msgstr "Fournisseur"
+
+#. module: tits_group_partner
+#: model:ir.model.fields,field_description:tits_group_partner.field_res_partner_group__type_res
+msgid "Partner type"
+msgstr "Type de partenaire"

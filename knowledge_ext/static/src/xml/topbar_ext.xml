@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="knowledge.KnowledgeTopbar" t-inherit-mode="extension">
+        <xpath 
+        expr="//button[@t-on-click='deleteArticle']" 
+        position="after">
+            <button class="dropdown-item" t-on-click="onSendRequestClick"
+                t-if="props.record.data.user_can_write and props.record.data.active
+                        and isInternalUser and props.record.data.category != 'workspace'">
+                <i class="me-2 fa fa-fw fa-lg fa-paper-plane"/> Publish Article
+            </button>
+        </xpath>
+    </t>
+</templates>

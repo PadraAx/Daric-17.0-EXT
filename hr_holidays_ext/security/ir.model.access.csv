@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_hr_holidays_employee_allocation,hr.holidays.employee.allocation,model_hr_leave_allocation,base.group_user,1,0,0,0
+access_hr_model_employee_user,hr.model.employee.user,model_hr_employee,base.group_user,1,0,0,0
+
+access_resource_calendar_leaves_user,resource_calendar_leaves_user,resource.model_resource_calendar_leaves,hr_holidays.group_hr_holidays_user,1,1,1,1
+
+access_hr_leave_type_hrss,hr.leave.type.hrss,model_hr_leave_type,hr_holidays.group_hr_holidays_user,1,1,1,1
+access_hr_leave_accrual_plan_hrss,hr.leave.accrual.plan.hrss,hr_holidays.model_hr_leave_accrual_plan,hr_holidays.group_hr_holidays_user,1,1,1,1
+access_hr_leave_mandatory_day_hrss,access_hr_holidays_mandatory_day_hrss,hr_holidays.model_hr_leave_mandatory_day,hr_holidays.group_hr_holidays_user,1,1,1,1
+access_mail_activity_type_holidays_hrss,mail.activity.type.holidays.hrss,mail.model_mail_activity_type,hr_holidays.group_hr_holidays_user,1,1,1,1
+
+access_hr_leave_hrbp,access.hr.leave.hrbp,model_hr_leave,employee_ext.group_hr_business_partner,1,0,0,0
+access_hr_leave_allocation_hrbp,access.hr.leave.allocation.hrbp,model_hr_leave_allocation,employee_ext.group_hr_business_partner,1,0,0,0

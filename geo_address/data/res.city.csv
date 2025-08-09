@@ -1,0 +1,1453 @@
+country_id:id,state_id:id,county_id:id,id,name,is_country_capital,is_state_capital,is_county_capital
+base.ir,state_ir_34,county_ir_001,city_ir_340010001,شهر اردبيل,FALSE,TRUE,TRUE
+base.ir,state_ir_34,county_ir_001,city_ir_340010002,شهر ثمرين,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_001,city_ir_340010003,شهر هير,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_001,city_ir_340010004,شهر آراللو,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_002,city_ir_340020005,شهر بران عليا,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_002,city_ir_340020006,شهر اصلاندوز,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_003,city_ir_340030007,شهر زيوه,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_003,city_ir_340030008,شهر انگوت,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_004,city_ir_340040009,شهر بيله سوار,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_004,city_ir_340040010,شهر جعفرآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_005,city_ir_340050011,شهر اولتان,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_005,city_ir_340050012,شهر مغانسر,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_005,city_ir_340050013,شهر اسلام آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_005,city_ir_340050014,شهر پارس آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_006,city_ir_340060015,شهر کلور,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_005,city_ir_340050016,شهر هشتجين,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_006,city_ir_340060017,شهر خلخال,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_007,city_ir_340070018,شهر ارديموسي,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_007,city_ir_340070019,شهر سرعين,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_008,city_ir_340080020,شهر فيروزآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_008,city_ir_340070021,شهر گيوي,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_009,city_ir_340080022,شهر زهرا,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_009,city_ir_340090023,شهر گرمي,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_010,city_ir_340100024,شهر آلني,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_010,city_ir_340100025,شهر رضي,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_010,city_ir_340100026,شهر فخرآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_010,city_ir_340100027,شهر لاهرود,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_010,city_ir_340100028,شهر مشگين شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_010,city_ir_340100029,شهر قصابه,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_010,city_ir_340100030,شهر مرادلو,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_011,city_ir_340110031,شهر آبي بيگلو,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_011,city_ir_340110032,شهر نمين,FALSE,FALSE,TRUE
+base.ir,state_ir_34,county_ir_011,city_ir_340110033,شهر عنبران,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_012,city_ir_340120034,شهر کوراييم,FALSE,FALSE,FALSE
+base.ir,state_ir_34,county_ir_012,city_ir_340120035,شهر نير,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_013,city_ir_120130036,شهر زواره,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_013,city_ir_120130037,شهر مهاباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_013,city_ir_120130038,شهر اردستان,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_014,city_ir_120140039,شهر اصفهان,FALSE,TRUE,TRUE
+base.ir,state_ir_12,county_ir_014,city_ir_120140040,شهر بهارستان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_014,city_ir_120140041,شهر سگزي,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_014,city_ir_120140042,شهر قهجاورستان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_014,city_ir_120140043,شهر زيار,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_015,city_ir_120150044,شهر ابوزيد آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_015,city_ir_120150045,شهر آران و بيدگل,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_015,city_ir_120150046,شهر سفيد شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_015,city_ir_120150047,شهر نوش آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_016,city_ir_120160048,شهر خورزوق,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_016,city_ir_120160049,شهر دستگرد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_016,city_ir_120160050,شهر دولت آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_016,city_ir_120160051,شهر سين,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_016,city_ir_120160052,شهر شاپور آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_016,city_ir_120160053,شهر کمشجه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_016,city_ir_120160054,شهر حبيب آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_017,city_ir_120170055,شهر افوس,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_017,city_ir_120170056,شهر بوئين و مياندشت,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_018,city_ir_120180057,شهر تيران,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_018,city_ir_120180058,شهر رضوانشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_018,city_ir_120180059,شهر عسگران,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_019,city_ir_120190060,شهر حسن آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_019,city_ir_120190061,شهر محمدآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_019,city_ir_120190062,شهر نصرآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_019,city_ir_120190063,شهر نيک آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_020,city_ir_120200064,شهر چادگان,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_020,city_ir_120200065,شهر رزوه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_021,city_ir_120210066,شهر خميني شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_021,city_ir_120210067,شهر درچه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_021,city_ir_120210068,شهر اصغر آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_021,city_ir_120210069,شهر کوشک,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_022,city_ir_120220070,شهر خوانسار,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_022,city_ir_120220071,شهر ويست,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_023,city_ir_120230072,شهر گلشن,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_023,city_ir_120230073,شهر دهاقان,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_024,city_ir_120240074,شهر جندق,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_024,city_ir_120240075,شهر خور,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_024,city_ir_120240076,شهر فرخي,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_025,city_ir_120250077,شهر فتح آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_025,city_ir_120250078,شهر کمه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_025,city_ir_120250079,شهر ونک,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_025,city_ir_120250080,شهر بيده,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_025,city_ir_120250081,شهر حنا,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_025,city_ir_120250082,شهر سميرم,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_026,city_ir_120260083,شهر شاهين شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_026,city_ir_120260084,شهر گرگاب,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_026,city_ir_120260085,شهر گزبرخوار,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_026,city_ir_120260086,شهر ميمه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_026,city_ir_120260087,شهر وزوان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_026,city_ir_120260088,شهر لاي بيد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_027,city_ir_120270089,شهرضا,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_027,city_ir_120270090,شهر منظريه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_028,city_ir_120280091,شهر دامنه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_028,city_ir_120280092,شهر داران,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_029,city_ir_120290093,شهر برف انبار,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_029,city_ir_120290094,شهر فريدونشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_030,city_ir_120300095,شهر بوستان زر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300096,شهر طاد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300097,شهر قهدريجان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300098,شهر کليشادوسودرجان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300099,شهر مينادشت,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300100,شهر ابريشم,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300101,شهر اشترجان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300102,شهر ايمانشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300103,شهر بهاران شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300104,شهر پيربکران,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300105,شهر زازران,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_030,city_ir_120300106,شهر فلاورجان,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_031,city_ir_120310107,شهر کامو و چوگان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_031,city_ir_120310108,شهر مشکات,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_031,city_ir_120310109,شهر نياسر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_031,city_ir_120310110,شهر برزک,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_031,city_ir_120310111,شهر جوشقان قالي,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_031,city_ir_120310112,شهر قمصر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_031,city_ir_120310113,شهر کاشان,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_032,city_ir_120320114,شهر تودشک,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_032,city_ir_120320115,شهر کوهپايه,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_033,city_ir_120330116,شهر گلپايگان,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_033,city_ir_120330117,شهر گلشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_033,city_ir_120330118,شهر گوگد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340119,شهر باغ بهادران,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340120,شهر چرمهين,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340121,شهر سده لنجان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340122,شهر ورنامخواست,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340123,شهر باغشاد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340124,شهر چمگردان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340125,شهر زاينده رود,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_034,city_ir_120340126,شهر زرين شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_034,city_ir_120340127,شهر فولادشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_035,city_ir_120350128,شهر دهسرخ,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_035,city_ir_120350129,شهر ديزيچه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_035,city_ir_120350130,شهر زيباشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_035,city_ir_120350131,شهر طالخونچه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_035,city_ir_120350132,شهر کرکوند,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_035,city_ir_120350133,شهر مبارکه,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_035,city_ir_120350134,شهر جديد مجلسي,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_036,city_ir_120360135,شهر انارک,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_036,city_ir_120360136,شهر بافران,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_036,city_ir_120360137,شهر نائين,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_037,city_ir_120370138,شهر کهريز سنگ,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_037,city_ir_120370139,شهر نجف آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_037,city_ir_120370140,شهر جوزدان,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_037,city_ir_120370141,شهر دهق,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_037,city_ir_120370142,شهر علويجه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_037,city_ir_120370143,شهر گلدشت,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_038,city_ir_120380144,شهر خالد آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_038,city_ir_120380145,شهر طرق رود,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_038,city_ir_120380146,شهر نطنز,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_038,city_ir_120380147,شهر بادرود,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_039,city_ir_120390148,شهر اژيه,FALSE,FALSE,FALSE
+base.ir,state_ir_12,county_ir_039,city_ir_120390149,شهر هرند,FALSE,FALSE,TRUE
+base.ir,state_ir_12,county_ir_040,city_ir_120400150,شهر ورزنه,FALSE,FALSE,TRUE
+base.ir,state_ir_40,county_ir_041,city_ir_400410151,شهر اشتهارد,FALSE,FALSE,TRUE
+base.ir,state_ir_40,county_ir_041,city_ir_400410152,شهر پلنگ آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_042,city_ir_400420153,شهر چهار باغ,FALSE,FALSE,TRUE
+base.ir,state_ir_40,county_ir_043,city_ir_400430154,شهر کوهسار,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_043,city_ir_400430155,شهر مهستان,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_043,city_ir_400430156,شهر هشتگرد,FALSE,FALSE,TRUE
+base.ir,state_ir_40,county_ir_043,city_ir_400430157,شهر گلسار,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_044,city_ir_400440158,شهر طالقان,FALSE,FALSE,TRUE
+base.ir,state_ir_40,county_ir_045,city_ir_400450159,شهر مشکين دشت,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_045,city_ir_400450160,شهر فرديس,FALSE,FALSE,TRUE
+base.ir,state_ir_40,county_ir_046,city_ir_400460161,شهر آسارا,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_046,city_ir_400460162,شهر کرج,FALSE,TRUE,TRUE
+base.ir,state_ir_40,county_ir_046,city_ir_400460163,شهر گرمدره,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_046,city_ir_400460164,شهر محمد شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_046,city_ir_400460165,شهر کمال شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_046,city_ir_400460166,شهر ماهدشت,FALSE,FALSE,FALSE
+base.ir,state_ir_40,county_ir_047,city_ir_400470167,شهر نظرآباد,FALSE,FALSE,TRUE
+base.ir,state_ir_40,county_ir_047,city_ir_400470168,شهر تنکمان,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_048,city_ir_300480169,شهر جعفر آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_048,city_ir_300480170,شهر ايلام,FALSE,TRUE,TRUE
+base.ir,state_ir_30,county_ir_049,city_ir_300490171,شهر ايوان,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_049,city_ir_300490172,شهر زرنه,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_050,city_ir_300500173,شهر آبدانان,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_050,city_ir_300500174,شهر مورموري,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_050,city_ir_300500175,شهر سراب باغ,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_051,city_ir_300510176,شهر بدره,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_051,city_ir_300510177,شهر چشمه شيرين,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_052,city_ir_300520178,شهر آسمان آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_052,city_ir_300520179,شهر بلاوه,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_052,city_ir_300520180,شهر شباب,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_052,city_ir_300520181,شهر سرابله,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_053,city_ir_300530182,شهر چوار,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_054,city_ir_300540183,شهر دره شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_054,city_ir_300540184,شهر ماژين,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_055,city_ir_300550185,شهر پهله,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_055,city_ir_300550186,شهر دهلران,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_055,city_ir_300550187,شهر موسيان,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_055,city_ir_300550188,شهر ميمه,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_055,city_ir_300550189,شهر دشت عباس,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_056,city_ir_300560190,شهر لومار,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_057,city_ir_300570191,شهر مهر,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_057,city_ir_300570192,شهر ارکواز,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_057,city_ir_300570193,شهر دلگشا,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_058,city_ir_300580194,شهر صالح آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_30,county_ir_058,city_ir_300580195,شهر مهران,FALSE,FALSE,TRUE
+base.ir,state_ir_30,county_ir_059,city_ir_300590196,شهر توحيد,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_060,city_ir_100600197,شهر اسکو,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_060,city_ir_100600198,شهر ايلخچي,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_060,city_ir_100600199,شهر جديد سهند,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_061,city_ir_100610200,شهر اهر,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_062,city_ir_100620201,شهر تيمورلو,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_062,city_ir_100620202,شهر گوگان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_062,city_ir_100620203,شهر ممقان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_062,city_ir_100620204,شهر آذرشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_063,city_ir_100630205,شهر کرد کندي,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_063,city_ir_100630206,شهر بستان آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_063,city_ir_100630207,شهر تيکمه داش,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_064,city_ir_100640208,شهر بناب,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_064,city_ir_100640209,شهر خوشه مهر,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_065,city_ir_100650210,شهر اسفهلان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_065,city_ir_100650211,شهر باسمنج,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_065,city_ir_100650212,شهر تبريز,FALSE,TRUE,TRUE
+base.ir,state_ir_10,county_ir_065,city_ir_100650213,شهر لاهيجان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_065,city_ir_100650214,شهر خسروشاه,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_065,city_ir_100650215,شهر سردرود,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_066,city_ir_100660216,شهر هاديشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_066,city_ir_100660217,شهر جلفا,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_066,city_ir_100660218,شهر سيه رود,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_067,city_ir_100670219,شهر قره آغاج,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_068,city_ir_100680220,شهر خمارلو,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_068,city_ir_100680221,شهر لاريجان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_068,city_ir_100680222,شهر عاشقلو,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_069,city_ir_100690223,شهر دوزدوزان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_069,city_ir_100690224,شهر سراب,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_069,city_ir_100690225,شهر شربيان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_069,city_ir_100690226,شهر مهربان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700227,شهر تسوج,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700228,شهر خامنه,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700229,شهر شبستر,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_070,city_ir_100700230,شهر شرفخانه,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700231,شهر شند آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700232,شهر عليشاه,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700233,شهر کوزه کنان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700234,شهر وايقان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700235,شهر داريان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700236,شهر سيس,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_070,city_ir_100700237,شهر صوفيان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_071,city_ir_100710238,شهر جوان قلعه,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_071,city_ir_100710239,شهر عجب شير,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_072,city_ir_100720240,شهر آبش احمد,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_072,city_ir_100720241,شهر کليبر,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_073,city_ir_100730242,شهر ليلان,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_074,city_ir_100740243,شهر خداجو,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_074,city_ir_100740244,شهر مراغه,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_075,city_ir_100750245,شهر ديزج حسين بيگ,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_075,city_ir_100750246,شهر زنوز,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_075,city_ir_100750247,شهر کشکسراي,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_075,city_ir_100750248,شهر مرند,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_075,city_ir_100750249,شهر يامچي,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_075,city_ir_100750250,شهر بناب مرند,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_076,city_ir_100760251,شهر مبارک شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_076,city_ir_100760252,شهر ملکان,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_077,city_ir_100770253,شهر آچاچي,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_077,city_ir_100770254,شهر آقکند,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_077,city_ir_100770255,شهر ترک,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_077,city_ir_100770256,شهر ترکمانچاي,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_077,city_ir_100770257,شهر ميانه,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_078,city_ir_100780258,شهر بخشايش,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_078,city_ir_100780259,شهر خواجه,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_078,city_ir_100780260,شهر زرنق,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_078,city_ir_100780261,شهر کلوانق,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_078,city_ir_100780262,شهر هريس,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_078,city_ir_100780263,شهر اربطان,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_079,city_ir_100790264,شهر نظر کهريزي,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_079,city_ir_100790265,شهر هشترود,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_080,city_ir_100800266,شهر هوراند,FALSE,FALSE,TRUE
+base.ir,state_ir_10,county_ir_081,city_ir_100810267,شهر خاروانا,FALSE,FALSE,FALSE
+base.ir,state_ir_10,county_ir_081,city_ir_100810268,شهر ورزقان,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_082,city_ir_110820269,شهر اروميه,FALSE,TRUE,TRUE
+base.ir,state_ir_11,county_ir_082,city_ir_110820270,شهر سيلوانه,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_082,city_ir_110820271,شهر قوشچي,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_082,city_ir_110820272,شهر نوشين,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_082,city_ir_110820273,شهر سرو,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_083,city_ir_110830274,شهر اشنويه,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_083,city_ir_110830275,شهر نالوس,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_084,city_ir_110840276,شهر باروق,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_085,city_ir_110850277,شهر بوکان,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_085,city_ir_110850278,شهر سيمينه,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_086,city_ir_110860279,شهر پلدشت,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_086,city_ir_110860280,شهر نازک عليا,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_087,city_ir_110870281,شهر پيرانشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_087,city_ir_110870282,شهر لاجان,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_088,city_ir_110880283,شهر تخت سليمان,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_088,city_ir_110880284,شهر تکاب,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_089,city_ir_110890285,شهر آواجيق,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_089,city_ir_110890286,شهر سيه چشمه,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_090,city_ir_110900287,شهر حاجيلار,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_090,city_ir_110900288,شهر قره ضياء الدين,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_091,city_ir_110910289,شهر چهاربرج,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_092,city_ir_110920290,شهر ايواوغلي,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_092,city_ir_110920291,شهر خوي,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_092,city_ir_110920292,شهر زرآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_092,city_ir_110920293,شهر فيرورق,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_092,city_ir_110920294,شهر ديزج ديز,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_092,city_ir_110920295,شهر قطور,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_093,city_ir_110930296,شهر سردشت,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_093,city_ir_110930297,شهر نلاس,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_093,city_ir_110930298,شهر ربط,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_094,city_ir_110940299,شهر تازه شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_094,city_ir_110940300,شهر سلماس,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_095,city_ir_110950301,شهر کشاورز,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_095,city_ir_110950302,شهر شاهين دژ,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_095,city_ir_110950303,شهر محمود آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_096,city_ir_110960304,شهر شوط,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_096,city_ir_110960305,شهر مرگنلر,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_096,city_ir_110960306,شهر يولاگلدي,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_097,city_ir_110970307,شهر بازرگان,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_097,city_ir_110970308,شهر ماکو,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_098,city_ir_110980309,شهر خليفان,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_098,city_ir_110980310,شهر مهاباد,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_098,city_ir_110980311,شهر گوگ تپه,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_099,city_ir_110990312,شهر بکتاش,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_099,city_ir_110990313,شهر مياندوآب,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_100,city_ir_111000314,شهر ميرآباد,FALSE,FALSE,TRUE
+base.ir,state_ir_11,county_ir_101,city_ir_111010315,شهر محمديار,FALSE,FALSE,FALSE
+base.ir,state_ir_11,county_ir_101,city_ir_111010316,شهر نقده,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_102,city_ir_241020317,شهر بوشهر,FALSE,TRUE,TRUE
+base.ir,state_ir_24,county_ir_102,city_ir_241020318,شهر چغادک,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_102,city_ir_241020319,شهر جديد عاليشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_102,city_ir_241020320,شهر خارک,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_103,city_ir_241030321,شهر اهرم,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_103,city_ir_241030322,شهر آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_103,city_ir_241030323,شهر دلوار,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_104,city_ir_241040324,شهر بهارستان,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_104,city_ir_241040325,شهر جم,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_104,city_ir_241040326,شهر انارستان,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_104,city_ir_241040327,شهر ريز,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050328,شهر آبپخش,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050329,شهر تنگ ارم,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050330,شهر دالکي,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050331,شهر شبانکاره,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050332,شهر وحدتيه,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050333,شهر برازجان,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_105,city_ir_241050334,شهر بوشکان,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050335,شهر سعد آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_105,city_ir_241050336,شهر کلمه,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_106,city_ir_241060337,شهر بادوله,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_106,city_ir_241060338,شهر خورموج,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_106,city_ir_241060339,شهر شنبه,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_106,city_ir_241060340,شهر کاکي,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_107,city_ir_241070341,شهر بردخون,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_107,city_ir_241070342,شهر بردستان,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_107,city_ir_241070343,شهر آبدان,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_107,city_ir_241070344,شهر بندر دير,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_107,city_ir_241070345,شهر دوراهک,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_108,city_ir_241080346,شهر امام حسن,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_108,city_ir_241080347,شهر بندر ديلم,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_109,city_ir_241090348,شهر نخل تقي,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_109,city_ir_241090349,شهر بيدخون,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_109,city_ir_241090350,شهر چاه مبارک,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_109,city_ir_241090351,شهر عسلويه,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_110,city_ir_241100352,شهر بندر کنگان,FALSE,FALSE,TRUE
+base.ir,state_ir_24,county_ir_110,city_ir_241100353,شهر بنک,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_110,city_ir_241100354,شهر سيراف,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_110,city_ir_241100355,شهر شيرينو,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_111,city_ir_241110356,شهر بندر ريگ,FALSE,FALSE,FALSE
+base.ir,state_ir_24,county_ir_111,city_ir_241110357,شهر بندر گناوه,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_112,city_ir_331120358,شهر چهار دانگه,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_112,city_ir_331120359,شهر احمدآباد مستوفي,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_112,city_ir_331120360,شهر اسلامشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_113,city_ir_331130361,شهر صالحيه,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_113,city_ir_331130362,شهر گلستان,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_113,city_ir_331130363,شهر نسيم شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_114,city_ir_331140364,شهر پاکدشت,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_114,city_ir_331140365,شهر شريف آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_114,city_ir_331140366,شهر فرون آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_115,city_ir_331150367,شهر بومهن,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_115,city_ir_331150368,شهر خسرو آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_115,city_ir_331150369,شهر سعيد آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_115,city_ir_331150370,شهر جديد پرديس,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_116,city_ir_331160371,شهر جليل آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_116,city_ir_331160372,شهر پيشوا,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_117,city_ir_331170373,شهر تهران,TRUE,TRUE,TRUE
+base.ir,state_ir_33,county_ir_118,city_ir_331180374,شهر آبسرد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_118,city_ir_331180375,شهر رودهن,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_118,city_ir_331180376,شهر آبعلي,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_118,city_ir_331180377,شهر دماوند,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_118,city_ir_331180378,شهر کيلان,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_119,city_ir_331190379,شهر رباط کريم,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_119,city_ir_331190380,شهر جديد پرند,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_119,city_ir_331190381,شهر نصيرشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_120,city_ir_331200382,شهر ري,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_120,city_ir_331200383,شهر قلعه نو,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_120,city_ir_331200384,شهر کهريزک,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_120,city_ir_331200385,شهر باقرشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_120,city_ir_331200386,شهر حسن آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_120,city_ir_331200387,شهر قيامدشت,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_121,city_ir_331210388,شهر شمشک,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_121,city_ir_331210389,شهر لواسان,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_121,city_ir_331210390,شهر تجريش,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_121,city_ir_331210391,شهر فشم,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_122,city_ir_331220392,شهر شاهدشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_122,city_ir_331220393,شهر جديد انديشه,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_122,city_ir_331220394,شهر شهريار,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_122,city_ir_331220395,شهر صباشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_122,city_ir_331220396,شهر فردوسيه,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_122,city_ir_331220397,شهر وحيديه,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_122,city_ir_331220398,شهر باغستان,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_123,city_ir_331230399,شهر ارجمند,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_123,city_ir_331230400,شهر فيروزکوه,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_124,city_ir_331240401,شهر قدس,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_125,city_ir_331250402,شهر قرچک,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_126,city_ir_331260403,شهر صفادشت,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_126,city_ir_331260404,شهر ملارد,FALSE,FALSE,TRUE
+base.ir,state_ir_33,county_ir_127,city_ir_331270405,شهر جوادآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_33,county_ir_127,city_ir_331270406,شهر ورامين,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_128,city_ir_251280407,شهر اردل,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_128,city_ir_251280408,شهر دشتک,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_128,city_ir_251280409,شهر سرخون,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_128,city_ir_251280410,شهر کاج,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_129,city_ir_251290411,شهر بلداجي,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_129,city_ir_251290412,شهر سفيد دشت,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_129,city_ir_251290413,شهر فرادنبه,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_129,city_ir_251290414,شهر نقنه,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_129,city_ir_251290415,شهر بروجن,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_129,city_ir_251290416,شهر گندمان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_130,city_ir_251300417,شهر وردنجان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_130,city_ir_251300418,شهر يانچشمه,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_130,city_ir_251300419,شهر بن,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_131,city_ir_251310420,شهر آلوني,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_132,city_ir_251320421,شهر سامان,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_132,city_ir_251320422,شهر هوره,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_133,city_ir_251330423,شهر سورشجان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_133,city_ir_251330424,شهرکرد,FALSE,TRUE,TRUE
+base.ir,state_ir_25,county_ir_133,city_ir_251330425,شهر نافچ,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_133,city_ir_251330426,شهر هاروني,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_133,city_ir_251330427,شهر هفشجان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_133,city_ir_251330428,شهر سودجان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_133,city_ir_251330429,شهر طاقانک,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_133,city_ir_251330430,شهر کيان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_134,city_ir_251340431,شهر بابا حيدر,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_134,city_ir_251340432,شهر پردنجان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_134,city_ir_251340433,شهر جونقان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_134,city_ir_251340434,شهر چليچه,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_134,city_ir_251340435,شهر فيل آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_134,city_ir_251340436,شهر گوجان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_134,city_ir_251340437,شهر فارسان,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_135,city_ir_251350438,شهر فرخ شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_136,city_ir_251360439,شهر مال خليفه,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_137,city_ir_251370440,شهر بازفت,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_137,city_ir_251370441,شهر چلگرد,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_137,city_ir_251370442,شهر صمصامي,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_138,city_ir_251380443,شهر گهرو,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_138,city_ir_251380444,شهر ناغان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_138,city_ir_251380445,شهر دستناء,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_138,city_ir_251380446,شهر شلمزار,FALSE,FALSE,TRUE
+base.ir,state_ir_25,county_ir_139,city_ir_251390447,شهر منج,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_139,city_ir_251390448,شهر سردشت لردگان,FALSE,FALSE,FALSE
+base.ir,state_ir_25,county_ir_139,city_ir_251390449,شهر لردگان,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_140,city_ir_381400450,شهر ارسک,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_140,city_ir_381400451,شهر بشرويه,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_141,city_ir_381410452,شهر بيرجند,FALSE,TRUE,TRUE
+base.ir,state_ir_38,county_ir_142,city_ir_381420453,شهر محمد شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_142,city_ir_381420454,شهر خوسف,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_142,city_ir_381420455,شهر ماژان,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_143,city_ir_381430456,شهر اسديه,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_143,city_ir_381430457,شهر طبس مسينا,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_143,city_ir_381430458,شهر قهستان,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_143,city_ir_381430459,شهر گزيک,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_144,city_ir_381440460,شهر آبيز,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_144,city_ir_381440461,شهر حاجي آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_144,city_ir_381440462,شهر زهان,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_145,city_ir_381450463,شهر آيسک,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_145,city_ir_381450464,شهر سرايان,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_145,city_ir_381450465,شهر سه قلعه,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_146,city_ir_381460466,شهر درح,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_146,city_ir_381460467,شهر مود,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_146,city_ir_381460468,شهر سربيشه,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_147,city_ir_381470469,شهر ديهوک,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_147,city_ir_381470470,شهر طبس,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_147,city_ir_381470471,شهر عشق آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_148,city_ir_381480472,شهر اسلاميه,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_148,city_ir_381480473,شهر باغستان,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_148,city_ir_381480474,شهر فردوس,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_149,city_ir_381490475,شهر اسفدن,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_149,city_ir_381490476,شهر آرين شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_149,city_ir_381490477,شهر خضري دشت بياض,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_149,city_ir_381490478,شهر نيمبلوک,FALSE,FALSE,FALSE
+base.ir,state_ir_38,county_ir_149,city_ir_381490479,شهر قائن,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_150,city_ir_381500480,شهر نهبندان,FALSE,FALSE,TRUE
+base.ir,state_ir_38,county_ir_150,city_ir_381500481,شهر شوسف,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_151,city_ir_131510482,شهر باخرز,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_151,city_ir_131510483,شهر قلعه نو عليا,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_152,city_ir_131520484,شهر بجستان,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_152,city_ir_131520485,شهر يونسي,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_153,city_ir_131530486,شهر شهر آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_153,city_ir_131530487,شهر انابد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_153,city_ir_131530488,شهر بردسکن,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_154,city_ir_131540489,شهر تايباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_154,city_ir_131540490,شهر مشهد ريزه,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_154,city_ir_131540491,شهر کاريز,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_155,city_ir_131550492,شهر تربت جام,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_155,city_ir_131550493,شهر سميع آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_155,city_ir_131550494,شهر نصر آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_155,city_ir_131550495,شهر نيل شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_155,city_ir_131550496,شهر احمد آباد صولت,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_156,city_ir_131560497,شهر بايک,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_156,city_ir_131560498,شهر نسر,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_156,city_ir_131560499,شهر تربت حيدريه,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_156,city_ir_131560500,شهر رباط سنگ,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_156,city_ir_131560501,شهر کدکن,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_157,city_ir_131570502,شهر جغتاي,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_157,city_ir_131570503,شهر ريواده,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_158,city_ir_131580504,شهر حکم آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_158,city_ir_131580505,شهر نقاب,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_159,city_ir_131590506,شهر چناران,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_159,city_ir_131590507,شهر رادکان,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_159,city_ir_131590508,شهر سيد آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_160,city_ir_131600509,شهر خليل آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_160,city_ir_131600510,شهر کندر,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_161,city_ir_131610511,شهر خواف,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_161,city_ir_131610512,شهر قاسم آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_161,city_ir_131610513,شهر نشتيفان,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_161,city_ir_131610514,شهر سده,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_161,city_ir_131610515,شهر سلامي,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_161,city_ir_131610516,شهر سنگان,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_162,city_ir_131620517,شهر سلطان آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_162,city_ir_131620518,شهر مشکان,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_162,city_ir_131620519,شهر نوده انقلاب,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_163,city_ir_131630520,شهر داورزن,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_163,city_ir_131630521,شهر ريوند,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_164,city_ir_131640522,شهر نوخندان,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_164,city_ir_131640523,شهر چاپشلو,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_164,city_ir_131640524,شهر درگز,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_164,city_ir_131640525,شهر لطف آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_165,city_ir_131650526,شهر رشتخوار,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_165,city_ir_131650527,شهر جنگل,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_166,city_ir_131660528,شهر دولت آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_166,city_ir_131660529,شهر چخماق,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_167,city_ir_131670530,شهر اسحاق آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_167,city_ir_131670531,شهر خرو,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_167,city_ir_131670532,شهر درود,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_167,city_ir_131670533,شهر قدمگاه,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_168,city_ir_131680534,شهر روداب,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_168,city_ir_131680535,شهر سبزوار,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_169,city_ir_131690536,شهر مزدآوند,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_169,city_ir_131690537,شهر سرخس,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_170,city_ir_131700538,شهر شامکان,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_170,city_ir_131700539,شهر ششتمد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_171,city_ir_131710540,شهر جنت آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_171,city_ir_131710541,شهر صالح آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_172,city_ir_131720542,شهر شانديز,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_172,city_ir_131720543,شهر طرقبه,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_173,city_ir_131730544,شهر سفيد سنگ,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_173,city_ir_131730545,شهر فرهادگرد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_173,city_ir_131730546,شهر قلندرآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_173,city_ir_131730547,شهر فريمان,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_174,city_ir_131740548,شهر گرماب,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_174,city_ir_131740549,شهر همت آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_174,city_ir_131740550,شهر فيروزه,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_175,city_ir_131750551,شهر آلماجق,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_175,city_ir_131750552,شهر باجگيران,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_175,city_ir_131750553,شهرکهنه,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_175,city_ir_131750554,شهر مزرج,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_175,city_ir_131750555,شهر قوچان,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_176,city_ir_131760556,شهر فرگ قلعه,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_176,city_ir_131760557,شهر کاشمر,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_177,city_ir_131770558,شهر چنار,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_177,city_ir_131770559,شهر حسن آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_177,city_ir_131770560,شهر کلات,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_177,city_ir_131770561,شهر زو,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_178,city_ir_131780562,شهر ريوش,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_179,city_ir_131790563,شهر گلبهار,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_179,city_ir_131790564,شهر گلمکان,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_180,city_ir_131800565,شهر کاخک,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_180,city_ir_131800566,شهر بيدخت,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_180,city_ir_131800567,شهر روشناوند,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_180,city_ir_131800568,شهر گناباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_181,city_ir_131810569,شهر مشهد,FALSE,TRUE,TRUE
+base.ir,state_ir_13,county_ir_181,city_ir_131810570,شهر ملک آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_181,city_ir_131810571,شهر رضويه,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_182,city_ir_131820572,شهر شادمهر,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_182,city_ir_131820573,شهر فيض آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_183,city_ir_131830574,شهر عشق آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_184,city_ir_131840575,شهر بار,FALSE,FALSE,FALSE
+base.ir,state_ir_13,county_ir_184,city_ir_131840576,شهر نيشابور,FALSE,FALSE,TRUE
+base.ir,state_ir_13,county_ir_184,city_ir_131840577,شهر چکنه,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_185,city_ir_391850578,شهر اسفراين,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_186,city_ir_391860579,شهر صفي آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_187,city_ir_391870580,شهر بجنورد,FALSE,TRUE,TRUE
+base.ir,state_ir_39,county_ir_187,city_ir_391870581,شهر چناران شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_187,city_ir_391870582,شهر حصارگرمخان,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_188,city_ir_391880583,شهر سنخواست,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_188,city_ir_391880584,شهر شوقان,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_188,city_ir_391880585,شهر جاجرم,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_189,city_ir_391890586,شهر راز,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_189,city_ir_391890587,شهر يکه سعود,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_189,city_ir_391890588,شهر غلامان,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_190,city_ir_391900589,شهر آوا,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_190,city_ir_391900590,شهر آشخانه,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_190,city_ir_391900591,شهر قاضي,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_191,city_ir_391910592,شهر زيارت,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_191,city_ir_391910593,شهر شيروان,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_191,city_ir_391910594,شهر لوجلي,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_191,city_ir_391910595,شهر خانلق,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_191,city_ir_391910596,شهر قوشخانه,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_192,city_ir_391920597,شهر تيتکانلو,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_192,city_ir_391920598,شهر فاروج,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_193,city_ir_391930599,شهر ايور,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_192,city_ir_391920600,شهر درق,FALSE,FALSE,FALSE
+base.ir,state_ir_39,county_ir_193,city_ir_391930601,شهر گرمه,FALSE,FALSE,TRUE
+base.ir,state_ir_39,county_ir_194,city_ir_391940602,شهر پيش قلعه,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_195,city_ir_141950603,شهر اميديه,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_195,city_ir_141950604,شهر ميانکوه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_195,city_ir_141950605,شهر جايزان,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_196,city_ir_141960606,شهر آبژدان,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_196,city_ir_141960607,شهر زاووت,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_196,city_ir_141960608,شهر قلعه خواجه,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_197,city_ir_141970609,شهر بيدروبه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_197,city_ir_141970610,شهر انديمشک,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_197,city_ir_141970611,شهر آزادي,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_197,city_ir_141970612,شهر چم گلک,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_197,city_ir_141970613,شهر حسينيه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_198,city_ir_141980614,شهر الهائي,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_198,city_ir_141980615,شهر اهواز,FALSE,TRUE,TRUE
+base.ir,state_ir_14,county_ir_199,city_ir_141990616,شهر ايذه,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_200,city_ir_142000617,شهر اروند کنار,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_200,city_ir_142000618,شهر آبادان,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_200,city_ir_142000619,شهر چوئبده,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_201,city_ir_142010620,شهر آغاجاري,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_201,city_ir_142010621,شهر جولکي,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_202,city_ir_142020622,شهر باغ ملک,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_202,city_ir_142020623,شهر قلعه تل,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_202,city_ir_142020624,شهر ميداود,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_203,city_ir_142030625,شهر شيبان,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_203,city_ir_142030626,شهر ملاثاني,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_203,city_ir_142030627,شهر ويس,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_204,city_ir_142040628,شهر بندر ماهشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_204,city_ir_142040629,شهر بندر امام خميني,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_204,city_ir_142040630,شهر چمران,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_205,city_ir_142050631,شهر بهبهان,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_205,city_ir_142050632,شهر منصوريه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_205,city_ir_142050633,شهر تشان,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_205,city_ir_142050634,شهر سردشت,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_206,city_ir_142060635,شهر حميديه,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_207,city_ir_142070636,شهر خرمشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_207,city_ir_142070637,شهر مقاومت,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_207,city_ir_142070638,شهر مينوشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_208,city_ir_142080639,شهر دهدز,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_209,city_ir_142090640,شهر جندي شاپور,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090641,شهر چغاميش,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090642,شهر حمزه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090643,شهر سالند,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090644,شهر سياه منصور,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090645,شهر شمس آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090646,شهر امام,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090647,شهر منتظران,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090648,شهر ميانرود,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090649,شهر دزفول,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_209,city_ir_142090650,شهر شهيون,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_209,city_ir_142090651,شهر صفي آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_210,city_ir_142100652,شهر ابوحميظه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_210,city_ir_142100653,شهر سوسنگرد,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_210,city_ir_142100654,شهر کوت سيد نعيم,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_210,city_ir_142100655,شهر بستان,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_211,city_ir_142110656,شهر رامشير,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_211,city_ir_142110657,شهر مشراگه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_212,city_ir_142120658,شهر باوج,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_212,city_ir_142120659,شهر رامهرمز,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_212,city_ir_142120660,شهر رودزرد ماشين,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_212,city_ir_142120661,شهر سلطان آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_213,city_ir_142130662,شهر خنافره,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_213,city_ir_142130663,شهر دارخوين,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_213,city_ir_142130664,شهر شادگان,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_214,city_ir_142140665,شهر حر,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_214,city_ir_142140666,شهر شوش,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_214,city_ir_142140667,شهر فتح المبين,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_215,city_ir_142150668,شهر شرافت,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_215,city_ir_142150669,شهر شوشتر,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_215,city_ir_142150670,شهر عرب حسن,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_215,city_ir_142150671,شهر گوريه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_215,city_ir_142150672,شهر سرداران,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_216,city_ir_142160673,شهر صيدون,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_217,city_ir_142170674,شهر کوت عبدالله,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_218,city_ir_142180675,شهر الوان,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_218,city_ir_142180676,شهر شاوور,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_219,city_ir_142190677,شهر جنت مکان,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_219,city_ir_142190678,شهر سماله,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_219,city_ir_142190679,شهر صالح شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_219,city_ir_142190680,شهر گتوند,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_219,city_ir_142190681,شهر ترکالکي,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_220,city_ir_142200682,شهر تراز,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_220,city_ir_142200683,شهر لالي,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_221,city_ir_142210684,شهر عنبر,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_221,city_ir_142210685,شهر گلگير,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_221,city_ir_142210686,شهر مسجد سليمان,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_222,city_ir_142220687,شهر رغيوه,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_222,city_ir_142220688,شهر هفتگل,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_223,city_ir_142230689,شهر هنديجان,FALSE,FALSE,TRUE
+base.ir,state_ir_14,county_ir_223,city_ir_142230690,شهر زهره,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_224,city_ir_142240691,شهر رفيع,FALSE,FALSE,FALSE
+base.ir,state_ir_14,county_ir_224,city_ir_142240692,شهر هويزه,FALSE,FALSE,TRUE
+base.ir,state_ir_26,county_ir_225,city_ir_262250693,شهر ابهر,FALSE,FALSE,TRUE
+base.ir,state_ir_26,county_ir_225,city_ir_262250694,شهر هيدج,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_225,city_ir_262250695,شهر صائين قلعه,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_226,city_ir_262260696,شهر حلب,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_226,city_ir_262260697,شهر زرين آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_26,county_ir_227,city_ir_262270698,شهر سهرورد,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_227,city_ir_262270699,شهر قيدار,FALSE,FALSE,TRUE
+base.ir,state_ir_26,county_ir_227,city_ir_262270700,شهر کرسف,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_227,city_ir_262270701,شهر گرماب,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_227,city_ir_262270702,شهر نوربهار,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_227,city_ir_262270703,شهر زرين رود,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_227,city_ir_262270704,شهر سجاس,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_228,city_ir_262280705,شهر خرمدره,FALSE,FALSE,TRUE
+base.ir,state_ir_26,county_ir_229,city_ir_262290706,شهر ارمغانخانه,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_229,city_ir_262290707,شهر زنجان,FALSE,TRUE,TRUE
+base.ir,state_ir_26,county_ir_229,city_ir_262290708,شهر نيک پي,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_230,city_ir_262300709,شهر سلطانيه,FALSE,FALSE,TRUE
+base.ir,state_ir_26,county_ir_231,city_ir_262310710,شهر آب بر,FALSE,FALSE,TRUE
+base.ir,state_ir_26,county_ir_231,city_ir_262310711,شهر چورزق,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_232,city_ir_262320712,شهر دندي,FALSE,FALSE,FALSE
+base.ir,state_ir_26,county_ir_232,city_ir_262320713,شهر ماهنشان,FALSE,FALSE,TRUE
+base.ir,state_ir_31,county_ir_233,city_ir_312330714,شهر آرادان,FALSE,FALSE,TRUE
+base.ir,state_ir_31,county_ir_233,city_ir_312330715,شهر کهن آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_234,city_ir_312340716,شهر کلاته,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_234,city_ir_312340717,شهر اميريه,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_234,city_ir_312340718,شهر دامغان,FALSE,FALSE,TRUE
+base.ir,state_ir_31,county_ir_234,city_ir_312340719,شهر ديباج,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_235,city_ir_312350720,شهر سرخه,FALSE,FALSE,TRUE
+base.ir,state_ir_31,county_ir_236,city_ir_312360721,شهر سمنان,FALSE,TRUE,TRUE
+base.ir,state_ir_31,county_ir_237,city_ir_312370722,شهر بسطام,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_237,city_ir_312370723,شهر بيارجمند,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_237,city_ir_312370724,شهر رويان,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_237,city_ir_312370725,شهر شاهرود,FALSE,FALSE,TRUE
+base.ir,state_ir_31,county_ir_237,city_ir_312370726,شهر کلاته خيج,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_237,city_ir_312370727,شهر مجن,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_238,city_ir_312380728,شهر گرمسار,FALSE,FALSE,TRUE
+base.ir,state_ir_31,county_ir_238,city_ir_312380729,شهر ايوانکي,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_239,city_ir_312390730,شهر درجزين,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_239,city_ir_312390731,شهر شهميرزاد,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_239,city_ir_312390732,شهر مهدي شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_31,county_ir_240,city_ir_312400733,شهر رضوان,FALSE,FALSE,FALSE
+base.ir,state_ir_31,county_ir_240,city_ir_312400734,شهر ميامي,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_241,city_ir_212410735,شهر بزمان,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_241,city_ir_212410736,شهر ايرانشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_242,city_ir_212420737,شهر محمدان,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_242,city_ir_212420738,شهر بمپور,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_242,city_ir_212420739,شهر قاسم آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_243,city_ir_212430740,شهر نوک آب,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_244,city_ir_212440741,شهر پلان,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_244,city_ir_212440742,شهر چاه بهار,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_245,city_ir_212450743,شهر اسماعيل آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_245,city_ir_212450744,شهر خاش,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_245,city_ir_212450745,شهر ده رئيس,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_246,city_ir_212460746,شهر نگور,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_246,city_ir_212460747,شهر بريس,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_247,city_ir_212470748,شهر چگرد,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_247,city_ir_212470749,شهر گلمورتي,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_248,city_ir_212480750,شهر ‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍پارود,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_248,city_ir_212480751,شهر راسک,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_248,city_ir_212480752,شهر پيشين,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_249,city_ir_212490753,شهر زابل,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_249,city_ir_212490754,شهر بنجار,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_250,city_ir_212500755,شهر سرجنگل,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_250,city_ir_212500756,شهر نصرت آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_250,city_ir_212500757,شهر زاهدان,FALSE,TRUE,TRUE
+base.ir,state_ir_21,county_ir_251,city_ir_212510758,شهر زرآباد,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_252,city_ir_212520759,شهر جزينک,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_252,city_ir_212520760,شهر زهک,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_253,city_ir_212530761,شهر سيرکان,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_253,city_ir_212530762,شهر گشت,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_253,city_ir_212530763,شهر محمدي,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_253,city_ir_212530764,شهر اسفندک,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_253,city_ir_212530765,شهر سراوان,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_254,city_ir_212540766,شهر سرباز,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_255,city_ir_212550767,شهر سوران,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_255,city_ir_212550768,شهر هيدوچ,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_255,city_ir_212550769,شهر سيب,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_256,city_ir_212560770,شهر فنوج,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_256,city_ir_212560771,شهر گتيج,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_257,city_ir_212570772,شهر ساربوک,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_257,city_ir_212570773,شهر قصرقند,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_258,city_ir_212580774,شهر کنارک,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_259,city_ir_212590775,شهر جالق,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_260,city_ir_212600776,شهر اسپکه,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_261,city_ir_212610777,شهر آشار,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_261,city_ir_212610778,شهر مهرستان,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_262,city_ir_212620779,شهر ريگ ملک,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_262,city_ir_212620780,شهر ميرجاوه,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_262,city_ir_212620781,شهر لاديز,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_263,city_ir_212630782,شهر بنت,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_263,city_ir_212630783,شهر چانف,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_263,city_ir_212630784,شهر نيک شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_264,city_ir_212640785,شهر اديمي,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_265,city_ir_212650786,شهر علي اکبر,FALSE,FALSE,FALSE
+base.ir,state_ir_21,county_ir_265,city_ir_212650787,شهر محمد آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_266,city_ir_212660788,شهر دوست محمد,FALSE,FALSE,TRUE
+base.ir,state_ir_21,county_ir_266,city_ir_212660789,شهر قرقري,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_267,city_ir_152670790,شهر ارسنجان,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_268,city_ir_152680791,شهر استهبان,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_268,city_ir_152680792,شهر رونيز,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_268,city_ir_152680793,شهر ايج,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_269,city_ir_152690794,شهر اقليد,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_269,city_ir_152690795,شهر حسن آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_269,city_ir_152690796,شهر دژکرد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_269,city_ir_152690797,شهر سده,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_270,city_ir_152700798,شهر کوره,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_270,city_ir_152700799,شهر اوز,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_271,city_ir_152710800,شهر آباده,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_271,city_ir_152710801,شهر بهمن,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_271,city_ir_152710802,شهر سورمق,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_271,city_ir_152710803,شهر ايزدخواست,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_271,city_ir_152710804,شهر صغاد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_272,city_ir_152720805,شهر آباده طشک,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_272,city_ir_152720806,شهر تم شولي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_272,city_ir_152720807,شهر خواجه جمالي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_273,city_ir_152730808,شهر بوانات,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_273,city_ir_152730809,شهر مزايجان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_274,city_ir_152740810,شهر بيضاء,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_275,city_ir_152750811,شهر سعادت شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_275,city_ir_152750812,شهر مادر سليمان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_276,city_ir_152760813,شهر جهرم,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_276,city_ir_152760814,شهر دوزه,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_276,city_ir_152760815,شهر قطب آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_277,city_ir_152770816,شهر جويم,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_278,city_ir_152780817,شهر خرامه,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_278,city_ir_152780818,شهر سلطان شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_278,city_ir_152780819,شهر معزآباد جابري,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_278,city_ir_152780820,شهر خيرآباد توللي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_279,city_ir_152790821,شهر صفاشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_279,city_ir_152790822,شهر قادر آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_280,city_ir_152800823,شهر باب انار,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_280,city_ir_152800824,شهر خاوران,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_281,city_ir_152810825,شهر خنج,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_281,city_ir_152810826,شهر محمله,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_282,city_ir_152820827,شهر جنت شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_282,city_ir_152820828,شهر دوبرجي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_282,city_ir_152820829,شهر رستاق,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_282,city_ir_152820830,شهر فدامي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_282,city_ir_152820831,شهر پاسخن,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_282,city_ir_152820832,شهر داراب,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_283,city_ir_152830833,شهر مصيري,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_283,city_ir_152830834,شهر کوپن,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_284,city_ir_152840835,شهر رحمت آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_284,city_ir_152840836,شهر زرقان,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_285,city_ir_152850837,شهر حاجي آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_285,city_ir_152850838,شهر دبيران,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_285,city_ir_152850839,شهر شهر پير,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_286,city_ir_152860840,شهر اردکان,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_286,city_ir_152860841,شهر هماشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_287,city_ir_152870842,شهر باغ صفا,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_287,city_ir_152870843,شهر توجردي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_287,city_ir_152870844,شهر حسامي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_287,city_ir_152870845,شهر کره اي,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_288,city_ir_152880846,شهر کوهنجان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_288,city_ir_152880847,شهر سروستان,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_289,city_ir_152890848,شهر خانه زنيان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_289,city_ir_152890849,شهر داريان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_289,city_ir_152890850,شهر جديد صدرا,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_289,city_ir_152890851,شهر شيراز,FALSE,TRUE,TRUE
+base.ir,state_ir_15,county_ir_289,city_ir_152890852,شهر لپوئي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_290,city_ir_152900853,شهر دهرم,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_290,city_ir_152900854,شهر نوجين,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_290,city_ir_152900855,شهر فراشبند,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_291,city_ir_152910856,شهر ششده,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_291,city_ir_152910857,شهر فسا,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_291,city_ir_152910858,شهر قره بلاغ,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_291,city_ir_152910859,شهر ميانشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_291,city_ir_152910860,شهر نوبندگان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_291,city_ir_152910861,شهر زاهدشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_292,city_ir_152920862,شهر فيروز آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_292,city_ir_152920863,شهر ميمند,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_293,city_ir_152930864,شهر افزر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_293,city_ir_152930865,شهر کارزين,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_293,city_ir_152930866,شهر مبارک آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_293,city_ir_152930867,شهر امام شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_293,city_ir_152930868,شهر قير,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_294,city_ir_152940869,شهر بالاده,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_294,city_ir_152940870,شهر خشت,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_294,city_ir_152940871,شهر کازرون,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_294,city_ir_152940872,شهر کنار تخته,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_295,city_ir_152950873,شهر طسوج,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_295,city_ir_152950874,شهر کوار,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_295,city_ir_152950875,شهر مظفري,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_295,city_ir_152950876,شهر اکبرآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_296,city_ir_152960877,شهر نودان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_296,city_ir_152960878,شهر قائميه,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_297,city_ir_152970879,شهر ارد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_297,city_ir_152970880,شهر گراش,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_298,city_ir_152980881,شهر بنارويه,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_298,city_ir_152980882,شهر لطيفي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_298,city_ir_152980883,شهر بيرم,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_298,city_ir_152980884,شهر خور,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_298,city_ir_152980885,شهر دهکويه,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_298,city_ir_152980886,شهر عماد شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_298,city_ir_152980887,شهر لار,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_299,city_ir_152990888,شهر علامرودشت,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_299,city_ir_152990889,شهر لامرد,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_299,city_ir_152990890,شهر اشکنان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_299,city_ir_152990891,شهر اهل,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_299,city_ir_152990892,شهر چاه ورز,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_299,city_ir_152990893,شهر خيرگو,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_300,city_ir_153000894,شهر خانمين,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_300,city_ir_153000895,شهر سيدان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_300,city_ir_153000896,شهر فاروق,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_300,city_ir_153000897,شهر مرودشت,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_300,city_ir_153000898,شهر رامجرد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_300,city_ir_153000899,شهر زنگي آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_300,city_ir_153000900,شهر فتح آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_300,city_ir_153000901,شهر کامفيروز,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_301,city_ir_153010902,شهر نور آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_301,city_ir_153010903,شهر بابا منير,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_301,city_ir_153010904,شهر خومه زار,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_302,city_ir_153020905,شهر خوزي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_302,city_ir_153020906,شهر فال,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_302,city_ir_153020907,شهر مهر,FALSE,FALSE,TRUE
+base.ir,state_ir_15,county_ir_302,city_ir_153020908,شهر وراوي,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_302,city_ir_153020909,شهر اسير,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_302,city_ir_153020910,شهر گله دار,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_303,city_ir_153030911,شهر قطرويه,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_303,city_ir_153030912,شهر مشکان,FALSE,FALSE,FALSE
+base.ir,state_ir_15,county_ir_303,city_ir_153030913,شهر ني ريز,FALSE,FALSE,TRUE
+base.ir,state_ir_36,county_ir_304,city_ir_363040914,شهر الوند,FALSE,FALSE,TRUE
+base.ir,state_ir_36,county_ir_304,city_ir_363040915,شهر شريف آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_304,city_ir_363040916,شهر محمديه,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_304,city_ir_363040917,شهر بيدستان,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_305,city_ir_363050918,شهر خاکعلي,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_305,city_ir_363050919,شهر قشلاق,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_305,city_ir_363050920,شهر آبيک,FALSE,FALSE,TRUE
+base.ir,state_ir_36,county_ir_305,city_ir_363050921,شهر زياران,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_306,city_ir_363060922,شهر آبگرم,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_306,city_ir_363060923,شهر آوج,FALSE,FALSE,TRUE
+base.ir,state_ir_36,county_ir_307,city_ir_363070924,شهر ارداق,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_307,city_ir_363070925,شهر شال,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_307,city_ir_363070926,شهر بوئين زهرا,FALSE,FALSE,TRUE
+base.ir,state_ir_36,county_ir_307,city_ir_363070927,شهر دانسفهان,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_307,city_ir_363070928,شهر سگز آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_307,city_ir_363070929,شهر عصمت آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_308,city_ir_363080930,شهر اسفرورين,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_308,city_ir_363080931,شهر خرمدشت,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_308,city_ir_363080932,شهر نرجه,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_308,city_ir_363080933,شهر تاکستان,FALSE,FALSE,TRUE
+base.ir,state_ir_36,county_ir_308,city_ir_363080934,شهر ضياءآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_309,city_ir_363090935,شهر اقباليه,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_309,city_ir_363090936,شهر رازميان,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_309,city_ir_363090937,شهر معلم کلايه,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_309,city_ir_363090938,شهر سيردان,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_309,city_ir_363090939,شهر قزوين,FALSE,TRUE,TRUE
+base.ir,state_ir_36,county_ir_309,city_ir_363090940,شهر کوهين,FALSE,FALSE,FALSE
+base.ir,state_ir_36,county_ir_309,city_ir_363090941,شهر محمودآبادنمونه,FALSE,FALSE,FALSE
+base.ir,state_ir_35,county_ir_310,city_ir_353100942,شهر جعفريه,FALSE,FALSE,TRUE
+base.ir,state_ir_35,county_ir_310,city_ir_353100943,شهر قاهان,FALSE,FALSE,FALSE
+base.ir,state_ir_35,county_ir_311,city_ir_353110944,شهر سلفچگان,FALSE,FALSE,FALSE
+base.ir,state_ir_35,county_ir_311,city_ir_353110945,شهر قم,FALSE,TRUE,TRUE
+base.ir,state_ir_35,county_ir_311,city_ir_353110946,شهر قنوات,FALSE,FALSE,FALSE
+base.ir,state_ir_35,county_ir_311,city_ir_353110947,شهر دستجرد,FALSE,FALSE,FALSE
+base.ir,state_ir_35,county_ir_312,city_ir_353120948,شهر کهک,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_313,city_ir_223130949,شهر بانه,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_313,city_ir_223130950,شهر بوئين سفلي,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_313,city_ir_223130951,شهر آرمرده,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_313,city_ir_223130952,شهر کاني سور,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_314,city_ir_223140953,شهر پير تاج,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_314,city_ir_223140954,شهر توپ آغاج,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_314,city_ir_223140955,شهر ياسوکند,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_314,city_ir_223140956,شهر بابار شاني,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_314,city_ir_223140957,شهر بيجار,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_315,city_ir_223150958,شهر دهگلان,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_315,city_ir_223150959,شهر بلبان آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_316,city_ir_223160960,شهر هزارکانيان,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_316,city_ir_223160961,شهر ديواندره,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_316,city_ir_223160962,شهر زرينه,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_317,city_ir_223170963,شهر اورامان تخت,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_317,city_ir_223170964,شهر سروآباد,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_318,city_ir_223180965,شهر سقز,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_318,city_ir_223180966,شهر سنته,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_318,city_ir_223180967,شهر صاحب,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_319,city_ir_223190968,شهر حسين آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_319,city_ir_223190969,شهر سنندج,FALSE,TRUE,TRUE
+base.ir,state_ir_22,county_ir_319,city_ir_223190970,شهر شويشه,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_320,city_ir_223200971,شهر دزج,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_320,city_ir_223200972,شهر دلبران,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_320,city_ir_223200973,شهر سريش آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_320,city_ir_223200974,شهر قروه,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_320,city_ir_223200975,شهر مالوجه,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_321,city_ir_223210976,شهر موچش,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_321,city_ir_223210977,شهر کامياران,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_322,city_ir_223220978,شهر برده رشه,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_322,city_ir_223220979,شهر مريوان,FALSE,FALSE,TRUE
+base.ir,state_ir_22,county_ir_322,city_ir_223220980,شهر چناره,FALSE,FALSE,FALSE
+base.ir,state_ir_22,county_ir_322,city_ir_223220981,شهر کاني دينار,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_323,city_ir_163230982,شهر علي آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_323,city_ir_163230983,شهر ارزوئيه,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_324,city_ir_163240984,شهر انار,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_324,city_ir_163240985,شهر امين شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_325,city_ir_163250986,شهر بزنجان,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_325,city_ir_163250987,شهر کشکوئيه,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_325,city_ir_163250988,شهر بافت,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_325,city_ir_163250989,شهر بزنجان,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_326,city_ir_163260990,شهر بردسير,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_326,city_ir_163260991,شهر گلزار,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_326,city_ir_163260992,شهر لاله زار,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_326,city_ir_163260993,شهر نگار,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_326,city_ir_163260994,شهر دشتکار,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_327,city_ir_163270995,شهر بروات,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_327,city_ir_163270996,شهر بم,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_328,city_ir_163280997,شهر زهکلوت,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_329,city_ir_163290998,شهر بلوک,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_329,city_ir_163290999,شهر جبالبارز,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_329,city_ir_163291000,شهر جيرفت,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_329,city_ir_163291001,شهر علي آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_329,city_ir_163291002,شهر درب بهشت,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_330,city_ir_163301003,شهر رابر,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_330,city_ir_163301004,شهر هنزا,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_331,city_ir_163311005,شهر راور,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_331,city_ir_163311006,شهر هجدک,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_332,city_ir_163321007,شهر جواديه الهيه,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_332,city_ir_163321008,شهر رفسنجان,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_332,city_ir_163321009,شهر صفائيه,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_332,city_ir_163321010,شهر مس سرچشمه,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_332,city_ir_163321011,شهر بهرمان,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_332,city_ir_163321012,شهر کشکوئيه,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_333,city_ir_163331013,شهر رودبار,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_334,city_ir_163341014,شهر رحمت آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_334,city_ir_163341015,شهر عباس آباد سردار,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_334,city_ir_163341016,شهر محمدآباد,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_335,city_ir_163351017,شهر خانوک,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_335,city_ir_163351018,شهر ريحان,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_335,city_ir_163351019,شهر زرند,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_335,city_ir_163351020,شهر يزدان شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_335,city_ir_163351021,شهر سي ريز,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_336,city_ir_163361022,شهر پاريز,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_336,city_ir_163361023,شهر خواجو شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_336,city_ir_163361024,شهر زيدآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_336,city_ir_163361025,شهر نجف شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_336,city_ir_163361026,شهر هماشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_336,city_ir_163361027,شهر بلورد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_336,city_ir_163361028,شهر سيرجان,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_337,city_ir_163371029,شهر جوزم,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_337,city_ir_163371030,شهر خاتون آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_337,city_ir_163371031,شهر دهج,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_337,city_ir_163371032,شهر بابک,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_337,city_ir_163371033,شهر خورسند,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_338,city_ir_163381034,شهر عنبرآباد,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_338,city_ir_163381035,شهر مردهک,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_338,city_ir_163381036,شهر دوساري,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_339,city_ir_163391037,شهر حور پاسفيد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_339,city_ir_163391038,شهر فارياب,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_340,city_ir_163401039,شهر دهنو اسلام آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_340,city_ir_163401040,شهر فهرج,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_341,city_ir_163411041,شهر چاه دادخدا,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_341,city_ir_163411042,شهر رمشک,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_341,city_ir_163411043,شهر قلعه گنج,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_342,city_ir_163421044,شهر اختيارآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421045,شهر اندوهجرد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421046,شهر باغين,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421047,شهر جوپار,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421048,شهر چترود,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421049,شهر زنگي آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421050,شهر شهداد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421051,شهر کاظم آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421052,شهر کرمان,FALSE,TRUE,TRUE
+base.ir,state_ir_16,county_ir_342,city_ir_163421053,شهر گلباف,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421054,شهر ماهان,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421055,شهر راين,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_342,city_ir_163421056,شهر محي آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_343,city_ir_163431057,شهر چاه مريد,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_343,city_ir_163431058,شهر ده کهان,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_343,city_ir_163431059,شهر کهنوج,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_344,city_ir_163441060,شهر کوهبنان,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_344,city_ir_163441061,شهر کيانشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_345,city_ir_163451062,شهر گنبکي,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_346,city_ir_163461063,شهر منوجان,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_346,city_ir_163461064,شهر نودژ,FALSE,FALSE,FALSE
+base.ir,state_ir_16,county_ir_347,city_ir_163471065,شهر نرماشير,FALSE,FALSE,TRUE
+base.ir,state_ir_16,county_ir_347,city_ir_163471066,شهر نظام شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_348,city_ir_173481067,شهر اسلام آباد غرب,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_348,city_ir_173481068,شهر حميل,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_349,city_ir_173491069,شهر نودشه,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_349,city_ir_173491070,شهر نوسود,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_349,city_ir_173491071,شهر بانوره,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_349,city_ir_173491072,شهر باينگان,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_349,city_ir_173491073,شهر پاوه,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_350,city_ir_173501074,شهر ازگله,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_350,city_ir_173501075,شهر تازه آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_350,city_ir_173501076,شهر ميرآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_351,city_ir_173511077,شهر جوانرود,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_351,city_ir_173511078,شهر شروينه,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_352,city_ir_173521079,شهر ريجاب,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_352,city_ir_173521080,شهر کرند غرب,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_352,city_ir_173521081,شهر گهواره,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_353,city_ir_173531082,شهر روانسر,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_353,city_ir_173531083,شهر شاهو,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_354,city_ir_173541084,شهر سر پل ذهاب,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_355,city_ir_173551085,شهر سنقر,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_355,city_ir_173551086,شهر سطر,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_356,city_ir_173561087,شهر صحنه,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_356,city_ir_173561088,شهر ميان راهان,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_357,city_ir_173571089,شهر سومار,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_357,city_ir_173571090,شهر قصرشيرين,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_358,city_ir_173581091,شهر رباط,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_358,city_ir_173581092,شهر قلعه,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_358,city_ir_173581093,شهر کرمانشاه,FALSE,TRUE,TRUE
+base.ir,state_ir_17,county_ir_358,city_ir_173581094,شهر کوزران,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_358,city_ir_173581095,شهر هلشي,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_359,city_ir_173591096,شهر کنگاور,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_359,city_ir_173591097,شهر گودين,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_360,city_ir_173601098,شهر سرمست,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_360,city_ir_173601099,شهر گيلانغرب,FALSE,FALSE,TRUE
+base.ir,state_ir_17,county_ir_361,city_ir_173611100,شهر بيستون,FALSE,FALSE,FALSE
+base.ir,state_ir_17,county_ir_361,city_ir_173611101,شهر هرسين,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_362,city_ir_323621102,شهر باشت,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_362,city_ir_323621103,شهر بوستان,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_363,city_ir_323631104,شهر سرآسياب يوسفي,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_363,city_ir_323631105,شهر قلعه ممبي,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_363,city_ir_323631106,شهر ليکک,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_364,city_ir_323641107,شهر گراب سفلي,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_364,city_ir_323641108,شهر ياسوج,FALSE,TRUE,TRUE
+base.ir,state_ir_32,county_ir_364,city_ir_323641109,شهر چيتاب,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_364,city_ir_323641110,شهر سپيدار,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_364,city_ir_323641111,شهر مادوان,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_365,city_ir_323651112,شهر چرام,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_365,city_ir_323651113,شهر سر فارياب,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_366,city_ir_323661114,شهر پاتاوه,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_366,city_ir_323661115,شهر سي سخت,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_367,city_ir_323671116,شهر دهدشت,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_367,city_ir_323671117,شهر ديشموک,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_367,city_ir_323671118,شهر سوق,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_367,city_ir_323671119,شهر قلعه رئيسي,FALSE,FALSE,FALSE
+base.ir,state_ir_32,county_ir_368,city_ir_323681120,شهر دوگنبدان,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_369,city_ir_323691121,شهر لنده,FALSE,FALSE,TRUE
+base.ir,state_ir_32,county_ir_370,city_ir_323701122,شهر مارگون,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_371,city_ir_373711123,شهر آزادشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_371,city_ir_373711124,شهر نگين شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_371,city_ir_373711125,شهر نوده خاندوز,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_372,city_ir_373721126,شهر آق قلا,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_372,city_ir_373721127,شهر انبارآلوم,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_373,city_ir_373731128,شهر بندر گز,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_373,city_ir_373731129,شهر نوکنده,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_374,city_ir_373741130,شهر بندر ترکمن,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_374,city_ir_373741131,شهر سيجوال,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_375,city_ir_373751132,شهر خان ببين,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_375,city_ir_373751133,شهر دلند,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_375,city_ir_373751134,شهر راميان,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_375,city_ir_373751135,شهر تاتار عليا,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_376,city_ir_373761136,شهر سنگدوين,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_376,city_ir_373761137,شهر مزرعه,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_376,city_ir_373761138,شهر علي آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_376,city_ir_373761139,شهر فاضل آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_377,city_ir_373771140,شهر کرد کوي,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_378,city_ir_373781141,شهر فراغي,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_378,city_ir_373781142,شهر کلاله,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_379,city_ir_373791143,شهر صادق آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_379,city_ir_373781144,شهر گاليکش,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_379,city_ir_373791145,شهر ينقاق,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_380,city_ir_373801146,شهر جلين,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_380,city_ir_373801147,شهر قرق,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_380,city_ir_373801148,شهر سرخنکلاته,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_380,city_ir_373801149,شهر گرگان,FALSE,TRUE,TRUE
+base.ir,state_ir_37,county_ir_381,city_ir_373811150,شهر سيمين شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_381,city_ir_373811151,شهر گميش تپه,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_382,city_ir_373821152,شهر اينچه برون,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_382,city_ir_373821153,شهر کرند,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_382,city_ir_373821154,شهر گنبد کاووس,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_383,city_ir_373831155,شهر گليداغ,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_383,city_ir_373831156,شهر مراوه تپه,FALSE,FALSE,TRUE
+base.ir,state_ir_37,county_ir_384,city_ir_373841157,شهر القجر,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_384,city_ir_373841158,شهر دوزين,FALSE,FALSE,FALSE
+base.ir,state_ir_37,county_ir_384,city_ir_373841159,شهر مينودشت,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_385,city_ir_183851160,شهر املش,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_385,city_ir_183851161,شهر رانکوه,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_386,city_ir_183861162,شهر آستارا,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_386,city_ir_183861163,شهر لوندويل,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_387,city_ir_183871164,شهر آستانه اشرفيه,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_387,city_ir_183871165,شهر کياشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_388,city_ir_183881166,شهر بندر انزلي,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_389,city_ir_183891167,شهر چوکام,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_389,city_ir_183891168,شهر خمام,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_390,city_ir_183901169,شهر پيربازار,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_390,city_ir_183901170,شهر خشکبيجار,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_390,city_ir_183901171,شهر لشت نشاء,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_390,city_ir_183901172,شهر لولمان,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_390,city_ir_183901173,شهر رشت,FALSE,TRUE,TRUE
+base.ir,state_ir_18,county_ir_390,city_ir_183901174,شهر سنگر,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_390,city_ir_183901175,شهر کوچصفهان,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_391,city_ir_183911176,شهر پره سر,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_391,city_ir_183911177,شهر رضوانشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_392,city_ir_183921178,شهر جيرنده,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_392,city_ir_183921179,شهر رستم آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_392,city_ir_183921180,شهر رودبار,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_392,city_ir_183921181,شهر منجيل,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_392,city_ir_183921182,شهر بره سر,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_392,city_ir_183921183,شهر توتکابن,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_392,city_ir_183921184,شهر لوشان,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_393,city_ir_183931185,شهر چابکسر,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_393,city_ir_183931186,شهر رحيم آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_393,city_ir_183931187,شهر رودسر,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_393,city_ir_183931188,شهر کلاچاي,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_393,city_ir_183931189,شهر واجارگاه,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_394,city_ir_183941190,شهر ديلمان,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_394,city_ir_183941191,شهر سياهکل,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_395,city_ir_183951192,شهر شفت,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_395,city_ir_183951193,شهر احمد سر گوراب,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_396,city_ir_183961194,شهر صومعه سرا,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_396,city_ir_183961195,شهر ضيابر,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_396,city_ir_183961196,شهر طاهرگوراب,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_396,city_ir_183961197,شهر گوراب زرميخ,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_396,city_ir_183961198,شهر مرجقل,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_397,city_ir_183971199,شهر ليسار,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_397,city_ir_183971200,شهر تالش (هشتپر),FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_397,city_ir_183971201,شهر اسالم,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_397,city_ir_183971202,شهر چوبر,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_397,city_ir_183971203,شهر حويق,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_398,city_ir_183981204,شهر ماسوله,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_398,city_ir_183981205,شهر فومن,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_398,city_ir_183981206,شهر ماکلوان,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_399,city_ir_183991207,شهر رودبنه,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_399,city_ir_183991208,شهر لاهيجان,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_400,city_ir_184001209,شهر چاف و چمخاله,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_400,city_ir_184001210,شهر شلمان,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_400,city_ir_184001211,شهر اطاقور,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_400,city_ir_184001212,شهر کومله,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_400,city_ir_184001213,شهر لنگرود,FALSE,FALSE,TRUE
+base.ir,state_ir_18,county_ir_401,city_ir_184011214,شهر بازارجمعه,FALSE,FALSE,FALSE
+base.ir,state_ir_18,county_ir_401,city_ir_184011215,شهر ماسال,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_402,city_ir_274021216,شهر مومن آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_402,city_ir_274021217,شهر ازنا,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_403,city_ir_274031218,شهر تيتکان بزنويد,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_403,city_ir_274031219,شهر چمن سلطان,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_403,city_ir_274031220,شهر شاپور آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_403,city_ir_274031221,شهر شول آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_403,city_ir_274031222,شهر اليگودرز,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_404,city_ir_274041223,شهر اشترينان,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_404,city_ir_274041224,شهر بروجرد,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_404,city_ir_274041225,شهر ونايي,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_405,city_ir_274051226,شهر پلدختر,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_405,city_ir_274051227,شهر سراب حمام,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_406,city_ir_274061228,شهر چم پلک,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_406,city_ir_274061229,شهر سراب دوره,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_406,city_ir_274061230,شهر ويسيان,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_407,city_ir_274071231,شهر خرم آباد,FALSE,TRUE,TRUE
+base.ir,state_ir_27,county_ir_407,city_ir_274071232,شهر زاغه,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_407,city_ir_274071233,شهر سپيددشت,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_407,city_ir_274071234,شهر بيرانشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_408,city_ir_274081235,شهر برخوردار,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_408,city_ir_274081236,شهر نور آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_408,city_ir_274081237,شهر هفت چشمه,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_409,city_ir_274091238,شهر چالانچولان,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_409,city_ir_274091239,شهر دورود,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_410,city_ir_274101240,شهر چقابل,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_410,city_ir_274101241,شهر سوري,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_411,city_ir_274111242,شهر الشتر,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_411,city_ir_274111243,شهر فيروزآباد,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_412,city_ir_274121244,شهر درب گنبد,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_412,city_ir_274121245,شهر گراب,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_412,city_ir_274121246,شهر کوهدشت,FALSE,FALSE,TRUE
+base.ir,state_ir_27,county_ir_412,city_ir_274121247,شهر کوهناني,FALSE,FALSE,FALSE
+base.ir,state_ir_27,county_ir_413,city_ir_274131248,شهر معمولان,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_414,city_ir_194141249,شهر امامزاده عبدالله,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_414,city_ir_194141250,شهر آمل,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_414,city_ir_194141251,شهر بابکان,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_414,city_ir_194141252,شهر گزنک,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_414,city_ir_194141253,شهر دابودشت,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_414,city_ir_194141254,شهر رينه,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_415,city_ir_194151255,شهر خوش رود پي,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_415,city_ir_194151256,شهر گتاب,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_415,city_ir_194151257,شهر گلوگاه,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_415,city_ir_194151258,شهر مرزي کلا,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_415,city_ir_194151259,شهر اميرکلا,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_415,city_ir_194151260,شهر بابل,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_415,city_ir_194151261,شهر زرگر,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_416,city_ir_194161262,شهر بابلسر,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_416,city_ir_194161263,شهر هادي شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_416,city_ir_194161264,شهر بهنمير,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_417,city_ir_194171265,شهر بهشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_417,city_ir_194171266,شهر رستمکلا,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_417,city_ir_194171267,شهر خليل شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_418,city_ir_194181268,شهر شيرود,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_418,city_ir_194181269,شهر نشتارود,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_418,city_ir_194181270,شهر تنکابن,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_418,city_ir_194181271,شهر خرم آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_419,city_ir_194191272,شهر جويبار,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_419,city_ir_194191273,شهر کوهي خيل,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_420,city_ir_194201274,شهر مرزن آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_420,city_ir_194201275,شهر هچيرود,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_420,city_ir_194201276,شهر چالوس,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_421,city_ir_194211277,شهر رامسر,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_421,city_ir_194211278,شهر دالخاني,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_421,city_ir_194211279,شهر کتالم وسادات شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_422,city_ir_194221280,شهر پايين هولار,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_422,city_ir_194221281,شهر ساري,FALSE,TRUE,TRUE
+base.ir,state_ir_19,county_ir_422,city_ir_194221282,شهر فرح آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_422,city_ir_194221283,شهر فريم,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_422,city_ir_194221284,شهر کياسر,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_422,city_ir_194221285,شهر آکند,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_423,city_ir_194231286,شهر آلاشت,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_423,city_ir_194231287,شهر پل سفيد,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_423,city_ir_194231288,شهر زير آب,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_424,city_ir_194241289,شهر شيرگاه,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_425,city_ir_194251290,شهر کياکلا,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_426,city_ir_194261291,شهر سلمان شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_426,city_ir_194261292,شهر عباس آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_426,city_ir_194261293,شهر کلار آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_427,city_ir_194271294,شهر آستانه سرا,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_427,city_ir_194271295,شهر فريدونکنار,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_428,city_ir_194281296,شهر ارطه,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_428,city_ir_194281297,شهر قائم شهر,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_429,city_ir_194291298,شهر کلاردشت,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_430,city_ir_194301299,شهر گلوگاه,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_431,city_ir_194311300,شهر محمود آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_431,city_ir_194311301,شهر سرخرود,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_432,city_ir_194321302,شهر سورک,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_432,city_ir_194321303,شهر طبق ده,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_433,city_ir_194331304,شهر نکا,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_434,city_ir_194341305,شهر ايزد شهر,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_434,city_ir_194341306,شهر بلده,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_434,city_ir_194341307,شهر چمستان,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_434,city_ir_194341308,شهر رويان,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_434,city_ir_194341309,شهر نور,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_435,city_ir_194351310,شهر نوشهر,FALSE,FALSE,TRUE
+base.ir,state_ir_19,county_ir_435,city_ir_194351311,شهر پول,FALSE,FALSE,FALSE
+base.ir,state_ir_19,county_ir_435,city_ir_194351312,شهر کجور,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_436,city_ir_204361313,شهر اراک,FALSE,TRUE,TRUE
+base.ir,state_ir_20,county_ir_436,city_ir_204361314,شهر کارچان,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_436,city_ir_204361315,شهر داود آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_436,city_ir_204361316,شهر ساروق,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_437,city_ir_204371317,شهر آشتيان,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_438,city_ir_204381318,شهر تفرش,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_439,city_ir_204391319,شهر خمين,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_439,city_ir_204391320,شهر قورچي باشي,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_440,city_ir_204401321,شهر خنداب,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_440,city_ir_204401322,شهر جاورسيان,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_441,city_ir_204411323,شهر دليجان,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_441,city_ir_204411324,شهر نراق,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_442,city_ir_204421325,شهر خشکرود,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_442,city_ir_204421326,شهر رازقان,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_442,city_ir_204421327,شهر زاويه,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_442,city_ir_204421328,شهر مامونيه,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_442,city_ir_204421329,شهر پرندک,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_443,city_ir_204431330,شهر آوه,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_443,city_ir_204431331,شهر نوبران,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_443,city_ir_204431332,شهر ساوه,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_443,city_ir_204431333,شهر غرق آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_444,city_ir_204441334,شهر توره,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_444,city_ir_204441335,شهر جديد مهاجران,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_444,city_ir_204441336,شهر هندودر,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_444,city_ir_204441337,شهر آستانه,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_444,city_ir_204441338,شهر شازند,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_444,city_ir_204441339,شهر شهباز,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_445,city_ir_204451340,شهر تلخاب,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_445,city_ir_204451341,شهر خنجين,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_445,city_ir_204451342,شهر فرمهين,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_446,city_ir_204461343,شهر ميلاجرد,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_446,city_ir_204461344,شهر کميجان,FALSE,FALSE,TRUE
+base.ir,state_ir_20,county_ir_447,city_ir_204471345,شهر نيمور,FALSE,FALSE,FALSE
+base.ir,state_ir_20,county_ir_447,city_ir_204471346,شهر محلات,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_448,city_ir_234481347,شهر ابوموسي,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_449,city_ir_234491348,شهر بستک,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_449,city_ir_234491349,شهر کوخردهرنگ,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_449,city_ir_234491350,شهر هنگويه,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_449,city_ir_234491351,شهر جناح,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_449,city_ir_234491352,شهر کوهيچ,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_450,city_ir_234501353,شهر گوهران,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_450,city_ir_234501354,شهر سردشت,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_451,city_ir_234511355,شهر تازيان پائين,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_451,city_ir_234511356,شهر تخت,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_451,city_ir_234511357,شهر هرمز,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_451,city_ir_234511358,شهر بندرعباس,FALSE,TRUE,TRUE
+base.ir,state_ir_23,county_ir_451,city_ir_234511359,شهر فين,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_451,city_ir_234511360,شهر قلعه قاضي,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_452,city_ir_234521361,شهر بندر لنگه,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_452,city_ir_234521362,شهر لمزان,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_452,city_ir_234521363,شهر چارک,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_452,city_ir_234521364,شهر کنگ,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_452,city_ir_234521365,شهر کيش,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_453,city_ir_234531366,شهر پارسيان,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_453,city_ir_234531367,شهر دشتي,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_453,city_ir_234531368,شهر کوشکنار,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_454,city_ir_234541369,شهر بندر جاسک,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_454,city_ir_234541370,شهر ليردف,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_455,city_ir_234551371,شهر حاجي آباد,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_455,city_ir_234551372,شهر سرگز,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_455,city_ir_234551373,شهر فارغان,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_456,city_ir_234561374,شهر پل,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_456,city_ir_234561375,شهر خمير,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_456,city_ir_234561376,شهر رويدر,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_457,city_ir_234571377,شهر بالاشهر,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_457,city_ir_234571378,شهر بيکاه,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_457,city_ir_234571379,شهر رودان (دهبارز),FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_457,city_ir_234571380,شهر زيارتعلي,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_458,city_ir_234581381,شهر سيريک,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_458,city_ir_234581382,شهر کوهستک,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_458,city_ir_234581383,شهر گروک,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_459,city_ir_234591384,شهر درگهان,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_459,city_ir_234591385,شهر رمکان,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_459,city_ir_234591386,شهر سوزا,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_459,city_ir_234591387,شهر قشم,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_459,city_ir_234591388,شهر طبل,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_459,city_ir_234591389,شهر لافت,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_460,city_ir_234601390,شهر بندزرک,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_460,city_ir_234601391,شهر ميناب,FALSE,FALSE,TRUE
+base.ir,state_ir_23,county_ir_460,city_ir_234601392,شهر هشتبندي,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_460,city_ir_234601393,شهر تيرور,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_460,city_ir_234601394,شهر زهوکي,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_460,city_ir_234601395,شهر سندرک,FALSE,FALSE,FALSE
+base.ir,state_ir_23,county_ir_460,city_ir_234601396,شهر کرگان,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_461,city_ir_284611397,شهر اسدآباد,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_462,city_ir_284621398,شهر بهار,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_463,city_ir_284631399,شهر تويسرکان,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_464,city_ir_284641400,شهر قروه درگزين,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_465,city_ir_284651401,شهر رزن,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_466,city_ir_284661402,شهر فامنين,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_467,city_ir_284671403,شهر کبودرآهنگ,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_468,city_ir_284681404,شهر ملاير,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_469,city_ir_284691405,شهر نهاوند,FALSE,FALSE,TRUE
+base.ir,state_ir_28,county_ir_470,city_ir_284701406,شهر همدان,FALSE,TRUE,TRUE
+base.ir,state_ir_28,county_ir_461,city_ir_284611407,شهر آجين,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_461,city_ir_284611408,شهر پاليز,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_462,city_ir_284621409,شهر لالجين,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_462,city_ir_284621410,شهر مهاجران,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_462,city_ir_284621411,شهر صالح آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_463,city_ir_284631412,شهر فرسفج,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_463,city_ir_284631413,شهر سرکان,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_464,city_ir_284641414,شهر شاهنجرين,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_464,city_ir_284641415,شهر کرفس,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_465,city_ir_284651416,شهر دمق,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_466,city_ir_284661417,شهر شيرين سو,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_467,city_ir_284671418,شهر گل تپه,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_468,city_ir_284681419,شهر اسلامشهر آق گل,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_468,city_ir_284681420,شهر جوکار,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_468,city_ir_284681421,شهر زنگنه,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_468,city_ir_284681422,شهر سامن,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_468,city_ir_284681423,شهر ازندريان,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_469,city_ir_284691424,شهر برزول,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_469,city_ir_284691425,شهر فيروزان,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_469,city_ir_284691426,شهر گيان,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_470,city_ir_284701427,شهر جورقان,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_470,city_ir_284701428,شهر قهاوند,FALSE,FALSE,FALSE
+base.ir,state_ir_28,county_ir_470,city_ir_284701429,شهر مريانج,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_471,city_ir_294711430,شهر ابرکوه,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_472,city_ir_294721431,شهر اردکان,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_473,city_ir_294731432,شهر اشکذر,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_474,city_ir_294741433,شهر بافق,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_475,city_ir_294751434,شهر بهاباد,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_476,city_ir_294761435,شهر تفت,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_477,city_ir_294771436,شهر هرات,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_478,city_ir_294781437,شهر زارچ,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_479,city_ir_294791438,شهر مروست,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_480,city_ir_294801439,شهر مهريز,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_481,city_ir_294811440,شهر ميبد,FALSE,FALSE,TRUE
+base.ir,state_ir_29,county_ir_482,city_ir_294821441,شهر يزد,FALSE,TRUE,TRUE
+base.ir,state_ir_29,county_ir_471,city_ir_294711442,شهر مهردشت,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_472,city_ir_294721443,شهر احمد آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_472,city_ir_294721444,شهر خرانق,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_472,city_ir_294721445,شهر عقدا,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_473,city_ir_294731446,شهر خضر آباد,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_473,city_ir_294731447,شهر مجومرد,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_476,city_ir_294761448,شهر بخ,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_476,city_ir_294761449,شهر نير,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_481,city_ir_294811450,شهر ندوشن,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_481,city_ir_294811451,شهر بفروئيه,FALSE,FALSE,FALSE
+base.ir,state_ir_29,county_ir_482,city_ir_294821452,شهر شاهديه,FALSE,FALSE,FALSE

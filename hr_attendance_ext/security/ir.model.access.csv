@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_hr_attendance_user,hr.attendance.user,model_hr_attendance,hr_attendance.group_hr_attendance_own_reader,1,1,1,1
+
+access_hr_attendance_missing_user,hr.attendance.missing.user,model_hr_attendance_missing,hr_attendance.group_hr_attendance_manager,1,1,1,1
+
+access_hr_attendance_punch_officer,hr.attendance.punch.officer,model_hr_attendance_punch,hr_attendance.group_hr_attendance_manager,1,1,1,1
+
+access_hr_attendance_rule_admin,hr.attendance.rule.admin,model_hr_attendance_rule,hr_attendance.group_hr_attendance_manager,1,1,1,1
+
+access_hr_attendance_regeneration_wizard_officer,hr.attendance.regeneration.wizard.officer,model_hr_attendance_regeneration_wizard,hr_attendance.group_hr_attendance_officer,1,1,1,1
+access_hr_attendance_regeneration_wizard_manager,hr.attendance.regeneration.wizard.manager,model_hr_attendance_regeneration_wizard,hr_attendance.group_hr_attendance_manager,1,1,1,1
+
+access_attendance_ext_employee_user,hr.attendance.ext.employee.user,hr.model_hr_employee,hr_attendance.group_hr_attendance_own_reader,1,0,0,0

@@ -1,0 +1,12 @@
+<odoo>
+    <template id="assets_backend" inherit_id="web.assets_backend" name="geo_address_assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/geo_address/static/src/js/copy_address_widget.js"/>
+            <style>
+                .o_field_copy_address .o_copy_icon:hover {
+                    color: #0d6efd !important;
+                }
+            </style>
+        </xpath>
+    </template>
+</odoo>

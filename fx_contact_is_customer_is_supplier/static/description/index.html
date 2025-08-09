@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Customer and Vendor Management Module</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Customer and Vendor Management Module</h1>
+    <p>This Odoo module provides an efficient way to distinguish between customers and vendors in the res.partner model.
+        It extends the functionality of the partner management system by introducing two new boolean fields: "Is a
+        Customer" and "Is a Vendor".</p>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li>Adds two new boolean fields to the res.partner form: "Is a Customer" and "Is a Vendor".</li>
+        <li>Restricts the selectable partners in the sale order form to only those marked as customers.</li>
+        <li>Restricts the selectable partners in the purchase order form to only those marked as vendors.</li>
+        <li>Streamlines the sales and purchase processes by separating customers and vendors.</li>
+    </ul>
+
+    <h2>Benefits</h2>
+    <ul>
+        <li>Improved organization and management of partner data.</li>
+        <li>Enhanced user experience by displaying only relevant partners in sales and purchase forms.</li>
+        <li>Reduced risk of errors by preventing the selection of incorrect partner types.</li>
+        <li>Increased efficiency in sales and purchase operations.</li>
+    </ul>
+
+    <h2>Installation</h2>
+    <p>To install the "Customer and Vendor Management" module, follow these steps:</p>
+    <ol>
+        <li>Navigate to the Odoo Apps module.</li>
+        <li>Search for "Customer and Vendor Management".</li>
+        <li>Install the module.</li>
+        <li>Update the module data if prompted.</li>
+    </ol>
+    <h2>Screenshots</h2>
+    <h3>You can set Is a customer or Is a Vendor on partner</h3>
+    <img src="./tick.png" alt="set Is a customer or Is a Vendor on partner">
+    <h3>Sale Order</h3>
+    <img src="./sale.png" alt="Sale Order">
+    <h3>Purchase Order</h3>
+    <img src="./purchase.png" alt="Purchase Order">
+</body>
+
+</html>

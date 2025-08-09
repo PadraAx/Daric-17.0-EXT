@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-inherit="web.ActionMenus" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('o_cp_action_menus')]" position="inside">
+            <div class="d-flex o-dropdown dropdown lh-1 o-dropdown--no-caret ml4 mr4" t-if="knowsystemTurn">
+                <button type="button" class="dropdown-toggle d-print-none btn p-0 ms-1 lh-sm border-0" t-on-click.prevent="() => this._onKMSSearch()" title="KnowSystem">
+                    <i class="fa fa-superpowers"> </i>
+                </button>
+            </div>
+        </xpath>
+    </t>
+    <t t-inherit="web.CogMenu" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('o_cp_action_menus')]" position="inside">
+            <div class="d-flex o-dropdown dropdown align-items-center lh-1 o-dropdown--no-caret ml4 mr4" t-if="knowsystemTurn and this.props.resModel">
+                <button type="button" class="dropdown-toggle d-print-none btn p-0 ms-1 lh-sm border-0" t-on-click.prevent="() => this._onKMSSearch()" title="KnowSystem">
+                    <i class="fa fa-superpowers"> </i>
+                </button>
+            </div>
+        </xpath>
+    </t>
+
+</templates>

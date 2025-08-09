@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<odoo>
+    <record model="ir.ui.menu" id="hr_holidays.menu_hr_holidays_management">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_responsible'),
+                                                ref('employee_ext.group_hr_business_partner')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.hr_holidays_menu_manager_approve_allocations">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_user'),
+                                                ref('employee_ext.group_hr_business_partner')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.menu_hr_holidays_report">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_responsible')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.menu_hr_holidays_configuration">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_user')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.hr_holidays_status_menu_configuration">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_manager')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.hr_holidays_accrual_menu_configuration">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_manager')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.hr_holidays_public_time_off_menu_configuration">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_user')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.hr_holidays_mandatory_day_menu_configuration">
+        <field name="groups_id" eval="[(6, 0, [ref('hr_holidays.group_hr_holidays_manager')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_holidays.hr_holidays_menu_config_activity_type">
+        <field name="groups_id" eval="[(6, 0, [ref('base.group_no_one')])]"/>
+    </record>
+
+</odoo>

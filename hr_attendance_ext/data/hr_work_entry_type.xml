@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- these work entry type define in payroll module -->
+        <!-- 
+            DAILY_MISSION ** work_entry_daily_mission_work_type
+            WORK_HOLIDAY ** work_entry_work_holiday_type
+            OVERTIME_TYPE ** work_entry_overtime_type
+            ABSENCE_TYPE ** work_entry_absence_type
+            KASRI_KAR  ** work_entry_kasr_kar_type
+        -->
+        <!-- *************** -->
+
+        <record id="work_entry_attendance_type" model="hr.work.entry.type">
+            <field name="name">حضور</field>
+            <field name="code">ATTENDANCE_TYPE</field>
+            <field name="external_code">ATTENDANCE_TYPE</field>
+            <field name="sequence">1</field>
+            <field name="color">1</field>
+        </record>
+
+        <record id="work_entry_takhir_dar_khoroj_type" model="hr.work.entry.type">
+            <field name="name">تاخیر در خروج</field>
+            <field name="code">TAKHIR_DAR_KHOROJ</field>
+            <field name="external_code">TAKHIR_DAR_KHOROJ</field>
+            <field name="sequence">5</field>
+            <field name="color">5</field>
+        </record>
+
+        <record id="work_entry_takhir_dar_vorod_type" model="hr.work.entry.type">
+            <field name="name">تاخیر در ورود</field>
+            <field name="code">TAKHIR_DAR_VOROD</field>
+            <field name="external_code">TAKHIR_DAR_VOROD</field>
+            <field name="sequence">6</field>
+            <field name="color">6</field>
+        </record>
+
+        <record id="work_entry_tajil_dar_khoroj_type" model="hr.work.entry.type">
+            <field name="name">تعجیل در خروج</field>
+            <field name="code">TAJIL_DAR_KHOROJ</field>
+            <field name="external_code">TAJIL_DAR_KHOROJ</field>
+            <field name="sequence">7</field>
+            <field name="color">7</field>
+        </record>
+
+        <record id="work_entry_tajil_dar_vorod_type" model="hr.work.entry.type">
+            <field name="name">تعجیل در ورود</field>
+            <field name="code">TAJIL_DAR_VOROD</field>
+            <field name="external_code">TAJIL_DAR_VOROD</field>
+            <field name="sequence">8</field>
+            <field name="color">8</field>
+        </record>
+
+        <record id="work_entry_absence_during_shift_type" model="hr.work.entry.type">
+            <field name="name">عدم حضور حین شیفت</field>
+            <field name="code">ABSENCE_DURING_SHIFT</field>
+            <field name="external_code">ABSENCE_DURING_SHIFT</field>
+            <field name="sequence">9</field>
+            <field name="color">9</field>
+        </record>
+
+        <record id="work_entry_attendance_out_of_shift_type" model="hr.work.entry.type">
+            <field name="name">حضور خارج از شیفت</field>
+            <field name="code">ATTENDANCE_OUT_OF_SHIFT</field>
+            <field name="external_code">ATTENDANCE_OUT_OF_SHIFT</field>
+            <field name="sequence">10</field>
+            <field name="color">10</field>
+        </record>
+
+
+        <record id="work_entry_work_friday_type" model="hr.work.entry.type">
+            <field name="name">جمعه کاری</field>
+            <field name="code">WORK_FRIDAY</field>
+            <field name="external_code">WORK_FRIDAY</field>
+            <field name="sequence">12</field>
+            <field name="color">1</field>
+        </record>
+
+        <record id="work_entry_work_night_work_type" model="hr.work.entry.type">
+            <field name="name">شب کاری</field>
+            <field name="code">WORK_NIGHT</field>
+            <field name="external_code">WORK_NIGHT</field>
+            <field name="sequence">13</field>
+            <field name="color">2</field>
+        </record>
+
+
+        <record id="work_entry_hourly_mission_work_type" model="hr.work.entry.type">
+            <field name="name">ماموریت ساعتی</field>
+            <field name="code">HOURLY_MISSION</field>
+            <field name="external_code">HOURLY_MISSION</field>
+            <field name="sequence">15</field>
+            <field name="color">4</field>
+        </record>
+
+        <record id="work_entry_paid_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">مرخصی استحقاقی</field>
+            <field name="code">PAID_HOURLY_TIME_OFF</field>
+            <field name="external_code">PAID_HOURLY_TIME_OFF</field>
+            <field name="sequence">16</field>
+            <field name="color">5</field>
+        </record>
+
+        <record id="work_entry_unpaid_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">مرخصی بدون حقوق</field>
+            <field name="code">UNPAID_HOURLY_TIME_OFF</field>
+            <field name="external_code">UNPAID_HOURLY_TIME_OFF</field>
+            <field name="sequence">17</field>
+            <field name="color">6</field>
+        </record>
+
+        <record id="work_entry_sick_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">مرخصی استعلاجی</field>
+            <field name="code">SICK_TIME_OFF</field>
+            <field name="external_code">SICK_TIME_OFF</field>
+            <field name="sequence">18</field>
+            <field name="color">7</field>
+        </record>
+
+        <record id="work_entry_maternity_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">مرخصی زایمان</field>
+            <field name="code">MATERNITY_TIME_OFF</field>
+            <field name="external_code">MATERNITY_TIME_OFF</field>
+            <field name="sequence">19</field>
+            <field name="color">8</field>
+        </record>
+
+        <record id="work_entry_fdr_death_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">مرخصی فوت اعضا درجه یک</field>
+            <field name="code">FDR_DEATH_TIME_OFF</field>
+            <field name="external_code">FDR_DEATH_TIME_OFF</field>
+            <field name="sequence">20</field>
+            <field name="color">9</field>
+        </record>
+
+        <record id="work_entry_marriage_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">مرخصی ازدواج</field>
+            <field name="code">MARRIAGE_TIME_OFF</field>
+            <field name="external_code">MARRIAGE_TIME_OFF</field>
+            <field name="sequence">21</field>
+            <field name="color">10</field>
+        </record>
+
+        <record id="work_entry_casual_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">Casual Leave</field>
+            <field name="code">CASUAL_TIME_OFF</field>
+            <field name="external_code">CASUAL_TIME_OFF</field>
+            <field name="sequence">22</field>
+            <field name="color">1</field>
+        </record>
+
+        <record id="work_entry_parental_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">Parental Leave</field>
+            <field name="code">PARENTAL_TIME_OFF</field>
+            <field name="external_code">PARENTAL_TIME_OFF</field>
+            <field name="sequence">23</field>
+            <field name="color">2</field>
+        </record>
+
+        <record id="work_entry_childcare_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">Child Care Leave</field>
+            <field name="code">CHILDCARE_TIME_OFF</field>
+            <field name="external_code">CHILDCARE_TIME_OFF</field>
+            <field name="sequence">24</field>
+            <field name="color">3</field>
+        </record>
+
+        <record id="work_entry_extended_childcare_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">Extended Child Care Leave</field>
+            <field name="code">EXTENDED_CHILDCARE_TIME_OFF</field>
+            <field name="external_code">EXTENDED_CHILDCARE_TIME_OFF</field>
+            <field name="sequence">25</field>
+            <field name="color">4</field>
+        </record>
+
+        <record id="work_entry_solo_parental_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">Parental Leave For Solo Parent</field>
+            <field name="code">SOLO_PARENTAL_TIME_OFF</field>
+            <field name="external_code">SOLO_PARENTAL_TIME_OFF</field>
+            <field name="sequence">26</field>
+            <field name="color">5</field>
+        </record>
+
+        <record id="work_entry_special_for_women_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">Special Leave For Women</field>
+            <field name="code">SPECIAL_FOR_WOMEN_TIME_OFF</field>
+            <field name="external_code">SPECIAL_FOR_WOMEN_TIME_OFF</field>
+            <field name="sequence">27</field>
+            <field name="color">6</field>
+        </record>
+
+        <record id="work_entry_victim_of_violence_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">Leave For Victims of Violence Against Woman and Children</field>
+            <field name="code">VICTIM_OF_VIOLENCE_TIME_OFF</field>
+            <field name="external_code">VICTIM_OF_VIOLENCE_TIME_OFF</field>
+            <field name="sequence">28</field>
+            <field name="color">7</field>
+        </record>
+
+        <record id="work_entry_R_sick_time_off_work_type" model="hr.work.entry.type">
+            <field name="name">R Sick Leave</field>
+            <field name="code">R_SICK_TIME_OFF</field>
+            <field name="external_code">R_SICK_TIME_OFF</field>
+            <field name="sequence">29</field>
+            <field name="color">8</field>
+        </record>
+        
+    </data>
+</odoo>

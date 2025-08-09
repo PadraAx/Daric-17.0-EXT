@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<odoo>
+
+    <record id="hr_calculate_work_entries_cron_accrual" model="ir.cron">
+        <field name="name">Payroll: Calcualte Work Entries (BY ROLES)</field>
+        <field name="model_id" ref="model_hr_work_entry"/>
+        <field name="state">code</field>
+        <field name="code">model.calculate_work_entries()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">hours</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="True"/>
+    </record>
+</odoo>

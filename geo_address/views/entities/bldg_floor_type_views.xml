@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_bldg_floor_type_tree" model="ir.ui.view">
+        <field name="name">bldg.floor.type.tree</field>
+        <field name="model">bldg.floor.type</field>
+        <field name="arch" type="xml">
+            <tree default_order="code">
+                <field name="code"/>
+                <field name="name"/>
+                <field name="active"/>
+                <field name="color" widget="color_picker"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_bldg_floor_type_form" model="ir.ui.view">
+        <field name="name">bldg.floor.type.form</field>
+        <field name="model">bldg.floor.type</field>
+        <field name="arch" type="xml">
+            <form string="Floor Type">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="sequence"/>
+                        <field name="active"/>
+                        <field name="color" widget="color_picker"/>
+
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                        <page string="Units Using This Type">
+                            <field name="floor_ids">
+                                <tree>
+                                    <field name="hierarchical_id"/>
+                                    <field name="name"/>
+                                    <field name="building_id"/>
+                                    <field name="unit_count"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_bldg_floor_type_search" model="ir.ui.view">
+        <field name="name">bldg.floor.type.search</field>
+        <field name="model">bldg.floor.type</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="code"/>
+                <filter name="active" string="Active" domain="[('active','=',True)]"/>
+                <filter name="inactive" string="Inactive" domain="[('active','=',False)]"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_bldg_floor_type" model="ir.actions.act_window">
+        <field name="name">Floor Types</field>
+        <field name="res_model">bldg.floor.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create floor types to classify floors by purpose or structure.
+            </p>
+        </field>
+    </record>
+</odoo>

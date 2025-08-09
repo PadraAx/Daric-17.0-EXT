@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_bldg_category_tree" model="ir.ui.view">
+        <field name="name">bldg.category.tree</field>
+        <field name="model">bldg.category</field>
+        <field name="arch" type="xml">
+            <tree string="Building Categories">
+                <field name="sequence" widget="handle"/>
+                <field name="code"/>
+                <field name="name"/>
+                <field name="color" widget="color_picker"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_bldg_category_form" model="ir.ui.view">
+        <field name="name">bldg.category.form</field>
+        <field name="model">bldg.category</field>
+        <field name="arch" type="xml">
+            <form string="Building Category">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" string="Description"/>
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="code" placeholder="4-letter code"/>
+                            <field name="sequence"/>
+
+                        </group>
+                        <group>
+                            <field name="color" widget="color_picker"/>
+                            <field name="description" placeholder="Enter detailed description..."/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Buildings in This Category">
+                            <field name="building_ids">
+                                <tree>
+                                    <field name="hierarchical_id"/>
+                                    <field name="name"/>
+                                    <field name="bldg_complex_id"/>
+                                    <field name="context_type"/>
+                                    <field name="location_type"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_bldg_category_search" model="ir.ui.view">
+        <field name="name">bldg.category.search</field>
+        <field name="model">bldg.category</field>
+        <field name="arch" type="xml">
+            <search string="Building Category Search">
+                <field name="code"/>
+                <field name="name"/>
+                <group expand="0" string="Group By">
+                    <filter string="By Code" name="group_by_code" context="{'group_by':'code'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_bldg_category" model="ir.actions.act_window">
+        <field name="name">Building Categories</field>
+        <field name="res_model">bldg.category</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create your first building category</p>
+        </field>
+    </record>
+</odoo>

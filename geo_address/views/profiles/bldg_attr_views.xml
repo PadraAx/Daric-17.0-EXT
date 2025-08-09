@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- =======================
+         TREE VIEW
+    ======================= -->
+    <record id="view_bldg_attr_tree" model="ir.ui.view">
+        <field name="name">bldg.attr.tree</field>
+        <field name="model">bldg.attr</field>
+        <field name="arch" type="xml">
+            <tree string="Building Attributes">
+                <field name="name"/>
+                <field name="profile_level"/>
+                <field name="attr_type"/>
+                <field name="data_type"/>
+                <field name="computation_type"/>
+                <field name="uom_id"/>
+            </tree>
+        </field>
+    </record>
+    <!-- geo_address/views/bldg_calc_group_views.xml -->
+    <record id="action_bldg_calc_group_form" model="ir.actions.act_window">
+        <field name="name">Formula Expression</field>
+        <field name="res_model">bldg.calc.group</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>        <!-- or current, as you prefer -->
+    </record>
+    <!-- =======================
+     FORM VIEW (UPDATED) ======================= -->
+    <record id="view_bldg_attr_form" model="ir.ui.view">
+        <field name="name">bldg.attr.form</field>
+        <field name="model">bldg.attr</field>
+        <field name="arch" type="xml">
+            <form string="Building Attribute">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="profile_level"/>
+                            <field name="attr_type"/>
+                            <field name="data_type"/>
+
+                            <field name="inheritance_type" invisible="profile_level == 'unit_sub_component'"/>
+                            <field name="computation_type"/>
+                            <field name="root_calc_group_id" invisible="computation_type != 'formula'"/>
+                        </group>
+                        <group>
+                            <field name="uom_category_id" invisible="data_type not in ('integer', 'float')"/>
+                            <field name="uom_id" invisible="data_type not in ('integer', 'float')" domain="[('category_id', '=', uom_category_id)]"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+
+
+                        <!-- Scoring rules (classic) -->
+                        <page string="Scoring Rules" invisible="data_type in ('spatial','string','color')">
+                            <field name="score_ids" nolabel="1">
+                                <tree>
+                                    <field name="data_type" readonly="1"/>
+                                    <field name="selection_key" column_invisible="parent.data_type not in ('selection', 'boolean')"/>
+                                    <field name="range_min" column_invisible="parent.data_type not in ('integer', 'float')"/>
+                                    <field name="range_max" column_invisible="parent.data_type not in ('integer', 'float')"/>
+                                    <field name="points"/>
+                                </tree>
+                            </field>
+                        </page>
+
+                        <!-- Spatial Rules -->
+                        <page string="Spatial Rules" invisible="data_type != 'spatial'">
+                            <field name="spatial_coordinate_ids" nolabel="1" create="1">
+                                <tree editable="bottom">
+                                    <field name="coord_type"/>
+                                    <field name="precision" optional="hide" column_invisible="parent.data_type != 'spatial' or coord_type not in ['longitude','latitude']"/>
+                                    <field name="surface_reference"/>
+                                    <field name="depth_category" optional="hide" column_invisible="coord_type != 'depth'"/>
+                                    <field name="uom_category_id" column_invisible="1"/>
+                                    <!-- auto-filled -->
+                                    <field name="uom_id" optional="show"/>
+                                    <field name="range_min"/>
+                                    <field name="range_max"/>
+                                    <field name="points"/>
+                                </tree>
+                            </field>
+                        </page>
+
+                        <!-- String Rules -->
+                        <page string="String Rules" invisible="data_type != 'string'">
+                            <field name="string_rule_ids" nolabel="1">
+                                <tree editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="token_string"/>
+                                    <field name="points"/>
+                                </tree>
+                            </field>
+                        </page>
+
+                        <!-- Color Choices -->
+                        <page string="Color Choices" invisible="data_type != 'color'">
+                            <field name="color_option_ids" nolabel="1">
+                                <tree editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="color_from" widget="color"/>
+                                    <field name="color_to" widget="color"/>
+                                    <field name="points"/>
+                                </tree>
+                            </field>
+                        </page>
+
+                        <!-- Formula tree  -->
+                        <!-- inside the attribute form -->
+                        <page string="Formula Expression" invisible="computation_type != 'formula'" groups="base.group_no_one">
+                            <!-- Root group header -->
+                            <group invisible="not root_calc_group_id">
+                                <field name="root_calc_group_id" invisible="1"/>
+                                <label for="root_calc_group_id" string="Root Expression"/>
+                                <div class="oe_inline">
+                                    <field name="root_calc_group_id" readonly="1" force_save="1"/>
+                                    <button name="%(action_bldg_calc_group_form)d" type="action" string="Edit" class="oe_link oe_edit_only" context="{'default_id': root_calc_group_id}"/>
+                                </div>
+                            </group>
+
+                            <!-- Operands tree (root parameters + sub-groups) -->
+                            <field name="root_calc_group_id" widget="one2many_list" nolabel="1" readonly="1">
+                                <tree>
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="operator"/>
+                                    <field name="target_param_id"/>
+                                    <button name="%(action_bldg_calc_group_form)d" type="action" string="🔍" icon="fa-external-link" class="oe_link" context="{'default_id': id}"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- =======================
+         ACTION & MENU
+    ======================= -->
+    <record id="action_bldg_attr" model="ir.actions.act_window">
+        <field name="name">Profile Attributes</field>
+        <field name="res_model">bldg.attr</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- =======================
+         SUPPORT
+    ======================= -->
+    <record id="view_bldg_attr_color_option_form" model="ir.ui.view">
+        <field name="name">bldg.attr.color.option.form</field>
+        <field name="model">bldg.attr.color.option</field>
+        <field name="arch" type="xml">
+            <form string="Color Option">
+                <sheet>
+                    <group>
+                        <field name="attribute_id"/>
+                        <field name="sequence"/>
+                        <field name="name"/>
+                        <field name="points"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_bldg_attr_spatial_form" model="ir.ui.view">
+        <field name="name">bldg.attr.spatial.form</field>
+        <field name="model">bldg.attr.spatial</field>
+        <field name="arch" type="xml">
+            <form string="Spatial Attribute Rule">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="attribute_id"/>
+                            <field name="coord_type"/>
+                            <field name="sequence"/>
+                            <field name="precision" invisible = "coord_type not in ['longitude','latitude']"/>
+                        </group>
+                        <group>
+                            <field name="uom_category_id" invisible="1"/>
+                            <field name="uom_id"/>
+                            <field name="range_min"/>
+                            <field name="range_max"/>
+                            <field name="points"/>
+                        </group>
+                    </group>
+                    <group string="Reference &amp; Category">
+                        <field name="surface_reference"/>
+                        <field name="depth_category" invisible ="coord_type != 'depth'"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_bldg_attr_string_rule_form" model="ir.ui.view">
+        <field name="name">bldg.attr.string.rule.form</field>
+        <field name="model">bldg.attr.string.rule</field>
+        <field name="arch" type="xml">
+            <form string="String Rule">
+                <sheet>
+                    <group>
+                        <field name="attribute_id"/>
+                        <field name="sequence"/>
+                        <field name="token_string"/>
+                        <field name="points"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!--  bldg_calc_group_form.xml  -->
+    <record id="view_bldg_calc_group_form_simple" model="ir.ui.view">
+        <field name="name">bldg.calc.group.form.simple</field>
+        <field name="model">bldg.calc.group</field>
+        <field name="arch" type="xml">
+            <form string="Formula">
+                <sheet>
+                    <!-- 1. What are we calculating? -->
+                    <group>
+                        <field name="target_param_id" options="{'no_open': True, 'no_create': True}" placeholder="Attribute to receive the result"/>
+                        <field name="operator"/>
+                    </group>
+
+                    <!-- 2. Operands -->
+                    <notebook>
+                        <!-- Parameters (leaf operands) -->
+                        <page string="Parameters" name="parameters">
+                            <field name="param_ids" nolabel="1">
+                                <tree editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="calc_param_id" options="{'no_open': True, 'no_create': True}" placeholder="Choose an attribute"/>
+                                </tree>
+                            </field>
+                        </page>
+
+                        <!-- Sub-expressions -->
+                        <page string="Sub-Groups" name="sub_groups">
+                            <field name="child_ids" nolabel="1">
+                                <form>
+                                    <sheet>
+                                        <group>
+                                            <field name="target_param_id" invisible="1"/>
+                                            <field name="operator"/>
+                                        </group>
+                                        <field name="param_ids" nolabel="1">
+                                            <tree editable="bottom">
+                                                <field name="sequence" widget="handle"/>
+                                                <field name="calc_param_id"/>
+                                            </tree>
+                                        </field>
+                                    </sheet>
+                                </form>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

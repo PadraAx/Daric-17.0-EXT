@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+     
+        <record id="view_knowledge_request_form" model="ir.ui.view">
+            <field name="name">knowledge.request.form</field>
+            <field name="model">knowledge.request</field>
+            <field name="arch" type="xml">
+                <form string="Request Form" create="false" js_class="knowledge_article_extra_view_form" disable_autofocus="1">
+                    <field name="cover_image_id" invisible="1"/>
+                    <header>
+                        <button name="to_draft" type="object" string="To Darft " class="oe_highlight" invisible="state != 'rejected' or has_access != True"/>
+                        <button name="to_supervisor" type="object" string="To Supervisor " class="oe_highlight" invisible="state != 'draft' or has_access != True"/> 
+                        <button name="to_ambassador" type="object" string="To Ambassador " class="oe_highlight" invisible="state != 'supervisor' or has_access != True"/>
+                        <button name="to_expert" type="object" string="To Expert " class="oe_highlight"  invisible="state != 'ambassador' or has_access != True"/> 
+                        <button name="to_publish" type="object" string="To Publish " class="oe_highlight" invisible="state != 'final' or has_access != True"/>
+                        <button name="to_rejected" type="object" string="Reject " class="btn-danger" invisible="state in ['draft','rejected','publish'] or has_access != True"/>
+                        <button name="confirm" class="btn-success" context="{'active_id': requester}" type="object" string="Confirm" invisible="state != 'expert' or access_evaluation_ids == False"/>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,supervisor,ambassador,expert,final,publish,rejected"/>
+                    </header>
+                    <sheet>
+                        <field name="active" invisible="1"/>
+                        <field name="has_access" invisible="1"/>
+                        <field name="access_content" invisible="1"/>
+                        <field name="access_ambassador_expert_ids" invisible="1"/>
+                        <field name="access_parent_id" invisible="1"/>
+                        <field name="access_evaluation_ids" invisible="1"/>
+                        <field name="access_tag_ids" invisible="1"/>
+                        <field name="access_ambassador_checklist_ids" invisible="1"/>
+                        <field name="access_avg_ids" invisible="1"/>
+                        <field name="last_edition_uid" invisible="1"/>
+                        <field name="last_edition_date" invisible="1"/>
+                        <field name="article_properties" invisible="1"/>
+                        <widget name="web_ribbon" title="Archived" bg_color="bg-danger" invisible="active == True"/> 
+
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1>
+                                <field name="name" readonly="access_content == False"/> 
+                            </h1>
+                        </div>
+                        <group >
+                            <field name="state" invisible="1"/>
+                        </group>
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <span class="nav-link active" id="nav-content-tab" data-bs-toggle="tab" data-bs-target="#nav-content" type="button" role="tab" aria-controls="nav-content" aria-selected="true">Content</span>
+                                <span class="nav-link" id="nav-form1-tab" data-bs-toggle="tab" data-bs-target="#nav-form1" type="button" role="tab" aria-controls="nav-form1" aria-selected="false">Information</span>
+                                <span class="nav-link" id="nav-form2-tab" data-bs-toggle="tab" data-bs-target="#nav-form2" type="button" role="tab" aria-controls="nav-form2" aria-selected="false">Ambassador Check List</span>
+                                <span class="nav-link" id="nav-form3-tab" data-bs-toggle="tab" data-bs-target="#nav-form3" type="button" role="tab" aria-controls="nav-form3" aria-selected="false"  invisible="access_evaluation_ids == False">Evaluation</span>
+                                <span class="nav-link" id="nav-form4-tab" data-bs-toggle="tab" data-bs-target="#nav-form4" type="button" role="tab" aria-controls="nav-form4" aria-selected="false"  invisible="access_avg_ids == False">Evaluation Average</span>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active p-3" id="nav-content" role="content" aria-labelledby="nav-content-tab">
+                                <!-- Article header -->
+                                <widget name="knowledge_ext_topbar"/>
+
+                                <div class="flex-grow-1 position-relative">
+                                    <div class="o_scroll_view o_knowledge_main_view">
+                                        <div class="row p-0 m-0" style="min-height: 100%">
+                                            <div class="d-flex col-12 col-lg position-relative p-0">
+                                                <div class="o_scroll_view_lg">
+                                                    <widget name="knowledge_comments_handler"/>
+                                                    <!-- Article body -->
+                                                    <div class="o_knowledge_body d-flex flex-column" invisible="not id" readonly="access_content == False">
+                                                        <!-- Full Width handling -->
+                                                        <span class="o_knowledge_article_view_form_dynamic_width d-none"/>
+                                                        <!-- Article Cover -->
+                                                        <field name="cover_image_url" invisible="1" readonly="access_content == False"/>
+                                                        <field name="cover_image_position" invisible="1" readonly="access_content == False"/>
+                                                        <widget name="knowledge_cover_ext" invisible="not cover_image_id" readonly="access_content == False"/>
+                                                        <!-- Article Icon -->
+                                                        <field name="icon" widget="knowledge_icon" class="o_knowledge_icon o_large mt-n3 mb-n4" readonly="access_content == False"/>
+                                                        <!-- Article body -->
+                                                        <div class="o_knowledge_editor mt-3" readonly="access_content == False">
+                                                            <field name="content" widget="knowledge_article_html_field" class="o_field_html" no_label="1" groups="base.group_user"
+                                                                options="{'collaborative': true, 'collaborative_trigger': 'start', 'resizable': False, 'knowledge_commands': true}"
+                                                                readonly="access_content == False"/>
+                                                            <!-- Portal users get some commands disabled, notably /image and /file, as they don't have access to ir.attachment -->
+                                                            <field name="content" widget="knowledge_article_html_field" class="o_field_html" no_label="1" groups="base.group_portal"
+                                                                options="{'collaborative': true, 'collaborative_trigger': 'start', 'resizable': False, 'knowledge_commands': true, 'allowCommandImage': false, 'allowCommandVideo': false, 'allowCommandFile': false}"
+                                                                readonly="access_content == False"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- No Content Helper -->
+                                                <div class="o_view_nocontent" invisible="id">
+                                                    <div class="o_nocontent_help">
+                                                        <p class="o_view_nocontent_smiling_face">
+                                                                No article yet.
+                                                        </p>
+                                                        <p>
+                                                            <a role="button" class="o_nocontent_create_btn">
+                                                                Create an article
+                                                            </a>
+                                                            to unleash the power of Knowledge !
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Properties -->
+                                            <widget name="knowledge_properties_panel"/>
+                                            <!-- Chatter -->
+                                            <widget name="knowledge_chatter_panel" groups="base.group_user"/>
+                                            <!-- Comments Panel -->
+                                            <widget name="knowledge_comments_panel"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <field name="icon" invisible="1"/>
+                              
+                            </div>
+
+                            <div class="tab-pane fade p-3" id="nav-form1" role="form1" aria-labelledby="nav-form1-tab">
+                                <group>
+                                    <group string="Request Flow">
+                                        <field name="ambassador_ids" widget="many2many_tags" readonly="access_ambassador_expert_ids == False" options="{'no_open': True, 'no_create': True}"/>
+                                        <field name="expert_ids" widget="many2many_tags" readonly="access_ambassador_expert_ids == False" options="{'no_open': True, 'no_create': True}"/>
+                                        <field name="parent_article_id" widget="many2many_tags" readonly="access_parent_id == False" options="{'no_open': True, 'no_create': True}"/>
+                                    </group>
+                                    <group string="User Info">
+                                        <field name="requester" options="{'no_open': True, 'no_create': True}"/>
+                                        <field name="create_date"/>
+                                        <field name="article_id" options="{'no_open': True, 'no_create': True}"/>
+                                        <field name="tag_ids" widget="many2many_tags" options="{'no_open': True, 'no_create': True}" readonly="access_tag_ids == False"/>
+                                    </group>
+                                </group>
+                            </div>
+                            <div class="tab-pane fade p-3" id="nav-form2" role="form2" aria-labelledby="nav-form2-tab">
+                                <field name="ambassador_checklist_ids" create="false" delete="false" readonly="access_ambassador_checklist_ids == False">
+                                    <tree editable="bottom" create="false" delete="false">
+                                        <field name="ambassador_item_id" readonly="1"/>
+                                        <field name="done" string="Item Done"/>
+                                        <button name="open_details" type="object" string="open " class="oe_highlight"/>
+                                    </tree>  
+                                </field>
+                            </div>
+                            <div class="tab-pane fade p-3" id="nav-form3" role="form3" aria-labelledby="nav-form3-tab" invisible="access_evaluation_ids == False">
+                                <field name="evaluation_ids" create="false" delete="false" invisible="access_evaluation_ids == False" readonly="state != 'expert'">
+                                    <tree editable="bottom">
+                                        <field name="score_id" readonly="1"/>
+                                        <field name="expert_id" readonly="1"/>
+                                        <field name="score" string="Score (0 to 10)"/>
+                                        <field name="factor" readonly="1"/>
+                                        <field name="confirm" readonly="1"/>
+                                        <button name="open_details" type="object" string="open " class="oe_highlight"/>
+                                    </tree>
+                                </field>
+                            </div>
+                            <div class="tab-pane fade p-3" id="nav-form4" role="form4" aria-labelledby="nav-form4-tab"  invisible="access_avg_ids == False">
+                                <field name="avg_ids" create="false" delete="false" readonly="1" invisible="access_avg_ids == False">
+                                    <tree editable="bottom" create="false">
+                                        <field name="score_id" readonly="1"/>
+                                        <field name="score_avg" readonly="1"/>
+                                        <field name="factor" readonly="1"/>
+                                    </tree>
+                                    <form>
+                                        <group>
+                                            <group>
+                                                <field name="score_id" readonly="1" options="{'no_open': True, 'no_create': True}" string="Name"/>
+                                            </group>
+                                            <group>
+                                                <field name="score_avg" readonly="1" />
+                                                <field name="factor" readonly="1"/>
+                                            </group>
+                                        </group>
+                                    </form>
+                                </field>
+                                <group col="12" class="oe_invoice_lines_tab">
+                                    <group class="oe_subtotal_footer oe_right">
+                                        <field name="total_score" invisible="access_avg_ids == False"/>
+                                    </group>
+                                </group>
+                            </div>
+                        </div>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record> 
+
+        <record id="view_knowledge_request_tree" model="ir.ui.view">
+            <field name="name">knowledge.request.tree</field>
+            <field name="model">knowledge.request</field>
+            <field name="arch" type="xml">
+                <tree string="Request Tree" sample="1" create="false">
+                    <field name="name"/>
+                    <field name="article_id"/>
+                    <field name="requester"/>
+                    <field name="ambassador_ids" widget="many2many_tags"/>
+                    <field name="expert_ids" widget="many2many_tags"/>
+                    <field name="parent_article_id" widget="many2many_tags"/>
+                    <field name="state"/>
+                    <field name="create_date"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_knowledge_request_filter" model="ir.ui.view">
+            <field name="name">knowledge.request.search</field>
+            <field name="model">knowledge.request</field>
+            <field name="arch" type="xml">
+                <search string="Request Search">
+                    <field name="name"/>
+                    <field name="article_id"/>
+                    <field name="requester"/>
+                    <field name="parent_article_id"/>
+                    <field name="create_date"/>
+                    <separator/>
+                    <filter string="Archived" name="Inactive" domain="[('active', '=', False)]"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="knowledge_request_action" model="ir.actions.act_window">
+            <field name="name">Request</field>
+            <field name="res_model">knowledge.request</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

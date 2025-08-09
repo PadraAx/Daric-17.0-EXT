@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.ui.menu" id="knowledge.knowledge_menu_configuration">
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_supervisor')])]"/>
+    </record>
+    <record model="ir.ui.menu" id="knowledge.knowledge_article_member_menu">
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+    <record model="ir.ui.menu" id="knowledge.knowledge_article_favorite_menu">
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+    <record model="ir.ui.menu" id="knowledge.knowledge_article_menu_trashed">
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+    <record model="ir.ui.menu" id="knowledge.knowledge_article_stage_menu">
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="knowledge.knowledge_menu_technical">
+        <field name="parent_id" ref="knowledge.knowledge_menu_root"/>
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+    <record model="ir.ui.menu" id="knowledge.knowledge_article_template_menu">
+        <field name="sequence">0</field>
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+    <record model="ir.ui.menu" id="knowledge.knowledge_article_template_category_menu">
+        <field name="sequence">1</field>
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+    <record model="ir.ui.menu" id="knowledge.knowledge_article_template_stage_menu">
+        <field name="sequence">2</field>
+        <field name="groups_id" eval="[(6, 0, [ref('knowledge_ext.group_knowledge_manager')])]"/>
+    </record>
+
+    <!-- knowledge request menu -->
+    <menuitem
+        id="knowledge_ext_request_menu"
+        name="Request"
+        parent="knowledge.knowledge_menu_root"
+        action="knowledge_ext.knowledge_request_action"
+        sequence="4"/>
+
+    <!--*************************** sub menus of configuration tab *******************************-->
+    
+    <!-- <menuitem
+        id="knowledge_ext_template_menu"
+        name="Template"
+        parent="knowledge.knowledge_menu_configuration"
+        groups="group_knowledge_supervisor"
+        action="knowledge_ext.knowledge_template_action"
+        sequence="4"/> -->
+    
+    <menuitem
+        id="knowledge_ext_article_access_menu"
+        name="Article Access"
+        parent="knowledge.knowledge_menu_configuration"
+        groups="group_knowledge_supervisor"
+        action="knowledge_ext.knowledge_ext_article_view_action"
+        sequence="5"/>
+
+    <menuitem 
+        id="knowledge_config_checklist_category" 
+        name="Checklists" 
+        parent="knowledge.knowledge_menu_configuration" 
+        groups="group_knowledge_supervisor" 
+        sequence="6">
+
+        <menuitem 
+            id="knowledge_ext_ambassador_item_menu" 
+            name="Ambassador Checklist" 
+            action="knowledge_ext.knowledge_ambassador_item_action" 
+            sequence="1"/>
+
+        <menuitem 
+            id="knowledge_ext_score_menu" 
+            name="Expert Checklist" 
+            action="knowledge_ext.knowledge_score_action" 
+            sequence="2"/>
+            
+    </menuitem>
+
+    <!-- knowledge tag menu -->
+    <menuitem
+        id="knowledge_ext_tag_menu"
+        name="Article Tag"
+        parent="knowledge.knowledge_menu_configuration"
+        groups="group_knowledge_supervisor"
+        action="knowledge_ext.knowledge_tag_action"
+        sequence="7"/>
+
+</odoo>

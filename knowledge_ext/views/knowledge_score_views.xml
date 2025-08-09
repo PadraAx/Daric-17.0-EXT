@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_knowledge_score_form" model="ir.ui.view">
+            <field name="name">knowledge.score.form</field>
+            <field name="model">knowledge.score</field>
+            <field name="arch" type="xml">
+                <form string="Knowledge Score Form">
+                    <sheet>
+                        <div class="oe_title">
+                            <h2>
+                                <label for="name" class="oe_edit_only"/>
+                                <field name="name" placeholder="Score Name"/>
+                            </h2>
+                        </div>
+                        <group style="margin-top:5px">
+                            <group>
+                                <field name="factor"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description" widget="text"/>
+                            </page>
+                        </notebook>  
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_knowledge_score_tree" model="ir.ui.view">
+            <field name="name">knowledge.score.tree</field>
+            <field name="model">knowledge.score</field>
+            <field name="arch" type="xml">
+                <tree string="Knowledge Score Tree" sample="1">
+                    <field name="name"/>
+                    <field name="factor"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_knowledge_score_filter" model="ir.ui.view">
+            <field name="name">knowledge.score.search</field>
+            <field name="model">knowledge.score</field>
+            <field name="arch" type="xml">
+                <search string="Knowledge Score Search">
+                    <field name="name"/>
+                    <field name="description"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="knowledge_score_action" model="ir.actions.act_window">
+            <field name="name">Knowledge Score</field>
+            <field name="res_model">knowledge.score</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

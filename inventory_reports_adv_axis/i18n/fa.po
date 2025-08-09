@@ -1,0 +1,1855 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* inventory_reports_adv_axis
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-03 14:01+0000\n"
+"PO-Revision-Date: 2025-04-03 14:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.inventory_overstock_pdf_report
+msgid "'Inventory Overstock'"
+msgstr "'اضافه موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.inventory_stock_alert_pdf_report
+msgid "'Inventory Stock Alert'"
+msgstr "'هشدار موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.fsn_moving_pdf_report
+msgid "'Product Movement'"
+msgstr "'حرکت محصول'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.reorder_analysis_pdf_report
+msgid "'Reorder Analysis'"
+msgstr "'تحلیل سفارش مجدد'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.sales_analysis_pdf_report
+msgid "'Sales Analysis'"
+msgstr "'تحلیل فروش'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.stock_aging_pdf_report
+msgid "'Stock Aging'"
+msgstr "'قدمت موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.stock_availability_pdf_report
+msgid "'Stock Availability'"
+msgstr "'دسترس‌پذیری موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.stock_forecast_pdf_report
+msgid "'Stock Forecast'"
+msgstr "'پیش‌بینی موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.stock_movement_pdf_report
+msgid "'Stock Movement'"
+msgstr "'حرکت موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.stock_return_pdf_report
+msgid "'Stock Return Report'"
+msgstr "'گزارش بازگشت موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,print_report_name:inventory_reports_adv_axis.stock_velocity_pdf_report
+msgid "'Stock Velocity Report'"
+msgstr "'گزارش سرعت گردش موجودی'"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2000
+msgid "2000"
+msgstr "2000"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2001
+msgid "2001"
+msgstr "2001"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2002
+msgid "2002"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2003
+msgid "2003"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2004
+msgid "2004"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2005
+msgid "2005"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2006
+msgid "2006"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2007
+msgid "2007"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2008
+msgid "2008"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2009
+msgid "2009"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2010
+msgid "2010"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2011
+msgid "2011"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2012
+msgid "2012"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2013
+msgid "2013"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2014
+msgid "2014"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2015
+msgid "2015"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2016
+msgid "2016"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2017
+msgid "2017"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2018
+msgid "2018"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2019
+msgid "2019"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2020
+msgid "2020"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2021
+msgid "2021"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2022
+msgid "2022"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2023
+msgid "2023"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2024
+msgid "2024"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__inventory_balance_sheet__year__2025
+msgid "2025"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_abc_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_xyz_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_in_out_stock_report_form
+msgid "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" title=\"To\"/>"
+msgstr "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"شمایل پیکان\" title=\"به\"/>"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_inout_data
+msgid "<span>Stock Average Analysis</span>"
+msgstr "<span>تحلیل میانگین موجودی</span>"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_balance_sheet_data
+msgid "<strong>Year:</strong>"
+msgstr "<strong>سال:</strong>"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_balance_sheet_data
+msgid "Account"
+msgstr "حساب"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Adjustment Qty"
+msgstr "مقدار تعدیل"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_report_merge_object__available_qty
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_report_merge_object__available_qty1
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Available Qty"
+msgstr "مقدار موجود"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_availability_data
+msgid "Available Quantity"
+msgstr "مقدار موجودی"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inv_turnover_data
+msgid "Average Inventory"
+msgstr "میانگین موجودی"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_balance_sheet_data
+msgid "Balance"
+msgstr "تراز"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/balance_sheet.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_balance_sheet
+#: model:ir.actions.report,name:inventory_reports_adv_axis.balance_sheet_pdf_report
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_balance_sheet
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_balance_sheet_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_balance_sheet_form
+#, python-format
+msgid "Balance Sheet Report"
+msgstr "گزارش ترازنامه"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__body_html
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__body_html
+msgid "Body Html"
+msgstr "بدنه HTML"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inv_turnover_data
+msgid "COGS"
+msgstr "هزینه کالاهای فروخته‌شده"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__category_ids
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_abc_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_xyz_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_merge_object_search
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_sales_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_availability_data
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_xyz_analysis_data
+msgid "Class"
+msgstr "کلاس"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.report_merge_object_action_update
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.report_merge_object_action_update_groupby
+msgid "Community Expense"
+msgstr "هزینه جامعه"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_cost_analysis_location_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_cost_analysis_location
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_cost_analysis_location_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_cost_analysis_location_report_form
+msgid "Cost Analysis By Location Report"
+msgstr "گزارش تحلیل هزینه بر اساس موقعیت"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.cost_analysis_by_location_pdf_report
+msgid "Cost Analysis by Location"
+msgstr "تحلیل هزینه بر اساس موقعیت"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/cost_analysis_location.py:0
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_cost_analysis_by_location_data
+#, python-format
+msgid "Cost Analysis by Location Report"
+msgstr "گزارش تحلیل هزینه بر اساس موقعیت"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Cost Price"
+msgstr "قیمت تمام شده"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_coverage_data
+msgid "Coverage (Days)"
+msgstr "پوشش (روز)"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__create_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__create_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_xyz_analysis_data
+msgid "Current Stock"
+msgstr "موجودی فعلی"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,help:inventory_reports_adv_axis.field_report_merge_object__available_qty1
+msgid ""
+"Current quantity of products.\n"
+"In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
+"stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr ""
+"مقدار فعلی محصولات.\n"
+"در یک موقعیت با یک مکان ذخیره‌سازی، شامل کالاهای ذخیره‌شده در این مکان یا زیرمجموعه‌های آن است.\n"
+"در یک موقعیت با یک انبار، شامل کالاهای ذخیره‌شده در مکان ذخیره‌سازی این انبار یا زیرمجموعه‌های آن است.\n"
+"در مکان ذخیره‌سازی انبار این فروشگاه یا زیرمجموعه‌های آن ذخیره شده است.\n"
+"در غیر این صورت، شامل کالاهای ذخیره‌شده در هر مکان ذخیره‌سازی با نوع 'داخلی' است."
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_merge_object_graph
+msgid "Data"
+msgstr "داده‌ها"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_velocity_data
+msgid "Date Moved"
+msgstr "تاریخ جابجایی"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_aging_data
+msgid "Date Received"
+msgstr "تاریخ دریافت"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__dated_report
+msgid "Dated Report"
+msgstr "گزارش تاریخ‌دار"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_abc_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_xyz_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_in_out_stock_report_form
+msgid "Dates"
+msgstr "تاریخ‌ها"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,help:inventory_reports_adv_axis.field_report_merge_object__unit_id
+msgid "Default unit of measure used for all stock operations."
+msgstr "واحد اندازه‌گیری پیش‌فرض مورد استفاده در تمام عملیات موجودی."
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+msgid "Destination Location"
+msgstr "مکان مقصد"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_report_merge_object__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__display_name
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__display_name
+msgid "Display Name"
+msgstr "نام نمایش"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_balance_sheet_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_cost_analysis_location_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_fifo_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_abc_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_xyz_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_coverage_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_overstock_form
+msgid "Download PDF Report"
+msgstr "دانلود گزارش PDF"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_balance_sheet_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_cost_analysis_location_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_fifo_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_abc_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_xyz_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_coverage_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_overstock_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_stock_alert_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_turnover_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_lifo_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_in_out_stock_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_movement_form_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_profitability_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_sales_analysis_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_serial_tracking_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_aging_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_availability_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_expiry_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_forecast_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_movement_report_form_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_reorder_analysis_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_return_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_velocity_analysis_form
+msgid "Download XLS Report"
+msgstr "دانلود گزارش XLS"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__date_end
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__date_end
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__end_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__end_date
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_serial_lot_tracking_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+msgid "End Date:"
+msgstr "تاریخ پایان:"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_serial_lot_tracking_data
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.stock_expiry_data
+msgid "Expiry Date"
+msgstr "تاریخ انقضا"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.fifo_valuation_pdf_report
+msgid "FIFO Valuation"
+msgstr "ارزش‌گذاری اولین خروجی از اولین ورودی"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/fifo_valuation.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_fifo_valuation_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_fifo_valuation
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_fifo_valuation_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_fifo_valuation_report_form
+#, python-format
+msgid "FIFO Valuation Report"
+msgstr "گزارش ارزش‌گذاری اولین خروجی از اولین ورودی"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/product_movement.py:0
+#: code:addons/inventory_reports_adv_axis/models/product_movement.py:0
+#, python-format
+msgid "Fast Moving"
+msgstr "محصولات پرگردش"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+msgid "Fast Moving Products"
+msgstr "محصولات پرگردش"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__filtered_report
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__filtered_report
+msgid "Filter Report"
+msgstr "گزارش پالایش"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__filter_report_by
+msgid "Filter Report By :"
+msgstr "پالایش گزارش بر اساس:"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__filtered_report
+msgid "Filtered Report"
+msgstr "گزارش پالایش‌شده"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_coverage_data
+msgid "Forecasted Quantity"
+msgstr "مقدار پیش‌بینی‌شده"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_balance_sheet_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_cost_analysis_location_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_fifo_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_abc_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_xyz_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_coverage_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_overstock_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_stock_alert_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_turnover_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_lifo_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_in_out_stock_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_movement_form_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_profitability_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_sales_analysis_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_serial_tracking_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_aging_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_availability_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_expiry_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_forecast_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_movement_report_form_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_reorder_analysis_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_return_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_velocity_analysis_form
+msgid "Graph Report"
+msgstr "گزارش نموداری"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+msgid "Gross Profit"
+msgstr "سود ناخالص"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_merge_object_search
+msgid "Group By"
+msgstr "گروه‌بندی بر اساس"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_report_merge_object__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__id
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_inout_data
+msgid "In Stock"
+msgstr "در انبار"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Internal Movements Qty"
+msgstr "مقدار جابجایی‌های داخلی"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_inout_data
+msgid "Initial Stock"
+msgstr "موجودی اولیه"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/inventory_abc_analysis.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_inventory_analysis_abc_report
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inv_valuation_abc_analysis_pdf_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_inventory_abc_analysis
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_inventory_analysis_abc_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_abc_report_form
+#, python-format
+msgid "Inventory ABC Analysis Report"
+msgstr "گزارش تحلیل ABC انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_inventory_balance_sheet1
+msgid "Inventory Balance Sheet"
+msgstr "ترازنامه انبار"
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/balance_sheet_qweb.xml:0
+#, python-format
+msgid "Inventory Balancesheet"
+msgstr "ترازنامه انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_inventory_inventory_coverage_1
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inventory_coverage_pdf_report
+msgid "Inventory Coverage"
+msgstr "پوشش انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_inventory_coverage_report
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_inventory_coverage_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_coverage_report_form
+msgid "Inventory Coverage Report"
+msgstr "گزارش پوشش انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_inventory_overstock1
+msgid "Inventory Over stock"
+msgstr "موجودی مازاد انبار"
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inventory_overstock_qweb.xml:0
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inventory_overstock_pdf_report
+#, python-format
+msgid "Inventory Overstock"
+msgstr "موجودی مازاد انبار"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/inv_overstock.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_inv_overstock
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_inv_overstock
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_overstock_form
+#, python-format
+msgid "Inventory Overstock Report"
+msgstr "گزارش موجودی مازاد انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_inventory_stock_alert1
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inventory_stock_alert_pdf_report
+msgid "Inventory Stock Alert"
+msgstr "هشدار موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/inv_stock_alert.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_inv_stock_alert
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_inv_stock_alert
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_stock_alert_form
+#, python-format
+msgid "Inventory Stock Alert Report"
+msgstr "گزارش هشدار موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inv_valuation_stock_in_out_pdf_report
+msgid "Inventory Stock In Out Analysis Report"
+msgstr "گزارش تحلیل ورود و خروج موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inv_turnover_pdf_report
+msgid "Inventory Turnover"
+msgstr "چرخش موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/inventory_turnover.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_inventory_turnover_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_inventory_turnover
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_inventory_turnover_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_turnover_report_form
+#, python-format
+msgid "Inventory Turnover Report"
+msgstr "گزارش چرخش موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_inventory_valuation
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inv_valuation_pdf_report
+msgid "Inventory Valuation"
+msgstr "ارزیابی موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/inventory_valuation.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_inventory_valuation_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_inventory_valuation
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_inventory_valuation_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_valuation_report_form
+#, python-format
+msgid "Inventory Valuation Report"
+msgstr "گزارش ارزیابی موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.inventory_xyz_analysis_pdf_report
+msgid "Inventory XYZ Analysis"
+msgstr "تحلیل XYZ موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_inventory_analysis_xyz_report
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_inventory_analysis_xyz_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_xyz_report_form
+msgid "Inventory XYZ Analysis Report"
+msgstr "گزارش تحلیل XYZ موجودی انبار"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.lifo_valuation_pdf_report
+msgid "LIFO Valuation"
+msgstr "ارزیابی اولین خروجی از آخرین ورودی"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/lifo_valuation.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_lifo_valuation_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_lifo_valuation
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_lifo_valuation_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_lifo_valuation_report_form
+#, python-format
+msgid "LIFO Valuation Report"
+msgstr "گزارش ارزیابی اولین خروجی از آخرین ورودی"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__write_uid
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__write_uid
+msgid "Last Updated by"
+msgstr "آخرین بروزرسانی توسط"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__write_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__write_date
+msgid "Last Updated on"
+msgstr "آخرین بروزرسانی در"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_cost_analysis_by_location_data
+msgid "Location"
+msgstr "مکان"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__location_ids
+msgid "Locations"
+msgstr "مکان‌ها"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_serial_lot_tracking_data
+msgid "Lot/Serial Number Tracking Report"
+msgstr "گزارش پیگیری شماره دسته/سری"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_serial_tracking_report
+msgid "Lots/Serial No. Tracking Report"
+msgstr "گزارش پیگیری دسته‌ها/شماره سری‌ها"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_merge_object_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_merge_object_tree
+msgid "Merge Object"
+msgstr "ترکیب شیء"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_abc_analysis_data
+msgid "Movements"
+msgstr "حرکات"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+msgid "Non Moving Products"
+msgstr "محصولات بدون حرکت"
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/product_movement.py:0
+#: code:addons/inventory_reports_adv_axis/models/product_movement.py:0
+#, python-format
+msgid "Non-Moving"
+msgstr "بدون حرکت"
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__stock_inventory_turnover__filter_report_by__none
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_coverage_data
+msgid "On Hand Quantity"
+msgstr "مقدار موجودی"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_inout_data
+msgid "Out Stock"
+msgstr "موجودی خارج"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_abc_analysis_data
+msgid "Percentage"
+msgstr "درصد"
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_balance_sheet_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_cost_analysis_location_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_fifo_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_abc_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_analysis_xyz_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_coverage_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_overstock_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_stock_alert_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_turnover_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_inventory_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_lifo_valuation_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_in_out_stock_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_movement_form_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_profitability_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_sales_analysis_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_serial_tracking_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_aging_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_availability_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_expiry_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_forecast_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_movement_report_form_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_reorder_analysis_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_return_report_form
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_velocity_analysis_form
+msgid "Preview Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_report_merge_object__product_id
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__stock_inventory_turnover__filter_report_by__product
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_cost_analysis_by_location_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inv_turnover_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_abc_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_coverage_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_overstock_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_alert_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_inout_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_merge_object_search
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_reorder_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_sales_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_serial_lot_tracking_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_aging_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_availability_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_forecast_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_return_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_velocity_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.stock_expiry_data
+msgid "Product"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_abc_1
+msgid "Product ABC"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_stock_avaibility.xml:0
+#, python-format
+msgid "Product Availability"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_availibility
+msgid "Product Availibility"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/abc_report.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/balance_sheet_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/cost.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/fifo.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inv_stock_alert.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inv_stock_coverage.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inventory_overstock_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/lifo.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/lot.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_data_views.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_inout.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_movement.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_profile.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_stock_avaibility.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_turnover.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/sale_analysis.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_aging_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_expire_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_forecast_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_reoder_analysis_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/streturn.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/velocity.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/xyz_report.xml:0
+#, python-format
+msgid "Product Bar"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/cost.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_cost_1
+#, python-format
+msgid "Product COST"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__product_category_ids
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__category_ids
+msgid "Product Categories"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_report_merge_object__categ_id
+msgid "Product Category"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_data_views.xml:0
+#, python-format
+msgid "Product Dashboard"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/fifo.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_fifo_1
+#, python-format
+msgid "Product FIFO"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_inout_1
+msgid "Product INOUT"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_inout.xml:0
+#, python-format
+msgid "Product In Out"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_in_out_stock_report_form
+msgid "Product In Out Stock"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_product_in_out_stock
+msgid "Product In Out Stock Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_product_in_out_stock
+msgid "Product In Out stock Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/lifo.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_lifo_1
+#, python-format
+msgid "Product LIFO"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_lot_1
+msgid "Product LOT"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/abc_report.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/balance_sheet_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/cost.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/fifo.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inv_stock_alert.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inv_stock_coverage.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inventory_overstock_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/lifo.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/lot.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_data_views.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_inout.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_movement.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_profile.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_stock_avaibility.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_turnover.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/sale_analysis.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_aging_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_expire_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_forecast_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_reoder_analysis_qweb.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/streturn.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/velocity.xml:0
+#: code:addons/inventory_reports_adv_axis/static/src/xml/xyz_report.xml:0
+#, python-format
+msgid "Product Line"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/lot.xml:0
+#, python-format
+msgid "Product Lot And Serial Tracking"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_movement.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_movement
+#: model:ir.actions.report,name:inventory_reports_adv_axis.fsn_moving_pdf_report
+#, python-format
+msgid "Product Movement"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/product_movement.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_product_movement_report_axis
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_product_movement_report_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_movement_form_axis
+#, python-format
+msgid "Product Movement Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_xyz_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+msgid "Product Name"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_profit_1
+msgid "Product Profit"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.product_profitability_pdf_report
+msgid "Product Profitability"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/product_profitability.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_product_profitability
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_product_profitability
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_product_profitability_form
+#, python-format
+msgid "Product Profitability Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_stockreturn_1
+msgid "Product ST RETURN"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_turnover.xml:0
+#, python-format
+msgid "Product TournOver"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_turnover
+msgid "Product Tournover"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_velocity_1
+msgid "Product Velocity"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_product_xyz_1
+msgid "Product XYZ"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/abc_report.xml:0
+#, python-format
+msgid "ProductABC"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/product_profile.xml:0
+#, python-format
+msgid "ProductProfit"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/xyz_report.xml:0
+#, python-format
+msgid "ProductXYZ"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__product_ids
+msgid "Products"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+msgid "Profit Percentage"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__fast_moving_qty
+msgid "Qty. for Fast Moving"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__slow_moving_qty
+msgid "Qty. for Slow Moving"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_cost_analysis_by_location_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_serial_lot_tracking_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_aging_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+msgid "Quantity"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_overstock_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_alert_data
+msgid "Quantity Available"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_forecast_data
+msgid "Quantity Forecast"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_velocity_data
+msgid "Quantity Moved"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_reorder_analysis_data
+msgid "Quantity On Hand"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inv_turnover_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_sales_analysis_data
+msgid "Quantity Sold"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Received Qty"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.reorder_analysis_pdf_report
+msgid "Reorder Analysis"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_reorder_analysis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_reorder_analysis_data
+msgid "Reorder Analysis Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_reorder_analysis_data
+msgid "Reorder Point"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__report_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+msgid "Report Data"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_report_merge_object
+msgid "Report Merge Object"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__report_type
+msgid "Report Type"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_return_data
+msgid "Return Quantity"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/streturn.xml:0
+#, python-format
+msgid "STOCK RETURN"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/velocity.xml:0
+#, python-format
+msgid "STOCK VELOCITY"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/sale_analysis.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_sale_analysis
+#, python-format
+msgid "Sale Analysis"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.sales_analysis_pdf_report
+msgid "Sales Analysis"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/sales_analysis.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_sales_analysis
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_sales_analysis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_sales_analysis_form
+#, python-format
+msgid "Sales Analysis Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Sales Qty"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_merge_object_search
+msgid "Search"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_serial_tracking_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_serial_tracking_report_form
+msgid "Serial Tracking Lot Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_serial_lot_tracking_data
+msgid "Serial/Lot Number"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.serial_lot_tracking_pdf_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_serial_lot_tracking
+msgid "Serial/Lot Number Tracking Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/product_movement.py:0
+#: code:addons/inventory_reports_adv_axis/models/product_movement.py:0
+#, python-format
+msgid "Slow Moving"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+msgid "Slow Moving Products"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+msgid "Source Location"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_cost_analysis_location__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_abc_analysis__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_coverage__date_start
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_in_out_stock__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_profitability__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_sales_analysis__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_serial_lot_tracking__date_start
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_aging__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_expiry__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_forecast__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_movement__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_reorder_analysis__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_return__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_velocity_analysis__start_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_xyz_analysis__start_date
+msgid "Start Date"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_serial_lot_tracking_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+msgid "Start Date:"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_aging_qweb.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_stock_aging1
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_aging_pdf_report
+#, python-format
+msgid "Stock Aging"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_aging
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_aging
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_aging
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_aging_form
+msgid "Stock Aging Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inv_stock_alert.xml:0
+#, python-format
+msgid "Stock Alert"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_availability__stock_at_date
+msgid "Stock At Date"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_availability_data
+msgid "Stock At Date:"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_availability_pdf_report
+msgid "Stock Availability"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/stock_availability.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_availability_report
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_availability_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_availability_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_availability_report_form
+#, python-format
+msgid "Stock Availability Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/inv_stock_coverage.xml:0
+#, python-format
+msgid "Stock Coverage"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_expire_qweb.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_stock_expiry1
+#, python-format
+msgid "Stock Expire"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__stock_expiry__report_type__expired
+msgid "Stock Expired"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_expired_pdf_report
+msgid "Stock Expired Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields.selection,name:inventory_reports_adv_axis.selection__stock_expiry__report_type__expiry
+msgid "Stock Expiry"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_expiry_report
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_expiry_pdf_report
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_expiry_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_expiry_report_form
+msgid "Stock Expiry Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/stock_expiry.py:0
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_expiry
+#, python-format
+msgid "Stock Expiry/Expired Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_forecast_qweb.xml:0
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_forecast_pdf_report
+#, python-format
+msgid "Stock Forecast"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/stock_forecast.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_forecast
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_forecast
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_forecast_form
+#, python-format
+msgid "Stock Forecast Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_stock_forecast1
+msgid "Stock Forecsat"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_movement_pdf_report
+msgid "Stock Movement"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/stock_movement.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_movement_report
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_movement
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_movement_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_movement_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_movement_report_form_axis
+#, python-format
+msgid "Stock Movement Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-javascript
+#: code:addons/inventory_reports_adv_axis/static/src/xml/stock_reoder_analysis_qweb.xml:0
+#: model:ir.actions.client,name:inventory_reports_adv_axis.action_stock_reorder_analysis1
+#, python-format
+msgid "Stock Reorder Analysis"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_reorder_analysis
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_reorder_analysis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_reorder_analysis_form
+msgid "Stock Reorder Analysis Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/stock_return.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_return_report
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_return_pdf_report
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_return_report
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_return_report_form
+#, python-format
+msgid "Stock Return Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_xyz_analysis_data
+msgid "Stock Value"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.actions.report,name:inventory_reports_adv_axis.stock_velocity_pdf_report
+msgid "Stock Velocity"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/stock_velocity.py:0
+#: model:ir.actions.act_window,name:inventory_reports_adv_axis.action_stock_velocity_analysis
+#: model:ir.ui.menu,name:inventory_reports_adv_axis.menu_stock_velocity_analysis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.view_stock_velocity_analysis_form
+#, python-format
+msgid "Stock Velocity Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_overstock_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_alert_data
+msgid "Threshold"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_overstock__threshold
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_stock_alert__threshold
+msgid "Threshold Quantity"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_reorder_analysis_data
+msgid "To Order"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_cost_analysis_by_location_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+msgid "Total Cost"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_cost_analysis_by_location_data
+msgid "Total Cost:"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_movement_data
+msgid "Total Quantity"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_return_data
+msgid "Total Return"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_product_profitability_data
+msgid "Total Revenue"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_sales_analysis_data
+msgid "Total Sales"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inv_turnover_data
+msgid "Turnover Ratio"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Type"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_availability_data
+msgid "Unit"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_cost_analysis_by_location_data
+msgid "Unit Cost"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_sales_analysis_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_return_data
+msgid "Unit Price"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_report_merge_object__unit_id
+msgid "Unit of Measure"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_fifo_valuation__valuation_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_valuation__valuation_date
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_lifo_valuation__valuation_date
+msgid "Valuation Date"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_fifo_valuation_data
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_lifo_valuation_data
+msgid "Value"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_stock_velocity_data
+msgid "Velocity"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_product_movement__warehouse_ids
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_stock_inventory_turnover__warehouse_ids
+msgid "Warehouse"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#. odoo-python
+#: code:addons/inventory_reports_adv_axis/models/inventory_xyz_analysis.py:0
+#, python-format
+msgid "XYZ Analysis Report"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model.fields,field_description:inventory_reports_adv_axis.field_inventory_balance_sheet__year
+msgid "Year"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model_terms:ir.ui.view,arch_db:inventory_reports_adv_axis.report_inventory_stock_inout_data
+msgid "category"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_inventory_balance_sheet
+msgid "inventory.balance.sheet"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_inventory_coverage
+msgid "inventory.coverage"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_inventory_overstock
+msgid "inventory.overstock"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_inventory_stock_alert
+msgid "inventory.stock.alert"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_product_in_out_stock
+msgid "product.in.out.stock"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_product_movement
+msgid "product.movement"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_product_profitability
+msgid "product.profitability"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_sales_analysis
+msgid "sales.analysis"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_availability
+msgid "stock.availability"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_forecast
+msgid "stock.forecast"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_return
+msgid "stock.return"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_stock_velocity_analysis
+msgid "stock.velocity.analysis"
+msgstr ""
+
+#. module: inventory_reports_adv_axis
+#: model:ir.model,name:inventory_reports_adv_axis.model_xyz_analysis
+msgid "xyz.analysis"
+msgstr ""

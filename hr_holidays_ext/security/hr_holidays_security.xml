@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'hr_holidays'), ('name','in',('hr_leave_rule_multicompany', 'hr_leave_rule_user_read'))] "/> 
+        </function> 
+        <value eval ="{'noupdate': False}"/> 
+     </function>
+
+     <record id = "hr_holidays.hr_leave_rule_multicompany" model = "ir.rule"> 
+        <field name="domain_force">[]</field>
+     </record>
+
+     <record id = "hr_holidays.hr_leave_rule_user_read" model = "ir.rule"> 
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+     </record>
+
+     <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'hr_holidays'), ('name', 'in', ('hr_leave_rule_multicompany', 'hr_leave_rule_user_read'))] "/> 
+        </function> 
+        <value eval ="{'noupdate': True}"/> 
+     </function>
+
+     <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'resource'), ('name','=','resource_resource_multi_company')] "/> 
+        </function> 
+        <value eval ="{'noupdate': False}"/> 
+     </function>
+
+     <record id = "resource.resource_resource_multi_company" model = "ir.rule"> 
+        <field name="domain_force">['|', '|', ('company_id', '=', False),
+                                                ('company_id', 'in', company_ids),
+                                                ('company_id','in', user.employee_id.child_ids.company_id.ids)]</field>
+     </record>
+
+     <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'resource'), ('name','=','resource_resource_multi_company')] "/> 
+        </function> 
+        <value eval ="{'noupdate': True}"/> 
+     </function>
+
+     <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'base'), ('name','=','res_company_rule_employee')] "/> 
+        </function> 
+        <value eval ="{'noupdate': False}"/> 
+    </function>
+
+    <record id = "base.res_company_rule_employee" model = "ir.rule"> 
+        <field name="domain_force">['|', ('id','in', company_ids), ('id','in', user.employee_id.child_ids.company_id.ids)]</field>
+    </record>
+
+    <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'base'), ('name','=','res_company_rule_employee')] "/> 
+        </function> 
+        <value eval ="{'noupdate': True}"/> 
+    </function>
+
+    <data noupdate="0">
+
+        <record id="hr_holidays.group_hr_holidays_responsible" model="res.groups">
+            <field name="category_id" eval="ref('base.module_category_human_resources_time_off')"/>
+        </record>
+
+        <record id="hr_holidays.group_hr_holidays_user" model="res.groups">
+            <field name="name">HRSS-Officer</field>
+        </record>
+
+        <record id="base.default_user" model="res.users">
+            <field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]"/>
+        </record>
+
+    </data>
+
+    <!-- rules -->
+    <!-- employee -->
+    <record id="hr_timeoff_responsible_employee_rule" model="ir.rule">
+        <field name="name">Time off responsible can read all employees</field>
+        <field name="model_id" ref="hr.model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_responsible'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_timeoff_hrss_employee_rule" model="ir.rule">
+        <field name="name">Time off HRSS can read all employees</field>
+        <field name="model_id" ref="hr.model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_timeoff_business_partner_rule" model="ir.rule">
+        <field name="name">HRBP can only read own department employees</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_business_partner'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('department_id.hrbp_id', '=', user.employee_id.id),
+                                                ('department_id.hrbp_associate_ids', 'in', user.employee_id.ids),
+                                                ('id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <!-- leave -->
+    <record id="hr_leave_ext_rule_responsible_read" model="ir.rule">
+        <field name="name">Time Off Responsible can read all subordinates record.</field>
+        <field name="model_id" ref="model_hr_leave"/>
+        <field name="domain_force">['|', ('employee_id.leave_manager_id', '=', user.id), ('employee_id.parent_id', '=', user.employee_id.id)]</field>
+        <field name="perm_write" eval="False"/>
+        <field name="perm_create" eval="False"/>
+        <field name="perm_unlink" eval="False"/>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_responsible'))]"/>
+    </record>
+
+    <record id="hr_leave_ext_rule_responsible_update" model="ir.rule">
+        <field name="name">Time Off Responsible can create/write records for subordinates.</field>
+        <field name="model_id" ref="model_hr_leave"/>
+        <field name="domain_force">[
+            ('holiday_type', '=', 'employee'),
+            '|',
+                '&amp;',
+                    ('employee_id.user_id', '=', user.id),
+                    ('state', '!=', 'validate'),
+                '|',
+                    ('employee_id.leave_manager_id', '=', user.id),
+                    ('employee_id.parent_id', '=', user.employee_id.id),
+        ]</field>
+        <field name="perm_read" eval="False"/>
+        <field name="perm_unlink" eval="False"/>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_responsible'))]"/>
+    </record>
+
+    <record id="hr_business_partner_leave_rule" model="ir.rule">
+        <field name="name">HRBP can read own department leave records</field>
+        <field name="model_id" ref="model_hr_leave"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_business_partner'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('department_id.hrbp_id', '=', user.employee_id.id),
+                                                ('department_id.hrbp_associate_ids', 'in', user.employee_id.ids),
+                                                ('employee_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <!-- allocation -->
+    <record id="hr_business_partner_leave_allocation_rule" model="ir.rule">
+        <field name="name">HRBP can read own department allocation records</field>
+        <field name="model_id" ref="model_hr_leave_allocation"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_business_partner'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('department_id.hrbp_id', '=', user.employee_id.id),
+                                                ('department_id.hrbp_associate_ids', 'in', user.employee_id.ids),
+                                                ('employee_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_holidays.hr_leave_allocation_rule_officer_read" model="ir.rule">
+        <field name="domain_force">['|', '|', ('employee_id.company_id', '=', False), ('employee_id.company_id', 'in', company_ids), ('mode_company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_holidays.hr_leave_allocation_rule_officer_update" model="ir.rule">
+        <field name="domain_force">['|', '|', ('employee_id.company_id', '=', False), ('employee_id.company_id', 'in', company_ids), ('mode_company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_leave_allocation_hrss_rule" model="ir.rule">
+        <field name="name">HRSS can read own company allocation records</field>
+        <field name="model_id" ref="model_hr_leave_allocation"/>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|', '|', ('employee_id.company_id', '=', False), ('employee_id.company_id', 'in', company_ids), ('mode_company_id', 'in', company_ids)]</field>
+    </record>
+
+    <!-- overview report -->
+    <record id="hr_leave_report_calendar_user_rule" model="ir.rule">
+        <field name="name">User can see only own records on overview report.</field>
+        <field name="model_id" ref="hr_holidays.model_hr_leave_report_calendar"/>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">[('employee_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_leave_report_calendar_responsible_rule" model="ir.rule">
+        <field name="name">Time Off responsible can see own and all subordinates records on overview report.</field>
+        <field name="model_id" ref="hr_holidays.model_hr_leave_report_calendar"/>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_responsible'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('employee_id.leave_manager_id', '=', user.id),
+                                            ('employee_id.parent_id', 'child_of', [user.employee_id.id]),
+                                            ('employee_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_leave_report_calendar_hrbp_rule" model="ir.rule">
+        <field name="name">HRBP can read own department leave report records</field>
+        <field name="model_id" ref="hr_holidays.model_hr_leave_report_calendar"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_business_partner'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('department_id.hrbp_id', '=', user.employee_id.id),
+                                                ('department_id.hrbp_associate_ids', 'in', user.employee_id.ids),
+                                                ('employee_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_leave_report_calendar_hrss_rule" model="ir.rule">
+        <field name="name">HRSS can see all records on overview report.</field>
+        <field name="model_id" ref="hr_holidays.model_hr_leave_report_calendar"/>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <!-- resource leave -->
+    <record id="resource_leaves_holidays_responsible" model="ir.rule">
+        <field name="name">Time Off Resources: All Approver Responsible</field>
+        <field name="model_id" ref="model_resource_calendar_leaves"/>
+        <field name="domain_force">[(1,'=',1)]</field>
+        <field name="groups" eval="[(4, ref('hr_holidays.group_hr_holidays_responsible'))]"/>
+    </record>
+
+</odoo>

@@ -1,0 +1,5 @@
+id,name,code
+bldg_floor_type_floor,Floor/Level,FL
+bldg_floor_type_basement,Basement,BS
+bldg_floor_type_mezzanine,Mezzanine,MZ
+bldg_floor_type_roof,Roof Structure,RF

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Physical attributes -->
+        <record id="attr_building_area" model="bldg.attr">
+            <field name="name">building_area</field>
+            <field name="description">Total area covered by the building footprint.</field>
+            <field name="sequence">10</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">float</field>
+        </record>
+
+        <record id="attr_building_height" model="bldg.attr">
+            <field name="name">building_height</field>
+            <field name="description">Total vertical height of the building.</field>
+            <field name="sequence">20</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">float</field>
+        </record>
+
+        <record id="attr_floor_area" model="bldg.attr">
+            <field name="name">floor_area</field>
+            <field name="description">Usable area within the floor.</field>
+            <field name="sequence">30</field>
+            <field name="profile_level">floor</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">float</field>
+        </record>
+
+        <record id="attr_unit_area" model="bldg.attr">
+            <field name="name">unit_area</field>
+            <field name="description">Usable space available in the unit.</field>
+            <field name="sequence">40</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">float</field>
+        </record>
+
+        <record id="attr_num_floors" model="bldg.attr">
+            <field name="name">num_floors</field>
+            <field name="description">Total number of floors above ground.</field>
+            <field name="sequence">50</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">integer</field>
+        </record>
+
+        <record id="attr_num_basements" model="bldg.attr">
+            <field name="name">num_basements</field>
+            <field name="description">Total number of underground floors.</field>
+            <field name="sequence">60</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">integer</field>
+        </record>
+
+        <record id="attr_num_units" model="bldg.attr">
+            <field name="name">num_units</field>
+            <field name="description">Total number of residential, commercial, or office units.</field>
+            <field name="sequence">70</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">integer</field>
+        </record>
+
+        <!-- Functional attributes -->
+        <record id="attr_room_count" model="bldg.attr">
+            <field name="name">room_count</field>
+            <field name="description">Total number of rooms in the unit.</field>
+            <field name="sequence">80</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">integer</field>
+        </record>
+
+        <record id="attr_bedroom_count" model="bldg.attr">
+            <field name="name">bedroom_count</field>
+            <field name="description">Number of bedrooms in the unit.</field>
+            <field name="sequence">90</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">integer</field>
+        </record>
+
+        <record id="attr_bathroom_count" model="bldg.attr">
+            <field name="name">bathroom_count</field>
+            <field name="description">Number of bathrooms in the unit.</field>
+            <field name="sequence">100</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">integer</field>
+        </record>
+
+        <record id="attr_balcony_count" model="bldg.attr">
+            <field name="name">balcony_count</field>
+            <field name="description">Number of balconies or terraces in the unit.</field>
+            <field name="sequence">110</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">integer</field>
+        </record>
+
+        <record id="attr_has_parking" model="bldg.attr">
+            <field name="name">has_parking</field>
+            <field name="description">Whether the unit or building includes parking facilities.</field>
+            <field name="sequence">120</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">boolean</field>
+        </record>
+
+        <record id="attr_has_elevator" model="bldg.attr">
+            <field name="name">has_elevator</field>
+            <field name="description">Whether the building is equipped with elevators.</field>
+            <field name="sequence">130</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">boolean</field>
+        </record>
+
+        <record id="attr_has_stairs" model="bldg.attr">
+            <field name="name">has_stairs</field>
+            <field name="description">Presence of stairs within the unit or building.</field>
+            <field name="sequence">140</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">boolean</field>
+        </record>
+
+        <record id="attr_has_rooftop" model="bldg.attr">
+            <field name="name">has_rooftop</field>
+            <field name="description">Whether the building includes a rooftop area.</field>
+            <field name="sequence">150</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">boolean</field>
+        </record>
+
+        <!-- Selection-type attributes -->
+        <record id="attr_structure_condition" model="bldg.attr">
+            <field name="name">structure_condition</field>
+            <field name="description">Structural integrity status of the building.</field>
+            <field name="sequence">160</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_utility_water" model="bldg.attr">
+            <field name="name">utility_water</field>
+            <field name="description">Availability and type of water supply.</field>
+            <field name="sequence">170</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">documentational</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_utility_power" model="bldg.attr">
+            <field name="name">utility_power</field>
+            <field name="description">Availability and source of electricity.</field>
+            <field name="sequence">180</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">documentational</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_utility_gas" model="bldg.attr">
+            <field name="name">utility_gas</field>
+            <field name="description">Availability of natural gas.</field>
+            <field name="sequence">190</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">documentational</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_utility_internet" model="bldg.attr">
+            <field name="name">utility_internet</field>
+            <field name="description">Availability of internet service.</field>
+            <field name="sequence">200</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">documentational</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_utility_heating" model="bldg.attr">
+            <field name="name">utility_heating</field>
+            <field name="description">Presence and type of heating system.</field>
+            <field name="sequence">210</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">documentational</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_shape_type" model="bldg.attr">
+            <field name="name">shape_type</field>
+            <field name="description">Overall geometric layout including length, width, height, and area.</field>
+            <field name="sequence">220</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">architectural</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_wall_material" model="bldg.attr">
+            <field name="name">wall_material</field>
+            <field name="description">Construction material used for walls (e.g., brick, concrete, wood, metal).</field>
+            <field name="sequence">230</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_roof_material" model="bldg.attr">
+            <field name="name">roof_material</field>
+            <field name="description">Material used in the roof construction.</field>
+            <field name="sequence">240</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_floor_material" model="bldg.attr">
+            <field name="name">floor_material</field>
+            <field name="description">Material used in the floor structure or finishing.</field>
+            <field name="sequence">250</field>
+            <field name="profile_level">floor</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_structure_type" model="bldg.attr">
+            <field name="name">structure_type</field>
+            <field name="description">Type of load-bearing system (e.g., steel, concrete, composite).</field>
+            <field name="sequence">260</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_orientation" model="bldg.attr">
+            <field name="name">orientation</field>
+            <field name="description">Building orientation toward sunlight and its daylight exposure.</field>
+            <field name="sequence">270</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">architectural</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_natural_light_rating" model="bldg.attr">
+            <field name="name">natural_light_rating</field>
+            <field name="description">Quality and extent of natural light penetration into interior spaces.</field>
+            <field name="sequence">280</field>
+            <field name="profile_level">unit</field>
+            <field name="attr_type">architectural</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_architectural_style" model="bldg.attr">
+            <field name="name">architectural_style</field>
+            <field name="description">Style of building facade and architectural design.</field>
+            <field name="sequence">290</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">architectural</field>
+            <field name="data_type">selection</field>
+        </record>
+
+        <record id="attr_seismic_rating" model="bldg.attr">
+            <field name="name">seismic_rating</field>
+            <field name="description">Resistance of the building against earthquakes.</field>
+            <field name="sequence">300</field>
+            <field name="profile_level">building</field>
+            <field name="attr_type">physical</field>
+            <field name="data_type">selection</field>
+        </record>
+    </data>
+</odoo>

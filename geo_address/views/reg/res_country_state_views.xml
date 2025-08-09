@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Country State Tree View -->
+        <record id="view_country_state_tree" model="ir.ui.view">
+            <field name="name">res.country.state.tree</field>
+            <field name="model">res.country.state</field>
+            <field name="arch" type="xml">
+                <tree string="States" create="1" delete="1">
+                    <field name="country_id"/>
+                    <field name="name"/>
+                    <field name="hierarchical_id"/>
+                    <field name="capital_id" widget="many2one"/>
+                    <button name="open_capital_city" type="object" string="View Capital" class="oe_stat_button" icon="fa-building"/>
+                    <field name="partner_count"/>
+                    <!--<button name="action_check_consistency" type="object" string="Check Consistency" class="oe_stat_button" icon="fa-check"/>-->
+                </tree>
+            </field>
+        </record>
+
+        <!-- Country State Form View -->
+        <record id="view_country_state_form" model="ir.ui.view">
+            <field name="name">res.country.state.form</field>
+            <field name="model">res.country.state</field>
+            <field name="priority">1</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="open_capital_city" type="object" string="View Capital" class="oe_stat_button" icon="fa-building"/>
+                            <button name="action_check_consistency" type="object" string="Check Consistency" class="oe_stat_button" icon="fa-check"/>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="country_id"/>
+                                <field name="hierarchical_id" readonly="1"/>
+                            </group>
+                            <group>
+                                <field name="iso_code"/>
+                                <field name="capital_id" domain="[('state_id', '=', id), ('country_id', '=', country_id)]"/>
+                                <field name="capital_name" readonly="1"/>
+                                <field name="partner_count"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="Counties">
+                                <label for="county_ids"/>
+                                <field name="county_ids">
+                                    <tree editable="bottom">
+                                        <field name="country_id"/>
+                                        <field name="state_id"/>
+                                        <field name="name"/>
+                                        <field name="hierarchical_id"/>
+                                        <field name="capital_id"/>
+                                        <field name="partner_count"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- Country State Search View -->
+        <record id="view_country_state_search" model="ir.ui.view">
+            <field name="name">res.country.state.search</field>
+            <field name="model">res.country.state</field>
+            <field name="arch" type="xml">
+                <search string="States">
+                    <field name="name"/>
+                    <field name="country_id"/>
+                    <field name="hierarchical_id"/>
+                    <field name="iso_code"/>
+                    <field name="capital_id"/>
+                </search>
+            </field>
+        </record>
+        <!-- Action for States -->
+        <record id="geo_address.action_country_state" model="ir.actions.act_window">
+            <field name="name">Fed. States</field>
+            <field name="res_model">res.country.state</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_country_state_tree"/>
+            <field name="view_ids" eval="[
+                (5, 0, 0),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('view_country_state_tree')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('view_country_state_form')}),
+            ]"/>
+            <field name="search_view_id" ref="view_country_state_search"/>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create a State
+                </p>
+                <p>
+                    Federal States belong to countries.
+                </p>
+            </field>
+            <field name="context">{}</field>
+        </record>
+
+    </data>
+</odoo>

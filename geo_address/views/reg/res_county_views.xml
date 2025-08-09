@@ -1,0 +1,117 @@
+<odoo>
+    <data>
+        <!-- County Tree View -->
+        <record id="view_county_tree" model="ir.ui.view">
+            <field name="name">res.county.tree</field>
+            <field name="model">res.county</field>
+            <field name="arch" type="xml">
+                <tree string="Counties">
+                    <field name="country_id"/>
+                    <field name="state_id"/>
+                    <field name="name"/>
+                    <field name="capital_name" string="County's Capital"/>
+                    <field name="hierarchical_id"/>
+                    <button name="open_capital_city" type="object" string="View Capital" class="oe_stat_button" icon="fa-building"/>
+                    <field name="partner_count"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- County Form View -->
+        <record id="view_county_form" model="ir.ui.view">
+            <field name="name">res.county.form</field>
+            <field name="model">res.county</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="open_capital_city" type="object" class="oe_stat_button" icon="fa-building" invisible="not capital_id">
+                                <field name="capital_id" widget="statinfo" string="County's Capital"/>
+                            </button>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="country_id" required="1"/>
+                                <field name="state_id" required="1"/>
+                            </group>
+                            <group>
+                                <field name="hierarchical_id"/>
+                                <field name="capital_id" string="County Capital" options="{'no_create': true}" context="{'default_country_id': country_id, 'default_state_id': state_id, 'default_county_id': id}"/>
+                                <field name="partner_count"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="Cities">
+                                <label for="city_ids"/>
+                                <field name="city_ids">
+                                    <tree editable="bottom">
+                                        <field name="country_id"/>
+                                        <field name="state_id"/>
+                                        <field name="county_id"/>
+                                        <field name="name"/>
+                                        <field name="hierarchical_id"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Rural Districts">
+                                <label for="rural_dist_ids"/>
+                                <field name="rural_dist_ids">
+                                    <tree editable="bottom">
+                                        <field name="country_id"/>
+                                        <field name="state_id"/>
+                                        <field name="county_id"/>
+                                        <field name="name"/>
+                                        <field name="hierarchical_id"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+
+        <!-- County Search View -->
+        <record id="view_county_search" model="ir.ui.view">
+            <field name="name">res.county.search</field>
+            <field name="model">res.county</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="country_id"/>
+                    <field name="state_id" domain="[('country_id', '=', country_id)]"/>
+                    <field name="name"/>
+                    <field name="capital_name" string="County's Capital"/>
+                    <filter string="By Country" name="group_by_country" context="{'group_by':'country_id'}"/>
+                    <filter string="By State" name="group_by_state" context="{'group_by':'state_id'}"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Action to open Counties -->
+        <record id="geo_address.action_county" model="ir.actions.act_window">
+            <field name="name">Counties</field>
+            <field name="res_model">res.county</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create your first county
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>

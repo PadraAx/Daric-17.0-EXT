@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_knowledge_tag_form" model="ir.ui.view">
+            <field name="name">knowledge.tag.form</field>
+            <field name="model">knowledge.tag</field>
+            <field name="arch" type="xml">
+                <form string="Knowledge Tag Form">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name" placeholder="Tag Name"/></h1>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_knowledge_tag_tree" model="ir.ui.view">
+            <field name="name">knowledge.tag.tree</field>
+            <field name="model">knowledge.tag</field>
+            <field name="arch" type="xml">
+                <tree string="Knowledge Tag Tree" sample="1">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_knowledge_tag_filter" model="ir.ui.view">
+            <field name="name">knowledge.tag.search</field>
+            <field name="model">knowledge.tag</field>
+            <field name="arch" type="xml">
+                <search string="Knowledge Tag Search">
+                    <field name="name"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="knowledge_tag_action" model="ir.actions.act_window">
+            <field name="name">Knowledge Tag</field>
+            <field name="res_model">knowledge.tag</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

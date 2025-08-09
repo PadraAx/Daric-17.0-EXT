@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_city_division_tree" model="ir.ui.view">
+        <field name="name">res.city.div.tree</field>
+        <field name="model">res.city.div</field>
+        <field name="arch" type="xml">
+            <tree string="City Divisions">
+                <field name="city_id" widget="many2one_clickable"/>
+                <field name="name"/>
+                <field name="generation"/>
+                <field name="sibling_count"/>
+                <field name="hierarchical_id"/>
+                <field name="full_path"/>
+                <field name="gallery_count" string="Media"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_city_division_form" model="ir.ui.view">
+        <field name="name">res.city.div.form</field>
+        <field name="model">res.city.div</field>
+        <field name="arch" type="xml">
+            <form string="City Division">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="city_id" required="1" options="{'no_create': True}"/>
+                            <field name="parent_id" domain="[('city_id', '=', city_id)]" options="{'no_create': True, 'name_field': 'name'}" string="Parent Name"/>
+                            <field name="sibling_count" readonly="1"/>
+                            <field name="parent_path" invisible="1"/>
+                            <field name="sequence" readonly="1"/>
+                            <field name="hierarchical_id" readonly="1"/>
+                            <field name="generation" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="profile_image" widget="image" alt="City division image" class="oe_avatar_large"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+
+                        <page string="Hierarchy">
+                            <field name="child_ids" context="{'default_city_id': city_id, 'default_parent_id': id}">
+                                <tree>
+                                    <field name="name"/>
+                                    <field name="full_path"/>
+                                    <field name="generation"/>
+                                </tree>
+                                <form>
+                                    <field name="name"/>
+                                    <field name="city_id" invisible="1"/>
+                                    <field name="parent_id" invisible="1"/>
+                                </form>
+                            </field>
+                        </page>
+
+                        <page string="Media Gallery">
+                            <field name="attachment_ids" context="{'default_res_model': 'res.city.div', 'default_res_id': id}" mode="kanban" options="{'mode': 'kanban'}">
+                                <kanban>
+                                    <field name="mimetype"/>
+                                    <field name="name"/>
+                                    <templates>
+                                        <t t-name="kanban-box">
+                                            <div class="oe_kanban_global_click">
+                                                <div t-if="record.mimetype.raw_value.startsWith('image/')">
+                                                    <img t-att-src="'/web/image/ir.attachment/' + record.id.raw_value + '/datas/128x128'" alt="Image" class="img-fluid"/>
+                                                </div>
+                                                <div t-else="">
+                                                    <div class="oe_kanban_details">
+                                                        <field name="name"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </t>
+                                    </templates>
+                                </kanban>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_city_division_kanban" model="ir.ui.view">
+        <field name="name">res.city.div.kanban</field>
+        <field name="model">res.city.div</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_small_column" default_group_by="city_id">
+                <field name="name"/>
+                <field name="city_id"/>
+                <field name="hierarchical_id"/>
+                <field name="profile_image"/>
+                <field name="generation"/>
+                <field name="full_path"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global_click o_kanban_record_has_image_fill o_res_city_div_kanban">
+                            <div class="o_kanban_image d-none d-md-block">
+                                <img t-att-src="'/web/image/res.city.div/' + record.id.raw_value + '/profile_image'" alt="Image" class="img img-fluid rounded shadow-sm"/>
+                            </div>
+
+                            <div class="o_kanban_details d-flex flex-column justify-content-between p-2">
+                                <div>
+                                    <strong class="o_kanban_record_title text-primary">
+                                        <field name="name"/>
+                                    </strong>
+                                    <div class="text-muted small mb-1">
+                                        <i class="fa fa-map-marker-alt me-1" title="Location"/>
+                                        <field name="city_id"/>
+                                    </div>
+                                    <ul class="list-unstyled small">
+                                        <li>
+                                            <strong>ID:</strong>
+                                            <field name="hierarchical_id"/>
+                                        </li>
+                                        <li t-if="record.full_path.raw_value">
+                                            <strong>Path:</strong>
+                                            <field name="full_path"/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+
+    <!-- Search View -->
+    <record id="view_city_division_search" model="ir.ui.view">
+        <field name="name">res.city.div.search</field>
+        <field name="model">res.city.div</field>
+        <field name="arch" type="xml">
+            <search string="City Divisions">
+                <field name="name" filter_domain="['|', ('name', 'ilike', self), ('full_path', 'ilike', self)]"/>
+                <field name="city_id"/>
+                <field name="parent_id"/>
+                <filter string="Top Level" name="top_level" domain="[('parent_id', '=', False)]"/>
+                <separator/>
+                <group expand="0" string="Group By">
+                    <filter string="City" name="group_by_city" context="{'group_by':'city_id'}"/>
+                    <filter string="Parent" name="group_by_parent" context="{'group_by':'parent_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Main Action -->
+    <record id="action_city_division_tree" model="ir.actions.act_window">
+        <field name="name">City Divisions</field>
+        <field name="res_model">res.city.div</field>
+        <field name="view_mode">kanban,tree,form</field>        <!-- Include kanban here -->
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create a new City Division</p>
+        </field>
+    </record>
+</odoo>

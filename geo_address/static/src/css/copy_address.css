@@ -1,0 +1,9 @@
+.o_field_copy_address .o_copy_icon {
+    margin-left: 8px;
+    cursor: pointer;
+    color: #7c7bad;
+}
+
+.o_field_copy_address .o_copy_icon:hover {
+    color: #4c4d8c;
+}

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- work.entry.type -->
+        <!-- leave -->
+        <record id="hr_holidays_paid_leave_time_off" model="hr.leave.type">
+            <field name="name">Annual Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="hours_per_day">0.072</field>
+            <field name="leave_type">leave</field>
+            <field name="absence_type">PAID_HOURLY_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_unpaid_leave_time_off" model="hr.leave.type">
+            <field name="name">Unpaid Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="absence_type">UNPAID_HOURLY_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_sick_leave_time_off" model="hr.leave.type">
+            <field name="name">Sick Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="day_per_month">3</field>
+            <field name="absence_type">SICK_TIME_OFF</field>
+        </record>
+
+        <!-- ****************************** -->
+        <!--by pass leave on calculate duration -->
+        <record id="hr_holidays_paid_sick_leave_time_off" model="hr.leave.type">
+            <field name="name">Paid Sick Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">PAID_SICK_TIME_OFF</field>
+        </record>
+        
+        <record id="hr_holidays_unpaid_sick_leave_time_off" model="hr.leave.type">
+            <field name="name">UnPaid Sick Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">UNPAID_SICK_TIME_OFF</field>
+        </record>
+
+        <!-- ****************************** -->
+
+        <record id="hr_holidays_marriage_leave_time_off" model="hr.leave.type">
+            <field name="name">Marriage Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="absence_type">MARRIAGE_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_maternity_leave_time_off" model="hr.leave.type">
+            <field name="name">Maternity Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="absence_type">MATERNITY_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_paternity_leave_time_off" model="hr.leave.type">
+            <field name="name">Paternity Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="absence_type">PATERNITY_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_fdr_death_leave_time_off" model="hr.leave.type">
+            <field name="name">Compassionate Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="absence_type">FDR_DEATH_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_study_leave_time_off" model="hr.leave.type">
+            <field name="name">Study Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="absence_type">STUDY_TIME_OFF</field>
+        </record>
+
+        <!-- mission -->
+        <record id="hr_holidays_mission_hourly_time_off" model="hr.leave.type">
+            <field name="name">Hourly Mission</field>
+            <field name="requires_allocation">no</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">mission</field>
+            <field name="absence_type">HOURLY_MISSION</field>
+        </record>
+
+        <record id="hr_holidays_mission_daily_time_off" model="hr.leave.type">
+            <field name="name">Daily Mission</field>
+            <field name="requires_allocation">no</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">mission</field>
+            <field name="absence_type">DAILY_MISSION</field>
+        </record>
+
+        <record id="hr_holidays_remote_time_off" model="hr.leave.type">
+            <field name="name">Remote</field>
+            <field name="requires_allocation">no</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">remote</field>
+        </record>
+
+        <!-- Singapour Allocations -->
+        <record id="hr_holidays_casual_leave_time_off" model="hr.leave.type">
+            <field name="name">Casual Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">CASUAL_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_parental_leave_time_off" model="hr.leave.type">
+            <field name="name">Parental Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">PARENTAL_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_childcare_leave_time_off" model="hr.leave.type">
+            <field name="name">Child Care Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">CHILDCARE_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_extended_childcare_leave_time_off" model="hr.leave.type">
+            <field name="name">Extended Child Care Leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">EXTENDED_CHILDCARE_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_solo_parental_leave_time_off" model="hr.leave.type">
+            <field name="name">Parental Leave For Solo Parent</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">SOLO_PARENTAL_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_special_for_women_leave_time_off" model="hr.leave.type">
+            <field name="name">Special Leave For Women</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">SPECIAL_FOR_WOMEN_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_victim_of_violence_leave_time_off" model="hr.leave.type">
+            <field name="name">Leave For Victims of Violence Against Woman and Children</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">day</field>
+            <field name="leave_type">leave</field>
+            <field name="by_pass_leave">True</field>
+            <field name="calc_weekends">True</field>
+            <field name="absence_type">VICTIM_OF_VIOLENCE_TIME_OFF</field>
+        </record>
+
+        <record id="hr_holidays_R_sick_leave_time_off" model="hr.leave.type">
+            <field name="name">R Sick Leave</field>
+            <field name="requires_allocation">no</field>
+            <field name="employee_requests">no</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="request_unit">hour</field>
+            <field name="leave_type">leave</field>
+            <field name="day_per_month">3</field>
+            <field name="absence_type">R_SICK_TIME_OFF</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+
+  <t t-name="knowledge_ext.KnowledgeHtmlConfirmationDialog" owl="1">
+    <Dialog size="'md'" title="props.title" modalRef="modalRef">
+      <p t-esc="props.body" style="white-space: pre-wrap;"/>
+      <t t-set-slot="footer" owl="1">
+        <button class="btn btn-primary" t-on-click="_confirm" t-esc="props.confirmLabel"/>
+        <button t-if="props.cancel" class="btn btn-secondary" t-on-click="_cancel" t-esc="props.cancelLabel"/>
+      </t>
+    </Dialog>
+  </t>
+
+  <t t-name="knowledge_ext.KnowledgeHtmlAlertDialog" owl="1">
+    <Dialog size="'md'" title="props.title" contentClass="props.contentClass">
+      <p t-esc="props.body" style="white-space: pre-wrap;"/>
+      <t t-set-slot="footer" owl="1">
+        <button t-if="props.showButton" class="btn btn-success" t-on-click="_taskRequest" t-esc="props.ViewTaskLabel"></button>
+        <button class="btn btn-primary" t-on-click="_confirm" t-esc="props.confirmLabel"/>
+        <button t-if="props.cancel" class="btn btn-secondary" t-on-click="_cancel" t-esc="props.cancelLabel"/>
+      </t>
+    </Dialog>
+  </t>
+
+</templates>

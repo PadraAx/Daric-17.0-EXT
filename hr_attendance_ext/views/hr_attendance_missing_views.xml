@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="hr_attendance_missing_view_form" model="ir.ui.view">
+        <field name="name">hr.attendance.missing.view.form</field>
+        <field name="model">hr.attendance.missing</field>
+        <field name="arch" type="xml">
+            <form string="Missing Attendance">
+                <header>
+                        <button name="to_draft" type="object" string="To Darft " class="oe_highlight" invisible="state != 'cancel' "/>
+                        <button name="to_accept" type="object" string="To Accept " class="oe_highlight" invisible="state != 'draft' or not id "/>
+                        <button name="to_reject" type="object" string="To Reject " class="oe_highlight" invisible="state != 'draft' or not id "/>
+                        <button name="to_cancel" type="object" string="To Cancel " class="oe_highlight" invisible="state != 'accept' "/>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,accept,reject,cancel"/>
+                    </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="employee_id"/>
+                        </group>
+                        <group>
+                            <field name="date" options="{'rounding': 1}"/>
+                        </group>
+                    </group>
+                    <group string="Punch Ref" invisible="not punch_id">
+                        <group>
+                            <field name="punch_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="hr_attendance_missing_view_tree" model="ir.ui.view">
+        <field name="name">hr.attendance.missing.view.tree</field>
+        <field name="model">hr.attendance.missing</field>
+        <field name="arch" type="xml">
+            <tree string="Missing Attendance">
+                <field name="employee_id" />
+                <field name="date"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="hr_attendance_missing_view_filter" model="ir.ui.view">
+        <field name="name">hr.attendance.missing.filter</field>
+        <field name="model">hr.attendance.missing</field>
+        <field name="arch" type="xml">
+            <search string="Missing Attendance">
+                <field name="employee_id"/>
+                <field name="date"/>
+                <field name="state"/>
+                <separator/> 
+                <group col="8" colspan="4" expand="0" string="Group By">
+                    <filter string="Employees" name="group_by_employee_id" context="{'group_by': 'employee_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_attendance_missing" model="ir.actions.act_window">
+        <field name="name">Missing Attendance</field>
+        <field name="res_model">hr.attendance.missing</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{'search_default_group_by_employee_id': 1}</field>
+        <field name="search_view_id" ref="hr_attendance_missing_view_filter"/>
+    </record>
+
+</odoo>

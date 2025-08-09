@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View -->
+        <record id="view_city_tree" model="ir.ui.view">
+            <field name="name">res.city.tree</field>
+            <field name="model">res.city</field>
+            <field name="arch" type="xml">
+                <tree string="Cities">
+                    <field name="country_id" options="{'no_open': True, 'no_create': True}"/>
+                    <field name="state_id" options="{'no_open': True, 'no_create': True}"/>
+                    <field name="county_id" options="{'no_open': True, 'no_create': True}"/>
+                    <field name="name" string="City Name"/>
+                    <field name="hierarchical_id" string="Hierarchical ID"/>
+                    <field name="is_country_capital" readonly ="1"/>
+                    <field name="is_state_capital" readonly ="1"/>
+                    <field name="is_county_capital" readonly ="1"/>
+                    <field name="partner_count"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_res_city_form" model="ir.ui.view">
+            <field name="name">res.city.form</field>
+            <field name="model">res.city</field>
+            <field name="arch" type="xml">
+                <form string="City">
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="country_id" options="{'no_open': True, 'no_create': True}"/>
+                                <field name="state_id" string="State"/>
+                                <field name="county_id" required="1" domain="[('state_id', '=', state_id)]" options="{'no_open': True, 'no_create': True}"/>
+                            </group>
+                            <group>
+                                <field name="hierarchical_id" string="Hierarchical ID"/>
+                                <field name="is_country_capital"/>
+                                <field name="is_state_capital"/>
+                                <field name="is_county_capital"/>
+                                <field name="partner_count"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="Divisions">
+                                <field name="city_div_ids">
+                                    <tree string="City Divisions" editable="bottom">
+                                        <field name="city_id" string="City"/>
+                                        <field name="name" string="Division Name"/>
+                                        <field name="hierarchical_id" string="Hierarchical ID"/>
+                                        <field name="parent_id" invisible="1"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <!-- Search View -->
+        <record id="view_city_filter" model="ir.ui.view">
+            <field name="name">res.city.filter</field>
+            <field name="model">res.city</field>
+            <field name="arch" type="xml">
+                <search string="Search Cities">
+                    <field name="name" string="City Name" filter_domain="['|', ('name','ilike',self), ('zipcode','ilike',self)]"/>
+                    <field name="county_id"/>
+                    <field name="state_id" domain="[('country_id','=',country_id)]"/>
+                    <field name="country_id"/>
+                    <filter string="County Capitals" name="county_capitals" domain="[('is_county_capital','=',True)]"/>
+                    <separator/>
+                    <filter string="Group By Country" name="group_by_country" context="{'group_by':'country_id'}"/>
+                    <filter string="Group By State" name="group_by_state" context="{'group_by':'state_id'}"/>
+                    <filter string="Group By County" name="group_by_county" context="{'group_by':'county_id'}"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Action for Cities -->
+        <record id="geo_address.action_city" model="ir.actions.act_window">
+            <field name="name">Cities</field>
+            <field name="res_model">res.city</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_city_tree"/>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+            Create a City
+                </p>
+                <p>
+            Cities belong to Counties.
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>

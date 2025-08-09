@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<odoo>
+
+    <record id="hr_leave_allocation_view_form" model="ir.ui.view">
+        <field name="name">hr.leave.allocation.view.form</field>
+        <field name="model">hr.leave.allocation</field>
+        <field name="inherit_id" ref="hr_holidays.hr_leave_allocation_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='title']" position="replace">
+                <div id="title" class="oe_title" >
+                    <h2>
+                        <field name="private_name" class="w-100" placeholder="e.g. Time Off type (From validity start to validity end / no limit)"/>
+                        <field name="contract_id" invisible="1"/>
+                    </h2>
+                </div>
+            </xpath>
+            <xpath expr="//field[@name='number_of_days_display']" position="attributes">
+                <attribute name="force_save">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='number_of_hours_display']" position="attributes">
+                <attribute name="force_save">1</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr_leave_allocation_view_form_manager" model="ir.ui.view">
+        <field name="name">hr.leave.allocation.view.form.manager</field>
+        <field name="model">hr.leave.allocation</field>
+        <field name="inherit_id" ref="hr_holidays.hr_leave_allocation_view_form_manager"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('oe_title')]" position="replace">
+                <div id="title" class="oe_title">
+                    <h2>
+                        <field name="private_name" placeholder="e.g. Time Off type (From validity start to validity end / no limit)" required="1"/>
+                    </h2>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr_leave_allocation_ext_view_tree_my" model="ir.ui.view">
+        <field name="name">hr.leave.allocation.ext.view.tree.my</field>
+        <field name="model">hr.leave.allocation</field>
+        <field name="inherit_id" ref="hr_holidays.hr_leave_allocation_view_tree_my"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="create">0</attribute>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

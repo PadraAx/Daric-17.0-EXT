@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="knowledge.SidebarRow" t-inherit-mode="extension">
+        <xpath 
+        expr="//div[hasclass('min-w-0')]" position="after">
+            <t t-if="props.article.is_publish">
+                <span class="p-1 fa fa-send-o"/>
+            </t>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="knowledge.KnowledgeTopbarExt">
+        <div class="o_knowledge_header d-flex gap-2 flex-column justify-content-end flex-sm-row align-items-sm-center border-bottom d-print-none bg-view px-0 py-2 ps-sm-3 pe-sm-2">
+            <!-- Buttons -->
+            <div class="d-flex gap-1 flex-column flex-lg-row">
+                <!-- Icon and Cover buttons -->
+                <div class="d-flex gap-1 o_knowledge_add_buttons">
+                    <button class="btn btn-light text-nowrap o_knowledge_add_icon" t-if="!props.record.data.icon and props.record.data.access_content"
+                        t-on-mousedown.prevent="addIcon">
+                        <i class="fa fa-fw fs-6 fa-smile-o me-1" title="Add icon"/>
+                        <span class="d-none d-lg-inline">Add icon</span>
+                        <span class="d-lg-none">Icon</span>
+                    </button>
+                    <button class="btn btn-light text-nowrap o_knowledge_add_cover" t-if="!props.record.data.cover_image_id and props.record.data.access_content"
+                        t-on-mousedown.prevent="addCover">
+                        <i class="fa fa-fw fs-6 fa-picture-o me-1" title="Add cover"/>
+                        <span class="d-none d-lg-inline">Add cover</span>
+                        <span class="d-lg-none">Cover</span>
+                    </button>
+                    <span t-if="!props.record.data.parent_id and isInternalUser and props.record.data.access_content"
+                       class="btn btn-light text-nowrap text-muted o_knowledge_add_properties"
+                       title="Properties are fields that can only be added on articles that have a parent.">
+                        <i class="fa fa-fw fs-6 fa-cogs me-1"/>
+                        <span class="d-none d-lg-inline">Add Properties</span>
+                        <span class="d-lg-none">Properties</span>
+                    </span>
+                    <button t-elif="!state.addingProperty and !props.record.data.article_properties.length and props.record.data.access_content" t-on-click="addProperties"
+                        class="btn btn-light text-nowrap o_knowledge_add_properties">
+                        <i class="fa fa-fw fs-6 fa-cogs me-1" title="Add Properties"/>
+                        <span class="d-none d-lg-inline">Add Properties</span>
+                        <span class="d-lg-none">Properties</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </t>
+
+
+    <t t-name="knowledge_ext.KnowledgeTopbar" t-inherit="knowledge.KnowledgeTopbar" t-inherit-mode="extension">
+        <xpath expr="//div//div[hasclass('justify-content-end')]//div[last()]//a[hasclass('btn-create')]" position="replace">
+            <a role="button" t-on-click="() => this.env.createArticleSecond('private')" class="btn btn-warning btn-create text-nowrap" data-hotkey="n">
+                <i class="fa fa-fw fs-6 fa-plus-circle me-1"/>Create Knowledge
+            </a>
+        </xpath>
+    </t>
+
+</templates>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_res_postal_code_prefix_tree" model="ir.ui.view">
+        <field name="name">res.postal.code.prefix.tree</field>
+        <field name="model">res.postal.code.prefix</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="postal_code_prefix" string="Prefix"/>
+                <field name="country_id"/>
+                <field name="state_id"/>
+                <field name="county_id"/>
+                <field name="city_id"/>
+                <field name="city_id"/>
+                <field name="city_div_id"/>
+                <field name="rural_dist_id"/>
+                <field name="rural_dist_div_id"/>
+                <field name="address_count"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_res_postal_code_prefix_form" model="ir.ui.view">
+        <field name="name">res.postal.code.prefix.form</field>
+        <field name="model">res.postal.code.prefix</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group string="Prefix Information">
+                            <field name="postal_code_prefix" required="1" placeholder="5 digits"/>
+                        </group>
+                        <group string="Location Information">
+                            <field name="country_id"/>
+                            <field name="state_id" domain="[('country_id', '=', country_id)]"/>
+                            <field name="county_id" domain="[('state_id', '=', state_id)]"/>
+                            <field name="city_id" domain="[('county_id', '=', county_id)]"/>
+                            <field name="city_div_id" domain="[('city_id', '=', city_id)]"/>
+                            <field name="rural_dist_id" domain="[('county_id', '=', county_id)]"/>
+                            <field name="rural_dist_div_id" domain="[('rural_dist_id', '=', rural_dist_id)]"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Linked Addresses">
+                            <field name="address_ids">
+                                <tree>
+                                    <field name="hierarchical_id"/>
+                                    <field name="address_text"/>
+                                    <field name="active"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_res_postal_code_prefix_search" model="ir.ui.view">
+        <field name="name">res.postal.code.prefix.search</field>
+        <field name="model">res.postal.code.prefix</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="postal_code_prefix"/>
+                <field name="country_id"/>
+                <field name="state_id"/>
+                <field name="county_id"/>
+                <separator/>
+                <filter string="City Prefixes" name="city_prefixes" domain="[('city_id','!=',False)]"/>
+                <filter string="Rural Prefixes" name="rural_prefixes" domain="[('rural_dist_id','!=',False)]"/>
+                <group expand="1" string="Group By">
+                    <filter string="Country" name="country" context="{'group_by': 'country_id'}"/>
+                    <filter string="State" name="state" context="{'group_by': 'state_id'}"/>
+                    <filter string="County" name="county" context="{'group_by': 'county_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Window Action -->
+    <record id="action_res_postal_code_prefix" model="ir.actions.act_window">
+        <field name="name">Postal Code Prefixes</field>
+        <field name="res_model">res.postal.code.prefix</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p>Manage 5-digit postal code prefixes and their location associations</p>
+        </field>
+    </record>
+
+    <!-- Window Action -->
+    <record id="action_res_postal_code_prefix" model="ir.actions.act_window">
+        <field name="name">Postal Code Prefixes</field>
+        <field name="res_model">res.postal.code.prefix</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p>Manage 5-digit postal code prefixes and their location associations</p>
+        </field>
+    </record>
+</odoo>

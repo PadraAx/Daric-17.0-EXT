@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="hr_work_entry_contract_ext_view_form" model="ir.ui.view">
+        <field name="name">hr.work.entry.contract.ext.form</field>
+        <field name="model">hr.work.entry</field>
+        <field name="inherit_id" ref="hr_work_entry.hr_work_entry_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet//field[@name='date_start']" position="attributes">
+                <attribute name="options">{'rounding': 1}</attribute>
+            </xpath>
+            <xpath expr="//sheet//field[@name='date_stop']" position="attributes">
+                <attribute name="options">{'rounding': 1}</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <data>
+        <record id="hr_work_entry.hr_work_entry_action" model="ir.actions.act_window">
+            <field name="context">{}</field>
+        </record>
+
+        <record id="hr_work_entry.hr_work_entry_action_conflict" model="ir.actions.act_window">
+            <field name="context">{}</field>
+        </record>
+    </data>
+
+</odoo>

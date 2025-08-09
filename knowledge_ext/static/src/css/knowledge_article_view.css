@@ -1,0 +1,49 @@
+.o_knowledge_ext_form_view .o_article_emoji{
+    font-size: 80px;
+}
+.o_knowledge_ext_form_view .o_knowledge_cover img {
+    width: 100%;
+    height: 30vh;
+    min-height: 150px;
+    object-fit: cover;
+  }
+.o_knowledge_ext_form_view .o_scroll_view_lg{
+    width: 100% !important;
+  }
+#nav-form2 thead th[data-name="ambassador_item_id"]{
+    width: 70% !important;
+}
+#nav-form2 thead th[data-name="done"]{
+    width: 30% !important;
+}
+#nav-form3 thead th[data-name="score_id"]{
+    width: 30% !important;
+}
+#nav-form3 thead th[data-name="expert_id"]{
+    width: 15% !important;
+}
+#nav-form3 thead th[data-name="score"]{
+    width: 25% !important;
+}
+#nav-form3 thead th[data-name="factor"]{
+    width: 10% !important;
+}
+#nav-form3 thead th[data-name="confirm"]{
+    width: 10% !important;
+}
+#nav-form4 thead th[data-name="score_id"]{
+    width: 60% !important;
+}
+#nav-form4 thead th[data-name="factor"]{
+    width: 20% !important;
+}
+#nav-form4 thead th[data-name="score_avg"]{
+    width: 20% !important;
+}
+
+#nav-form3 .o_list_button,#nav-form2 .o_list_button{
+    width: 10% !important;
+}
+.o_knowledge_ext_form_view .o_knowledge_body {
+    margin-top: 35px;
+}

@@ -1,0 +1,23 @@
+// based on mass_mailing mass_mailing.wysiwyg.scss
+.knowsystem_iframe body.editor_has_snippets {
+    padding-right: $o-we-sidebar-width !important;
+
+    #web_editor-top-edit .note-popover .popover {
+        right: $o-we-sidebar-width !important;
+    }
+}
+.knowsystem_iframe body {
+    .modal:not(.o_technical_modal) {
+        top: 0 !important;
+        z-index: $o-we-overlay-zindex - 1;
+        background-color: rgba(66, 66, 66, 0.4);
+    }
+    .oe_structure .oe_drop_zone {
+        &:first-child {
+            transform: translateY(50%);
+        }
+        &:last-child {
+            transform: translateY(-50%);
+        }
+    }
+}

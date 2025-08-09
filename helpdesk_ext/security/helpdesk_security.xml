@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <!-- My Teams -->
+        <record id="helpdesk_ext_team_user_rule" model="ir.rule">
+            <field name="name">User Helpdesk Teams</field>
+            <field name="model_id" ref="helpdesk.model_helpdesk_team"/>
+            <field name="domain_force">['|',('member_ids', '=', False),('member_ids', 'in', [user.id])]</field>
+            <field name="groups" eval="[(4, ref('helpdesk.group_helpdesk_user'))]"/>
+        </record>
+        
+        <record id="helpdesk_ticket_user_customer_rule" model="ir.rule">
+            <field name="name">Helpdesk Ticket User Customer</field>
+            <field name="model_id" ref="model_helpdesk_ticket"/>
+            <field name="domain_force">[('partner_id', '=', user.partner_id.id),]</field>
+            <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+            <field name="perm_read" eval="1"/>
+        </record>
+
+        <function name = "write" model = "ir.model.data"> 
+            <function name = "search" model = "ir.model.data"> 
+                <value eval = "[('module', '=', 'helpdesk'), ('name','=', 'helpdesk_ticket_user_rule')] "/> 
+            </function> 
+            <value eval ="{'noupdate': False}"/> 
+         </function>
+    
+         <record id = "helpdesk.helpdesk_ticket_user_rule" model = "ir.rule"> 
+            <field name="domain_force">['|',('user_id', 'in', [user.id]),('user_id', '=', False)]</field>
+         </record>
+    
+         <function name = "write" model = "ir.model.data"> 
+            <function name = "search" model = "ir.model.data"> 
+                <value eval = "[('module', '=', 'helpdesk'), ('name','=', 'helpdesk_ticket_user_rule')] "/> 
+            </function> 
+            <value eval ="{'noupdate': True}"/> 
+         </function>
+
+    </data>
+</odoo>

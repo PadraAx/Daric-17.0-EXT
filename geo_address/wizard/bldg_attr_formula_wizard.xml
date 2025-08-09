@@ -1,0 +1,88 @@
+<odoo>
+    <record id="view_bldg_attr_formula_wizard" model="ir.ui.view">
+        <field name="name">bldg.attr.formula.wizard.form</field>
+        <field name="model">bldg.attr.formula.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Formula Builder">
+                <group col="2">
+                    <!-- LEFT: Formula + Keypad -->
+                    <group>
+                        <field name="expression_manual" placeholder="…Formula will appear here" nolabel="1" style="font-family:monospace; font-size:1.4em; height:3.5em; width:100%;" />
+
+                        <separator string="Keypad" colspan="2"/>
+                        <div>
+                            <table style="width:100%; text-align:center;">
+                                <tr>
+                                    <td>
+                                        <button string="+" type="object" name="btn_plus" class="btn-primary"/>
+                                    </td>
+                                    <td>
+                                        <button string="-" type="object" name="btn_minus" class="btn-primary"/>
+                                    </td>
+                                    <td>
+                                        <button string="*" type="object" name="btn_mult" class="btn-primary"/>
+                                    </td>
+                                    <td>
+                                        <button string="/" type="object" name="btn_div" class="btn-primary"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button string="^" type="object" name="btn_power"/>
+                                    </td>
+                                    <td>
+                                        <button string="√" type="object" name="btn_sqrt"/>
+                                    </td>
+                                    <td>
+                                        <button string="log" type="object" name="btn_log"/>
+                                    </td>
+                                    <td>
+                                        <button string="CONST" type="object" name="btn_const"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button string="(" type="object" name="btn_left_paren"/>
+                                    </td>
+                                    <td>
+                                        <button string=")" type="object" name="btn_right_paren"/>
+                                    </td>
+                                    <td>
+                                        <button string="DEL" type="object" name="btn_del"/>
+                                    </td>
+                                    <td>
+                                        <button string="CLR" type="object" name="btn_clear"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </group>
+                    <group string="OPERANDS">
+                        <field name="operand_ids" widget="many2many_tags" placeholder="Select attributes to use" options="{'no_create': True}"/>
+                        <field name="symbol_line_ids" widget="one2many_list" options="{'no_create': True}">
+                            <tree create="false" delete="false" selectable="True">
+                                <field name="symbol"/>
+                                <field name="attribute_id"/>
+                            </tree>
+                        </field>
+
+                        <button string="Insert Selected Symbol" type="object" name="btn_insert_selected_symbol" class="btn-secondary"/>
+
+                    </group>
+                </group>
+                <footer>
+                    <button string="Apply Formula" type="object" name="action_confirm" class="btn-primary"/>
+                    <button string="Cancel" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="action_bldg_attr_formula_wizard" model="ir.actions.act_window">
+        <field name="name">Formula Builder</field>
+        <field name="res_model">bldg.attr.formula.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

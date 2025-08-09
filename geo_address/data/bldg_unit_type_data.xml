@@ -1,0 +1,244 @@
+<odoo>
+    <data noupdate="1">
+        <!-- ===== Layer 1 ===== -->
+        <record id="unit_type_residential_unit" model="bldg.unit.type">
+            <field name="name">Residential Unit</field>
+            <field name="code">RESU</field>
+            <field name="type_allowed_layer">1</field>
+            <field name="sequence">10</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_commercial_unit" model="bldg.unit.type">
+            <field name="name">Commercial Unit</field>
+            <field name="code">COMU</field>
+            <field name="type_allowed_layer">1</field>
+            <field name="sequence">20</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_office_unit" model="bldg.unit.type">
+            <field name="name">Office Unit</field>
+            <field name="code">OFFU</field>
+            <field name="type_allowed_layer">1</field>
+            <field name="sequence">30</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_industrial_unit" model="bldg.unit.type">
+            <field name="name">Industrial Unit</field>
+            <field name="code">INDU</field>
+            <field name="type_allowed_layer">1</field>
+            <field name="sequence">40</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_institutional_unit" model="bldg.unit.type">
+            <field name="name">Institutional Unit</field>
+            <field name="code">INST</field>
+            <field name="type_allowed_layer">1</field>
+            <field name="sequence">50</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_mixed_use_unit" model="bldg.unit.type">
+            <field name="name">Mixed-Use Unit</field>
+            <field name="code">MXUT</field>
+            <field name="type_allowed_layer">1</field>
+            <field name="sequence">60</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_elevator" model="bldg.unit.type">
+            <field name="name">Elevator Shaft</field>
+            <field name="code">ELEV</field>
+            <field name="type_allowed_layer">1</field>
+            <field name="sequence">210</field>
+            <field name="active">True</field>
+        </record>
+
+        <!-- ===== Layer 2 ===== -->
+        <record id="unit_type_bedroom" model="bldg.unit.type">
+            <field name="name">Bedroom</field>
+            <field name="code">BDRM</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">70</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_living_room" model="bldg.unit.type">
+            <field name="name">Living Room</field>
+            <field name="code">LIVR</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">80</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_kitchen" model="bldg.unit.type">
+            <field name="name">Kitchen</field>
+            <field name="code">KITC</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">90</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_bathroom" model="bldg.unit.type">
+            <field name="name">Bathroom</field>
+            <field name="code">BATH</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">100</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_laundry" model="bldg.unit.type">
+            <field name="name">Laundry Room</field>
+            <field name="code">LAUN</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">110</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_retail_space" model="bldg.unit.type">
+            <field name="name">Retail Space</field>
+            <field name="code">RETL</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">120</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_restaurant" model="bldg.unit.type">
+            <field name="name">Restaurant Space</field>
+            <field name="code">REST</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">130</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_showroom" model="bldg.unit.type">
+            <field name="name">Showroom</field>
+            <field name="code">SHOW</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">140</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_classroom" model="bldg.unit.type">
+            <field name="name">Classroom</field>
+            <field name="code">CLAS</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">150</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_lab" model="bldg.unit.type">
+            <field name="name">Laboratory</field>
+            <field name="code">LABO</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">160</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_treatment_room" model="bldg.unit.type">
+            <field name="name">Treatment Room</field>
+            <field name="code">TREA</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">170</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_lobby" model="bldg.unit.type">
+            <field name="name">Lobby</field>
+            <field name="code">LOBB</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">180</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_hallway" model="bldg.unit.type">
+            <field name="name">Hallway/Corridor</field>
+            <field name="code">HALL</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">190</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_stairwell" model="bldg.unit.type">
+            <field name="name">Stairwell</field>
+            <field name="code">STAI</field>
+            <field name="type_allowed_layer">2</field>
+            <field name="sequence">200</field>
+            <field name="active">True</field>
+        </record>
+
+
+
+        <!-- ===== Layer 3 ===== -->
+
+
+        <record id="unit_type_technical" model="bldg.unit.type">
+            <field name="name">Technical Space</field>
+            <field name="code">TECH</field>
+            <field name="type_allowed_layer">3</field>
+            <field name="sequence">230</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_parking" model="bldg.unit.type">
+            <field name="name">Parking Space</field>
+            <field name="code">PARK</field>
+            <field name="type_allowed_layer">3</field>
+            <field name="sequence">240</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_balcony" model="bldg.unit.type">
+            <field name="name">Balcony</field>
+            <field name="code">BALC</field>
+            <field name="type_allowed_layer">3</field>
+            <field name="sequence">250</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_utility" model="bldg.unit.type">
+            <field name="name">Utility Area</field>
+            <field name="code">UTIL</field>
+            <field name="type_allowed_layer">3</field>
+            <field name="sequence">260</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_hazardous_area" model="bldg.unit.type">
+            <field name="name">Hazardous Materials Area</field>
+            <field name="code">HAZA</field>
+            <field name="type_allowed_layer">3</field>
+            <field name="sequence">270</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_containment" model="bldg.unit.type">
+            <field name="name">Containment Zone</field>
+            <field name="code">CONT</field>
+            <field name="type_allowed_layer">3</field>
+            <field name="sequence">280</field>
+            <field name="active">True</field>
+        </record>
+
+        <record id="unit_type_flex_space" model="bldg.unit.type">
+            <field name="name">Flexible-Use Space</field>
+            <field name="code">FLEX</field>
+            <field name="type_allowed_layer">3</field>
+            <field name="sequence">290</field>
+            <field name="active">True</field>
+        </record>
+
+        <!-- ===== All Layers ===== -->
+
+        <record id="unit_type_storage" model="bldg.unit.type">
+            <field name="name">Storage Area</field>
+            <field name="code">STOR</field>
+            <field name="type_allowed_layer">all</field>
+            <field name="sequence">220</field>
+            <field name="active">True</field>
+        </record>
+    </data>
+</odoo>

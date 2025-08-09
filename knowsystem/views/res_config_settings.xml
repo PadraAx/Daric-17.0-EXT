@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.knowsystem</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="KnowSystem" string="KnowSystem" name="knowsystem">
+                    <block title="Extra features">
+                        <setting help="Turn on to publish articles for portal users and website visitors.">
+                            <field name="module_knowsystem_website"/>
+                            <div name="module_knowsystem_website_hint" class="text-muted mb16">
+                                The tool <a href="https://apps.odoo.com/apps/modules/17.0/knowsystem_website/">KnowSystem Website and Portal</a> (40 Euros extra) is required
+                            </div>
+                        </setting>
+                        <setting help="Turn on to build documentation based on KnowSystem articles." invisible="not module_knowsystem_website">
+                            <field name="module_documentation_builder"/>
+                            <div name="module_documentation_builder_hint" class="text-muted mb16">
+                                The tool <a href='https://apps.odoo.com/apps/modules/17.0/documentation_builder/'>Documentation Builder</a> (99 Euros extra) is required
+                            </div>
+                        </setting>
+                        <setting help="Turn on to prepare custom fields for articles.">
+                            <field name="module_knowsystem_custom_fields"/>
+                            <div name="module_knowsystem_custom_fields_hint" class="text-muted mb16">
+                                The tool <a href='https://apps.odoo.com/apps/modules/17.0/knowsystem_custom_fields/'>KnowSystem: Custom Fields</a> (48 Euros extra) is required
+                            </div>
+                        </setting>
+                        <setting help="Turn on to show article custom fields for portal users and website visitors." invisible="not module_knowsystem_website or not module_knowsystem_custom_fields">
+                            <field name="module_knowsystem_website_custom_fields"/>
+                            <div name="module_knowsystem_website_custom_fields_hint" class="text-muted mb16">
+                                The tool <a href='https://apps.odoo.com/apps/modules/17.0/knowsystem_website_custom_fields/'>Custom Fields for Website and Portal</a> is required (free if KnowSystem Website and Portal and KnowSystem: Custom Fields are installed)
+                            </div>
+                        </setting>
+                        <setting help="Turn on to establish direct links between Odoo products and KnowSystem articles to automatically generate frequently asked questions on eShop pages." invisible="not module_knowsystem_website">
+                            <field name="module_knowsystem_eshop"/>
+                            <div name="module_knowsystem_eshop_hint" class="text-muted mb16">
+                                The tool <a href="https://apps.odoo.com/apps/modules/17.0/knowsystem_eshop/">KnowSystem: eCommerce FAQ</a> (28 Euros extra) is required
+                            </div>
+                        </setting>
+                        <setting help="Turn on to translate articles, sections and tags to available in the databases languages.">
+                            <field name="module_knowsystem_multilang"/>
+                            <div name="module_knowsystem_multilang_hint" class="text-muted mb16">
+                                The tool <a href="https://apps.odoo.com/apps/modules/17.0/knowsystem_multilang/">KnowSystem Multi Languages</a> (10 Euros extra) is required
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="Settings">
+                        <setting help="Choose the default editor that will be applied to all newly created articles">
+                            <field name="knowsystem_editor_type" colspan="2" class="w-100"/>
+                        </setting>
+                        <setting help="Organize articles in tours and control users' learning progress">
+                            <field name="group_knowsystem_tours_option"/>
+                        </setting>
+                        <setting help="Turn on the quick access to KnowSystem articles from Odoo objects">
+                            <field name="knowsystem_models_option"/>
+                        </setting>
+                        <setting help="Add the icon for quick articles' search to the Odoo systray (near activities and messaging)">
+                            <field name="knowsystem_systray_option"/>
+                        </setting>
+                        <setting help="If turned on, the option will add the button to the activities' top entry to quickly create new articles">
+                            <field name="knowsystem_create_from_activities"/>
+                        </setting>
+                        <setting help="Select KnowSystem articles in email composers to add references in sent messages">
+                            <field name="knowsystem_composer_option"/>
+                        </setting>
+                        <setting help="Reference KnowSystem articles in Odoo activities">
+                            <field name="knowsystem_activity_option"/>
+                        </setting>
+                        <setting help="The option defines how article links should be shared. Internal URL is the link to the KnowSystem backend. Website URL is the link to the KnowSystem frontend (portal). Shared with token is the link to the KnowSystem frontend (portal) without security checks" invisible="not knowsystem_composer_option and not knowsystem_activity_option">
+                            <field name="knowsystem_share_link_type"/>
+                        </setting>
+                        <setting help="Turn on the custom layout for articles' printing. Otherwise, the standard company layout will be used">
+                            <field name="knowsystem_custom_layout"/>
+                            <div class="content-group w-100">
+                                <group invisible="not knowsystem_custom_layout" class="w-100 mt8">
+                                    <field name="external_layout_knowsystem_id" domain="[('type','=', 'qweb')]" colspan="2" class="oe_inline w-100" nolabel="1"/>
+                                </group>
+                                <div>
+                                    <button name="edit_kms_report" string="Edit Report" type="object" class="oe_link" icon="fa-arrow-right"/>
+                                    <button name="edit_kms_layout_external_header" string="Edit Layout" type="object" class="oe_link" icon="fa-arrow-right" invisible="not knowsystem_custom_layout or not external_layout_knowsystem_id"/>
+                                    <button name="edit_kms_paperformat"  string="Edit Paper Format"  type="object" class="oe_link" icon="fa-arrow-right"/>
+                                </div>
+                            </div>
+                        </setting>
+                        <setting help="Do not include titles of articles in their PDF versions (print only their content)">
+                            <field name="knowsystem_no_titles_printed"/>
+                        </setting>
+                        <setting help="Configure backend custom and default sorting criteria">
+                            <field name="knowsystem_sort_ids" class="w-100" string="Custom and Default Sorting">
+                                <tree>
+                                    <field name="custom_field_id"/>
+                                    <field name="name"/>
+                                    <field name="order_sort"/>
+                                </tree>
+                                <form>
+                                    <sheet>
+                                        <group>
+                                            <field name="custom_field_id"/>
+                                            <field name="name"/>
+                                            <field name="order_sort"/>
+                                        </group>
+                                    </sheet>
+                                </form>
+                            </field>
+                            <field name="knowsystem_sort_ids_str" invisible="1"/>
+                            <group>
+                                <field name="knowsystem_backend_default_sort_option" class="w-100"/>
+                                <field name="knowsystem_backend_default_sorting" invisible="knowsystem_backend_default_sort_option != 'default'" class="w-100"/>
+                                <field name="knowsystem_backend_default_sort_id" invisible="knowsystem_backend_default_sort_option != 'custom'" options="{'no_create_edit': 1, 'no_quick_create': 1}" class="w-100"/>
+                            </group>
+                        </setting>
+                    </block>
+                    <block title="Mass actions">
+                        <setting help="Let users export articles" class="w-100">
+                            <field name="knowsystem_export_option"/>
+                        </setting>
+                        <field name="knowsystem_ir_actions_server_ids" class="w-100" context="{'default_model_id': knowsystem_ir_actions_server_default_model_id}"/>
+                        <field name="knowsystem_ir_actions_server_ids_str" invisible="1"/>
+                        <field name="knowsystem_ir_actions_server_default_model_id" invisible="1"/>
+                    </block>
+                    <block id="kms_website" title="Portal and Website Views" invisible="not module_knowsystem_website"/>
+                    <block id="docu_builder" title="Documentation Builder" invisible="not module_documentation_builder"/>
+                    <block id="kms_eshop" title="eCommerce FAQ Options" invisible="not module_knowsystem_eshop"/>
+                </app>
+            </xpath>
+        </field>
+    </record>
+    <record id="res_config_settings_knowsystem_action" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'knowsystem'}</field>
+    </record>
+
+</odoo>

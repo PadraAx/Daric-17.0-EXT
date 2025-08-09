@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+
+        <record id="ktt_telegram_project_form_inherit" model="ir.ui.view">
+            <field name="name">ktt.telegram.project.form.inherit</field>
+            <field name="model">project.project</field>
+            <field name="inherit_id" ref="project.edit_project" />
+            <field name="arch" type="xml">
+                <xpath expr="//group[@name='group_tasks_managment']" position="after">
+                    <group name="ktt_telegram_setting" string="Telegram" col="1"
+                        class="row mt16 o_settings_container">
+                        <div>
+                            <div class="row o_settings_container">
+                                <div class="col-lg-6">
+                                    <field name="telelegram_token" string="" placeholder="Telegram Token" />
+                                    <field name="chat_id" class="col-12" string="" placeholder="Chanel/Group Telegram"/>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <label for="is_nof_telegram_task_created" class="fw-bold o_form_label col-6" string="Task Created"/>
+                                        <div class="col-6">
+                                            <field name="is_nof_telegram_task_created" widget="boolean_toggle" readonly="not telelegram_token or not chat_id" nolabel="1"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label for="is_nof_telegram_task_edited" class="fw-bold o_form_label col-6" string="Task Edited"/>
+                                        <div class="col-6">
+                                            <field name="is_nof_telegram_task_edited" widget="boolean_toggle" readonly="not telelegram_token or not chat_id" nolabel="1"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label for="is_nof_telegram_task_deleted" class="fw-bold o_form_label col-6" string="Task Deleted"/>
+                                        <div class="col-6">
+                                            <field name="is_nof_telegram_task_deleted" widget="boolean_toggle" readonly="not telelegram_token or not chat_id" nolabel="1"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+
+
+</odoo>

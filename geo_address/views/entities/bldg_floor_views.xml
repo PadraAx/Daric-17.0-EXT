@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Tree View -->
+    <record id="view_bldg_floor_tree" model="ir.ui.view">
+        <field name="name">bldg.floor.tree</field>
+        <field name="model">bldg.floor</field>
+        <field name="arch" type="xml">
+            <tree string="Building Floors" default_order="hierarchical_id">
+                <field name="hierarchical_id"/>
+                <field name="building_id"/>
+                <field name="name"/>
+                <field name="level_number"/>
+                <field name="floor_type_id"/>
+                <field name="unit_count"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_bldg_floor_form" model="ir.ui.view">
+        <field name="name">bldg.floor.form</field>
+        <field name="model">bldg.floor</field>
+        <field name="arch" type="xml">
+            <form string="Building Floor" create="true" edit="true">
+                <sheet>
+                    <div style="margin-top: 10px; min-width: 250px; width: 100%;">
+                        <span class="o_form_label">
+                            <strong>Hierarchical ID</strong>
+                        </span>
+                        <field name="hierarchical_id" nolabel="1" readonly="1" style="font-size: 1.25rem; font-weight: 600;"/>
+                    </div>
+                    <div style="margin-top: 10px; min-width: 250px; width: 100%;">
+                        <span class="o_form_label">
+                            <strong>Name</strong>
+                        </span>
+                        <field name="name" nolabel="1" class="o_form_field" style="font-size: 1rem; font-weight: 600;"/>
+                    </div>
+                    <group string = "Details">
+                        <field name="building_id"/>
+                        <field name="floor_type_id"/>
+                        <field name="level_number"/>
+                        <field name="unit_count" readonly="1"/>
+                        <field name="display_name" string="Path"/>
+                    </group>
+                    <notebook>
+                        <page string="Units">
+                            <field name="unit_ids" context="{'default_parent_id': False}">
+                                <tree>
+                                    <field name="hierarchical_id"/>
+                                    <field name="name"/>
+                                    <field name="unit_type_id"/>
+                                    <field name="floor_id"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_bldg_floor_search" model="ir.ui.view">
+        <field name="name">bldg.floor.search</field>
+        <field name="model">bldg.floor</field>
+        <field name="arch" type="xml">
+            <search string="Search Floors">
+                <field name="name"/>
+                <field name="building_id"/>
+                <field name="level_number"/>
+                <field name="floor_type_id"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_bldg_floor" model="ir.actions.act_window">
+        <field name="name">Floors</field>
+        <field name="res_model">bldg.floor</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first floor
+            </p>
+        </field>
+    </record>
+</odoo>

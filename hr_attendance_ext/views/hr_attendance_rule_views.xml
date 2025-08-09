@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="hr_attendance_rule_view_form" model="ir.ui.view">
+        <field name="name">hr.attendance.rule.view.form</field>
+        <field name="model">hr.attendance.rule</field>
+        <field name="arch" type="xml">
+            <form string="Rule">
+                <sheet>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <label for="name" string="Rule Name"/>
+                    <h1><field name="name" placeholder="e.g. Attendance Rule"/></h1>
+                    <group name="main_details" col="4">
+                        <field name="code"/>
+                        <field name="sequence"/>
+                        <field name="work_entry_type_id"/>
+                        <field name="resource_calendar_id"/>
+                        <field name="company_id" invisible="1"/>
+                        <field name="active" widget="boolean_toggle"/>
+                    </group>
+                    <notebook colspan="6">
+                        <page name="general" string="General">
+                            <group name="general_conditions">
+                                <group string="Conditions">
+                                    <field name="condition_formula"/>
+                                </group>
+                                <group string="Start Time" colspan="4">
+                                    <field name="start_formula"/>
+                                </group>
+                                <group string="End Time">
+                                    <field name="end_formula"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page name="description" string="Description">
+                            <field name="note"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="hr_attendance_rule_view_tree" model="ir.ui.view">
+        <field name="name">hr.attendance.rule.view.tree</field>
+        <field name="model">hr.attendance.rule</field>
+        <field name="arch" type="xml">
+            <tree string="Rule">
+                <field name="sequence" widget="handle"/>
+                <field name="name" />
+                <field name="code"/>
+                <field name="work_entry_type_id" />
+                <field name="work_entry_type_color" widget="color_picker"/>
+                <field name="resource_calendar_id" column_invisible="True"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="hr_attendance_rule_view_filter" model="ir.ui.view">
+        <field name="name">hr.attendance.rule.filter</field>
+        <field name="model">hr.attendance.rule</field>
+        <field name="arch" type="xml">
+            <search string="Search Attendance Rule">
+                <field name="name"/>
+                <field name="resource_calendar_id"/>
+                <separator/>
+                <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                <group col="8" colspan="4" expand="0" string="Group By">
+                    <filter string="Resource Calendar" name="group_by_resource_calendar_id" context="{'group_by': 'resource_calendar_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_attendance_rule" model="ir.actions.act_window">
+        <field name="name">Attendance Rules</field>
+        <field name="res_model">hr.attendance.rule</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{'search_default_group_by_resource_calendar_id': 1}</field>
+        <field name="search_view_id" ref="hr_attendance_rule_view_filter"/>
+    </record>
+
+</odoo>

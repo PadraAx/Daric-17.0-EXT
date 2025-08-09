@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<odoo>
+    <!-- Holiday on resource leave -->
+    <record id="resource_calendar_leaves_tree_inherit_holidays_ext" model="ir.ui.view">
+        <field name="name">resource.calendar.leaves.tree.inherit.holidays.ext</field>
+        <field name="model">resource.calendar.leaves</field>
+        <field name="inherit_id" ref="resource.resource_calendar_leave_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='date_from']" position="attributes">
+                <attribute name="options">{'rounding': 1}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='date_to']" position="attributes">
+                <attribute name="options">{'rounding': 1}</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="holiday_ext_resource_calendar_leaves_tree" model="ir.ui.view">
+        <field name="name">holiday.ext.resource.calendar.leaves.tree</field>
+        <field name="model">resource.calendar.leaves</field>
+        <field name="inherit_id" ref="hr_holidays.resource_calendar_leaves_tree_inherit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="editable"></attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="holiday_ext_resource_calendar_leave_form" model="ir.ui.view">
+        <field name="name">holiday.ext.resource.calendar.leaves.form</field>
+        <field name="model">resource.calendar.leaves</field>
+        <field name="inherit_id" ref="hr_holidays.resource_calendar_leave_form_inherit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='holiday_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr_holidays.open_view_public_holiday" model="ir.actions.act_window">
+        <field name="context">{'search_default_group_by_calendar': True,
+                                'search_default_filter_date': True}</field>
+    </record>
+   
+</odoo>

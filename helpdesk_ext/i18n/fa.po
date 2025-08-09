@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_ext
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 01:09+0000\n"
+"PO-Revision-Date: 2025-02-14 01:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: helpdesk_ext
+#: model:ir.model.fields,field_description:helpdesk_ext.field_helpdesk_ticket__user_id
+msgid "Assigned User"
+msgstr "واگذار شده به"
+
+#. module: helpdesk_ext
+#: model:ir.model.fields,field_description:helpdesk_ext.field_helpdesk_ticket__domain_user_ids
+msgid "Domain User"
+msgstr "کاربر دامنه"
+
+#. module: helpdesk_ext
+#: model:ir.model,name:helpdesk_ext.model_ir_http
+msgid "HTTP Routing"
+msgstr "مسیریابی HTTP"
+
+#. module: helpdesk_ext
+#: model:ir.model,name:helpdesk_ext.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "تیکیت پشتیبانی"
+
+#. module: helpdesk_ext
+#. odoo-javascript
+#: code:addons/helpdesk_ext/static/src/webclient/user_menu/user_menu_items.js:0
+#, python-format
+msgid "Portal Account"
+msgstr "حساب درگاه"
+
+#. module: helpdesk_ext
+#: model:ir.model.fields,field_description:helpdesk_ext.field_helpdesk_ticket__name
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: helpdesk_ext
+#: model:ir.model.fields,field_description:helpdesk_ext.field_helpdesk_ticket__team_id
+msgid "Team"
+msgstr "تیم میز پشتیبانی"
+
+#. module: helpdesk_ext
+#: model:ir.model.fields,field_description:helpdesk_ext.field_helpdesk_ticket__user_has_admin_group
+msgid "User has Admin Group"
+msgstr "کاربر دارای گروه مدیریت است"

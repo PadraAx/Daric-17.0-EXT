@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="view_partner_form_inherit_custom_address" model="ir.ui.view">
+            <field name="name">res.partner.form.custom.address</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+
+                <!-- Replace Odoo address block with your custom address layout -->
+                <xpath expr="//div[hasclass('o_address_format')]" position="replace">
+
+                    <div class="o_address_format">
+                        <!-- Invisible helper field -->
+                        <field name="has_address_id" invisible="1"/>
+
+                        <!-- Invisible fields for context -->
+                        <field name="street" invisible="1"/>
+                        <field name="street2" invisible="1"/>
+                        <field name="city" invisible="1"/>
+                        <field name="state_id" invisible="1"/>
+                        <field name="zip" invisible="1"/>
+                        <field name="country_id" invisible="1"/>
+                        <field name="lang" invisible="1"/>
+                        <field name="user_id" invisible="1"/>
+
+                        <!-- Address selection -->
+                        <field name="address_id" widget="many2one" options="{'no_open': True}" domain="[('active', '=', True)]" style="width: 100%;" context="{'default_active': True}"/>
+
+                        <group invisible="not has_address_id" class="mt-2">
+                            <div class="bg-light p-3 rounded shadow-sm mt-3" style="white-space: normal; border-right: 4px solid #0d6efd; width: fit-content;">
+                                <div class="d-flex flex-wrap gap-4 mb-2">
+                                    <div class="text-muted mt-2" style="flex-grow: 1; min-width: 400px;">
+                                        <field name="address_address_text" widget="copy_address" readonly="1" style="white-space: normal; word-break: break-word; display: inline;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </group>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

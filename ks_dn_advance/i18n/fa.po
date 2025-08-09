@@ -1,0 +1,702 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ks_dn_advance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-08 18:06+0000\n"
+"PO-Revision-Date: 2025-02-08 18:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_is_date_ranges
+msgid ""
+" Checkbox to apply default date range filter. The date filter applied will "
+"also reflect on the main page."
+msgstr ""
+"کادر انتخاب برای اعمال پالایه  محدوده تاریخ پیش فرض. پالایه  تاریخ اعمال شده نیز"
+" در صفحه اصلی منعکس می شود."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_api_data_lines
+msgid " Data-Type Lines"
+msgstr "خطوط نوع داده"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_custom_query
+msgid " Fetch, combine, and compare data by generating SQL query on your own."
+msgstr ""
+"با تولید پُرسمان SQL به تنهایی ، داده ها را واکشی ، ترکیب و مقایسه کنید."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_db_name
+msgid " the name of the database that you want to connect."
+msgstr "نام پایگاه داده ای که می خواهید وصل کنید."
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid "%s. Please enter correct data-type of item"
+msgstr "٪ s. لطفاً نوع داده های صحیح مورد را وارد کنید"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_board__ks_croessel_speed__60000
+msgid "1 minute"
+msgstr "1 دقیقه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_board__ks_croessel_speed__10000
+msgid "10 Seconds"
+msgstr "10 ثانیه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_board__ks_croessel_speed__15000
+msgid "15 Seconds"
+msgstr "15 ثانیه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_board__ks_croessel_speed__3000
+msgid "3 Seconds"
+msgstr "3 ثانیه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_board__ks_croessel_speed__30000
+msgid "30 Seconds"
+msgstr "30 ثانیه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_board__ks_croessel_speed__45000
+msgid "45 Seconds"
+msgstr "45 ثانیه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_board__ks_croessel_speed__5000
+msgid "5 Seconds"
+msgstr "5 ثانیه"
+
+#. module: ks_dn_advance
+#: model:mail.template,body_html:ks_dn_advance.ks_mail_templates
+msgid ""
+"<div class=\"container-fluid\">\n"
+"                    Hello <t t-out=\"object.ks_mail_to_partner.name or ''\"></t>,\n"
+"                    <br>\n"
+"                    <p>I hope this email finds you well. I am pleased to share the <b><t t-out=\"ctx['ks_report_name']\"></t></b> Report with you, kindly find the attachment enclosed. </p>\n"
+"                    <p>\n"
+"                    If you have any questions or require further information, please feel free to reach out. I am happy to assist you.\n"
+"                    </p>\n"
+"\n"
+"                       Best regards,\n"
+"                        <br>\n"
+"                        <t t-out=\"object.env.user.name or ''\"></t>\n"
+"\n"
+"                </div>\n"
+"            "
+msgstr ""
+"<div class = \"container-fluid\">\n"
+"                    سلام <t t-out = \"object.ks_mail_to_partner.name یا\" \"\"> </t> ،\n"
+"                    <BR>\n"
+"                    <p> امیدوارم این ایمیل شما را خوب پیدا کند. من خوشحالم که گزارش <b> <t-out = \"ctx ['ks_report_name']\"> </t> </b> را با شما به اشتراک می گذارم ، با مهربانی ضمیمه ضمیمه را پیدا کنید. </p>\n"
+"                    <p>\n"
+"                    اگر سوالی دارید یا به اطلاعات بیشتری نیاز دارید ، لطفاً برای دستیابی به آن احساس راحتی کنید. خوشحالم که به شما کمک می کنم\n"
+"                    </p>\n"
+"\n"
+"                       با احترام ،\n"
+"                        <BR>\n"
+"                        <t t-out = \"object.env.user.name یا\" \"\"> </t>\n"
+"\n"
+"                </div>"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid ""
+"<span style=\"font-style: italic; color: #888888;\" invisible=\"(ks_is_external_db == False)\">\n"
+"                                    ** Charts for external databases can be created only for columns that share the same\n"
+"                                    data-type as those in Odoo.\n"
+"                                </span>"
+msgstr ""
+"<span style = \"font-style: italic ؛ color: #888888 ؛\" نامرئی = \"(ks_is_external_db == false)\">\n"
+"                                    ** نمودارهای پایگاه داده های خارجی را می توان فقط برای ستون هایی که یکسان هستند ایجاد کنید\n"
+"                                    نوع داده ها به عنوان موارد موجود در odoo.\n"
+"                                </span>"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__ks_dashboard_datatype_id
+msgid "API Dashboard Item Id"
+msgstr "شناسه آیتم پیشخوان API"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "API Data Type"
+msgstr "نوع داده API"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid "API Responds with the following status %s"
+msgstr "API با وضعیت زیر ٪ s پاسخ می دهد"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_api_header
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "API header"
+msgstr "عنوان API"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_query_templates.xml:0
+#, python-format
+msgid "Chart Type"
+msgstr "نوع نمودار"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "Create Table"
+msgstr "جدول ایجاد کنید"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#, python-format
+msgid ""
+"Current Json File is not properly formatted according to Dashboard Ninja "
+"Model."
+msgstr "پرونده JSON فعلی مطابق مدل پیشخوان نینجا به درستی فرمت نشده است."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_custom_query
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_data_calculation_type__query
+msgid "Custom Query"
+msgstr "پُرسمان سفارشی"
+
+#. module: ks_dn_advance
+#: model:ir.model,name:ks_dn_advance.model_ks_dashboard_ninja_board
+msgid "Dashboard Ninja"
+msgstr "پیشخوان نینجا"
+
+#. module: ks_dn_advance
+#: model:ir.model,name:ks_dn_advance.model_ks_dashboard_api
+msgid "Dashboard Ninja API datatype"
+msgstr "پیشخوان Ninja API Datatype"
+
+#. module: ks_dn_advance
+#: model:ir.model,name:ks_dn_advance.model_ks_dashboard_ninja_item
+msgid "Dashboard Ninja items"
+msgstr "موارد پیشخوان نینجا"
+
+#. module: ks_dn_advance
+#: model:mail.template,subject:ks_dn_advance.ks_mail_templates
+msgid "Dashboard Report | {{ctx['ks_report_name']}}"
+msgstr "گزارش پیشخوان | {{ctx ['ks_report_name']}}"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_data_calculation_type
+msgid "Data Calculation Type"
+msgstr "نوع محاسبه داده ها"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__data_source
+msgid "Data Source"
+msgstr "منبع داده"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_model_id
+msgid ""
+"Data source to fetch and read the data for the creation of dashboard items. "
+msgstr "منبع داده برای واکشی و خواندن داده ها برای ایجاد موارد پیشخوان."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_db_name
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "Database Name"
+msgstr "نام پایگاه داده"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_db_user
+msgid "Database User"
+msgstr "کاربر پایگاه داده"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "Date Range"
+msgstr "محدوده تاریخ"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_is_date_ranges
+msgid "Date Ranges"
+msgstr "محدوده تاریخ"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_data_calculation_type__custom
+msgid "Default Query"
+msgstr "پُرسمان پیش فرض"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_list_view_layout__layout_1
+msgid "Default layout"
+msgstr "طرح پیش فرض"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__display_name
+msgid "Display Name"
+msgstr "نام"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_dashboard_tv_ninja.xml:0
+#, python-format
+msgid "Email"
+msgstr "ایمیل"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_board__ks_mail_email_cc_value
+msgid "Email CC Value"
+msgstr "ارزش CC ایمیل"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_board__ks_mail_to_cc_partner
+msgid "Email Cc"
+msgstr "ایمیل CC"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_board__ks_mail_to_partner
+msgid "Email To"
+msgstr "ایمیل به"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#, python-format
+msgid "Email has been sent"
+msgstr "ایمیل ارسال شده است"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#, python-format
+msgid "Email has not been sent.Please check your console log"
+msgstr "ایمیل ارسال نشده است. لطفا گزارش کنسول خود را بررسی کنید"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#, python-format
+msgid "Email has not been sent.Please check your console log."
+msgstr "ایمیل ارسال نشده است. لطفا گزارش کنسول خود را بررسی کنید."
+
+#. module: ks_dn_advance
+#: model:mail.template,name:ks_dn_advance.ks_mail_templates
+msgid "Email template"
+msgstr "الگوی ایمیل"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_is_external_api
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__data_source__external_api
+msgid "External API"
+msgstr "API خارجی"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_is_external_db
+msgid "External Database"
+msgstr "پایگاه داده خارجی"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "External Database Credentials"
+msgstr "اعتبار پایگاه داده خارجی"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/js/ks_advance_dashboard.js:0
+#, python-format
+msgid "Fail"
+msgstr "شکست خوردن"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_query_templates.xml:0
+#, python-format
+msgid "Group"
+msgstr "گروه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_host
+msgid "Host"
+msgstr "میزبان"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_query_end_date
+msgid "Ks Query End Date"
+msgstr "تاریخ پایان پُرسمان ks"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_query_start_date
+msgid "Ks Query Start Date"
+msgstr "تاریخ شروع پُرسمان ks"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز شده توسط"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز شده در"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_list_view_layout__layout_2
+msgid "Layout 1"
+msgstr "طرح 1"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_list_view_layout__layout_3
+msgid "Layout 2"
+msgstr "طرح 2"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_list_view_layout__layout_4
+msgid "Layout 3"
+msgstr "طرح 3"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_list_view_layout
+msgid "List View Layout"
+msgstr "لیست مشاهده لیست"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_external_db_type__ks_sql
+msgid "MYSQL DB"
+msgstr "mysql db"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.board_form_inherited
+msgid "Mail Configuration"
+msgstr "پیکربندی پستی"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_query_templates.xml:0
+#, python-format
+msgid "Measures"
+msgstr "اقدامات"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_model_id
+msgid "Model"
+msgstr "مدل"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__name
+msgid "Name"
+msgstr "نام"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_query_templates.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_query_templates.xml:0
+#, python-format
+msgid "No Data Available"
+msgstr "هیچ داده ای در دسترس نیست"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#, python-format
+msgid "No Data Present"
+msgstr "هیچ داده ای وجود ندارد"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_to_template.xml:0
+#, python-format
+msgid "No Section Available."
+msgstr "هیچ بخشی در دسترس نیست."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_db_password
+msgid "Password"
+msgstr "رمز"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_dashboard_tv_ninja.xml:0
+#, python-format
+msgid "Play"
+msgstr "بازی"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid "Please Enter correct Url"
+msgstr "لطفا URL صحیح را وارد کنید"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_query_templates.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_query_templates.xml:0
+#, python-format
+msgid "Please Enter the Appropriate Query for this."
+msgstr "لطفاً برای این کار پُرسمان مناسب را وارد کنید."
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#, python-format
+msgid ""
+"Please Install the Module which contains the following Model : %s "
+"ks_model_id"
+msgstr "لطفاً افزونه ای را که حاوی مدل زیر است نصب کنید: ٪ s ks_model_id"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#, python-format
+msgid "Please fill the email to form the dashboard configuration"
+msgstr "لطفاً ایمیل را پر کنید تا پیکربندی پیشخوان را تشکیل دهید"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid ""
+"Please request to API that generates response in format  "
+"{'data':[{...},{...},]}"
+msgstr ""
+"لطفاً به API درخواست کنید که پاسخ در قالب {\"داده\" ایجاد کند: [{...} ، "
+"{...} ،]}"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_port
+msgid "Port"
+msgstr "بندر"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_ninja_item__ks_external_db_type__ks_postgres
+msgid "Postgres DB"
+msgstr "DB Postgres"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_dashboard_tv_ninja.xml:0
+#, python-format
+msgid "Print Dashboard"
+msgstr "پیشخوان چاپی"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "Query"
+msgstr "پرسش"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid "Query must be return single entity value"
+msgstr "پُرسمان باید ارزش واحد بازگردد باشد"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_query_result
+msgid "Result"
+msgstr "نتیجه"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_data_calculation_type
+msgid "Select the type of calculation you want to perform on the data."
+msgstr "نوع محاسبه ای را که می خواهید روی داده ها انجام دهید انتخاب کنید."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_board__ks_croessel_speed
+msgid "Slide Interval"
+msgstr "فاصله لغزش"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#: code:addons/ks_dn_advance/static/src/xml/ks_dna_list_view.xml:0
+#, python-format
+msgid "Sort button"
+msgstr "دکمه مرتب سازی"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid "Start Date should be less than End Date"
+msgstr "تاریخ شروع باید کمتر از تاریخ پایان باشد"
+
+#. module: ks_dn_advance
+#. odoo-javascript
+#: code:addons/ks_dn_advance/static/src/js/ks_advance_dashboard.js:0
+#, python-format
+msgid "Success"
+msgstr "موفقیت"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja.py:0
+#, python-format
+msgid "This file is not supported"
+msgstr "این پرونده پشتیبانی نمی شود"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_api__ttype
+msgid "Type"
+msgstr "نوع"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_external_db_type
+msgid "Type of External DB"
+msgstr "نوع DB خارجی"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_url
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "URL"
+msgstr "url"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid ""
+"Wrong date variables, Please use ks_start_date and ks_end_date in custom "
+"query"
+msgstr ""
+"متغیرهای تاریخ اشتباه ، لطفا از ks_start_date و ks_end_date در جستجوی سفارشی"
+" استفاده کنید"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid ""
+"Wrong date variables, Please use ks_start_date and ks_end_date or "
+"ks_start_datetime and ks_end_datetime in custom query"
+msgstr ""
+"متغیرهای تاریخ اشتباه ، لطفاً از KS_START_DATE و KS_END_DATE یا "
+"KS_START_DATETIME و KS_END_DATETIME در پُرسمان سفارشی استفاده کنید"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "X-Label"
+msgstr "برچسب ایکس"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_xlabels
+msgid "X-Labels"
+msgstr "دارای برچسب X"
+
+#. module: ks_dn_advance
+#: model_terms:ir.ui.view,arch_db:ks_dn_advance.item_form_inherit
+msgid "Y-Axis"
+msgstr "محور y"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,field_description:ks_dn_advance.field_ks_dashboard_ninja_item__ks_ylabels
+msgid "Y-Labels"
+msgstr "برچسب های"
+
+#. module: ks_dn_advance
+#. odoo-python
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#: code:addons/ks_dn_advance/models/ks_dashboard_advance_ninja_item.py:0
+#, python-format
+msgid "You can only read the Data from Database"
+msgstr "فقط می توانید داده ها را از پایگاه داده بخوانید"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_api__ttype__char
+msgid "char"
+msgstr "شغلی"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_host
+msgid "database server address e.g.,localhost or an IP address."
+msgstr "آدرس سرور پایگاه داده به عنوان مثال ، LocalHost یا یک آدرس IP."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_api__ttype__date
+msgid "date"
+msgstr "تاریخ"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_api__ttype__float
+msgid "float"
+msgstr "شناور"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields.selection,name:ks_dn_advance.selection__ks_dashboard_api__ttype__integer
+msgid "integer"
+msgstr "عدد صحیح"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_db_password
+msgid "password used to authenticate db."
+msgstr "رمز عبور مورد استفاده برای تأیید اعتبار DB."
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_port
+msgid ""
+"the port number that defaults to 5432(postgres) and 3306(MYSQL) if it is not"
+" provided"
+msgstr ""
+"شماره پورت که در صورت ارائه نشده به 5432 (postgres) و 3306 (mysql) پیش فرض "
+"می شود"
+
+#. module: ks_dn_advance
+#: model:ir.model.fields,help:ks_dn_advance.field_ks_dashboard_ninja_item__ks_db_user
+msgid "the username used to authenticate db."
+msgstr "نام کاربری برای تأیید اعتبار DB استفاده می شود."

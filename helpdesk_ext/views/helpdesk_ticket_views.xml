@@ -1,0 +1,31 @@
+<odoo>
+    <record id="helpdesk_ticket_view_form_inherit" model="ir.ui.view">
+        <field name="name">helpdesk.ticket.form.inherit</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_id']" position="before">
+                <field name="user_has_admin_group" invisible="1"/>
+                <field name="domain_user_ids" invisible="1"/>
+            </xpath>
+            <xpath expr="//field[@name='user_id']" position="attributes">
+                <attribute name="domain">[('id', 'in', domain_user_ids)]</attribute>
+                <attribute name="readonly">not user_has_admin_group</attribute>
+                <attribute name="force_save">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='team_id']" position="attributes">
+                <attribute name="readonly">not user_has_admin_group</attribute>
+                <attribute name="force_save">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="attributes">
+                <attribute name="readonly">not user_has_admin_group</attribute>
+                <attribute name="force_save">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='ticket_type_id']" position="attributes">
+                <attribute name="readonly">not user_has_admin_group</attribute>
+                <attribute name="force_save">1</attribute>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

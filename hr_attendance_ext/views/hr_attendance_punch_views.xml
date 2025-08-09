@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="hr_attendance_punch_view_form" model="ir.ui.view">
+        <field name="name">hr.attendance.punch.view.form</field>
+        <field name="model">hr.attendance.punch</field>
+        <field name="arch" type="xml">
+            <form string="Punch">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="employee_id"/>
+                        </group>
+                        <group>
+                            <field name="date" options="{'rounding': 1}"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="hr_attendance_punch_view_tree" model="ir.ui.view">
+        <field name="name">hr.attendance.punch.view.tree</field>
+        <field name="model">hr.attendance.punch</field>
+        <field name="arch" type="xml">
+            <tree string="Punch">
+                <field name="employee_id" />
+                <field name="date"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="hr_attendance_punch_view_filter" model="ir.ui.view">
+        <field name="name">hr.attendance.punch.filter</field>
+        <field name="model">hr.attendance.punch</field>
+        <field name="arch" type="xml">
+            <search string="Search Attendance punch">
+                <field name="employee_id"/>
+                <field name="date"/>
+                <separator/> 
+                <group col="8" colspan="4" expand="0" string="Group By">
+                    <filter string="Employees" name="group_by_employee_id" context="{'group_by': 'employee_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_attendance_punch" model="ir.actions.act_window">
+        <field name="name">Attendance Punchs</field>
+        <field name="res_model">hr.attendance.punch</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{'search_default_group_by_employee_id': 1}</field>
+        <field name="search_view_id" ref="hr_attendance_punch_view_filter"/>
+    </record>
+
+</odoo>

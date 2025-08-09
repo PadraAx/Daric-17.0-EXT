@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- 1.  Tree / List view  -->
+    <record id="view_bldg_unit_tree" model="ir.ui.view">
+        <field name="name">bldg.unit.tree</field>
+        <field name="model">bldg.unit</field>
+        <field name="arch" type="xml">
+            <tree string="Units">
+                <field name="hierarchical_id"/>
+                <field name="display_name"/>
+                <field name="unit_type_id"/>
+                <field name="child_count"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- 2.  Form view  -->
+    <record id="view_bldg_unit_form" model="ir.ui.view">
+        <field name="name">bldg.unit.form</field>
+        <field name="model">bldg.unit</field>
+        <field name="arch" type="xml">
+            <form string="Unit">
+                <sheet>
+                    <div style="margin-top: 10px; min-width: 250px; width: 100%;">
+                        <span class="o_form_label">
+                            <strong>Hierarchical ID</strong>
+                        </span>
+                        <field name="hierarchical_id" nolabel="1" readonly="1" style="font-size: 1.25rem; font-weight: 600;"/>
+                    </div>
+                    <div style="margin-top: 10px; min-width: 250px; width: 100%;">
+                        <span class="o_form_label">
+                            <strong>Name</strong>
+                        </span>
+                        <field name="name" nolabel="1" class="o_form_field" style="font-size: 1rem; font-weight: 600;"/>
+                    </div>
+                    <group string= "Details">
+                        <field name="floor_id" invisible="layer != '1'"/>
+                        <field name="unit_type_id" />
+                        <field name="parent_id" invisible="layer == '1'" />
+                        <field name="layer" readonly="1" />
+                        <field name="child_count" readonly="1"/>
+                    </group>
+                    <notebook>
+                        <page string="Components">
+                            <field name="child_ids">
+                                <tree>
+                                    <field name="hierarchical_id" />
+                                    <field name="display_name" />
+                                    <field name="unit_type_id" />
+                                    <field name="child_count" />
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- 3.  Search view  -->
+    <record id="view_bldg_unit_search" model="ir.ui.view">
+        <field name="name">bldg.unit.search</field>
+        <field name="model">bldg.unit</field>
+        <field name="arch" type="xml">
+            <search string="Search Units">
+                <field name="name"/>
+                <field name="unit_type_id"/>
+                <field name="layer"/>
+                <field name="floor_id"/>
+                <group expand="0" string="Group By">
+                    <filter string="Layer" name="group_layer" context="{'group_by': 'layer'}"/>
+                    <filter string="Unit Type" name="group_unit_type" context="{'group_by': 'unit_type_id'}"/>
+                    <filter string="Parent" name="group_parent" context="{'group_by': 'parent_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- 4.  Action  -->
+    <record id="action_bldg_unit" model="ir.actions.act_window">
+        <field name="name">Building Units</field>
+        <field name="res_model">bldg.unit</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('layer', '=', '1')]</field>
+        <field name="search_view_id" ref="view_bldg_unit_search"/>
+    </record>
+    <!-- 5.  Action for Layer-2 records only -->
+    <record id="action_bldg_unit_components" model="ir.actions.act_window">
+        <field name="name">Unit Components</field>
+        <field name="res_model">bldg.unit</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('layer', '=', '2')]</field>
+        <field name="search_view_id" ref="view_bldg_unit_search"/>
+    </record>
+</odoo>

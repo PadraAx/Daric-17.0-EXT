@@ -1,0 +1,15 @@
+.o_name_title .o_field_widget {
+    font-size: 2.5em;
+    font-weight: bold;
+    white-space: normal;
+    word-break: break-word;
+    display: block;
+    direction: rtl;
+    /* Correct for Persian/Arabic text */
+    text-align: right;
+}
+
+.oe_avatar {
+    width: 128px;
+    height: 128px;
+}

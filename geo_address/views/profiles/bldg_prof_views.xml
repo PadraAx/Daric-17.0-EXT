@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ============ TREE VIEW ============ -->
+    <record id="view_bldg_prof_tree" model="ir.ui.view">
+        <field name="name">bldg.prof.tree</field>
+        <field name="model">bldg.prof</field>
+        <field name="arch" type="xml">
+            <tree string="Building Profiles">
+                <field name="hierarchical_id"/>
+                <field name="name"/>
+                <field name="profile_level"/>
+                <field name="display_name"/>
+
+                <field name="profiling_date"/>
+                <field name="issuer_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- ============ FORM VIEW ============ -->
+    <record id="view_bldg_prof_form" model="ir.ui.view">
+        <field name="name">bldg.prof.form</field>
+        <field name="model">bldg.prof</field>
+        <field name="arch" type="xml">
+            <form string="Building Profile">
+                <!--<header>
+                    <field name="status" widget="statusbar"/>
+                </header>-->
+
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only"/>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="profile_level"/>
+                            <field name="hierarchical_id" readonly="1"/>
+                            <field name="score" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="profiling_date"/>
+                            <field name="issuer_id"/>
+                        </group>
+                    </group>
+
+                    <group string="Parent Object">
+                        <field name="expected_layer" invisible ="1"/>
+                        <field name="parent_id" invisible="profile_level == 'building_complex'" required="1"/>
+                        <field name="group_id" invisible="profile_level != 'building_complex'" required="1"/>
+                        <field name="building_id" invisible="profile_level != 'building'" required="1"/>
+                        <field name="floor_id" invisible="profile_level != 'floor'" required="1"/>
+                        <field name="unit_id" invisible="profile_level != 'unit' and profile_level != 'unit_component' and profile_level != 'unit_sub_component'" required="1"/>
+                    </group>
+
+                    <notebook>
+                        <page string="Attributes">
+                            <field name="attribute_line_ids" nolabel="1">
+                                <tree>
+                                    <field name="attribute_id"/>
+                                    <field name="attr_type" sreing="Attribute Type"/>
+                                    <field name="data_type"/>
+                                    <field name="inheritance_type"/>
+                                    <field name="computation_type"/>
+                                    <field name="points" readonly="1"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Child Profiles">
+                            <field name="child_ids" nolabel="1">
+                                <tree>
+                                    <field name="hierarchical_id"/>
+                                    <field name="name"/>
+                                    <field name="profiling_date"/>
+                                    <field name="issuer_id"/>
+                                    <field name="profile_level"/>
+                                </tree>
+                                <form>
+                                    <group>
+                                        <field name="hierarchical_id"/>
+                                        <field name="name"/>
+                                        <field name="profiling_date"/>
+                                        <field name="issuer_id"/>
+                                        <field name="profile_level"/>
+                                        <field name="score" readonly="1"/>
+                                    </group>
+                                </form>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- ============ SEARCH VIEW ============ -->
+    <record id="view_bldg_prof_search" model="ir.ui.view">
+        <field name="name">bldg.prof.search</field>
+        <field name="model">bldg.prof</field>
+        <field name="arch" type="xml">
+            <search string="Search Building Profiles">
+                <field name="name"/>
+                <field name="hierarchical_id"/>
+                <field name="issuer_id"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_by_level" string="Profile Level" context="{'group_by':'profile_level'}"/>
+                    <filter name="group_by_issuer" string="Issuer" context="{'group_by':'issuer_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- ============ WINDOW ACTION ============ -->
+    <record id="action_bldg_prof" model="ir.actions.act_window">
+        <field name="name">Building Profiles</field>
+        <field name="res_model">bldg.prof</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_bldg_prof_search"/>
+    </record>
+    <record id="view_bldg_profile_attribute_line_form" model="ir.ui.view">
+        <field name="name">bldg.profile.attribute.line.form</field>
+        <field name="model">bldg.profile.attribute.line</field>
+        <field name="arch" type="xml">
+            <form string="Profile Attribute Value">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="profile_id" readonly="1"/>
+                            <field name="attribute_id" readonly="1"/>
+                            <field name="attribute_name" invisible="1"/>
+                            <field name="attr_type" invisible="1"/>
+                            <field name="data_type" invisible="1"/>
+                            <field name="computation_type" invisible="1"/>
+                            <field name="inheritance_type" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="uom_category_id" invisible="1"/>
+                            <field name="uom_id" invisible="data_type not in ('integer', 'float')" domain="[('category_id', '=', uom_category_id)]"/>
+                        </group>
+                    </group>
+
+                    <group string="Value">
+                        <field name="value_selection" invisible="data_type != 'selection'" options="{'no_create': 1, 'no_open': 1}"/>
+                        <field name="value_boolean" invisible="data_type != 'boolean'"/>
+                        <field name="value_integer_raw" invisible="data_type != 'integer'" />
+                        <field name="value_float_raw" invisible="data_type != 'float'" />
+                    </group>
+
+
+                    <group string="Computed / Reference" invisible="data_type not in ('integer', 'float')">
+                        <field name="value_in_reference_uom" readonly="1"/>
+                        <field name="value_formula" readonly="1"/>
+                    </group>
+
+                    <group string="Document">
+                        <field name="document_id"/>
+                    </group>
+
+                    <group string="Scoring" invisible="1">
+                        <field name="score_id" readonly="1"/>
+                        <field name="points" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+</odoo>

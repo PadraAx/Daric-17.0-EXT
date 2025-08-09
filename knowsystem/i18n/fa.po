@@ -1,0 +1,2830 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* knowsystem
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-18 01:55+0000\n"
+"PO-Revision-Date: 2025-02-18 01:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#: code:addons/knowsystem/models/knowsystem_node.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "٪ S (کپی)"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "(10 Euros extra) is required"
+msgstr "(10 یورو اضافی) لازم است"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "(28 Euros extra) is required"
+msgstr "(28 یورو اضافی) لازم است"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "(40 Euros extra) is required"
+msgstr "(40 یورو اضافی) لازم است"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "(48 Euros extra) is required"
+msgstr "(48 یورو اضافی) لازم است"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "(99 Euros extra) is required"
+msgstr "(99 یورو اضافی) لازم است"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.xml:0
+#: code:addons/knowsystem/static/src/components/knowsystem_learning_tours/knowsystem_learning_tours.xml:0
+#, python-format
+msgid "... add"
+msgstr "... اضافه کردن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "100%"
+msgstr "100 ٪"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "25%"
+msgstr "25 ٪"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "400px"
+msgstr "400px"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "50%"
+msgstr "50 ٪"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "75%"
+msgstr "75 ٪"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "800px"
+msgstr "800px"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_alert
+msgid "<font style=\"color: rgb(12 84 96);\">Alert message.</font>"
+msgstr "<font style = \"color: rgb (12 84 96) ؛\"> پیام هشدار. </font>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_snippets
+msgid "<i class=\"fa fa-paragraph\"/> Texts"
+msgstr "<i class = \"fa fa-paragraph\"/> متن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_snippets
+msgid "<i class=\"fa fa-photo\"/> Images"
+msgstr "<i class = \"fa fa-photo\"/> تصاویر"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_snippets
+msgid "<i class=\"fa fa-plus\"/> Special"
+msgstr "<i class = \"fa fa-plus\"/> ویژه"
+
+#. module: knowsystem
+#: model:mail.template,body_html:knowsystem.revisions_change_notification
+msgid ""
+"<p>Hello,</p>\n"
+"<p>Please take into account that the article <strong><t t-out=\"object.name\"></t></strong> has been revised by <t t-out=\"object.write_revision_uid.name\"></t>.</p>\n"
+"            "
+msgstr ""
+"<P> سلام ، </p>\n"
+"<P> لطفاً در نظر بگیرید که مقاله <strong> <t-out = \"object.name\"> </t> </strong> توسط <t t-out = \"object.write_revision_uid.name\" اصلاح شده است \" > </t>. </p>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_card
+msgid "<small>comment</small>"
+msgstr "<کوچک> نظر </small>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid "<span class=\"\">Footer</span>"
+msgstr "<span class = \"\"> پاورقی </span>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form_start
+msgid "<span class=\"o_stat_text\">Continue</span>"
+msgstr "<span class = \"o_stat_text\"> ادامه </span>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form_start
+msgid "<span class=\"o_stat_text\">Start the tour</span>"
+msgstr "<span class = \"o_stat_text\"> تور را شروع کنید </span>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_alert
+msgid ""
+"<span style=\"color: rgb(12 84 96); font-size: 16px; font-weight: "
+"bolder;\">Alert</span>"
+msgstr ""
+"<span style = \"color: rgb (12 84 96) ؛ اندازه فونت: 16px ؛ فونت وزن: "
+"جسورانه تر ؛\"> هشدار </span>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid ""
+"<span style=\"font-size:18px; font-weight: 500;\">\n"
+"                                    Option 1\n"
+"                                </span>"
+msgstr ""
+"<span style = \"font-size: 18px ؛ font-weight: 500 ؛\">\n"
+"                                    گزینه 1\n"
+"                                </span>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid ""
+"<span style=\"font-size:18px; font-weight: 500;\">\n"
+"                                    Option 2\n"
+"                                </span>"
+msgstr ""
+"<span style = \"font-size: 18px ؛ font-weight: 500 ؛\">\n"
+"                                    گزینه 2\n"
+"                                </span>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid ""
+"<span style=\"font-size:18px; font-weight: 500;\">\n"
+"                                    Option 3\n"
+"                                </span>"
+msgstr ""
+"<span style = \"font-size: 18px ؛ font-weight: 500 ؛\">\n"
+"                                    گزینه 3\n"
+"                                </span>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text
+msgid "<strong>To highlight</strong>"
+msgstr "<strong> برای برجسته کردن </strong>"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_color_boxes
+msgid "A color block 1"
+msgstr "بلوک رنگی 1"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_color_boxes
+msgid "A color block 2"
+msgstr "بلوک رنگ 2"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Access Rights"
+msgstr "حق دسترسی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__access_user_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__access_user_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__access_user_ids
+msgid "Access Users"
+msgstr "به کاربران دسترسی پیدا کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_needaction
+msgid "Action Needed"
+msgstr "عمل مورد نیاز"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__active
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__active
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__active
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_node__active
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__active
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__active
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__active_till
+msgid "Active till"
+msgstr "فعال تا زمان"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_ids
+msgid "Activities"
+msgstr "فعالیت"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_mail_activity
+msgid "Activity"
+msgstr "فعالیت"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "دکوراسیون استثناء فعالیت"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_state
+msgid "Activity State"
+msgstr "حالت فعالیت"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_add_to_tour
+msgid "Add articles to the tour"
+msgstr "مقالات را به تور اضافه کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__add_edit_user_group_ids
+msgid "Add edit access groups"
+msgstr "گروه های دسترسی ویرایش را اضافه کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__add_user_group_ids
+msgid "Add read access groups"
+msgstr "گروه های دسترسی خواندن را اضافه کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__to_add_tag_ids
+msgid "Add tags"
+msgstr "برچسب ها را اضافه کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Add the icon for quick articles' search to the Odoo systray (near activities"
+" and messaging)"
+msgstr ""
+"نماد را برای جستجوی سریع مقالات به دریک Systray (فعالیت های نزدیک و پیام "
+"رسانی) اضافه کنید"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_add_to_favorite
+msgid "Add to favorite"
+msgstr "اضافه کردن به مورد علاقه"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_add_to_tour_action
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_add_to_tour
+msgid "Add to tour"
+msgstr "به تور اضافه کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Align Bottom"
+msgstr "پایین تر"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Align Center"
+msgstr "مرکز تراز"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Align Left"
+msgstr "تراز کردن سمت چپ"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Align Middle"
+msgstr "میانه را تراز کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Align Right"
+msgstr "درست تراز کردن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Align Top"
+msgstr "تراز کردن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Alignment"
+msgstr "تراز"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__domain
+msgid "Applied Filters"
+msgstr "فیلترهای اعمال شده"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_form
+msgid "Applied To"
+msgstr "اعمال شده"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__filter_ids
+msgid "Applied to Documents"
+msgstr "در اسناد اعمال شده است"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__apply_to_all
+msgid "Apply to all Documents"
+msgstr "برای همه اسناد درخواست کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.js:0
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_archive
+#: model:ir.model.fields.selection,name:knowsystem.selection__article_update__activate__archive
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+#, python-format
+msgid "Archive"
+msgstr "بایگانی"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_template_view_search
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_search
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_search
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_search
+msgid "Archived"
+msgstr "بایگانی شده"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_article
+#: model:ir.model,name:knowsystem.model_knowsystem_tour_article
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__description
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__article_id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__description
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__article_id
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_search
+msgid "Article"
+msgstr "مقاله"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__current_article_description
+msgid "Article Contents"
+msgstr "مطالب مقاله"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_custom_search
+msgid "Article Custom Search"
+msgstr "جستجوی سفارشی مقاله"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_custom_sort
+msgid "Article Custom Sorting"
+msgstr "مرتب سازی سفارشی مقاله"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_base_document_layout__external_layout_knowsystem_id
+#: model:ir.model.fields,field_description:knowsystem.field_res_company__external_layout_knowsystem_id
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__external_layout_knowsystem_id
+msgid "Article Layout"
+msgstr "طرح مقاله"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_article_revision
+msgid "Article Revision"
+msgstr "بازنگری مقاله"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_article_template
+msgid "Article Template"
+msgstr "الگوی مقاله"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__current_article_title
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Article Title"
+msgstr "عنوان مقاله"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_article_custom_type
+msgid "Article Type"
+msgstr "نوع مقاله"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Article section"
+msgstr "بخش ماده"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Article tags"
+msgstr "برچسب مقاله"
+
+#. module: knowsystem
+#: model:ir.actions.report,name:knowsystem.action_report_knowsystem_article
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_article_mass_update__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__article_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__tour_article_ids
+#: model_terms:ir.ui.view,arch_db:knowsystem.article_search_form_view
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form
+msgid "Articles"
+msgstr "مقالات"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_article_mass_update
+msgid "Articles Update"
+msgstr "به روزرسانی مقالات"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_models_option
+msgid "Articles by Documents"
+msgstr "مقالات توسط اسناد"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_activity_option
+msgid "Articles in Activities"
+msgstr "مقالات در فعالیت ها"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_composer_option
+msgid "Articles in Email Composers"
+msgstr "مقالات در آهنگسازان ایمیل"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_systray_option
+msgid "Articles in systray"
+msgstr "مقالات در Systray"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__left_article_ids
+msgid "Articles to do"
+msgstr "مقالاتی که باید انجام شود"
+
+#. module: knowsystem
+#: model:ir.model.fields.selection,name:knowsystem.selection__knowsystem_custom_sort__order_sort__asc
+msgid "Ascending"
+msgstr "صعودی"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/dialogs/knowsystem_dialog/knowsystem_dialog.xml:0
+#, python-format
+msgid "Attach PDF"
+msgstr "پیوست PDF"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_quick_search
+msgid "Attach a file"
+msgstr "یک پرونده را ضمیمه کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__attachment_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__attachments_change
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_attachments
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_quick_search
+msgid "Attachments"
+msgstr "پیوست"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+#, python-format
+msgid "Author"
+msgstr "نویسنده"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Author: #{record.create_uid.value}"
+msgstr "نویسنده: #{record.create_uid.value}"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Auto"
+msgstr "خودرو"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form_article
+msgid "Back"
+msgstr "پشت"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#, python-format
+msgid "Backend Builder"
+msgstr "سازنده پشتی"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/wysiwyg/wysiwyg.js:0
+#, python-format
+msgid "Basic blocks"
+msgstr "بلوک های اساسی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__description_arch
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__description_arch
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__description_arch
+msgid "Body"
+msgstr "بدنه"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options_border_widgets
+msgid "Border"
+msgstr "مرز"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#, python-format
+msgid "By"
+msgstr "از طرف"
+
+#. module: knowsystem
+#: model:ir.model.fields.selection,name:knowsystem.selection__res_config_settings__knowsystem_backend_default_sort_option__custom
+msgid "By custom sorting"
+msgstr "با مرتب سازی سفارشی"
+
+#. module: knowsystem
+#: model:ir.model.fields.selection,name:knowsystem.selection__res_config_settings__knowsystem_backend_default_sort_option__default
+msgid "By default sorting"
+msgstr "با مرتب سازی به طور پیش فرض"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.create_from_template_form_view
+msgid "Cancel"
+msgstr "لغو کردن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Center"
+msgstr "مرکز"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__child_ids
+msgid "Child Tags"
+msgstr "برچسب کودک"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__child_ids
+msgid "Child Types"
+msgstr "انواع کودک"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Choose the default editor that will be applied to all newly created articles"
+msgstr ""
+"ویرایشگر پیش فرض را انتخاب کنید که برای همه مقاله های تازه ایجاد شده اعمال "
+"می شود"
+
+#. module: knowsystem
+#: model_terms:ir.actions.act_window,help:knowsystem.knowsystem_article_template_action
+msgid "Click \"Create\" to add a new article template"
+msgstr "برای افزودن الگوی مقاله جدید ، روی \"ایجاد\" کلیک کنید"
+
+#. module: knowsystem
+#: model_terms:ir.actions.act_window,help:knowsystem.knowsystem_tour_action
+msgid "Click \"Create\" to add a new tour"
+msgstr "برای اضافه کردن یک تور جدید ، روی \"ایجاد\" کلیک کنید"
+
+#. module: knowsystem
+#: model_terms:ir.actions.act_window,help:knowsystem.knowsystem_tag_action
+msgid "Click \"Create\" to add tags to categorize knowledge articles"
+msgstr "برای افزودن برچسب ها برای طبقه بندی مقالات دانش ، روی \"ایجاد\" کلیک کنید"
+
+#. module: knowsystem
+#: model_terms:ir.actions.act_window,help:knowsystem.knowsystem_article_action
+msgid "Click 'Create' to add a new article"
+msgstr "برای افزودن مقاله جدید ، روی \"ایجاد\" کلیک کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#, python-format
+msgid "Click to observe"
+msgstr "برای مشاهده کلیک کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/dialogs/knowsystem_dialog/knowsystem_dialog.xml:0
+#, python-format
+msgid "Close"
+msgstr "بستن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_code
+msgid ""
+"Code line 1<br/>\n"
+"                    Code line 2"
+msgstr ""
+"خط کد 1 <br/>\n"
+"                    خط کد 2"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__color
+msgid "Color"
+msgstr "رنگ"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__color
+msgid "Color index"
+msgstr "شاخص رنگ"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text
+msgid "Column 1"
+msgstr "ستون 1"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text
+msgid "Column 2"
+msgstr "ستون 2"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text
+msgid "Column 3"
+msgstr "ستون 3"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Columns"
+msgstr "ستون"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text_images
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_image
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_image_list
+msgid "Comments"
+msgstr "نظرات"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "طرح بندی اسناد شرکت"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__complete_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_node__complete_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__complete_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__complete_name
+msgid "Complete Name"
+msgstr "نام کامل"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: knowsystem
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_conf
+#: model:ir.ui.menu,name:knowsystem.menu_res_config_settings
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Configure backend custom and default sorting criteria"
+msgstr "معیارهای مرتب سازی سفارشی و پیش فرض را پیکربندی کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_template_view_form
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_quick_search
+msgid "Content"
+msgstr "محتوا"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#: model:ir.model.fields,field_description:knowsystem.field_mail_compose_message__body
+#: model:ir.model.fields,field_description:knowsystem.field_mail_mail__body
+#: model:ir.model.fields,field_description:knowsystem.field_mail_message__body
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+#, python-format
+msgid "Contents"
+msgstr "محتویات"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Contributions"
+msgstr "مشارکت"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__contributor_ids
+msgid "Contributors"
+msgstr "مشارکت کنندگان"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_editor/knowsystem_editor.xml:0
+#, python-format
+msgid "Copy to Clipboard"
+msgstr "در کلیپ بورد کپی کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.js:0
+#: model_terms:ir.ui.view,arch_db:knowsystem.create_from_template_form_view
+#, python-format
+msgid "Create"
+msgstr "ایجاد کردن"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#, python-format
+msgid "Create Date"
+msgstr "ایجاد تاریخ"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.create_from_template_action
+#: model:ir.model,name:knowsystem.model_create_from_template
+msgid "Create From Template"
+msgstr "از الگو ایجاد کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_template_view_form
+msgid "Create article"
+msgstr "ایجاد مقاله"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_create_from_activities
+msgid "Create from activities"
+msgstr "از فعالیت ها ایجاد کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/form/knowsystem_form_controller.xml:0
+#: code:addons/knowsystem/static/src/views/form/knowsystem_form_controller.xml:0
+#: code:addons/knowsystem/static/src/views/kanban/knowsystem_kanban_controller.xml:0
+#, python-format
+msgid "Create from template"
+msgstr "از الگو ایجاد کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/dialogs/knowsystem_dialog/knowsystem_dialog.xml:0
+#, python-format
+msgid "Create new"
+msgstr "جدید ایجاد کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/activity_menu_view/activity_menu_view.xml:0
+#, python-format
+msgid "Create new article"
+msgstr "مقاله جدید ایجاد کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_mass_update__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_update__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_create_from_template__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__create_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_mass_update__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_update__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_create_from_template__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__create_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__current_article_id
+msgid "Current article"
+msgstr "مقاله"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Custom Fields for Website and Portal"
+msgstr "زمینه های سفارشی برای تارنما و درگاه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_backend_default_sort_id
+msgid "Custom Sorting Option"
+msgstr "گزینه مرتب سازی سفارشی"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Custom and Default Sorting"
+msgstr "مرتب سازی سفارشی و پیش فرض"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__module_knowsystem_custom_fields
+msgid "Custom fields for articles"
+msgstr "زمینه های سفارشی برای مقالات"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_html/knowsystem_html.js:0
+#, python-format
+msgid "DRAG BUILDING BLOCKS HERE"
+msgstr "بلوک های ساختمانی را در اینجا بکشید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options_border_line_widgets
+msgid "Dashed"
+msgstr "متات شده"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_backend_default_sort_option
+msgid "Default Backend Sorting By"
+msgstr "مرتب سازی با پس زمینه پیش فرض توسط"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_editor_type
+msgid "Default Editor Type"
+msgstr "نوع ویرایشگر پیش فرض"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_ir_actions_server_default_model_id
+msgid "Default KMS model"
+msgstr "مدل KMS پیش فرض"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_delete
+msgid "Delete"
+msgstr "حذف کردن"
+
+#. module: knowsystem
+#: model:ir.model.fields.selection,name:knowsystem.selection__knowsystem_custom_sort__order_sort__desc
+msgid "Descending"
+msgstr "نزولی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__description
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__description_change
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_node__description
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__description
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__description
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_form
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_form
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form
+msgid "Description"
+msgstr "شرح"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_image_text
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_text_image
+msgid "Details"
+msgstr "جزئیات"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_editor/knowsystem_editor.xml:0
+#, python-format
+msgid "Discard"
+msgstr "دور کردن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Discussion"
+msgstr "بحث"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Dislike"
+msgstr "دوست داشتن"
+
+#. module: knowsystem
+#: model:ir.model.fields.selection,name:knowsystem.selection__knowsystem_article__this_user_like_state__dislike
+msgid "Disliked"
+msgstr "دوستانه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__dislikes_number
+msgid "Dislikes Number"
+msgstr "شماره را دوست ندارد"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__dislike_user_ids
+msgid "Dislikes by"
+msgstr "دوست نداشتن"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_article_mass_update__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_article_update__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_create_from_template__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__display_name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__display_name
+msgid "Display Name"
+msgstr "نام"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Do not include titles of articles in their PDF versions (print only their "
+"content)"
+msgstr ""
+"عناوین مقالات را در نسخه های PDF خود وارد نکنید (فقط محتوای آنها را چاپ "
+"کنید)"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_filter
+msgid "Document Filter"
+msgstr "فیلتر سند"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__module_documentation_builder
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Documentation Builder"
+msgstr "مستند سازنده"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__done_by_user_ids
+msgid "Done by users"
+msgstr "انجام شده توسط کاربران"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options_border_line_widgets
+msgid "Dotted"
+msgstr "دارای نقطه"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options_border_line_widgets
+msgid "Double"
+msgstr "دو برابر"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_duplicate
+msgid "Duplicate"
+msgstr "دورامی"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.js:0
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_editor/knowsystem_editor.xml:0
+#, python-format
+msgid "Edit"
+msgstr "ویرایش کردن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Edit Layout"
+msgstr "طرح ویرایش"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Edit Paper Format"
+msgstr "قالب کاغذ را ویرایش کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Edit Report"
+msgstr "گزارش ویرایش"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_editor/knowsystem_editor.xml:0
+#, python-format
+msgid "Edit Source Code"
+msgstr "کد منبع را ویرایش کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__editor_type
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__editor_type
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__editor_type
+msgid "Editor Type"
+msgstr "نوع ویرایشگر"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_mail_compose_message
+msgid "Email composition wizard"
+msgstr "ویزارد ایجاد ایمیل"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_editor/knowsystem_editor.js:0
+#, python-format
+msgid "Error! This browser doesn't allow to copy to clipboard"
+msgstr "خطا! این مرورگر اجازه کپی کردن روی کلیپ بورد را نمی دهد"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_manager/knowsystem_manager.xml:0
+#, python-format
+msgid "Export"
+msgstr "صادر کردن"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_export_option
+msgid "Export articles"
+msgstr " برونبرد مقالات"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_manager/knowsystem_manager.js:0
+#, python-format
+msgid "External ID"
+msgstr "شناسه خارجی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_sort_ids
+msgid "Extra Sorting"
+msgstr "مرتب سازی اضافی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_sort_ids_str
+msgid "Extra Sorting (Str)"
+msgstr "مرتب سازی اضافی (STR)"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Extra features"
+msgstr "ویژگی های اضافی"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/search/knowsystem_search_model.js:0
+#, python-format
+msgid ""
+"Failed to evaluate the domain: %(domain)s.\n"
+"%(error)s"
+msgstr ""
+"نتوانست دامنه را ارزیابی کند: ٪ (دامنه) s.\n"
+"٪ (خطا) s"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+msgid "Favorite"
+msgstr "مورد علاقه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__favourite_user_ids
+msgid "Favorite of"
+msgstr "مورد علاقه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__custom_field_id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__custom_field_id
+msgid "Field"
+msgstr "ستون"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#, python-format
+msgid "Files"
+msgstr "پرونده ها"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Fit content"
+msgstr "محتوای مناسب"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_follow
+msgid "Follow"
+msgstr "دنبال کردن"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (شرکا)"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+msgid "Following"
+msgstr "متعاقب"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "شمایل عالی فونت به عنوان مثال دست و پا زدن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form_article
+msgid "Forward"
+msgstr "به جلو"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_snippets
+msgid "Fullscreen"
+msgstr "تمام صفحه"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+msgid "Future Activities"
+msgstr "فعالیت های آینده"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__edit_global
+msgid "Global Edit Rights"
+msgstr "حقوق ویرایش جهانی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__read_global
+msgid "Global Read Rights"
+msgstr "حقوق جهانی خواندن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form_start
+msgid "Good job! The tour is over"
+msgstr "کار خوب! تور به پایان رسیده است"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_search
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_search
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_search
+msgid "Group By"
+msgstr "گروه"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#, python-format
+msgid "HTML"
+msgstr "HTML"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__has_message
+msgid "Has Message"
+msgstr "پیام دارد"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Height"
+msgstr "قد"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__views_number_internal
+msgid "How many times this article has been opened"
+msgstr "چند بار این مقاله باز شده است"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__used_in_email_compose
+msgid "How many times this article is used in emails"
+msgstr "چند بار از این مقاله در ایمیل استفاده می شود"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__id
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__id
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__id
+#: model:ir.model.fields,field_description:knowsystem.field_article_mass_update__id
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__id
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__id
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__id
+#: model:ir.model.fields,field_description:knowsystem.field_article_update__id
+#: model:ir.model.fields,field_description:knowsystem.field_create_from_template__id
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_exception_icon
+msgid "Icon"
+msgstr "نماد"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "نماد برای نشان دادن یک فعالیت استثنا."
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "در صورت بررسی ، پیام های جدید به توجه شما نیاز دارند."
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__message_has_error
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "در صورت بررسی ، برخی از پیام ها خطای تحویل دارند."
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_tag__apply_to_all
+msgid "If checked, this tag's articles will be applied to all Odoo objects"
+msgstr "در صورت بررسی ، مقالات این برچسب برای همه اشیاء Odoo اعمال می شود"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__published_name
+msgid ""
+"If defined, this title will be used for printed versions, portal articles, "
+"and documentation sections"
+msgstr ""
+"در صورت تعریف ، از این عنوان برای نسخه های چاپی ، مقالات درگاه و بخش های "
+"مستند استفاده می شود"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_section__edit_user_group_ids
+msgid ""
+"If selected, a user should belong to one of the groups to update this section and ALL ITS ARTICLES.\n"
+"Besides, a user should have rights to the parent sections hierarchically.\n"
+"The exception is KnowSystem administrators who can edit any section and article"
+msgstr ""
+"در صورت انتخاب ، کاربر باید به یکی از گروه ها تعلق داشته باشد تا این بخش و تمام مقالات آن را به روز کند.\n"
+"علاوه بر این ، یک کاربر باید از نظر سلسله مراتبی در بخش والدین حق داشته باشد.\n"
+"استثناء مدیران شناسه است که می توانند هر بخش و مقاله را ویرایش کنند"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__user_group_ids
+msgid ""
+"If selected, a user should belong to one of those groups to access this article.\n"
+"The exceptions are (1) KnowSystem administrators; (2) Authors of the articles.\n"
+"To access the article a user should also have an access to its section"
+msgstr ""
+"در صورت انتخاب ، کاربر برای دسترسی به این مقاله باید به یکی از آن گروه ها تعلق داشته باشد.\n"
+"استثنائات عبارتند از: (2) نویسندگان مقالات.\n"
+"برای دسترسی به مقاله ، کاربر نیز باید به بخش خود دسترسی داشته باشد"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_section__user_group_ids
+msgid ""
+"If selected, a user should belong to one of those groups to access this section and ALL ITS ARTICLES.\n"
+"Besides, a user should have rights to the parent sections hierarchically.\n"
+"The exceptions are (1) KnowSystem administrators; (2) Authors of the articles"
+msgstr ""
+"در صورت انتخاب ، کاربر باید به یکی از آن گروه ها تعلق داشته باشد تا به این بخش و تمام مقالات آن دسترسی پیدا کند.\n"
+"علاوه بر این ، یک کاربر باید از نظر سلسله مراتبی در بخش والدین حق داشته باشد.\n"
+"استثنائات عبارتند از: (2) نویسندگان مقالات"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_tour__user_group_ids
+msgid ""
+"If selected, a user should belong to one of those groups to access this tour"
+msgstr ""
+"در صورت انتخاب ، کاربر برای دسترسی به این تور باید به یکی از آن گروه ها تعلق"
+" داشته باشد"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__edit_user_group_ids
+msgid ""
+"If selected, a user should belong to one of those groups to be able to edit this article.\n"
+"The exception is KnowSystem administrators who can edit any article.\n"
+"To edit this article a user should also be able to edit its section"
+msgstr ""
+"در صورت انتخاب ، کاربر باید متعلق به یکی از آن گروه ها باشد تا بتواند این مقاله را ویرایش کند.\n"
+"استثناء مدیران System System هستند که می توانند هر مقاله را ویرایش کنند.\n"
+"برای ویرایش این مقاله ، کاربر همچنین باید بتواند بخش خود را ویرایش کند"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"If turned on, the option will add the button to the activities' top entry to"
+" quickly create new articles"
+msgstr ""
+"در صورت روشن شدن ، گزینه برای ایجاد سریع مقالات جدید ، دکمه را به ورودی برتر"
+" فعالیت ها اضافه می کند"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__indexed_description
+msgid "Indexed Article"
+msgstr "مقاله نمایه شده"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Info"
+msgstr "اطلاعات"
+
+#. module: knowsystem
+#: model:ir.model.fields.selection,name:knowsystem.selection__res_config_settings__knowsystem_share_link_type__internal
+msgid "Internal URL"
+msgstr "URL داخلی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__internal_url
+msgid "Internal link"
+msgstr "لینک داخلی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_is_follower
+msgid "Is Follower"
+msgstr "پیرو است"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_node.py:0
+#, python-format
+msgid "It is not allowed to make recursions!"
+msgstr "مجاز به انجام تکیه ها نیست!"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/action_menus/action_menus.xml:0
+#: code:addons/knowsystem/static/src/components/action_menus/action_menus.xml:0
+#: code:addons/knowsystem/static/src/components/systray_quick_link/systray_quick_link.xml:0
+#: code:addons/knowsystem/static/src/components/systray_quick_link/systray_quick_link.xml:0
+#: code:addons/knowsystem/static/src/wysiwyg/wysiwyg.js:0
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_article_action
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_article_action_form_only
+#: model:ir.module.category,name:knowsystem.module_category_knowsystem
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_main
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+#, python-format
+msgid "KnowSystem"
+msgstr "دانشنامه"
+
+#. module: knowsystem
+#: model:res.groups,name:knowsystem.group_knowsystem_admin
+msgid "KnowSystem Administrator"
+msgstr "سرپرست سامانه"
+
+#. module: knowsystem
+#: model:mail.template,name:knowsystem.revisions_change_notification
+msgid "KnowSystem Article is revised"
+msgstr "مقاله می دانست"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.action_ir_attachment_knowsystem
+msgid "KnowSystem Attachments"
+msgstr "پیوست های سامانه"
+
+#. module: knowsystem
+#: model:res.groups,name:knowsystem.group_knowsystem_editor
+msgid "KnowSystem Editor"
+msgstr "ویرایشگر سامانه"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "KnowSystem Multi Languages"
+msgstr "دانستن چند زبان System"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_node
+msgid "KnowSystem Node"
+msgstr "گره سامانه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_base_document_layout__knowsystem_custom_layout
+#: model:ir.model.fields,field_description:knowsystem.field_res_company__knowsystem_custom_layout
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_custom_layout
+msgid "KnowSystem Printing Layout"
+msgstr "طرح چاپ سامانه را بدانید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "KnowSystem Website and Portal"
+msgstr "تارنما و درگاه را بدانید"
+
+#. module: knowsystem
+#: model:mail.template,subject:knowsystem.revisions_change_notification
+msgid "KnowSystem article is revised"
+msgstr "مقاله می دانست"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "KnowSystem: Custom Fields"
+msgstr "Snowsystem: زمینه های سفارشی"
+
+#. module: knowsystem
+#: model:res.groups,name:knowsystem.group_knowsystem_learning_tours
+msgid "KnowSystem: Learning Tours"
+msgstr "Snowsystem: یادگیری تورهای"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "KnowSystem: eCommerce FAQ"
+msgstr "Scowsystem: سؤالات متداول در اکیمر"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/action_menus/action_menus.js:0
+#: code:addons/knowsystem/static/src/components/systray_quick_link/systray_quick_link.js:0
+#: code:addons/knowsystem/static/src/views/fields/html_reference/html_reference.js:0
+#: code:addons/knowsystem/static/src/wysiwyg/wysiwyg.js:0
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_articles
+#, python-format
+msgid "Knowledge Base"
+msgstr "پایگاه دانش"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__name
+msgid "Label"
+msgstr "برچسب"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Large"
+msgstr "بزرگ"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_mass_update__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_article_update__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_create_from_template__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__write_uid
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز شده توسط"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_mass_update__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_article_update__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_create_from_template__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_search__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__write_date
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز شده در"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__write_revision_uid
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Last revision by"
+msgstr "آخرین تجدید نظر توسط"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__write_revision_date
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Last revision on"
+msgstr "آخرین تجدید نظر در"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+msgid "Late Activities"
+msgstr "فعالیت های دیررس"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_learning_tours/knowsystem_learning_tours.js:0
+#, python-format
+msgid "Learning Tour"
+msgstr "تور یادگیری"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__group_knowsystem_tours_option
+msgid "Learning Tours"
+msgstr "تورهای یادگیری"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Left"
+msgstr "چپ"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Let users export articles"
+msgstr "به کاربران اجازه دهید مقالات صادر کنند"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Like"
+msgstr "مانند"
+
+#. module: knowsystem
+#: model:ir.model.fields.selection,name:knowsystem.selection__knowsystem_article__this_user_like_state__like
+msgid "Liked"
+msgstr "دوست داشتنی"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#, python-format
+msgid "Likes"
+msgstr "لایک"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__likes_number
+msgid "Likes Number"
+msgstr "شماره را دوست دارد"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__likes_score
+msgid "Likes Score"
+msgstr "نمره را دوست دارد"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__like_user_ids
+msgid "Likes by"
+msgstr "لایک توسط"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.external_layout_knowsystem
+msgid "Logo"
+msgstr "آرم"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_make_template
+msgid "Make Template"
+msgstr "الگو کردن"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_ir_actions_server_ids
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Mass actions"
+msgstr "اقدامات گسترده"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_ir_actions_server_ids_str
+msgid "Mass actions (Str)"
+msgstr "اقدامات انبوه (STR)"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Medium"
+msgstr "واسطه"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_mail_message
+msgid "Message"
+msgstr "پیام"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_ids
+msgid "Messages"
+msgstr "پیام"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_form
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_form
+msgid "Misc"
+msgstr "متفرقه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__ir_model_id
+msgid "Model"
+msgstr "مدل"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__model
+msgid "Model Name"
+msgstr "نام مدل"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__module_knowsystem_multilang
+msgid "Multiple Languages"
+msgstr "چندین زبان"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+msgid "My Activities"
+msgstr "فعالیت های من"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+msgid "My Articles"
+msgstr "مقالات من"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__name_change
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_node__name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__name
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__name
+msgid "Name"
+msgstr "نام"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_section_update__section_id
+msgid "New Section"
+msgstr "بخش جدید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "رویداد تقویم فعالیت بعدی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت فعالیت بعدی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__no_selection
+msgid "No selection"
+msgstr "بدون انتخاب"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "None"
+msgstr "هیچ کدام"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_mail_activity__note
+msgid "Note"
+msgstr "یادداشت"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__counter
+msgid "Number"
+msgstr "شماره"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام ها با خطای تحویل"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Number of views"
+msgstr "تعداد نماها"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Open"
+msgstr "باز"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_custom_sort__order_sort
+msgid "Order"
+msgstr "ترتیب"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Organize articles in tours and control users' learning progress"
+msgstr "سازماندهی مقالات در تورها و کنترل پیشرفت یادگیری کاربران"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Padding"
+msgstr "بالشتک"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.external_layout_knowsystem
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "صفحه:"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.paper_format_action_knowsystem
+msgid "Paper Format"
+msgstr "قالب کاغذ"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.report_paperformat_view_form
+msgid "Paper format configuration"
+msgstr "پیکربندی قالب کاغذ"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_search
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_search
+msgid "Parent"
+msgstr "والدین"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__parent_id
+msgid "Parent Section"
+msgstr "بخش والدین"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__parent_id
+msgid "Parent Tag"
+msgstr "برچسب والدین"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__parent_id
+msgid "Parent Type"
+msgstr "نوع والدین"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+msgid ""
+"Please confirm that you consider this revision as the main article version"
+msgstr ""
+"لطفاً تأیید کنید که این نسخه را به عنوان نسخه اصلی مقاله در نظر می گیرید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_text
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_title_text
+msgid "Point 1."
+msgstr "نقطه 1."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_text
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_title_text
+msgid "Point 2."
+msgstr "نقطه 2"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_text
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_title_text
+msgid "Point 3."
+msgstr "نقطه 3."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_text
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_title_text
+msgid "Point 4."
+msgstr "نکته 4"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Portal and Website Views"
+msgstr "نمایشگاه های درگاه و تارنما"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__kanban_manual_description_change
+#, python-format
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__kanban_manual_description
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__kanban_manual_description
+msgid "Preview Summary"
+msgstr "خلاصه پیش نمایش"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__description
+msgid "Previous Article"
+msgstr "مقاله قبلی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__attachment_ids
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+msgid "Previous Attachments"
+msgstr "پیوست های قبلی"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+msgid "Previous Content"
+msgstr "محتوای قبلی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__section_id
+msgid "Previous Section"
+msgstr "بخش قبلی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__tag_ids
+msgid "Previous Tags"
+msgstr "برچسب های قبلی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__name
+msgid "Previous Title"
+msgstr "عنوان قبلی"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.js:0
+#, python-format
+msgid "Print"
+msgstr "چاپ"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_no_titles_printed
+msgid "Print without titles"
+msgstr "چاپ بدون عنوان"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__progress
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__progress
+msgid "Progress"
+msgstr "پیشرفت"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__module_knowsystem_website
+msgid "Publish to portal and website"
+msgstr "انتشار به درگاه و تارنما"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__published_name
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Published Title"
+msgstr "عنوان منتشر شده"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Published on"
+msgstr "منتشر شده در"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__rating_ids
+msgid "Ratings"
+msgstr "رتبه بندی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__user_group_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__user_group_ids
+msgid "Read access groups"
+msgstr "گروه های دسترسی را بخوانید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_quick_search
+msgid "Readonly"
+msgstr "باکره"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_template_view_form
+msgid "Reference"
+msgstr "مرجع"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Reference KnowSystem articles in Odoo activities"
+msgstr "مرجع مقالات System در فعالیت های Odoo"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_recommendations
+msgid "References"
+msgstr "منابع"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__used_in_email_compose
+msgid "Referred in emails"
+msgstr "در ایمیل ها ارجاع شده است"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__remove_edit_user_group_ids
+msgid "Remove edit access groups"
+msgstr "گروه های دسترسی ویرایش را حذف کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_groups_update__remove_user_group_ids
+msgid "Remove read access groups"
+msgstr "گروه های دسترسی خواندن را حذف کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_tags_update__to_remove_tag_ids
+msgid "Remove tags"
+msgstr "حذف برچسب ها"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.js:0
+#, python-format
+msgid "Rename"
+msgstr "نام بردن"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_restore
+#: model:ir.model.fields.selection,name:knowsystem.selection__article_update__activate__activate
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_kanban
+msgid "Restore"
+msgstr "بازگرداندن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+msgid "Restore this revision"
+msgstr "بازگرداندن این تجدید نظر"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_form
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form
+msgid "Restrict access"
+msgstr "دسترسی را محدود کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__user_group_ids
+msgid "Restrict access to"
+msgstr "دسترسی به"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#, python-format
+msgid "Revision"
+msgstr "تجدید نظر"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_search
+msgid "Revision Date"
+msgstr "تاریخ تجدید نظر"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__author_id
+msgid "Revision author"
+msgstr "بازنگری نویسنده"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__change_datetime
+msgid "Revision date"
+msgstr "تاریخ تجدید نظر"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article_revision.py:0
+#, python-format
+msgid "Revision of the article {} by {} on {}"
+msgstr "تجدید نظر در مقاله {} توسط {} on {}"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_article_revision_action
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__revision_ids
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_revisions
+#: model:mail.message.subtype,name:knowsystem.mt_knowsystem_revisions
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Revisions"
+msgstr "تجدید نظر"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Right"
+msgstr "حق"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options_border_widgets
+msgid "Round Corners"
+msgstr "گوشه های گرد"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیام کوتاه"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_ir_actions_server__safe_kms_action
+#: model:ir.model.fields,field_description:knowsystem.field_ir_cron__safe_kms_action
+msgid "Safe KMS Action"
+msgstr "اقدام KMS ایمن"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_editor/knowsystem_editor.xml:0
+#, python-format
+msgid "Save"
+msgstr "ذخیره"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_save_as_pdf
+msgid "Save as PDF"
+msgstr "به عنوان PDF ذخیره کنید"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_article_search
+msgid "Search Articles"
+msgstr "مقالات را جستجو کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__search
+msgid "Search in contents"
+msgstr "جستجو در مطالب"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__search_name_key
+msgid "Search in title"
+msgstr "جستجو در عنوان"
+
+#. module: knowsystem
+#. odoo-javascript
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#: model:ir.model,name:knowsystem.model_knowsystem_section
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__section_id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__section_change
+#, python-format
+msgid "Section"
+msgstr "قسمت"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_navigation/knowsystem_navigation.js:0
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_section_action
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__section_ids
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_sections
+#, python-format
+msgid "Sections"
+msgstr "بخش"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Select KnowSystem articles in email composers to add references in sent "
+"messages"
+msgstr ""
+"مقالات KnowSystem را در نویسندگان ایمیل انتخاب کنید تا ارجاعات را در پیام‌های ارسال شده اضافه کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_navigation/knowsystem_navigation.xml:0
+#, python-format
+msgid "Select all found"
+msgstr "همه پیدا شده را انتخاب کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__selected_article_ids
+#: model_terms:ir.ui.view,arch_db:knowsystem.article_search_form_view
+msgid "Selected Articles"
+msgstr "مقالات منتخب"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_manager/knowsystem_manager.xml:0
+#, python-format
+msgid ""
+"Selected articles\n"
+"                            ("
+msgstr ""
+"مقالات منتخب\n"
+"                            ("
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_custom_type__sequence
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__sequence
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_node__sequence
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__sequence
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tag__sequence
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__sequence
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__sequence
+msgid "Sequence"
+msgstr "ترتیب"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_ir_actions_server
+msgid "Server Action"
+msgstr "کنش کارپذیر"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.js:0
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.js:0
+#: model:ir.actions.act_window,name:knowsystem.res_config_settings_knowsystem_action
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+#, python-format
+msgid "Settings"
+msgstr "تنظیمات"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/dialogs/knowsystem_dialog/knowsystem_dialog.xml:0
+#, python-format
+msgid "Share URL"
+msgstr "URL را به اشتراک بگذارید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_share_link_type
+msgid "Share URL type"
+msgstr "نوع URL را به اشتراک بگذارید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_quick_search
+msgid "Sharing"
+msgstr "تقسیم"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__module_knowsystem_website_custom_fields
+msgid "Show custom fields in portal and website"
+msgstr "نمایش فیلدهای سفارشی در درگاه و تارنما"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Size"
+msgstr "اندازه"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Small"
+msgstr "کوچک"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options_border_line_widgets
+msgid "Solid"
+msgstr "محکم"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_navigation/knowsystem_navigation.xml:0
+#, python-format
+msgid "Sort by"
+msgstr "مرتب"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__knowsystem_backend_default_sorting
+msgid "Sorting Option"
+msgstr "گزینه مرتب سازی"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Statistics"
+msgstr "آمار"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت مبتنی بر فعالیتها\n"
+"تأخیر: موعد مقرر در حال حاضر تصویب شده است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه ریزی شده: فعالیت های آینده."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Stretch to Equal Height"
+msgstr "کشش به ارتفاع برابر"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__child_ids
+msgid "Sub Sections"
+msgstr "بخش های فرعی"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_form
+msgid "Subsections"
+msgstr "بخش"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_tilte_subtitle
+msgid "Subtitle"
+msgstr "عنوان"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/knowsystem_editor/knowsystem_editor.js:0
+#, python-format
+msgid "Successfully copied!"
+msgstr "با موفقیت کپی شد!"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__kanban_description
+msgid "Summary"
+msgstr "خلاصه"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_tag
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_filter__tag_id
+msgid "Tag"
+msgstr "نشان"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_navigation/knowsystem_navigation.js:0
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_tag_action
+#: model:ir.model.fields,field_description:knowsystem.field_article_search__tag_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__tag_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_revision__tags_change
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_tags
+#, python-format
+msgid "Tags"
+msgstr "برچسب ها"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_template_view_form
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+msgid "Tech"
+msgstr "فن"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_article_template_action_only_form
+#: model:ir.model.fields,field_description:knowsystem.field_create_from_template__template_id
+msgid "Template"
+msgstr "الگوی"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_article_template_action
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_templates
+msgid "Templates"
+msgstr "الگوها"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__stable
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article_template__stable
+msgid "Temporary"
+msgstr "موقت"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_card
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_color_boxes
+#, python-format
+msgid "Text"
+msgstr "متن"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text
+msgid "Text 1"
+msgstr "متن 1"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text
+msgid "Text 2"
+msgstr "متن 2"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text
+msgid "Text 3"
+msgstr "متن 3"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_text_highlight
+msgid "Text!"
+msgstr "متن!"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__active_till
+msgid "The article will be auto-archive after this date"
+msgstr "مقاله پس از این تاریخ به صورت خودکار خواهد بود"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"The option defines how article links should be shared. Internal URL is the "
+"link to the KnowSystem backend. Website URL is the link to the KnowSystem "
+"frontend (portal). Shared with token is the link to the KnowSystem frontend "
+"(portal) without security checks"
+msgstr ""
+"این گزینه نحوه اشتراک پیوندهای مقاله را مشخص می کند. URL داخلی پیوندی به "
+"Backend Scowsystem است. URL تارنما پیوندی به Frontend سامانه دانش (Portal) "
+"است. به اشتراک گذاشته شده با Token پیوند به Frontend سامانه دانش (درگاه) "
+"بدون بررسی های امنیتی است"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "The tool"
+msgstr "ابزار"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form_start
+msgid "There are no articles in this tour at the moment"
+msgstr "در حال حاضر هیچ مقاله ای در این تور وجود ندارد"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#, python-format
+msgid "There are no articles to print"
+msgstr "هیچ مقاله ای برای چاپ وجود ندارد"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#, python-format
+msgid "There are no revisions yet"
+msgstr "هنوز هیچ نسخه ای وجود ندارد"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__this_user_progress_id
+msgid "This User Progress"
+msgstr "این کاربر پیشرفت می کند"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__this_user_favorite
+msgid "This user favorite"
+msgstr "این کاربر مورد علاقه"
+
+#. module: knowsystem
+#. odoo-javascript
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_3_columns_text_images
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_tilte_subtitle
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_block_title_text
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_card
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_image_list
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_image_text
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_text_highlight
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_text_image
+#, python-format
+msgid "Title"
+msgstr "عنوان"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_search
+msgid "Today Activities"
+msgstr "فعالیت های امروز"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_tour
+#: model:ir.model.fields,field_description:knowsystem.field_add_to_tour__tour_id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_article__tour_id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__tour_id
+msgid "Tour"
+msgstr "تور"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_tour_action_form_article
+msgid "Tour Article"
+msgstr "مقاله"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__description
+msgid "Tour Description"
+msgstr "توضیح تور"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_tour_action_form_start
+msgid "Tour Start"
+msgstr "شروع تور"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__name
+msgid "Tour Title"
+msgstr "عنوان تور"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_learning_tours/knowsystem_learning_tours.xml:0
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_tour_action
+#: model:ir.ui.menu,name:knowsystem.menu_knowsystem_tours
+#, python-format
+msgid "Tours"
+msgstr "تورها"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Turn on the custom layout for articles' printing. Otherwise, the standard "
+"company layout will be used"
+msgstr ""
+"طرح سفارشی را برای چاپ مقالات روشن کنید. در غیر این صورت ، از طرح استاندارد "
+"شرکت استفاده می شود"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Turn on the quick access to KnowSystem articles from Odoo objects"
+msgstr "دسترسی سریع به مقالات سامانه دانش را از اشیاء دریک روشن کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Turn on to build documentation based on KnowSystem articles."
+msgstr "برای ساخت مستندات بر اساس مقالات سامانه دانش روشن کنید."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Turn on to establish direct links between Odoo products and KnowSystem "
+"articles to automatically generate frequently asked questions on eShop "
+"pages."
+msgstr ""
+"برای ایجاد پیوندهای مستقیم بین محصولات Odoo و مقالات Synowsystem روشن کنید "
+"تا به طور خودکار سؤالات متداول در صفحات ESHOP ایجاد شود."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Turn on to prepare custom fields for articles."
+msgstr "روشن کنید تا زمینه های سفارشی را برای مقالات تهیه کنید."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "Turn on to publish articles for portal users and website visitors."
+msgstr ""
+"برای انتشار مقالاتی برای کاربران درگاه و بازدید کنندگان تارنما روشن کنید."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Turn on to show article custom fields for portal users and website visitors."
+msgstr ""
+"روشن کنید تا زمینه های سفارشی مقاله را برای کاربران درگاه و بازدید کنندگان "
+"تارنما نشان دهید."
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"Turn on to translate articles, sections and tags to available in the "
+"databases languages."
+msgstr ""
+"برای ترجمه مقالات ، بخش ها و برچسب ها به زبان های پایگاه داده روشن کنید."
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثناء در ضبط."
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_navigation/knowsystem_navigation.js:0
+#, python-format
+msgid "Types"
+msgstr "انواع"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_unfollow
+msgid "Unfollow"
+msgstr "نادان"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__edit_access_user_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__edit_access_user_ids
+msgid "Update Access Users"
+msgstr "کاربران دسترسی را به روز کنید"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/dialogs/knowsystem_dialog/knowsystem_dialog.xml:0
+#, python-format
+msgid "Update Body"
+msgstr "بدنه را به روز کنید"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_update_section_action
+msgid "Update Section"
+msgstr "بخش بروزرسانی"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_update_groups
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__edit_user_group_ids
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_section__edit_user_group_ids
+msgid "Update access groups"
+msgstr "گروه های دسترسی را به روز کنید"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_article_update
+msgid "Update article (obsolete)"
+msgstr "مقاله به روزرسانی (منسوخ)"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_update_groups_action
+#: model:ir.model,name:knowsystem.model_article_groups_update
+msgid "Update groups"
+msgstr "گروه های به روزرسانی"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_update_category
+#: model:ir.model,name:knowsystem.model_article_section_update
+msgid "Update section"
+msgstr "بخش بروزرسانی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_article_update__activate
+msgid "Update state"
+msgstr "حالت به روز کردن"
+
+#. module: knowsystem
+#: model:ir.actions.act_window,name:knowsystem.knowsystem_update_tags_action
+#: model:ir.actions.server,name:knowsystem.knowsystem_article_update_tags
+#: model:ir.model,name:knowsystem.model_article_tags_update
+msgid "Update tags"
+msgstr "برچسب های به روزرسانی"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_res_config_settings__module_knowsystem_eshop
+msgid "Use for eCommerce FAQ"
+msgstr "برای سؤالات متداول تجارت الکترونیکی استفاده کنید"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_know_view_stat__user_id
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour_user__user_id
+msgid "User"
+msgstr "کاربر"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_knowsystem_tour_user
+msgid "User Progress"
+msgstr "پیشرفت کاربر"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__this_user_like_state
+msgid "Users Like State"
+msgstr "کاربران ایالت را دوست دارند"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form
+msgid "Users Progress"
+msgstr "کاربران پیشرفت می کنند"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_tour__user_ids
+msgid "Users progress"
+msgstr "کاربران پیشرفت می کنند"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__contributor_ids
+msgid "Users who have created or updated this article"
+msgstr "کاربرانی که این مقاله را ایجاد یا به روز کرده اند"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Vert. Alignment"
+msgstr "ورت تراز"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Vertical Alignment"
+msgstr "تراز عمودی"
+
+#. module: knowsystem
+#: model:ir.model,name:knowsystem.model_know_view_stat
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__view_stat_ids
+msgid "View Stats"
+msgstr "مشاهده آمار"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__views_number_internal
+#, python-format
+msgid "Views"
+msgstr "نمایش"
+
+#. module: knowsystem
+#: model:ir.model.fields,field_description:knowsystem.field_knowsystem_article__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های تارنما"
+
+#. module: knowsystem
+#: model:ir.model.fields,help:knowsystem.field_knowsystem_article__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات تارنما"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.snippet_options
+msgid "Width"
+msgstr "عرض"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#, python-format
+msgid "Write Date"
+msgstr "تاریخ نوشتن"
+
+#. module: knowsystem
+#. odoo-python
+#: code:addons/knowsystem/models/knowsystem_article.py:0
+#, python-format
+msgid "You have not selected any article"
+msgstr "شما هیچ مقاله ای را انتخاب نکرده اید"
+
+#. module: knowsystem
+#: model:ir.actions.server,name:knowsystem.cron_auto_archive_knowsystem_ir_actions_server
+msgid "[KnowSystem] Automatically archive articles"
+msgstr "[knowsystem] به طور خودکار مقالات بایگانی"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_manager/knowsystem_manager.xml:0
+#, python-format
+msgid "click to remove this item from selection"
+msgstr "برای حذف این مورد از انتخاب کلیک کنید"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_color_boxes
+msgid "comment"
+msgstr "تفسیر"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid "eCommerce FAQ Options"
+msgstr "گزینه های متداول در تجارت الکترونیک"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.res_config_settings_view_form
+msgid ""
+"is required (free if KnowSystem Website and Portal and KnowSystem: Custom "
+"Fields are installed)"
+msgstr ""
+"مورد نیاز است (اگر تارنما Scowsystem و Portal and سامانه دانش: زمینه های "
+"سفارشی نصب شده اند)"
+
+#. module: knowsystem
+#: model:ir.actions.report,print_report_name:knowsystem.action_report_knowsystem_article
+msgid "object.action_get_published_name()"
+msgstr "object.action_get_published_name ()"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/views/fields/revisions_table/revisions_table.xml:0
+#, python-format
+msgid "on"
+msgstr "در"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_form
+msgid "parent section"
+msgstr "بخش والدین"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_form
+msgid "parent tag"
+msgstr "برچسب والدین"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid "point 1"
+msgstr "نقطه 1"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid "point 2"
+msgstr "نقطه 2"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid "point 3"
+msgstr "نقطه 3"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_comparison
+msgid "point 4"
+msgstr "نقطه 4"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_revision_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_quick_search
+msgid "preview text"
+msgstr "متن پیش نمایش"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_recommendations
+msgid "reference 1"
+msgstr "مرجع 1"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_recommendations
+msgid "reference 2"
+msgstr "مرجع 2"
+
+#. module: knowsystem
+#. odoo-javascript
+#: code:addons/knowsystem/static/src/components/knowsystem_jstree_container/knowsystem_jstree_container.xml:0
+#, python-format
+msgid "search"
+msgstr "جستجو"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_section_view_form
+msgid "section"
+msgstr "قسمت"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tag_view_form
+msgid "tag"
+msgstr "نشان"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_form_viewer
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_article_view_quick_search
+msgid "tags"
+msgstr "برچسب ها"
+
+#. module: knowsystem
+#: model_terms:ir.ui.view,arch_db:knowsystem.knowsystem_tour_view_form
+msgid "title"
+msgstr "عنوان"

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_knowledge_request_ambassador_item_form" model="ir.ui.view">
+            <field name="name">knowledge.request.ambassador.item.form</field>
+            <field name="model">knowledge.request.ambassador.item</field>
+            <field name="arch" type="xml">
+                <form string="Request Ambassador Item Form">
+                    <sheet>
+                        <group string="Request Ambassador Item">
+                            <field name="request_id" options="{'no_open': True, 'no_create': True}"/>
+                            <field name="ambassador_item_id" options="{'no_open': True, 'no_create': True}"/>
+                            <field name="done"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_knowledge_request_ambassador_item_readonly_form" model="ir.ui.view">
+            <field name="name">knowledge.request.ambassador.item.readonly.form</field>
+            <field name="model">knowledge.request.ambassador.item</field>
+            <field name="arch" type="xml">
+                <form string="Ambassador Checklist item" create="false" edit="false" delete="false">
+                    <group>
+                        <group>
+                            <field name="ambassador_item_id" readonly="1" options="{'no_open': True, 'no_create': True}" string="Ambassador Item Id"/>
+                        </group>
+                        <group>
+                            <field name="done" readonly="1" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="ambassador_item_desc" readonly="1" widget="text"/>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_knowledge_request_ambassador_item_tree" model="ir.ui.view">
+            <field name="name">knowledge.request.ambassador.item.tree</field>
+            <field name="model">knowledge.request.ambassador.item</field>
+            <field name="arch" type="xml">
+                <tree string="Request Ambassador Item Tree" sample="1" create="false" delete="false"> 
+                    <field name="request_id"/>
+                    <field name="ambassador_item_id"/>
+                    <field name="done"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_knowledge_request_ambassador_item_filter" model="ir.ui.view">
+            <field name="name">knowledge.request.ambassador.item.search</field>
+            <field name="model">knowledge.request.ambassador.item</field>
+            <field name="arch" type="xml">
+                <search string="Request Ambassador Item Search">
+                    <field name="request_id"/>
+                    <field name="ambassador_item_id"/>
+                    <field name="done"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="knowledge_request_ambassador_item_action" model="ir.actions.act_window">
+            <field name="name">knowledge.request.ambassador.item.action</field>
+            <field name="res_model">knowledge.request.ambassador.item</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="ktt_telegram_project_task_form_inherit" model="ir.ui.view">
+            <field name="name">ktt.telegram.project.task.form.inherit</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="project.view_task_form2" />
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet/group/group/field[@name='project_id']" position="after">
+                    <field name="telegram_message_id" invisible="1" />
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,1216 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* is_mail_inbox
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-09 21:42+0000\n"
+"PO-Revision-Date: 2025-02-09 21:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#, python-format
+msgid ""
+"%s , %d loan installment left , without paid all installment , loan not "
+"going to close."
+msgstr ""
+"٪ S ، ٪ D اقساط وام باقی مانده ، بدون پرداخت تمام اقساط ، وام بسته نمی شود."
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#, python-format
+msgid "%s employee has already applied loan. "
+msgstr "کارمند ٪ S قبلاً وام اعمال کرده است."
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__record_alias_domain_id
+msgid "Alias Domain"
+msgstr "دامنه"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Archive"
+msgstr "بایگانی"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__archived
+#, python-format
+msgid "Archived"
+msgstr "بایگانی شده"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Attach Files"
+msgstr "پرونده های پیوست"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.email_compose_wizard_form
+msgid "Attach a file"
+msgstr "یک پرونده را ضمیمه کنید"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__attachment_ids
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__attachment_ids
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Attachments"
+msgstr "پیوست"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__author_id
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__author_id
+msgid "Author"
+msgstr "نویسنده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_email_compose_wizard__author_id
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__author_id
+msgid ""
+"Author of the message. If not set, email_from may hold an email address that"
+" did not match any partner."
+msgstr ""
+"نویسنده پیام. در صورت عدم تنظیم ، email_from ممکن است یک آدرس ایمیل نگه "
+"داشته باشد که با هیچ یک از همکار تجاری زندگی مطابقت نداشته باشد."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__author_avatar
+msgid "Author's avatar"
+msgstr "آواتار نویسنده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__auto_delete
+msgid "Auto Delete"
+msgstr "حذف خودکار"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "BCC"
+msgstr "سال قبل از میلاد"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_bcc
+msgid "Bcc"
+msgstr "سال قبل از میلاد"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__email_bcc
+msgid "Blank Carbon copy message recipients"
+msgstr "گیرندگان پیام کپی کربن خالی"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__body_content
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+#, python-format
+msgid "Body"
+msgstr "بدنه"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "CC"
+msgstr "سی سی"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.email_compose_wizard_form
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Cancel"
+msgstr "لغو کردن"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__cancel
+msgid "Cancelled"
+msgstr "لغو شده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__email_cc
+msgid "Carbon copy message recipients"
+msgstr "گیرندگان پیام کربن کپی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_cc
+msgid "Cc"
+msgstr "سی سی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__child_ids
+msgid "Child Messages"
+msgstr "پیام های کودک"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__email_compose_wizard__reply_to_mode__new
+msgid "Collect replies on a specific email address"
+msgstr "پاسخ ها را در یک آدرس ایمیل خاص جمع آوری کنید"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__record_company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Compose your email..."
+msgstr "ایمیل خود را تشکیل دهید ..."
+
+#. module: is_mail_inbox
+#: model:ir.ui.menu,name:is_mail_inbox.menu_mail_box_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__reply_to_force_new
+msgid "Considers answers as new thread"
+msgstr "پاسخ ها را به عنوان موضوع جدید می داند"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__body
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__body
+msgid "Contents"
+msgstr "مطالب"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Create"
+msgstr "ایجاد کردن"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__create_uid
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__create_date
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__starred
+msgid "Current user has a starred notification linked to this message"
+msgstr "کاربر فعلی دارای یک اعلان ستاره دار است که به این پیام مرتبط است"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__date
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__pinned_at
+msgid "Datetime at which the message has been pinned"
+msgstr "DateTime که در آن پیام پین شده است"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Delete"
+msgstr "حذف کردن"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__auto_delete
+msgid "Delete Emails"
+msgstr "ایمیل ها را حذف کنید"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Delete Forever"
+msgstr "برای همیشه حذف کنید"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__auto_delete_message
+msgid "Delete Message Copy"
+msgstr "کپی پیام را حذف کنید"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__exception
+msgid "Delivery Failed"
+msgstr "تحویل شکست خورد"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__display_name
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__display_name
+msgid "Display Name"
+msgstr "نام"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_email_compose_wizard__auto_delete_message
+msgid ""
+"Do not keep a copy of the email in the document communication history (mass "
+"mailing only)"
+msgstr ""
+"نسخه ای از ایمیل را در تاریخچه ارتباطات اسناد نگه ندارید (فقط پست "
+"الکترونیکی)"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Draft"
+msgstr "پیش نویس"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__email_add_signature
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_add_signature
+msgid "Email Add Signature"
+msgstr "ایمیل اضافه کردن امضا"
+
+#. module: is_mail_inbox
+#: model:ir.model,name:is_mail_inbox.model_email_compose_wizard
+msgid "Email Compose Wizard"
+msgstr "جادوگر آهنگسازی"
+
+#. module: is_mail_inbox
+#: model:ir.actions.act_window,name:is_mail_inbox.action_email_compose_wizard
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.email_compose_wizard_form
+msgid "Email Reply"
+msgstr "پاسخ ایمیل"
+
+#. module: is_mail_inbox
+#: model:ir.model,name:is_mail_inbox.model_mail_thread
+msgid "Email Thread"
+msgstr "موضوع ایمیل"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_to_name
+msgid "Email To Name"
+msgstr "ایمیل به نام"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__email_from
+msgid "Email address of the sender."
+msgstr "آدرس ایمیل فرستنده."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_email_compose_wizard__email_from
+msgid ""
+"Email address of the sender. This field is set when no matching partner is "
+"found and replaces the author_id field in the chatter."
+msgstr ""
+"آدرس ایمیل فرستنده. این قسمت زمانی تنظیم می شود که هیچ همکار تجاری تطبیقی ​​پیدا "
+"نشود و در پچ پچ ، زمینه نویسنده_id را جایگزین کند."
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Email message"
+msgstr "پیام ایمیل"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__is_internal
+msgid "Employee Only"
+msgstr "فقط کارمند"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#, python-format
+msgid "Employee is not allowed to request for this loan type."
+msgstr "کارمند مجاز به درخواست این نوع وام نیست."
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/models/mail_inbox.py:0
+#, python-format
+msgid ""
+"Error without exception. Probably due to concurrent access update of "
+"notification records. Please see with an administrator."
+msgstr ""
+"خطا بدون استثنا احتمالاً به دلیل به روزرسانی همزمان دسترسی سوابق اعلان. لطفا"
+" با یک مدیر مراجعه کنید."
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/models/mail_inbox.py:0
+#, python-format
+msgid ""
+"Error without exception. Probably due to sending an email without computed "
+"recipients."
+msgstr ""
+"خطا بدون استثنا احتمالاً به دلیل ارسال ایمیل بدون گیرنده های محاسبه شده است."
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.js:0
+#, python-format
+msgid "Failed! Email not sent."
+msgstr "شکست خورد! ایمیل ارسال نشده است."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__failure_reason
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Failure Reason"
+msgstr "دلیل عدم موفقیت"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__failure_reason
+msgid ""
+"Failure reason. This is usually the exception thrown by the email server, "
+"stored to ease the debugging of mailing issues."
+msgstr ""
+"دلیل شکست این معمولاً استثنائی است که توسط سرور ایمیل ذخیره می شود ، برای "
+"سهولت در اشکال زدایی مشکلات پستی ذخیره می شود."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__failure_type
+msgid "Failure type"
+msgstr "نوع شکست"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__starred_partner_ids
+msgid "Favorited By"
+msgstr "مورد علاقه توسط"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__email_from
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_from
+msgid "From"
+msgstr "از"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_from_name
+msgid "From Name"
+msgstr "نام"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__author_guest_id
+msgid "Guest"
+msgstr "مهمان"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__has_sms_error
+msgid "Has SMS error"
+msgstr "خطای پیامکی دارد"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__has_error
+msgid "Has error"
+msgstr "خطایی دارد"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__headers
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Headers"
+msgstr "عناوین"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__is_internal
+msgid ""
+"Hide to public / portal users, independently from subtype configuration."
+msgstr ""
+"به طور مستقل از پیکربندی زیرگروه ، به کاربران عمومی / درگاه پنهان شوید."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__id
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__scheduled_date
+msgid ""
+"If set, the queue manager will send the email after the date. If not set, "
+"the email will be send as soon as possible. Unless a timezone is specified, "
+"it is considered as being in UTC timezone."
+msgstr ""
+"در صورت تنظیم ، مدیر صف بعد از تاریخ ایمیل را ارسال می کند. در صورت عدم "
+"تنظیم ، ایمیل در اسرع وقت ارسال می شود. مگر اینکه منطقه زمانی مشخص شود ، در "
+"منطقه زمانی UTC در نظر گرفته می شود."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__reply_to_force_new
+msgid ""
+"If true, answers do not go in the original document discussion thread. "
+"Instead, it will check for the reply_to in tracking message-id and "
+"redirected accordingly. This has an impact on the generated message-id."
+msgstr ""
+"اگر درست باشد ، پاسخ ها در موضوع اصلی بحث در مورد سند نمی روند. درعوض ، در "
+"ردیابی پیام-ID را ردیابی می کند و به همین ترتیب هدایت می شود. این تأثیر در "
+"پیام-ID تولید شده دارد."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__fetchmail_server_id
+msgid "Inbound Mail Server"
+msgstr "سرور پست الکترونیکی"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Inbox"
+msgstr "صندوق ورودی"
+
+#. module: is_mail_inbox
+#: model:ir.ui.menu,name:is_mail_inbox.menu_mail_box_configuration_incoming
+msgid "Incoming Mail Servers"
+msgstr "سرورهای پستی ورودی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__is_current_user_or_guest_author
+msgid "Is Current User Or Guest Author"
+msgstr "آیا کاربر فعلی یا نویسنده مهمان است"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__is_read
+msgid "Is Read"
+msgstr "خوانده شده است"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__write_uid
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز شده توسط"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__write_date
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز شده در"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_layout_xmlid
+msgid "Layout"
+msgstr "طرح"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__letter_ids
+msgid "Letter"
+msgstr "نامه"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__link_preview_ids
+msgid "Link Previews"
+msgstr "پیش نمایش پیوند"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__mail_activity_type_id
+msgid "Mail Activity Type"
+msgstr "نوع فعالیت پستی"
+
+#. module: is_mail_inbox
+#: model:ir.ui.menu,name:is_mail_inbox.menu_root_mail_box
+msgid "Mail Box"
+msgstr "صندوق پستی"
+
+#. module: is_mail_inbox
+#: model:res.groups,name:is_mail_inbox.group_mail_box_config_user
+msgid "Mail Box Configuration"
+msgstr "پیکربندی کادر پستی"
+
+#. module: is_mail_inbox
+#: model:res.groups,name:is_mail_inbox.group_mail_box_user
+msgid "Mail Box User"
+msgstr "کاربر جعبه پستی"
+
+#. module: is_mail_inbox
+#: model:ir.actions.client,name:is_mail_inbox.action_mail_inbox
+#: model:ir.model,name:is_mail_inbox.model_mail_inbox
+msgid "Mail Inbox"
+msgstr "صندوق پستی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__mail_message_id_int
+msgid "Mail Message Id Int"
+msgstr "شناسه پیام پستی int"
+
+#. module: is_mail_inbox
+#: model:ir.model,name:is_mail_inbox.model_ir_mail_server
+msgid "Mail Server"
+msgstr "سرور ایمیل"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__is_notification
+msgid "Mail has been created to notify people of an existing mail.message"
+msgstr "نامه ایجاد شده است تا به مردم از یک نامه موجود اطلاع دهید."
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.js:0
+#, python-format
+msgid "Mail sent."
+msgstr "نامه ارسال شده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__mail_ids
+msgid "Mails"
+msgstr "نامه"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_email_compose_wizard__reply_to_force_new
+msgid ""
+"Manage answers as new incoming emails instead of replies going to the same "
+"thread."
+msgstr ""
+"به جای پاسخ هایی که به همان موضوع می روند ، پاسخ ها را به عنوان ایمیل های "
+"ورودی جدید مدیریت کنید."
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Mark as Read"
+msgstr "علامت گذاری به عنوان خوانده شده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__mailing_id
+msgid "Mass Mailing"
+msgstr "پستی گسترده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__mail_message_id
+msgid "Message"
+msgstr "پیام"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__record_name
+msgid "Message Record Name"
+msgstr "نام ضبط پیام"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__description
+msgid "Message description: either the subject, or the beginning of the body"
+msgstr "توضیحات پیام: یا موضوع یا آغاز بدن"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__email_to
+msgid "Message recipients (emails)"
+msgstr "دریافت کنندگان پیام (ایمیل)"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__references
+msgid "Message references, such as identifiers of previous messages"
+msgstr "منابع پیام ، مانند شناسه پیام های قبلی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__message_id
+msgid "Message unique identifier"
+msgstr "شناسه منحصر به فرد پیام"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__message_id
+msgid "Message-Id"
+msgstr "پیام"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__needaction
+msgid "Need Action"
+msgstr "نیاز به اقدام"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "New Email"
+msgstr "ایمیل جدید"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Next"
+msgstr "طرف دیگر"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__reply_to_force_new
+msgid "No threading for answers"
+msgstr "بدون موضوع برای پاسخ"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__is_notification
+msgid "Notification Email"
+msgstr "ایمیل اعلان"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__notification_ids
+msgid "Notifications"
+msgstr "اعلان ها"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_ir_mail_server__smtp_pass
+msgid "Optional password for SMTP authentication"
+msgstr "رمز عبور اختیاری برای احراز هویت SMTP"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_ir_mail_server__smtp_user
+msgid "Optional username for SMTP authentication"
+msgstr "نام کاربری اختیاری برای احراز هویت SMTP"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_email_compose_wizard__reply_to_mode
+msgid ""
+"Original Discussion: Answers go in the original document discussion thread. \n"
+" Another Email Address: Answers go to the email address mentioned in the tracking message-id instead of original document discussion thread. \n"
+" This has an impact on the generated message-id."
+msgstr ""
+"بحث اصلی: پاسخ ها در موضوع بحث اصلی سند می روند. \n"
+" آدرس ایمیل دیگر: پاسخ ها به آدرس ایمیل ذکر شده در پیام ردیابی-ID به جای موضوع اصلی بحث در مورد اسناد می روند. \n"
+" این تأثیر در پیام-ID تولید شده دارد."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__original_mail_message_id
+msgid "Original Mail Message"
+msgstr "پیام پستی اصلی"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Outbox"
+msgstr "صندوقچه"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__outgoing
+msgid "Outgoing"
+msgstr "در حال خروج"
+
+#. module: is_mail_inbox
+#: model:ir.ui.menu,name:is_mail_inbox.menu_mail_box_configuration_outgoing
+msgid "Outgoing Mail Servers"
+msgstr "سرورهای پستی در حال خروج"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__mail_server_id
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__mail_server_id
+msgid "Outgoing mail server"
+msgstr "سرور پست الکترونیکی"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Pager"
+msgstr "پیجر"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__parent_author_name
+msgid "Parent Author Name"
+msgstr "نام نویسنده مادر"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__parent_body
+msgid "Parent Body"
+msgstr "بدنه پدر و مادر"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__parent_id
+msgid "Parent Email"
+msgstr "ایمیل والدین"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__parent_id
+msgid "Parent Message"
+msgstr "پیام والدین"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__notified_partner_ids
+msgid "Partners with Need Action"
+msgstr "شرکای دارای اقدام نیازمند"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_ir_mail_server__smtp_pass
+msgid "Password"
+msgstr "گذرواژه"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__pinned_at
+msgid "Pinned"
+msgstr "بریده شده"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#, python-format
+msgid "Please Upload Loan Mandatory Document."
+msgstr "لطفاً سند اجباری وام را بارگذاری کنید."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__preview
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Previous"
+msgstr "قبلی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__profile_pic
+msgid "Profile Picture"
+msgstr "عکس مشخصه"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__rating_value
+msgid "Rating Value"
+msgstr "ارزش رتبه بندی"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/wizard/email_compose_wizard.py:0
+#, python-format
+msgid "Re:"
+msgstr "پاسخ:"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__reaction_ids
+msgid "Reactions"
+msgstr "واکنش"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__received
+msgid "Received"
+msgstr "دریافت شده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__partner_ids
+msgid "Recipients"
+msgstr "دریافت کنندگان"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__references
+msgid "References"
+msgstr "منابع"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Refresh"
+msgstr "تازه کردن"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__res_id
+msgid "Related Document ID"
+msgstr "شناسه سند مرتبط"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__model
+msgid "Related Document Model"
+msgstr "مدل سند مرتبط"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__wa_message_ids
+msgid "Related WhatsApp Messages"
+msgstr "پیام های مرتبط با WhatsApp"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__rating_ids
+msgid "Related ratings"
+msgstr "رتبه بندی های مرتبط"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__reply_to_mode
+msgid "Replies"
+msgstr "پاسخ"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Reply"
+msgstr "پاسخ"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__reply_to
+msgid "Reply To"
+msgstr "پاسخ دادن"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_email_compose_wizard__reply_to
+msgid "Reply email address."
+msgstr "پاسخ آدرس ایمیل."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__reply_to
+msgid ""
+"Reply email address. Setting the reply_to bypasses the automatic thread "
+"creation."
+msgstr "پاسخ آدرس ایمیل. تنظیم پاسخ_ به ایجاد موضوع اتوماتیک."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__reply_to
+msgid "Reply-To"
+msgstr "پاسخ"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__restricted_attachment_count
+msgid "Restricted attachments"
+msgstr "پیوست های محدود"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Retry"
+msgstr "مجدداً"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__body_html
+msgid "Rich-text/HTML message"
+msgstr "پیام غنی/پیام HTML"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_ir_mail_server__smtp_ssl_certificate
+msgid "SSL Certificate"
+msgstr "گواهینامه SSL"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_ir_mail_server__smtp_ssl_private_key
+msgid "SSL Private Key"
+msgstr "کلید خصوصی SSL"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_ir_mail_server__smtp_ssl_certificate
+msgid "SSL certificate used for authentication"
+msgstr "گواهی SSL برای تأیید اعتبار استفاده می شود"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_ir_mail_server__smtp_ssl_private_key
+msgid "SSL private key used for authentication"
+msgstr "کلید خصوصی SSL برای تأیید اعتبار استفاده می شود"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Save to Draft"
+msgstr "صرفه جویی در پیش نویس"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__scheduled_date
+msgid "Scheduled Send Date"
+msgstr "تاریخ ارسال برنامه ریزی شده"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Search Emails"
+msgstr "ایمیل جستجو کنید"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.email_compose_wizard_form
+#, python-format
+msgid "Send"
+msgstr "ارسال کردن"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Send Now"
+msgstr "اکنون ارسال کنید"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__sent
+#, python-format
+msgid "Sent"
+msgstr "ارسال شده"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__description
+msgid "Short description"
+msgstr "توصیف کوتاه"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__snailmail_error
+msgid "Snailmail message in error"
+msgstr "پیام snailmail در خطا"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__starred
+msgid "Starred"
+msgstr "ستاره دار"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__mailing_trace_ids
+msgid "Statistics"
+msgstr "آمار"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__state
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "Status"
+msgstr "حالت"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__email_compose_wizard__reply_to_mode__update
+msgid "Store email and replies in the chatter of each record"
+msgstr "ایمیل و پاسخ ها را در پچ پچ هر رکورد ذخیره کنید"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: model:ir.model.fields,field_description:is_mail_inbox.field_email_compose_wizard__subject
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__subject
+#, python-format
+msgid "Subject"
+msgstr "موضوع"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__subtype_id
+msgid "Subtype"
+msgstr "نوع"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__body_html
+msgid "Text Contents"
+msgstr "مطالب متن"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_proof_type.py:0
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_proof_type.py:0
+#, python-format
+msgid "The code must be unique !"
+msgstr "کد باید منحصر به فرد باشد!"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__preview
+msgid "The text-only beginning of the body used as email preview."
+msgstr "فقط شروع متن بدنه به عنوان پیش نمایش ایمیل استفاده می شود."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_email_compose_wizard__auto_delete
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__auto_delete
+msgid ""
+"This option permanently removes any track of email after it's been sent, "
+"including from the Technical menu in the Settings, in order to preserve "
+"storage space of your Odoo database."
+msgstr ""
+"این گزینه به منظور حفظ فضای ذخیره سازی پایگاه داده Odoo ، هرگونه مسیر ایمیل "
+"را پس از ارسال ، از جمله از فهرست امکانات فنی در تنظیمات ، حذف می کند."
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__email_to
+#, python-format
+msgid "To"
+msgstr "به"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__recipient_ids
+msgid "To (Partners)"
+msgstr "به (شرکا)"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__tracking_value_ids
+msgid ""
+"Tracked values are stored in a separate model. This field allow to "
+"reconstruct the tracking and to generate statistics on the model."
+msgstr ""
+"مقادیر ردیابی شده در یک مدل جداگانه ذخیره می شوند. این زمینه امکان بازسازی "
+"ردیابی و ایجاد آماری در مورد مدل را فراهم می کند."
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__tracking_value_ids
+msgid "Tracking values"
+msgstr "مقادیر ردیابی"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "Trash"
+msgstr "زباله"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__trash
+msgid "Trashed"
+msgstr "قیراطی"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__message_type
+msgid "Type"
+msgstr "نوع"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_mail_inbox__unrestricted_attachment_ids
+msgid "Unrestricted Attachments"
+msgstr "پیوست های بدون محدودیت"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,help:is_mail_inbox.field_mail_inbox__message_type
+msgid ""
+"Used to categorize message generator\n"
+"'email': generated by an incoming email e.g. mailgateway\n"
+"'comment': generated by user input e.g. through discuss or composer\n"
+"'email_outgoing': generated by a mailing\n"
+"'notification': generated by system e.g. tracking messages\n"
+"'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+"'user_notification': generated for a specific recipient"
+msgstr ""
+"برای طبقه بندی ژنراتور پیام استفاده می شود\n"
+"\"ایمیل\": توسط یک ایمیل دریافتی به عنوان مثال تولید می شود. پست الکترونیکی\n"
+"\"نظر\": توسط ورودی کاربر به عنوان مثال تولید می شود. از طریق بحث یا آهنگساز\n"
+"\"email_outing\": از طریق پستی تولید می شود\n"
+"\"اعلان\": توسط سیستم به عنوان مثال تولید می شود پیگیری پیام ها\n"
+"'auto_comment': تولید شده توسط مکانیسم اطلاع رسانی خودکار به عنوان مثال تصدیق\n"
+"\"user_notification\": برای یک گیرنده خاص تولید می شود"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "User"
+msgstr "کاربر"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields,field_description:is_mail_inbox.field_ir_mail_server__smtp_user
+msgid "Username"
+msgstr "نام کاربری"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.email_compose_wizard_form
+msgid "Welcome to MyCompany!"
+msgstr "به MyCompany خوش آمدید!"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.email_compose_wizard_form
+msgid "Write your message here..."
+msgstr "پیام خود را اینجا بنویسید ..."
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "YYYY-MM-DD HH:MM:SS"
+msgstr "yyyy-mm-dd hh: mm: ss"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#, python-format
+msgid "You can approve this loan after  %s "
+msgstr "شما می توانید این وام را پس از ٪ s تأیید کنید"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#, python-format
+msgid "You can not apply for loan in next  %s   months"
+msgstr "شما نمی توانید در ماه های بعدی برای وام درخواست کنید"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "You do not have access to"
+msgstr "شما به آن دسترسی ندارید"
+
+#. module: is_mail_inbox
+#. odoo-python
+#: code:addons/is_mail_inbox/bi_hr_employee_loan/models/loan_request.py:0
+#, python-format
+msgid "Your maximum amount to apply for loan is %s "
+msgstr "بیشینه مبلغ شما برای درخواست وام ٪ s است"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "attachment(s) of this email."
+msgstr "پیوست (های) این ایمیل."
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "by"
+msgstr "از طرف"
+
+#. module: is_mail_inbox
+#: model:ir.model.fields.selection,name:is_mail_inbox.selection__mail_inbox__state__draft
+msgid "draft"
+msgstr "پیش نویس"
+
+#. module: is_mail_inbox
+#: model_terms:ir.ui.view,arch_db:is_mail_inbox.view_mail_inbox_form
+msgid "on"
+msgstr "در"
+
+#. module: is_mail_inbox
+#. odoo-javascript
+#: code:addons/is_mail_inbox/static/src/components/mail_inbox/mail_inbox.xml:0
+#, python-format
+msgid "subject"
+msgstr "موضوع"

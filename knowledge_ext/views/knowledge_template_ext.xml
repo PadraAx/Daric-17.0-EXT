@@ -1,0 +1,89 @@
+<odoo>
+  <data>
+        <record id="knowledge_article_template_ext_view_form" model="ir.ui.view">
+            <field name="name">knowledge.article.template.ext.view.form</field>
+            <field name="model">knowledge.article</field>
+            <field name="inherit_id" ref="knowledge.knowledge_article_template_view_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//form[last()]" position="attributes">
+                    <attribute name="js_class">knowledge_article_extra_view_form</attribute>
+                    <attribute name="disable_autofocus">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='icon']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='template_body']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//group[last()]" position="after">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <span class="nav-link active" id="nav-content-tab" data-bs-toggle="tab" data-bs-target="#nav-content" type="button" role="tab" aria-controls="nav-content" aria-selected="true">Content</span>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active p-3" id="nav-content" role="content" aria-labelledby="nav-content-tab">
+                            <!-- Article header -->
+                            <widget name="knowledge_ext_topbar"/>
+
+                            <div class="flex-grow-1 position-relative">
+                                <div class="o_scroll_view o_knowledge_main_view">
+                                    <div class="row p-0 m-0" style="min-height: 100%">
+                                        <div class="d-flex col-12 col-lg position-relative p-0">
+                                            <div class="o_scroll_view_lg">
+                                                <widget name="knowledge_comments_handler"/>
+                                                <!-- Article body -->
+                                                <div class="o_knowledge_body d-flex flex-column" >
+                                                    <!-- Full Width handling -->
+                                                    <span class="o_knowledge_article_view_form_dynamic_width d-none"/>
+                                                    <!-- Article Cover -->
+                                                    <field name="cover_image_url" invisible="1"/>
+                                                    <field name="cover_image_position"  invisible="1"/>
+                                                    <widget name="knowledge_cover_ext" />
+                                                    <!-- Article Icon -->
+                                                    <field name="icon" widget="knowledge_icon" class="o_knowledge_icon o_large mt-n3 mb-n4" />
+                                                    <!-- Article body -->
+                                                    <div class="o_knowledge_editor mt-3" >
+                                                        <field name="template_body" widget="knowledge_article_html_field" class="o_field_html" no_label="1" groups="base.group_user"
+                                                            options="{'collaborative': true, 'collaborative_trigger': 'start', 'resizable': False, 'knowledge_commands': true}"
+                                                            />
+                                                        <!-- Portal users get some commands disabled, notably /image and /file, as they don't have access to ir.attachment -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- No Content Helper -->
+                                            <div class="o_view_nocontent" invisible="id">
+                                                <div class="o_nocontent_help">
+                                                    <p class="o_view_nocontent_smiling_face">
+                                                            No article yet.
+                                                    </p>
+                                                    <p>
+                                                        <a role="button" class="o_nocontent_create_btn">
+                                                            Create an article
+                                                        </a>
+                                                        to unleash the power of Knowledge !
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Properties -->
+                                        <widget name="knowledge_properties_panel"/>
+                                        <!-- Chatter -->
+                                        <widget name="knowledge_chatter_panel" groups="base.group_user"/>
+                                        <!-- Comments Panel -->
+                                        <widget name="knowledge_comments_panel"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <field name="icon" invisible="1"/>
+                          
+                        </div>
+                    </div>
+                  
+                </xpath>
+                
+            </field>
+        </record>
+
+  </data>
+</odoo>

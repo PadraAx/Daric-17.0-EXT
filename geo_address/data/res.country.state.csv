@@ -1,0 +1,32 @@
+id,country_id:id,name,code,iso_code
+state_ir_10,base.ir,استان آذربايجان شرقي,10,IR-01
+state_ir_11,base.ir,استان آذربايجان غربي,11,IR-02
+state_ir_12,base.ir,استان اصفهان,12,IR-04
+state_ir_13,base.ir,استان خراسان رضوي,13,IR-30
+state_ir_14,base.ir,استان خوزستان,14,IR-10
+state_ir_15,base.ir,استان فارس,15,IR-14
+state_ir_16,base.ir,استان کرمان,16,IR-15
+state_ir_17,base.ir,استان کرمانشاه,17,IR-17
+state_ir_18,base.ir,استان گيلان,18,IR-19
+state_ir_19,base.ir,استان مازندران,19,IR-21
+state_ir_20,base.ir,استان مرکزي,20,IR-22
+state_ir_21,base.ir,استان سيستان و بلوچستان,21,IR-13
+state_ir_22,base.ir,استان کردستان,22,IR-16
+state_ir_23,base.ir,استان هرمزگان,23,IR-23
+state_ir_24,base.ir,استان بوشهر,24,IR-06
+state_ir_25,base.ir,استان چهارمحال و بختياري,25,IR-08
+state_ir_26,base.ir,استان زنجان,26,IR-11
+state_ir_27,base.ir,استان لرستان,27,IR-20
+state_ir_28,base.ir,استان همدان,28,IR-24
+state_ir_29,base.ir,استان يزد,29,IR-25
+state_ir_30,base.ir,استان ايلام,30,IR-05
+state_ir_31,base.ir,استان سمنان,31,IR-12
+state_ir_32,base.ir,استان کهگيلويه و بويراحمد,32,IR-18
+state_ir_33,base.ir,استان تهران,33,IR-07
+state_ir_34,base.ir,استان اردبيل,34,IR-03
+state_ir_35,base.ir,استان قم,35,IR-26
+state_ir_36,base.ir,استان قزوين,36,IR-28
+state_ir_37,base.ir,استان گلستان,37,IR-27
+state_ir_38,base.ir,استان خراسان جنوبي,38,IR-29
+state_ir_39,base.ir,استان خراسان شمالي,39,IR-31
+state_ir_40,base.ir,استان البرز,40,IR-32

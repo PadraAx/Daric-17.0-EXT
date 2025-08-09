@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="base.default_user" model="res.users">
+            <field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]"/>
+        </record>
+
+        <record id="hr_attendance.group_hr_attendance_officer" model="res.groups">
+            <field name="category_id" eval="ref('base.module_category_human_resources_attendances')" />
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+            <field name="name">HRSS-Officer</field>
+        </record>
+
+    </data>
+
+    <!-- rules -->
+    <!-- employee -->
+    <record id="hr_attendance_user_employee_read_rule" model="ir.rule">
+        <field name="name">Attendance user can only read own records.</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('id', '=', user.employee_id.id),
+                                                ('parent_id', '=', user.employee_id.id),
+                                                ('attendance_manager_id', '=', user.id)]
+        </field>
+    </record>
+
+    <record id="hr_attendance_hrss_employee_read_rule" model="ir.rule">
+        <field name="name">Attendance hrss can read all employee records.</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('hr_attendance.group_hr_attendance_officer'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_attendance_admin_employee_read_rule" model="ir.rule">
+        <field name="name">Attendance admin can read all employee records.</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('hr_attendance.group_hr_attendance_manager'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <!-- attendance -->
+    <record id="hr_attendance_ext_user_attendance_read_rule" model="ir.rule">
+        <field name="name">Attendance user and responsible read access on attendance.</field>
+        <field name="model_id" ref="model_hr_attendance"/>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('employee_id', '=', user.employee_id.id),
+                                                ('employee_id.parent_id', '=', user.employee_id.id),
+                                                ('employee_id.attendance_manager_id', '=', user.id)]</field>
+    </record>
+
+    <record id="hr_attendance_ext_user_attendance_write_rule" model="ir.rule">
+        <field name="name">Attendance user write access on attendance.</field>
+        <field name="model_id" ref="model_hr_attendance"/>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+        <field name="perm_read" eval="0"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">[('employee_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_attendance_hrss_attendance_rule" model="ir.rule">
+        <field name="name">Attendance HRSS have full access on attendance.</field>
+        <field name="model_id" ref="model_hr_attendance"/>
+        <field name="groups" eval="[(4, ref('hr_attendance.group_hr_attendance_officer'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|',('employee_id.company_id','=',False),('employee_id.company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_attendance_admin_attendance_rule" model="ir.rule">
+        <field name="name">Attendance admin have full access on attendance.</field>
+        <field name="model_id" ref="model_hr_attendance"/>
+        <field name="groups" eval="[(4, ref('hr_attendance.group_hr_attendance_manager'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|',('employee_id.company_id','=',False),('employee_id.company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_attendance_hrbp_rule" model="ir.rule">
+        <field name="name">HRBP has read access on his/her department attendances.</field>
+        <field name="model_id" ref="model_hr_attendance"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_business_partner'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('employee_id.department_id.hrbp_id', '=', user.employee_id.id),
+                                                ('employee_id.department_id.hrbp_associate_ids', 'in', user.employee_id.ids),
+                                                ('employee_id', '=', user.employee_id.id)]</field>
+    </record>
+
+</odoo>

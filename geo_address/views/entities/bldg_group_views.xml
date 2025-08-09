@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 1. Form view: add the two required parent-division fields -->
+    <record id="view_form_bldg_group" model="ir.ui.view">
+        <field name="name">bldg.group.form</field>
+        <field name="model">bldg.group</field>
+        <field name="arch" type="xml">
+            <form string="Building Group">
+                <sheet>
+                    <div style="margin-top: 10px; min-width: 250px; width: 100%;">
+                        <span class="o_form_label">
+                            <strong>Hierarchical ID</strong>
+                        </span>
+                        <field name="hierarchical_id" nolabel="1" readonly="1" style="font-size: 1.25rem; font-weight: 600;"/>
+                    </div>
+                    <div style="margin-top: 10px; min-width: 250px; width: 100%;">
+                        <span class="o_form_label">
+                            <strong>Name</strong>
+                        </span>
+                        <field name="name" nolabel="1" class="o_form_field" style="font-size: 1rem; font-weight: 600;"/>
+                    </div>
+                    <group>
+                        <group string="Details">
+                            <field name="is_complex" invisible="1"/>
+                            <field name="bldg_group_type_id"/>
+                            <field name="location_type"/>
+                            <field name="bldg_count"/>
+                        </group>
+                        <group string= "Location">
+                            <field name="available_city_ids" invisible="1"/>
+                            <field name="available_district_ids" invisible="1"/>
+                            <field name="city_id" invisible="location_type != 'urban'"/>
+                            <field name="city_div_id" domain="[('city_id', '=', city_id)]" invisible="location_type != 'urban'"/>
+                            <field name="rural_dist_id" invisible="location_type != 'rural'"/>
+                            <field name="rural_dist_div_id" domain="[('rural_dist_id', '=', rural_dist_id)]" invisible="location_type != 'rural'"/>
+                            <field name="display_name" string="Path"/>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="Buildings">
+                                <field name="bldg_ids">
+                                    <tree>
+                                        <field name="hierarchical_id"/>
+                                        <field name="display_name"/>
+                                        <field name="physical_type_id"/>
+                                        <field name="category_id"/>
+                                        <field name="floor_count"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- 2. Tree view: show divisions so users can see the parent quickly -->
+    <record id="view_tree_bldg_group" model="ir.ui.view">
+        <field name="name">bldg.group.tree</field>
+        <field name="model">bldg.group</field>
+        <field name="arch" type="xml">
+            <tree string="Building Groups">
+                <field name="hierarchical_id"/>
+                <field name="bldg_group_type_id"/>
+                <field name="name"/>
+                <field name="city_div_id"/>
+                <field name="rural_dist_div_id"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <!-- 3. Action: unchanged -->
+    <record id="action_bldg_group" model="ir.actions.act_window">
+        <field name="name">Building Groups</field>
+        <field name="res_model">bldg.group</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

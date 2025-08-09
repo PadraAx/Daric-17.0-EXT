@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="hr_view_employee_form_hide_chatter" model="ir.ui.view">
+            <field name="name">employee hide chatter</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="priority">101</field>
+          
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('oe_chatter')]" position="replace">
+                    <div class="oe_chatter"  groups="hr.group_hr_business_partner,hr.group_hr_user">
+                        <field name="message_follower_ids" />
+                        <field name="activity_ids" />
+                        <field name="message_ids" />
+                      </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

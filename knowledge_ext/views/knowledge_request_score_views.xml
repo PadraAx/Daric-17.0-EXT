@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_knowledge_request_score_form" model="ir.ui.view">
+            <field name="name">knowledge.request.score.form</field>
+            <field name="model">knowledge.request.score</field>
+            <field name="arch" type="xml">
+                <form string="Request Score Form">
+                    <sheet>
+                        <group string="Score">
+                            <field name="score"/>
+                            <field name="request_id" options="{'no_open': True, 'no_create': True}"/>
+                            <field name="score_id" options="{'no_open': True, 'no_create': True}"/>
+                        </group>
+                    </sheet>
+
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_knowledge_request_score_readonly_form" model="ir.ui.view">
+            <field name="name">knowledge.request.score.readonly.form</field>
+            <field name="model">knowledge.request.score</field>
+            <field name="arch" type="xml">
+                <form string="Knowledge Request Score readonly Form" create="false" edit="false" delete="false">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="score_id" readonly="1" options="{'no_open': True, 'no_create': True}" string="Name"/>
+                            </group>
+                            <group>
+                                <field name="score" readonly="1" />
+                                <field name="confirm" readonly="1" />
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="score_desc" readonly="1" widget="text"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_knowledge_request_score_tree" model="ir.ui.view">
+            <field name="name">knowledge.request.score.tree</field>
+            <field name="model">knowledge.request.score</field>
+            <field name="arch" type="xml">
+                <tree string="Request Tree" sample="1" create="false" delete="false"> 
+                    <field name="score"/>
+                    <field name="request_id"/>
+                    <field name="score_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_knowledge_request_score_filter" model="ir.ui.view">
+            <field name="name">knowledge.request.score.search</field>
+            <field name="model">knowledge.request.score</field>
+            <field name="arch" type="xml">
+                <search string="Request Search">
+                    <field name="score"/>
+                    <field name="request_id"/>
+                    <field name="score_id"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="knowledge_request_score_action" model="ir.actions.act_window">
+            <field name="name">Request Score</field>
+            <field name="res_model">knowledge.request.score</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

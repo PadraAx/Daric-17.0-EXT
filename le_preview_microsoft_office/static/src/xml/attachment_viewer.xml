@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="web.FileViewer" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[@t-if='isViewable']" position="inside">
+            <i t-if="state.file.isOffice" class="fa fa-file-text" role="img" title="Office file" />
+        </xpath>
+        <xpath expr="//div[hasclass('o-FileViewer-main')]" position="inside">
+            <iframe t-if="state.file.isOffice" class="o_AttachmentViewer_view o_AttachmentViewer_viewIframe o_AttachmentViewer_office" t-att-src="state.file.defaultSource" />
+        </xpath>
+    </t>
+</templates>

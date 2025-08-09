@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="wizard_supervisor_mark_view" model="ir.ui.view">
+            <field name="name">Succession of supervisor</field>
+            <field name="model">wizard.supervisor.mark</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <group>
+                            <field name="expert_group" invisible = "1" options="{'no_open': True, 'no_create': True}"/>
+                            <field name="request_id"  invisible="1"/>
+                            <field name="expert_ids"  invisible="1"/>
+                            <field name="user_id" readonly="expert_group"  domain="[('id', 'in', expert_ids)]" options="{'no_open': True, 'no_create': True}"/>
+                            <field name="message" nolabel="1" style="color: red" widget="text" colspan="2"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button string="Apply" class="btn btn-primary" type="object" name="update_expert_score"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="wizard_supervisor_mark_action" model="ir.actions.act_window">
+            <field name="name">Confirm button action</field>
+            <field name="res_model">wizard.supervisor.mark</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>

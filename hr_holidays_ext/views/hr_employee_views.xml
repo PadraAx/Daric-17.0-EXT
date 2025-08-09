@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+  <!-- Employee View -->
+    <record id="hr_holiday_ext_employee_form" model="ir.ui.view">
+      <field name="name">hr.holiday.ext.employee.form</field>
+      <field name="model">hr.employee</field>
+      <field name="inherit_id" ref="employee_ext.hr_employee_view_ext_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//page[@name='public']//div[@id='o_work_employee_main']//group[@name='managers']" position="inside">
+          <field name="leave_manager_id" widget="many2one_avatar_user"/>
+        </xpath>
+      </field>
+    </record>
+      
+  </data>
+</odoo>

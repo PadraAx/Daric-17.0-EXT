@@ -1,0 +1,375 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ks_custom_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 22:03+0000\n"
+"PO-Revision-Date: 2025-02-12 22:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ir_model__abstract
+msgid "Abstract Model"
+msgstr "مدل انتزاعی"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_active
+msgid "Active"
+msgstr "فعال"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_alter_values
+#: model_terms:ir.ui.view,arch_db:ks_custom_report.form
+msgid "Alter Values"
+msgstr "تغییر ارزش ها"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__create_uid
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__create_uid
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__create_date
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__create_date
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_custom_query
+#: model:ir.model.fields.selection,name:ks_custom_report.selection__ks_custom_report_ks_report__ks_cr_query_type__custom_query
+msgid "Custom Query"
+msgstr "پُرسمان سفارشی"
+
+#. module: ks_custom_report
+#. odoo-python
+#: code:addons/ks_custom_report/models/models.py:0
+#, python-format
+msgid "Custom fields must have a name that starts with 'x_' !"
+msgstr "ستونهای سفارشی باید نامی داشته باشند که با 'x_' شروع شود!"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_day
+msgid "Day"
+msgstr "روز"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__display_name
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__display_name
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_model_field_chan
+#: model:ir.model.fields.selection,name:ks_custom_report.selection__ks_custom_report_ks_report__ks_cr_query_type__field_chain
+msgid "Field Chain"
+msgstr "زنجیره ستون"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_model_update
+msgid "Field Chain Model Update"
+msgstr "به روز رسانی مدل زنجیره ستون"
+
+#. module: ks_custom_report
+#: model_terms:ir.ui.view,arch_db:ks_custom_report.form
+msgid "Field Detail"
+msgstr "جزئیات ستون"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__ks_display_name
+msgid "Field Display Name"
+msgstr "نام نمایشی ستون"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__name
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__name
+msgid "Field Name"
+msgstr "نام ستون"
+
+#. module: ks_custom_report
+#: model_terms:ir.ui.view,arch_db:ks_custom_report.form
+msgid "General Info"
+msgstr "اطلاعات عمومی"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_group_access
+msgid "Group Access"
+msgstr "دسترسی گروهی"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__group_by
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_incl_group_filter
+msgid "Group Filter"
+msgstr "پالایه  گروه"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_hour
+msgid "Hour"
+msgstr "ساعت"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__id
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__id
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__write_uid
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__write_uid
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__write_date
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__write_date
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_visible_date_fields
+msgid "Make visible Date Fields"
+msgstr "ستونهای تاریخ قابل مشاهده را ایجاد کنید"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_visible_operator_fields
+msgid "Make visible Operator Fields"
+msgstr "ستونهای اپراتور قابل مشاهده بسازید"
+
+#. module: ks_custom_report
+#: model_terms:ir.ui.view,arch_db:ks_custom_report.form
+msgid "Menu Info"
+msgstr "اطلاعات فهرست امکانات"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_menu_name
+msgid "Menu Name"
+msgstr "نام فهرست امکانات"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_menu_priority
+msgid "Menu Priority"
+msgstr "اولویت فهرست امکانات"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_model_id
+msgid "Model"
+msgstr "مدل"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_model_name
+msgid "Model Name"
+msgstr "نام مدل"
+
+#. module: ks_custom_report
+#: model:ir.model,name:ks_custom_report.model_ir_model
+msgid "Models"
+msgstr "مدل ها"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_month
+msgid "Month"
+msgstr "ماه"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_operator
+msgid "Operator"
+msgstr "اپراتور"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_custom_query_report_column_ids
+msgid "Query Report Fields"
+msgstr "ستونهای گزارش پُرسمان"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__ks_cr_model_id
+msgid "Query Report Model"
+msgstr "مدل گزارش پُرسمان"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_query_type
+msgid "Query Type"
+msgstr "نوع پُرسمان"
+
+#. module: ks_custom_report
+#: model:ir.model,name:ks_custom_report.model_ks_custom_query_report_column
+#: model:ir.model,name:ks_custom_report.model_ks_custom_report_ks_column
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_cr_field_id
+msgid "Report Field"
+msgstr "ستون گزارش"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_column_ids
+msgid "Report Fields"
+msgstr "ستونهای گزارش"
+
+#. module: ks_custom_report
+#: model:ir.model,name:ks_custom_report.model_ks_custom_report_ks_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_cr_model_id
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_model_id
+msgid "Report Model"
+msgstr "مدل گزارش"
+
+#. module: ks_custom_report
+#: model_terms:ir.ui.view,arch_db:ks_custom_report.form
+msgid "Report Model Fields"
+msgstr "گزارش ستونهای مدل"
+
+#. module: ks_custom_report
+#. odoo-python
+#: code:addons/ks_custom_report/models/models.py:0
+#, python-format
+msgid "Report Model cannot be changed after it is created !"
+msgstr "مدل گزارش پس از ایجاد قابل تغییر نیست!"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__name
+msgid "Report Name"
+msgstr "نام گزارش"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_pivot_view_id
+msgid "Report Pivot View"
+msgstr "گزارش نمای محوری"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_search_view_id
+msgid "Report Search View"
+msgstr "گزارش نمای جستجو"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_tree_view_id
+msgid "Report Tree View"
+msgstr "گزارش نمای درختی"
+
+#. module: ks_custom_report
+#. odoo-python
+#: code:addons/ks_custom_report/models/models.py:0
+#, python-format
+msgid ""
+"Report can not be blank, please select at least one column in the report"
+msgstr "گزارش نمی تواند خالی باشد، لطفاً کمینه یک ستون در گزارش انتخاب کنید"
+
+#. module: ks_custom_report
+#: model:ir.ui.menu,name:ks_custom_report.menu_root
+msgid "ReportMate"
+msgstr "گزارش یار"
+
+#. module: ks_custom_report
+#: model:res.groups,name:ks_custom_report.group_ks_cr_manager
+msgid "ReportMate Manager"
+msgstr "مدیر گزارش یار"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ir_model__ks_is_custom_model
+msgid "ReportMate Model"
+msgstr "مدل گزارش یار"
+
+#. module: ks_custom_report
+#: model:ir.actions.act_window,name:ks_custom_report.action_window
+msgid "Reports"
+msgstr "گزارش ها"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_query_report_column__search_by
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_incl_search_filter
+msgid "Search Filter"
+msgstr "پالایه  جستجو"
+
+#. module: ks_custom_report
+#: model_terms:ir.ui.view,arch_db:ks_custom_report.form
+msgid "Search View"
+msgstr "نمایش جستجو"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__sequence
+msgid "Sequence"
+msgstr "دنباله"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_show_graph_view
+msgid "Show Graph View"
+msgstr "نمایش نمای نمودار"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_show_pivot_view
+msgid "Show Pivot View"
+msgstr "نمایش نمای محوری"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_show_query_field_tree_view
+msgid "Show Query Field Tree View"
+msgstr "نمایش درخت ستون پُرسمان"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_top_menu_id
+msgid "Show Under Menu"
+msgstr "نمایش  زیر فهرست امکانات"
+
+#. module: ks_custom_report
+#: model_terms:ir.ui.view,arch_db:ks_custom_report.form
+msgid ""
+"To decrease value of any of the following parameters, preceded the digit "
+"with a negative sign(-)."
+msgstr ""
+"برای کاهش مقدار هر یک از پارامترهای زیر، قبل از رقم با علامت منفی (-) قرار "
+"دهید."
+
+#. module: ks_custom_report
+#. odoo-python
+#: code:addons/ks_custom_report/models/models.py:0
+#, python-format
+msgid ""
+"User are not allowed to modify the records through query. Please check your "
+"query again."
+msgstr ""
+"کاربر مجاز به تغییر سوابق از طریق پُرسمان نیست. لطفاً درخواست خود را دوباره"
+" بررسی کنید."
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_value
+msgid "Value"
+msgstr "ارزش"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_action_id
+msgid "Web Server Action Id"
+msgstr "شناسه اقدام وب سرور"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_week
+msgid "Week"
+msgstr "هفته"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,help:ks_custom_report.field_ir_model__abstract
+msgid "Whether this model is abstract"
+msgstr "خواه این مدل انتزاعی باشد"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,help:ks_custom_report.field_ir_model__ks_is_custom_model
+msgid "Whether this model supports custom report."
+msgstr "آیا این مدل از گزارش سفارشی پشتیبانی می کند یا خیر."
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_column__ks_year
+msgid "Year"
+msgstr "سال"
+
+#. module: ks_custom_report
+#: model:ir.model.fields,field_description:ks_custom_report.field_ks_custom_report_ks_report__ks_cr_menu_id
+msgid "cr Menu Id"
+msgstr "شناسه فهرست امکانات cr"

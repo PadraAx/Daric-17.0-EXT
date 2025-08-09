@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="holiday_ext_resource_calendar_search" model="ir.ui.view">
+        <field name="name">holiday.ext.resource.calendar.search</field>
+        <field name="model">resource.calendar.leaves</field>
+        <field name="inherit_id" ref="resource.view_resource_calendar_leaves_search" />
+        <field name="arch" type="xml">
+            <xpath expr="group//filter[@name='leave_month']" position="after">
+                <filter string="Working Hours" name="group_by_calendar" domain="[]" context="{'group_by':'calendar_id'}" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

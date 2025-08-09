@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Root Menu -->
+        <menuitem id="geo_address_menu_root" name="Geo Address" sequence="10" web_icon="geo_address,static/description/icon.png" />
+
+        <!-- Overview -->
+        <menuitem id="menu_res_address_kanban" name="Overview" parent="geo_address_menu_root" groups="base.group_system" sequence="1" action="action_res_address_kanban"/>
+
+        <!-- Building -->
+        <menuitem id="geo_address_menu_building" name="Building" parent="geo_address_menu_root" groups="base.group_system" sequence="2"/>
+        <menuitem id="geo_address_menu_complexes" name="Complexes" action="action_bldg_group" parent="geo_address_menu_building" sequence="6" />
+        <menuitem id="geo_address_menu_buildings" name="Buildings" action="action_bldg_building" parent="geo_address_menu_building" sequence="7" />
+        <menuitem id="geo_address_menu_floors" name="Floors" action="action_bldg_floor" parent="geo_address_menu_building" sequence="8" />
+        <menuitem id="geo_address_menu_units" name="Units" action="action_bldg_unit" parent="geo_address_menu_building" sequence="9" />
+        <menuitem id="geo_address_menu_unit_components" name="Unit Components" action="action_bldg_unit_components" parent="geo_address_menu_building" sequence="10" />
+
+        <!-- Profiling -->
+        <menuitem id="geo_address_menu_profiles" name="Profiles" action="action_bldg_prof" parent="geo_address_menu_root" sequence="3"/>
+
+
+
+        <!-- Address -->
+        <menuitem id="geo_address_menu_address" name="Addresses" parent="geo_address_menu_root" groups="base.group_system" sequence="4"/>
+        <menuitem id="menu_address_city" name="City Addresses" parent="geo_address_menu_address" action="geo_address.action_city_address" sequence="12"/>
+        <menuitem id="menu_address_rural" name="Rural Addresses" parent="geo_address_menu_address" action="geo_address.action_rural_dist_address" sequence="20"/>
+
+        <!-- Configuration -->
+        <menuitem id="geo_address_menu_config" name="Configuration" parent="geo_address_menu_root" groups="base.group_system" sequence="6"/>
+        <menuitem id="menu_postal_code_rules" name="Settings" parent="geo_address_menu_config" action="action_postal_code_rules" sequence="22"/>
+        <menuitem id="menu_country" name="Countries" parent="geo_address_menu_config" action="geo_address.action_country" sequence="24"/>
+        <menuitem id="menu_country_state" name="States" parent="geo_address_menu_config" action="geo_address.action_country_state" sequence="26"/>
+        <menuitem id="menu_county" name="Counties" parent="geo_address_menu_config" action="geo_address.action_county" sequence="28"/>
+        <menuitem id="menu_city" name="Cities" parent="geo_address_menu_config" action="geo_address.action_city" sequence="30"/>
+        <menuitem id="menu_rural_dist" name="Rural Districts" parent="geo_address_menu_config" action="geo_address.action_rural_dist_tree" sequence="32"/>
+        <menuitem id="menu_city_division" name="City Divisions" parent="geo_address_menu_config" action="geo_address.action_city_division_tree" sequence="41"/>
+        <menuitem id="menu_rural_dist_div" name="Rural Divisions" parent="geo_address_menu_config" action="action_rural_dist_division_tree" sequence="42"/>
+        <menuitem id="menu_res_postal_code_prefix" name="Postal Code Prefixes" parent="geo_address_menu_config" action="action_res_postal_code_prefix" sequence="52"/>
+        <menuitem id="menu_bldg_group_type" name="Building Group Types" parent="geo_address_menu_config" action="action_bldg_group_type" sequence="54"/>
+        <menuitem id="menu_bldg_category" name="Building Categories" parent="geo_address_menu_config" action="action_bldg_category" sequence="56"/>
+        <menuitem id="menu_building_physical_type" name="Building Physical Types" parent="geo_address_menu_config" action="action_building_physical_type" sequence="57"/>
+        <menuitem id="menu_bldg_floor_type" name="Floor Types" parent="geo_address_menu_config" action="action_bldg_floor_type" sequence="58" />
+        <menuitem id="menu_bldg_unit_type" name="Unit Types" parent="geo_address_menu_config" action="action_bldg_unit_type" sequence="60"/>
+        <menuitem id="menu_bldg_attr" name="Profile Attributes" parent="geo_address_menu_config" action="action_bldg_attr" sequence="65"/>
+    </data>
+</odoo>

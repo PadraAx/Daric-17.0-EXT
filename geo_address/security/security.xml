@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Group definition -->
+        <record id="group_geo_address_user" model="res.groups">
+            <field name="name">Geo Address User</field>
+            <field name="category_id" ref="base.module_category_services"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <!-- Access controls -->
+        <record id="access_res_country" model="ir.model.access">
+            <field name="name">res.country access</field>
+            <field name="model_id" ref="base.model_res_country"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_county" model="ir.model.access">
+            <field name="name">res.county access</field>
+            <field name="model_id" ref="model_res_county"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_res_partner" model="ir.model.access">
+            <field name="name">res.partner access</field>
+            <field name="model_id" ref="model_res_partner"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_res_address_image_wizard" model="ir.model.access">
+            <field name="name">res.address.image.wizard access</field>
+            <field name="model_id" ref="model_res_address_image_wizard"/>
+            <field name="group_id" ref="base.group_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">0</field>
+        </record>
+        <!--<record id="access_bldg_attr_formula_wizard" model="ir.model.access">
+            <field name="name">bldg.attr.formula.wizard access</field>
+            <field name="model_id" ref="model_bldg_attr_formula_wizard"/>
+            <field name="group_id" ref="base.group_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">0</field>
+        </record>
+        <record id="access_bldg_attr_formula_wizard_symbol_line" model="ir.model.access">
+            <field name="name">bldg.attr.formula.wizard.symbol.line access</field>
+            <field name="model_id" ref="model_bldg_attr_formula_wizard_symbol_line"/>
+            <field name="group_id" ref="base.group_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">0</field>
+        </record>-->
+
+        <record id="access_res_country_postal_code_rules" model="ir.model.access">
+            <field name="name">res.country.postal.code.rules access</field>
+            <field name="model_id" ref="model_res_country_postal_code_rules"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_city_div" model="ir.model.access">
+            <field name="name">res.city.div access</field>
+            <field name="model_id" ref="model_res_city_div"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_postal_code_prefix" model="ir.model.access">
+            <field name="name">res.postal.code.prefix access</field>
+            <field name="model_id" ref="model_res_postal_code_prefix"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_city" model="ir.model.access">
+            <field name="name">res.city access</field>
+            <field name="model_id" ref="model_res_city_div"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_country_group" model="ir.model.access">
+            <field name="name">res.country.group access</field>
+            <field name="model_id" ref="base.model_res_country_group"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_rural_dist_div" model="ir.model.access">
+            <field name="name">res.rural.dist.div access</field>
+            <field name="model_id" ref="model_res_rural_dist_div"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_rural_dist" model="ir.model.access">
+            <field name="name">res.rural.dist access</field>
+            <field name="model_id" ref="model_res_rural_dist"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_country_state" model="ir.model.access">
+            <field name="name">res.country.state access</field>
+            <field name="model_id" ref="base.model_res_country_state"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_res_address" model="ir.model.access">
+            <field name="name">res.address access</field>
+            <field name="model_id" ref="model_res_address"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_building" model="ir.model.access">
+            <field name="name">bldg.building access</field>
+            <field name="model_id" ref="model_bldg_building"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_category" model="ir.model.access">
+            <field name="name">bldg.category access</field>
+            <field name="model_id" ref="model_bldg_category"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_group_type" model="ir.model.access">
+            <field name="name">bldg.group.type access</field>
+            <field name="model_id" ref="model_bldg_group_type"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_group" model="ir.model.access">
+            <field name="name">bldg.group access</field>
+            <field name="model_id" ref="model_bldg_group"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_building_physical_type" model="ir.model.access">
+            <field name="name">bldg.building.physical.type access</field>
+            <field name="model_id" ref="model_bldg_building_physical_type"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_floor_type" model="ir.model.access">
+            <field name="name">bldg.floor.type access</field>
+            <field name="model_id" ref="model_bldg_floor_type"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_floor" model="ir.model.access">
+            <field name="name">bldg.floor access</field>
+            <field name="model_id" ref="model_bldg_floor"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_unit_type" model="ir.model.access">
+            <field name="name">bldg.unit.type access</field>
+            <field name="model_id" ref="model_bldg_unit_type"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+        <record id="access_bldg_unit" model="ir.model.access">
+            <field name="name">bldg.unit access</field>
+            <field name="model_id" ref="model_bldg_unit"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_prof" model="ir.model.access">
+            <field name="name">bldg.prof access</field>
+            <field name="model_id" ref="model_bldg_prof"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_attr" model="ir.model.access">
+            <field name="name">bldg.attr access</field>
+            <field name="model_id" ref="model_bldg_attr"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_score" model="ir.model.access">
+            <field name="name">bldg.score access</field>
+            <field name="model_id" ref="model_bldg_score"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_profile_attribute_line" model="ir.model.access">
+            <field name="name">bldg.profile.attribute.line  access</field>
+            <field name="model_id" ref="model_bldg_profile_attribute_line"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_calc_group" model="ir.model.access">
+            <field name="name">bldg.calc.group   access</field>
+            <field name="model_id" ref="model_bldg_calc_group"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_calc_param" model="ir.model.access">
+            <field name="name">bldg.calc.param   access</field>
+            <field name="model_id" ref="model_bldg_calc_param"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+
+
+
+        <record id="access_bldg_attr_color_option" model="ir.model.access">
+            <field name="name">bldg.attr.color.option access</field>
+            <field name="model_id" ref="model_bldg_attr_color_option"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_attr_spatial" model="ir.model.access">
+            <field name="name">bldg.attr.spatial   access</field>
+            <field name="model_id" ref="model_bldg_attr_spatial"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+        <record id="access_bldg_attr_string_rule" model="ir.model.access">
+            <field name="name">bldg_attr_string_rule   access</field>
+            <field name="model_id" ref="model_bldg_attr_string_rule"/>
+            <field name="group_id" ref="group_geo_address_user"/>
+            <field name="perm_read">1</field>
+            <field name="perm_write">1</field>
+            <field name="perm_create">1</field>
+            <field name="perm_unlink">1</field>
+        </record>
+    </data>
+</odoo>

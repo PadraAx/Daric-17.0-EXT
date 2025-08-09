@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="calendar_hc_template" model="resource.calendar">
+            <field name="name">HC Template Standard X hours/week</field>
+            <field name="tz">Asia/Dubai</field>
+        </record>
+
+        <record id="hr_attendance_attendance_rule_hc_template" model="hr.attendance.rule">
+            <field name="name">حضور</field>
+            <field name="code">ATTENDANCE_TYPE_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_attendance_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 1 and not local_week_day== 4  and not has_mission</field>
+            <field name="start_formula">result = max(attendance.s_date , day_start)</field>
+            <field name="end_formula">result = min(attendance.e_date, day_end)</field>
+            <field name="sequence">1</field>
+        </record>
+
+        <record id="hr_attendance_work_friday_type_hc_template" model="hr.attendance.rule">
+            <field name="name">جمعه کاری</field>
+            <field name="code">WORK_FRIDAY_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_work_friday_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 1 and local_week_day == 4   and not has_mission</field>
+            <field name="start_formula">result = max(attendance.s_date , day_start)</field>
+            <field name="end_formula">result = min(attendance.e_date, day_end)</field>
+            <field name="sequence">8</field>
+        </record>
+
+        <record id="hr_attendance_paid_hourly_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">مرخصی استحقاقی</field>
+            <field name="code">PAID_HOURLY_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_paid_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = has_shift and not is_holiday and attendance.type == 3 and attendance.sub_type == "PAID_HOURLY_TIME_OFF"</field>
+            <field name="start_formula">result = max(shift.start_datetime , attendance.s_date)</field>
+            <field name="end_formula">result = min(shift.end_datetime, attendance.e_date)</field>
+            <field name="sequence">9</field>
+        </record>
+
+        <record id="hr_attendance_daily_mission_work_rule_hc_template" model="hr.attendance.rule">
+            <field name="name">ماموریت روزانه</field>
+            <field name="code">DAILY_MISSION_HC</field>
+            <field name="work_entry_type_id" ref="hr_payroll_ext.work_entry_daily_mission_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 4 and attendance.sub_type == "DAILY_MISSION"</field>
+            <field name="start_formula">result = max(shift.start_datetime , attendance.s_date)</field>
+            <field name="end_formula">result = min(shift.end_datetime, attendance.e_date)</field>
+            <field name="sequence">10</field>
+        </record>
+
+        <record id="hr_attendance_hourly_mission_work_rule_hc_template" model="hr.attendance.rule">
+            <field name="name">ماموریت ساعتی</field>
+            <field name="code">HOURLY_MISSION_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_attendance_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 4 and attendance.sub_type == "HOURLY_MISSION"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">11</field>
+        </record>
+
+        <record id="hr_attendance_unpaid_hourly_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">مرخصی بدون حقوق</field>
+            <field name="code">UNPAID_HOURLY_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_unpaid_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "UNPAID_HOURLY_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">12</field>
+        </record>
+
+        <record id="hr_attendance_sick_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">مرخصی استعلاجی</field>
+            <field name="code">SICK_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_sick_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = has_shift and not is_holiday and attendance.type == 3 and attendance.sub_type == "SICK_TIME_OFF"</field>
+            <field name="start_formula">result = max(shift.start_datetime , attendance.s_date)</field>
+            <field name="end_formula">result = min(shift.end_datetime, attendance.e_date)</field>
+            <field name="sequence">13</field>
+        </record>
+
+        <record id="hr_attendance_maternity_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">مرخصی زایمان</field>
+            <field name="code">MATERNITY_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_maternity_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "MATERNITY_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">14</field>
+        </record>
+
+        <record id="hr_attendance_fdr_death_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">مرخصی فوت اعضا درجه یک</field>
+            <field name="code">FDR_DEATH_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_fdr_death_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "FDR_DEATH_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">15</field>
+        </record>
+
+        <record id="hr_attendance_marriage_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">مرخصی ازدواج</field>
+            <field name="code">MARRIAGE_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_marriage_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "MARRIAGE_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">16</field>
+        </record>
+
+        <record id="hr_attendance_absence_rule_hc_template" model="hr.attendance.rule">
+            <field name="name">غیبت</field>
+            <field name="code">ABSENCE_TYPEـHC</field>
+            <field name="work_entry_type_id" ref="hr_payroll_ext.work_entry_absence_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = has_shift and attendance.type == 2</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">2</field>
+        </record>
+
+        <!-- Singapour Rules -->
+        <record id="hr_attendance_casual_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">Casual Leave</field>
+            <field name="code">CASUAL_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_casual_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "CASUAL_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">17</field>
+        </record>
+
+        <record id="hr_attendance_parental_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">Parental Leave</field>
+            <field name="code">PARENTAL_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_parental_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "PARENTAL_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">18</field>
+        </record>
+
+        <record id="hr_attendance_childcare_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">Child Care Leave</field>
+            <field name="code">CHILDCARE_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_childcare_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "CHILDCARE_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">19</field>
+        </record>
+
+        <record id="hr_attendance_extended_childcare_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">Extended Child Care Leave</field>
+            <field name="code">EXTENDED_CHILDCARE_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_extended_childcare_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "EXTENDED_CHILDCARE_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">20</field>
+        </record>
+
+        <record id="hr_attendance_solo_parental_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">Parental Leave For Solo Parent</field>
+            <field name="code">SOLO_PARENTAL_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_solo_parental_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "SOLO_PARENTAL_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">21</field>
+        </record>
+
+        <record id="hr_attendance_special_for_women_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">Special Leave For Women</field>
+            <field name="code">SPECIAL_FOR_WOMEN_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_special_for_women_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "SPECIAL_FOR_WOMEN_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">22</field>
+        </record>
+
+        <record id="hr_attendance_victim_of_violence_time_off_work_type_hc_template" model="hr.attendance.rule">
+            <field name="name">Leave For Victims of Violence Against Woman and Children</field>
+            <field name="code">VICTIM_OF_VIOLENCE_TIME_OFF_HC</field>
+            <field name="work_entry_type_id" ref="work_entry_victim_of_violence_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = attendance.type == 3 and attendance.sub_type == "VICTIM_OF_VIOLENCE_TIME_OFF"</field>
+            <field name="start_formula">result = attendance.s_date</field>
+            <field name="end_formula">result = attendance.e_date</field>
+            <field name="sequence">23</field>
+        </record>
+
+        <record id="hr_attendance_R_sick_time_off_work_type" model="hr.attendance.rule">
+            <field name="name">R مرخصی استعلاجی</field>
+            <field name="code">R_SICK_TIME_OFF</field>
+            <field name="work_entry_type_id" ref="work_entry_R_sick_time_off_work_type"/>
+            <field name="resource_calendar_id" ref="calendar_hc_template"/>
+            <field name="condition_formula">result = has_shift and not is_holiday and attendance.type == 3 and attendance.sub_type == "R_SICK_TIME_OFF"</field>
+            <field name="start_formula">result = max(shift.start_datetime , attendance.s_date)</field>
+            <field name="end_formula">result = min(shift.end_datetime, attendance.e_date)</field>
+            <field name="sequence">24</field>
+        </record>
+
+    </data>
+</odoo>

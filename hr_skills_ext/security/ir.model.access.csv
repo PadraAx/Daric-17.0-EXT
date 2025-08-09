@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_hr_employee_skill_report_reader,hr.employee.skill.report.reader,hr_skills.model_hr_employee_skill_report,employee_ext.group_hr_employee_reader,1,0,0,0
+access_hr_employee_skill_report_hrbp,hr.employee.skill.report.hrbp,hr_skills.model_hr_employee_skill_report,employee_ext.group_hr_business_partner,1,0,0,0

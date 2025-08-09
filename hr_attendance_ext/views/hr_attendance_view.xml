@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_hr_attendance_ext_tree" model="ir.ui.view">
+        <field name="name">hr.attendance.ext.tree</field>
+        <field name="model">hr.attendance</field>
+        <field name="inherit_id" ref="hr_attendance.view_attendance_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='overtime_hours']" position="attributes">
+                <attribute name="column_invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='check_out']" position="after">
+                <field name="hr_period_id"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr_attendance_ext_view_form" model="ir.ui.view">
+        <field name="name">hr.attendance.ext.form</field>
+        <field name="model">hr.attendance</field>
+        <field name="inherit_id" ref="hr_attendance.hr_attendance_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='employee_id']" position="after">
+                <field name="is_group_reader" invisible="1"/>
+            </xpath>
+            <xpath expr="//field[@name='worked_hours']" position="after">
+                <field name="hr_period_id" options="{'no_open': True}"/>
+            </xpath>
+            <xpath expr="//field[@name='overtime_hours']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//separator[1]" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//separator[2]" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+            <xpath expr="//field[@name='in_mode']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='out_mode']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='employee_id']" position="attributes">
+                <attribute name="options">{'no_open': True}</attribute>
+                <attribute name="readonly">is_group_reader == True</attribute>
+                <attribute name="widget">None</attribute>
+            </xpath>
+            <!-- <xpath expr="//sheet" position="after">
+                <footer>
+                    <button string="Save &amp; Close" type="object" name="action_new" close="1" class="btn btn-primary" data-hotkey="q"/>
+                    <button string="delete" type="object" invisible="not id" name="action_delete" close="1" class="btn btn-danger" data-hotkey="n"/>
+                    <button string="Discard" class="btn-secondary" special="cancel" data-hotkey="J"/>
+                </footer>
+            </xpath> -->
+        </field>
+    </record>
+
+    <record id="hr_attendance_ext_view_graph" model="ir.ui.view">
+        <field name="name">hr.attendance.ext.graph</field>
+        <field name="model">hr.attendance</field>
+        <field name="inherit_id" ref="hr_attendance.hr_attendance_view_graph"/>
+        <field name="arch" type="xml">
+            <xpath expr="//graph" position="replace">
+                <graph string="Worked Hours" type="line" stacked="0" sample="1">
+                    <field name="check_in" interval="day" type="row"/>
+                    <field name="worked_hours" type="col"/>
+                    <field name="worked_hours" type="measure" widget="float_time"/>
+                </graph>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr_attendance_ext_calendar_view" model="ir.ui.view">
+        <field name="name">hr.attendance.ext.calendar</field>
+        <field name="model">hr.attendance</field>
+        <field name="arch" type="xml">
+            <calendar string="Attendance Calendar" js_class="attendance_ext_calendar"
+                    form_view_id="%(hr_attendance_ext_view_form)d"
+                    event_open_popup="true"
+                    date_start="check_in"
+                    date_stop="check_out"
+                    quick_create="0"
+                    create="true"
+                    color="color"
+                    hide_time="True"
+                    mode="month">
+                <field name="employee_id" filters="1"/>
+                <field name="check_in"/>
+                <field name="check_out"/>
+                <field name="hr_period_id" filters="1"/>
+                <field name="department_id" filters="1"/>
+            </calendar>
+        </field>
+    </record>
+
+    <record id="hr_attendance_ext_filter" model="ir.ui.view">
+        <field name="name">hr_attendance_ext_filter</field>
+        <field name="model">hr.attendance</field>
+        <field name="inherit_id" ref="hr_attendance.hr_attendance_view_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <field name="hr_period_id"/>
+            </xpath>
+            <xpath expr="//search//group" position="replace">
+                <group expand="0" string="Group By">
+                    <filter string="Period" name="hr_period_id" context="{'group_by': 'hr_period_id'}"/>
+                    <filter string="Employee" name="employee" context="{'group_by': 'employee_id'}"/>
+                </group>
+            </xpath>    
+        </field>
+    </record>
+
+    <record id="hr_attendance.hr_attendance_action" model="ir.actions.act_window">
+        <field name="view_mode">calendar,gantt,tree,form</field>
+        <field name="context">{'search_default_myattendances': 1}</field>
+    </record>
+
+</odoo>

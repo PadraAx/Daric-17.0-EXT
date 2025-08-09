@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Country Tree View -->
+        <record id="view_country_tree" model="ir.ui.view">
+            <field name="name">res.country.tree</field>
+            <field name="model">res.country</field>
+            <field name="priority">1</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="capital_id"/>
+                    <button name="open_capital_city" type="object" string="View Capital" class="oe_stat_button" icon="fa-building"/>
+                    <field name="partner_count"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- Country Form View -->
+        <record id="view_country_form" model="ir.ui.view">
+            <field name="name">res.country.form</field>
+            <field name="model">res.country</field>
+            <field name="priority">1</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <div class="oe_button_box" name="button_box"/>
+                        <field name="image_url" widget="image_url" class="oe_avatar" options="{'size': [128,128]}"/>
+                        <group name="main_group">
+                            <group name="country_details">
+                                <field name="currency_id"/>
+                                <field name="code"/>
+                                <field name="id" invisible="1"/>
+                                <field name="capital_id"/>
+                            </group>
+                            <group name="phone_vat_settings">
+                                <field name="phone_code" options="{'format': false}"/>
+                                <field name="vat_label"/>
+                                <field name="zip_required"/>
+                                <field name="state_required"/>
+                                <field name="partner_count"/>
+                            </group>
+                        </group>
+
+                        <group name="advanced_address_formatting" string="Advanced Address Formatting" groups="base.group_no_one">
+                            <label for="address_view_id"/>
+                            <div class="o_row">
+                                <field name="address_view_id"/>
+                                <div class="text-muted ms-2">
+                                    Choose a subview of partners that includes only address fields.
+                                </div>
+                            </div>
+                            <label for="address_format"/>
+                            <div class="o_row">
+                                <field name="address_format" placeholder="Address format..."/>
+                                <div name="div_address_format ms-2" class="text-muted">Change the way addresses are displayed in reports</div>
+                            </div>
+                            <field name="name_position" class="oe_inline"/>
+                        </group>
+
+                        <notebook>
+                            <page string="States">
+                                <label for="state_ids"/>
+                                <field name="state_ids" context="{'default_country_id': id}">
+                                    <tree>
+                                        <field name="iso_code"/>
+                                        <field name="name"/>
+                                        <field name="hierarchical_id"/>
+                                        <field name="capital_id"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_country_kanban" model="ir.ui.view">
+            <field name="name">res.country.kanban</field>
+            <field name="model">res.country</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_small_column">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="image_url"/>
+                    <field name="capital_id"/>
+                    <field name="phone_code"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click o_res_country_kanban card shadow-sm">
+                                <!-- Flag Image -->
+                                <div class="d-flex justify-content-center align-items-center p-2 bg-light border-bottom">
+                                    <img t-att-src="record.image_url.value" t-att-alt="record.name.value" class="img-fluid rounded" style="max-height: 80px; max-width: 100px;"/>
+                                </div>
+
+                                <!-- Country Info -->
+                                <div class="o_kanban_details p-2 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <strong class="text-primary fs-6">
+                                            <field name="name"/>
+                                        </strong>
+                                        <div class="text-muted small">
+                                            <strong>Code: </strong>
+                                            <field name="code"/>
+                                        </div>
+                                        <div class="text-muted small" t-if="record.capital_id.raw_value">
+                                            <strong>Capital: </strong>
+                                            <field name="capital_id"/>
+                                        </div>
+                                        <div class="text-muted small" t-if="record.phone_code.raw_value">
+                                            <strong>Phone: </strong> +                                            <field name="phone_code"/>
+                                        </div>
+                                        <div class="text-muted small" t-if="record.capital_id.raw_value">
+                                            <strong>Partner Count: </strong>
+                                            <field name="partner_count"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+
+        <!-- Country Search View -->
+        <record id="view_country_search" model="ir.ui.view">
+            <field name="name">res.country.search</field>
+            <field name="model">res.country</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name" filter_domain="['|', ('name', 'ilike', self), ('code', 'ilike', self)]"/>
+                    <field name="phone_code"/>
+                    <field name="capital_id"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Action for Countries  -->
+        <record id="geo_address.action_country" model="ir.actions.act_window">
+            <field name="name">Countries</field>
+            <field name="res_model">res.country</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="view_id" ref="view_country_kanban"/>
+            <field name="views" eval="[
+                (ref('view_country_kanban'), 'kanban'),
+                (ref('view_country_tree'), 'tree'),
+                (ref('view_country_form'), 'form')
+            ]"/>
+        </record>
+    </data>
+</odoo>

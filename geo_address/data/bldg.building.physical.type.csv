@@ -1,0 +1,13 @@
+id,code,name,description
+physical_type_building,BD,Entire Building,"Standard full building structure."
+physical_type_tower,TW,Tower or Block,"A high-rise or vertical block in a complex."
+physical_type_wing,WG,Wing or Section,"A distinct section of a building, often lateral."
+physical_type_annex,AX,Annex or Extension Building,"A smaller or auxiliary attached structure."
+physical_type_podium,PD,Podium Base,"Lower shared platform or podium of a complex."
+physical_type_standalone,SS,Standalone Structure,"Small structure like kiosk or utility hut."
+physical_type_technical,TB,Technical or Utility Building,"Substation, pump room, or similar support building."
+physical_type_security,SP,Security Post / Gatehouse,"Entry gate or guard post structure."
+physical_type_outdoor_structure,OS,Covered Outdoor Structure,"Gazebo, canopy, or open-sided structure."
+physical_type_rooftop,RT,Rooftop Structure,"Rooms or equipment sheds on rooftops."
+physical_type_basement,BS,Basement Structure,"Standalone underground structure."
+physical_type_outdoor_area,OA,Outdoor Open Area,"Landscaped zone, plaza, or court within a complex."

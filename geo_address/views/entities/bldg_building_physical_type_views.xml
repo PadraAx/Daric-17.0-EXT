@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_building_physical_type_tree" model="ir.ui.view">
+        <field name="name">building.physical.type.tree</field>
+        <field name="model">bldg.building.physical.type</field>
+        <field name="arch" type="xml">
+            <tree string="Building Physical Types" decoration-info="color != 0" decoration-danger="not active">
+                <field name="code" string="Code"/>
+                <field name="name" string="Name"/>
+                <field name="sequence" string="Priority"/>
+                <field name="active" string="Active" invisible="1"/>
+                <field name="color" widget="color_picker"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_building_physical_type_form" model="ir.ui.view">
+        <field name="name">building.physical.type.form</field>
+        <field name="model">bldg.building.physical.type</field>
+        <field name="arch" type="xml">
+            <form string="Building Physical Type">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Enter type name..." class="oe_inline"/>
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="code" placeholder="XX" string="Code" help="2-letter code (automatically converted to uppercase)"/>
+                            <field name="sequence" string="Priority"/>
+                            <field name="color" widget="color_picker"/>
+                            <field name="active" string="Active"/>
+                        </group>
+                        <group>
+                            <field name="description" placeholder="Enter description..."/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Buildings">
+                            <field name="building_ids" context="{'default_physical_type_id': id}">
+                                <tree editable="bottom">
+                                    <field name="name"/>
+                                    <field name="hierarchical_id"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_building_physical_type_search" model="ir.ui.view">
+        <field name="name">building.physical.type.search</field>
+        <field name="model">bldg.building.physical.type</field>
+        <field name="arch" type="xml">
+            <search string="Building Physical Type Search">
+                <field name="code" string="Code"/>
+                <field name="name" string="Name"/>
+                <field name="active" string="Active"/>
+                <filter string="Active" name="active" domain="[('active','=',True)]"/>
+                <filter string="Inactive" name="inactive" domain="[('active','=',False)]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Priority" name="sequence" context="{'group_by':'sequence'}"/>
+                    <filter string="Color" name="color" context="{'group_by':'color'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_building_physical_type" model="ir.actions.act_window">
+        <field name="name">Building Physical Types</field>
+        <field name="res_model">bldg.building.physical.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create your first building physical type</p>
+        </field>
+    </record>
+</odoo>

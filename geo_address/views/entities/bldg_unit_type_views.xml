@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- 1. Tree / List -->
+    <record id="view_bldg_unit_type_tree" model="ir.ui.view">
+        <field name="name">bldg.unit.type.tree</field>
+        <field name="model">bldg.unit.type</field>
+        <field name="arch" type="xml">
+            <tree string="Unit Types">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="type_allowed_layer"/>
+                <field name="active" optional="show"/>
+                <field name="color" widget="color_picker"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- 2. Form -->
+    <record id="view_bldg_unit_type_form" model="ir.ui.view">
+        <field name="name">bldg.unit.type.form</field>
+        <field name="model">bldg.unit.type</field>
+        <field name="arch" type="xml">
+            <form string="Unit Type">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                            <field name="type_allowed_layer"/>
+                            <field name="color" widget="color_picker"/>
+                        </group>
+                        <group>
+                            <field name="sequence"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description" nolabel="1" placeholder="Explain the purpose and usage of this unit type..."/>
+                        </page>
+
+                        <page string="Units Using This Type">
+                            <field name="unit_ids">
+                                <tree>
+                                    <field name="name"/>
+                                    <field name="layer"/>
+                                    <field name="floor_id"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+
+    <!-- 3. Search -->
+    <record id="view_bldg_unit_type_search" model="ir.ui.view">
+        <field name="name">bldg.unit.type.search</field>
+        <field name="model">bldg.unit.type</field>
+        <field name="arch" type="xml">
+            <search string="Search Unit Types">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="type_allowed_layer"/>
+                <filter string="Active" name="active" domain="[('active', '=', True)]"/>
+                <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Allowed Layer" name="group_layer" context="{'group_by': 'type_allowed_layer'}"/>
+                    <filter string="Active" name="group_active" context="{'group_by': 'active'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- 4. Action -->
+    <record id="action_bldg_unit_type" model="ir.actions.act_window">
+        <field name="name">Unit Types</field>
+        <field name="res_model">bldg.unit.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_bldg_unit_type_search"/>
+    </record>
+
+</odoo>

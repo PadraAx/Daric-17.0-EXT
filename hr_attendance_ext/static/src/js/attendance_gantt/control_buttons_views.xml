@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+    <t t-name="hr_attendance_ext.calendar.controlButtons" t-inherit="web.CalendarController.controlButtons" t-inherit-mode="primary">
+        <xpath expr="." position="inside">
+            <span class="btn-regenerate-work-entries">
+                <t t-if="showButton">
+                    <button class="btn btn-secondary ms-3" t-on-click="onRegenerateAttendanceEntry">
+                        Regenerate Attendance
+                    </button>
+                </t>
+            </span>
+        </xpath>
+    </t>
+</templates>

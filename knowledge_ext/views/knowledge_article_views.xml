@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- <record id="knowledge_article_view_form_inherit" model="ir.ui.view">
+            <field name="name">knowledge_ext.article.view.inherit</field>
+            <field name="model">knowledge.article</field>
+            <field name="inherit_id" ref="knowledge.knowledge_article_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='action_set_lock']" position="after">
+                    <a role="button" class="dropdown-item btn-move" t-on-click="onSendRequestClick" attrs="{'invisible': ['|',('user_can_write', '=', False),('category', '=', 'workspace')]}">
+                        <i class="fa fa-fw fa-lg fa-paper-plane"/> Publish Article
+                    </a>
+                </xpath>
+            </field>
+        </record> -->
+
+        <record id="knowledge_article_view_tree" model="ir.ui.view">
+            <field name="name">knowledge.article.view.tree.ext</field>
+            <field name="model">knowledge.article</field>
+            <field name="inherit_id" ref="knowledge.knowledge_article_view_tree"/>
+            <field name="arch" type="xml">
+                <field name="create_date" position="after">
+                    <field name="category"/>
+                    <field name="tag_ids"  widget="many2many_tags"/>
+                    <field name="department_ids"  widget="many2many_tags"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="knowledge_article_view_search" model="ir.ui.view">
+            <field name="name">knowledge.article.view.search.ext</field>
+            <field name="model">knowledge.article</field>
+            <field name="inherit_id" ref="knowledge.knowledge_article_view_search"/>
+            <field name="arch" type="xml">
+                <field name="last_edition_uid" position="after">
+                    <field name="tag_ids"/>
+                </field>
+            </field>
+        </record>
+
+
+        <record id="knowledge_ext_article_view_form" model="ir.ui.view">
+            <field name="name">knowledge.ext.article.form</field>
+            <field name="model">knowledge.article</field>
+            <field name="arch" type="xml">
+                <form string="Article Form" delete="false">
+                    <sheet>
+                        <div class="oe_title">
+                            <h2>
+                                <label for="display_name" string="Name" class="oe_edit_only"/>
+                                <field name="display_name" readonly="1"/>
+                            </h2>
+                        </div>
+                        <group style="margin-top:5px">
+                            <group>
+                                <field name="parent_id" readonly="1"/>
+                                <field name="create_uid" readonly="1"/>
+                                <field name="department_ids" widget="many2many_tags"/>
+                            </group>
+                            <group>
+                                <field name="category" readonly="1"/>
+                                <field name="create_date" readonly="1"/>
+                                <field name="tag_ids" widget="many2many_tags"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="knowledge_ext_article_view_action" model="ir.actions.act_window" >
+            <field name="name">Article Items</field>
+            <field name="res_model">knowledge.article</field>
+            <field name="domain">[('active', '=', True), ('to_delete', '=', False),('category', '=', 'workspace')]</field>
+            <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'tree', 'view_id': ref('knowledge.knowledge_article_view_tree')}),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('knowledge_ext.knowledge_ext_article_view_form')}),]"/>
+            <field name="search_view_id" ref="knowledge.knowledge_article_view_search"/>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="knowledge.knowledge_article_view_tree"/>
+        </record>
+
+        <record id="knowledge_ext_article_view_kanban" model="ir.ui.view">
+            <field name="name">knowledge_ext_article_view_kanban</field>
+            <field name="model">knowledge.article</field>
+            <field name="inherit_id" ref="knowledge.knowledge_article_view_kanban"/>
+            <field name="arch" type="xml">
+                <kanban create="0" class="o_knowledge_article_kanban_view">
+                    <field name="icon"/>
+                <field name="is_locked"/>
+                <field name="is_user_favorite"/>
+                <field name="is_template"/>
+                <field name="sequence" widget="handle"/>
+                <field name="user_has_write_access"/>
+                <field name="article_url"/>
+                <field name="article_properties"/>
+                <field name="cover_image_url"/>
+                <field name="total_score"/>
+                <field name="publish_date"/>
+                <field name="activity_ids"/>
+                <field name="stage_id"/>
+                <field name="parent_id"/>
+                <field name="template_name"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click o_kanban_record_has_image_fill">
+                                <div class="o_kanban_record_title d-flex w-100">
+                                    <div t-if="record.cover_image_url.raw_value.length > 0" class="o_kanban_image_fill_left mw-25"
+                                         t-attf-style="background-image: url(#{record.cover_image_url.raw_value});" role="img"/>
+                                    <div class="d-flex flex-column justify-content-between pb-4 mb-2">
+                                        <div class="d-flex flex-column">
+                                            <p class="m-0">
+                                                <field name="icon" widget="knowledge_icon" class="me-2" readonly="is_locked or not user_has_write_access" invisible="not icon"/>
+                                                 <field name="name" invisible="is_template"/>
+                                                 <div invisible="(is_template and template_name) or (not is_template and name)">Untitled</div>
+                                            </p>
+                                            <p class="m-0">Score : <field name="total_score" /></p>
+                                            <p class="m-0" invisible="not publish_date">Publish Date : <field name="publish_date" /></p>
+                                            <p class="m-0" invisible="publish_date">Publish Date : - </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o_kanban_record_bottom d-flex flex-column align-items-end justify-content-between">
+                                    <a type="object" name="action_toggle_favorite" class="o_knowledge_toggle_favorite mb-auto pe-1">
+                                        <i invisible="not is_user_favorite"
+                                           class="fa fa-star" title="Remove from favorites"/>
+                                        <i invisible="is_user_favorite"
+                                           class="fa fa-star-o" title="Add to favorites"/>
+                                    </a>
+                                    <div class="oe_kanban_bottom_right">
+                                        <field name="activity_ids" widget="kanban_activity" class="pt-1"/>
+                                        <field name="create_uid" widget="many2one_avatar_user"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+    </data>
+</odoo>
