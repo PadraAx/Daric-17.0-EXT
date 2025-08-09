@@ -1,0 +1,154 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_bistro
+#
+# Translators:
+# Hamid Darabi, 2023
+# Hamed Mohammadi <hamed@dehongi.com>, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-28 12:22+0000\n"
+"PO-Revision-Date: 2023-10-27 15:39+0000\n"
+"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2023\n"
+"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_product_catalog_dish
+msgid "<em>Add the description of this dish here.</em>"
+msgstr "<em> توضیحات این ظرف را در اینجا اضافه کنید. </em>"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_text_block
+msgid ""
+"A healthy kitchen with local products. We’re constantly looking to propose "
+"new products and receipts. <b>While respecting seasons' products and "
+"nature.</b>"
+msgstr ""
+"یک آشپزخانه سالم با محصولات محلی. ما دائماً به دنبال پیشنهاد محصولات و "
+"رسیدهای جدید هستیم. <b> ضمن احترام به محصولات و طبیعت فصول. </b>"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_quotes_carousel
+msgid ""
+"A truly exquisite dining experience. I highly recommend the Mustard Sauce, "
+"out of this world."
+msgstr ""
+"یک تجربه ناهار خوری واقعاً نفیس. من سس خردل را از این جهان به شدت توصیه می "
+"کنم."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_text_block
+msgid ""
+"At the Bistro, you can expect a healthy kitchen on a daily basis. <br/>Come "
+"and visit us for a Sunday brunch, healthy juices full of nutrition, or "
+"delicious cakes that satisfy your sweet tooth. <b>And each day, you’ll "
+"discover our Today’s Special.</b>"
+msgstr ""
+"در بیسترو می توانید روزانه یک آشپزخانه سالم انتظار داشته باشید. <br/> بیا و "
+"برای یک ناهار یکشنبه ، آب میوه های سالم و پر از تغذیه یا کیک های خوشمزه که "
+"دندان شیرین شما را برآورده می کند ، به ما مراجعه کنید. <b> و هر روز ، ویژه "
+"امروز ما را کشف خواهید کرد. </b>"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_features
+msgid "Breakfast"
+msgstr "صبحانه"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_quotes_carousel
+msgid ""
+"Cosy and friendly, good atmosphere and super food. Especially the spiced "
+"fruit crumble."
+msgstr ""
+"دنج و دوستانه ، فضای خوب و غذای فوق العاده. به خصوص میوه های ادویه دار خرد "
+"می شود."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_cover
+msgid ""
+"Daily fresh products combined with our professional yet convivial "
+"service<br/> to create a true gastronomic experience."
+msgstr ""
+"محصولات تازه روزانه همراه با خدمات حرفه ای و در عین حال هماهنگی ما <br/> "
+"برای ایجاد یک تجربه معده واقعی."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_features
+msgid "Dinner"
+msgstr "شام"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_features
+msgid ""
+"Enjoy tasty food with friends.<br/><small>From <b>6:30 pm</b> to <b>10:30 "
+"pm</b></small>"
+msgstr "از غذای خوشمزه با دوستان لذت ببرید."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_features
+msgid ""
+"Help you start your morning right.<br/><small>From <b>7:30 am</b> to "
+"<b>10:30 am</b></small>"
+msgstr "به شما کمک می کند صبح خود را به درستی شروع کنید."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_features
+msgid "Lunch"
+msgstr "ناهار"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_cover
+msgid "Our Menu"
+msgstr "منوی ما"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_cover
+msgid "Seasonal<br/> Flavors"
+msgstr "فصلی <br/> طعم دهنده ها"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_features
+msgid ""
+"Take a break from your busy schedule.<br/><small>From <b>11:30 am</b> to "
+"<b>2:30 pm</b></small>"
+msgstr "از برنامه شلوغ خود استراحت کنید."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_picture
+msgid ""
+"Taste our chef's special, an almond macaroon with orange blossom "
+"buttercream."
+msgstr "طعم ویژه سرآشپز ما ، یک ماکارون بادام با کره شکوفه نارنجی."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_banner
+msgid "Tasty Meals"
+msgstr "وعده های غذایی خوشمزه"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_picture
+msgid "The perfect dessert to share for the table."
+msgstr "دسر مناسب برای به اشتراک گذاشتن برای جدول."
+
+#. module: theme_bistro
+#: model:ir.model,name:theme_bistro.model_theme_utils
+msgid "Theme Utils"
+msgstr "ابزارهای تم"
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_quotes_carousel
+msgid "This place is perfect for groups or a casual date night."
+msgstr "این مکان برای گروه ها یا یک شب خرما گاه به گاه مناسب است."
+
+#. module: theme_bistro
+#: model_terms:theme.ir.ui.view,arch:theme_bistro.s_picture
+msgid "Today's special"
+msgstr "ویژه امروز"

@@ -1,0 +1,12 @@
+<templates>
+    <t t-inherit="web_editor.VideoSelector" t-inherit-mode="extension">
+        <xpath expr="//t[@t-if]" position="after">
+            <div class="upload-area">
+                <label class="col-form-label" for="o_video_text"> other upload methods </label>
+                <div id="videoDragDrop">
+                    <button type="button" class="btn btn-primary upload-trigger" t-on-click="_onClick">upload video</button>
+                </div>
+            </div>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_hr_emp_loan_line_form" model="ir.ui.view">
+            <field name="name">audit.log.form</field>
+            <field name="model">audit.log</field>
+            <field name="arch" type="xml">
+                <form string="audit log Form">
+                    <sheet>
+                        <group>
+                            <group>
+                              <field name="user_id" readonly="1"/>
+                              <field name="model_id" readonly="1"/>
+                              <field name="method" readonly="1"/>
+                              <field name="old_value" readonly="1"/>
+                              <field name="new_value" readonly="1"/>
+                              <field name="res_ids" readonly="1"/>
+                              <field name="ip_address" readonly="1"/>
+                              <field name="user_Agent" readonly="1"/>
+                              <field name="date" readonly="1"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_hr_emp_loan_line_tree" model="ir.ui.view">
+            <field name="name">audit.log.tree</field>
+            <field name="model">audit.log</field>
+            <field name="arch" type="xml">
+                <tree string="audit log Tree">
+                  <field name="user_id"/>
+                  <field name="model_id"/>
+                  <field name="method"/>
+                  <field name="old_value"/>
+                  <field name="new_value"/>
+                  <field name="res_ids"/>
+                  <field name="ip_address"/>
+                  <field name="user_Agent"/>
+                  <field name="date"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_hr_emp_loan_line_filter" model="ir.ui.view">
+            <field name="name">audit.log.search</field>
+            <field name="model">audit.log</field>
+            <field name="arch" type="xml">
+                <search string="audit log Search">
+                  <field name="user_id"/>
+                  <field name="model_id"/>
+                  <field name="method"/>
+                  <field name="ip_address"/>
+                  <field name="date"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="user_audit_log_action" model="ir.actions.act_window">
+            <field name="name">User Log</field>
+            <field name="res_model">audit.log</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+
+    </data>
+</odoo>

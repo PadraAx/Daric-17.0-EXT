@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_upload_video_snippet_pt_video_manager,video.video.manager,model_video_video,base.group_system,1,1,1,1
+access_upload_video_snippet_pt_video_user,video.video.user,model_video_video,base.group_user,1,1,1,1
+access_upload_video_snippet_pt_video_view_manager,video.video.view.manager,model_video_video_view,base.group_system,1,1,1,1
+access_upload_video_snippet_pt_video_view_user,video.video.view.user,model_video_video_view,base.group_user,1,1,1,1
+access_upload_video_snippet_pt_video_comment_manager,video.video.comment.manager,model_video_video_comment,base.group_system,1,1,1,1
+access_upload_video_snippet_pt_video_comment_user,video.video.comment.user,model_video_video_comment,base.group_user,1,1,1,1

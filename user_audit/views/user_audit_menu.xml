@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+        <menuitem id="menu_user_audit_log_info" name="audit log" parent="base.menu_users" action="user_audit_log_action" sequence="1" groups="base.group_erp_manager"/>
+</odoo>

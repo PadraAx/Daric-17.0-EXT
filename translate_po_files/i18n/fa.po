@@ -1,0 +1,843 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* translate_po_files
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-08 17:46+0000\n"
+"PO-Revision-Date: 2025-02-08 17:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid ", or your preferred text editor"
+msgstr "، یا ویرایشگر متن مورد نظر شما"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__af
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__af
+msgid "Afrikaans"
+msgstr "افریکان"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sq
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sq
+msgid "Albanian"
+msgstr "آلبانی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__am
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__am
+msgid "Amharic"
+msgstr "وابسته به"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ar
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ar
+msgid "Arabic"
+msgstr "عربی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__hy
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__hy
+msgid "Armenian"
+msgstr "ارمنی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__az
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__az
+msgid "Azerbaijani"
+msgstr "آذربایجانی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__eu
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__eu
+msgid "Basque"
+msgstr "باسکی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__be
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__be
+msgid "Belarusian"
+msgstr "وابسته به بلروس"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__bn
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__bn
+msgid "Bengali"
+msgstr "بنگالی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__bs
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__bs
+msgid "Bosnian"
+msgstr "اهل بوسنی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__bg
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__bg
+msgid "Bulgarian"
+msgstr "وابسته به بلغاری"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ca
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ca
+msgid "Catalan"
+msgstr "کاتالان"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ceb
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ceb
+msgid "Cebuano"
+msgstr "سبوسو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ny
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ny
+msgid "Chichewa"
+msgstr "چیکوا"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__zh-cn
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__zh-cn
+msgid "Chinese (simplified)"
+msgstr "چینی (ساده شده)"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__zh-tw
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__zh-tw
+msgid "Chinese (traditional)"
+msgstr "چینی (سنتی)"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "Close"
+msgstr "بستن"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__co
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__co
+msgid "Corsican"
+msgstr "کورسیکان"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__hr
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__hr
+msgid "Croatian"
+msgstr "وابسته به کرواسی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__cs
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__cs
+msgid "Czech"
+msgstr "وابسته به چک"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__da
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__da
+msgid "Danish"
+msgstr "وابسته به دانمارکی"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__display_name
+msgid "Display Name"
+msgstr "نام"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__nl
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__nl
+msgid "Dutch"
+msgstr "هلندی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__en
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__en
+msgid "English"
+msgstr "انگلیسی"
+
+#. module: translate_po_files
+#. odoo-python
+#: code:addons/translate_po_files/wizard/po_file_translator.py:0
+#, python-format
+msgid "Error:"
+msgstr "خطا:"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__eo
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__eo
+msgid "Esperanto"
+msgstr "اشپانتو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__et
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__et
+msgid "Estonian"
+msgstr "وابسته به استوایی"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "Export Settings"
+msgstr "تنظیمات برونبرد"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__filename
+msgid "File Name"
+msgstr "نام پرونده"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__tl
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__tl
+msgid "Filipino"
+msgstr "فیلیپین"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__fi
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__fi
+msgid "Finnish"
+msgstr "فنلاندی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__fr
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__fr
+msgid "French"
+msgstr "فرانسوی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__fy
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__fy
+msgid "Frisian"
+msgstr "فریسی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__gl
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__gl
+msgid "Galician"
+msgstr "گالیکان"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ka
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ka
+msgid "Georgian"
+msgstr "گرجی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__de
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__de
+msgid "German"
+msgstr "آلمانی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__el
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__el
+msgid "Greek"
+msgstr "یونانی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__gu
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__gu
+msgid "Gujarati"
+msgstr "گجراتی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ht
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ht
+msgid "Haitian creole"
+msgstr "کرول هائیتی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ha
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ha
+msgid "Hausa"
+msgstr "هوزا"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__haw
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__haw
+msgid "Hawaiian"
+msgstr "هاوایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__he
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__iw
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__he
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__iw
+msgid "Hebrew"
+msgstr "عبری"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "Here is the exported translation file:"
+msgstr "پرونده برون‌برد شده ترجمه اینجاست:"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__hi
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__hi
+msgid "Hindi"
+msgstr "هندی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__hmn
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__hmn
+msgid "Hmong"
+msgstr "هومونگ"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__hu
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__hu
+msgid "Hungarian"
+msgstr "مجارستانی"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__is
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__is
+msgid "Icelandic"
+msgstr "وابسته به ایسلندی"
+
+#. module: translate_po_files
+#: model:ir.model.fields,help:translate_po_files.field_po_file_translator__overwrite
+msgid ""
+"If you enable this option, any existing translations in this file will be "
+"overwritten and replaced by new translations."
+msgstr ""
+"اگر این گزینه را فعال کنید ، هرگونه ترجمه موجود در این پرونده رونویسی می شود"
+" و با ترجمه های جدید جایگزین می شود."
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ig
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ig
+msgid "Igbo"
+msgstr "اگبو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__id
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__id
+msgid "Indonesian"
+msgstr "وابسته به اندونزی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ga
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ga
+msgid "Irish"
+msgstr "ایرلندی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__it
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__it
+msgid "Italian"
+msgstr "ایتالیایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ja
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ja
+msgid "Japanese"
+msgstr "وابسته به ژاپنی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__jw
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__jw
+msgid "Javanese"
+msgstr "وابسته به جاوایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__kn
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__kn
+msgid "Kannada"
+msgstr "کانادایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__kk
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__kk
+msgid "Kazakh"
+msgstr "قزاق"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__km
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__km
+msgid "Khmer"
+msgstr "خمر"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ko
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ko
+msgid "Korean"
+msgstr "کره ای"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ku
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ku
+msgid "Kurdish (kurmanji)"
+msgstr "کرد (Kurmanji)"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ky
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ky
+msgid "Kyrgyz"
+msgstr "قرقره"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__lo
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__lo
+msgid "Lao"
+msgstr "لاله"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز شده توسط"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز شده در"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__la
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__la
+msgid "Latin"
+msgstr "لاتین"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__lv
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__lv
+msgid "Latvian"
+msgstr "لتونی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__lt
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__lt
+msgid "Lithuanian"
+msgstr "وابسته به لیتوانی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__lb
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__lb
+msgid "Luxembourgish"
+msgstr "وابسته به لوکس"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__mk
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__mk
+msgid "Macedonian"
+msgstr "وابسته به مقدونی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__mg
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__mg
+msgid "Malagasy"
+msgstr "ماگاسی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ms
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ms
+msgid "Malay"
+msgstr "مالایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ml
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ml
+msgid "Malayalam"
+msgstr "مالایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__mt
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__mt
+msgid "Maltese"
+msgstr "مالتی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__mi
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__mi
+msgid "Maori"
+msgstr "مائوری"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__mr
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__mr
+msgid "Marathi"
+msgstr "ماراتی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__mn
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__mn
+msgid "Mongolian"
+msgstr "مغولی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__my
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__my
+msgid "Myanmar (burmese)"
+msgstr "میانمار (برمه)"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ne
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ne
+msgid "Nepali"
+msgstr "نپالی"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__new_data
+msgid "New PO file"
+msgstr "پرونده PO جدید"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__no
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__no
+msgid "Norwegian"
+msgstr "نروژی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__or
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__or
+msgid "Odia"
+msgstr "اودیا"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__overwrite
+msgid "Overwrite existing translations?"
+msgstr "ترجمه های موجود را بازنویسی کنید؟"
+
+#. module: translate_po_files
+#: model:ir.model,name:translate_po_files.model_po_file_translator
+msgid "PO File Translator"
+msgstr "مترجم پرونده"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__data
+msgid "PO file"
+msgstr "پرونده"
+
+#. module: translate_po_files
+#: model:ir.model.fields,help:translate_po_files.field_po_file_translator__data
+msgid "PO file to traslate (.po file)"
+msgstr "پرونده PO به traslate (پرونده .po)"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "PO(T) format: you should edit it with a PO editor such as"
+msgstr "فرمت PO (T): شما باید آن را با یک ویرایشگر PO مانند ویرایش کنید"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "POEdit"
+msgstr "پودر"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ps
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ps
+msgid "Pashto"
+msgstr "پشت"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__fa
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__fa
+msgid "Persian"
+msgstr "فارسی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__pl
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__pl
+msgid "Polish"
+msgstr "صیقل دادن"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__pt
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__pt
+msgid "Portuguese"
+msgstr "وابسته به پرتغالی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__pa
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__pa
+msgid "Punjabi"
+msgstr "پنجابی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ro
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ro
+msgid "Romanian"
+msgstr "وابسته به رومانی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ru
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ru
+msgid "Russian"
+msgstr "روسی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sm
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sm
+msgid "Samoan"
+msgstr "وابسته به ساموایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__gd
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__gd
+msgid "Scots gaelic"
+msgstr "وابسته به اسکاتلندی اسکاتلندی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sr
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sr
+msgid "Serbian"
+msgstr "صرب"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__st
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__st
+msgid "Sesotho"
+msgstr "سسوتو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sn
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sn
+msgid "Shona"
+msgstr "شنا"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sd
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sd
+msgid "Sindhi"
+msgstr "سندی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__si
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__si
+msgid "Sinhala"
+msgstr "سینه"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sk
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sk
+msgid "Slovak"
+msgstr "لگن"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sl
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sl
+msgid "Slovenian"
+msgstr "وابسته به اسلوونی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__so
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__so
+msgid "Somali"
+msgstr "سومالی"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__source_lang
+msgid "Source languages"
+msgstr "زبان مبداء"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__es
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__es
+msgid "Spanish"
+msgstr "اسپانیایی"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__state
+msgid "State"
+msgstr "مرحله"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__su
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__su
+msgid "Sundanese"
+msgstr "وابسته به ساندان"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sw
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sw
+msgid "Swahili"
+msgstr "سوسن"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__sv
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__sv
+msgid "Swedish"
+msgstr "سوئدی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__tg
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__tg
+msgid "Tajik"
+msgstr "تاجیک"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ta
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ta
+msgid "Tamil"
+msgstr "تامیل"
+
+#. module: translate_po_files
+#: model:ir.model.fields,field_description:translate_po_files.field_po_file_translator__target_lang
+msgid "Target languages"
+msgstr "زبان مقصد"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__tt
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__tt
+msgid "Tatar"
+msgstr "تاتار"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__te
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__te
+msgid "Telugu"
+msgstr "تالگو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__th
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__th
+msgid "Thai"
+msgstr "تایلندی"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid ""
+"This file was generated using the universal\n"
+"                            <strong>\n"
+"                                Unicode/UTF-8\n"
+"                            </strong>\n"
+"                            file encoding.\n"
+"                            Please be sure to view and edit using the same encoding."
+msgstr ""
+"این پرونده با استفاده از جهانی تولید شد\n"
+"                            <strong>\n"
+"                                UNICODE/UTF-8\n"
+"                            </strong>\n"
+"                            رمزگذاری پرونده\n"
+"                            لطفاً با استفاده از همان رمزگذاری ، حتماً مشاهده و ویرایش کنید."
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "Translate"
+msgstr "ترجمه"
+
+#. module: translate_po_files
+#: model:ir.actions.act_window,name:translate_po_files.action_po_file_translator
+#: model:ir.ui.menu,name:translate_po_files.menu_po_file_translator
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "Translate PO File"
+msgstr "ترجمه پرونده PO"
+
+#. module: translate_po_files
+#: model_terms:ir.ui.view,arch_db:translate_po_files.view_po_file_translator_form
+msgid "Translation Complete"
+msgstr "ترجمه کامل"
+
+#. module: translate_po_files
+#. odoo-python
+#: code:addons/translate_po_files/wizard/po_file_translator.py:0
+#, python-format
+msgid "Translation error. The key could not be translated. Key:"
+msgstr "خطای ترجمه کلید را نمی توان ترجمه کرد. کلید:"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__tr
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__tr
+msgid "Turkish"
+msgstr "ترکی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__tk
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__tk
+msgid "Turkmen"
+msgstr "ترکن"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__uk
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__uk
+msgid "Ukrainian"
+msgstr "وابسته به اوکراینی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ur
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ur
+msgid "Urdu"
+msgstr "اردو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__ug
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__ug
+msgid "Uyghur"
+msgstr "اویغور"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__uz
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__uz
+msgid "Uzbek"
+msgstr "ازبک"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__vi
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__vi
+msgid "Vietnamese"
+msgstr "وابسته به ویتنامی"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__cy
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__cy
+msgid "Welsh"
+msgstr "ولگرد"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__xh
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__xh
+msgid "Xhosa"
+msgstr "ژازا"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__yi
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__yi
+msgid "Yiddish"
+msgstr "وابسته به ییدد"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__yo
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__yo
+msgid "Yoruba"
+msgstr "یوروبا"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__source_lang__zu
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__target_lang__zu
+msgid "Zulu"
+msgstr "زولو"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__state__download
+msgid "download"
+msgstr "بارگیری کردن"
+
+#. module: translate_po_files
+#: model:ir.model.fields.selection,name:translate_po_files.selection__po_file_translator__state__upload
+msgid "upload"
+msgstr "بارگذاری کردن"

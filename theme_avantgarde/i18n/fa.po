@@ -1,0 +1,150 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_avantgarde
+# 
+# Translators:
+# Hamed Mohammadi <hamed@dehongi.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-28 12:22+0000\n"
+"PO-Revision-Date: 2023-10-27 15:39+0000\n"
+"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2023\n"
+"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_call_to_action
+msgid "<b>Since 1992</b> creating around the world."
+msgstr "<b>از سال 1992</b> در حال خلق آثار در سراسر جهان."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_carousel
+msgid ""
+"<font style=\"font-size: 62px; background-color: var(--o-color-4);\" "
+"class=\"o_default_snippet_text\">Making Simple</font>"
+msgstr ""
+"<font style=\"font-size: 62px; background-color: var(--o-color-4);\" "
+"class=\"o_default_snippet_text\">ساده‌سازی</font>"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_text_image
+msgid ""
+"<span class=\"text-break\" style=\"font-size: 62px; font-weight: "
+"bolder;\">Our R&amp;D Approach</span>"
+msgstr ""
+"<span class=\"text-break\" style=\"font-size: 62px; font-weight: "
+"bolder;\">رویکرد تحقیق و توسعه ما</span>"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_three_columns
+msgid "<span style=\"font-weight: bolder;\">Collaboration</span>"
+msgstr "<span style=\"font-weight: bolder;\">همکاری</span>"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_three_columns
+msgid "<span style=\"font-weight: bolder;\">Excellence</span>"
+msgstr "<span style=\"font-weight: bolder;\">برتری</span>"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_three_columns
+msgid "<span style=\"font-weight: bolder;\">Sustainability</span>"
+msgstr "<span style=\"font-weight: bolder;\">پایداری</span>"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_picture
+msgid "Design Methodology"
+msgstr "روش‌شناسی طراحی"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_text_image
+msgid ""
+"Making innovative design requires us to push the limits of technological "
+"possibilities. As a group of in-house specialists, we develop and implement "
+"computational workflows and new technologies."
+msgstr ""
+"ساخت طراحی نوآورانه نیازمند این است که مرزهای امکانات فناوری را به چالش بکشیم. "
+"ما به عنوان گروهی از متخصصان داخلی، جریان‌های محاسباتی و فناوری‌های جدید را توسعه و پیاده‌سازی می‌کنیم."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_picture
+msgid ""
+"Our design methodology is rooted in our core values.<br/>\n"
+"        We combine a wide spectrum of technologies with a good portion of creativity."
+msgstr ""
+"روش‌شناسی طراحی ما ریشه در ارزش‌های اصلی ما دارد.<br/>\n"
+"        ما یک طیف وسیع از فناوری‌ها را با بخش قابل توجهی از خلاقیت ترکیب می‌کنیم."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_three_columns
+msgid ""
+"Sustainability is at the heart of our design approach. We audit projects "
+"against global standards as well as our own, more comprehensive, "
+"responsibility framework."
+msgstr ""
+"پایداری در قلب رویکرد طراحی ما قرار دارد. ما پروژه‌ها را با توجه به استانداردهای جهانی و همچنین "
+"چارچوب مسئولیت جامع‌تر خود ارزیابی می‌کنیم."
+
+#. module: theme_avantgarde
+#: model:ir.model,name:theme_avantgarde.model_theme_utils
+msgid "Theme Utils"
+msgstr "ابزارهای پیرنگ"
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_text_image
+msgid ""
+"Through a mixture of project-based work and standalone research, we make "
+"efficient projects, adaptable in the face of change."
+msgstr ""
+"از طریق ترکیب کارهای مبتنی بر پروژه و تحقیقات مستقل، ما پروژه‌های کارآمدی می‌سازیم که "
+"در برابر تغییرات قابل انطباق هستند."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_cover
+msgid "We are Avantgarde."
+msgstr "ما آوانگارد هستیم."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_picture
+msgid "We carry out an interdisciplinary design process."
+msgstr "ما یک فرآیند طراحی میان‌رشته‌ای را اجرا می‌کنیم."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_three_columns
+msgid ""
+"We conduct state-of-the-art research and development to solve complex design"
+" challenges, taking the latest advances out of the lab and into the hands of"
+" architects and engineers."
+msgstr ""
+"ما تحقیق و توسعه پیشرفته انجام می‌دهیم تا چالش‌های پیچیده طراحی را حل کنیم، آخرین پیشرفت‌ها را از آزمایشگاه به "
+"دست معماران و مهندسان می‌آوریم."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_cover
+msgid ""
+"We create architecture, landscapes, interiors, product design and graphic design.<br/>\n"
+"        Our methods allow us to explore a future that is equitable, data-driven, and green."
+msgstr ""
+"ما معماری، چشم‌اندازها، فضاهای داخلی، طراحی محصول و طراحی گرافیک می‌سازیم.<br/>\n"
+"        روش‌های ما به ما این امکان را می‌دهد که آینده‌ای عادلانه، مبتنی بر داده و سبز را بررسی کنیم."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_call_to_action
+msgid "We partner with ambitious clients. We’d love to hear from you."
+msgstr "ما با مشتریان بلندپرواز همکاری می‌کنیم. خوشحال می‌شویم از شما بشنویم."
+
+#. module: theme_avantgarde
+#: model_terms:theme.ir.ui.view,arch:theme_avantgarde.s_three_columns
+msgid ""
+"We thrive on rich collaborations to push our thinking. A continuous state of"
+" reinvention, driven by our partners in the process, is essential to our "
+"work."
+msgstr ""
+"ما در همکاری‌های غنی برای پیشبرد افکار خود رشد می‌کنیم. یک وضعیت پیوسته از نوآوری، که توسط شرکای ما در فرآیند "
+"رانده می‌شود، برای کار ما ضروری است."

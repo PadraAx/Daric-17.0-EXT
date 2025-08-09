@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_video" name="Video">
+        <section class="s_video oe_structure">
+            <div class="container">
+                <video id="temp_video" style="width:100%;" loop="true" muted="true" autoplay="autoplay" controls="controls" data-oe-expression="/upload_video_snippet_pt/static/src/video/default.mp4">
+                    <source id="temp_video_source" t-attf-src="/upload_video_snippet_pt/static/src/video/default.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </template>
+
+    <template id="s_video_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="hlcloudVideo" data-selector=".s_video">
+                <we-row string="Change Video">
+                    <we-button class="add_video" title="Change Video">
+                        <i class="fa fa-fw fa-film"/>
+                    </we-button>
+                </we-row>
+            </div>
+        </xpath>
+    </template>
+</odoo>

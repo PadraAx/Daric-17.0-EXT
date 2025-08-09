@@ -1,0 +1,11 @@
+.media_iframe_video_size.custom_video_size {
+    padding-bottom: 54% !important;
+}
+
+.uppy-Dashboard--modal {
+    z-index: 2000 !important;
+}
+
+.uppy-Root [aria-hidden="true"], .uppy-Root [aria-hidden="1"] {
+     display: block !important;
+}

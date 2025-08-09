@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="video_snippet" inherit_id="website.snippets" name="video snippet">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="upload_video_snippet_pt.s_video"
+               t-thumbnail="/upload_video_snippet_pt/static/src/img/snippets_thumbs/s_video.svg"/>
+        </xpath>
+    </template>
+
+</odoo>

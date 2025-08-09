@@ -1,0 +1,249 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* theme_anelusia
+#
+# Translators:
+# Hamed Mohammadi <hamed@dehongi.com>, 2023
+# Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-28 12:23+0000\n"
+"PO-Revision-Date: 2023-10-27 15:39+0000\n"
+"Last-Translator: Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2024\n"
+"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_references
+msgid ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%,"
+" var(--o-color-2) 100%);\" class=\"text-gradient\">Our top brands</font>"
+msgstr ""
+"<font style = \"image-image: کلاس خطی (135deg ، var (-O-color-1) 0 ٪ ، var "
+"(-O-color-2) 100 ٪) ؛\" class = \"Text-Gradient\"> مارک های برتر ما </font>"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%, var(--o-color-5) 100%);\" class=\"text-gradient\">Mich Stark</font>\n"
+"        <br/>Sports Reporter"
+msgstr ""
+"<font style = \"image-image: کلاس خطی (135deg ، var (-O-color-1) 0 ٪ ، var (-O-color-5) 100 ٪) ؛\" class = \"Text-Gradient\"> Mich Stark </font>\n"
+"        <br/> گزارشگر ورزشی"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-1) 0%, var(--o-color-5) 100%);\" class=\"text-gradient\">Tony Fred</font>\n"
+"        <br/>Editor-in-chief"
+msgstr ""
+"<font style = \"image-image: کلاس خطی (135deg ، var (-O-color-1) 0 ٪ ، var (-O-color-5) 100 ٪) ؛\" class = \"متن-کلاس\"> تونی فرد </font>\n"
+"        <br/> سردبیر"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-2) 0%, var(--o-color-5) 100%);\" class=\"text-gradient\">Aline Turner</font>\n"
+"        <br/>Photograph"
+msgstr ""
+"<font style = \"image-image: کلاس خطی (135deg ، var (-o-color-2) 0 ٪ ، var (-o-color-5) 100 ٪) ؛\" class = \"Text-Gradient\"> Aline Turner </font>\n"
+"        <br/> عکس"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"<font style=\"background-image: linear-gradient(135deg, var(--o-color-2) 0%, var(--o-color-5) 100%);\" class=\"text-gradient\">Iris Joe</font>\n"
+"        <br/>Political Reporter"
+msgstr ""
+"<font style = \"image-image: کلاس خطی (135deg ، var (-o-color-2) 0 ٪ ، var (-o-color-5) 100 ٪) ؛\" class = \"Text-Gradient\"> Iris Joe </font>\n"
+"        <br/> خبرنگار سیاسی"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"Aline is one of the iconic people in life who can say they love what they "
+"do. She likes to capture the moment from another point of view, another "
+"perspective."
+msgstr ""
+"Aline یکی از افراد نمادین در زندگی است که می تواند بگوید آنها عاشق کارهایی "
+"هستند که انجام می دهند. او دوست دارد لحظه ای را از دیدگاه دیگر ، چشم انداز "
+"دیگری ضبط کند."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_color_blocks_2
+msgid ""
+"Are you looking for sustainable clothing for men or women? Discover our "
+"exclusive fashion brand for both of you."
+msgstr ""
+"آیا به دنبال لباس پایدار برای مردان یا زنان هستید؟ مارک مد منحصر به فرد ما "
+"را برای هر دوی شما کشف کنید."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_call_to_action
+msgid "Be yourself, create your own style"
+msgstr "خودت باش ، سبک خود را بسازید"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_cover
+msgid "Color Matters"
+msgstr "رنگ"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_text_cover
+msgid ""
+"Color trends are already waiting to spring <br/>into action for the  next "
+"summer."
+msgstr "روند رنگ در حال حاضر منتظر بهار <br/> برای تابستان آینده است."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_cover
+msgid ""
+"Color trends are already waiting to spring into action for the next summer.\n"
+"        <br/>\n"
+"        <br/>"
+msgstr ""
+"روند رنگ در حال حاضر منتظر است تا تابستان آینده بهار عمل شود.\n"
+"        <br/>\n"
+"        <br/>"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_cover
+msgid "Discover"
+msgstr "کشف کردن"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_call_to_action
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_text_cover
+msgid "Discover it"
+msgstr "آن را کشف کنید"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_call_to_action
+msgid "Discover the new summer collection."
+msgstr "مجموعه جدید تابستان را کشف کنید."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_references
+msgid "Every style for everybody."
+msgstr "هر سبکی برای همه."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_color_blocks_2
+msgid "Fancy for them"
+msgstr "فانتزی برای آنها"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_color_blocks_2
+msgid "Fashion for her"
+msgstr "مد برای او"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"Founder and chief visionary, Tony is the driving force behind the company. "
+"He loves to keep his hands full by participating in the development of the "
+"magazine and does not hesitate to carry out field surveys."
+msgstr ""
+"بنیانگذار و رئیس بینایی ، تونی نیروی محرکه شرکت است. او دوست دارد با شرکت در"
+" توسعه مجله دست خود را پر کند و از انجام نظرسنجی های میدانی دریغ نمی کند."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_media_list
+msgid ""
+"Go off beaten track and discover unexpected and curious places. Here’s our "
+"ultimate guide to the best-kept secret spots that you simply must visit!"
+msgstr ""
+"از مسیر ضرب و شتم خارج شوید و مکانهای غیر منتظره و کنجکاو را کشف کنید. در "
+"اینجا راهنمای نهایی ما برای بهترین نقاط مخفی که باید از آنها بازدید کنید ، "
+"آورده شده است!"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"Iris, with her international experience, helps us easily understand global "
+"politics. She is determined to drive success and delivers her professional "
+"acumen to bring the magazine to the next level."
+msgstr ""
+"آیریس با تجربه بین المللی خود به ما کمک می کند تا به راحتی سیاست جهانی را "
+"درک کنیم. او مصمم است که موفقیت را هدایت کند و فعالیت حرفه ای خود را ارائه "
+"دهد تا مجله را به سطح بعدی برساند."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_company_team
+msgid ""
+"Mich loves taking on challenges. With his multi-year experience as a "
+"journalist, he wanted to join a team that puts people at the center of the "
+"stories."
+msgstr ""
+"میش عاشق چالش های خود است. او با تجربه چند ساله خود به عنوان روزنامه نگار ، "
+"می خواست به تیمی بپیوندد که مردم را در مرکز داستان ها قرار دهد."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_color_blocks_2
+msgid "More Details"
+msgstr "جزئیات بیشتر"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_color_blocks_2
+msgid ""
+"Perfectly combined by fashion experts. Get fresh outfit ideas for the new "
+"season and every occasion. Discover what's made for him."
+msgstr ""
+"کاملاً توسط کارشناسان مد ترکیب شده است. برای فصل جدید و هر مناسبت ایده های "
+"لباس تازه دریافت کنید. آنچه را برای او ساخته است کشف کنید."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_media_list
+msgid "Read more"
+msgstr "بیشتر بخوانید"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_color_blocks_2
+msgid ""
+"Refresh your daily rotation with our women’s clothing range. Discover our "
+"last collection for her for the next summer."
+msgstr ""
+"چرخش روزانه خود را با دامنه لباس زنان ما تازه کنید. آخرین مجموعه ما را برای "
+"او برای تابستان آینده کشف کنید."
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_color_blocks_2
+msgid "Style for him"
+msgstr "سبک برای او"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_media_list
+msgid "Summer Essentials"
+msgstr "ملزومات تابستانی"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_text_cover
+msgid "The next<br/> summer<br/> collection"
+msgstr "مجموعه بعدی <br/> تابستان <br/>"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_media_list
+msgid ""
+"The right summer essentials can make the difference between a good time and "
+"a stand-out great time. Discover our selection for everyday wear during the "
+"warm summer months."
+msgstr ""
+"ملزومات مناسب تابستانی می تواند تفاوت بین یک زمان خوب و یک زمان عالی را "
+"ایجاد کند. انتخاب ما را برای پوشیدن روزمره در ماه های گرم تابستان کشف کنید."
+
+#. module: theme_anelusia
+#: model:ir.model,name:theme_anelusia.model_theme_utils
+msgid "Theme Utils"
+msgstr "ابزارهای تم"
+
+#. module: theme_anelusia
+#: model_terms:theme.ir.ui.view,arch:theme_anelusia.s_media_list
+msgid "World's top Hidden gems"
+msgstr "سنگهای پنهان برتر جهان"
