@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_demog_tree" model="ir.ui.view">
+        <field name="name">demog.tree</field>
+        <field name="model">demog</field>
+        <field name="arch" type="xml">
+            <tree string="Demographic Records">
+                <field name="name"/>
+                <field name="year"/>
+                <field name="population_total"/>
+                <field name="male_population"/>
+                <field name="female_population"/>
+                <field name="median_age"/>
+                <field name="literacy_rate"/>
+                <field name="unemployment_rate"/>
+                <field name="poverty_rate"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_demog_form" model="ir.ui.view">
+        <field name="name">demog.form</field>
+        <field name="model">demog</field>
+        <field name="arch" type="xml">
+            <form string="Demographic Record">
+                <header>
+                    <field name="year"/>
+                    <field name="source"/>
+                </header>
+                <sheet>
+                    <group string="Geographic Scope">
+                        <field name="country_id"/>
+                        <field name="state_id" domain="[('country_id', '=', country_id)]"/>
+                        <field name="county_id" domain="[('state_id', '=', state_id)]"/>
+                        <field name="city_id" domain="[('county_id', '=', county_id)]"/>
+                        <field name="rural_dist_id" domain="[('county_id', '=', county_id)]"/>
+                        <field name="city_div_id" domain="[('city_id', '=', city_id)]"/>
+                        <field name="rural_dist_div_id" domain="[('rural_dist_id', '=', rural_dist_id)]"/>
+                    </group>
+                    <notebook>
+                        <page string="Population">
+                            <group>
+                                <field name="population_total"/>
+                                <field name="population_density"/>
+                                <field name="male_population"/>
+                                <field name="female_population"/>
+                                <field name="sex_ratio"/>
+                                <field name="median_age"/>
+                            </group>
+                        </page>
+
+                        <page string="Age Distribution">
+                            <group>
+                                <field name="age_0_14"/>
+                                <field name="age_15_24"/>
+                                <field name="age_25_64"/>
+                                <field name="age_65_plus"/>
+                            </group>
+                        </page>
+
+                        <page string="Education">
+                            <group>
+                                <field name="literacy_rate"/>
+                                <field name="primary_education_rate"/>
+                                <field name="secondary_education_rate"/>
+                                <field name="higher_education_rate"/>
+                            </group>
+                        </page>
+
+                        <page string="Economy">
+                            <group>
+                                <field name="median_income"/>
+                                <field name="per_capita_income"/>
+                                <field name="employment_rate"/>
+                                <field name="unemployment_rate"/>
+                                <field name="poverty_rate"/>
+                                <field name="main_industries"/>
+                            </group>
+                        </page>
+
+                        <page string="Households">
+                            <group>
+                                <field name="total_households"/>
+                                <field name="average_household_size"/>
+                                <field name="single_parent_households"/>
+                                <field name="married_couples"/>
+                            </group>
+                        </page>
+
+                        <page string="Migration &amp; Fertility">
+                            <group>
+                                <field name="in_migration_rate"/>
+                                <field name="out_migration_rate"/>
+                                <field name="net_migration"/>
+                                <field name="birth_rate"/>
+                                <field name="death_rate"/>
+                            </group>
+                        </page>
+
+                        <page string="Health">
+                            <group>
+                                <field name="life_expectancy"/>
+                                <field name="disability_rate"/>
+                                <field name="access_to_healthcare"/>
+                                <field name="common_health_issues"/>
+                            </group>
+                        </page>
+
+                        <page string="Housing">
+                            <group>
+                                <field name="total_housing_units"/>
+                                <field name="home_ownership_rate"/>
+                                <field name="rental_rate"/>
+                                <field name="vacancy_rate"/>
+                            </group>
+                        </page>
+
+                        <page string="Culture &amp; Language">
+                            <group>
+                                <field name="ethnic_group_ids" widget="many2many_tags"/>
+                                <field name="religion_ids" widget="many2many_tags"/>
+                                <field name="languages_spoken_ids" widget="many2many_tags"/>
+                            </group>
+                        </page>
+
+                        <page string="Notes">
+                            <field name="note"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_demog_search" model="ir.ui.view">
+        <field name="name">demog.search</field>
+        <field name="model">demog</field>
+        <field name="arch" type="xml">
+            <search string="Demography Search">
+                <field name="name"/>
+                <field name="year"/>
+                <field name="country_id"/>
+                <field name="state_id" domain="[('country_id', '=', country_id)]"/>
+                <field name="county_id" domain="[('state_id', '=', state_id)]"/>
+                <field name="city_id" domain="[('county_id', '=', county_id)]"/>
+                <field name="rural_dist_id" domain="[('county_id', '=', county_id)]"/>
+                <filter name="this_year" string="This Year" domain="[('year','=',datetime.now().year)]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_by_year" string="Year" context="{'group_by':'year'}"/>
+                    <filter name="group_by_city" string="City" context="{'group_by':'city_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_demog" model="ir.actions.act_window">
+        <field name="name">Demographic Data</field>
+        <field name="res_model">demog</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p>Manage demographic records linked to your territorial hierarchy.</p>
+        </field>
+    </record>
+</odoo>

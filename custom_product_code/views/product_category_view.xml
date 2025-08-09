@@ -1,0 +1,19 @@
+<odoo>
+    <record id="product_category_form_inherit" model="ir.ui.view">
+        <field name="name">product.category.form.inherit</field>
+        <field name="model">product.category</field>
+        <field name="inherit_id" ref="product.product_category_form_view"/> <!-- Ensure the view ID is correct -->
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/group[@name='first']" position="after">
+                <!-- Add Category ID field (custom_id) at the end of the form -->
+                <group>
+                    <field name="custom_id" string="Category ID" readonly="1"/>
+                </group>
+                <!-- Add Level Code field at the end of the form -->
+                <group>
+                    <field name="level_code"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

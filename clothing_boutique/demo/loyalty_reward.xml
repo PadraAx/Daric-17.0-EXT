@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo noupdate="1">
+    <record id="loyalty_reward_2" model="loyalty.reward">
+        <field name="program_id" ref="loyalty_program_2"/>
+        <field name="discount_line_product_id" ref="product_product_63"/>
+        <field name="discount">20.0</field>
+    </record>
+    <record id="loyalty_reward_4" model="loyalty.reward">
+        <field name="program_id" ref="loyalty_program_4"/>
+        <field name="discount_line_product_id" ref="product_product_65"/>
+        <field name="discount">15.0</field>
+    </record>
+    <record id="loyalty_reward_5" model="loyalty.reward">
+        <field name="program_id" ref="loyalty_program_5"/>
+        <field name="required_points">200.0</field>
+        <field name="discount_line_product_id" ref="product_product_75"/>
+        <field name="discount">5.0</field>
+    </record>
+    <record id="loyalty_reward_9" model="loyalty.reward">
+        <field name="program_id" ref="loyalty_program_7"/>
+        <field name="reward_product_id" ref="product_product_78"/>
+        <field name="reward_type">product</field>
+        <field name="discount_line_product_id" ref="product_product_82"/>
+    </record>
+</odoo>

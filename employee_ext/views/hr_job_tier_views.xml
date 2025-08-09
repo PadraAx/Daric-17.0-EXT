@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_hr_job_tier_form" model="ir.ui.view">
+            <field name="name">hr.job.tier.form</field>
+            <field name="model">hr.job.tier</field>
+            <field name="arch" type="xml">
+                <form string="Job Tier Form">
+                    <sheet>
+                        <div class="oe_title mb32">
+                            <h1>
+                                <label for="name"/>
+                                <field name="name" placeholder="Name"/>
+                            </h1>
+                            <label for="code"/>
+                            <field name="code"/>
+                        </div>
+                        <notebook>
+                            <page name="configuration" string="Configuration" groups="base.group_no_one">
+                                <group>
+                                    <group>
+                                        <field name="skip_travel_manager"/>
+                                    </group>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_hr_job_tier_tree" model="ir.ui.view">
+            <field name="name">hr.job.tier.tree</field>
+            <field name="model">hr.job.tier</field>
+            <field name="arch" type="xml">
+                <tree string="Job Tier Tree" sample="1">
+                    <field name="name"/>
+                    <field name="code"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_hr_job_tier_filter" model="ir.ui.view">
+            <field name="name">hr.job.tier.search</field>
+            <field name="model">hr.job.tier</field>
+            <field name="arch" type="xml">
+                <search string="Job Tier Search">
+                    <field name="name"/>
+                    <field name="code"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="hr_job_tier_action" model="ir.actions.act_window">
+            <field name="name">Job Tier</field>
+            <field name="res_model">hr.job.tier</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

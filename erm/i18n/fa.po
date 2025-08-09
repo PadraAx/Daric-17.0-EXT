@@ -1,0 +1,2012 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* erm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 23:20+0000\n"
+"PO-Revision-Date: 2025-02-12 23:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_form
+msgid "<span class=\"o_stat_text\">Analysis</span>"
+msgstr "<span class=\"o_stat_text\">تجزیه و تحلیل</span>"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__current_risk_score
+#: model:ir.model.fields,help:erm.field_erm_risk__residual_risk_score
+#: model:ir.model.fields,help:erm.field_erm_risk__risk_score
+msgid "A composite measure of risk based on likelihood and impact."
+msgstr "یک معیار ترکیبی از  آسیب توانش بر اساس احتمال و تاثیر."
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__description
+msgid "Action Description"
+msgstr "توضیحات اقدام"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__name
+msgid "Action Name"
+msgstr "نام اقدام"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_needaction
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_needaction
+msgid "Action Needed"
+msgstr "اقدام مورد نیاز"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__action_owner_id
+msgid "Action Owner"
+msgstr "مالک اقدام"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__active
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__active
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__active
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__active
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__active
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__control_status__1
+msgid "Active"
+msgstr "فعال"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_ids
+msgid "Activities"
+msgstr "فعالیت ها"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_exception_decoration
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "دکوراسیون استثنایی فعالیت"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_state
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_type_icon
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_assessment_analysis
+msgid "Add a new 'Analysis'"
+msgstr "افزودن یک «تحلیل» جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_assignments
+msgid "Add a new 'Assignment'"
+msgstr "افزودن یک \"تکلیف\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_category_type
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_source_category
+msgid "Add a new 'Category Type'"
+msgstr "یک \"نوع دسته\" جدید اضافه کنید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_category
+msgid "Add a new 'Category'"
+msgstr "اضافه کردن یک \"دسته\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_consequence
+msgid "Add a new 'Consequence'"
+msgstr "افزودن یک «نتیجه» جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_control_effectiveness
+msgid "Add a new 'Control Effectiveness'"
+msgstr "افزودن یک «اثربخشی کنترل» جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_control
+msgid "Add a new 'Control'"
+msgstr "افزودن یک \"کنترل\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_assessment_evaluation
+msgid "Add a new 'Evaluations'"
+msgstr "افزودن یک \"ارزیابی\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_impact
+msgid "Add a new 'Impact'"
+msgstr "افزودن یک «تاثیر» جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_likelihood
+msgid "Add a new 'Likelihood'"
+msgstr "افزودن یک \"احتمال\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_mitigation_action_plan
+msgid "Add a new 'Mitigation Action Plan'"
+msgstr "افزودن یک «برنامه اقدام کاهشی» جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_objective_category
+msgid "Add a new 'Objective Category'"
+msgstr "افزودن یک «دسته هدف» جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_affected_area
+msgid "Add a new 'Risk Affected Area'"
+msgstr "اضافه کردن یک \"منطقه تحت تاثیر خطر\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_source
+msgid "Add a new 'Risk Source'"
+msgstr "افزودن یک \"منبع خطر\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_overview
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_template
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_template_graph
+msgid "Add a new 'Risk'"
+msgstr "افزودن یک \" آسیب توانش\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_treatment_type
+msgid "Add a new 'Treatment Type'"
+msgstr "یک «نوع درمان» جدید اضافه کنید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_treatment
+msgid "Add a new 'Treatment'"
+msgstr "افزودن یک \"درمان\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_velocity
+msgid "Add a new 'velocity'"
+msgstr "اضافه کردن یک \"سرعت\" جدید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_objective
+msgid "Add a new Objective"
+msgstr "یک هدف جدید اضافه کنید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_trigger
+msgid "Add a new Trigger"
+msgstr "یک ماشه جدید اضافه کنید"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_erm_risk_tag
+msgid "Add a new tag"
+msgstr "یک برچسب جدید اضافه کنید"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__affected_area_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__affected_area_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__affected_area_id
+msgid "Affected Area"
+msgstr "منطقه آسیب دیده"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__allowed_category_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__allowed_category_ids
+msgid "Allowed Categories"
+msgstr "دسته بندی های مجاز"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_assessment_analysis
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__analysis_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__risk_analysis_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__analysis_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__parent_id
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_template__state__3
+#: model:ir.ui.menu,name:erm.menu_erm_risk
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_form
+msgid "Analysis"
+msgstr "تجزیه و تحلیل"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__1
+msgid "Annually"
+msgstr "سالانه"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid "Appetite Risk"
+msgstr "خطر اشتها"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_search
+msgid "Archived"
+msgstr "بایگانی شد"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_assessment_create_wizard
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__state__2
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_dependency__state__2
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_template__state__4
+msgid "Assessment"
+msgstr "ارزیابی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__assessment_followup_date
+msgid "Assessment Followup Date"
+msgstr "تاریخ پیگیری ارزیابی"
+
+#. module: erm
+#: model:ir.ui.menu,name:erm.menu_assessment
+msgid "Assessments"
+msgstr "ارزیابی ها"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid "Assign monetary values or time delays for quantifiable risks."
+msgstr ""
+"ارزش های پولی یا تاخیرهای زمانی را برای  آسیب توانش های قابل سنجش تعیین کنید."
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_assignments
+#: model:ir.ui.menu,name:erm.menu_assignments
+msgid "Assignments"
+msgstr "تکالیف"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_attachment_count
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__control_Automation__2
+msgid "Automated"
+msgstr "خودکار"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid "Based on ISO 31000 or COSO ERM, standard"
+msgstr "بر اساس استاندارد ISO 31000 یا COSO ERM"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_res_config_settings__module_monetory_impact
+msgid "Based on Monetory Impact"
+msgstr "بر اساس تاثیر پولی"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid "Based on monetary measure"
+msgstr "بر اساس معیارهای پولی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__benefit
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__benefit
+msgid "Benefit"
+msgstr "بهره مند شوند"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__email_verification_config__erm_standard__coso_erm
+#: model:ir.model.fields.selection,name:erm.selection__res_config_settings__erm_standard__coso_erm
+#: model:ir.model.fields.selection,name:erm.selection__res_config_test__erm_standard__coso_erm
+msgid "COSO ERM Framework"
+msgstr "چارچوب COSO ERM"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__category_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__category_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__category_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__category_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__category_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__category_id
+msgid "Category"
+msgstr "دسته بندی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__req_code
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__assessment_code
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__code
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__code
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__req_code
+msgid "Code"
+msgstr "کد"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__color
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__color
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__color
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__color
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__color
+msgid "Color"
+msgstr "رنگ"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__comments
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__comments
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__comments
+#: model_terms:ir.ui.view,arch_db:erm.erm_risk_assessment_analysis_form
+msgid "Comments"
+msgstr "نظرات"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_mitigation_action_plan__status__completed
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_treatment__implementation_status__3
+msgid "Completed"
+msgstr "تکمیل شد"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__confidence_level
+msgid "Confidence Level"
+msgstr "سطح اعتماد به نفس"
+
+#. module: erm
+#: model:ir.ui.menu,name:erm.menu_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: erm
+#: model:ir.model,name:erm.model_res_config_settings
+msgid "Configuration settings for Website Webkul Addons"
+msgstr "تنظیمات پیکربندی"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_consequence
+#: model:ir.ui.menu,name:erm.menu_erm_risk_consequence
+msgid "Consequences"
+msgstr "عواقب"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__6
+msgid "Continuous"
+msgstr "مستمر"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__contributing_factors
+msgid "Contributing Factors"
+msgstr "عوامل کمک کننده"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__control_Automation
+msgid "Control Automation"
+msgstr "اتوماسیون کنترل"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_control_effectiveness
+#: model:ir.model,name:erm.model_erm_risk_control_effectiveness
+msgid "Control Effectiveness"
+msgstr "اثربخشی کنترل"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__control_owner_id
+msgid "Control Owner"
+msgstr "مالک کنترل"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__control_rating
+msgid "Control Rating (Value)"
+msgstr "کنترل رتبه (مقدار)"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__control_type
+msgid "Control Type"
+msgstr "نوع کنترل"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_control
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__control_ids
+#: model:ir.ui.menu,name:erm.menu_control
+#: model_terms:ir.ui.view,arch_db:erm.erm_risk_assessment_analysis_form
+msgid "Controls"
+msgstr "کنترل ها"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__cost
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__cost
+msgid "Cost"
+msgstr "هزینه"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__risk_mitigation_cost
+msgid "Cost to implement risk mitigation measures."
+msgstr "هزینه اجرای اقدامات کاهش  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_cost_benefit_analysis
+msgid "Cost-Benefit Analysis"
+msgstr "تحلیل هزینه و فایده"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__ratio
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__ratio
+msgid "Cost-Benefit Ratio"
+msgstr "نسبت هزینه به سود"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_graph
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_pivot
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_graph
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_pivot
+msgid "Count"
+msgstr "بشمار"
+
+#. module: erm
+#: model_terms:ir.actions.act_window,help:erm.action_assessment_create_wizard
+msgid "Create Assessment"
+msgstr "ایجاد ارزیابی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_trigger__create_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_trigger__create_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__currency_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__currency_id
+msgid "Currency"
+msgstr "ارز"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__current_consequence_color
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__current_consequence_id
+msgid "Current Consequence"
+msgstr "پیامد فعلی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__control_status
+msgid "Current Existing"
+msgstr "فعلی موجود"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__current_risk_score
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__current_risk
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_form
+msgid "Current Risk"
+msgstr " آسیب توانش فعلی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__current_risk_score
+msgid "Current Risk Score"
+msgstr "امتیاز  آسیب توانش فعلی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__7
+msgid "Daily"
+msgstr "روزانه"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__confidence_level
+msgid "Degree of confidence in risk data and assessments."
+msgstr "درجه اعتماد به داده ها و ارزیابی های  آسیب توانش."
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__dependencies_ids
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_form
+msgid "Dependencies"
+msgstr "وابستگی ها"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__depend_id
+msgid "Dependency"
+msgstr "وابستگی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__dependency_level
+msgid "Dependency Level"
+msgstr "سطح وابستگی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__description
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__description
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_control_form
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_form
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_treatment_form
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__design_effectiveness
+msgid "Design Effectiveness"
+msgstr "اثربخشی طراحی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__detection_difficulty
+msgid "Detection Difficulty"
+msgstr "دشواری تشخیص"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__control_type__2
+msgid "Detective"
+msgstr "کارآگاه"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__detection_difficulty__3
+msgid "Difficult (5)"
+msgstr "دشوار (5)"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__direct_cost
+msgid "Direct Costs"
+msgstr "هزینه های مستقیم"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.assessment_create_wizard_form
+msgid "Discard"
+msgstr "لغو"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_trigger__display_name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__email_verification_config__risk_appetite_control__1
+#: model:ir.model.fields.selection,name:erm.selection__res_config_settings__risk_appetite_control__1
+#: model:ir.model.fields.selection,name:erm.selection__res_config_test__risk_appetite_control__1
+msgid "Do not let pass"
+msgstr "اجازه ندهید بگذرد"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__documented
+msgid "Documented"
+msgstr "مستند شده"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__state__1
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_dependency__state__1
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_template__state__1
+msgid "Draft"
+msgstr "پیش نویس"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__due_date
+msgid "Due Date"
+msgstr "سررسید"
+
+#. module: erm
+#: model:ir.module.category,description:erm.module_category_erm
+#: model:ir.module.category,name:erm.module_category_erm
+#: model:ir.ui.menu,name:erm.menu_erm_root
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid "ERM"
+msgstr "آسیب توانش های کسب و کار"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.click_risk
+msgid "ERM Risks"
+msgstr " آسیب توانش های کسب و کار"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_res_config_settings__erm_standard
+msgid "ERM Standard"
+msgstr "استاندارد آسیب توانش"
+
+#. module: erm
+#: model:res.groups,name:erm.erm_group_admin
+msgid "ERM: Administrator"
+msgstr "ERM: مدیر"
+
+#. module: erm
+#: model:res.groups,name:erm.erm_group_analyst
+msgid "ERM: Analyst"
+msgstr "ERM: تحلیلگر"
+
+#. module: erm
+#: model:res.groups,name:erm.erm_group_manager
+msgid "ERM: Manager"
+msgstr "ERM: مدیر"
+
+#. module: erm
+#: model:res.groups,name:erm.erm_group_owner
+msgid "ERM: Owner"
+msgstr "ERM: مالک"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__detection_difficulty__1
+msgid "Easy (1)"
+msgstr "آسان (1)"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control_effectiveness__rating__1
+msgid "Effective"
+msgstr "موثر"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__effectiveness
+msgid "Effectiveness (%)"
+msgstr "اثربخشی (%)"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.assessment_create_wizard_form
+#: model_terms:ir.ui.view,arch_db:erm.erm_risk_assessment_analysis_form
+msgid "Enter your comments"
+msgstr "نظرات خود را وارد کنید"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_form
+msgid "Enter your description"
+msgstr "توضیحات خود را وارد کنید"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_control_form
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_treatment_form
+msgid "Enter your descriptions"
+msgstr "توضیحات خود را وارد کنید"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_analysis__contributing_factors__3
+msgid "Environmental Factors"
+msgstr "عوامل محیطی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__escalated_to_id
+msgid "Escalated To"
+msgstr "افزایش یافت به"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__escalation_needed
+msgid "Escalation Needed"
+msgstr "تشدید مورد نیاز است"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__direct_cost
+msgid "Estimate direct costs (e.g., repair costs, lost revenue)."
+msgstr ""
+"برآورد هزینه های مستقیم (به عنوان مثال، هزینه های تعمیر، درآمد از دست رفته)."
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__indirect_cost
+msgid "Estimate indirect costs (e.g., brand damage, regulatory fines)."
+msgstr ""
+"برآورد هزینه های غیرمستقیم (به عنوان مثال، آسیب برند، جریمه های نظارتی)."
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__evaluation_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__parent_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__parent_id
+msgid "Evaluation"
+msgstr "ارزیابی"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_assessment_evaluation
+msgid "Evaluations"
+msgstr "ارزیابی ها"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__trigger_id
+msgid "Events or conditions that signal the risk might occur."
+msgstr "رویدادها یا شرایطی که نشانه خطر ممکن است رخ دهد."
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__description
+msgid "Existing Control Design Description"
+msgstr "شرح طراحی کنترل موجود"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_analysis__contributing_factors__2
+msgid "External Factors"
+msgstr "عوامل خارجی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__is_favorite
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_tree
+msgid "Favorite"
+msgstr "مورد علاقه"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_form
+msgid "Financial Impact"
+msgstr "تاثیر مالی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_follower_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_partner_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (همکار تجاری)"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__activity_type_icon
+#: model:ir.model.fields,help:erm.field_erm_risk_template__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "نماد عالی فونت به عنوان مثال کارهای فا"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__frequency
+msgid "Frequency"
+msgstr "فرکانس"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__group_id
+msgid "Group"
+msgstr "گروه"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__has_message
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__has_write_access
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__has_write_access
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__has_write_access
+msgid "Has write access"
+msgstr "دسترسی نوشتن دارد"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment__inherent_risk_rating__2
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_dependency__dependency_level__3
+msgid "High"
+msgstr "بالا"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__confidence_level__5
+msgid "High Confidence (5)"
+msgstr "اعتماد به نفس بالا (5)"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control_effectiveness__rating__5
+msgid "Highly Ineffective"
+msgstr "بسیار بی اثر"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__detection_difficulty
+msgid "How hard it is to identify or detect the risk before it occurs."
+msgstr "شناسایی یا تشخیص خطر قبل از وقوع چقدر سخت است."
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__timeframe
+msgid "How soon the risk is likely to occur."
+msgstr "احتمال وقوع خطر چقدر زود است."
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__id
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_trigger__id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__email_verification_config__erm_standard__iso_31000
+#: model:ir.model.fields.selection,name:erm.selection__res_config_settings__erm_standard__iso_31000
+#: model:ir.model.fields.selection,name:erm.selection__res_config_test__erm_standard__iso_31000
+msgid "ISO 31000"
+msgstr "ISO 31000"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid ""
+"ISO 31000, the international standard for risk management, provides a "
+"framework for identifying, assessing, and managing risks. While ISO 31000 "
+"does not specify exact categories of risk, it outlines principles and a "
+"process that can be used to classify risks into categories relevant to the "
+"organization or context."
+msgstr ""
+"ISO 31000، استاندارد بین المللی مدیریت  آسیب توانش، چارچوبی را برای شناسایی، "
+"ارزیابی و مدیریت  آسیب توانش ها فراهم می کند. در حالی که ISO 31000 دسته بندی دقیقی "
+"از  آسیب توانش را مشخص نمی کند، اصول و فرآیندی را بیان می کند که می تواند برای طبقه"
+" بندی  آسیب توانش ها به دسته های مرتبط با سازمان یا زمینه مورد استفاده قرار گیرد."
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_exception_icon
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_exception_icon
+msgid "Icon"
+msgstr "نماد"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__activity_exception_icon
+#: model:ir.model.fields,help:erm.field_erm_risk_template__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "نمادی برای نشان دادن یک فعالیت استثنایی."
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_template__state__2
+msgid "Identification"
+msgstr "شناسایی"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__message_needaction
+#: model:ir.model.fields,help:erm.field_erm_risk_template__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر علامت زده شود، پیام‌های جدید به توجه شما نیاز دارند."
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__message_has_error
+#: model:ir.model.fields,help:erm.field_erm_risk__message_has_sms_error
+#: model:ir.model.fields,help:erm.field_erm_risk_template__message_has_error
+#: model:ir.model.fields,help:erm.field_erm_risk_template__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت زده شود، برخی از پیام ها دارای خطای تحویل هستند."
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__timeframe__0
+msgid "Immediate"
+msgstr "فوری"
+
+#. module: erm
+#. odoo-javascript
+#: code:addons/erm/static/src/views/kanban/erm_custom_kanban_header.xml:0
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__impact_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__impact_ids
+#, python-format
+msgid "Impact"
+msgstr "تاثیر"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__current_impact_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk__residual_impact_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__impact_id
+msgid "Impact (Severity)"
+msgstr "تاثیر (شدت)"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_impact
+#: model:ir.ui.menu,name:erm.menu_erm_risk_impact
+msgid "Impacts"
+msgstr "تاثیرات"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__implementation_status
+msgid "Implementation Status"
+msgstr "وضعیت پیاده سازی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_mitigation_action_plan__status__in_progress
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_treatment__implementation_status__2
+msgid "In Progress"
+msgstr "در حال انجام است"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__control_status__2
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__indirect_cost
+msgid "Indirect Costs"
+msgstr "هزینه های غیر مستقیم"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control_effectiveness__rating__4
+msgid "Ineffective"
+msgstr "بی اثر"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__inherent_consequence_color
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__inherent_consequence_id
+msgid "Inherent Consequence"
+msgstr "پیامد ذاتی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__inherent_risk
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_form
+msgid "Inherent Risk"
+msgstr " آسیب توانش ذاتی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__inherent_risk_rating
+msgid "Inherent Risk Rating"
+msgstr "رتبه بندی  آسیب توانش ذاتی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__inherent_risk_score
+msgid "Inherent Risk Score"
+msgstr "امتیاز  آسیب توانش ذاتی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__inherent_risk_score
+msgid "Inherit Risk"
+msgstr " آسیب توانش ارثی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_analysis__contributing_factors__1
+msgid "Internal Factors"
+msgstr "عوامل داخلی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_is_follower
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_is_follower
+msgid "Is Follower"
+msgstr "فالوور است"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__is_manager
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__is_manager
+msgid "Is manager"
+msgstr "مدیر است"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_trigger__write_uid
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_trigger__write_date
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_analysis__contributing_factors__8
+msgid "Legal and Ethical Factors"
+msgstr "عوامل حقوقی و اخلاقی"
+
+#. module: erm
+#. odoo-javascript
+#: code:addons/erm/static/src/views/kanban/erm_custom_kanban_header.xml:0
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__likelihood_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__likelihood_ids
+#, python-format
+msgid "Likelihood"
+msgstr "احتمال"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__current_likelihood_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk__residual_likelihood_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__likelihood_id
+msgid "Likelihood (Probability)"
+msgstr "احتمال (احتمال)"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_likelihood
+#: model:ir.ui.menu,name:erm.menu_erm_risk_likelihood
+msgid "Likelihoods"
+msgstr "احتمالات"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control_effectiveness__rating__2
+msgid "Limited Improvement Needed"
+msgstr "بهبود محدود مورد نیاز است"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__timeframe__2
+msgid "Long-term"
+msgstr "بلند مدت"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__detection_difficulty__0
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment__inherent_risk_rating__0
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_dependency__dependency_level__1
+msgid "Low"
+msgstr "پایین"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__confidence_level__1
+msgid "Low Confidence (1)"
+msgstr "اعتماد به نفس پایین (1)"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__control_Automation__1
+msgid "Manual"
+msgstr "دستی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__max
+msgid "Max"
+msgstr "بیشینه"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_dependency__dependency_level__2
+msgid "Medium"
+msgstr "متوسط"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__favorite_user_ids
+msgid "Members"
+msgstr "اعضا"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_has_error
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_ids
+msgid "Messages"
+msgstr "پیام ها"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__min
+msgid "Min"
+msgstr "کمینه"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_mitigation_action_plan
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_treatment_form
+msgid "Mitigation Action Plan"
+msgstr "برنامه اقدام کاهش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_mitigation_action_plan
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__mitigation_action_plan_ids
+msgid "Mitigation Action Plans"
+msgstr "برنامه های اقدام کاهشی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment__inherent_risk_rating__1
+msgid "Moderate"
+msgstr "متوسط"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__detection_difficulty__2
+msgid "Moderate (3)"
+msgstr "متوسط ​​(3)"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__risk_id
+msgid "Module"
+msgstr "افزونه"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_template__state__6
+msgid "Monitoring"
+msgstr "نظارت"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__3
+msgid "Monthly"
+msgstr "ماهانه"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__my_activity_date_deadline
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_search
+msgid "My Risk Register"
+msgstr "ثبت  آسیب توانش من"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__control_Automation__3
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__documented__3
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__8
+msgid "N/A"
+msgstr "N/A"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_affected_area__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_tag__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_trigger__name
+msgid "Name"
+msgstr "نام"
+
+#. module: erm
+#: model:ir.model.constraint,message:erm.constraint_erm_risk_tag_uniq_tag_name
+msgid "Name must be unique"
+msgstr "نام باید منحصر به فرد باشد"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_calendar_event_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "رویداد تقویم فعالیت بعدی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_date_deadline
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت فعالیت بعدی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_summary
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_type_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__documented__2
+msgid "No"
+msgstr "خیر"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_dependency__dependency_level__0
+msgid "None"
+msgstr "هیچ کدام"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_needaction_counter
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_has_error_counter
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__message_needaction_counter
+#: model:ir.model.fields,help:erm.field_erm_risk_template__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__message_has_error_counter
+#: model:ir.model.fields,help:erm.field_erm_risk_template__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام های دارای خطای تحویل"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_objective
+#: model:ir.ui.menu,name:erm.menu_erm_risk_objective
+msgid "Objectives"
+msgstr "اهداف"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_objective
+msgid "Objects"
+msgstr "اشیاء"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__operating_effectiveness
+msgid "Operating Effectiveness"
+msgstr "اثربخشی عملیاتی"
+
+#. module: erm
+#. odoo-python
+#: code:addons/erm/models/erm_risk_template.py:0
+#, python-format
+msgid "Operation not supported"
+msgstr "عملیات پشتیبانی نمی شود"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__overall_control_rating
+msgid "Overall Control Rating"
+msgstr "رتبه بندی کنترل کلی"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_overview
+#: model:ir.ui.menu,name:erm.menu_erm_risk_template_overview
+msgid "Overview"
+msgstr "نمای کلی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_mitigation_action_plan__status__planned
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_treatment__implementation_status__1
+msgid "Planned"
+msgstr "برنامه ریزی شده است"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__control_type__1
+msgid "Preventive"
+msgstr "پیشگیرانه"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__current_risk__erm_risk_likelihood
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__inherent_risk__erm_risk_likelihood
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__residual_risk__erm_risk_likelihood
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__type__erm_risk_likelihood
+msgid "Probability/Likelihood"
+msgstr "احتمال/احتمال"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_analysis__contributing_factors__7
+msgid "Project-Specific Factors"
+msgstr "عوامل خاص پروژه"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__2
+msgid "Quarterly"
+msgstr "فصلنامه"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__rating
+msgid "Rating"
+msgstr "رتبه بندی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__rating_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__rating_ids
+msgid "Ratings"
+msgstr "رتبه بندی ها"
+
+#. module: erm
+#: model:ir.ui.menu,name:erm.menu_erm_risk_template
+msgid "Registers"
+msgstr "ثبت"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__parent_id
+msgid "Related Analysis"
+msgstr "تحلیل های مرتبط"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__parent_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__parent_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__parent_id
+msgid "Related Risk"
+msgstr " آسیب توانش مرتبط"
+
+#. module: erm
+#: model:ir.ui.menu,name:erm.menu_reporting
+msgid "Reporting"
+msgstr "گزارش دهی"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__residual_consequence_color
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__residual_consequence_id
+msgid "Residual Consequence"
+msgstr "پیامد باقیمانده"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__residual_risk_score
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__residual_risk
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_form
+msgid "Residual Risk"
+msgstr " آسیب توانش باقیمانده"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__residual_risk_rating
+msgid "Residual Risk Rating"
+msgstr "رتبه بندی  آسیب توانش باقیمانده"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__residual_risk_score
+msgid "Residual Risk Score"
+msgstr "امتیاز  آسیب توانش باقیمانده"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__activity_user_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__user_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__revised_due_date
+msgid "Revised Due Date"
+msgstr "تاریخ سررسید تجدید نظر شده"
+
+#. module: erm
+#: model:ir.ui.menu,name:erm.menu_erm_risk_template_root
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_graph
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_pivot
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_graph
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_kanban
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_pivot
+msgid "Risk"
+msgstr " آسیب توانش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_affected_area
+#: model:ir.model,name:erm.model_erm_risk_affected_area
+#: model:ir.ui.menu,name:erm.menu_erm_risk_affected_area
+msgid "Risk Affected Areas"
+msgstr "مناطق تحت تأثیر خطر"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk
+msgid "Risk Analysis"
+msgstr "تجزیه و تحلیل  آسیب توانش"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_res_config_settings__risk_appetite
+msgid "Risk Appetite"
+msgstr " آسیب توانش اشتها"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_res_config_settings__risk_appetite_control
+msgid "Risk Appetite Control"
+msgstr "کنترل اشتهای  آسیب توانش"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__parent_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__parent_id
+msgid "Risk Assessment"
+msgstr "ارزیابی  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_assessment_analysis
+msgid "Risk Assessment Analysis"
+msgstr "تجزیه و تحلیل ارزیابی  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_assessment_create_wizard
+msgid "Risk Assessment Create Wizard"
+msgstr "Risk Assessment Create Wizard"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_assessment_evaluation
+msgid "Risk Assessment Evaluation"
+msgstr "ارزیابی  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_assessment
+msgid "Risk Assessments"
+msgstr "ارزیابی  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_assignment
+msgid "Risk Assignments"
+msgstr "تکالیف  آسیب توانش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_category
+#: model:ir.model,name:erm.model_erm_risk_category
+#: model:ir.ui.menu,name:erm.menu_erm_risk_category
+msgid "Risk Categories"
+msgstr "دسته بندی  آسیب توانش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_objective_category
+msgid "Risk Category Categories"
+msgstr "دسته بندی  آسیب توانش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_category_type
+#: model:ir.model,name:erm.model_erm_risk_category_type
+msgid "Risk Category Types"
+msgstr "انواع رده  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_consequence
+msgid "Risk Consequences"
+msgstr "عواقب خطر"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_control
+msgid "Risk Controls"
+msgstr "کنترل  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_impact
+msgid "Risk Impacts"
+msgstr "اثرات  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_likelihood
+msgid "Risk Likelihoods"
+msgstr "احتمال خطر"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__user_id
+msgid "Risk Manager"
+msgstr "مدیر  آسیب توانش"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__risk_mitigation_cost
+msgid "Risk Mitigation Cost"
+msgstr "هزینه کاهش  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_objective_category
+msgid "Risk Objective Category"
+msgstr "مقوله هدف  آسیب توانش"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__risk_score
+msgid "Risk Score (Risk Level)"
+msgstr "امتیاز  آسیب توانش (سطح  آسیب توانش)"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_source
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__risk_source_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__risk_source_id
+msgid "Risk Source"
+msgstr "منبع  آسیب توانش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_source_category
+#: model:ir.model,name:erm.model_erm_risk_source_category
+msgid "Risk Source Categories"
+msgstr "دسته بندی منبع  آسیب توانش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_source
+#: model:ir.ui.menu,name:erm.menu_erm_risk_source
+msgid "Risk Sources"
+msgstr "منابع  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_tag
+msgid "Risk Tags"
+msgstr "برچسب های  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_template
+msgid "Risk Template"
+msgstr "الگوی  آسیب توانش"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_form
+msgid "Risk Title..."
+msgstr "عنوان  آسیب توانش..."
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_trigger
+msgid "Risk Triggers"
+msgstr "عوامل خطر"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_velocity
+#: model:ir.model.fields,field_description:erm.field_erm_risk__risk_velocity_id
+msgid "Risk Velocity"
+msgstr "سرعت  آسیب توانش"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_dependency
+msgid "Risk dependency"
+msgstr "وابستگی به  آسیب توانش"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__risk_tolerance
+msgid "Risk tolerance"
+msgstr "تحمل  آسیب توانش"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk_category__risk_tolerance
+msgid ""
+"Risk tolerance refers to the amount of loss an investor is prepared to "
+"handle while making an investment decision."
+msgstr ""
+"تحمل  آسیب توانش به میزان ضرری اشاره دارد که سرمایه گذار در هنگام تصمیم گیری برای "
+"سرمایه گذاری آماده تحمل آن است."
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk
+#: model:ir.actions.act_window,name:erm.action_erm_risk_template
+msgid "Risks"
+msgstr "خطرات"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_template_graph
+#: model:ir.ui.menu,name:erm.erm_risk_template_graph
+msgid "Risks Analysis"
+msgstr "تجزیه و تحلیل  آسیب توانش"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__message_has_sms_error
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیامک"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid "Select ERM work based on wich standard, ISO 31000 or COSO ERM."
+msgstr "کار ERM را بر اساس استاندارد ISO 31000 یا COSO ERM انتخاب کنید."
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid "Select ERM work based on wich standard, ISO 31000 or COSO ERM:"
+msgstr "کار ERM را بر اساس استاندارد ISO 31000 یا COSO ERM انتخاب کنید:"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid ""
+"Select how you want to calculate the risk score: Based on Monetary values or"
+" Impact selection."
+msgstr ""
+"نحوه محاسبه امتیاز  آسیب توانش را انتخاب کنید: بر اساس مقادیر پولی یا انتخاب تاثیر."
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.erm_config_settings_action
+#: model:ir.ui.menu,name:erm.erm_config_settings_menu
+msgid "Settings"
+msgstr "تنظیمات"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__current_risk__erm_risk_impact
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__inherent_risk__erm_risk_impact
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__residual_risk__erm_risk_impact
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_evaluation__type__erm_risk_impact
+msgid "Severity/Impact"
+msgstr "شدت/تاثیر"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk__timeframe__1
+msgid "Short-term"
+msgstr "کوتاه مدت"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control_effectiveness__rating__3
+msgid "Significant Improvement Needed"
+msgstr "بهبود قابل توجهی مورد نیاز است"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__state
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__state
+msgid "Stage"
+msgstr "مرحله"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_analysis__contributing_factors__6
+msgid "Stakeholder Factors"
+msgstr "عوامل ذینفع"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__status
+#: model:ir.model.fields,field_description:erm.field_erm_risk_dependency__state
+msgid "Status"
+msgstr "حالت"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__activity_state
+#: model:ir.model.fields,help:erm.field_erm_risk_template__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت بر اساس فعالیت ها\n"
+"سررسید: تاریخ سررسید گذشته است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه ریزی شده: فعالیت های آینده."
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.assessment_create_wizard_form
+#: model_terms:ir.ui.view,arch_db:erm.view_erm_risk_template_form
+msgid "Submit"
+msgstr "ارسال کنید"
+
+#. module: erm
+#. odoo-python
+#: code:addons/erm/wizard/assessment_create_wizard_view.py:0
+#, python-format
+msgid "Successfully!"
+msgstr "با موفقیت!"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_tag
+#: model:ir.ui.menu,name:erm.menu_erm_risk_tag
+msgid "Tages"
+msgstr "Tages"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__tag_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__tag_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_create_wizard__tag_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__tag_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__tag_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__tag_ids
+msgid "Tags"
+msgstr "برچسب ها"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment_analysis__contributing_factors__5
+msgid "Technological Factors"
+msgstr "عوامل تکنولوژیکی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_treatment__treatment_type__2
+msgid "Terminate"
+msgstr "خاتمه دهید"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__test_step
+msgid "Test steps"
+msgstr "مراحل آزمون"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.res_config_settings_view_form
+msgid ""
+"The COSO ERM Framework (Committee of Sponsoring Organizations of the "
+"Treadway Commission's Enterprise Risk Management Framework) provides a "
+"structured approach for managing risks within an organization. It "
+"categorizes risks to ensure a holistic view of risk management. Like ISO "
+"31000, COSO ERM doesn't prescribe specific risk categories but suggests "
+"categories commonly used in practice, aligned with organizational "
+"objectives."
+msgstr ""
+"چارچوب COSO ERM (کمیته سازمان های حامی چارچوب مدیریت  آسیب توانش سازمانی کمیسیون "
+"تردوی) یک رویکرد ساختاریافته برای مدیریت  آسیب توانش ها در یک سازمان ارائه می دهد. "
+"برای اطمینان از دیدگاهی جامع از مدیریت  آسیب توانش،  آسیب توانش ها را دسته بندی می کند. "
+"مانند ISO 31000، COSO ERM دسته‌بندی خطر خاصی را تجویز نمی‌کند، اما دسته‌هایی"
+" را که معمولاً در عمل استفاده می‌شوند و همسو با اهداف سازمانی هستند، پیشنهاد"
+" می‌کند."
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__current_likelihood_id
+#: model:ir.model.fields,help:erm.field_erm_risk__residual_likelihood_id
+#: model:ir.model.fields,help:erm.field_erm_risk_template__likelihood_id
+msgid "The chance of the risk occurring."
+msgstr "احتمال وقوع خطر"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__current_impact_id
+#: model:ir.model.fields,help:erm.field_erm_risk__residual_impact_id
+#: model:ir.model.fields,help:erm.field_erm_risk_template__impact_id
+msgid "The extent of consequences if the risk occurs."
+msgstr "میزان عواقب در صورت وقوع خطر."
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_res_config_settings__risk_appetite
+msgid "The organization’s willingness to accept a certain level of risk."
+msgstr "تمایل سازمان به پذیرش سطح معینی از  آسیب توانش."
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__risk_velocity_id
+msgid "The speed at which a risk can materialize and impact the project."
+msgstr ""
+"سرعتی که با آن یک  آسیب توانش می تواند تحقق یابد و پروژه را تحت تاثیر قرار دهد."
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__category_id
+msgid "The type or nature of the risk."
+msgstr "نوع یا ماهیت خطر."
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__timeframe
+msgid "Timeframe (Proximity)"
+msgstr "بازه زمانی (نزدیک بودن)"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_category_type__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_consequence__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_objective_category__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_source_category__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment_type__name
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__name
+msgid "Title"
+msgstr "عنوان"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_treatment__treatment_type__3
+msgid "Tolerate"
+msgstr "تحمل کند"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__total_impact
+msgid "Total Impact"
+msgstr "تاثیر کل"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__total_impact
+msgid "Total Impact = Direct Costs + Indirect Costs."
+msgstr "تأثیر کل = هزینه های مستقیم + هزینه های غیر مستقیم."
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__5
+msgid "Transactional"
+msgstr "معامله ای"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_treatment__treatment_type__4
+msgid "Transfer"
+msgstr "انتقال"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_treatment__treatment_type__1
+msgid "Treat"
+msgstr "درمان کنید"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_treatment
+#: model:ir.model.fields,field_description:erm.field_erm_cost_benefit_analysis__treatment_id
+#: model:ir.model.fields,field_description:erm.field_erm_mitigation_action_plan__parent_id
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_template__state__5
+msgid "Treatment"
+msgstr "درمان"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__treatment_end_date
+msgid "Treatment End Date"
+msgstr "تاریخ پایان درمان"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__treatment_start_date
+msgid "Treatment Start Date"
+msgstr "تاریخ شروع درمان"
+
+#. module: erm
+#: model:ir.model,name:erm.model_erm_risk_treatment_type
+#: model:ir.model.fields,field_description:erm.field_erm_risk_treatment__treatment_type
+msgid "Treatment Type"
+msgstr "نوع درمان"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_treatment_type
+msgid "Treatment Types"
+msgstr "انواع درمان"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_treatment
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_analysis__treatment_ids
+#: model_terms:ir.ui.view,arch_db:erm.erm_risk_assessment_analysis_form
+msgid "Treatments"
+msgstr "درمان ها"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_trigger
+msgid "Triggers"
+msgstr "محرک ها"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment_evaluation__type
+msgid "Type"
+msgstr "تایپ کنید"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__activity_exception_decoration
+#: model:ir.model.fields,help:erm.field_erm_risk_template__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنا در ثبت."
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_dependency__state__unknown
+msgid "Unknown"
+msgstr "ناشناس"
+
+#. module: erm
+#: model:ir.model,name:erm.model_res_users
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assignment__current_user_id
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__user_id
+msgid "User"
+msgstr "کاربر"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_control_effectiveness__score
+#: model:ir.model.fields,field_description:erm.field_erm_risk_impact__value
+#: model:ir.model.fields,field_description:erm.field_erm_risk_likelihood__value
+#: model:ir.model.fields,field_description:erm.field_erm_risk_velocity__value
+msgid "Value"
+msgstr "ارزش"
+
+#. module: erm
+#: model:ir.actions.act_window,name:erm.action_erm_risk_velocity
+#: model:ir.ui.menu,name:erm.menu_erm_risk_velocity
+msgid "Velocities"
+msgstr "سرعت ها"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_assessment__risk_velocity
+msgid "Velocity"
+msgstr "سرعت"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_assessment__inherent_risk_rating__3
+msgid "Very High"
+msgstr "بسیار بالا"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__website_message_ids
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های تارنما"
+
+#. module: erm
+#: model:ir.model.fields,help:erm.field_erm_risk__website_message_ids
+#: model:ir.model.fields,help:erm.field_erm_risk_template__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات تارنما"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__frequency__4
+msgid "Weekly"
+msgstr "هفتگی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__erm_risk_control__documented__1
+msgid "Yes"
+msgstr "بله"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk_template__analysis_ids_count
+msgid "analysis"
+msgstr "تجزیه و تحلیل"
+
+#. module: erm
+#: model_terms:ir.ui.view,arch_db:erm.assessment_create_wizard_form
+msgid "assessment"
+msgstr "ارزیابی"
+
+#. module: erm
+#: model:ir.model.fields.selection,name:erm.selection__email_verification_config__risk_appetite_control__2
+#: model:ir.model.fields.selection,name:erm.selection__res_config_settings__risk_appetite_control__2
+#: model:ir.model.fields.selection,name:erm.selection__res_config_test__risk_appetite_control__2
+msgid "let pass"
+msgstr "بگذار بگذرد"
+
+#. module: erm
+#: model:ir.model.fields,field_description:erm.field_erm_risk__trigger_id
+msgid "trigger"
+msgstr "ماشه"

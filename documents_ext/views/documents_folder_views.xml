@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="folder_view_form_inherited">
+            <field name="name">documents.folder.form.inherited</field>
+            <field name="model">documents.folder</field>
+            <field name="inherit_id" ref="documents.folder_view_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='group_ids']" position="after">
+                    <field name="write_users" widget="many2many_tags"/>
+                </xpath>
+               
+                <xpath expr="//field[@name='read_group_ids']" position="after">
+                    <field name="read_users" widget="many2many_tags"/>
+                </xpath>
+
+                <xpath expr="//page[@name='access_rights']" position="inside">
+                    <group string="Workspace Administrator">
+                           <field name="workspace_administrator_ids" widget="many2many_tags"/>
+                    </group>
+                </xpath>
+                
+            </field>
+        </record>
+        <record model="ir.ui.view" id="folder_view_tree_inherited">
+            <field name="name">documents.folder.tree.inherited</field>
+            <field name="model">documents.folder</field>
+            <field name="inherit_id" ref="documents.folder_view_tree" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='display_name']" position="after">
+                    <field name="write_users" widget="many2many_tags"/>
+                    <field name="complete_name" string="Workspace Full Path"/>
+                </xpath>
+               
+            </field>
+        </record>
+    </data>
+</odoo>

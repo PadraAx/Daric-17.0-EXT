@@ -1,0 +1,192 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* corporate_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 23:52+0000\n"
+"PO-Revision-Date: 2025-02-13 23:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,help:corporate_dashboard.field_ir_metric__active
+msgid ""
+"Activate or Deactivate the print action button.\n"
+"                If no active then move to the status 'archive'.\n"
+"                Still can by found using filters button"
+msgstr ""
+"دکمه اقدام چاپ را فعال یا غیرفعال کنید.\n"
+"                اگر فعال نیست، به وضعیت \"بایگانی\" بروید.\n"
+"                هنوز هم با استفاده از دکمه پالایه ها می توانید پیدا کنید"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__operation__avg
+msgid "Average"
+msgstr "میانگین"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,help:corporate_dashboard.field_ir_metric__model
+msgid ""
+"Choose a model where the button is placed. You can find the\n"
+"                model name in the URL. For example the model of this page is\n"
+"                'model=printnode.action.button'.\n"
+"                Check this in the URL after the 'model='."
+msgstr ""
+"مدلی را انتخاب کنید که دکمه در آن قرار می گیرد. می توانید پیدا کنید\n"
+"                نام مدل در URL به عنوان مثال مدل این صفحه است\n"
+"                'model=printnode.action.button'.\n"
+"                این را در URL بعد از 'model=' بررسی کنید."
+
+#. module: corporate_dashboard
+#: model:ir.ui.menu,name:corporate_dashboard.menu_corporate_dashboard
+#: model:ir.ui.menu,name:corporate_dashboard.menu_corporate_dashboard_root
+msgid "Corporate Dashboard"
+msgstr "سنجه ها"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__operation__count
+msgid "Count"
+msgstr "تعداد"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__type__counter
+msgid "Counter"
+msgstr "شمارنده"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__description
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__domain
+msgid "Domain"
+msgstr "دامنه"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__field
+msgid "Field Name"
+msgstr "نام ستون"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__type__gauge
+msgid "Gauge"
+msgstr "سنجش گر"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__type__histogram
+msgid "Histogram"
+msgstr "بافت نگاشت"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__operation__max
+msgid "Max"
+msgstr "بیشینه"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__field_id
+msgid "Measured Field"
+msgstr "ستون اندازه گیری شده"
+
+#. module: corporate_dashboard
+#. odoo-python
+#: code:addons/corporate_dashboard/models/ir_metric.py:0
+#, python-format
+msgid "Metric name must be lower case."
+msgstr "نام سنجه باید با حروف کوچک باشد."
+
+#. module: corporate_dashboard
+#. odoo-python
+#: code:addons/corporate_dashboard/models/ir_metric.py:0
+#, python-format
+msgid "Metric name must not contain spaces."
+msgstr "نام سنجه نباید دارای فاصله باشد."
+
+#. module: corporate_dashboard
+#: model:ir.actions.act_window,name:corporate_dashboard.ir_metric_act
+#: model:ir.model,name:corporate_dashboard.model_ir_metric
+#: model:ir.ui.menu,name:corporate_dashboard.menu_ir_metric
+msgid "Metrics"
+msgstr "سنجه ها"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__operation__min
+msgid "Min"
+msgstr "کمینه"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__model_id
+msgid "Model"
+msgstr "مدل"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__name
+msgid "Name"
+msgstr "نام"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__operation
+msgid "Operation"
+msgstr "عملیات"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__model
+msgid "Related Document Model"
+msgstr "مدل سند مرتبط"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__operation__sum
+msgid "Sum"
+msgstr "مجموع"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields.selection,name:corporate_dashboard.selection__ir_metric__type__summary
+msgid "Summary"
+msgstr "خلاصه"
+
+#. module: corporate_dashboard
+#: model:ir.model.fields,field_description:corporate_dashboard.field_ir_metric__type
+msgid "Type"
+msgstr "نوع"

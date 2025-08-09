@@ -1,0 +1,40 @@
+﻿id,category_id,name
+1,Compliance,"Adherence to laws, regulations, and standards"""
+2,Compliance,"Internal policies, codes of conduct, and governance frameworks"""
+3,Compliance,"Compliance with financial, environmental, and operational regulations"""
+4,Compliance,Contractual obligations and risk of litigation
+5,Compliance,Legal liabilities and intellectual property management
+6,Environmental,Not Specified
+7,Environmental,Not Specified
+8,Environmental,Not Specified
+9,Environmental,Not Specified
+10,Financial,Financial performance and profitability
+11,Financial,Revenue streams and cost management
+12,Financial,Investment management and capital allocation
+13,Financial,Financial reporting accuracy and integrity
+14,Financial,Cash flow and liquidity management
+15,Financial,"Credit and market risks (e.g., interest rates, exchange rates)"""
+16,Human Capital,Not Specified
+17,Human Capital,Not Specified
+18,Human Capital,Not Specified
+19,Human Capital,Not Specified
+20,Operational,"Core business processes (e.g., production, service delivery)"""
+21,Operational,Efficiency and effectiveness of operations
+22,Operational,Supply chain management and logistics
+23,Operational,Quality control and performance management
+24,Operational,"IT systems, infrastructure, and cybersecurity"""
+25,Operational,"Human resource management (e.g., workforce productivity, health, and safety)"""
+26,Reputational,"Stakeholder perceptions (e.g., customers, investors, employees)"""
+27,Reputational,"Reputational,Brand and public relations management"
+28,Reputational,Ethical standards and corporate social responsibility (CSR)
+29,Reputational,Crisis management and response to negative events or publicity
+30,Strategic,Achievement of long-term objectives and goals
+31,Strategic,Strategic decision-making and direction
+32,Strategic,Business model and market positioning
+33,Strategic,"Mergers, acquisitions, and partnerships"""
+34,Strategic,Organizational reputation and brand value
+35,Technological,Information systems and data management
+36,Technological,Cybersecurity risks and data breaches
+37,Technological,Technological innovation and adoption of new systems
+38,Technological,"Software and hardware performance, reliability, and obsolescence"""
+39,Technological,Research and development (R&D) activities and technological advancement

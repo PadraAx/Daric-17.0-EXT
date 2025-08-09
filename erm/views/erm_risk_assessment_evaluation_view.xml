@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="erm_risk_assessment_evaluation_form" model="ir.ui.view">
+    <field name="model">erm.risk.assessment.evaluation</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+       
+          <group>
+            <field name="type" />
+            <!-- <field name="impact_ids"/> 
+            <field name="likelihood_ids"/>  -->
+            <field name="inherent_risk" options="{'hide_model': True, 'no_quick_create': True}" /> 
+            <field name="current_risk" options="{'hide_model': True, 'no_quick_create': True}" /> 
+            <field name="residual_risk" options="{'hide_model': True, 'no_quick_create': True}" /> 
+          </group>
+     
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="erm_risk_assessment_evaluation_tree" model="ir.ui.view">
+    <field name="model">erm.risk.assessment.evaluation</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="0">
+        <header>
+        </header>
+            <field name="type" />
+            <field name="inherent_risk" widget="many2one_badge" options="{'color_field': 'parent_id.color'}"/> 
+            <field name="current_risk" widget="many2one_badge" options="{'color_field': 'current_risk.color'}"/> 
+            <field name="residual_risk" widget="many2one_badge" options="{'color_field': 'residual_risk.color'}"/> 
+      </tree>
+    </field>
+  </record>
+  <record id="erm_risk_assessment_evaluation_search" model="ir.ui.view">
+    <field name="model">erm.risk.assessment.evaluation</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+         <field name="type" />
+            <field name="inherent_risk" /> 
+            <field name="current_risk" /> 
+            <field name="residual_risk"/> 
+      </search>
+    </field>
+  </record>
+  <record id="action_assessment_evaluation" model="ir.actions.act_window">
+    <field name="name">Evaluations</field>
+    <field name="res_model">erm.risk.assessment.evaluation</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Evaluations'
+      </p>
+    </field>
+  </record>
+  <!-- <menuitem name="Evaluations"
+                        id="menu_assessment_evaluation"
+                        parent="menu_assessment"
+                        action="action_assessment_evaluation"
+                        sequence="30">
+                    </menuitem> -->
+
+</odoo>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_erm_risk_treatment_form" model="ir.ui.view">
+    <field name="model">erm.risk.treatment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+          
+          <group>
+            <field name="name"/>
+            <field name="treatment_type"/>
+            <field name="implementation_status"/>
+            <field name="effectiveness"/>
+            <field name="escalated_to_id"/>
+            <field name="escalation_needed"/>
+          </group>
+
+          <group>
+             <field name="treatment_start_date"/>
+            <field name="treatment_end_date"/>
+            <field name="assessment_followup_date"/>
+            <field name="cost"/>
+            <field name="benefit"/>
+            <field name="ratio"/>
+          </group>
+         
+         
+          </group>
+              <notebook>
+            <page string="Description" name="page_description">
+              <group>
+                 <field name="description" placeholder="Enter your descriptions"
+                options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" />
+              </group>
+            </page>
+            <page string="Mitigation Action Plan" name="page_mitigation">
+              <group>
+                <field name="mitigation_action_plan_ids"  nolabel="1" colspan="2" >
+                  <tree string="Mitigation Action Plan" editable="top" create="1" >
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="due_date"/>
+                    <field name="revised_due_date"/>
+                    <!-- <field name="category_type_id" /> -->
+                    <!-- <field name="category_id" /> -->
+                    <field name="status" />
+                    <field name="action_owner_id" />
+                     
+                  </tree>
+                </field>
+              </group>
+            </page>
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_erm_risk_treatment_tree" model="ir.ui.view">
+    <field name="model">erm.risk.treatment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="0" editable="top">
+        <header>
+        </header>
+        <field name="name"/>
+        <!-- <field name="description"/> -->
+       
+        <field name="create_uid" />
+        <field name="create_date" />
+        <field name="write_uid" optional="hide"/>
+        <field name="write_date" optional="hide"/>
+            </tree>
+    </field>
+  </record>
+  <record id="view_erm_risk_treatment_search" model="ir.ui.view">
+    <field name="model">erm.risk.treatment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+            <!-- <field name="description"/> -->
+          
+      </search>
+    </field>
+  </record>
+  <record id="action_erm_risk_treatment" model="ir.actions.act_window">
+    <field name="name">Treatments</field>
+    <field name="res_model">erm.risk.treatment</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Treatment'
+      </p>
+    </field>
+  </record>
+
+                      <!-- <menuitem name="Treatment"
+                            id="menu_erm_risk_treatment"
+                            parent="menu_assessment"
+                            action="action_erm_risk_treatment"
+                            sequence="40">
+                        </menuitem> -->
+
+</odoo>

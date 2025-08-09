@@ -1,0 +1,148 @@
+<odoo>
+    <record id="module_category_erm" model="ir.module.category">
+        <field name="name">ERM</field>
+        <field name="description">ERM</field>
+        <field name="sequence">2</field>
+    </record>
+
+    <!-- <record id="group_user" model="res.groups">
+        <field name="name">User</field>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]" />
+        <field name="category_id" ref="module_category_erm" />
+    </record> -->
+    <record id="erm_group_analyst" model="res.groups">
+            <field name="name">ERM: Analyst</field>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]" />
+            <field name="category_id" ref="module_category_erm" />
+    </record>
+     <record id="erm_group_owner" model="res.groups">
+            <field name="name">ERM: Owner</field>
+            <field name="implied_ids" eval="[(4, ref('erm.erm_group_analyst'))]" />
+            <field name="category_id" ref="module_category_erm" />
+    </record>
+    <record id="erm_group_manager" model="res.groups">
+        <field name="name">ERM: Manager</field>
+        <field name="implied_ids" eval="[(4, ref('erm.erm_group_owner'))]" />
+        <field name="category_id" ref="module_category_erm" />  
+    </record>
+
+    <record id="erm_group_admin" model="res.groups">
+        <field name="name">ERM: Administrator</field>
+        <field name="implied_ids" eval="[(4, ref('erm.erm_group_manager'))]" />
+        <field name="category_id" ref="module_category_erm" />
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>  
+    </record>
+
+        <!-- Assignment -->
+       <record id="erm_assignment_write_rule" model="ir.rule">
+            <field name="name">Assignment: write rule</field>
+            <field name="model_id" ref="model_erm_risk_assignment" />
+            <field name="groups" eval="[(4, ref('erm.erm_group_manager'))]" />
+            <field name="domain_force">user.get_erm_assignment_record()</field>
+            <field name="perm_read" eval="0"/>
+            <field name="perm_write" eval="1"/>
+            <field name="perm_create" eval="1"/>
+            <field name="perm_unlink" eval="0"/>
+        </record>
+
+         <record id="erm_assignment_write_rule" model="ir.rule">
+                <field name="name">Assignment: write rule</field>
+                <field name="model_id" ref="model_erm_risk_assignment" />
+                 <field name="groups" eval="[(4, ref('erm.erm_group_admin'))]"/>
+            <field name="domain_force">[(1, '=', 1)]</field>
+        </record>
+
+
+       <!-- analyst-->
+       <!-- <record id="erm_risk_template_read_rule" model="ir.rule">
+            <field name="name">ERM: Risk Template Read</field>
+            <field name="model_id" ref="model_erm_risk_template"/>
+            <field name="groups" eval="[(4, ref('erm.erm_group_analyst'))]"/>
+            <field name="domain_force">[('create_uid', '=', user.id)]</field>
+        </record> -->
+            <record id="erm_risk_template_write_analyst_rule" model="ir.rule">
+                <field name="name">ERM: Risk Template Analyst write</field>
+                <field name="model_id" ref="model_erm_risk_template"/>
+                <field name="groups" eval="[(4, ref('erm.erm_group_analyst'))]"/>
+                <field name="domain_force">user.get_erm_risk_template_analyst_record()</field>
+                <field name="perm_read" eval="1"/>
+                <field name="perm_write" eval="1"/>
+                <field name="perm_create" eval="1"/>
+                <field name="perm_unlink" eval="0"/>
+            </record>
+            <record id="erm_risk_write_analyst_rule" model="ir.rule">
+                <field name="name">ERM: Risk Analyst write</field>
+                <field name="model_id" ref="model_erm_risk"/>
+                <field name="groups" eval="[(4, ref('erm.erm_group_analyst'))]"/>
+                <field name="domain_force">user.get_erm_risk_analyst_record()</field>
+                <field name="perm_read" eval="1"/>
+                <field name="perm_write" eval="1"/>
+                <field name="perm_create" eval="1"/>
+                <field name="perm_unlink" eval="0"/>
+            </record>
+        <!-- owner-->
+            <record id="erm_risk_template_write_owner_rule" model="ir.rule">
+                <field name="name">ERM: Risk Template Owner write</field>
+                <field name="model_id" ref="model_erm_risk_template"/>
+                <field name="groups" eval="[(4, ref('erm.erm_group_owner'))]"/>
+                <field name="domain_force">user.get_erm_risk_template_owner_record()</field>
+                <field name="perm_read" eval="1"/>
+                <field name="perm_write" eval="1"/>
+                <field name="perm_create" eval="1"/>
+                <field name="perm_unlink" eval="0"/>
+            </record>
+             <record id="erm_risk_write_owner_rule" model="ir.rule">
+                <field name="name">ERM: Risk Owner write</field>
+                <field name="model_id" ref="model_erm_risk"/>
+                <field name="groups" eval="[(4, ref('erm.erm_group_owner'))]"/>
+                <field name="domain_force">user.get_erm_risk_owner_record()</field>
+                <field name="perm_read" eval="1"/>
+                <field name="perm_write" eval="1"/>
+                <field name="perm_create" eval="1"/>
+                <field name="perm_unlink" eval="0"/>
+            </record>
+
+         <!-- manager -->
+            <record id="erm_risk_template_write_manager_rule" model="ir.rule">
+                <field name="name">ERM: Risk Template Manager write</field>
+                <field name="model_id" ref="model_erm_risk_template"/>
+                <field name="groups" eval="[(4, ref('erm.erm_group_manager'))]"/>
+                <field name="domain_force">user.get_erm_risk_template_manager_record()</field>
+                <field name="perm_read" eval="1"/>
+                <field name="perm_write" eval="1"/>
+                <field name="perm_create" eval="1"/>
+                <field name="perm_unlink" eval="0"/>
+            </record>
+            <record id="erm_risk_write_manager_rule" model="ir.rule">
+                <field name="name">ERM: Risk Manager write</field>
+                <field name="model_id" ref="model_erm_risk"/>
+                <field name="groups" eval="[(4, ref('erm.erm_group_manager'))]"/>
+                <field name="domain_force">user.get_erm_risk_manager_record()</field>
+                <field name="perm_read" eval="1"/>
+                <field name="perm_write" eval="1"/>
+                <field name="perm_create" eval="1"/>
+                <field name="perm_unlink" eval="0"/>
+            </record>
+        <!-- admin -->
+            <record id="erm_assignment_admin_rule" model="ir.rule">
+                    <field name="name">ERM: Assignment Admin rule</field>
+                    <field name="model_id" ref="model_erm_risk_assignment" />
+                    <field name="groups" eval="[(4, ref('erm.erm_group_admin'))]"/>
+                <field name="domain_force">[(1, '=', 1)]</field>
+            </record>
+
+            <record id="erm_risk_template_admin_rule" model="ir.rule">
+                    <field name="name">ERM: Risk Template Admin rule</field>
+                    <field name="model_id" ref="model_erm_risk_template" />
+                    <field name="groups" eval="[(4, ref('erm.erm_group_admin'))]"/>
+                <field name="domain_force">[(1, '=', 1)]</field>
+            </record>
+
+            <record id="erm_risk_admin_rule" model="ir.rule">
+                    <field name="name">ERM: Risk Admin rule</field>
+                    <field name="model_id" ref="model_erm_risk" />
+                    <field name="groups" eval="[(4, ref('erm.erm_group_admin'))]"/>
+                <field name="domain_force">[(1, '=', 1)]</field>
+            </record>
+
+</odoo>

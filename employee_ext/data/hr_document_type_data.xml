@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="hr_document_type_photo" model="hr.document.type">
+            <field name="name">Photo</field>
+        </record>
+
+        <record id="hr_document_type_passport" model="hr.document.type">
+            <field name="name">Passport</field>
+        </record>
+
+        <record id="hr_document_type_visa" model="hr.document.type">
+            <field name="name">Visa</field>
+        </record>
+
+        <record id="hr_document_type_work_permit" model="hr.document.type">
+            <field name="name">Work Permit</field>
+        </record>
+
+        <record id="hr_document_type_offer_letter" model="hr.document.type">
+            <field name="name">Offer Letter</field>
+        </record>
+
+        <record id="hr_document_type_nda" model="hr.document.type">
+            <field name="name">NDA</field>
+        </record>
+
+        <record id="hr_document_type_educational_certificates" model="hr.document.type">
+            <field name="name">Educational Certificate</field>
+        </record>
+    </data>
+</odoo>

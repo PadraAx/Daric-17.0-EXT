@@ -1,0 +1,82 @@
+<odoo>
+    <data>     
+
+        <record id="employee_public_view_form_inherit" model="ir.ui.view">
+            <field name="name">hr.job.ext.view.form</field>
+            <field name="model">hr.job</field>
+            <field name="inherit_id" ref="hr.view_hr_job_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@name='recruitment']//field[@name='department_id']" position="before">
+                    <field name="sequence"/>
+                    <field name="country_id"/>
+                </xpath>
+                <xpath expr="//group[@name='recruitment']//field[last()]" position="before">
+                    <field name="parent_id" options="{'no_create': True}"/>
+                    <field name="level_id" options="{'no_create': True}"/>
+                </xpath>
+                <xpath expr="//group[@name='recruitment2']//div" position="after">
+                    <field name="employee_id"/>
+                    <field name="tier_id"/>
+                </xpath>
+                <xpath expr="//field[@name='contract_type_id']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='department_id']" position="attributes">
+                    <attribute name="options">{'no_create': True}</attribute>
+                </xpath>
+                <xpath expr="//group[@name='recruitment']//field[@name='company_id']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_hr_employee_ext_job_tree" model="ir.ui.view">
+            <field name="name">hr.employee.ext.job.tree</field>
+            <field name="model">hr.job</field>
+            <field name="inherit_id" ref="hr.view_hr_job_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='department_id']" position="after">
+                    <field name="country_id"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="hr_job_view_hierarchy" model="ir.ui.view">
+            <field name="name">hr.job.view.hierarchy</field>
+            <field name="model">hr.job</field>
+            <field name="arch" type="xml">
+                <hierarchy child_field="child_ids" js_class="hr_job_hierarchy" create="false">
+                    <field name="name" />
+                    <field name="department_id" />
+                    <field name="parent_id" />
+                    <field name="child_ids" />
+                    <field name="department_color" />
+                    <field name="employee_id" />
+                    <field name="employee_id_image" />
+                    <templates>
+                        <t t-name="hierarchy-box">
+                            <div t-attf-class="o_hierarchy_node_header d-flex justify-content-center pb-4 o_hierarchy_node_color_{{ record.department_color.raw_value }}"
+                                 t-att-title="record.department_id.value">
+                                  <t t-if="record.employee_id.raw_value">
+                                    <field name="employee_id_image" options="{'zoom': true, 'zoom_delay': 1000}" widget="background_image" />
+                                  </t>
+                            </div>
+                            <div class="o_hierarchy_node_body d-flex flex-column text-center">
+                                <div class="w-100 position-relative">
+                                    <field class="fw-bold" name="name" />
+                                </div>
+                                <field name="employee_id" />
+                            </div>
+                        </t>
+                    </templates>
+                </hierarchy>
+            </field>
+        </record>
+
+        <record id="action_hr_job_hierarchy" model="ir.actions.act_window">
+            <field name="name">Job Positions</field>
+            <field name="res_model">hr.job</field>
+            <field name="view_mode">hierarchy</field>
+        </record>
+    </data>
+</odoo>

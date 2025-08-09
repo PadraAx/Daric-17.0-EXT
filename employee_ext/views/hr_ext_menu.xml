@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+    <!-- module access -->
+    <record model="ir.ui.menu" id="hr.menu_hr_root">
+        <field name="groups_id" eval="[(6, 0 ,[ref('employee_ext.group_hr_show_employee_section')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr.menu_hr_department_tree">
+        <field name="groups_id" eval="[(6, 0 ,[ref('base.group_no_one')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr.menu_hr_employee">
+        <field name="groups_id" eval="[(6, 0, [ref('base.group_user'),
+                                                ref('hr.group_hr_user'),])]"/>
+        <field name="sequence">0</field>        
+    </record>
+
+    <!-- directoy for hrss -->
+    <menuitem 
+        id="menu_hr_directory_employees_hrss"
+        name="Directory"
+        action="hr_employee_ext_public_action"
+        parent="hr.menu_hr_root"
+        sequence="0"
+        groups="hr.group_hr_user"/>
+
+    <!-- employees -->
+
+    <record model="ir.ui.menu" id="hr.menu_hr_employee_payroll">
+        <field name="groups_id" eval="[(6, 0, [ref('employee_ext.group_hr_organization_development'),
+                                                ref('employee_ext.group_hr_business_partner'),
+                                                ref('employee_ext.group_hr_employee_reader'),
+                                                ref('hr.group_hr_user'),])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr.menu_hr_employee_user">
+        <field name="groups_id" eval="[(6, 0, [ref('employee_ext.group_hr_organization_development'),
+                                                ref('employee_ext.group_hr_business_partner'),
+                                                ref('employee_ext.group_hr_employee_reader'),
+                                                ref('hr.group_hr_user'),])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="hr_skills.hr_employee_skill_report_menu">
+        <field name="groups_id" eval="[(6, 0, [ref('employee_ext.group_hr_business_partner'),
+                                                ref('employee_ext.group_hr_employee_reader'),
+                                                ref('hr.group_hr_user')])]"/>
+    </record>
+
+    <!-- Org Structure -->
+    <menuitem 
+        id="hr_menu_org_structure_root"
+        name="Org Structure"
+        parent="hr.menu_hr_root"
+        sequence="4" 
+        groups="base.group_user"/>
+
+        <menuitem
+            id="menu_hr_department_layer"
+            action="hr_department_layer_action"
+            parent="hr_menu_org_structure_root"
+            sequence="4"
+            groups="group_hr_organization_development,employee_ext.group_hr_employee_reader,hr.group_hr_manager"/>
+
+        <menuitem
+            id="menu_hr_cost_center"
+            name="Cost Center"
+            action="hr_cost_center_action"
+            parent="hr_menu_org_structure_root"
+            sequence="5"
+            groups="group_hr_organization_development,employee_ext.group_hr_employee_reader,hr.group_hr_user"/>
+
+        <menuitem
+            id="menu_action_hr_employee_cost_center"
+            action="hr_employee_cost_center_action"
+            parent="hr_menu_org_structure_root"
+            sequence="6"
+            groups="group_hr_organization_development,employee_ext.group_hr_employee_reader,hr.group_hr_user"/>
+
+        <menuitem
+            id="menu_action_hr_employee_work_address"
+            name="Work Address"
+            action="action_work_address_partner_employee_ext"
+            parent="hr_menu_org_structure_root"
+            sequence="7"
+            groups="group_hr_organization_development,employee_ext.group_hr_employee_reader,hr.group_hr_manager"/>
+
+        <record model="ir.ui.menu" id="hr.menu_hr_department_kanban">
+            <field name="parent_id" ref="employee_ext.hr_menu_org_structure_root"/>
+            <field name="groups_id" eval="[(6, 0, [ref('group_hr_organization_development'),
+                                                    ref('employee_ext.group_hr_employee_reader'),
+                                                    ref('hr.group_hr_manager')])]"/>
+            <field name="sequence" eval="1"/>
+        </record>
+
+        <record model="ir.ui.menu" id="hr.menu_view_hr_job">
+            <field name="parent_id" ref="employee_ext.hr_menu_org_structure_root"/>
+            <field name="groups_id" eval="[(6, 0, [ref('group_hr_organization_development'),
+                                                    ref('employee_ext.group_hr_employee_reader'),
+                                                    ref('group_hr_business_partner'),
+                                                    ref('hr.group_hr_manager')])]"/>
+            <field name="sequence" eval="2"/>
+        </record>
+
+        <record model="ir.ui.menu" id="hr_org_chart.menu_hr_employee_org_chart">
+            <field name="parent_id" ref="employee_ext.hr_menu_org_structure_root"/>
+            <field name="groups_id" eval="[(6, 0, [ref('group_hr_organization_development'),
+                                                    ref('employee_ext.group_hr_employee_reader'),
+                                                    ref('hr.group_hr_manager')])]"/>
+            <field name="sequence" eval="3"/>
+        </record>
+
+        <menuitem
+            id="menu_org_structure_reporting"
+            name="Reporting"
+            parent="hr_menu_org_structure_root"
+            sequence="10"/>
+
+            <menuitem 
+                id="menu_report_chart_of_position"
+                name="Chart Of Positions"
+                action="action_hr_job_hierarchy"
+                parent="employee_ext.menu_org_structure_reporting"
+                groups="group_hr_organization_development,group_hr_employee_reader,group_hr_business_partner,hr.group_hr_user"/>
+
+            <record model="ir.ui.menu" id="employee_ext.menu_report_chart_of_position">
+                <field name="groups_id" eval="[(6, 0, [ref('employee_ext.group_hr_organization_development'),
+                                                        ref('employee_ext.group_hr_employee_reader'),
+                                                        ref('employee_ext.group_hr_business_partner'),
+                                                        ref('hr.group_hr_user')])]"/>
+            </record>
+
+        <menuitem
+            id="menu_org_structure_configuration"
+            name="Configuration"
+            parent="hr_menu_org_structure_root"
+            sequence="11"/>
+
+            <menuitem
+                id="menu_action_hr_job_tier"
+                action="hr_job_tier_action"
+                parent="employee_ext.menu_org_structure_configuration"
+                groups="group_hr_organization_development,group_hr_employee_reader,hr.group_hr_manager"/>
+
+            <menuitem
+                id="menu_action_hr_job_level"
+                action="hr_job_level_action"
+                parent="employee_ext.menu_org_structure_configuration"
+                groups="group_hr_organization_development,group_hr_employee_reader,hr.group_hr_manager"/>
+                
+            <record model="ir.ui.menu" id="hr.menu_hr_work_location_tree">
+                <field name="parent_id" ref="employee_ext.menu_org_structure_configuration"/>
+                <field name="name">Stations</field>
+                <field name="groups_id" eval="[(6, 0, [ref('group_hr_organization_development'),
+                                                        ref('employee_ext.group_hr_employee_reader'),
+                                                        ref('hr.group_hr_manager'),
+                                                        ref('employee_ext.group_hr_office_setup')])]"/>
+            </record>
+
+    <!-- Configuration/ Recruitment -->
+        <menuitem
+            id="menu_action_hr_tamin_job"
+            action="hr_tamin_job_action"
+            parent="hr.menu_config_recruitment"
+            sequence="8"
+            groups="hr.group_hr_user"/>
+
+    <!-- Configuration/ Employee -->
+        <menuitem
+            id="menu_view_hr_document_type"
+            action="hr_document_type_action"
+            parent="hr.menu_config_employee"
+            groups="hr.group_hr_user"/>
+
+        <menuitem
+            id="menu_view_hr_termination_type"
+            action="hr_termination_type_action"
+            parent="hr.menu_config_employee"
+            groups="hr.group_hr_user"/>
+
+        <menuitem
+            id="menu_view_hr_relationship_type"
+            action="hr_relationship_type_action"
+            parent="hr.menu_config_employee"
+            groups="hr.group_hr_user"/>
+
+        <menuitem
+            id="menu_hr_employee_payment_type"
+            name="Payment Type"
+            action="hr_employee_payment_type_action"
+            parent="hr.menu_config_employee"
+            groups="hr.group_hr_user"/>
+
+        <menuitem
+            id="menu_hr_employee_contact_category"
+            name="Contact Category"
+            action="hr_employee_contact_category_action"
+            parent="hr.menu_config_employee"
+            groups="hr.group_hr_user"/>
+
+        <menuitem
+            id="menu_hr_religion"
+            action="hr_religion_action"
+            parent="hr.menu_config_employee"
+            groups="hr.group_hr_user"/>
+                
+    </data>
+</odoo>

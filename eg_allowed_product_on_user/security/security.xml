@@ -1,0 +1,12 @@
+<odoo>
+    <record id="group_product_allowed_manager" model="res.groups">
+        <field name="name">Allowed Products</field>
+    </record>
+
+    <record id="allowed_product_rule" model="ir.rule">
+        <field name="name">Allowed Product</field>
+        <field ref="model_product_template" name="model_id"/>
+        <field name="domain_force">[('id','in', user.product_template_ids.ids)]</field>
+        <field name="groups" eval="[(4, ref('eg_allowed_product_on_user.group_product_allowed_manager'))]"/>
+    </record>
+</odoo>

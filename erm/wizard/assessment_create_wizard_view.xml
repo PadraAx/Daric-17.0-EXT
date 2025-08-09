@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="assessment_create_wizard_form" model="ir.ui.view">
+        <field name="model">erm.risk.assessment.create.wizard</field>
+        <field name="name">erm.risk.assessment.create.wizard.form</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <form  class="custom-popup">
+                <sheet>
+                    <group>
+                      <!-- <field name="category_type_id" readonly="1" widget="radio" options="{'horizontal': true}"/>
+                      <field name="category_id"  /> -->
+                      <field name="impact_id" />
+                      <field name="likelihood_id" />
+                      <field name="parent_id" readonly="1"/>
+                      <field name="tag_ids" widget="many2many_tags" /> 
+                    </group>
+                    <notebook>
+                      <page string="assessment" name="page_assessment">
+                        <group>
+                          <field name="comments"  placeholder="Enter your comments"
+                          options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" />
+                        </group>
+                      </page>
+                    </notebook>
+                  </sheet>
+                <footer>
+                    <button string="Submit" class="btn btn-primary" type="object" name="action_assessed" data-hotkey="q" />
+                    <button string="Discard" class="btn-secondary" special="cancel" data-hotkey="z" />
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="action_assessment_create_wizard" model="ir.actions.act_window">
+        <field name="name">Assessment</field>
+        <field name="res_model">erm.risk.assessment.create.wizard</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Assessment
+            </p>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_stock_quant_tree_inherit_editable" model="ir.ui.view">
+        <field name="name">stock.quant.tree.inherit.editable</field>
+        <field name="model">stock.quant</field>
+        <field name="inherit_id" ref="stock.view_stock_quant_tree_editable"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='inventory_quantity_auto_apply']" position="replace">
+                <field name="inventory_quantity_auto_apply" string="On Hand Quantity" readonly="1"/>
+            </xpath>
+
+            <xpath expr="//field[@name='inventory_quantity_auto_apply']" position="after">
+                <field name="p_currency_id" column_invisible="True"/>
+                <field name="price" readonly="1" options="{'currency_field': 'p_currency_id'}"/>
+                <field name="total_amount" readonly="1" options="{'currency_field': 'p_currency_id'}"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="stock.dashboard_open_quants"> <!-- Used in dashboard -->
+        <field name="domain">[("location_id.usage", "=", "internal")]</field>
+    </record>
+
+</odoo>

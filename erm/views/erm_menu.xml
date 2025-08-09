@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem
+            id="menu_erm_root"
+            name="ERM"
+            web_icon="erm,static/description/icon.png"
+            sequence="0"
+            groups="erm.erm_group_analyst"
+        />
+
+              <menuitem name="Assessments"
+                id="menu_assessment"
+                parent="menu_erm_root"
+                sequence="3">
+            </menuitem>
+        
+             <menuitem name="Controls"
+                id="menu_control"
+                parent="menu_erm_root"
+                sequence="4"
+            />
+              
+            <menuitem name="Reporting"
+                id="menu_reporting"
+                parent="menu_erm_root"
+                sequence="5"
+            />
+
+            <menuitem name="Configuration"
+                id="menu_configuration"
+                parent="menu_erm_root"
+                groups="erm.erm_group_manager"
+                sequence="6"
+            />
+
+                <!-- <menuitem  name="Metrics"
+                    id="menu_ir_metric"
+                    action="prometheus_exporter.ir_metric_act"
+                    parent="menu_configuration"
+                    sequence="15"
+                /> -->
+</odoo>

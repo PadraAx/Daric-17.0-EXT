@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="export_user" model="res.groups">
+        <field name="name">Export User</field>
+        <field name="category_id" ref="base.module_category_administration_administration"/>
+    </record>
+
+    <record id="export_rule" model="ir.rule">
+        <field name="name">Export Rule</field>
+        <field name="model_id" ref="base.model_ir_exports"/>
+        <field name="domain_force">user.get_export_access_record()</field>
+        <field name="groups" eval="[(4, ref('export_access.export_user'))]"/>
+    </record>
+</odoo>

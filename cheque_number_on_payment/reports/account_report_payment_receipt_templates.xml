@@ -1,0 +1,11 @@
+<odoo>
+    <template id="report_payment_extended_cheque_number_receipt" inherit_id="account.report_payment_receipt_document">
+        <xpath expr="//div[hasclass('page')]/div/div[3]" position="after">
+            <div class="row mb64">
+                <div class="col-6" t-if="o.cheque_number">
+                    <strong>Cheque Number: </strong><span t-field="o.cheque_number"/>
+                 </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

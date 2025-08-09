@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="hr_employee_training_view_form" model="ir.ui.view">
+            <field name="name">employee.training.view.form</field>
+            <field name="model">hr.employee.training</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="training_program"/>
+                                <field name="training_date"/>
+                            </group>
+                            <group>
+                                <field name="tarining_duration"/>
+                                <field name="training_provider"/>
+                                <field name="training_location"/>
+                            </group>
+                            <group>
+                                <field name="completion_status"/>
+                            </group>
+                            <group>
+                                <field name="certificate_provided"/>
+                            </group>
+                            <group>
+                                <field name="filename" invisible="1"/>
+                                <field name="attachment" filename="filename"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_employee_training_view_tree" model="ir.ui.view">
+            <field name="name">employee.training.view.tree</field>
+            <field name="model">hr.employee.training</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Training List">
+                    <field name="training_program"/>
+                    <field name="training_date"/>
+                    <field name="tarining_duration"/>
+                    <field name="training_location"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_employee_training_action" model="ir.actions.act_window">
+            <field name="name">Employee Training</field>
+            <field name="res_model">hr.employee.training</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

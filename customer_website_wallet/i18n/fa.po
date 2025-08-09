@@ -1,0 +1,443 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* customer_website_wallet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 21:29+0000\n"
+"PO-Revision-Date: 2025-02-14 21:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: customer_website_wallet
+#: model:mail.template,body_html:customer_website_wallet.email_template_wallet_balance_debit
+msgid ""
+"\n"
+"                    <p>Dear <t t-out=\"object.customer_id.name or ''\"/></p>\n"
+"                    <p>A sum of <b><t t-out=\"object.amount or ''\"/> <t t-out=\"object.company_id.currency_id.name\"/></b> has been successfully deducted from your wallet!</p>\n"
+"                    <p>Your current wallet balance is <b><t t-out=\"object.customer_id.wallet_balance or ''\"/> <t t-out=\"object.company_id.currency_id.name\"/></b>.</p>\n"
+"                    <p>Thanks,</p>\n"
+"                    <p><t t-out=\"object.company_id.name\"/></p>\n"
+"                    \n"
+"                "
+msgstr ""
+"\n"
+"                    <p>مشتری گرامی <t t-out=\"object.customer_id.name or ''\"/></p>\n"
+"                    <p>مبلغ <b><t t-out=\"object.amount or ''\"/> <t t-out=\"object.company_id.currency_id.name\"/></b> با موفقیت از کیف پول شما کسر شد!</p>\n"
+"                    <p>موجودی فعلی کیف پول شما <b><t t-out=\"object.customer_id.wallet_balance or ''\"/> <t t-out=\"object.company_id.currency_id.name\"/></b> است.</p>\n"
+"                    <p>با تشکر،</p>\n"
+"                    <p><t t-out=\"object.company_id.name\"/></p>\n"
+"                    \n"
+"                "
+
+#. module: customer_website_wallet
+#: model:mail.template,body_html:customer_website_wallet.email_template_wallet_balance_credit
+msgid ""
+"\n"
+"                <p>Dear <t t-out=\"object.customer_id.name or ''\"/></p>\n"
+"                <p>A sum of <b><t t-out=\"object.amount or ''\"/> <t t-out=\"object.company_id.currency_id.name\"/></b> has been successfully added to your wallet!</p>\n"
+"                <p>Your current wallet balance is <b><t t-out=\"object.customer_id.wallet_balance or ''\"/> <t t-out=\"object.company_id.currency_id.name\"/></b>./p>\n"
+"                <p>Thanks,</p>\n"
+"                <p><t t-out=\"object.company_id.name\"/></p>\n"
+"                \n"
+"            "
+msgstr ""
+"<p> عزیز <t t-out = \"object.customer_id.name یا ''\"/> </p>\n"
+"                <p> مبلغی از <b> <t-out = \"object.amount یا '\" \"/> <t t-out =\" object.com_id.currency_id.name \"/> </b> با موفقیت اضافه شده است به کیف پول خود! </p>\n"
+"                <P> تعادل کیف پول فعلی شما <b> <t-out = \"object.customer_id.wallet_balance یا ''\"/> <t-out = \"object.com_id.currency_id.name\"/> </> </> </> </> </> </> ./p>\n"
+"                <p> متشکرم ، </p>\n"
+"                <p> <t t-out = \"object.company_id.name\"/> </p>"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_sale_wallate_payment
+msgid "&amp;times;"
+msgstr "&amp;times;"
+
+#. module: customer_website_wallet
+#. odoo-python
+#: code:addons/customer_website_wallet/models/payment_transaction.py:0
+#, python-format
+msgid "; multiple order found"
+msgstr "چندین سفارش یافت شد"
+
+#. module: customer_website_wallet
+#. odoo-python
+#: code:addons/customer_website_wallet/models/payment_transaction.py:0
+#, python-format
+msgid "; no order found"
+msgstr "; هیچ سفارشی یافت نشد"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_sale_wallate_payment
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_wallet_on_payment_page
+msgid "<b>Your Current Wallet Balance is </b>"
+msgstr "<b>موجودی فعلی کیف پول شما </b>"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.display_wallets
+msgid ""
+"<span class=\"visible-xs-inline\">Add Wallet Money</span>\n"
+"                        <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"<span class=\"visible-xs-inline\">افزودن موجودی به کیف پول</span>\n"
+"                        <span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.portal_my_home_menu_Wallets
+msgid "<span>Wallets</span>"
+msgstr "<span>کیف پول‌ها</span>"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__amount
+msgid "Amount"
+msgstr "مقدار"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_sale_wallate_payment
+msgid "Are you sure for using wallet amount?"
+msgstr "آیا از استفاده از موجودی کیف پول مطمئن هستید؟"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__balance_type
+msgid "Balance Type"
+msgstr "نوع موجودی"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_sale_wallate_payment
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_payment_provider__code
+msgid "Code"
+msgstr "کد"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_sale_wallate_payment
+msgid "Confirm"
+msgstr "تأیید"
+
+#. module: customer_website_wallet
+#: model:ir.model,name:customer_website_wallet.model_res_partner
+msgid "Contact"
+msgstr "تماس بگیرید"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields.selection,name:customer_website_wallet.selection__customer_wallet__balance_type__credit
+msgid "Credit"
+msgstr "اعتبار"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__currency_id
+msgid "Currency"
+msgstr "ارز"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__customer_id
+msgid "Customer"
+msgstr "مشتری"
+
+#. module: customer_website_wallet
+#: model:ir.actions.act_window,name:customer_website_wallet.action_customer_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_res_partner__wallet_ids
+#: model:ir.model.fields,field_description:customer_website_wallet.field_res_users__wallet_ids
+msgid "Customer Wallet"
+msgstr "کیف پول مشتری"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__date
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.low_balance
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.lowbalance
+msgid "Dear"
+msgstr "عزیز"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields.selection,name:customer_website_wallet.selection__customer_wallet__balance_type__debit
+msgid "Debit"
+msgstr "بدهکار"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__note
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields.selection,name:customer_website_wallet.selection__customer_wallet__state__done
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.customer_wallet_form_view
+msgid "Done"
+msgstr "انجام‌شده"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields.selection,name:customer_website_wallet.selection__customer_wallet__state__draft
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.customer_wallet_search_view
+msgid "Group By"
+msgstr "گروه‌بندی بر اساس"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_product_product__is_wallet_product
+#: model:ir.model.fields,field_description:customer_website_wallet.field_product_template__is_wallet_product
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.is_wallet_balance_form_view
+msgid "Is Wallet Product"
+msgstr "آیا محصول کیف پول است"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__write_uid
+msgid "Last Updated by"
+msgstr "آخرین بروزرسانی توسط"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__write_date
+msgid "Last Updated on"
+msgstr "آخرین بروزرسانی در"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields.selection,name:customer_website_wallet.selection__customer_wallet__reference__manual
+msgid "Manual"
+msgstr "دستی"
+
+#. module: customer_website_wallet
+#. odoo-python
+#: code:addons/customer_website_wallet/models/payment_transaction.py:0
+#, python-format
+msgid "No transaction found matching reference %s."
+msgstr "هیچ تراکنشی با مرجع %s یافت نشد."
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__name
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.display_wallets
+msgid "Number"
+msgstr "شماره"
+
+#. module: customer_website_wallet
+#: model:ir.model,name:customer_website_wallet.model_account_payment_method
+msgid "Payment Methods"
+msgstr "روش‌های پرداخت"
+
+#. module: customer_website_wallet
+#: model:ir.model,name:customer_website_wallet.model_payment_provider
+msgid "Payment Provider"
+msgstr "سرویس دهنده پرداخت"
+
+#. module: customer_website_wallet
+#: model:ir.model,name:customer_website_wallet.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "تراکنش پرداخت"
+
+#. module: customer_website_wallet
+#: model:ir.model,name:customer_website_wallet.model_product_template
+msgid "Product"
+msgstr "محصول"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__reference
+msgid "Reference"
+msgstr "ارجاع"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__sale_order_id
+#: model:ir.model.fields.selection,name:customer_website_wallet.selection__customer_wallet__reference__sale_order
+msgid "Sale Order"
+msgstr "سفارش فروش"
+
+#. module: customer_website_wallet
+#: model:ir.model,name:customer_website_wallet.model_sale_order
+msgid "Sales Order"
+msgstr "سفارش فروش"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.lowbalance
+msgid "Sales Team"
+msgstr "تیم فروش"
+
+#. module: customer_website_wallet
+#: model:ir.ui.menu,name:customer_website_wallet.menu_customer_wallet
+msgid "Sales Wallet"
+msgstr "کیف پول فروش"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_customer_wallet__state
+msgid "Status"
+msgstr "وضعیت"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.lowbalance
+msgid "Thank you for your understanding."
+msgstr "از درک شما متشکریم."
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,help:customer_website_wallet.field_payment_provider__code
+msgid "The technical code of this payment provider."
+msgstr "کد فنی این ارائه‌دهنده پرداخت."
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.display_wallets
+msgid "Transaction Amount"
+msgstr "مبلغ تراکنش"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.display_wallets
+msgid "Transaction Date"
+msgstr "تاریخ تراکنش"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.display_wallets
+msgid "Transaction Type"
+msgstr "نوع تراکنش"
+
+#. module: customer_website_wallet
+#: model:payment.provider,name:customer_website_wallet.wallet_provider_transfer
+msgid "Use Wallet Money"
+msgstr "استفاده از موجودی کیف پول"
+
+#. module: customer_website_wallet
+#: model:account.payment.method,name:customer_website_wallet.payment_method_wallet
+msgid "Wallet"
+msgstr "کیف پول"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_sale_order__wallet_used
+msgid "Wallet Amount Used"
+msgstr "مبلغ استفاده‌شده از کیف پول"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_res_partner__wallet_balance
+#: model:ir.model.fields,field_description:customer_website_wallet.field_res_users__wallet_balance
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.display_wallets
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_wallet_button_res_partner
+msgid "Wallet Balance"
+msgstr "موجودی کیف پول"
+
+#. module: customer_website_wallet
+#: model:mail.template,name:customer_website_wallet.email_template_wallet_balance_credit
+#: model:mail.template,subject:customer_website_wallet.email_template_wallet_balance_credit
+msgid "Wallet Balance Credit"
+msgstr "اعتبار موجودی کیف پول"
+
+#. module: customer_website_wallet
+#: model:mail.template,name:customer_website_wallet.email_template_wallet_balance_debit
+#: model:mail.template,subject:customer_website_wallet.email_template_wallet_balance_debit
+msgid "Wallet Balance Debit"
+msgstr "برداشت موجودی کیف پول"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields.selection,name:customer_website_wallet.selection__payment_provider__code__wallet
+msgid "Wallet Money Pay"
+msgstr "پرداخت از کیف پول"
+
+#. module: customer_website_wallet
+#: model:product.public.category,name:customer_website_wallet.product_wallet_public_category
+msgid "Wallet Product"
+msgstr "محصول کیف پول"
+
+#. module: customer_website_wallet
+#: model:ir.model.fields,field_description:customer_website_wallet.field_sale_order__wallet_transaction_id
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_wallet_button_res_partner
+msgid "Wallet Transaction"
+msgstr "تراکنش کیف پول"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.portal_my_wallet
+msgid "Wallets"
+msgstr "کیف پول‌ها"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.lowbalance
+msgid ""
+"You can not use your wallet for this order since your wallet balance is "
+"insufficient."
+msgstr ""
+"شما نمی‌توانید از کیف پول خود برای این سفارش استفاده کنید زیرا موجودی کیف پول شما کافی نیست."
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.low_balance
+msgid "You have low wallet balance."
+msgstr "موجودی کیف پول شما کم است."
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.lowbalance
+msgid ""
+"You may contact our team or continue with other payment methods available."
+msgstr ""
+"شما می‌توانید با تیم ما تماس بگیرید یا با استفاده از روش‌های پرداخت دیگر ادامه دهید."
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.website_sale_wallate_payment
+msgid "Your Wallet"
+msgstr "کیف پول شما"
+
+#. module: customer_website_wallet
+#: model_terms:ir.ui.view,arch_db:customer_website_wallet.display_wallets
+msgid "Your Wallet Transactions"
+msgstr "تراکنش‌های کیف پول شما"
+
+#. module: customer_website_wallet
+#: model:ir.model,name:customer_website_wallet.model_customer_wallet
+msgid "customer.wallet"
+msgstr "کیف پول مشتری"
+
+#. module: customer_website_wallet
+#. odoo-python
+#: code:addons/customer_website_wallet/models/payment_transaction.py:0
+#, python-format
+msgid "received data for reference %s"
+msgstr "داده‌های دریافت شده برای مرجع %s"
+
+#. module: customer_website_wallet
+#: model_terms:payment.provider,auth_msg:customer_website_wallet.wallet_provider_transfer
+msgid "This payment is authorized."
+msgstr "این پرداخت مجاز است."
+
+#. module: customer_website_wallet
+#: model_terms:payment.provider,pending_msg:customer_website_wallet.wallet_provider_transfer
+msgid "Your payment has been successfully made but is pending approval."
+msgstr "پرداخت شما با موفقیت انجام شد اما در انتظار تایید است."
+
+#. module: customer_website_wallet
+#: model_terms:payment.provider,done_msg:customer_website_wallet.wallet_provider_transfer
+msgid "Your payment has been successfully completed."
+msgstr "پرداخت شما با موفقیت انجام شده است."
+
+#. module: customer_website_wallet
+#: model_terms:payment.provider,cancel_msg:customer_website_wallet.wallet_provider_transfer
+msgid "Your payment has been canceled."
+msgstr "پرداخت شما لغو شده است."
+

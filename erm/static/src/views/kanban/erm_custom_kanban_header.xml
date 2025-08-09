@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="erm.CustomKanbanHeader" t-inherit="web.KanbanHeader" t-inherit-mode="extension">
+        <xpath expr="//div[1]" position="after">
+            <t t-if="this.state.modelName == 'erm.risk.template'">
+                <div class="risk-matrix-div">
+                    <div class="risk-matrix-content content-left">
+                        <div class="risk-matrix-text rotated-clock">Likelihood</div>
+                    </div>
+
+                    <div class="matrix-grid">
+                        <div class="degree-number-left likelihood-number5"/>
+                        <div class="degree-text-left likelihood-text5"/>
+                        <div class="matrix-cell cell-type1" t-att-risk-score-data="5"/>
+                        <div class="matrix-cell cell-type2" t-att-risk-score-data="10"/>
+                        <div class="matrix-cell cell-type2" t-att-risk-score-data="15"/>
+                        <div class="matrix-cell cell-type2" t-att-risk-score-data="20"/>
+                        <div class="matrix-cell cell-type2" t-att-risk-score-data="25"/>
+
+                        <div class="degree-number-left likelihood-number4"/>
+                        <div class="degree-text-left likelihood-text4"/>
+                        <div class="matrix-cell cell-type3" t-att-risk-score-data="4" style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="8" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="12" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="16" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="20" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+
+                        <div class="degree-number-left likelihood-number3"/>
+                        <div class="degree-text-left likelihood-text3"/>
+                        <div class="matrix-cell cell-type3" t-att-risk-score-data="3" style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="6" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="9" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="12" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="15" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+
+                        <div class="degree-number-left likelihood-number2"/>
+                        <div class="degree-text-left likelihood-text2"/>
+                        <div class="matrix-cell cell-type3" t-att-risk-score-data="2" style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="4" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="6" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="8" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="10" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+
+                        <div class="degree-number-left likelihood-number1"/>
+                        <div class="degree-text-left likelihood-text1"/>
+                        <div class="matrix-cell cell-type3" t-att-risk-score-data="1" style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="2" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="3" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="4" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+                        <div class="matrix-cell cell-type4" t-att-risk-score-data="5" style="border-right: 1px solid black; border-bottom: 1px solid black;"/>
+
+                        <div></div>
+                        <div></div>
+                        <div class="degree-text-bottom rotated-clock-inverse impact-text1"/>
+                        <div class="degree-text-bottom rotated-clock-inverse impact-text2"/>
+                        <div class="degree-text-bottom rotated-clock-inverse impact-text3"/>
+                        <div class="degree-text-bottom rotated-clock-inverse impact-text4"/>
+                        <div class="degree-text-bottom rotated-clock-inverse impact-text5"/>
+
+                        <div></div>
+                        <div></div>
+                        <div class="degree-number-bottom impact-number1"/>
+                        <div class="degree-number-bottom impact-number2"/>
+                        <div class="degree-number-bottom impact-number3"/>
+                        <div class="degree-number-bottom impact-number4"/>
+                        <div class="degree-number-bottom impact-number5"/>
+                    </div>
+
+                    <div class="risk-matrix-content content-bottom">
+                        <div class="risk-matrix-text">Impact</div>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </t>
+</templates>

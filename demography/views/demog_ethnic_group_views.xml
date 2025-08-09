@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Tree View -->
+    <record id="view_demog_ethnic_group_tree" model="ir.ui.view">
+        <field name="name">demog.ethnic.group.tree</field>
+        <field name="model">demog.ethnic.group</field>
+        <field name="arch" type="xml">
+            <tree string="Ethnic Groups">
+                <field name="sequence" widget="handle"/>
+                <field name="code"/>
+                <field name="name"/>
+                <field name="description" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_demog_ethnic_group_form" model="ir.ui.view">
+        <field name="name">demog.ethnic.group.form</field>
+        <field name="model">demog.ethnic.group</field>
+        <field name="arch" type="xml">
+            <form string="Ethnic Group">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Enter ethnic group name..."/>
+                        </h1>
+                        <h2>
+                            <field name="code" placeholder="Enter code..."/>
+                        </h2>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="sequence"/>
+                            <field name="code"/>
+                        </group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Description">
+                            <field name="description" placeholder="Enter detailed description of this ethnic group..." nolabel="1"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_demog_ethnic_group_search" model="ir.ui.view">
+        <field name="name">demog.ethnic.group.search</field>
+        <field name="model">demog.ethnic.group</field>
+        <field name="arch" type="xml">
+            <search string="Search Ethnic Groups">
+                <field name="name" string="Name" filter_domain="[('name', 'ilike', self)]"/>
+                <field name="code" string="Code" filter_domain="[('code', 'ilike', self)]"/>
+
+                <filter name="group_by_sequence" string="Group by Sequence" context="{'group_by':'sequence'}"/>
+
+                <separator/>
+
+                <group expand="0" string="Group By">
+                    <filter name="group_by_code" string="Code" context="{'group_by':'code'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action 
+    <record id="action_demog_ethnic_group" model="ir.actions.act_window">
+        <field name="name">Ethnic Groups</field>
+        <field name="res_model">demog.ethnic.group</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                <b>No ethnic groups found</b><br/>
+                Create your first ethnic group record.
+            </p>
+            <p>
+                Ethnic groups represent different cultural populations within your demographic data.
+                Each group can have a unique code and detailed description.
+            </p>
+        </field>
+    </record>-->
+
+    <!-- Menu Items 
+    <menuitem id="menu_res_ethnic_group_root" name="Demographics" sequence="100"/>
+    <menuitem id="menu_res_ethnic_group" name="Ethnic Groups" parent="menu_res_ethnic_group_root" action="action_res_ethnic_group" sequence="10"/>-->
+</odoo>

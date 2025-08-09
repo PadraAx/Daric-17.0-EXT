@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="asset_component_profile_form" model="ir.ui.view">
+        <field name="name">asset.component.profile.form.inherit</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[last()]" position="after">
+                <page name="assets" string="Assets">
+                    <field name="asset_ids"  readonly="1"  >
+                        <tree no_open="1">
+                            <field name="asset_number" string="Component Number"/>
+                            <field name="product_id"/>
+                            <field name="item_product"/>
+                            <field name="using_user"/>
+                            <field name="asser_kind"/> 
+                            <field name="component_serial_number" />
+                            <field name="os_type" />
+                            <field name="ip_address" />
+                            <field name="license" />
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

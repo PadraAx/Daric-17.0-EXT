@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_erm_risk_objective_form" model="ir.ui.view">
+        <field name="model">erm.risk.objective</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                </header>
+                <sheet>
+                  <group>
+                    <field name="name" />
+                  <field name="category_id"/>
+                  </group>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+    <record id="view_erm_risk_objective_tree" model="ir.ui.view">
+        <field name="model">erm.risk.objective</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+          <tree default_order="id desc" create="1" editable="top">
+            <header>
+              
+            </header>
+                <field name="name" />
+               <field name="category_id"/>
+                <field name="create_uid" />
+                <field name="create_date" />
+                <field name="write_uid" optional="hide"/>
+                <field name="write_date" optional="hide"/>
+            </tree>
+        </field>
+    </record>
+    <record id="view_erm_risk_objective_search" model="ir.ui.view">
+        <field name="model">erm.risk.objective</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+          <search>
+            <field name="name" />
+            <field name="category_id"/>
+          </search>
+        </field>
+      </record>
+    <record id="action_erm_risk_objective" model="ir.actions.act_window">
+        <field name="name">Objectives</field>
+        <field name="res_model">erm.risk.objective</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form,search</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new Objective
+            </p>
+        </field>
+    </record>
+    <menuitem name="Objectives"
+        id="menu_erm_risk_objective"
+        parent="menu_configuration"
+        action="action_erm_risk_objective"
+        sequence="1">
+    </menuitem>
+
+</odoo>

@@ -1,0 +1,109 @@
+<odoo>
+    <data>     
+
+        <record id="view_work_location_ext_form" model="ir.ui.view">
+            <field name="name">hr.work.location.ext.form</field>
+            <field name="model">hr.work.location</field>
+            <field name="inherit_id" ref="hr.hr_work_location_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet//group" position="before">
+                    <div class="oe_title mb32">
+                        <h1><field name="name" placeholder="Name"/></h1>
+                    </div>
+                </xpath>
+                <xpath expr="//sheet//group//group//field[@name='name']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='company_id']" position="before">
+                    <field name="location_type" position="move"/>
+                </xpath>
+                <xpath expr="//field[@name='company_id']" position="after">
+                    <field name="status"/>
+                    <field name="lease_end_date"/>
+                    <field name="office_approved_date"/>
+                    <field name="office_type"/>
+                    <field name="office_area_sqft"/>
+                    <field name="occupied_seats"/>
+                    <field name="occupied_percent" widget="percentage"/>
+                    <field name="business_unit"/>
+                    <field name="initial_exchange_rate"/>
+                </xpath>
+                <xpath expr="//field[@name='address_id']" position="after">
+                    <field name="country_id"/>
+                </xpath>
+                <xpath expr="//field[@name='country_id']" position="after">
+                    <field name="supervisor"/>
+                    <field name="lease_start_date"/>
+                    <field name="request_start_date"/>
+                    <field name="office_move_in_date"/>
+                    <field name="office_area"/>
+                    <field name="seats"/>
+                    <field name="vacant_seats"/>
+                    <field name="currency"/>
+                    <field name="forex_impact_rate"/>
+                <separator name="LC_values" string="LC Values"/>
+                    <field name="deposit_lc"/>
+                    <field name="forex_deposit_lc"/>
+                    <field name="fit_out_cost_lc"/>
+                    <field name="furniture_cost_lc"/>
+                    <field name="designer_fee_lc"/>
+                    <field name="pantry_admin_lc"/>
+                    <field name="it_cost_lc"/>
+                    <field name="commissions_extra_lc"/>
+                    <field name="total_cost_lc"/>
+                </xpath>
+                <xpath expr="//field[@name='initial_exchange_rate']" position="after">
+                    <separator name="USD_values" string="USD Values"/>
+                        <field name="deposit_usd"/>
+                        <field name="forex_deposit_usd"/>
+                        <field name="fit_out_cost_usd"/>
+                        <field name="furniture_cost_usd"/>
+                        <field name="designer_fee_usd"/>
+                        <field name="pantry_admin_usd"/>
+                        <field name="it_cost_usd"/>
+                        <field name="commissions_extra_usd"/>
+                        <field name="total_cost_usd"/>
+                </xpath>
+                <xpath expr="//sheet" position="inside">
+                    <notebook>
+                        <page name="employee_ids" string="Employees">
+                            <field name="public_emp_ids" readonly="1" force_save="1"/>
+                        </page>
+                        <page name="deposit_lines" string="Deposits">
+                            <field name="deposit_lines"/>
+                        </page>
+                        <page name="rent_lines" string="Rents">
+                            <field name="rent_lines"/>
+                        </page>
+                    </notebook>
+                </xpath>
+                <xpath expr="//form//sheet" position="after">
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="hr_work_location_ext_tree_view" model="ir.ui.view">
+            <field name="name">hr.work.location.ext.view.tree</field>
+            <field name="model">hr.work.location</field>
+            <field name="inherit_id" ref="hr.hr_work_location_tree_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[last()]" position="after">
+                    <field name="country_id"/>
+                    <field name="seats"/>
+                    <field name="occupied_seats"/>
+                    <field name="occupied_percent" widget="percentage"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="hr.hr_work_location_action" model="ir.actions.act_window">
+            <field name="name">Stations</field>
+        </record>
+
+    </data>
+</odoo>

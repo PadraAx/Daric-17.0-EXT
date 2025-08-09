@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="hr_job_tier_staff" model="hr.job.tier">
+            <field name="code">staff</field>
+            <field name="name">Staff</field>
+        </record>
+
+        <record id="hr_job_tier_specialist" model="hr.job.tier">
+            <field name="code">specialist</field>
+            <field name="name">Specialist</field>
+        </record>
+
+        <record id="hr_job_tier_supervisor" model="hr.job.tier">
+            <field name="code">supervisor</field>
+            <field name="name">Supervisor</field>
+        </record>
+
+        <record id="hr_job_tier_mastery" model="hr.job.tier">
+            <field name="code">mastery</field>
+            <field name="name">Mastery</field>
+        </record>
+
+        <record id="hr_job_tier_mid_level_manager" model="hr.job.tier">
+            <field name="code">mid_level_manager</field>
+            <field name="name">Mid Level Manager</field>
+        </record>
+
+        <record id="hr_job_tier_top_level_manager" model="hr.job.tier">
+            <field name="code">top_level_manager</field>
+            <field name="name">Top Level Manager</field>
+        </record>
+
+        <record id="hr_job_tier_c_suite" model="hr.job.tier">
+            <field name="code">c_suite</field>
+            <field name="name">C-Suite</field>
+        </record>
+    </data>
+</odoo>

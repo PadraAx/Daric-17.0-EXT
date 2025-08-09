@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="erm_risk_consequence_1" model="erm.risk.consequence">
+            <field name="name">Low</field>
+            <field name="min">0</field>
+            <field name="max">5</field>
+            <field name="color">#92d050</field>
+        </record>
+
+        <record id="erm_risk_consequence_2" model="erm.risk.consequence">
+            <field name="name">Moderate</field>
+            <field name="min">6</field>
+            <field name="max">7</field>
+            <field name="color">#ffff00</field>
+        </record>
+
+        <record id="erm_risk_consequence_3" model="erm.risk.consequence">
+            <field name="name">High</field>
+            <field name="min">8</field>
+            <field name="max">9</field>
+            <field name="color">#ffc000</field>
+        </record>
+
+        <record id="erm_risk_consequence_4" model="erm.risk.consequence">
+            <field name="name">Very High</field>
+            <field name="min">9</field>
+            <field name="max">100</field>
+            <field name="color">#ff0000</field>
+        </record>
+    </data>
+</odoo>

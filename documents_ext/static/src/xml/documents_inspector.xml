@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="documents.DocumentsInspector.buttons" t-inherit-mode="extension">
+        <xpath expr="//t[@t-if='nbPreviews === 1']" position="inside">
+            <button t-if="records[0].data.type !== 'url'" class="o_inspector_button o_inspector_replace btn" title="View Form" t-on-click.stop.prevent="onClickResModel" t-att-disabled="editDisabled || locked">
+                <i class="fa fa-file-text-o"/>
+            </button>
+        </xpath>
+        <xpath expr="//t[@t-if='nbPreviews === 1']" position="attributes">
+            <attribute name="t-if">nbPreviews === 1 and records[0].data.is_manager</attribute>
+        </xpath>
+
+      
+
+        <xpath expr="//t[@t-if='isPdfOnly()']" position="attributes">
+            <attribute name="t-if">isPdfOnly() and records[0].data.is_manager</attribute>
+        </xpath>
+        <xpath expr="//div/button[@t-if='nbPreviews === 1 and !isMobile and !state.showChatter']" position="attributes">
+            <attribute name="t-if">nbPreviews === 1 and !isMobile and !state.showChatter and records[0].data.is_manager</attribute>
+        </xpath>
+    </t>
+    <t t-inherit="documents.DocumentsInspector.documentsInfo" t-inherit-mode="extension">
+        <!-- <xpath expr="//t/div/table/tbody" position="inside">
+            <t t-if="nbPreviews === 1 and records[0].data.is_manager">
+                <t t-call="documents.DocumentsInspector.field">
+                    <t t-set="icon" t-translation="off">fa fa-file text-primary</t>
+                    <t t-set="fieldName" t-translation="off">document_orginal_file_id</t>
+                    <t t-set="additionalProps" t-value="{canOpen: true, canCreate: false, canCreateEdit: false, canQuickCreate: false}"/>
+                </t>
+            </t>
+        </xpath> -->
+        <xpath expr="//t[@t-if='nbPreviews === 1 and records[0].data.previous_attachment_ids.count > 0']" position="attributes">
+            <attribute name="t-if">nbPreviews === 1 and records[0].data.previous_attachment_ids.count &gt; 0 and records[0].data.is_manager</attribute>
+        </xpath>
+
+        <!-- <xpath expr="//t[@t-if='nbPreviews === 1 and records[0].data.previous_attachment_ids.count > 0']" position="after">
+            <t t-if="nbPreviews === 1 and records[0].data.orginal_attachment_ids.count > 0">
+                <div class="o_inspector_section o_inspector_section_history mt-3">
+                    <label><i class="o_documents_history_color fa fa-history"/>Orginal File</label>
+                    <div class="o_inspector_history">
+                        <t t-if="state.orginalAttachmentData" t-call="documents.DocumentsInspector.orginalattachmentHistory"/>
+                    </div>
+                </div>
+            </t>
+            <t t-name="documents.DocumentsInspector.orginalattachmentHistory">
+                <t t-foreach="state.orginalAttachmentData" t-as="attachment" t-key="attachment.id">
+                    <div class="o_inspector_history_line">
+                        <t t-set="createDate" t-value="deserializeDateTime(attachment.create_date)"/>
+                        <t t-set="fullDate" t-value="createDate.toString()"/>
+                        <t t-set="date" t-value="createDate.toLocaleString()"/>
+                        <t t-set="createUserName" t-value="attachment.create_uid[1]"/>
+                        <div class="o_inspector_history_title">
+                            <span class="o_inspector_history_name" t-att-aria-label="attachment.name" t-att-tile="attachment.name" t-esc="attachment.name"/>
+                            <span class="o_inspector_history_info">
+                                <span class="o_inspector_history_create_name" t-att-aria-label="createUserName" t-att-tile="createUserName" t-esc="createUserName"/>
+                                <i class="o_inspector_history_info_separator">-</i>
+                                <span class="o_inspector_history_info_date" t-att-aria-label="fullDate" t-att-title="fullDate" t-esc="date"/>
+                            </span>
+                        </div>
+                        <div class="o_inspector_history_buttons">
+                            <button aria-label="delete" title="delete" class="o_inspector_history_button btn fa fa-trash text-white ms-1 float-end o_inspector_history_item_delete"
+                                t-on-click.stop.prevent="(ev) => this.onDeletePreviousAttachment(attachment.id)"/>
+                            <button aria-label="download" title="download" class="o_inspector_history_button btn fa fa-download text-white ms-1 float-end o_inspector_history_item_download"
+                                t-on-click.stop.prevent="(ev) => this.onDownloadPreviousAttachment(attachment.id)"/>
+                          
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </xpath> -->
+       
+    </t>
+</templates>

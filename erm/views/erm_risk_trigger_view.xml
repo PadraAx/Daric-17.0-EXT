@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_erm_risk_trigger_form" model="ir.ui.view">
+        <field name="model">erm.risk.trigger</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                </header>
+                <sheet>
+                  <group>
+                    <field name="name" />
+                  
+                  </group>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+    <record id="view_erm_risk_trigger_tree" model="ir.ui.view">
+        <field name="model">erm.risk.trigger</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+          <tree default_order="id desc" create="1" editable="top">
+            <header>
+              
+            </header>
+                <field name="name" />
+              
+                <field name="create_uid" />
+                <field name="create_date" />
+                <field name="write_uid" optional="hide"/>
+                <field name="write_date" optional="hide"/>
+            </tree>
+        </field>
+    </record>
+    <record id="view_erm_risk_trigger_search" model="ir.ui.view">
+        <field name="model">erm.risk.trigger</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+          <search>
+            <field name="name" />
+
+          </search>
+        </field>
+      </record>
+    <record id="action_erm_risk_trigger" model="ir.actions.act_window">
+        <field name="name">Triggers</field>
+        <field name="res_model">erm.risk.trigger</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form,search</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new Trigger
+            </p>
+        </field>
+    </record>
+    <!-- <menuitem name="Triggers"
+        id="menu_erm_risk_trigger"
+        parent="menu_configuration"
+        action="action_erm_risk_trigger"
+        sequence="12">
+    </menuitem> -->
+
+</odoo>

@@ -1,0 +1,35 @@
+﻿id,category_id,name
+1,Compliance,Regulatory non-compliance
+2,Compliance,Breach of contracts
+3,Compliance,Legal disputes or litigation
+4,Compliance,Changes in industry standards
+5,Environmental,"Natural disasters (e.g., earthquakes, floods)"
+6,Environmental,Environmental degradation
+7,Environmental,Sustainability challenges
+8,Financial,Currency fluctuations
+9,Financial,Interest rate changes
+10,Financial,Credit risks
+11,Financial,Liquidity problems
+12,Financial,Investment losses
+13,Human Resources,Workforce turnover
+14,Human Resources,Skills shortages
+15,Human Resources,Labor disputes
+16,Human Resources,Employee health and safety issues
+17,Operational,Process inefficiencies
+18,Operational,Equipment failures
+19,Operational,Supply chain interruptions
+20,Operational,Human errors
+21,Operational,IT system failures or cyber threats
+22,Reputational,Negative publicity
+23,Reputational,Customer dissatisfaction
+24,Reputational,Ethical misconduct
+25,Reputational,Social responsibility failures
+26,Strategic,Market competition
+27,Strategic,Changes in customer preferences
+28,Strategic,Strategic decision-making errors
+29,Strategic,Mergers and acquisitions
+30,Strategic,Innovation and technological disruption
+31,Technological,Rapid technological changes
+32,Technological,Cybersecurity vulnerabilities
+33,Technological,Data breaches
+34,Technological,Obsolescence of current technologies

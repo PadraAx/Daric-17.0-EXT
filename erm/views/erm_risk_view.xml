@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_erm_risk_form" model="ir.ui.view">
+        <field name="model">erm.risk</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                <!-- <field name="user_id" invisible="1"/> -->
+                <field name="create_uid" invisible="1"/>
+                <field name="has_write_access" invisible="1"/>
+               
+                <!-- <field name="allowed_company_ids" invisible="1"/>  -->
+                <!-- <button name="action_send_for_assessment" string="Send for Assessment" type="object"
+                class="oe_highlight"
+                invisible="state not in['1'] or not(has_write_access == True)"
+                data-hotkey="I" />
+                <button string="Submit Assessment" type="action"
+                invisible="state not in['2']  or not(has_write_access == True)"
+                name="%(action_assessment_create_wizard)d" class="btn-primary"/>
+                <field name="state" widget="statusbar" nolable="1"/> -->
+
+                <!-- <button name="action_cancel" string="Cancel" type="object"
+                invisible="state not in['1','2','3'] or status == 'Cancelled' or create_uid != uid"
+                data-hotkey="R" /> -->
+                </header>
+                <sheet>
+                    <!-- <div class="oe_button_box" name="button_box">
+
+                        <button type="object" icon="fa-thumbs-o-up" class="oe_stat_button" name="action_view_assessments">
+                            <div class="o_field_widget o_stat_info">
+                                <span class="o_stat_value"> <field name="assessment_ids_count" /></span>
+                                <span class="o_stat_text">Assessments</span>
+                            </div>
+                        </button>
+                    </div> -->
+                    <!-- <h1 class="d-flex">
+                        <field name="priority" widget="priority" class="me-3" readonly="state != '1' or has_write_access == False"/>
+                    </h1> -->
+                    <!-- <div class="oe_title pe-0">
+
+                        <h1 class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex w-100">
+                                <field name="name" readonly="state != '1' or has_write_access == False" options="{'line_breaks': False}" widget="text" class="o_task_name text-truncate w-md-75 w-100 pe-2" placeholder="Risk Title..."/>
+                            </div>
+                        </h1>
+                    </div> -->
+                    <group>
+                        <field name="req_code"/>
+                        <group>
+                            <field name="parent_id" />
+                            <field name="category_id" readonly="1" />
+                            <field name="affected_area_id" readonly="1" />
+                            <field name="trigger_id" readonly="not has_write_access" />
+                            <field name="detection_difficulty" readonly="not has_write_access" />
+                            <field name="risk_velocity_id" readonly="not has_write_access" />
+                        </group>
+                        <group>
+                            <field name="tag_ids" widget="many2many_tags" readonly="has_write_access == False" options="{'color_field': 'color'}" />
+                            <!-- <field name="category_type_id" readonly="1"/> -->
+                            <field name="timeframe" readonly="not has_write_access" /> 
+                            <field name="risk_mitigation_cost" readonly="1" />
+                            <field name="currency_id" readonly="1" />
+                            
+                            <field name="confidence_level" readonly="not has_write_access" />  
+                        </group>
+                    </group>
+                    <group string="Financial Impact">
+                            <group> 
+                                    <field name="direct_cost" readonly="not has_write_access" /> 
+                                     <field name="total_impact" readonly="1" />  
+                             </group>
+                            <group>
+                                    <field name="indirect_cost" readonly="not has_write_access" />  
+                            </group>   
+                    </group>
+                     <group string="Current Risk">
+                        <group>
+                            <field name="current_impact_id" readonly="not has_write_access" />  
+                            <field name="current_risk_score" readonly="1" /> 
+                        </group>
+                         <group>
+                               <field name="current_likelihood_id" readonly="not has_write_access" /> 
+                        </group>     
+                    </group>
+                     <group string="Residual Risk">
+                        <group>
+                                <field name="residual_impact_id" readonly="not has_write_access" /> 
+                                <field name="residual_risk_score" readonly="1" /> 
+                        </group>
+                        <group>
+                                <field name="residual_likelihood_id" readonly="not has_write_access" />  
+                        </group>   
+                    </group>
+                    <notebook>
+                        <page string="Dependencies" name="page_dependencies">
+                            <group>
+                                <field name="dependencies_ids" nolabel="1" colspan="2">
+                                </field>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <!-- Chatter -->
+                <!-- <div class="oe_chatter" >
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div> -->
+            </form>
+        </field>
+    </record>
+
+    <record id="view_erm_risk_tree" model="ir.ui.view">
+        <field name="model">erm.risk</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <tree default_order="id desc">
+                <header>
+                </header>
+                <field name="req_code"/>
+                <field name="parent_id" invisible="1"/>
+                <field name="category_id"  />
+                <field name="trigger_id" />
+                <field name="detection_difficulty" />
+                <field name="risk_velocity_id"  />
+                <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}" />
+                <!-- <field name="category_type_id" /> -->
+                <field name="timeframe" /> 
+                <field name="risk_mitigation_cost"  />
+                <field name="confidence_level" />
+                <field name="current_risk_score" /> 
+                <field name="residual_risk_score" />  
+                <field name="create_uid" />
+                <field name="create_date" />
+                <field name="write_uid" optional="hide"/>
+                <field name="write_date" optional="hide"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_erm_risk_search" model="ir.ui.view">
+        <field name="model">erm.risk</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="req_code"/>
+                <field name="parent_id" invisible="1"/>
+                <field name="category_id"  />
+                <field name="trigger_id" />
+                <field name="detection_difficulty" />
+                <field name="risk_velocity_id"  />
+                <field name="tag_ids" />
+                <!-- <field name="category_type_id" /> -->
+                <field name="timeframe" /> 
+                <field name="risk_mitigation_cost"  />
+                <field name="confidence_level" />
+                <field name="create_uid" />
+                <field name="create_date" />
+                <field name="write_uid"/>
+                <field name="write_date"/>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_erm_risk_graph">
+        <field name="name">erm_risk.graph</field>
+        <field name="model">erm.risk</field>
+        <field name="type">graph</field>
+        <field name="arch" type="xml">
+            <graph string="Risk" type="bar" sample="1">
+                <field name="id" type="count" string="Count" />
+            </graph>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_erm_risk_pivot">
+        <field name="name">erm_risk.pivot</field>
+        <field name="model">erm.risk</field>
+        <field name="type">pivot</field>
+        <field name="arch" type="xml">
+            <pivot string="Risk" sample="1">
+                <field name="id" type="count" string="Count" />
+            </pivot>
+        </field>
+    </record>
+
+    <!-- Opening task when double clicking on project -->
+    <record id="click_risk" model="ir.actions.act_window">
+        <field name="res_model">erm.risk</field>
+        <field name="name">ERM Risks</field>
+        <field name="view_mode">kanban</field>
+        <!-- <field name="domain">[('project_id', '=', active_id), ('display_in_project', '=', True)]</field> -->
+        <!-- <field name="context">{'project_id':active_id}</field> -->
+    </record>
+
+    <!-- <record model="ir.ui.view" id="view_erm_risk_kanban">
+        <field name="name">erm_risk.kanban</field>
+        <field name="model">erm.risk</field>
+        <field name="type">kanban</field>
+        <field name="arch" type="xml">
+            <kanban
+                default_group_by="category_id"
+                class="o_kanban_small_column o_kanban_project_tasks"
+                quick_create="0"
+                string="Risk"
+                sample="1"
+            >
+                <field name="name"/>
+                <field name="inherent_risk_score"/>
+                <field name="inherent_risk_rating"/>
+                <field name="req_code"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_card oe_kanban_global_click">
+                            <div class="oe_kanban_content">
+                                <div class="o_kanban_record_top">
+                                    <div class="o_kanban_record_headings text-muted">
+                                        <strong class="o_kanban_record_title">
+                                            <field name="name"/>
+                                        </strong>
+                                    </div>
+                                </div>
+                                <div class="o_kanban_record_body">
+                                    <div class="risk-info-matrix">
+                                        <div class="risk-info-div">
+                                            <div class="risk-info">
+                                                <strong>Score:</strong>
+                                                <field name="inherent_risk_score"/>
+                                            </div>
+                                            <div class="risk-info">
+                                                <strong>Rating:</strong>
+                                                <field name="inherent_risk_rating"/>
+                                            </div>
+                                            <div class="risk-info">
+                                                <strong>Code:</strong>
+                                                <field name="req_code"/>
+                                            </div>
+                                        </div>
+                                        <div class="risk-matrix-div">
+                                            <div class="risk-matrix-text-arrow rotated">
+                                                <div class="risk-matrix-text">Probability</div>
+                                                <div class="risk-matrix-arrow">
+                                                    <img class="risk-matrix-arrow" src="/erm/static/src/img/arrow.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="risk-matrix-text-arrow">
+                                                <div class="risk-matrix-text">Impact</div>
+                                                <div class="risk-matrix-arrow">
+                                                    <img class="risk-matrix-arrow" src="/erm/static/src/img/arrow.png"/>
+                                                </div>
+                                            </div>
+                                            <table class="risk-matrix-table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="matrix-cell green-cell"/>
+                                                        <td class="matrix-cell yellow-cell"/>
+                                                        <td class="matrix-cell orange-cell"/>
+                                                        <td class="matrix-cell red-cell"/>
+                                                        <td class="matrix-cell red-cell"/>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="matrix-cell green-cell"/>
+                                                        <td class="matrix-cell yellow-cell"/>
+                                                        <td class="matrix-cell orange-cell"/>
+                                                        <td class="matrix-cell red-cell"/>
+                                                        <td class="matrix-cell red-cell"/>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="matrix-cell green-cell"/>
+                                                        <td class="matrix-cell yellow-cell"/>
+                                                        <td class="matrix-cell yellow-cell"/>
+                                                        <td class="matrix-cell orange-cell"/>
+                                                        <td class="matrix-cell red-cell"/>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="matrix-cell green-cell"/>
+                                                        <td class="matrix-cell green-cell"/>
+                                                        <td class="matrix-cell yellow-cell"/>
+                                                        <td class="matrix-cell orange-cell"/>
+                                                        <td class="matrix-cell orange-cell"/>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="matrix-cell green-cell"/>
+                                                        <td class="matrix-cell green-cell"/>
+                                                        <td class="matrix-cell yellow-cell"/>
+                                                        <td class="matrix-cell yellow-cell"/>
+                                                        <td class="matrix-cell orange-cell"/>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record> -->
+
+    <record id="action_erm_risk" model="ir.actions.act_window">
+        <field name="name">Risks</field>
+        <field name="res_model">erm.risk</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form,search</field>
+        <field name="context">{'search_default_filter_my_erm_risk': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new 'Risk'
+            </p>
+        </field>
+    </record>
+
+    <!-- <record id="action_erm_overview" model="ir.actions.act_window">
+        <field name="name">Overview</field>
+        <field name="res_model">erm.risk</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">kanban,form,search</field>
+        <field name="context">{'search_default_filter_my_erm_risk': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new 'Risk'
+            </p>
+        </field>
+    </record> -->
+
+    <!-- <record id="action_erm_risk_graph" model="ir.actions.act_window">
+        <field name="name">Risks Analysis</field>
+        <field name="res_model">erm.risk</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">graph,pivot,search</field>
+        <field name="context">{'search_default_filter_my_erm_risk': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new 'Risk'
+            </p>
+        </field>
+    </record> -->
+       <!-- <menuitem name="Overview"
+                id="menu_erm_risk_overview"
+                parent="menu_erm_root"
+                action="action_erm_overview"
+                sequence="1"
+            /> -->
+
+            <menuitem name="Analysis"
+                id="menu_erm_risk"
+                parent="menu_erm_risk_template_root"
+                action="action_erm_risk"
+                sequence="2"
+            />
+             <!-- <menuitem name="Risks Analysis"
+                id="erm_risk_graph"
+                parent="menu_reporting"
+                 action="action_erm_risk"
+                sequence="5"
+            /> -->
+             
+</odoo>

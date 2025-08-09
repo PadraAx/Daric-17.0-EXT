@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_assignments_form" model="ir.ui.view">
+    <field name="model">erm.risk.assignment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+          <field name="allowed_category_ids" invisible="1"/>
+        </header>
+        <sheet>
+          <group>
+            <field name="group_id"/>
+            <field name="user_id"/>  
+            <field name="category_id"/>
+            <field name="risk_source_id"/>
+            <field name="affected_area_ids" widget="many2many_tags"/>
+           
+                 
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_assignments_tree" model="ir.ui.view">
+    <field name="model">erm.risk.assignment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="1" editable="top">
+        <header>
+        
+        </header>
+         <field name="allowed_category_ids" column_invisible="1"/>
+        <field name="group_id"/>
+        <field name="user_id" widget="many2one_avatar_employee"/>        
+        <field name="category_id"/>
+        <field name="risk_source_id"/>
+        <field name="affected_area_ids" widget="many2many_tags"/>
+        <field name="create_uid" optional="hide" widget="many2one_avatar_employee"/>
+        <field name="create_date" optional="hide"/>
+        <field name="write_uid" optional="hide" widget="many2one_avatar_employee"/>
+        <field name="write_date" optional="hide"/>
+      </tree>
+    </field>
+  </record>
+  <record id="view_assignments_search" model="ir.ui.view">
+    <field name="model">erm.risk.assignment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="category_id"/>
+        <field name="risk_source_id"/>
+        <field name="affected_area_ids"/>
+        <field name="group_id"/>
+        <field name="user_id"/>  
+       
+      </search>
+    </field>
+  </record>
+  <record id="action_assignments" model="ir.actions.act_window">
+    <field name="name">Assignments</field>
+    <field name="res_model">erm.risk.assignment</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Assignment'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Assignments"
+    id="menu_assignments"
+    parent="menu_configuration"
+    action="action_assignments"
+    sequence="7">
+  </menuitem>
+
+</odoo>

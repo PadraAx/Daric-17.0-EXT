@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_asset_component_search" model="ir.ui.view">
+        <field name="name">asset.component.search</field>
+        <field name="model">asset.component</field>
+        <field name="arch" type="xml">
+            <search  string="Asset">
+                <field name="product_id"/>
+                <field name="using_user"/>
+                <field name="asset_number"/>
+                <field name="last_action_date" />
+                <field name="component_serial_number"/>
+                <field name="last_action"/>
+                <!-- <filter name="draft" string="Draft" domain="[('state', '=', 'draft')]"/> -->
+                <filter name="running" string="Running" domain="[('state', '=', 'running')]"/>
+                <filter name="returned" string="Returned" domain="[('state', '=', 'returned')]"/>
+                <filter name="retired" string="Retired" domain="[('state', '=', 'retired')]"/>
+                <filter name="reassigned" string="Reassigned" domain="[('state', '=', 'reassigned')]"/>
+                <filter name="physical" string="Physical Component" domain="[('asser_kind', '=', 'physical')]"/>
+                <filter name="virtual" string="Virtual Component" domain="[('asser_kind', '=', 'virtual')]"/>
+                
+                <group expand="0" string="Group By">
+                    <filter string="Product" name="group_by_product_id" domain="[]" context="{'group_by':'product_id'}"/>
+                    <filter string="Asignee" name="group_by_useing_user" domain="[]" context="{'group_by':'using_user'}"/>
+                    <filter string="Component Number" name="group_by_asset_number" domain="[]" context="{'group_by':'asset_number'}"/>
+                    <filter string="Serial Number" name="group_by_asset_number" domain="[]" context="{'group_by':'component_serial_number'}"/>
+                    <filter string="Source Location" name="group_by_location_id" domain="[]" context="{'group_by':'location_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="view_asset_component_tree" model="ir.ui.view">
+        <field name="name">asset.component.tree</field>
+        <field name="model">asset.component</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="asset_number" string="Component Number"/>
+                <field name="product_id"/>
+                <field name="location_id"/>
+                <field name="item_product"/>
+                <field name="using_user"/>
+                <field name="lot_id"/> 
+                <field name="price"/>
+                <field name="asser_kind" optional="hide"/> 
+                <field name="component_serial_number" optional="hide"/>
+                <field name="state" optional="hide"/>
+                <field name="last_action" />
+                <field name="last_action_date" />
+            </tree>
+        </field>
+    </record>   
+    
+
+    <record id="view_asset_component_from" model="ir.ui.view">
+    <field name="name">asset.component.form</field>
+    <field name="model">asset.component</field>
+    <field name="arch" type="xml">
+        <form>
+            <header class="asset_component">
+                <button name="to_running" 
+                        type="object" 
+                        string="To Running" 
+                        class="oe_highlight" 
+                        invisible="state != 'draft' or has_access != True" 
+                        groups='dhs_asset_mgt.group_it_asset_officer'/>
+                <button name="to_return" 
+                        type="object" string="To Returned" 
+                        class="oe_highlight" 
+                        invisible="state != 'running' or has_access != True" 
+                        groups='dhs_asset_mgt.group_it_asset_officer'/>
+                <button name="to_reassignment" 
+                        type="object" 
+                        string="Reassignment" 
+                        class="oe_highlight" 
+                        invisible="state != 'returned' or has_access != True"
+                        groups='dhs_asset_mgt.group_it_asset_officer'/>
+                <button name="to_retired" 
+                        type="object" 
+                        string="To Retired" 
+                        class="oe_highlight" 
+                        invisible="state not in ('running','returned')  or has_access != True"
+                        groups='dhs_asset_mgt.group_it_asset_officer'/>
+                <field name="state" widget="statusbar" clickable="0" statusbar_visible="draft,running,returned,retired"/>
+            </header>
+            <sheet>
+                <field name="has_access" invisible="1" readonly="state != 'draft'"/>
+                <field name="state" invisible="1" readonly="state != 'draft'"/>
+                <group>
+                    <group>
+                        <field name="asset_number" readonly="1" />
+                        <field name="company_id" options="{'no_open': True, 'no_create': True}"/>
+                        <field name="location_id" readonly="state != 'draft'" options="{'no_open': True, 'no_create': True}"/>
+                    </group>
+                    <group>
+
+                        <field name="product_id" readonly="state != 'draft'" options="{'no_open': True, 'no_create': True}" />                 
+                        <field name="using_user" readonly="state != 'draft'" options="{'no_open': True, 'no_create': True}" />
+                        <field name="date_issue" readonly="state != 'draft'" />
+                    </group>
+                </group>
+                <group string="Delivery Information">
+                    <group>
+                        <field name="currency_id" invisible="1"/>
+                        <field name="price" options="{'currency_field': 'currency_id'}"/>
+                        <field name="product_qty_available"/>  
+                    </group>
+                    <group>
+                        <field name="lot_id" options="{'no_open': True, 'no_create': True}"/>    
+                        <field name="last_action"/>     
+                        <!-- <field name="last_action_date"/>    -->
+                    </group>
+                </group>
+                <notebook>
+                    <page string="component Data">
+                        <group>
+                            <group>
+                                <field name="asser_kind" widget='radio' options="{'horizontal': true}" readonly="state != 'draft'" />
+                                <field name="component_serial_number" invisible="(asser_kind == 'virtual')" readonly="state != 'draft'" />
+                                <field name="component_warranty" invisible="(asser_kind == 'virtual')" readonly="state != 'draft'"/>
+                                <field name="component_buydate" invisible="(asser_kind == 'virtual')" readonly="state != 'draft'"/>
+                                <field name="component_warranty_end_date" invisible="(asser_kind == 'virtual')" readonly="state != 'draft'"/>
+                                <field name="os_type" invisible="(asser_kind == 'physical')" readonly="state != 'draft'"/>
+                                <field name="ip_address" invisible="(asser_kind == 'physical')" readonly="state != 'draft'"/>
+                                <field name="license" invisible="(asser_kind == 'physical')" readonly="state != 'draft'"/>
+                            </group>
+                            <group>
+                                <field name="component_note" readonly="state != 'draft'"/>
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Audit Data" groups='dhs_asset_mgt.group_it_asset_officer'>
+                        <group>
+                            <group>
+                                <field name="create_uid" options="{'no_open': True, 'no_create': True}"/>
+                                <field name="create_date" />
+                            </group>
+                            <group>
+                                <field name="write_uid" options="{'no_open': True, 'no_create': True}"/>
+                                <field name="write_date" />
+                            </group>
+                        </group>
+                    </page>
+                    <page string="History" groups='dhs_asset_mgt.group_it_asset_officer'>
+                        <field name="history_id" readonly="1">
+                            <tree editable="bottom">
+                                <field name="user_id" />
+                                <field name="assign_id" />
+                                <field name="date" />
+                                <field name="action" />
+                                <field name="description" />
+                                <field name="inventory_id" />
+                                <button name="action_to_inventory" class="btn btn-info" type="object" string="Go To Operation" icon="fa-eye"/>
+                            </tree> 
+                        </field> 
+                    </page>
+                </notebook>
+            </sheet>
+            <div class="oe_chatter">
+                <field name="message_follower_ids" groups="base.group_user"/>
+                <field name="activity_ids"/>
+                <field name="message_ids"/>
+            </div>
+        </form>
+    </field>
+    </record>
+
+
+        <record id="action_asset_component" model="ir.actions.act_window">
+            <field name="name">IT-List</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">asset.component</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_asset_component_search"/>
+
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Uploud Your First Component !
+                </p>
+            </field>
+        </record>
+
+</odoo>

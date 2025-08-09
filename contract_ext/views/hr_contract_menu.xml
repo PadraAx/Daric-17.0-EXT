@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.menu" id="hr_contract.hr_menu_contract">
+            <field name="groups_id" eval="[(6, 0, [ref('base.group_user'),
+                                                    ref('employee_ext.group_hr_business_partner')])]"/>
+        </record>
+
+        <record model="ir.ui.menu" id="hr_contract_reports.menu_report_contract_employee_all">
+            <field name="groups_id" eval="[(6, 0, [ref('contract_ext.group_hr_contract_reader'),
+                                                    ref('employee_ext.group_hr_business_partner')])]"/>
+        </record>
+
+        <record model="ir.ui.menu" id="hr.menu_hr_employee_payroll">
+            <field name="groups_id" eval="[(4, ref('contract_ext.group_hr_contract_reader')),
+                                            (4, ref('hr_contract.group_hr_contract_employee_manager')),
+                                            (4, ref('hr_contract.group_hr_contract_employee_manager'))]"/>
+        </record>
+
+    </data>
+</odoo>

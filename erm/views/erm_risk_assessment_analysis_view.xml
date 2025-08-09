@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="erm_risk_assessment_analysis_form" model="ir.ui.view">
+    <field name="model">erm.risk.assessment.analysis</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <field name="name" />
+            <field name="contributing_factors"/> 
+          </group>
+          <notebook>
+            <page string="Comments" name="page_assessment">
+              <group>
+                <field name="comments"  placeholder="Enter your comments"
+                options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" />
+              </group>
+            </page>
+             <page string="Controls" name="page_controls">
+              <group>
+                <field name="control_ids"  nolabel="1" colspan="2" >
+                  <tree string="Controls" create="1" >
+                   <field name="name"/>
+                    <field name="control_type"/>
+                    <field name="control_status"/>
+                    <field name="control_owner_id"/>
+                    <field name="documented"/>
+                    <field name="control_Automation"/>
+                    <field name="frequency"/>
+                  </tree>
+                </field>
+              </group>
+            </page>
+             <page string="Treatments" name="page_treatment">
+              <group>
+                <field name="treatment_ids"  nolabel="1" colspan="2" >
+                  <tree string="Treatments" create="1" >
+                    <field name="name"/>
+                    <field name="treatment_type"/>
+                    <field name="implementation_status"/>
+                    <field name="treatment_start_date"/>
+                    <field name="treatment_end_date"/>
+                    <field name="assessment_followup_date"/>
+                  </tree>
+                </field>
+              </group>
+            </page>
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="erm_risk_assessment_analysis_tree" model="ir.ui.view">
+    <field name="model">erm.risk.assessment.analysis</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="0">
+        <header>
+        </header>
+            <field name="name" />
+            <field name="contributing_factors"/> 
+            <field name="create_uid" />
+            <field name="create_date" />
+            <field name="write_uid" optional="hide"/>
+            <field name="write_date" optional="hide"/>
+            </tree>
+    </field>
+  </record>
+  <record id="erm_risk_assessment_analysis_search" model="ir.ui.view">
+    <field name="model">erm.risk.assessment.analysis</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name" />
+        <field name="contributing_factors"/> 
+      </search>
+    </field>
+  </record>
+  <record id="action_erm_risk_assessment_analysis" model="ir.actions.act_window">
+    <field name="name">Analysis</field>
+    <field name="res_model">erm.risk.assessment.analysis</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Analysis'
+      </p>
+    </field>
+  </record>
+   <!-- <menuitem name="Analysis"
+                        id="menu_assessment_analysis"
+                        parent="menu_assessment"
+                        action="action_erm_risk_assessment_analysis"
+                        sequence="20">
+                    </menuitem>  -->
+
+</odoo>

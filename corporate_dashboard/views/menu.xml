@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem
+            id="menu_corporate_dashboard_root"
+            name="Corporate Dashboard"
+            web_icon="corporate_dashboard,static/description/icon.png"
+            sequence="0"
+            groups="base.group_user"
+        />
+
+              <menuitem name="Corporate Dashboard"
+                id="menu_corporate_dashboard"
+                parent="menu_corporate_dashboard_root"
+                sequence="3">
+            </menuitem>
+        
+                
+</odoo>

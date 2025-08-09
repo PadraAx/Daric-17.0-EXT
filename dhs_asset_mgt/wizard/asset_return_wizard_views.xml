@@ -1,0 +1,25 @@
+<odoo>
+    <data>
+        <record id="view_asset_return_wizard_form" model="ir.ui.view">
+            <field name="name">asset.return.wizard.form</field>
+            <field name="model">asset.return.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Return">
+                    <group>                        
+                        <group>
+                            <field name="location_id" />
+                        </group>
+                        <group>
+                            <field name="asset_id" invisible="1"  force_save="1"/>
+                            <field name="product_id"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button string="Apply" type="object" name="action_asset_return" class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

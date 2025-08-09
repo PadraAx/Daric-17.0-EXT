@@ -1,0 +1,70 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* custom_product_code
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-08 22:30+0000\n"
+"PO-Revision-Date: 2025-02-08 22:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: custom_product_code
+#: model:ir.model.fields,field_description:custom_product_code.field_product_category__custom_id
+#: model_terms:ir.ui.view,arch_db:custom_product_code.product_category_form_inherit
+msgid "Category ID"
+msgstr "شناسه دسته بندی"
+
+#. module: custom_product_code
+#: model:ir.model,name:custom_product_code.model_res_partner
+msgid "Contact"
+msgstr "مخاطب"
+
+#. module: custom_product_code
+#: model:ir.model.fields,help:custom_product_code.field_product_category__level_code
+msgid "Enter a 1 or 2 character level code for this category"
+msgstr "کد سطح 1 یا 2 رقمی برای این دسته وارد کنید"
+
+#. module: custom_product_code
+#: model:ir.model.fields,field_description:custom_product_code.field_product_category__level_code
+msgid "Level Code"
+msgstr "کد سطح"
+
+#. module: custom_product_code
+#: model:ir.model,name:custom_product_code.model_product_template
+msgid "Product"
+msgstr "محصول"
+
+#. module: custom_product_code
+#: model:ir.model,name:custom_product_code.model_product_category
+msgid "Product Category"
+msgstr "دسته بندی محصول"
+
+#. module: custom_product_code
+#: model:ir.model.fields,field_description:custom_product_code.field_product_product__product_code
+#: model:ir.model.fields,field_description:custom_product_code.field_product_template__product_code
+msgid "Product Code"
+msgstr "کد محصول"
+
+#. module: custom_product_code
+#: model_terms:ir.ui.view,arch_db:custom_product_code.view_product_template_form
+msgid "Product ID"
+msgstr "شناسه محصول"
+
+#. module: custom_product_code
+#: model:ir.model.fields,field_description:custom_product_code.field_product_product__supply_source_id
+#: model:ir.model.fields,field_description:custom_product_code.field_product_template__supply_source_id
+msgid "Supply Source"
+msgstr "منبع تامین"
+
+#. module: custom_product_code
+#: model:ir.model.fields,field_description:custom_product_code.field_res_partner__supply_source_id
+#: model:ir.model.fields,field_description:custom_product_code.field_res_users__supply_source_id
+msgid "Supply Source ID"
+msgstr "شناسه منبع تامین"

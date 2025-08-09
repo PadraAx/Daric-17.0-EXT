@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Root Menu -->
+        <menuitem id="demography_menu_root" name="Demography" sequence="10" web_icon="demography,static/description/icon.png" />
+        <menuitem id="demography_menu_demog" name="Demography" parent="demography_menu_root" action="action_demog" sequence="4" groups="base.group_system"/>
+    </data>
+</odoo>

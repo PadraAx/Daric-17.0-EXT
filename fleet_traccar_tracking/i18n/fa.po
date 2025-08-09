@@ -1,0 +1,1051 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet_traccar_tracking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 21:14+0000\n"
+"PO-Revision-Date: 2025-02-12 21:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_form
+msgid ""
+"<span class=\"o_stat_text\">Check</span>\n"
+"                                <span class=\"o_stat_text\">Connection</span>"
+msgstr ""
+"<span class=\"o_stat_text\"> بررسی </span>\n"
+"                                <span class=\"o_stat_text\"> اتصال </span>"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_form
+msgid "API Url"
+msgstr "آدرس API"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_form
+msgid "API Username"
+msgstr "نام کاربری API"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__accuracy
+msgid "Accuracy"
+msgstr "دقت"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_needaction
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_needaction
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_needaction
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_needaction
+msgid "Action Needed"
+msgstr "اقدام لازم"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__altitude
+msgid "Altitude"
+msgstr "ارتفاع"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_attachment_count
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_attachment_count
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_attachment_count
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__authentication_status
+msgid "Authentication Status"
+msgstr "وضعیت احراز هویت"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_search
+msgid "Authorized"
+msgstr "مجاز"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__average_speed
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__average_speed
+msgid "Average Speed"
+msgstr "سرعت متوسط"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__battery_level
+msgid "Battery Level"
+msgstr "سطح باتری"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_details_traccar_current_position
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_details_traccar_device_summary
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_location
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_summary
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_routes
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_trips
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.actions.act_window,help:fleet_traccar_tracking.traccar_instance_tree_action
+msgid "Click to define a new Traccar connection."
+msgstr "برای تعریف یک اتصال جدید رهگیری ناوگان کلیک کنید."
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_raise_message
+msgid "Close"
+msgstr "بستن"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_form
+msgid "Connection Instance"
+msgstr "نمونه اتصال"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__course
+msgid "Cource"
+msgstr "مسیر"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__create_date
+msgid "Created Date"
+msgstr "تاریخ ایجاد"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_raise_message__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__create_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_raise_message__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__create_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_details_traccar_current_position
+msgid "Current Position Map"
+msgstr "نقشه موقعیت فعلی"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__from_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__from_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__from_date
+msgid "Date From"
+msgstr "تاریخ از"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__to_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__to_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__to_date
+msgid "Date To"
+msgstr "تاریخ تا"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_device_summary__to_date
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__to_date
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__to_date
+msgid "Date end range for filter"
+msgstr "محدوده پایان تاریخ برای پالایش"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_device_summary__from_date
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__from_date
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__from_date
+msgid "Date starting range for filter"
+msgstr "محدوده شروع تاریخ برای پالایش"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Destination"
+msgstr "مقصد"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__dst_latitude
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__dst_latitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__dst_latitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__dst_latitude
+msgid "Destination Latitude"
+msgstr "عرض جغرافیایی مقصد"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__dst_longitude
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__dst_longitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__dst_longitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__dst_longitude
+msgid "Destination Longitude"
+msgstr "طول جغرافیایی مقصد"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_details_traccar_device_summary
+msgid "Details"
+msgstr "جزئیات"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__device_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__device_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__device_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__device_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__trip_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__device_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__device_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__device_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__device_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_details_traccar_device_summary__device_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_device_location__device_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_device_summary__device_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__device_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__device_id
+msgid "Device ID"
+msgstr "شناسه دستگاه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_uniqueid
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_uniqueid
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__traccar_device_uniqueid
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__traccar_device_uniqueid
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__traccar_device_uniqueid
+msgid "Device Identifier"
+msgstr "شناسه دستگاه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_status
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Device Status"
+msgstr "وضعیت دستگاه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__event_time
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__device_time
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+msgid "Device Time"
+msgstr "زمان دستگاه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_raise_message__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__display_name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__distance
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__distance
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__distance
+msgid "Distance"
+msgstr "فاصله"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__driver_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__driver_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__driver_id
+msgid "Driver"
+msgstr "راننده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__driver_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__driver_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__driver_id
+msgid "Driver address of the vehicle"
+msgstr "آدرس راننده وسیله نقلیه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__duration
+msgid "Duration"
+msgstr "مدت"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__end_odometer
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__end_odometer
+msgid "End Odometer"
+msgstr "کیلومتر شمار پایان"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__end_position_id
+msgid "End Position Id"
+msgstr "شناسه موقعیت پایان"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__end_time
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__end_time
+msgid "End Time"
+msgstr "زمان پایان"
+
+#. module: fleet_traccar_tracking
+#. odoo-python
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_device_location.py:0
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_device_summary.py:0
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_fetch_routes.py:0
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_fetch_trips.py:0
+#, python-format
+msgid "End date must be greater than start date."
+msgstr "تاریخ پایان باید بیشتر از تاریخ شروع باشد."
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__engine_hours
+msgid "Engine Hours"
+msgstr "ساعت موتور"
+
+#. module: fleet_traccar_tracking
+#. odoo-python
+#: code:addons/fleet_traccar_tracking/models/traccar_config_settings.py:0
+#, python-format
+msgid "Error: %s"
+msgstr "خطا: ٪ s"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__event_date
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__event_date
+msgid "Event Date"
+msgstr "تاریخ رویداد"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.act_window,name:fleet_traccar_tracking.traccar_event_details_action
+#: model:ir.model,name:fleet_traccar_tracking.model_traccar_event_details
+#: model:ir.ui.menu,name:fleet_traccar_tracking.traccar_event_details_menu
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_event_details_form
+msgid "Event Details"
+msgstr "جزئیات رویداد"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__event_id
+msgid "Event ID"
+msgstr "شناسه رویداد"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.fleet_vehicle_view_form_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_routes
+msgid "Fetch Routes"
+msgstr "واکشی مسیرها"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.fleet_vehicle_view_form_traccar
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_trips
+msgid "Fetch Trips"
+msgstr "واکشی سفرها"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_follower_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_follower_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_follower_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_partner_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_partner_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_partner_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (شرکا)"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__geofence_id
+msgid "Geofence ID"
+msgstr "شناسه حصار جغرافیایی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__has_message
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__has_message
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__has_message
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__has_message
+msgid "Has Message"
+msgstr "پیام دارد"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_raise_message__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_config_settings__message_needaction
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__message_needaction
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__message_needaction
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر تیک زده شود، پیام‌های جدید نیاز به توجه شما دارند."
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_config_settings__message_has_error
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_config_settings__message_has_sms_error
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__message_has_error
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__message_has_sms_error
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__message_has_error
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__message_has_sms_error
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__message_has_error
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر تیک زده شود، برخی از پیام‌ها خطای تحویل دارند."
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_search
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_is_follower
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_is_follower
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_is_follower
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_is_follower
+msgid "Is Follower"
+msgstr "دنبال کننده است"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_status
+msgid "Is Online"
+msgstr "آنلاین است"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_fleet_vehicle__is_traccar
+msgid "Is Traccar"
+msgstr "رهگیری شود"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_lastupdate
+msgid "Last Update"
+msgstr "آخرین به روزرسانی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_raise_message__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__write_uid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روزرسانی توسط"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_raise_message__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__write_date
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روزرسانی در"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__latitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_current_position__latitude
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Latitude"
+msgstr "عرض جغرافیایی"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Latitude & Longitude"
+msgstr "عرض و طول جغرافیایی"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.actions.act_window,help:fleet_traccar_tracking.fleet_traccar_vehicle_action
+msgid "Let's create your first vehicle."
+msgstr "بیایید اولین وسیله نقلیه خود را ایجاد کنید."
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__longitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_wizard_traccar_current_position__longitude
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Longitude"
+msgstr "طول جغرافیایی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__maintenance_id
+msgid "Maintenance ID"
+msgstr "شناسه نگهداری"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__max_speed
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__max_speed
+msgid "Max Speed"
+msgstr "بیشینه سرعت"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_raise_message__message
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_raise_message
+msgid "Message"
+msgstr "پیام"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_has_error
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_has_error
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_has_error
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_ids
+msgid "Messages"
+msgstr "پیام"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__motion
+msgid "Motion"
+msgstr "حرکت"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_current_position__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__name
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__name
+msgid "Name"
+msgstr "نام"
+
+#. module: fleet_traccar_tracking
+#. odoo-python
+#: code:addons/fleet_traccar_tracking/models/traccar_config_settings.py:0
+#: code:addons/fleet_traccar_tracking/models/traccar_config_settings.py:0
+#: code:addons/fleet_traccar_tracking/models/traccar_config_settings.py:0
+#, python-format
+msgid "New"
+msgstr "جدید"
+
+#. module: fleet_traccar_tracking
+#. odoo-python
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_device_location.py:0
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_device_summary.py:0
+#, python-format
+msgid "No data are avilable between this date"
+msgstr "هیچ داده ای بین این تاریخ قابل قبول نیست"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_needaction_counter
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_needaction_counter
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_needaction_counter
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_has_error_counter
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_has_error_counter
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_has_error_counter
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_config_settings__message_needaction_counter
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__message_needaction_counter
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__message_needaction_counter
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_config_settings__message_has_error_counter
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__message_has_error_counter
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__message_has_error_counter
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام ها با خطای تحویل"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields.selection,name:fleet_traccar_tracking.selection__fleet_vehicle__traccar_device_status__offline
+msgid "Offline"
+msgstr "آفلاین"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields.selection,name:fleet_traccar_tracking.selection__fleet_vehicle__traccar_device_status__online
+msgid "Online"
+msgstr "آنلاین"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_location
+msgid "Open Location"
+msgstr "باز کردن موقعیت"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_summary
+msgid "Open Summary"
+msgstr "باز کردن خلاصه"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Other Details"
+msgstr "جزئیات دیگر"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__api_pwd
+msgid "Password"
+msgstr "گذر واژه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__position_id
+msgid "Position ID"
+msgstr "شناسه موقعیت"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__protocol
+msgid "Protocol"
+msgstr "پروتکل"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_raise_message
+msgid "Raise Message"
+msgstr "ارسال پیام"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__rating_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__rating_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__rating_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__rating_ids
+msgid "Ratings"
+msgstr "رتبه بندی ها"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.actions.act_window,help:fleet_traccar_tracking.fleet_traccar_vehicle_action
+msgid "Ready to manage your fleet more efficiently ?"
+msgstr "برای مدیریت کارآمدتر ناوگان خود آماده هستید؟"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__name
+msgid "Reference"
+msgstr "مرجع"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__route_date
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__route_date
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+msgid "Route Date"
+msgstr "تاریخ مسیر"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.act_window,name:fleet_traccar_tracking.traccar_route_details_action
+#: model:ir.model,name:fleet_traccar_tracking.model_traccar_route_details
+#: model:ir.ui.menu,name:fleet_traccar_tracking.traccar_route_details_menu
+msgid "Route Details"
+msgstr "جزئیات مسیر"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+msgid "Route Map"
+msgstr "نقشه مسیر"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__message_has_sms_error
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__message_has_sms_error
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__message_has_sms_error
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیام کوتاه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__name
+msgid "Sequence of Event"
+msgstr "توالی رویداد"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__name
+msgid "Sequence of Route"
+msgstr "توالی مسیر"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__name
+msgid "Sequence of Trip"
+msgstr "توالی سفر"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Source"
+msgstr "مبدا"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__dst_address
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__src_address
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__dst_address
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__src_address
+msgid "Source Address"
+msgstr "آدرس مبدا"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__src_latitude
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__src_latitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__src_latitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__src_latitude
+msgid "Source Latitude"
+msgstr "عرض جغرافیایی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__src_longitude
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__src_longitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__src_longitude
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__src_longitude
+msgid "Source Longitude"
+msgstr "طول جغرافیایی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__speed
+msgid "Speed"
+msgstr "سرعت"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__spent_fuel
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__spent_fuel
+msgid "Spent Fuel"
+msgstr "سوخت مصرفی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__start_odometer
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__start_odometer
+msgid "Start Odometer"
+msgstr "کیلومتر شمار شروع"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__start_position_id
+msgid "Start Position Id"
+msgstr "شناسه موقعیت شروع"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_details_traccar_device_summary__start_time
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__start_time
+msgid "Start Time"
+msgstr "زمان شروع"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.fleet_vehicle_view_form_traccar
+msgid "Sync"
+msgstr "همگام سازی"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__total_distance
+msgid "Total Distance"
+msgstr "فاصله کل"
+
+#. module: fleet_traccar_tracking
+#: model:ir.ui.menu,name:fleet_traccar_tracking.fleet_traccar_menu
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.fleet_vehicle_view_form_traccar
+msgid "Traccar"
+msgstr "رهگیری ناوگان"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_form
+msgid "Traccar API Settings"
+msgstr "تنظیمات میانای برنامه کابردی رهگیری ناوگان"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.act_window,name:fleet_traccar_tracking.traccar_instance_tree_action
+#: model:ir.ui.menu,name:fleet_traccar_tracking.traccar_configuration_menu
+msgid "Traccar Configuration"
+msgstr "پیکربندی رهگیری"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+msgid "Traccar Details"
+msgstr "جزئیات رهگیری"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_wizard_traccar_current_position
+msgid "Traccar Device Current Position"
+msgstr "موقعیت فعلی دستگاه رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_id
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_id
+msgid "Traccar Device ID"
+msgstr "شناسه دستگاه رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_location
+msgid "Traccar Device Location"
+msgstr "مکان دستگاه رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_details_traccar_current_position
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_summary
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_routes
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_trips
+msgid "Traccar Device Summary"
+msgstr "خلاصه دستگاه رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_details_traccar_device_summary
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_details_traccar_device_summary
+msgid "Traccar Device Summary Details"
+msgstr "جزئیات خلاصه دستگاه رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_wizard_traccar_device_summary
+msgid "Traccar Device Summary Wizard"
+msgstr "جادوگر خلاصه دستگاه رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_wizard_traccar_device_location
+msgid "Traccar Device location Wizard"
+msgstr "جادوگر مکان رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_wizard_traccar_fetch_routes
+msgid "Traccar Fetch Routes Wizard"
+msgstr "جادوگر واکشی مسیرهای رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_wizard_traccar_fetch_trips
+msgid "Traccar Fetch Trips Wizard"
+msgstr "جادوگر واکشی سفرهای رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_fleet_vehicle__traccar_device_lastupdate
+msgid "Traccar Last Update"
+msgstr "آخرین بروزرسانی رهگیری"
+
+#. module: fleet_traccar_tracking
+#. odoo-python
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_fetch_routes.py:0
+#, python-format
+msgid "Traccar Routes are successfully created"
+msgstr "مسیرهای رهگیری شده با موفقیت ایجاد شدند!"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Traccar Trip"
+msgstr "سفر رهگیری شده"
+
+#. module: fleet_traccar_tracking
+#. odoo-python
+#: code:addons/fleet_traccar_tracking/wizard/wizard_traccar_fetch_trips.py:0
+#, python-format
+msgid "Traccar Trips are successfully created"
+msgstr "سفرهای رهگیری شده با موفقیت ایجاد شدند!"
+
+#. module: fleet_traccar_tracking
+#. odoo-python
+#: code:addons/fleet_traccar_tracking/models/traccar_config_settings.py:0
+#: code:addons/fleet_traccar_tracking/models/traccar_config_settings.py:0
+#, python-format
+msgid "Traccar Unauthorized Access: Check traccar credentials %s"
+msgstr "دسترسی غیر مجاز رهگیری: اعتبارنامه رهگیری ٪ s را بررسی کنید"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__traccar_device_uniqueid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__traccar_device_uniqueid
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__traccar_device_uniqueid
+msgid "Traccar Unique Id"
+msgstr "شناسه منحصر به فرد رهگیری"
+
+#. module: fleet_traccar_tracking
+#: model:ir.ui.menu,name:fleet_traccar_tracking.fleet_traccar_vehicle_menu
+msgid "Traccar Vehicles"
+msgstr "وسایل نقلیه"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_location
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_device_summary
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_routes
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.form_wizard_traccar_fetch_trips
+msgid "Tracking Details"
+msgstr "جزئیات پیگیری"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__route_id
+msgid "Travel ID"
+msgstr "شناسه سفر"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__trip_date
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__trip_date
+msgid "Trip Date"
+msgstr "تاریخ سفر"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.act_window,name:fleet_traccar_tracking.traccar_trip_details_action
+#: model:ir.model,name:fleet_traccar_tracking.model_traccar_trip_details
+#: model:ir.ui.menu,name:fleet_traccar_tracking.traccar_trip_details_menu
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Trip Details"
+msgstr "جزئیات سفر"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "Trip Map"
+msgstr "نقشه سفر"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_search
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_config_settings_tree
+msgid "Ttraccar Config Settings"
+msgstr "تنظیمات پیکربندی رهگیری"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__api_url
+msgid "URL"
+msgstr "url"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.server,name:fleet_traccar_tracking.ir_cron_traccar_event_details_ir_actions_server
+msgid "Update: Traccar Event Details"
+msgstr "بروزرسانی: جزئیات رویداد Traccar"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.server,name:fleet_traccar_tracking.ir_cron_traccar_route_details_ir_actions_server
+msgid "Update: Traccar Route Details"
+msgstr "بروزرسانی: جزئیات مسیر Traccar"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.server,name:fleet_traccar_tracking.ir_cron_traccar_trip_details_ir_actions_server
+msgid "Update: Traccar Trip Details"
+msgstr "بروزرسانی: جزئیات سفر Traccar"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__api_user
+msgid "User Name"
+msgstr "نام کاربری"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_fleet_vehicle
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__vehicle_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__vehicle_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__vehicle_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_location__vehicle_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_device_summary__vehicle_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_routes__vehicle_id
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_wizard_traccar_fetch_trips__vehicle_id
+msgid "Vehicle"
+msgstr "خودرو"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_event_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_event_details_tree
+msgid "Vehicle Event Details"
+msgstr "جزئیات رویداد وسیله نقلیه"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_tree
+msgid "Vehicle Route Details"
+msgstr "جزئیات مسیر وسیله نقلیه"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_tree
+msgid "Vehicle Trip Details"
+msgstr "جزئیات سفر وسیله نقلیه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.actions.act_window,name:fleet_traccar_tracking.fleet_traccar_vehicle_action
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.fleet_vehicle_view_form_traccar
+msgid "Vehicles"
+msgstr "وسایل نقلیه"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.fleet_vehicle_view_form_traccar
+msgid "View Current Location"
+msgstr "مشاهده مکان فعلی"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.fleet_vehicle_view_form_traccar
+msgid "View Device Summary"
+msgstr "مشاهده خلاصه دستگاه"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_config_settings__website_message_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__website_message_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_route_details__website_message_ids
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_trip_details__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های تارنما"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_config_settings__website_message_ids
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_event_details__website_message_ids
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_route_details__website_message_ids
+#: model:ir.model.fields,help:fleet_traccar_tracking.field_traccar_trip_details__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات تارنما"
+
+#. module: fleet_traccar_tracking
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_event_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_route_details_form
+#: model_terms:ir.ui.view,arch_db:fleet_traccar_tracking.traccar_trip_details_form
+msgid "e.g. TRIP0001"
+msgstr "به عنوان مثال Trip0001"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model,name:fleet_traccar_tracking.model_traccar_config_settings
+msgid "traccar.config.settings"
+msgstr "تنظیمات پیکربندی رهگیری ناوگان"
+
+#. module: fleet_traccar_tracking
+#: model:ir.model.fields,field_description:fleet_traccar_tracking.field_traccar_event_details__device_type
+msgid "type"
+msgstr "نوع"

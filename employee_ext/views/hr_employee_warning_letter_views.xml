@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="hr_employee_warning_letter_view_tree" model="ir.ui.view">   
+            <field name="name">employee.warning.letter.view.tree</field>
+            <field name="model">hr.employee.warning.letter</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Warning Letter">
+                      <field name="issued_date"/>
+                      <field name="data"/>
+                      <field name="desc"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_employee_warning_letter_view_form" model="ir.ui.view">
+            <field name="name">employee.warning.letter.view.form</field>
+            <field name="model">hr.employee.warning.letter</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="issued_date"/>
+                            </group>
+                            <group>
+                                <field name="filename" invisible="1"/>
+                                <field name="data" filename="filename"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="desc" string="Description">
+                                <field name="desc" widget="text"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_employee_warning_letter_action" model="ir.actions.act_window">
+            <field name="name">Employee Warning Letter</field>
+            <field name="res_model">hr.employee.warning.letter</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

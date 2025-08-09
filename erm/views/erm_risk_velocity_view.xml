@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_erm_risk_velocity_form" model="ir.ui.view">
+    <field name="model">erm.risk.velocity</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+          
+            <field name="name"/>
+            <field name="value"/>
+            <field name="description"/>
+            <field name="color" widget="color"/>
+        
+          </group>
+
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_erm_risk_velocity_tree" model="ir.ui.view">
+    <field name="model">erm.risk.velocity</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="1" editable="top">
+        <header>
+        </header>
+        <field name="name"/>
+        <field name="value"/>
+        <field name="description"/>
+        <field name="color" widget="color"/>
+        <field name="create_uid"  optional="hide"/>
+        <field name="create_date"  optional="hide"/>
+        <field name="write_uid" optional="hide"/>
+        <field name="write_date" optional="hide"/>
+            </tree>
+    </field>
+  </record>
+  <record id="view_erm_risk_velocity_search" model="ir.ui.view">
+    <field name="model">erm.risk.velocity</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+      </search>
+    </field>
+  </record>
+  <record id="action_erm_risk_velocity" model="ir.actions.act_window">
+    <field name="name">Velocities</field>
+    <field name="res_model">erm.risk.velocity</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'velocity'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Velocities"
+    id="menu_erm_risk_velocity"
+    parent="menu_configuration"
+    action="action_erm_risk_velocity"
+    sequence="6">
+  </menuitem>
+
+</odoo>

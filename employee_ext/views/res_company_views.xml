@@ -1,0 +1,49 @@
+<odoo>
+    <data>     
+
+        <record id="res_company_emp_ext_form" model="ir.ui.view">
+            <field name="name">res.company.emp.ext.form</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='vat']" position="after">
+                    <field name="legal_name"/>
+                    <field name="resource_calendar_id"/>
+                    <field name="register_location"/>
+                    <field name="company_type"/>
+                    <field name="main_res_and_activities"/>
+                    <field name="color" position="move"/>
+                    <field name="color_rgb"/>
+                </xpath>
+                <xpath expr="//field[@name='default_from_email']" position="after">
+                    <field name="background_filename" invisible="1"/>
+                    <field name="background_data" filename="background_filename"/>
+                    <field name="icon_filename" invisible="1"/>
+                    <field name="icon_data" filename="icon_filename"/>
+                    <field name="line_filename" invisible="1"/>
+                    <field name="line_data" filename="line_filename"/>
+                    <field name="stamp_filename" invisible="1"/>
+                    <field name="stamp_data" filename="line_filename"/>
+                </xpath>
+                <xpath expr="//page[@name='general_info']" position="attributes">
+                    <attribute name="groups">hr.group_hr_manager</attribute>
+                </xpath>
+                <xpath expr="//page[@name='branches']" position="attributes">
+                    <attribute name="groups">hr.group_hr_manager</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="res_company_employee_ext_tree" model="ir.ui.view">
+            <field name="name">res.company.employee.ext.tree</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='child_ids']" position="after">
+                    <field name="country_id" />
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

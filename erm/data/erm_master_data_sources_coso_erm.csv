@@ -1,0 +1,36 @@
+﻿id,category_id,name
+1,Compliance,Regulatory changes and compliance requirements
+2,Compliance,Legal obligations and contract management
+3,Compliance,Breaches of laws and industry standards
+4,Compliance,Ethical misconduct and corporate governance failures
+5,Environmental,"Natural disasters (e.g., earthquakes, floods)"""
+6,Environmental,Climate change impacts
+7,Environmental,Environmental regulations and compliance
+8,Environmental,Sustainability challenges
+9,Financial,"Market risk (e.g., currency fluctuations, interest rate changes)"""
+10,Financial,"Credit risk (e.g., defaults on receivables)"""
+11,Financial,Liquidity and cash flow management issues
+12,Financial,Financial reporting inaccuracies or fraud
+13,Financial,Capital investment risks
+14,Human Capital,Talent acquisition and retention challenges
+15,Human Capital,Employee engagement and morale
+16,Human Capital,Skills shortages and competency gaps
+17,Human Capital,Health and safety concerns
+18,Operational,Process failures and inefficiencies
+19,Operational,Supply chain disruptions
+20,Operational,"Human resource issues (e.g., turnover, labor strikes)"""
+21,Operational,IT system failures and cyber threats
+22,Operational,Service delivery challenges
+23,Reputational,Negative publicity and media coverage
+24,Reputational,Customer dissatisfaction and complaints
+25,Reputational,Failures in corporate social responsibility
+26,Reputational,Damage to stakeholder trust
+27,Strategic,Changes in market dynamics and competition
+28,Strategic,Shifts in customer demands and preferences
+29,Strategic,Business model innovation and transformation
+30,Strategic,"Mergers, acquisitions, and divestitures"
+31,Strategic,"Macro-economic trends (e.g., inflation, recession)"
+32,Technological,Obsolescence of technology
+33,Technological,Rapid advancements in technology
+34,Technological,Cybersecurity breaches and data loss
+35,Technological,System implementation failures

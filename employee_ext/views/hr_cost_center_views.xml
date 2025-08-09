@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_hr_cost_center_form" model="ir.ui.view">
+            <field name="name">hr.cost.center.form</field>
+            <field name="model">hr.cost.center</field>
+            <field name="arch" type="xml">
+                <form string="Cost Center Form">
+                    <sheet>
+                        <div class="oe_title mb32">
+                            <h1><field name="name" placeholder="Name"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="company_id"/>
+                                <field name="parent_id"/>
+                                <field name="total_subordinates" invisible="1"/>
+                            </group>
+                            <group>
+                                <field name="active" invisible="1"/>
+                                <field name="child_ids" invisible="1"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="employee_tabsheet" string="Employee Ids">
+                                <field name="employee_cost_center" no_create="1">
+                                    <tree no_open="1">
+                                        <field name="employee_id"/>
+                                        <field name="eff_date"/>
+                                        <field name="percent"/>
+                                        <field name="active_status"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_hr_cost_center_tree" model="ir.ui.view">
+            <field name="name">hr.cost.center.tree</field>
+            <field name="model">hr.cost.center</field>
+            <field name="arch" type="xml">
+                <tree string="Cost Center Tree" sample="1">
+                    <field name="complete_name"/>
+                    <field name="company_id"/>
+                    <field name="parent_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_cost_center_hierarchy_view" model="ir.ui.view">
+            <field name="name">hr.cost.center.view.hierarchy</field>
+            <field name="model">hr.cost.center</field>
+            <field name="arch" type="xml">
+                <hierarchy child_field="child_ids" draggable="1">
+                    <field name="name" />
+                    <field name="total_subordinates" />
+                    <templates>
+                        <t t-name="hierarchy-box">
+                            <div t-attf-class="o_hierarchy_node_header d-flex justify-content-center align-items-center ">
+                                <field name="name" />
+                            </div>
+                            <div class="o_hierarchy_node_body d-flex flex-column">
+                                <div>
+                                    <span>
+                                        <t t-out="record.total_subordinates.raw_value"/> Subordinates
+                                    </span>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </hierarchy>
+            </field>
+        </record>
+
+        <record id="hr_cost_center_view_kanban" model="ir.ui.view" >
+            <field name="name">hr.cost.center.kanban</field>
+            <field name="model">hr.cost.center</field>
+            <field name="arch" type="xml">
+                <kanban class="o_kanban_mobile">
+                    <field name="complete_name"/>
+                    <field name="company_id"/>
+                    <field name="parent_id"/>
+                    <field name="total_subordinates"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click">
+                                <div t-attf-class="o_kanban_card_header oe_kanban_details">
+                                    <div class="o_kanban_card_header_title">
+                                        <div class="o_primary"><a type="edit"><field name="complete_name"/></a></div>
+                                        <div class="o_secondary" groups="base.group_multi_company">
+                                            <small>
+                                                <i class="fa fa-building-o" role="img" aria-label="Company" title="Company"/> <field name="company_id"/>
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container o_kanban_card_content" t-if="!selection_mode">
+                                    <div class="row o_kanban_card_upper_content">
+                                        <div class="col-6 o_kanban_primary_left">
+                                            <button class="btn btn-primary" name="cost_center_childs_action" type="object">
+                                                <t t-out="record.total_subordinates.raw_value"/> Subordinates
+                                            </button>
+                                        </div>
+                                        <div class="col-6 o_kanban_primary_right">
+                                        </div>
+                                    </div>
+                                    <div class="o_kanban_card_lower_content"
+                                        style="justify-content: end">
+                                        <!-- placeholder for bottom content -->
+                                    </div>
+                            </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="view_hr_cost_center_filter" model="ir.ui.view">
+            <field name="name">hr.cost.center.search</field>
+            <field name="model">hr.cost.center</field>
+            <field name="arch" type="xml">
+                <search string="Cost Center Search">
+                    <field name="name"/>
+                    <field name="company_id"/>
+                    <field name="parent_id"/>
+                    <separator/>
+                        <filter string="Archived" name="Inactive" domain="[('active', '=', False)]"/>
+                    <separator/>
+                </search>
+            </field>
+        </record>
+
+        <record id="hr_cost_center_action" model="ir.actions.act_window">
+            <field name="name">Cost Center</field>
+            <field name="res_model">hr.cost.center</field>
+            <field name="domain">[]</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">kanban,tree,hierarchy,form</field>
+        </record>
+
+    <!-- employee cost center -->
+        <record id="hr_employee_cost_center_form" model="ir.ui.view">
+            <field name="name">hr.employee.cost.center.form</field>
+            <field name="model">hr.employee</field>
+            <field name="priority">100</field>
+            <field name="arch" type="xml">
+                <form string="Employee Form" create='false' delete='false'>
+                    <header>
+                        <button name="create_cost_center" type="object" string="New Line" class="oe_highlight" groups="employee_ext.group_hr_organization_development"/>
+                    </header>
+                    <sheet>
+                        <field name="avatar_128" invisible="1"/>
+                        <group string="Employee Information">
+                            <div class="row justify-content-between position-relative w-100 m-0 mb-2" style="text-align: right;">
+                                <div class="o_employee_avatar m-0 p-0">
+                                    <field name="image_1920" widget='image' class="oe_avatar m-0" options='{"zoom": true, "preview_image":"avatar_128"}' readonly="1"/>
+                                </div>
+                            </div>
+                            <group>
+                                <field name="name" readonly="1"/>
+                                <field name="personnel_code" readonly="1"/>
+                                <field name="department_id" readonly="1"/>
+                            </group>
+                            <group>
+                                <field name="job_id" readonly="1"/>
+                                <field name="parent_id" widget="many2one_avatar_user" readonly="1"/>
+                                <field name="company_id" readonly="1"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="cost_center" string="Cost Center">
+                                <field name="cost_center_ids">
+                                    <tree editable="bottom">
+                                        <field name="eff_date"/>
+                                        <field name="percent"/>
+                                        <field name="cost_center_id"/>
+                                        <field name="active_status"/>
+                                        <button name="open_record" type="object" string="open" class="oe_highlight" groups="employee_ext.group_hr_organization_development"/>
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_employee_cost_center_tree" model="ir.ui.view">
+            <field name="name">hr.employee.cost.center.tree</field>
+            <field name="model">hr.employee</field>
+            <field name="priority">100</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Tree" create="false" delete="false" sample="1" js_class="hr_employee_list">
+                    <field name="name"/>
+                    <field name="personnel_code"/>
+                    <field name="company_id"/>
+                    <field name="department_id"/>
+                    <field name="job_id"/>
+                    <field name="parent_id" widget="many2one_avatar_user"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_employee_cost_center_action" model="ir.actions.act_window">
+            <field name="name">Employee Cost Center</field>
+            <field name="res_model">hr.employee</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="hr.view_employee_filter"/>
+            <field name="context">{'form_view_ref': 'employee_ext.hr_employee_cost_center_form',
+                                    'tree_view_ref': 'employee_ext.hr_employee_cost_center_tree',
+                                    'from_employee_cost_center': 'True'}
+                                </field>
+        </record>
+
+    </data>
+</odoo>

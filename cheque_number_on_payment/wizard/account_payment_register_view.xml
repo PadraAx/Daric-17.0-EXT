@@ -1,0 +1,15 @@
+<odoo>
+    <record id="account_payment_register_form_extended_cheque" model="ir.ui.view">
+        <field name="name">account.payment.register.form.extended.cheque</field>
+        <field name="model">account.payment.register</field>
+        <field name="inherit_id" ref="account.view_account_payment_register_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group/group[1]" position="inside">
+                <field name="cheque_number"/>
+            </xpath>
+            <xpath expr="//group/group[2]" position="inside">
+                <field name="cheque_image" widget="image" class="oe_avatar"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

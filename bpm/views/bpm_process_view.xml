@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_bpm_process_form" model="ir.ui.view">
+    <field name="model">bpm.process</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <field name="code" />
+            <field name="businessdomain_category_id"/>
+            <field name="business_domain_id"/>
+            <field name="name"/>
+            <field name="workflow_id"/>
+            <field name="process_type" />
+            <field name="document_ids" widget="many2many_tags"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_bpm_process_tree" model="ir.ui.view">
+    <field name="model">bpm.process</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="1" editable="top">
+        <header>
+        </header>
+        <field name="code"/>
+        <field name="businessdomain_category_id"/>
+        <field name="business_domain_id"/>
+        <field name="name"/>
+        <field name="workflow_id"/>
+        <field name="process_type" />
+        <field name="document_ids" widget="many2many_tags"/>
+        <field name="create_uid" />
+        <field name="create_date" />
+        <field name="write_uid" optional="hide"/>
+        <field name="write_date" optional="hide"/>
+            </tree>
+    </field>
+  </record>
+  <record id="view_bpm_process_search" model="ir.ui.view">
+    <field name="model">bpm.process</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="code"/>
+        <field name="businessdomain_category_id"/>
+        <field name="business_domain_id"/>
+        <field name="name"/>
+        <field name="workflow_id"/>
+        <field name="process_type"/>
+      </search>
+    </field>
+  </record>
+  <record id="action_bpm_process" model="ir.actions.act_window">
+    <field name="name">Processes</field>
+    <field name="res_model">bpm.process</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Process'
+      </p>
+    </field>
+  </record>
+  <menuitem name="Processes"
+    id="menu_bpm_process"
+    parent="menu_workflow_root"
+    action="action_bpm_process"
+    sequence="107">
+  </menuitem>
+
+</odoo>

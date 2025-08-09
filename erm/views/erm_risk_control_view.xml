@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_erm_risk_control_form" model="ir.ui.view">
+    <field name="model">erm.risk.control</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <group>
+                <field name="name"/>
+                <field name="control_type"/>
+                <field name="control_status"/>
+                <field name="control_owner_id"/>
+                <field name="documented"/>
+                <field name="control_Automation"/>
+                <field name="frequency"/>
+                <field name="test_step"/>
+            </group>
+            <group>
+                <field name="design_effectiveness"/>
+                <field name="operating_effectiveness"/>
+                <field name="control_rating"/>
+                <field name="overall_control_rating"/>
+                <field name="residual_risk_rating"/>
+            </group>
+          </group>
+          <notebook>
+            <page string="Description" name="page_description">
+              <group>
+                <field name="description" placeholder="Enter your descriptions"
+                options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" />
+              </group>
+            </page>
+         
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_erm_risk_control_tree" model="ir.ui.view">
+    <field name="model">erm.risk.control</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree  create="0" editable="top">
+        <header>
+        </header>
+        <field name="name"/>
+        <field name="control_type"/>
+        <field name="control_status"/>
+        <field name="control_owner_id"/>
+        <field name="documented"/>
+        <field name="control_Automation"/>
+        <field name="frequency"/>
+        <field name="test_step"/>
+        <field name="design_effectiveness"/>
+        <field name="operating_effectiveness"/>
+        <field name="control_rating"/>
+        <field name="overall_control_rating"/>
+        <field name="residual_risk_rating"/>
+
+        <field name="create_uid" />
+        <field name="create_date" />
+        <field name="write_uid" optional="hide"/>
+        <field name="write_date" optional="hide"/>
+      </tree>
+    </field>
+  </record>
+  <record id="view_erm_risk_control_search" model="ir.ui.view">
+    <field name="model">erm.risk.control</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+     
+      </search>
+    </field>
+  </record>
+  <record id="action_erm_risk_control" model="ir.actions.act_window">
+    <field name="name">Controls</field>
+    <field name="res_model">erm.risk.control</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Control'
+      </p>
+    </field>
+  </record>
+    <!-- <menuitem name="Controls"
+                    id="menu_erm_risk_control"
+                    parent="menu_control"
+                    action="action_erm_risk_control"
+                    sequence="4">
+                </menuitem> -->
+</odoo>

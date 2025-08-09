@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- <record id="res_users_employee_ext_inherit" model="ir.ui.view">
+            <field name="name">res.users.employee.ext.inherit</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('o_horizontal_separator', 'mt-2', 'mb-4', 'text-uppercase', 'fw-bolder', 'small')]" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath>
+                <xpath expr="//span[1]" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath>
+                <xpath expr="//span[2]" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath>
+            </field>
+        </record> -->
+
+        <record id="employee_ext_res_users_form" model="ir.ui.view">
+            <field name="name">employee.ext.res.ussers.form</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('oe_title')]//group//field[@name='partner_id']" position="after">
+                    <field name="all_companies"/>
+                </xpath>
+            </field>
+          </record>
+        
+        <record id="res_users_employee_ext_profile_view_form" model="ir.ui.view">
+            <field name="name">res.users.employee.profile.view.form</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="hr.res_users_view_form_profile"/>
+            <field name="arch" type="xml">
+                <field name="avatar_128" position="after">
+                    <field name="work_contact_id" invisible="1"/>
+                </field>
+                <xpath expr="//header" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath>
+                <xpath expr="//page[3]" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='work_email']" position="attributes">
+                    <attribute name="options">{'no_open': True}</attribute>
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='work_phone']" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='image_1920']" position="attributes">
+                    <attribute name="readonly">0</attribute>
+                </xpath>
+                <xpath expr="//field[@name='job_title']" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='mobile_phone']" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='work_location_id']" position="attributes">
+                    <attribute name="options">{'no_open': True}</attribute>
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='employee_parent_id']" position="attributes">
+                    <attribute name="options">{'no_open': True}</attribute>
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='coach_id']" position="attributes">
+                    <attribute name="options">{'no_open': True}</attribute>
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='department_id']" position="attributes">
+                    <attribute name="options">{'no_open': True}</attribute>
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='address_id']" position="attributes">
+                    <attribute name="options">{'no_open': True}</attribute>
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <xpath expr="//page[@name='preferences_page']" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath>
+                <xpath expr="//page[@name='page_account_security']//group[2]" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath>
+                <xpath expr="//page[@name='page_account_security']//group[3]" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath> 
+                <xpath expr="//page[@name='page_account_security']//group[last()]" position="attributes">
+                    <attribute name="groups">base.user_admin</attribute>
+                </xpath>
+                <xpath expr="//page[@name='personal_information']" position="replace">
+                    <page name="personal_information" string="Private Information">
+                        <group>
+                            <group name="left">
+                                <separator string="personal"/>
+                                    <field name="first_name"/>
+                                    <field name="last_name"/>
+                                    <field name="gender" readonly="1"/>
+                                    <field name="nationality"/>
+                                    <field name="other_nationality"/>
+                                    <field name="father_name"/>
+                                    <field name="mother_name"/>
+                                    <field name="birthday" readonly="1"/>
+                                    <field name="place_of_birth" readonly="1"/>
+                                    <field name="country_of_birth" string="Country" readonly="1" options="{'no_open': True}"/>
+                                    <field name="religion"/>
+                                    <field name="marital"/>
+                                    <field name="children"/>
+                                    <field name="dependent_number"/>
+                                <separator string="Contact Information"/>
+                                    <field name="employee_ids" invisible="1"/>
+                                    <field name="private_street" class="o_address_street" string="Permanent Address" readonly="1"/>
+                                    <field name="private_email" readonly="1"/>
+                                    <field name="private_phone" readonly="1"/>
+                                    <field name="home_country_address_id"/>
+                                    <field name="second_phone"/>
+                                    <field name="employee_bank_account_id" invisible="1"/>
+                            </group>
+                            <group name="right">
+                                <separator name="account_information" string="Bank Account Details"/>
+                                    <field name="bank_name"/>
+                                    <field name="bank_account"/>
+                                    <field name="swift_code"/>
+                                    <field name="branch_location"/>
+                                    <field name="iban_no"/>
+                                    <field name="ifsc_code"/>
+                                <separator string="Emergency Contact"/>
+                                    <field name="emergency_contact" readonly="1"/>
+                                    <field name="emergency_relation"/>
+                                    <field name="emergency_phone" widget="phone" readonly="1"/>
+                                    <field name="emergency_email"/>
+                                    <field name="emergency_address"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+                <xpath expr="//page[@name='hr_settings']//group[@name='identification_group']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//page[@name='hr_settings']" position="after">
+                    <page name="education" string="Education">
+                        <field name="education_ids"/>
+                        <field name="employee_id" invisible="1"/>
+                    </page>
+                </xpath>
+                <xpath expr="//page[@name='hr_settings']//field[@name='employee_type']" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

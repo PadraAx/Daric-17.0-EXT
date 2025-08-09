@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="hr_employee_termination_view_tree" model="ir.ui.view">
+            <field name="name">employee.termination.view.tree</field>
+            <field name="model">hr.employee.termination</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Termination">
+                    <field name="reason"/>
+                    <field name="date"/>
+                    <field name="termination_status"/>
+                    <field name="termination_type"/>
+                    <field name="desc"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_employee_termination_view_form" model="ir.ui.view">
+            <field name="name">employee.termination.view.form</field>
+            <field name="model">hr.employee.termination</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="reason"/>
+                        </group>
+                        <group>
+                            <group>
+                                <field name="date" />
+                                <field name="termination_type"/>
+                            </group>
+                            <group>
+                                <field name="termination_status"/>
+                                <field name="filename" invisible="1"/>
+                                <field name="clearance_form" filename="filename"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="desc" string="Description">
+                                <field name="desc" widget="text"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_employee_termination_action" model="ir.actions.act_window">
+            <field name="name">Employee Termination</field>
+            <field name="res_model">hr.employee.termination</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

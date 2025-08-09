@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="category_default" model="product.category">
+        <field name="name">Default Category</field>
+        <field name="custom_id">01</field>
+    </record>
+</odoo>  <!-- FIX: Properly closed the <odoo> tag -->

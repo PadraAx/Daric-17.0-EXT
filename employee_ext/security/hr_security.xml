@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'hr'), ('name','in',('hr_employee_public_comp_rule', 'hr_employee_comp_rule'))] "/> 
+        </function> 
+        <value eval ="{'noupdate': False}"/> 
+     </function>
+
+     <record id = "hr.hr_employee_public_comp_rule" model = "ir.rule"> 
+        <field name="domain_force">['|', '|', '|', ('company_id','=',False),
+                                                    ('company_id', 'in', company_ids),
+                                                    ('parent_id', '=', user.employee_id.id),
+                                                    ('id', '=', user.employee_id.parent_id.id)]</field>
+     </record>
+
+     <record id = "hr.hr_employee_comp_rule" model = "ir.rule"> 
+        <field name="domain_force">['|', '|', ('company_id','=',False),
+                                                ('company_id', 'in', company_ids),
+                                                ('parent_id', '=', user.employee_id.id)]</field>
+     </record>
+
+     <function name = "write" model = "ir.model.data"> 
+        <function name = "search" model = "ir.model.data"> 
+            <value eval = "[('module', '=', 'hr'), ('name','in',('hr_employee_public_comp_rule', 'hr_employee_comp_rule'))] "/> 
+        </function> 
+        <value eval ="{'noupdate': True}"/> 
+     </function>
+
+    <!-- create user/ default employee access -->
+    <record id="base.default_user" model="res.users">
+        <field name="groups_id" eval="[(6, 0, [ref('base.group_user')])]"/>
+    </record>
+
+    <record id="base.module_category_human_resources_employees" model="ir.module.category">
+        <field name="sequence">9</field>
+    </record>
+
+    <data noupdate="0">
+        <record id="hr.group_hr_user" model="res.groups">
+            <field name="name">HRSS-Officer</field>
+        </record>
+      
+    </data>
+
+    <!-- seperate access -->
+    <record id="group_hr_employee_reader" model="res.groups">
+        <field name="name">Reader: Can read all employee forms</field>
+        <field name="comment">The user can read only employee forms.</field>
+    </record>
+
+    <record id="group_hr_organization_development" model="res.groups">
+        <field name="name">OD: Organization Development</field>
+        <field name="comment">The user have access to organization structure menus.</field>
+    </record>
+
+    <record id="group_hr_business_partner" model="res.groups">
+        <field name="name">HRBP</field>
+        <field name="comment">The user can only read records department base.</field>
+    </record>
+
+    <record id="group_hr_show_employee_section" model="res.groups">
+        <field name="name">Show Employees Section</field>
+        <field name="comment">Users with access to employee module.</field>
+    </record>
+
+    <record id="group_hr_office_setup" model="res.groups">
+        <field name="name">HR Office Setup</field>
+        <field name="comment">Users with access to setup offices and stations.</field>
+    </record>
+    <!-- finish -->
+
+    <!-- Rules -->
+     <!-- employee public -->
+    <record id="hr_employee_public_default_user_read_rule" model="ir.rule">
+        <field name="name">Default user can only read own record public</field>
+        <field name="model_id" ref="hr.model_hr_employee_public"/>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', '|', ('company_id','=',False),
+                                                    ('company_id', 'in', company_ids),
+                                                    ('id', '=', user.employee_id.parent_id.id),
+                                                    ('parent_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_employee_public_officer_read_rule" model="ir.rule">
+        <field name="name">HRSS can read all records public</field>
+        <field name="model_id" ref="hr.model_hr_employee_public"/>
+        <field name="groups" eval="[(4, ref('hr.group_hr_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|', '|', '|', ('company_id','=',False), 
+                                                    ('company_id', 'in', company_ids),
+                                                    ('id', '=', user.employee_id.parent_id.id),
+                                                    ('parent_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_employee_public_admin_read_rule" model="ir.rule">
+        <field name="name">Admin can read all records public</field>
+        <field name="model_id" ref="hr.model_hr_employee_public"/>
+        <field name="groups" eval="[(4, ref('hr.group_hr_manager'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|', ('company_id','=',False), ('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <!-- employee -->
+    <record id="hr_employee_default_user_read_rule" model="ir.rule">
+        <field name="name">Default user can only read own record</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">[('id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_employee_officer_read_rule" model="ir.rule">
+        <field name="name">Officer can read all records</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('hr.group_hr_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|', '|', ('company_id','=',False),
+                                                ('company_id', 'in', company_ids),
+                                                ('parent_id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_employee_admin_read_rule" model="ir.rule">
+        <field name="name">Admin can read all records</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('hr.group_hr_manager'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_business_partner_rule" model="ir.rule">
+        <field name="name">HRBP can only read own department records</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_business_partner'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|', '|', ('department_id.hrbp_id', '=', user.employee_id.id),
+                                                ('department_id.hrbp_associate_ids', 'in', user.employee_id.ids),
+                                                ('id', '=', user.employee_id.id)]</field>
+    </record>
+
+    <record id="hr_employee_reed_od_rule" model="ir.rule">
+        <field name="name">OD can read all employee records</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_organization_development'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="hr_employee_read_reader_rule" model="ir.rule">
+        <field name="name">Reader can read all employee records</field>
+        <field name="model_id" ref="model_hr_employee"/>
+        <field name="groups" eval="[(4, ref('employee_ext.group_hr_employee_reader'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="domain_force">[(1,'=',1)]</field>
+    </record>
+
+    <!-- cost center -->
+    <record id="hr_cost_center_rule" model="ir.rule">
+        <field name="name">Cost Center rule</field>
+        <field name="model_id" ref="model_hr_cost_center"/>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="domain_force">['|',('company_id','=',False),('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <!-- department -->
+    <record id="hr.hr_dept_comp_rule" model="ir.rule">
+        <field name="groups" eval="[(4, ref('hr.group_hr_manager'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+    </record>
+
+    <record id="hr.access_hr_department_user" model="ir.model.access">
+        <field name="group_id" ref="hr.group_hr_user"/>
+        <field name="perm_read">1</field>
+        <field name="perm_write">0</field>
+        <field name="perm_create">0</field>
+        <field name="perm_unlink">0</field>
+    </record>
+
+    <!-- job -->
+    <record id="hr.hr_job_comp_rule" model="ir.rule">
+        <field name="groups" eval="[(4, ref('hr.group_hr_manager'))]"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="1"/>
+        <field name="perm_unlink" eval="1"/>
+    </record>
+
+    <!-- <record id="hr.access_hr_job_user" model="ir.model.access">
+        <field name="group_id" ref="hr.group_hr_user"/>
+        <field name="perm_read">1</field>
+        <field name="perm_write">0</field>
+        <field name="perm_create">0</field>
+        <field name="perm_unlink">0</field>
+    </record> -->
+
+    <!-- <record id="hr_custom_user_rule" model="ir.rule">
+        <field name="name">Users with custom access on employees module</field>
+        <field name="model_id" ref="base.model_res_users"/>
+        <field name="global" eval="True"/>
+        <field name="domain_force">['&amp;', ('groups_id', 'in', [ref('base.group_user')]), ('groups_id', 'not in', [ref('employee_ext.group_hr_hide_employee_section')])]
+        </field>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="0"/>
+    </record> -->
+
+</odoo>

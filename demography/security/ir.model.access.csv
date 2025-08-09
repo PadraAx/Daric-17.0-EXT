@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_demog,demog access,model_demog,base.group_user,1,1,1,1
+access_demog_ethnic_group,demog.ethnic.group access,model_demog_ethnic_group,base.group_user,1,1,1,1
+access_demog_religion,demog.religion access,model_demog_religion,base.group_user,1,1,1,1
+

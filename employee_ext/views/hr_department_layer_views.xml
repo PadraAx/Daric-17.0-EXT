@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="hr_department_layer_form" model="ir.ui.view">
+            <field name="name">hr.department.layer.form</field>
+            <field name="model">hr.department.layer</field>
+            <field name="arch" type="xml">
+                <form string="Department Layer Form">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_department_layer_tree" model="ir.ui.view">
+            <field name="name">hr.department.layer.tree</field>
+            <field name="model">hr.department.layer</field>
+            <field name="arch" type="xml">
+                <tree string="Department Layer List">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_department_layer_action" model="ir.actions.act_window">
+            <field name="name">Department Layer</field>
+            <field name="res_model">hr.department.layer</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

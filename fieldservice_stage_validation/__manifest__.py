@@ -1,0 +1,16 @@
+# Copyright (C) 2020 Brian McMaster <brian@mcmpest.com>
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+{
+    "name": "FSM Stage Validation",
+    "summary": "Validate input data when reaching a Field Service stage",
+    "version": "17.0.1.0.0",
+    'category': "Services/Field Service",
+    "author": "TORAHOPER",
+    "website": "https://torahoper.ir",
+    "depends": ["fieldservice"],
+    "data": ["views/fsm_stage.xml"],
+    "license": "AGPL-3",
+    "development_status": "Beta",
+    "maintainers": ["brian10048", "max3903"],
+    "application" : True,
+}

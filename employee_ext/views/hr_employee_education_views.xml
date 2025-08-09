@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="hr_employee_education_view_tree" model="ir.ui.view">
+            <field name="name">employee.education.view.tree</field>
+            <field name="model">hr.employee.education</field>
+            <field name="arch" type="xml">
+                <tree string="Employee Education">
+                    <field name="degree"/>
+                    <field name="university_name"/>
+                    <field name="specialisation_area_name"/>
+                    <field name="start"/>
+                    <field name="finish"/>
+                    <field name="orientation"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="hr_employee_education_view_form" model="ir.ui.view">
+            <field name="name">employee.education.view.form</field>
+            <field name="model">hr.employee.education</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group string="Information">
+                            <group>
+                                <field name="degree"/>
+                                <field name="specialisation_area_name"/>
+                            </group>
+                            <group>
+                                <field name="university_name"/>
+                                <field name="orientation"/>
+                                <field name="res_user" invisible="1"/>
+                            </group>
+                        </group>
+                        <group string="Date">
+                            <group>
+                                <field name="start"/>
+                            </group>
+                            <group>
+                                <field name="finish"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="filename" invisible="1"/>
+                            <field name="certificate_file" filename="filename"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_employee_education_action" model="ir.actions.act_window">
+            <field name="name">Employee Education</field>
+            <field name="res_model">hr.employee.education</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

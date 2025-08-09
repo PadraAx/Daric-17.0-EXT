@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_asset_product_search" model="ir.ui.view">
+        <field name="name">asset.product.search</field>
+        <field name="model">asset.product</field>
+        <field name="arch" type="xml">
+            <search>
+                <filter name="allocated_product" string="Allocated Product" domain="[('comp_user', '!=', False)]"/>
+                <filter name="unallocated_product" string="Unallocated Product" domain="[('comp_user', '=', False)]"/>
+                <field name="create_date"/>
+                <group expand="0" string="Group By">
+                    <filter string="Months" name="group_by_months" context="{'group_by': 'create_date'}"/>
+                </group>
+                <group expand="0" string="Group By">
+                    <filter string="Product User" name="group_by_comp_user" domain="[]" context="{'group_by':'comp_user'}"/>
+                    <filter string="Site" name="group_by_site" domain="[]" context="{'group_by':'site'}"/>
+                    <filter string="IP Address" name="group_by_ip_address" domain="[]" context="{'group_by':'comp_ip'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+
+    <record id="view_asset_product_tree" model="ir.ui.view">
+        <field name="name">asset.product.tree</field>
+        <field name="model">asset.product</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code" string="Product Code"/>
+                <field name="name" string="Name" />
+                <field name="comp_user" string="Product User" />
+                <field name="site" string="Site" />
+                <field name="comp_ip" string="IP Adderss" />
+            </tree>
+        </field>
+    </record>   
+    
+
+    <record id="view_asset_product_from" model="ir.ui.view">
+    <field name="name">asset.product.form</field>
+    <field name="model">asset.product</field>
+    <field name="arch" type="xml">
+        <form>
+            <header>
+                
+                <field name="state" widget="statusbar" clickable="1"
+                    statusbar_visible="not_in_use,in_use"
+                />
+            </header>
+            <sheet>
+                <group>
+                    <group>
+                        <field name="code" readonly="1" />
+                        <field name="name"/>
+                        <field name="comp_ip"/>
+                    </group>
+                    <group>
+                        <field name="comp_user"/>
+                        <field name="site"/>
+                        <field name="note"/>
+                    </group>
+                </group>
+                <notebook>
+                    <page string="All Product">
+                        <field name="all_product_conn" >
+                            <tree editable="bottom">
+                                <field name="asset_type" />
+                                <field name="asset_number"  domain="[('asset_type', '=', asset_type),('using_user','=',False)]"/>
+                                <field name="sr_number"  />
+                                <!-- <field name="using_user" /> -->
+                            </tree> 
+                        </field> 
+                    </page>
+                    <page string="Audit Data">
+                        <group>
+                            <group>
+                                <field name="create_uid" />
+                                <field name="create_date" />
+                            </group>
+                            <group>
+                                <field name="write_uid" />
+                                <field name="write_date" />
+                            </group>
+                        </group>
+                    </page>
+                </notebook>
+            </sheet>
+            <div class="oe_chatter">
+                <field name="message_follower_ids" groups="base.group_user"/>
+                <field name="activity_ids"/>
+                <field name="message_ids"/>
+            </div>
+        </form>
+    </field>
+    </record>
+
+
+        <record id="action_asset_product" model="ir.actions.act_window">
+            <field name="name">Product</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">asset.product</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Uploud Your First Item !
+                </p>
+            </field>
+        </record>
+
+
+</odoo>

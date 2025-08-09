@@ -1,0 +1,51 @@
+<odoo>
+    <record model="ir.ui.view" id="eg_ecom_instance_woocommerce_form_view">
+        <field name="name">eg.ecom.instance.woocommerce.form.view</field>
+        <field name="model">eg.ecom.instance</field>
+        <field name="inherit_id" ref="eg_ecommerce_base.eg_ecom_instance_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page[1]" position="before">
+                <page invisible="provider != 'eg_woocommerce'" string="Credential">
+                    <group>
+                        <field name="website_type" required="provider == 'eg_woocommerce'"/>
+                        <field name="consumer_key" required="provider == 'eg_woocommerce'"/>
+                        <field name="consumer_secret" required ="provider == 'eg_woocommerce'"/>
+                        <field name="woocommerce_version"
+                               required="provider == 'eg_woocommerce'"/>
+                        <field name="timeout"/>
+                    </group>
+                </page>
+                <page string="Backorder" invisible="provider != 'eg_woocommerce'">
+                    <group>
+                        <group>
+                            <field name="product_backorder"
+                                   required="provider == 'eg_woocommerce'"/>
+                            <field name="product_status"
+                                   required="provider == 'eg_woocommerce'"/>
+                            <field name="last_order_date" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="product_catalog_visibility"
+                                   required="provider == 'eg_woocommerce'"/>
+                            <field name="product_tax_status"
+                                   required="provider == 'eg_woocommerce'"/>
+                        </group>
+                    </group>
+                </page>
+                <page string="Order State" invisible="provider != 'eg_woocommerce'">
+                    <field name="order_state_line_ids" widget="one2many">
+                        <tree editable="bottom">
+                            <field name="woo_order_state"/>
+                            <field name="odoo_order_state"/>
+                        </tree>
+                    </field>
+                </page>
+                <page string="Discount Product" invisible="provider != 'eg_woocommerce'">
+                    <group>
+                        <field name="eg_discount_product_id" domain="[('instance_id','=',id)]"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

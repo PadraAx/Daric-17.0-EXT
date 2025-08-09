@@ -1,0 +1,17 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_hr_contract_user,hr.contract.user,hr_contract.model_hr_contract,base.group_user,1,0,0,0
+access_hr_contract_employee_report_user,hr.contract.employee.report.user,hr_contract_reports.model_hr_contract_employee_report,base.group_user,1,0,0,0
+
+access_hr_contract_hrbp,hr.contract.hrbp,hr_contract.model_hr_contract,employee_ext.group_hr_business_partner,1,0,0,0
+access_hr_contract_employee_report_hrbp,hr.contract.employee.report.hrbp,hr_contract_reports.model_hr_contract_employee_report,employee_ext.group_hr_business_partner,1,0,0,0
+
+access_hr_payroll_structure_type_hr_contract_reader,hr.payroll.structure.type.contract.reader,hr_contract.model_hr_payroll_structure_type,contract_ext.group_hr_contract_reader,1,0,0,0
+
+access_hr_contract_officer_hrss,hr.contract.officer.hrss,hr_contract.model_hr_contract,hr_contract.group_hr_contract_employee_manager,1,1,1,0
+access_hr_payroll_structure_type_hr_contract_hrss,hr.payroll.structure.type.contract.hrss,hr_contract.model_hr_payroll_structure_type,hr_contract.group_hr_contract_employee_manager,1,0,0,0
+access_hr_employee_payment_type_hrss,hr.employee.payment.type.hrss,employee_ext.model_hr_employee_payment_type,hr_contract.group_hr_contract_employee_manager,1,0,0,0
+access_hr_job_hrss,hr.job.hrss,employee_ext.model_hr_job,hr_contract.group_hr_contract_employee_manager,1,1,1,1
+access_hr_contract_type_hrss,hr.contract.type.hrss,hr.model_hr_contract_type,hr_contract.group_hr_contract_employee_manager,1,0,0,0
+access_hr_employee_contract_hrss,hr.employee.contract.hrss,hr.model_hr_employee,hr_contract.group_hr_contract_employee_manager,1,1,0,0
+access_hr_employee_skill_log_contract_hrss,hr.employee.skill.log.contract.hrss,hr_skills.model_hr_employee_skill_log,hr_contract.group_hr_contract_employee_manager,1,1,0,0

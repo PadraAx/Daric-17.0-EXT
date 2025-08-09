@@ -1,0 +1,36 @@
+﻿id,category_id,name
+1,Compliance,Adherence to regulatory requirements
+2,Compliance,Contractual obligations
+3,Compliance,Intellectual property rights
+4,Compliance,Legal liability and litigation
+5,Environmental,Environmental sustainability practices
+6,Environmental,Resource consumption
+7,Environmental,Waste management
+8,Environmental,Impact of climate change and natural disasters
+9,Financial,Revenue streams and profitability
+10,Financial,Cost management and budgeting
+11,Financial,Investment portfolio
+12,Financial,Cash flow and liquidity management
+13,Financial,Not Specified
+14,Human Resources,Talent acquisition and retention
+15,Human Resources,Employee training and development
+16,Human Resources,Workplace culture and morale
+17,Human Resources,Occupational health and safety
+18,Operational,Core business processes
+19,Operational,Supply chain and logistics management
+20,Operational,Production efficiency
+21,Operational,Service delivery and customer satisfaction
+22,Operational,Not Specified
+23,Reputational,Brand value and corporate image
+24,Reputational,Public relations and media perception
+25,Reputational,Customer and stakeholder trust
+26,Reputational,Ethical business practices
+27,Strategic,Achievement of long-term goals
+28,Strategic,Market positioning and competitive advantage
+29,Strategic,Innovation and business model changes
+30,Strategic,Strategic partnerships and alliances
+31,Strategic,Not Specified
+32,Technological,IT infrastructure and cybersecurity
+33,Technological,Data management and privacy
+34,Technological,System and software reliability
+35,Technological,Technology adoption and innovation

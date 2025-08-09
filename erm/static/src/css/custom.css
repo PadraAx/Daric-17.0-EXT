@@ -1,0 +1,165 @@
+/* .custom-popup {
+    width: 800px !important;
+    height: 700px !important;
+} */
+
+/* .o_kanban_renderer:has(.risk-matrix-div) {
+    --KanbanRecord--small-width: 380px;
+} */
+
+.risk-matrix-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 12%;
+    margin-left: 0%;
+}
+
+.risk-matrix-content {
+    font-weight: bold;
+    text-align: center;
+    width: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content-left {
+    width: 9%;
+    margin-right: 1%;
+    position: absolute;
+    left: 0%;
+    top: 23%;
+}
+
+.content-bottom {
+    position: absolute;
+    bottom: -8%;
+    left: 59%;
+}
+
+.rotated-clock {
+    rotate: 90deg;
+}
+
+.rotated-clock-inverse {
+    rotate: -90deg;
+}
+
+.risk-matrix-text {
+    width: 100%;
+}
+
+.risk-matrix-degrees {
+    width: 60%;
+}
+
+.cell-type1 {
+    border: 1px solid black;
+}
+
+.cell-type2 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cell-type3 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cell-type4 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.matrix-grid {
+    display: grid;
+    grid-template-columns: 35px 55px 35px 35px 35px 35px 35px;
+    grid-template-rows: 35px 35px 35px 35px 35px 65px 35px;
+    aspect-ratio: 1 / 1;
+    width: 90%;
+}
+
+.degree-number-left,
+.degree-number-bottom,
+.degree-text-left,
+.degree-text-bottom {
+    display: flex;
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+
+.degree-number-left {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+}
+
+.degree-number-bottom {
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2px;
+}
+
+.degree-text-left,
+.degree-text-bottom {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.degree-text-left {
+    padding: 5px;
+}
+
+.degree-text-bottom {
+    padding: 2px;
+}
+
+.matrix-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-in-matrix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.risk-kanban-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+    font-weight: 500;
+    padding: 0 !important;
+}
+
+.risk-kanban-card-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border-right: 1px solid #d8dadd;
+    padding: 8px;
+}
+
+.risk-kanban-card-title {
+    width: 89%;
+    padding: 8px;
+}

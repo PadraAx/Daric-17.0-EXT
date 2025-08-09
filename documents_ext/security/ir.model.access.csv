@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_documents_folder_workspace_administrator,documents_folder_workspace_administrator,model_documents_folder,documents_ext.group_documents_workspace_administrator,1,1,1,1
+access_documents_share_workspace_administrator,documents_share_workspace_administrator,model_documents_share,documents_ext.group_documents_workspace_administrator,1,1,1,1

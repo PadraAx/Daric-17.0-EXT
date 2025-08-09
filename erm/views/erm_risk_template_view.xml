@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_erm_risk_template_form" model="ir.ui.view">
+        <field name="model">erm.risk.template</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                <field name="user_id" invisible="1"/>
+                <field name="create_uid" invisible="1"/>
+                <field name="has_write_access" invisible="1"/>
+                <field name="allowed_category_ids" invisible="1"/>
+                <!-- <field name="allowed_source_ids" invisible="1"/>
+                <field name="allowed_affected_area_ids" invisible="1"/> -->
+                <button string="Submit" type="object"
+                invisible="state not in['2'] or not(has_write_access == True)"
+                name="action_send_for_analysis" class="btn-primary"/>
+                <field name="state" widget="statusbar" nolable="1"/>
+
+               </header>
+                <sheet>
+                 <div class="oe_button_box" name="button_box">
+                        <button type="object" icon="fa-thumbs-o-up" class="oe_stat_button" name="action_view_analysis">
+                            <div class="o_field_widget o_stat_info">
+                                <span class="o_stat_value"> <field name="analysis_ids_count" /></span>
+                                <span class="o_stat_text">Analysis</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="oe_title pe-0">
+                        <h1 class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex w-100">
+                                <field name="name" readonly="state != '1' or has_write_access == False" options="{'line_breaks': False}" widget="text" class="o_task_name text-truncate w-md-75 w-100 pe-2" placeholder="Risk Title..."/>
+                            </div>
+                        </h1>
+                    </div>
+                    <group>
+                        <field name="req_code"/>
+                        <group>
+                            <field name="category_id" readonly="not has_write_access" />
+                            <field name="risk_source_id" readonly="not has_write_access" />
+                            <field name="affected_area_id" readonly="not has_write_access" />
+                        </group>
+                        <group>
+                            <!-- <field name="category_type_id" readonly="1"/> -->
+                            <field name="tag_ids" widget="many2many_tags" readonly="state != '1' or has_write_access == False" options="{'color_field': 'color'}" />
+                        </group>
+                    </group>
+                    <group string="Inherent Risk">
+                        <group>
+                              <field name="impact_id" readonly="not has_write_access" />
+                               <field name="inherent_risk_score" readonly="1" />
+                        </group>
+                         <group>
+                             <field name="likelihood_id" readonly="not has_write_access" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description" name="page_description">
+                            <group>
+                                <field name="description" placeholder="Enter your description"
+                                    options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" readonly="state != '1' or has_write_access == False"/>
+                            </group>
+                        </page>
+                        <page string="Analysis" name="page_analysis">
+                            <group>
+                             <field name="analysis_ids"  nolabel="1" colspan="2">
+                                    <tree default_order="id desc">
+                                            <field name="req_code"/>
+
+                                            <field name="trigger_id" />
+                                            <field name="detection_difficulty" />
+                                            <field name="risk_velocity_id"  />
+                                            <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}" />
+                                            <field name="timeframe" />
+                                            <field name="risk_mitigation_cost"  />
+                                            <field name="confidence_level" />
+                                            <field name="current_risk_score" />
+                                            <field name="residual_risk_score" />
+                                        </tree>
+                                    </field>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <!-- Chatter -->
+                <div class="oe_chatter" >
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_erm_risk_template_tree" model="ir.ui.view">
+        <field name="model">erm.risk.template</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <tree default_order="id desc">
+                <header>
+                </header>
+                <field name="req_code"/>
+                <field name="name"/>
+                <field name="state"/>
+                <!-- <field name="category_type_id"/> -->
+                <field name="category_id" />
+                <field name="risk_source_id" />
+                <field name="affected_area_id" />
+                <field name="tag_ids" widget="many2many_tags"/>
+                <field name="is_favorite" string="Favorite" nolabel="1" widget="boolean_favorite" optional="hide"/>
+                <field name="create_uid" />
+                <field name="create_date" />
+                <field name="write_uid" optional="hide"/>
+                <field name="write_date" optional="hide"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_erm_risk_template_search" model="ir.ui.view">
+        <field name="model">erm.risk.template</field>
+        <field name="priority">1000</field>
+        <field name="arch" type="xml">
+            <search>
+              <field name="req_code"/>
+                <field name="name"/>
+                <field name="state"/>
+                <!-- <field name="category_type_id"/> -->
+                <field name="category_id" />
+                <field name="risk_source_id" />
+                <field name="affected_area_id" />
+                <field name="tag_ids" widget="many2many_tags"/>
+                <field name="is_favorite"/>
+                <field name="create_uid" />
+                <field name="create_date" />
+                <field name="write_uid"/>
+                <field name="write_date"/>
+                <filter name="filter_my_erm_risk_template" string="My Risk Register" domain="[('create_uid', '=' , uid)]" />
+                <filter name="filter_Archived_erm_risk_template" string="Archived" domain="[('active', '=', False)]"/>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_erm_risk_template_graph">
+        <field name="name">erm_risk_template.graph</field>
+        <field name="model">erm.risk.template</field>
+        <field name="type">graph</field>
+        <field name="arch" type="xml">
+            <graph string="Risk" type="bar" sample="1">
+                <field name="id" type="count" string="Count" />
+            </graph>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_erm_risk_template_pivot">
+        <field name="name">erm_risk_template.pivot</field>
+        <field name="model">erm.risk.template</field>
+        <field name="type">pivot</field>
+        <field name="arch" type="xml">
+            <pivot string="Risk" sample="1">
+                <field name="id" type="count" string="Count" />
+            </pivot>
+        </field>
+    </record>
+
+    <!-- Opening task when double clicking on project -->
+    <record id="click_risk" model="ir.actions.act_window">
+        <field name="res_model">erm.risk.template</field>
+        <field name="name">ERM Risks</field>
+        <field name="view_mode">kanban</field>
+        <!-- <field name="domain">[('project_id', '=', active_id), ('display_in_project', '=', True)]</field> -->
+        <!-- <field name="context">{'project_id':active_id}</field> -->
+    </record>
+
+    <record model="ir.ui.view" id="view_erm_risk_template_kanban">
+        <field name="name">erm_risk_template.kanban</field>
+        <field name="model">erm.risk.template</field>
+        <field name="type">kanban</field>
+        <field name="arch" type="xml">
+            <kanban
+                class="o_kanban_small_column"
+                default_group_by="category_id"
+                default_order="inherent_risk_score desc, id desc"
+                quick_create="0"
+                string="Risk"
+                sample="1"
+                limit="10"
+            >
+
+                <field name="name"/>
+                <field name="inherent_risk_score"/>
+                <field name="req_code"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_card oe_kanban_global_click risk-kanban-card">
+                            <div class="risk-kanban-card-number"></div>
+                            <div class="risk-kanban-card-title">
+                                <field name="name"/>
+                            </div>
+                            <!-- <div class="oe_kanban_content">
+                                <div class="o_kanban_record_top">
+                                    <div class="o_kanban_record_headings text-muted">
+                                        <strong class="o_kanban_record_title">
+                                            <field name="name"/>
+                                        </strong>
+                                    </div>
+                                </div>
+                                <div class="o_kanban_record_body">
+                                    <div class="risk-info-matrix">
+                                        <div class="risk-info-div">
+                                            <div class="risk-info">
+                                                <strong style="margin-right: 3px;">Score:</strong>
+                                                <field name="inherent_risk_score"/>
+                                            </div>
+                                            <div class="risk-info">
+                                                <strong style="margin-right: 3px;">Code:</strong>
+                                                <field name="req_code"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="action_erm_risk_template" model="ir.actions.act_window">
+        <field name="name">Risks</field>
+        <field name="res_model">erm.risk.template</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form,search</field>
+        <field name="context">{'search_default_filter_my_erm_risk_template': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new 'Risk'
+            </p>
+        </field>
+    </record>
+
+    <record id="action_erm_overview" model="ir.actions.act_window">
+        <field name="name">Overview</field>
+        <field name="res_model">erm.risk.template</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">kanban,form,search</field>
+        <field name="context">{'search_default_filter_my_erm_risk_template': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new 'Risk'
+            </p>
+        </field>
+    </record>
+
+    <record id="action_erm_risk_template_graph" model="ir.actions.act_window">
+        <field name="name">Risks Analysis</field>
+        <field name="res_model">erm.risk.template</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">graph,pivot,search</field>
+        <field name="context">{'search_default_filter_my_erm_risk_template': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Add a new 'Risk'
+            </p>
+        </field>
+    </record>
+
+    <menuitem name="Overview"
+        id="menu_erm_risk_template_overview"
+        parent="menu_erm_root"
+        action="action_erm_overview"
+        sequence="1"
+    />
+
+    <menuitem name="Risk"
+        id="menu_erm_risk_template_root"
+        parent="menu_erm_root"
+        sequence="2"
+    />
+
+    <menuitem name="Registers"
+        id="menu_erm_risk_template"
+        parent="menu_erm_risk_template_root"
+        action="action_erm_risk_template"
+        sequence="1"
+    />
+
+    <menuitem name="Risks Analysis"
+        id="erm_risk_template_graph"
+        parent="menu_reporting"
+        action="action_erm_risk_template"
+        sequence="5"
+    />
+</odoo>

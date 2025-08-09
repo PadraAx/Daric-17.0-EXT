@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.erm</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="90"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form" position="inside">
+                      <app data-string="erm" string="ERM" name="erm" groups="erm.erm_group_admin">
+                     
+                            <block title="Based on ISO 31000 or COSO ERM, standard" name="erm_standard_based_setting_container">
+                               <div class="alert alert-info">
+                                <p>Select ERM work based on wich standard, ISO 31000 or COSO ERM:</p>
+                                <p>ISO 31000, the international standard for risk management, provides a framework for identifying, assessing, and managing risks. While ISO 31000 does not specify exact categories of risk, it outlines principles and a process that can be used to classify risks into categories relevant to the organization or context.</p>
+                                <p>The COSO ERM Framework (Committee of Sponsoring Organizations of the Treadway Commission's Enterprise Risk Management Framework) provides a structured approach for managing risks within an organization. It categorizes risks to ensure a holistic view of risk management. Like ISO 31000, COSO ERM doesn't prescribe specific risk categories but suggests categories commonly used in practice, aligned with organizational objectives.</p>
+                            </div>
+                                <setting title="Select ERM work based on wich standard, ISO 31000 or COSO ERM." help="Based on ISO 31000 or COSO ERM, standard"
+                                         documentation="">
+                                     <field name="erm_standard" widget="radio" options="{'horizontal': True}"/>
+                                  
+                                </setting>
+                            </block> 
+                            <block title="Appetite Risk" name="erm_monetary_based_setting_container">
+                                <setting title="" help="Assign monetary values or time delays for quantifiable risks."
+                                         documentation="">
+                                    <group>
+                                        <field name="risk_appetite"/>
+                                        <field name="risk_appetite_control"/>
+                                    </group>
+                                </setting>
+                            </block> 
+                            <block title="Based on monetary measure" name="erm_monetary_based_setting_container">
+                              <div class="alert alert-info">
+                                <p>Select how you want to calculate the risk score: Based on Monetary values or Impact selection.</p>
+                            </div>
+                                <setting title="Select how you want to calculate the risk score: Based on Monetary values or Impact selection." help="Assign monetary values or time delays for quantifiable risks."
+                                         documentation="">
+                                    <field name="module_monetory_impact"/>
+                                </setting>
+                            </block> 
+                           
+                        </app>
+                </xpath>
+                </field>
+        </record>
+
+        <record id="erm_config_settings_action" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'erm', 'bin_size': False}</field>
+        </record>
+
+        <menuitem id="erm_config_settings_menu" 
+            name="Settings"
+            parent="menu_configuration" 
+            sequence="0" 
+            action="erm_config_settings_action"
+            groups="base.group_system"
+            />
+</data>
+</odoo>

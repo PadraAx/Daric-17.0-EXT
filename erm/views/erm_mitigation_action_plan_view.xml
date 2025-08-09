@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_erm_mitigation_action_plan_form" model="ir.ui.view">
+    <field name="model">erm.mitigation.action.plan</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+        </header>
+        <sheet>
+          <group>
+            <field name="name"/>
+            <field name="description"/>
+            <field name="due_date"/>
+            <field name="revised_due_date"/>
+            <field name="status"/>
+            <field name="action_owner_id"/>
+          </group>
+
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_erm_mitigation_action_plan_tree" model="ir.ui.view">
+    <field name="model">erm.mitigation.action.plan</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc" create="1" editable="top">
+        <header>
+        </header>
+            <field name="name"/>
+            <field name="description"/>
+            <field name="due_date"/>
+            <field name="revised_due_date"/>
+            <field name="status"/>
+            <field name="action_owner_id"/>
+        </tree>
+    </field>
+  </record>
+  <record id="view_erm_mitigation_action_plan_search" model="ir.ui.view">
+    <field name="model">erm.mitigation.action.plan</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+   
+      </search>
+    </field>
+  </record>
+  <record id="action_erm_mitigation_action_plan" model="ir.actions.act_window">
+    <field name="name">Mitigation Action Plans</field>
+    <field name="res_model">erm.mitigation.action.plan</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Mitigation Action Plan'
+      </p>
+    </field>
+  </record>
+  <!-- <menuitem name="Mitigation Action Plans"
+    id="menu_erm_mitigation_action_plan"
+    parent="menu_configuration"
+    action="action_erm_mitigation_action_plan"
+    sequence="4">
+  </menuitem> -->
+
+     <!-- <menuitem name="Mitigation Action Plans"
+                    id="menu_erm_mitigation_action_plan"
+                    parent="menu_control"
+                    action="action_erm_risk_control"
+                    sequence="4">
+                </menuitem> -->
+
+</odoo>

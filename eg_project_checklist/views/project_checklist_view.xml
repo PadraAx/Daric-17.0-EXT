@@ -1,0 +1,18 @@
+<odoo>
+    <record id="project_check_list_form_view" model="ir.ui.view">
+        <field name="name">project.checklist.tree.view</field>
+        <field name="model">project.checklist</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name" placeholder="Eg..Gathering Requirements, Client Meeting, Etc." required="1"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="action_property_project">
+        <field name="name">Project Checklist</field>
+        <field name="res_model">project.checklist</field>
+        <field name="view_mode">tree</field>
+    </record>
+    <menuitem id="checklist_project" name="Checklist" parent="project.menu_project_config"
+              action="action_property_project"/>
+</odoo>

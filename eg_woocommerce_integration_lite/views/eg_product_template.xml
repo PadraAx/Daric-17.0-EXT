@@ -1,0 +1,84 @@
+<odoo>
+    <record model="ir.ui.view" id="eg_product_template_woo_form_view">
+        <field name="name">eg.product.template.woo.form.view</field>
+        <field name="model">eg.product.template</field>
+        <field name="inherit_id" ref="eg_ecommerce_base.eg_product_template_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='variant_count']" position="after">
+                <field name="no_export_woo" invisible="provider != 'eg_woocommerce'"/>
+                <field name="is_woocommerce_tmpl_product"
+                       invisible="provider != 'eg_woocommerce' "/>
+                <field name="woo_product_tmpl_type"
+                       invisible="provider != 'eg_woocommerce' "/>
+                <field name="virtual"  invisible="provider != 'eg_woocommerce' "/>
+                <field name="status"
+                        required="provider == 'eg_woocommerce'" invisible="provider != 'eg_woocommerce'"/>
+                <field name="sale_ok"  invisible="provider != 'eg_woocommerce'"/>
+                <field name="purchase_ok" invisible="provider != 'eg_woocommerce'"/>
+            </xpath>
+            <xpath expr="//field[@name='update_required']" position="after">
+                <field name="slug" invisible="provider != 'eg_woocommerce'"/>
+                <field name="permalink" widget="url"
+                       invisible="provider != 'eg_woocommerce' "/>
+                <field name="catalog_visibility"
+                        required="provider == 'eg_woocommerce' " invisible="provider != 'eg_woocommerce'"/>
+                <field name="external_url" invisible="provider != 'eg_woocommerce'"/>
+                <field name="woo_product_tmpl_image_src"
+                      invisible="provider != 'eg_woocommerce' "/>
+                <field name="button_text"  invisible="provider != 'eg_woocommerce'"/>
+            </xpath>
+            <xpath expr="//field[@name='price']" position="after">
+                <field name="product_price"  invisible="provider != 'eg_woocommerce' "/>
+                <field name="regular_price"  invisible="provider != 'eg_woocommerce' "/>
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Dimension"  invisible="provider != 'eg_woocommerce' ">
+                    <group>
+                        <field name="product_tmpl_length"/>
+                        <field name="product_tmpl_height"/>
+                        <field name="product_tmpl_width"/>
+                    </group>
+                </page>
+                <page string="Tax and Stock" invisible="provider != 'eg_woocommerce' ">
+                    <group>
+                        <group string="Tax">
+                            <field name="tax_status"
+                                   required="provider == 'eg_woocommerce'"/>
+                            <field name="tax_class"/>
+                        </group>
+                        <group string="Stock">
+                            <field name="manage_stock"/>
+                            <field name="stock_status"
+                                    required="provider == 'eg_woocommerce'"/>
+                            <field name="sold_individually"/>
+                        </group>
+                    </group>
+                </page>
+                <page string="Shipping and Backorder"
+                       invisible="provider != 'eg_woocommerce'">
+                    <group>
+                        <group string="Shipping">
+                            <field name="shipping_required"/>
+                            <field name="shipping_taxable"/>
+                            <field name="shipping_class"/>
+                            <field name="shipping_class_id"/>
+                        </group>
+                        <group string="Backorder">
+                            <field name="backorders"
+                                   required="provider == 'eg_woocommerce'"/>
+                            <field name="backorders_allowed"/>
+                            <field name="backordered"/>
+                        </group>
+                    </group>
+                </page>
+                <page string="Review" invisible="provider != 'eg_woocommerce'">
+                    <group>
+                        <field name="reviews_allowed"/>
+                        <field name="average_rating"/>
+                        <field name="rating_count"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

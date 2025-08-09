@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_hr_employee_cost_center_form" model="ir.ui.view">
+            <field name="name">hr.employee.cost.center.form</field>
+            <field name="model">hr.employee.cost.center</field>
+            <field name="arch" type="xml">
+                <form string="Cost Center Form">
+                    <sheet>
+                        <div class="oe_title mb32">
+                            <h1><field name="employee_id" readonly="1" force_save="1"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="cost_center_id"/>
+                                <field name="active_status"/>
+                            </group>
+                            <group>
+                                <field name="eff_date"/>
+                                <field name="percent" />
+                            </group>
+                        </group>
+                        <footer>
+                            <button string="Save" name="action_save" class="btn btn-primary" type="object"/>
+                            <button string="Delete" name="action_delete" invisible="not id" type="object"/>
+                            <button string="Discard" class="btn-secondary" special="cancel"/>
+                        </footer>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="hr_emp_cost_center_action" model="ir.actions.act_window">
+            <field name="name">Employee Cost Center</field>
+            <field name="res_model">hr.employee.cost.center</field>
+            <field name="domain">[]</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="view_assessment_form" model="ir.ui.view">
+    <field name="model">erm.risk.assessment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+          <field name="has_write_access" invisible="1"/>
+        </header>
+        <sheet>
+        <field name="assessment_code" readonly="1"/>
+         <div class="oe_title pe-0">
+                <h1 class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex w-100">
+                        <field name="name" placeholder="Title..."/>
+                    </div>
+                </h1>
+            </div>
+          <group >
+              <group>
+                <field name="parent_id" />
+                  <field name="risk_velocity" />
+                <field name="create_uid" string="Owner" widget="many2one_avatar_user"  readonly="1"/>
+                <field name="tag_ids" widget="many2many_tags"  readonly="not has_write_access"/> 
+              </group>
+            <group>
+               <group>
+                   <field name="inherent_risk_score"  />
+                    <field name="current_risk_score"   />
+                    <field name="residual_risk_score"   />
+               </group>
+               <group>
+                   <field name="inherent_consequence_color" nolabel="1" readonly="1" widget="color"/>
+                   <field name="inherent_consequence_id"  nolabel="1" readonly="1"/>
+                   <field name="current_consequence_color"  nolabel="1" readonly="1" widget="color"/>
+                   <field name="current_consequence_id"  nolabel="1" readonly="1" />
+                   <field name="residual_consequence_color" nolabel="1" readonly="1" widget="color"/>
+                   <field name="residual_consequence_id"  nolabel="1" readonly="1" />
+                
+               </group>
+            </group>
+
+          </group>
+          <notebook>
+            <page string="Comments" name="page_assessment">
+              <group>
+                <field name="comments"  readonly="not has_write_access" placeholder="Enter your comments"
+                options="{'collaborative' : true, 'resizable' : true,'codeview' : true}" />
+              </group>
+            </page>
+         
+             <page string="Analysis" name="page_analysis">
+              <group>
+                <field name="analysis_ids"  nolabel="1" colspan="2" >
+                  <tree string="Analysis" create="1" >
+                   <field name="name" />
+                   <field name="contributing_factors"/> 
+                    <field name="create_uid" widget="many2one_avatar_user"/>
+                    <field name="create_date" />   
+                  </tree>
+                </field>
+              </group>
+            </page>
+             <page string="Evaluation" name="page_evaluation">
+              <group>
+                <field name="evaluation_ids"  nolabel="1" colspan="2">
+                  <tree string="Related Risk" create="1" >
+                      <field name="type" />
+                      <field name="inherent_risk"/> 
+                      <field name="current_risk"/> 
+                      <field name="residual_risk"/> 
+                  </tree>
+                </field>
+              </group>
+            </page>
+               <page string="Related Risk" name="page_risk">
+              <group>
+                <field name="parent_id"  nolabel="1" colspan="2" readonly="1">
+                  <tree string="Related Risk" create="0" >
+                    <field name="req_code"/>
+                    <field name="name"/>
+                    <field name="department_id"/>
+                    <field name="process_id"/>
+                    <!-- <field name="category_type_id" /> -->
+                    <!-- <field name="category_id" /> -->
+                    <field name="tag_ids" widget="many2many_tags"/>
+                    <field name="create_uid" string="Identifier" widget="many2one_avatar_user"/>
+                    <field name="create_date" />
+                     
+                  </tree>
+                </field>
+              </group>
+            </page>
+          </notebook>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_assessment_tree" model="ir.ui.view">
+    <field name="model">erm.risk.assessment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <tree default_order="id desc">
+        <header>
+        </header>
+        <field name="assessment_code" />
+        <!-- <field name="category_type_id"/> -->
+
+        <!-- <field name="category_id"/> -->
+        
+        <!-- <field name="impact_id" />
+        <field name="likelihood_id" />
+        -->
+    
+            <field name="parent_id"/>
+            <field name="tag_ids" widget="many2many_tags" /> 
+            <field name="inherent_risk_score" />
+            <field name="current_risk_score" />
+            <field name="residual_risk_score" />
+            <field name="create_uid" />
+            <field name="create_date" />
+            <field name="write_uid" optional="hide"/>
+            <field name="write_date" optional="hide"/>
+            <button name="open_action" string="Open" type="object" class="oe_highlight"/>
+            </tree>
+    </field>
+  </record>
+  <record id="view_assessment_search" model="ir.ui.view">
+    <field name="model">erm.risk.assessment</field>
+    <field name="priority">1000</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="assessment_code" />
+        <!-- <field name="category_type_id"/> -->
+
+        <!-- <field name="category_id"/> -->
+        
+        <!-- <field name="impact_id" />
+          <field name="likelihood_id" /> -->
+        <field name="inherent_risk_score" />
+        <field name="current_risk_score" />
+        <field name="residual_risk_score" />
+        <field name="parent_id"/>
+        <field name="tag_ids" widget="many2many_tags" /> 
+      </search>
+    </field>
+  </record>
+  <record id="action_assessment" model="ir.actions.act_window">
+    <field name="name">Assessments</field>
+    <field name="res_model">erm.risk.assessment</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form,search</field>
+    <!-- <field name="context">{'search_default_filter_assigned_to_id': 1}</field> -->
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">
+        Add a new 'Assessment'
+      </p>
+    </field>
+  </record>
+   <!-- <menuitem name="Assessments"
+        id="menu_risk_assessment"
+        parent="menu_assessment"
+        action="action_assessment"
+        sequence="1">
+    </menuitem> -->
+</odoo>

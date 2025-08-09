@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_stock_move_line_operation_inherit_tree" model="ir.ui.view">
+            <field name="name">stock.move.line.operations.inherit.tree</field>
+            <field name="model">stock.move.line</field>
+            <field name="inherit_id" ref="stock.view_stock_move_line_operation_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='lot_name']" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                    <attribute name="force_save">1</attribute>
+                </xpath> 
+                <xpath expr="(//field[@name='package_id'])[2]" position="attributes">
+                    <attribute name="readonly">(package_level_id and parent.picking_type_entire_packs) or parent.show_quant</attribute>
+                </xpath> 
+                <xpath expr="(//field[@name='result_package_id'])[2]" position="attributes">
+                    <attribute name="readonly">(package_level_id and parent.picking_type_entire_packs) or parent.show_quant</attribute>
+                </xpath> 
+                <xpath expr="(//field[@name='product_uom_id'])[2]" position="attributes">
+                    <attribute name="readonly">(package_level_id and parent.picking_type_entire_packs) or (state == 'done' and id) or parent.show_quant</attribute>
+                </xpath>
+                <xpath expr="//field[@name='quantity']" position="after">
+                    <field name="currency_id" column_invisible="True"/>
+                    <field  name="price" 
+                            string="Price" 
+                            readonly="(state == 'done' and is_locked) or (package_level_id and parent.picking_type_entire_packs) or parent.show_quant" 
+                            sum="Price"
+                            options="{'currency_field': 'currency_id'}"
+                            />
+                </xpath>
+            </field>
+        </record>
+        
+</odoo>

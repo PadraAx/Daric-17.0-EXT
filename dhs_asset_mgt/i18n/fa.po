@@ -1,0 +1,1030 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dhs_asset_mgt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-05 22:43+0000\n"
+"PO-Revision-Date: 2025-04-05 22:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dhs_asset_mgt
+#: model:mail.template,body_html:dhs_asset_mgt.mail_template_asset_component
+msgid ""
+"<h2 style=\"color:#333\">Dear <t t-esc=\"ctx.get('admin').name\"></t></h2>\n"
+"                <p style=\"color:#333\">The user <t t-esc=\"ctx.get('record').using_user.name\"></t> got another <t t-esc=\"ctx.get('record').product_id.name\"></t> asset</p>\n"
+"            "
+msgstr ""
+"<h2 style=\"color:#333\">کاربر گرامی <t t-esc=\"ctx.get('admin').name\"></t></h2>\n"
+"<p style=\"color:#333\">کاربر <t t-esc=\"ctx.get('record').using_user.name\"></t> دارایی دیگری از نوع <t t-esc=\"ctx.get('record').product_id.name\"></t> دریافت کرده است</p>"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__action
+msgid "Action"
+msgstr "اقدام"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_needaction
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_needaction
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_needaction
+msgid "Action Needed"
+msgstr "نیازمند اقدام"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_ids
+msgid "Activities"
+msgstr "فعالیت‌ها"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_exception_decoration
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_exception_decoration
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "تزئین استثنای فعالیت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_state
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_state
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_type_icon
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_type_icon
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.asset_view_location_form
+msgid "Additional Information"
+msgstr "اطلاعات اضافی"
+
+#. module: dhs_asset_mgt
+#: model:res.groups,name:dhs_asset_mgt.group_it_asset_admin
+msgid "Admin"
+msgstr "مدیر"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_res_config_settings__admins_notification_ids
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.res_config_settings_view_form
+msgid "Admins Notification"
+msgstr "اعلان مدیران"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_reassignment_wizard_form
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_retired_wizard_form
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_return_wizard_form
+msgid "Apply"
+msgstr "اعمال"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__using_user
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__asignee_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__using_user
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Asignee"
+msgstr "گیرنده"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__asset_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__asset_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__asset_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__asset_id
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Asset"
+msgstr "دارایی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_asset_history
+msgid "Asset History Model"
+msgstr "مدل تاریخچه دارایی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__asser_kind
+msgid "Asset Kind"
+msgstr "نوع دارایی"
+
+#. module: dhs_asset_mgt
+#: model:mail.template,name:dhs_asset_mgt.mail_template_asset_component
+msgid "Asset Notification"
+msgstr "اعلان دارایی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_hms_physician__asset_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__asset_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_res_users__asset_ids
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.asset_component_profile_form
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_material_request_from
+msgid "Assets"
+msgstr "دارایی‌ها"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__assign_id
+msgid "Assign"
+msgstr "واگذاری"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_attachment_count
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_attachment_count
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "Audit Data"
+msgstr "داده‌های حسابرسی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_product__product_brand
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_template__product_brand
+msgid "Brand"
+msgstr "برند"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_product_brand_form
+msgid "Brand Form"
+msgstr "فرم برند"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_product_brand_tree
+msgid "Brand Tree"
+msgstr "نمای درختی برند"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__component_buydate
+msgid "Buy Date"
+msgstr "تاریخ خرید"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_reassignment_wizard_form
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_retired_wizard_form
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_return_wizard_form
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__company_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__company_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__company_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__company_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__company_id
+msgid "Company"
+msgstr "شرکت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__component_note
+msgid "Component Note"
+msgstr "یادداشت مؤلفه"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__asset_number
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.asset_component_profile_form
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_tree
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_material_request_from
+msgid "Component Number"
+msgstr "شماره مؤلفه"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_res_config_settings
+msgid "Config Settings"
+msgstr "تنظیمات پیکربندی"
+
+#. module: dhs_asset_mgt
+#: model:ir.ui.menu,name:dhs_asset_mgt.menu_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_product__cost_currency_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_template__cost_currency_id
+msgid "Cost Currency"
+msgstr "ارز هزینه"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__material_request__state__createdasset
+msgid "Created Asset"
+msgstr "دارایی ایجاد شده"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__create_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__create_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__create_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__create_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__create_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__create_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__create_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__create_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__create_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__create_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__create_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__create_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__create_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__create_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__currency_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_product__currency_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_template__currency_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_move_line__currency_id
+msgid "Currency"
+msgstr "ارز"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.asset_view_location_form
+msgid "Cyclic Counting"
+msgstr "شمارش دوره‌ای"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__date
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__date_issue
+msgid "Date Issue"
+msgstr "تاریخ صدور"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__material_request__state__deliverd
+msgid "Deliverd"
+msgstr "تحویل داده شده"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "Delivery Information"
+msgstr "اطلاعات تحویل"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__description
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__display_name
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__display_name
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__display_name
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__display_name
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__display_name
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__display_name
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__display_name
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__last_action__draft
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__state__draft
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__material_request__state__draft
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.res_config_settings_view_form
+msgid "Employees"
+msgstr "کارمندان"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_follower_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_follower_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_follower_ids
+msgid "Followers"
+msgstr "دنبال‌کنندگان"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_partner_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_partner_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال‌کنندگان (شرکا)"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__activity_type_icon
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__activity_type_icon
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "آیکون Font Awesome مانند fa-tasks"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "Go To Operation"
+msgstr "رفتن به عملیات"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Group By"
+msgstr "گروه‌بندی بر اساس"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__has_access
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__has_access
+msgid "Has Access"
+msgstr "دسترسی دارد"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__has_message
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__has_message
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__has_message
+msgid "Has Message"
+msgstr "پیام دارد"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__history_id
+msgid "Hisotry"
+msgstr "تاریخچه"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "History"
+msgstr "تاریخچه"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__ip_address
+msgid "IP Address"
+msgstr "آدرس آی‌پی"
+
+#. module: dhs_asset_mgt
+#: model:ir.module.category,name:dhs_asset_mgt.it_asset
+#: model:ir.ui.menu,name:dhs_asset_mgt.menu_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.res_config_settings_view_form
+msgid "IT Asset"
+msgstr "دارایی فناوری اطلاعات"
+
+#. module: dhs_asset_mgt
+#: model:ir.actions.act_window,name:dhs_asset_mgt.action_asset_component
+#: model:ir.ui.menu,name:dhs_asset_mgt.menu_asset_component
+msgid "IT-List"
+msgstr "فهرست فناوری اطلاعات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_exception_icon
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_exception_icon
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_exception_icon
+msgid "Icon"
+msgstr "آیکون"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__activity_exception_icon
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__activity_exception_icon
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "آیکونی برای نشان دادن فعالیت استثنایی."
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__message_needaction
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__message_needaction
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر انتخاب شده باشد، پیام‌های جدید نیاز به توجه شما دارند."
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__message_has_error
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__message_has_sms_error
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__message_has_error
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__message_has_sms_error
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__message_has_error
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر انتخاب شده باشد، برخی پیام‌ها خطای تحویل دارند."
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.res_config_settings_view_form
+msgid "If more than one asset is registered for someone, an email will be sent to the manager"
+msgstr "اگر بیش از یک دارایی برای شخصی ثبت شود، ایمیلی به مدیر ارسال خواهد شد."
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.asset_view_location_form
+msgid "Information"
+msgstr "اطلاعات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_stock_location
+msgid "Inventory Locations"
+msgstr "مکان های انبارداری"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_is_follower
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_is_follower
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_is_follower
+msgid "Is Follower"
+msgstr "دنبال‌کننده است"
+
+#. module: dhs_asset_mgt
+#: model:ir.module.category,description:dhs_asset_mgt.it_asset
+msgid "It will give you IT asset rights"
+msgstr "این به شما حقوق دارایی فناوری اطلاعات را می‌دهد"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__last_action
+msgid "Last Action"
+msgstr "آخرین عملیات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__last_action_date
+msgid "Last Action Date"
+msgstr "تاریخ آخرین عملیات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__write_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__write_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__write_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__write_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__write_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__write_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__write_uid
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__write_uid
+msgid "Last Updated by"
+msgstr "آخرین ویرایش توسط"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__write_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__write_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__write_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__write_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__write_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__write_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__write_date
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__write_date
+msgid "Last Updated on"
+msgstr "آخرین ویرایش در"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__license
+msgid "License"
+msgstr "مجوز"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__inventory_id
+msgid "Link"
+msgstr "لینک"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__location_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__location_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_hms_physician__location_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_res_users__location_ids
+msgid "Location"
+msgstr "مکان"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.asset_view_location_form
+msgid "Logistics"
+msgstr "لجستیک"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__lot_id
+msgid "Lot/Serial Number"
+msgstr "شماره سریال / سری ساخت"
+
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_move_line__lot_name
+msgid "Lot/Serial Number Name"
+msgstr "نام سری ساخت/شماره سریال"
+
+#. module: dhs_asset_mgt
+#: model:ir.actions.act_window,name:dhs_asset_mgt.action_material_request
+#: model:ir.model,name:dhs_asset_mgt.model_material_request
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__material_request_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__material_request_id
+#: model:ir.ui.menu,name:dhs_asset_mgt.menu_material_request
+msgid "Material Request"
+msgstr "درخواست مواد"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_material_request_product
+msgid "Material request"
+msgstr "درخواست مواد"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__material_request_product
+msgid "Materials Asset Product"
+msgstr "محصولات دارایی مواد"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_has_error
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_has_error
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_ids
+msgid "Messages"
+msgstr "پیام‌ها"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__my_activity_date_deadline
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__my_activity_date_deadline
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_product_brand_form
+msgid "Name"
+msgstr "نام"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_calendar_event_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_calendar_event_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "رویداد بعدی تقویم فعالیت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_date_deadline
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_date_deadline
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت بعدی فعالیت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_summary
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_summary
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_type_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_type_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__note
+msgid "Note"
+msgstr "یادداشت"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_material_request_from
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#. module: dhs_asset_mgt
+#: model:mail.template,description:dhs_asset_mgt.mail_template_asset_component
+msgid "Notification of asset receipt for the manager"
+msgstr "اطلاع‌رسانی دریافت دارایی برای مدیر"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_needaction_counter
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_needaction_counter
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_has_error_counter
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_has_error_counter
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__message_needaction_counter
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__message_needaction_counter
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام‌های نیازمند اقدام"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__message_has_error_counter
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__message_has_error_counter
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام‌های دارای خطای تحویل"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__os_type
+msgid "OS Type"
+msgstr "نوع سیستم‌عامل"
+
+#. module: dhs_asset_mgt
+#: model:res.groups,name:dhs_asset_mgt.group_it_asset_officer
+msgid "Officer"
+msgstr "مسئول"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__product_qty_available
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__product_qty_available
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_stock_quant_tree_inherit_editable
+msgid "On Hand Quantity"
+msgstr "موجودی در دسترس"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__item_product
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__operation_reference
+msgid "Operation Reference"
+msgstr "ارجاع عملیات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__picking_type_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_picking__picking_type_id
+msgid "Operation Type"
+msgstr "نوع عملیات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_quant__p_currency_id
+msgid "P Currency"
+msgstr "واحد پول P"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__asser_kind__physical
+msgid "Physical"
+msgstr "فیزیکی"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Physical Component"
+msgstr "جزء فیزیکی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__price
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_move_line__price
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_quant__price
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_stock_move_line_operation_inherit_tree
+msgid "Price"
+msgstr "قیمت"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.product_template_ext_kanban
+msgid "Price:"
+msgstr "قیمت:"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_product_template
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__product_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_reassignment_wizard__product_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_retired_wizard__product_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_return_wizard__product_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__product_id
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Product"
+msgstr "محصول"
+
+#. module: dhs_asset_mgt
+#: model:ir.actions.act_window,name:dhs_asset_mgt.product_brand_action
+#: model:ir.model,name:dhs_asset_mgt.model_product_brand
+msgid "Product Brand"
+msgstr "برند محصول"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "انتقال محصول (مسیر انتقال موجودی)"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_material_request_from
+msgid "Products"
+msgstr "محصولات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__quantity
+msgid "Quantity"
+msgstr "تعداد"
+
+#. module: dhs_asset_mgt
+#. odoo-python
+#: code:addons/dhs_asset_mgt/models/stock_quant.py:0
+#, python-format
+msgid "Quantity or Reserved Quantity should be set."
+msgstr "تعداد یا تعداد رزرو شده باید تنظیم شود."
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_stock_quant
+msgid "Quants"
+msgstr "کوانت‌ها"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__rating_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__rating_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__rating_ids
+msgid "Ratings"
+msgstr "امتیازات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__last_action__reassigment
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_history__action__reassigment
+msgid "Reassigment"
+msgstr "انتقال مجدد"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Reassigned"
+msgstr "منتقل شده"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_reassignment_wizard_form
+msgid "Reassignment"
+msgstr "انتقال مجدد"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__matreial_number
+msgid "Refrence Number"
+msgstr "شماره مرجع"
+
+#. module: dhs_asset_mgt
+#: model:ir.ui.menu,name:dhs_asset_mgt.menu_reports
+msgid "Reports"
+msgstr "گزارش‌ها"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__activity_user_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__activity_user_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__last_action__retired
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__state__retired
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_history__action__retired
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_retired_wizard_form
+msgid "Retired"
+msgstr "بازنشسته"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_return_wizard_form
+msgid "Return"
+msgstr "بازگشت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__last_action__returned
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__state__returned
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_history__action__returned
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Returned"
+msgstr "برگشتی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__last_action__running
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__state__running
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_history__action__running
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Running"
+msgstr "در حال اجرا"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__message_has_sms_error
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__message_has_sms_error
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای ارسال پیامک"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__component_serial_number
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Serial Number"
+msgstr "شماره سریال"
+
+#. module: dhs_asset_mgt
+#: model:ir.ui.menu,name:dhs_asset_mgt.menu_configuration_setting
+msgid "Setting"
+msgstr "تنظیمات"
+
+#. module: dhs_asset_mgt
+#: model:ir.actions.act_window,name:dhs_asset_mgt.asset_config_settings_action
+msgid "Settings"
+msgstr "تنظیمات"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_warehouse__code
+msgid "Short Name"
+msgstr "نام کوتاه"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_stock_warehouse__code
+msgid "Short name used to identify your warehouse"
+msgstr "استفاده از نام مخفف جهت شناسه محل انبار"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__location_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__location_id
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request_product__request_location_id
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Source Location"
+msgstr "موقعیت مبدا"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__state
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__state
+msgid "State"
+msgstr "وضعیت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__activity_state
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__activity_state
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت بر اساس فعالیت‌ها\n"
+"تاخیر: تاریخ موعد گذشته است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه‌ریزی شده: فعالیت‌های آینده."
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_stock_move
+msgid "Stock Move"
+msgstr "انتقال موجودی"
+
+#. module: dhs_asset_mgt
+#. odoo-python
+#: code:addons/dhs_asset_mgt/models/asset_component.py:0
+#: code:addons/dhs_asset_mgt/models/asset_material_request.py:0
+#, python-format
+msgid "Successfully!"
+msgstr "با موفقیت!"
+
+
+#. module: dhs_asset_mgt
+#: model:mail.template,subject:dhs_asset_mgt.mail_template_asset_component
+msgid "The {{ ctx.get('user').name }} got another asset"
+msgstr "{{ ctx.get('user').name }} دارایی جدیدی دریافت کرد"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_material_request_from
+msgid "To Created Asset"
+msgstr "برای دارایی ایجاد شده"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_material_request_from
+msgid "To Deliverd"
+msgstr "برای تحویل داده شده"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "To Retired"
+msgstr "برای بازنشسته شده"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "To Returned"
+msgstr "برای برگشت داده شده"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "To Running"
+msgstr "برای در حال استفاده"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_quant__total_amount
+msgid "Total"
+msgstr "جمع کل"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_stock_picking
+msgid "Transfer"
+msgstr "انتقال"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__activity_exception_decoration
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__activity_exception_decoration
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنایی در رکورد."
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.actions.act_window,help:dhs_asset_mgt.action_asset_component
+msgid "Uploud Your First Component !"
+msgstr "اولین کامپوننت خود را بارگذاری کنید!"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.actions.act_window,help:dhs_asset_mgt.action_material_request
+msgid "Uploud Your First Data !"
+msgstr "اولین داده خود را بارگذاری کنید!"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_res_users
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_history__user_id
+#: model:res.groups,name:dhs_asset_mgt.group_it_asset_user
+msgid "User"
+msgstr "کاربر"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_stock_location__user_ids
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.asset_view_location_form
+msgid "Users"
+msgstr "کاربران"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields.selection,name:dhs_asset_mgt.selection__asset_component__asser_kind__virtual
+msgid "Virtual"
+msgstr "مجازی"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_search
+msgid "Virtual Component"
+msgstr "کامپوننت مجازی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_stock_warehouse
+msgid "Warehouse"
+msgstr "انبار"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__component_warranty
+msgid "Warranty (In Months)"
+msgstr "گارانتی (بر حسب ماه)"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__component_warranty_end_date
+msgid "Warranty End Date"
+msgstr "تاریخ پایان گارانتی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_asset_component__website_message_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_material_request__website_message_ids
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__website_message_ids
+msgid "Website Messages"
+msgstr "پیام‌های وب‌سایت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,help:dhs_asset_mgt.field_asset_component__website_message_ids
+#: model:ir.model.fields,help:dhs_asset_mgt.field_material_request__website_message_ids
+#: model:ir.model.fields,help:dhs_asset_mgt.field_product_brand__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات وب‌سایت"
+
+#. module: dhs_asset_mgt
+#. odoo-python
+#: code:addons/dhs_asset_mgt/models/asset_stock_picking.py:0
+#, python-format
+msgid "You cannot change the Scheduled Date on a done or cancelled transfer."
+msgstr "نمی‌توانید تاریخ برنامه‌ریزی شده را برای انتقال انجام شده یا لغو شده تغییر دهید."
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_asset_component
+msgid "asset.component"
+msgstr "کامپوننت دارایی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_asset_reassignment_wizard
+msgid "asset.reassignment.wizard"
+msgstr "دستیار واگذاری مجدد دارایی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_asset_retired_wizard
+msgid "asset.retired.wizard"
+msgstr "دستیار بازنشستگی دارایی"
+
+#. module: dhs_asset_mgt
+#: model:ir.model,name:dhs_asset_mgt.model_asset_return_wizard
+msgid "asset.return.wizard"
+msgstr "دستیار بازگرداندن دارایی"
+
+#. module: dhs_asset_mgt
+#: model_terms:ir.ui.view,arch_db:dhs_asset_mgt.view_asset_component_from
+msgid "component Data"
+msgstr "اطلاعات کامپوننت"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.constraint,message:dhs_asset_mgt.constraint_asset_component_unique_component_serial_number
+msgid "component Serial Number must be unique!"
+msgstr "شماره سریال کامپوننت باید یکتا باشد!"
+
+#. module: dhs_asset_mgt
+#: model:ir.model.fields,field_description:dhs_asset_mgt.field_product_brand__name
+msgid "name"
+msgstr "نام"

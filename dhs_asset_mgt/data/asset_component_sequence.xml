@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="sequence_asset_component" model="ir.sequence">
+            <field name="name">Asset Component Sequence</field>
+            <field name="code">asset.component.sequence</field>
+            <field name="prefix">COMP-</field>
+            <field name="padding">5</field>
+            <field name="number_increment">1</field>
+            <field name="implementation">no_gap</field>
+        </record>
+    </data>
+</odoo>
+
