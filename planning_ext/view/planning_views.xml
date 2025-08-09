@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- planning.role views -->
+    <record id="planning_ext_role_view_tree" model="ir.ui.view">
+        <field name="name">planning.ext.role.tree</field>
+        <field name="model">planning.role</field>
+        <field name="inherit_id" ref="planning.planning_role_view_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="replace">
+                <tree string="Planning Role List" editable="bottom" multi_edit="1">
+                    <field name="sequence" widget="handle"/>
+                    <field name="name" placeholder="e.g. Cleaner"/>
+                    <field name="resource_ids" widget="many2many_tags" optional="show" context="{'form_view_ref': 'planning.resource_resource_form_tags_view_inherit', 'show_job_title': True, 'from_planning': True}" placeholder="e.g. John Doe"/>
+                    <field name="color" widget="color_picker" optional="show"/>
+                </tree>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- planning.slot views -->
+    <record id="planning_ext_view_form" model="ir.ui.view">
+        <field name="name">planning.ext.slot.form</field>
+        <field name="model">planning.slot</field>
+        <field name="inherit_id" ref="planning.planning_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='role_id']" position="after">
+                <field name="extend"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

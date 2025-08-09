@@ -1,0 +1,26 @@
+<odoo>
+
+	<record id="view_res_users_groups_wizard" model="ir.ui.view">
+		<field name="name">res.users.groups.wizard</field>
+		<field name="model">res.users.groups.wizard</field>
+		<field name="arch" type="xml">
+			<form>
+				<sheet>
+					<group>
+						<field name="user_id" options="{'no_create': True}"/>
+						<field name="company_ids" invisible="1"/>
+						<field name="company_id" domain="[('id', 'in', company_ids)] or []" options="{'no_create':True }"/>
+					</group>
+					<group string="Groups" invisible="not company_id">
+						<field name="group_ids" colspan="2" nolabel="1" widget="many2many_checkboxes_sorted" options="{'no_create':True}"/>
+					</group>
+				</sheet>
+				<footer>
+					<button string="Save" name="process" type="object" class="btn-primary"/>
+					<button string="Cancel" class="btn-secondary" special="cancel"/>
+				</footer>
+			</form>
+		</field>
+	</record>
+
+</odoo>

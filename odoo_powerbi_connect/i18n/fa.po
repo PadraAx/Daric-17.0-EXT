@@ -1,0 +1,1377 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoo_powerbi_connect
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 23:53+0000\n"
+"PO-Revision-Date: 2025-02-12 23:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_wizard_form
+msgid ""
+"<b><u>Warning</u>: </b><i>Updating schema can cause issues in already created reports, you may need to fix the issues manually on Power Bi end itself.\n"
+"\t\t\t\t\t\tAfter updating Schema the data will be pushed according to new columns, if you want to push all the data with new columns then you first need to delete \n"
+"\t\t\t\t\t\tthe existing data reset last synchronization date and then export the data again</i>"
+msgstr ""
+"<b><u>هشدار</u>: </b><i>به‌روزرسانی طرحواره می‌تواند باعث بروز مشکلاتی در گزارش‌های ایجاد شده از قبل شود، ممکن است لازم باشد مشکلات را به صورت دستی در Power Bi end خود برطرف کنید.\n"
+"\t\t\t\t\t\tپس از به‌روزرسانی طرح واره، داده‌ها بر اساس ستون‌های جدید فشار داده می‌شوند، اگر می‌خواهید تمام داده‌ها را با ستون‌های جدید فشار دهید، ابتدا باید آن را حذف کنید. \n"
+"\t\t\t\t\t\tداده های موجود آخرین تاریخ همگام سازی را بازنشانی می کند و سپس دوباره داده ها را صادر می کند</i>"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "<span style=\"color:#a24689\">View</span>"
+msgstr "<span style=\"color:#a24689\">مشاهده</span>"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__api_url
+msgid "API URL"
+msgstr "URL API"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__access_method
+msgid "Access Method"
+msgstr "روش دسترسی"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__export_action
+msgid "Action Id"
+msgstr "شناسه اقدام"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_needaction
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_needaction
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_needaction
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_needaction
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_needaction
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_needaction
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_needaction
+msgid "Action Needed"
+msgstr "اقدام مورد نیاز"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_table_column_wizard_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Add Column"
+msgstr "اضافه کردن ستون"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Add Server Action"
+msgstr "افزودن اکشن سرور"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "All"
+msgstr "همه"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "App Credentials"
+msgstr "اعتبار برنامه"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_attachment_count
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__authority_url
+msgid "Authorization URL"
+msgstr "URL مجوز"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_wizard_export_data_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_wizard_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_table_column_wizard_view_form
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__child_field_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__child_ids
+msgid "Child Fields"
+msgstr "فیلدهای کودک"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Click here to update the credential"
+msgstr "برای به روز رسانی اعتبار اینجا را کلیک کنید"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.actions.act_window,help:odoo_powerbi_connect.powerbi_connection_tree_action
+msgid "Click to define a new connection."
+msgstr "برای تعریف اتصال جدید کلیک کنید."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__client_id
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Client Id"
+msgstr "شناسه مشتری"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__client_secret
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Client Secret"
+msgstr "راز مشتری"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid ""
+"Client/Application id of application you have\n"
+"                                                registered on Azure Active Directory."
+msgstr ""
+"Client/Application ID برنامه ای که دارید\n"
+"                                                در Azure Active Directory ثبت شده است."
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid ""
+"Client/Application secret of application you get\n"
+"                                                after registering the application."
+msgstr ""
+"سرویس گیرنده/برنامه راز برنامه ای که دریافت می کنید\n"
+"                                                پس از ثبت درخواست"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_message_wizard_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_wizard_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.unpublish_wizard_form2
+msgid "Close"
+msgstr "بستن"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__color
+msgid "Color Index"
+msgstr "شاخص رنگ"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_table_column_wizard
+msgid "Column Wizard"
+msgstr "جادوگر ستون"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Columns"
+msgstr "ستون ها"
+
+#. module: odoo_powerbi_connect
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Configure Cron"
+msgstr "Cron را پیکربندی کنید"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_wizard_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.unpublish_wizard_form2
+msgid "Confirm"
+msgstr "تایید کنید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connection__state__connected
+msgid "Connected"
+msgstr "متصل شد"
+
+#. module: odoo_powerbi_connect
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_connection
+msgid "Connection"
+msgstr "اتصال"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__connection_status
+msgid "Connection Status"
+msgstr "وضعیت اتصال"
+
+#. module: odoo_powerbi_connect
+#: model:ir.module.category,description:odoo_powerbi_connect.module_odoo_powerbi_connect_category
+msgid "Connector Applilcation"
+msgstr "برنامه اتصال"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__count_mapped_records
+msgid "Count Mapped Records"
+msgstr "تعداد رکوردهای نقشه برداری شده"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_message_wizard__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_wizard__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__create_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_message_wizard__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_wizard__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__create_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.act_window,name:odoo_powerbi_connect.powerbi_connector_dashboard_action
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__dashboard_id
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connector_dashboard__state__dashboard
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_connector_dashboard
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__name
+msgid "Dashboard Name"
+msgstr "نام پیشخوان"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__powerbi_id
+msgid "Dashboard Powerbi Id"
+msgstr "پیشخوان Powerbi ID"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__count_total_dashboard
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_dashboard
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_workspace_view_form
+msgid "Dashboards"
+msgstr "پیشخوانها"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dataset_view_form
+msgid "Data will be permanently stored in Power BI."
+msgstr "داده ها به طور دائم در Power BI ذخیره می شوند."
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dataset_view_form
+msgid "Data will be temporarily stored in Cache memory."
+msgstr "داده ها به طور موقت در حافظه کش ذخیره می شوند."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__dataset_id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__dataset_id
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connector_dashboard__state__dataset
+msgid "Dataset"
+msgstr "مجموعه داده"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__name
+msgid "Dataset Name"
+msgstr "نام مجموعه داده"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__dataset_operation
+msgid "Dataset Operation"
+msgstr "عملیات مجموعه داده"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__powerbi_id
+msgid "Dataset Power BI Id"
+msgstr "شناسه مجموعه داده Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__count_total_dataset
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_dataset
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_workspace_view_form
+msgid "Datasets"
+msgstr "مجموعه داده ها"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__default_workspace
+msgid "Default Workspace"
+msgstr "فضای کاری پیش فرض"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Delete Data"
+msgstr "حذف داده ها"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.server,name:odoo_powerbi_connect.powerbi_delete_data_bulk
+msgid "Delete Powerbi Data"
+msgstr "اطلاعات Powerbi را حذف کنید"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Delete Server Action"
+msgstr "حذف اکشن سرور"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__unpublish_message_wizard__dataset_operation__delete
+msgid "Delete dataset at the Power BI end"
+msgstr "مجموعه داده در انتهای Power BI را حذف کنید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_message_wizard__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_wizard__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__display_name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_wizard_form
+msgid "Do you really want to delete the table data from Power BI"
+msgstr "آیا واقعاً می خواهید داده های جدول را از Power BI حذف کنید؟"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_wizard_form
+msgid "Do you really want to export the table data to Power BI"
+msgstr "آیا واقعاً می خواهید داده های جدول را به Power BI صادر کنید؟"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_wizard_form
+msgid "Do you really want to update the table schema at Power BI."
+msgstr "آیا واقعاً می خواهید طرح جدول را در Power BI به روز کنید؟"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__filter_domain
+msgid "Domain"
+msgstr "دامنه"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connection__state__draft
+msgid "Draft"
+msgstr "پیش نویس"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__embed_url
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__embed_url
+msgid "Embed Url"
+msgstr "جاسازی آدرس اینترنتی"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Example: client id"
+msgstr "مثال: شناسه مشتری"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Example: client secret"
+msgstr "مثال: راز مشتری"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Example: password"
+msgstr "مثال: رمز عبور"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Example: redirect uri"
+msgstr "مثال: هدایت ادراری"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Example: tenent id"
+msgstr "مثال: شناسه اجاره"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+msgid "Example: test@example.com"
+msgstr "مثال: test@example.com"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Example: user"
+msgstr "مثال: کاربر"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_wizard_export_data_form
+msgid "Export"
+msgstr "صادرات"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Export Data"
+msgstr "صادرات داده ها"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__run_cron
+msgid "Export Data Using Cron"
+msgstr "صادرات داده با استفاده از Cron"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.server,name:odoo_powerbi_connect.powerbi_export_data_bulk
+msgid "Export Data to Powerbi"
+msgstr "صادرات داده به Powerbi"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connection__state__failed
+msgid "Failed"
+msgstr "شکست خورد"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__field_id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__field_id
+msgid "Field"
+msgstr "میدان"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Filter Detail"
+msgstr "جزئیات فیلتر"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_follower_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_partner_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (همکار تجاری)"
+
+#. module: odoo_powerbi_connect
+#: model:res.groups,comment:odoo_powerbi_connect.group_powerbi_manager
+msgid "Full Access on Connector"
+msgstr "دسترسی کامل در رابط"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__has_message
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__has_message
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__has_message
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__has_message
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__has_message
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__has_message
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "How to setup a service principle for your azure AD app."
+msgstr "چگونه یک اصل خدمات را برای برنامه Azure AD خود تنظیم کنید."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_message_wizard__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_wizard__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_connection__message_needaction
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dashboard__message_needaction
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dataset__message_needaction
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_report__message_needaction
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_synchronization__message_needaction
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__message_needaction
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_workspace__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر علامت زده شود، پیام‌های جدید به توجه شما نیاز دارند."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_connection__message_has_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_connection__message_has_sms_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dashboard__message_has_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dashboard__message_has_sms_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dataset__message_has_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dataset__message_has_sms_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_report__message_has_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_report__message_has_sms_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_synchronization__message_has_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_synchronization__message_has_sms_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__message_has_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__message_has_sms_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_workspace__message_has_error
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_workspace__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت زده شود، برخی از پیام ها دارای خطای تحویل هستند."
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_wizard_view_form
+msgid "Import"
+msgstr "واردات"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Import Dashboards"
+msgstr "وارد کردن پیشخوانها"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Import Reports"
+msgstr "گزارش های وارداتی"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Import Workspaces"
+msgstr "وارد کردن فضاهای کاری"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Imports"
+msgstr "واردات"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__instance
+msgid "Instance Name"
+msgstr "نام نمونه"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_is_follower
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_is_follower
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_is_follower
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_is_follower
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_is_follower
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_is_follower
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_is_follower
+msgid "Is Follower"
+msgstr "فالوور است"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__is_published
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__is_published
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__is_published
+msgid "Is Published"
+msgstr "منتشر شده است"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__is_server_action
+msgid "Is Server Action"
+msgstr "اکشن سرور است"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__kanban_dashboard_graph_data
+msgid "Kanban Dashboard Graph Data"
+msgstr "داده های نمودار پیشخوان کانبان"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__last_sync_datetime
+msgid "Last Sync Datetime"
+msgstr "آخرین تاریخ همگام سازی"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_message_wizard__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_wizard__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__write_uid
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_message_wizard__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_wizard__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__write_date
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: odoo_powerbi_connect
+#: model:res.groups,name:odoo_powerbi_connect.group_powerbi_manager
+msgid "Manager"
+msgstr "مدیر"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connection__access_method__mu
+msgid "MasterUser"
+msgstr "MasterUser"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_message_wizard__text
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_message_wizard_form
+msgid "Message"
+msgstr "پیام"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_has_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_has_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_has_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_has_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_has_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_has_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_ids
+msgid "Messages"
+msgstr "پیام ها"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__model_id
+msgid "Model"
+msgstr "مدل"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__model_name
+msgid "Model Name"
+msgstr "نام مدل"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__is_modified
+msgid "Modified"
+msgstr "اصلاح شد"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__name
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__name
+msgid "Name"
+msgstr "نام"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_needaction_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_has_error_counter
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_connection__message_needaction_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dashboard__message_needaction_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dataset__message_needaction_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_report__message_needaction_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_synchronization__message_needaction_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__message_needaction_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_workspace__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_connection__message_has_error_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dashboard__message_has_error_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dataset__message_has_error_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_report__message_has_error_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_synchronization__message_has_error_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__message_has_error_counter
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_workspace__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام های دارای خطای تحویل"
+
+#. module: odoo_powerbi_connect
+#: model:ir.module.category,name:odoo_powerbi_connect.module_odoo_powerbi_connect_category
+msgid "Daric Power BI Connector"
+msgstr "رابط Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.actions.act_window,help:odoo_powerbi_connect.powerbi_connection_tree_action
+msgid ""
+"Daric Power BI Connector will connect your powerbi account to odoo. You can sync\n"
+"                    your data from odoo to powerbi and then create reports and graph for analysis."
+msgstr ""
+"Daric Power BI Connector حساب powerbi شما را به دریک متصل می کند. می توانید همگام سازی کنید\n"
+"                    داده های خود را از odoo به powerbi و سپس ایجاد گزارش و نمودار برای تجزیه و تحلیل."
+
+#. module: odoo_powerbi_connect
+#: model:res.groups,name:odoo_powerbi_connect.group_powerbi_officer
+msgid "Officer"
+msgstr "کارشناس"
+
+#. module: odoo_powerbi_connect
+#: model:res.groups,comment:odoo_powerbi_connect.group_powerbi_officer
+msgid "Officer will have read,write,create access to the connector"
+msgstr "کارشناس باید خواندن، نوشتن، دسترسی به اتصال ایجاد کند"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__run_cron
+msgid "On Activation of this option table data automatic export powerbi end "
+msgstr "در فعال سازی این گزینه جدول داده های صادرات خودکار پاوربی پایان"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_wizard__operation
+msgid "Operation"
+msgstr "عملیات"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "PUBLISH"
+msgstr "منتشر کنید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__pwd
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__pwd
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Password"
+msgstr "رمز عبور"
+
+#. module: odoo_powerbi_connect
+#. odoo-python
+#: code:addons/odoo_powerbi_connect/models/powerbi_connector_dashboard.py:0
+#, python-format
+msgid "Past"
+msgstr "گذشته"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_dataset__dataset_type__perm
+msgid "Permanent"
+msgstr "دائمی"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.act_window,name:odoo_powerbi_connect.powerbi_connection_tree_action
+msgid "Power BI Connection"
+msgstr "اتصال Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_connection
+msgid "Power BI Connection Configuration"
+msgstr "پیکربندی اتصال Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Power BI Connection Instance"
+msgstr "نمونه اتصال Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_tree
+msgid "Power BI Connection Instances"
+msgstr "موارد اتصال Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.ui.menu,name:odoo_powerbi_connect.powerbi_parent_menu
+msgid "Power BI Connector"
+msgstr "رابط Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dashboard_form
+msgid "Power BI Dashboard"
+msgstr "پیشخوان Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dashboard_tree
+msgid "Power BI Dashboard Tree"
+msgstr "درخت پیشخوان Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_dashboard
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "Power BI Dashboards"
+msgstr "پیشخوانهای Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.act_window,name:odoo_powerbi_connect.powerbi_dataset_action_tree
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_dataset
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dataset_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dataset_view_tree
+msgid "Power BI Dataset"
+msgstr "مجموعه داده Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.server,name:odoo_powerbi_connect.powerbi_export_data_cron_ir_actions_server
+msgid "Power BI Export Data"
+msgstr "Power BI Export Data"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.act_window,name:odoo_powerbi_connect.powerbi_report_action_tree
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_report_form
+msgid "Power BI Report"
+msgstr "گزارش Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_report_tree
+msgid "Power BI Report Tree"
+msgstr "درخت گزارش Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_report
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_records
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "Power BI Reports"
+msgstr "گزارشات Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Power BI Settings"
+msgstr "تنظیمات Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_synchronization
+msgid "Power BI Synchronization"
+msgstr "همگام سازی Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.act_window,name:odoo_powerbi_connect.powerbi_table_action_tree
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_tree
+msgid "Power BI Table"
+msgstr "جدول Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_table_column
+msgid "Power BI Table Columns"
+msgstr "ستون های جدول Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Power BI User Credentials"
+msgstr "اعتبار کاربری Power BI"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.act_window,name:odoo_powerbi_connect.powerbi_workspace_action_tree
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_workspace_view_form
+msgid "Power BI Workspace"
+msgstr "Power BI Workspace"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_workspace
+msgid "Power BI Workspace/Group"
+msgstr "Power BI Workspace/Group"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_workspace_view_tree
+msgid "Power BI Workspaces"
+msgstr "فضاهای کاری Power BI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Power BI account password."
+msgstr "رمز عبور حساب Power BI."
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Power BI account username."
+msgstr "نام کاربری حساب Power BI."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_table_wizard
+msgid "PowerBi Table Wizard"
+msgstr "جادوگر جدول PowerBi"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+msgid "Powerbi Credentials"
+msgstr "اعتبارنامه پاوربی"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_credentials_wizard
+msgid "Powerbi Credentials Wizard"
+msgstr "Powerbi Credentials Wizard"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.act_window,name:odoo_powerbi_connect.powerbi_dashboard_action_tree
+msgid "Powerbi Dashboard"
+msgstr "پیشخوان پاوربی"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_message_wizard
+msgid "Powerbi Message Wizard"
+msgstr "Powerbi Message Wizard"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_table
+msgid "Powerbi Table"
+msgstr "میز پاوربی"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_wizard
+msgid "Powerbi Wizard"
+msgstr "جادوگر پاوربی"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dataset_view_form
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_workspace_view_form
+msgid "Publish"
+msgstr "منتشر کنید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__publish_count
+msgid "Publish Count"
+msgstr "تعداد انتشار"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_dataset__state__published
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_table__state__published
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_workspace__state__published
+msgid "Published"
+msgstr "منتشر شد"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__rating_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__rating_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__rating_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__rating_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__rating_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__rating_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__rating_ids
+msgid "Ratings"
+msgstr "رتبه بندی ها"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_unpublish_message_wizard__reason
+msgid "Reason to Unpublish"
+msgstr "دلیل لغو انتشار"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__redirect_uri
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Redirect URI"
+msgstr "تغییر مسیر URI"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid ""
+"Redirect uri of your azure app\n"
+"                                                which you set while registering app.<br>/</br> This\n"
+"                                                should match your app uri otherwise it gives error\n"
+"                                                while authorization."
+msgstr ""
+"uri برنامه لاجوردی خود را تغییر مسیر دهید\n"
+"                                                که هنگام ثبت برنامه تنظیم کردید.<br>/</br> این\n"
+"                                                باید با uri برنامه شما مطابقت داشته باشد در غیر این صورت خطا می دهد\n"
+"                                                در حالی که مجوز."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__report_id
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connector_dashboard__state__report
+msgid "Report"
+msgstr "گزارش دهید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__name
+msgid "Report Name"
+msgstr "نام گزارش"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__powerbi_id
+msgid "Report Power BI Id"
+msgstr "شناسه Power BI را گزارش کنید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__count_total_report
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_report
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_workspace_view_form
+msgid "Reports"
+msgstr "گزارش ها"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Reset Connection"
+msgstr "بازنشانی اتصال"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__responsible_user
+msgid "Responsible"
+msgstr "مسئول"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__message_has_sms_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__message_has_sms_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__message_has_sms_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__message_has_sms_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__message_has_sms_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__message_has_sms_error
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیامک"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connection__access_method__sp
+msgid "ServicePrinciple"
+msgstr "اصل سرویس"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__state
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__state
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__state
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__state
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__state
+msgid "State"
+msgstr "ایالت"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__status
+msgid "Status"
+msgstr "حالت"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "TOTAL"
+msgstr "TOTAL"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__table_id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__exp_table_id
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connector_dashboard__state__table
+msgid "Table"
+msgstr "جدول"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__column_ids
+msgid "Table Fields"
+msgstr "فیلدهای جدول"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__name
+msgid "Table Name"
+msgstr "نام جدول"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__count_total_table
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__table_ids
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_table
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dataset_view_form
+msgid "Tables"
+msgstr "جداول"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_dataset__dataset_type__temp
+msgid "Temporary"
+msgstr "موقت"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__tenent_id
+msgid "Tenant Id"
+msgstr "شناسه مستاجر"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Tenent Id"
+msgstr "Tenent ID"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Tenent id of your organization's azure account."
+msgstr "شناسه واقعی حساب لاجوردی سازمان شما."
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Test Connection"
+msgstr "آزمون اتصال"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.unpublish_wizard_form2
+msgid ""
+"The dataset will be unlinked from the Power Bi dataset and the dataset on the Power Bi will get deleted with all its tables and data in it.<br/>\n"
+"\t\t\t\t\t\tUpon publishing the dataset again a new dataset will be created on Power Bi."
+msgstr ""
+"مجموعه داده از مجموعه داده Power Bi جدا می شود و مجموعه داده در Power Bi با تمام جداول و داده های موجود در آن حذف می شود.<br/>\n"
+"\t\t\t\t\t\tپس از انتشار مجدد مجموعه داده، یک مجموعه داده جدید در Power Bi ایجاد می شود."
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.unpublish_wizard_form2
+msgid ""
+"The dataset will be unlinked from the Power Bi dataset but the dataset on the Power Bi end will not be affected.<br/>\n"
+"\t\t\t\t\t\tUpon publishing the dataset again a new dataset will be created on Power Bi."
+msgstr ""
+"مجموعه داده از مجموعه داده Power Bi جدا می شود اما مجموعه داده در پایان Power Bi تحت تأثیر قرار نمی گیرد.<br/>\n"
+"\t\t\t\t\t\tپس از انتشار مجدد مجموعه داده، یک مجموعه داده جدید در Power Bi ایجاد می شود."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__last_sync_datetime
+msgid ""
+"This Datetime will be used during export operation./nThe records created "
+"after this date will be exported to powerbi./nThis will be updated after "
+"every export operation."
+msgstr ""
+"این Datetime در طول عملیات صادرات استفاده می شود./nسوابق ایجاد شده پس از این"
+" تاریخ به powerbi صادر می شود./nاین پس از هر عملیات صادرات به روز می شود."
+
+#. module: odoo_powerbi_connect
+#. odoo-python
+#: code:addons/odoo_powerbi_connect/models/powerbi_connector_dashboard.py:0
+#, python-format
+msgid "This Week"
+msgstr "این هفته"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_dataset__state__topublish
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_table__state__topublish
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_workspace__state__topublish
+msgid "To Publish"
+msgstr "برای انتشار"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__token
+msgid "Token"
+msgstr "رمز"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__total_count
+msgid "Total Count"
+msgstr "تعداد کل"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__dataset_type
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table_column__field_type
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_table_column_wizard__field_type
+msgid "Type"
+msgstr "تایپ کنید"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "UNPUBLISH"
+msgstr "لغو انتشار"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_dataset_view_form
+msgid "UnPublish"
+msgstr "لغو انتشار"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "Unpublish"
+msgstr "لغو انتشار"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connector_dashboard__unpublish_count
+msgid "Unpublish Count"
+msgstr "لغو انتشار تعداد"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_unpublish_message_wizard
+msgid "Unpublish Message Wizard"
+msgstr "لغو انتشار پیام جادوگر"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__unpublish_message_wizard__dataset_operation__unlink
+msgid "Unpublish only from Odoo end"
+msgstr "لغو انتشار فقط از Odoo end"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+msgid "Update"
+msgstr "به روز رسانی"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "Update Credentials"
+msgstr "اعتبارنامه ها را به روز کنید"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__update_pwd
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+msgid "Update Password"
+msgstr "رمز عبور را به روز کنید"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_table_view_form
+msgid "Update Schema"
+msgstr "به روز رسانی طرحواره"
+
+#. module: odoo_powerbi_connect
+#: model:ir.actions.server,name:odoo_powerbi_connect.powerbi_update_table_bulk
+msgid "Update Table Schema"
+msgstr "به روز رسانی جدول جدول"
+
+#. module: odoo_powerbi_connect
+#: model:res.groups,name:odoo_powerbi_connect.group_powerbi_user
+msgid "User"
+msgstr "کاربر"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "User Name"
+msgstr "نام کاربری"
+
+#. module: odoo_powerbi_connect
+#: model:res.groups,comment:odoo_powerbi_connect.group_powerbi_user
+msgid "User will have an read access to the connector."
+msgstr "کاربر دسترسی خواندنی به رابط خواهد داشت."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__user
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_credentials_wizard__user
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+msgid "Username"
+msgstr "نام کاربری"
+
+#. module: odoo_powerbi_connect
+#. odoo-python
+#: code:addons/odoo_powerbi_connect/models/powerbi_connection.py:0
+#: code:addons/odoo_powerbi_connect/models/powerbi_connection.py:0
+#, python-format
+msgid ""
+"Warning!\n"
+"Sorry, Only one active connection is allowed."
+msgstr ""
+"هشدار!\n"
+"با عرض پوزش، فقط یک اتصال فعال مجاز است."
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_connection__website_message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__website_message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__website_message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__website_message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_synchronization__website_message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_table__website_message_ids
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های تارنما"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_connection__website_message_ids
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dashboard__website_message_ids
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_dataset__website_message_ids
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_report__website_message_ids
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_synchronization__website_message_ids
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_table__website_message_ids
+#: model:ir.model.fields,help:odoo_powerbi_connect.field_powerbi_workspace__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات تارنما"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dashboard__workspace_id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_dataset__workspace_id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_report__workspace_id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__exp_workspace_id
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_wizard__workspace_id
+#: model:ir.model.fields.selection,name:odoo_powerbi_connect.selection__powerbi_connector_dashboard__state__workspace
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_workspace_powerbi_configuration
+msgid "Workspace"
+msgstr "فضای کار"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__name
+msgid "Workspace Name"
+msgstr "نام فضای کاری"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model.fields,field_description:odoo_powerbi_connect.field_powerbi_workspace__powerbi_id
+msgid "Workspace Power BI Id"
+msgstr "شناسه Power BI فضای کاری"
+
+#. module: odoo_powerbi_connect
+#: model:ir.ui.menu,name:odoo_powerbi_connect.menu_powerbi_workspace
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connector_dashboard_kanban_view
+msgid "Workspaces"
+msgstr "فضاهای کاری"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_powerbi_credentials_wizard_form
+msgid "enable to update password for the current powerbi instance."
+msgstr "فعال کردن به روز رسانی رمز عبور برای نمونه powerbi فعلی."
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.powerbi_connection_form
+msgid "error"
+msgstr "خطا"
+
+#. module: odoo_powerbi_connect
+#: model_terms:ir.ui.view,arch_db:odoo_powerbi_connect.id_table_column_wizard_view_form
+msgid "or"
+msgstr "یا"
+
+#. module: odoo_powerbi_connect
+#: model:ir.model,name:odoo_powerbi_connect.model_powerbi_connector_dashboard
+msgid "powerbi.connector.dashboard"
+msgstr "powerbi.connector.dashboard"

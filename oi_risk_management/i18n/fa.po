@@ -1,0 +1,1685 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oi_risk_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 00:06+0000\n"
+"PO-Revision-Date: 2025-02-13 00:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__canceled_record_count
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__canceled_record_count
+msgid "#No."
+msgstr "#نه"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_needaction
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_needaction
+msgid "Action Needed"
+msgstr "اقدام مورد نیاز"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__active
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__active
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__active
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__active
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_activity
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_ids
+msgid "Activities"
+msgstr "فعالیت ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__activity_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__activity_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_id
+msgid "Activity"
+msgstr "فعالیت"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_activity_category
+msgid "Activity Category"
+msgstr "دسته فعالیت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_exception_decoration
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "دکوراسیون استثنایی فعالیت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_state
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_state
+msgid "Activity State"
+msgstr "وضعیت فعالیت"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_activity_tag
+msgid "Activity Tags"
+msgstr "برچسب های فعالیت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_type_icon
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "نماد نوع فعالیت"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.list_of_risks_all_menu
+#: model:ir.ui.menu,name:oi_risk_management.risk_dashboard_all_menu
+msgid "All"
+msgstr "همه"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Analysis"
+msgstr "تجزیه و تحلیل"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approval_emails
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approval_emails
+msgid "Approval Emails"
+msgstr "ایمیل های تایید"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approval_emp_emails
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approval_emp_emails
+msgid "Approval Emp Emails"
+msgstr "تایید ایمیل های Emp"
+
+#. module: oi_risk_management
+#: model:approval.config,approve_button_name:oi_risk_management.approval_risk_manager_approve
+#: model:approval.config,approve_button_name:oi_risk_management.approval_risk_owner_approve
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Approve"
+msgstr "تایید کنید"
+
+#. module: oi_risk_management
+#: model:approval.config,approve_confirm_msg:oi_risk_management.approval_risk_manager_approve
+#: model:approval.config,approve_confirm_msg:oi_risk_management.approval_risk_owner_approve
+msgid "Approve ?"
+msgstr "تایید؟"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approve_button_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approve_button_name
+msgid "Approve Button Name"
+msgstr "تأیید نام دکمه"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approve_button_wizard
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approve_button_wizard
+msgid "Approve Button Wizard"
+msgstr "تایید دکمه جادوگر"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approve_confirm_msg
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approve_confirm_msg
+msgid "Approve Confirm Msg"
+msgstr "تایید تایید پیام"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__email_verification_config__evaluation_system__asymmetric
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_settings__evaluation_system__asymmetric
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_test__evaluation_system__asymmetric
+msgid "Asymmetric"
+msgstr "نامتقارن"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_attachment_count
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_attachment_count
+msgid "Attachment Count"
+msgstr "تعداد پیوست"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__attachment_ids
+msgid "Attachments"
+msgstr "پیوست ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_risk_profile_wizard__group_class__board
+#: model:ir.ui.menu,name:oi_risk_management.list_of_risks_board_menu
+#: model:ir.ui.menu,name:oi_risk_management.risk_dashboard_board_menu
+msgid "Board"
+msgstr "هیئت مدیره"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.list_of_risks_board_approval_menu
+msgid "Board Approval"
+msgstr "تصویب هیئت مدیره"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.list_of_risks_board_action
+msgid "Board List of Risks"
+msgstr "لیست آسیب توانش های هیئت مدیره"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.risk_dashboard_board_action
+msgid "Board Risks Dashboard"
+msgstr "پیشخوان خطرات هیئت مدیره"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__button_approve_enabled
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__button_approve_enabled
+msgid "Button Approve Enabled"
+msgstr "دکمه تایید فعال شد"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__button_cancel_enabled
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__button_cancel_enabled
+msgid "Button Cancel Enabled"
+msgstr "دکمه لغو فعال شد"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__button_confirm_enabled
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__button_confirm_enabled
+msgid "Button Confirm Enabled"
+msgstr "دکمه تأیید فعال است"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__button_draft_enabled
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__button_draft_enabled
+msgid "Button Draft Enabled"
+msgstr "پیش نویس دکمه فعال شد"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__button_forward_enabled
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__button_forward_enabled
+msgid "Button Forward Enabled"
+msgstr "دکمه Forward فعال شد"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__button_return_enabled
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__button_return_enabled
+msgid "Button Return Enabled"
+msgstr "بازگشت دکمه فعال شد"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__button_transfer_enabled
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__button_transfer_enabled
+msgid "Button Transfer Enabled"
+msgstr "انتقال دکمه فعال شد"
+
+#. module: oi_risk_management
+#: model:res.groups,name:oi_risk_management.group_risk_ceo
+msgid "CEO"
+msgstr "مدیر عامل"
+
+#. module: oi_risk_management
+#: model:res.groups,comment:oi_risk_management.group_risk_ceo
+msgid "CEO access on risk management"
+msgstr "دسترسی مدیرعامل به مدیریت آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__can_have_owner
+msgid "Can Have Owner"
+msgstr "می تواند صاحب داشته باشد"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_department_wizard
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard_department_wizard
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_profile_wizard
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.configuration_activity_categories_view
+#: model:ir.ui.menu,name:oi_risk_management.configuration_activity_categories_menu
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__category_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__category_id
+msgid "Category"
+msgstr "دسته بندی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_categories_tree
+msgid "Category Name"
+msgstr "نام دسته"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Change Status"
+msgstr "تغییر وضعیت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_treatment__status__close
+msgid "Close"
+msgstr "بستن"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__color
+msgid "Color"
+msgstr "رنگ"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__comments
+msgid "Comments"
+msgstr "نظرات"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.configuration_menu
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_res_config_settings
+msgid "Configuration settings for Website Webkul Addons"
+msgstr "تنظیمات پیکربندی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Confirm"
+msgstr "تایید کنید"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__consequences
+msgid "Consequences"
+msgstr "عواقب"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__contributing_factor
+msgid "Contributing Factor"
+msgstr "عامل کمک کننده"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__control_effectiveness_id
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_criteria__type__control_effectiveness
+#: model:ir.ui.menu,name:oi_risk_management.configuration_risk_control_effectiveness_menu
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Control Effectiveness"
+msgstr "اثربخشی کنترل"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__control_effectiveness_risk_criteria_ids
+msgid "Control Effectiveness Risk Criteria"
+msgstr "معیارهای آسیب توانش اثربخشی کنترل"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__value
+msgid "Cost"
+msgstr "هزینه"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__canceled_record_count
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__canceled_record_count
+msgid "Counter for the canceled records related to record"
+msgstr "شمارنده برای رکوردهای لغو شده مربوط به رکورد"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_list_of_risks_department_wizard__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_dashboard_department_wizard__create_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_list_of_risks_department_wizard__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_dashboard_department_wizard__create_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.configuration_criteria_menu
+msgid "Criteria"
+msgstr "معیارها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__current_control_ids
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Current Control"
+msgstr "کنترل جریان"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__current_control_str
+msgid "Current Controls"
+msgstr "کنترل های فعلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__current_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__email_verification_config__main_risk_type__current_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_risk_profile_wizard__evaluation_risk_type__current_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_settings__main_risk_type__current_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_test__main_risk_type__current_risk
+msgid "Current Risk"
+msgstr "آسیب توانش فعلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__current_risk_justification
+msgid "Current Risk Justification"
+msgstr "توجیه آسیب توانش فعلی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Current Risk Score"
+msgstr "امتیاز آسیب توانش فعلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__current_risk_total_score
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_current_risk_total_score
+msgid "Current Risk Total Score"
+msgstr "امتیاز کل آسیب توانش فعلی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_board_approval_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risks_tree
+msgid "Current risk"
+msgstr "آسیب توانش فعلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_list_of_risks_department_wizard__department_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__department_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__department_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__department_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_dashboard_department_wizard__department_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__department_id
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_risk_profile_wizard__group_class__department
+#: model:ir.ui.menu,name:oi_risk_management.list_of_risks_department_menu
+#: model:ir.ui.menu,name:oi_risk_management.risk_dashboard_department_menu
+msgid "Department"
+msgstr "بخش"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_profile_view
+msgid "Department:"
+msgstr "بخش:"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.configuration_departments_menu
+msgid "Departments"
+msgstr "بخش ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__description
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__description
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__description
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_description
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__name
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+msgid "Details"
+msgstr "جزئیات"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_list_of_risks_department_wizard__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_dashboard_department_wizard__display_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__document_user_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__document_user_id
+msgid "Document User"
+msgstr "کاربر سند"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__ehs
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_criteria_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_severity_tree
+msgid "EHS"
+msgstr "EHS"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__employee_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__risk_employee_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_employee_id
+msgid "Employee"
+msgstr "کارمند"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__owner_employee_ids
+msgid "Employees"
+msgstr "کارمندان"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Evaluation"
+msgstr "ارزیابی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__evaluation_risk_type
+msgid "Evaluation Risk Type"
+msgstr "نوع آسیب توانش ارزیابی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__evaluation_system
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "Evaluation System"
+msgstr "سیستم ارزیابی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activities_tree
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Event/Activity"
+msgstr "رویداد/فعالیت"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.reporting_graph
+msgid "Event/Activity Risks Statistics"
+msgstr "آمار خطرات رویداد/فعالیت"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.activity_tree_menu
+msgid "Events"
+msgstr "رویدادها"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.activities_view
+#: model:ir.ui.menu,name:oi_risk_management.configuration_activity_menu
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activities_tree
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+msgid "Events/Activities"
+msgstr "رویدادها/فعالیت ها"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.charts_view
+msgid "Events/Activities Risks Statistics"
+msgstr "آمار خطرات رویدادها/فعالیت ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_risk_profile_wizard__group_class__exco
+#: model:ir.ui.menu,name:oi_risk_management.list_of_risks_exco_menu
+#: model:ir.ui.menu,name:oi_risk_management.risk_dashboard_exco_menu
+msgid "Exco"
+msgstr "Exco"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.list_of_risks_exco_action
+msgid "Exco List of Risks"
+msgstr "لیست آسیب توانش های Exco"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.risk_dashboard_exco_action
+msgid "Exco Risks Dashboard"
+msgstr "پیشخوان خطرات Exco"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_follower_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_follower_ids
+msgid "Followers"
+msgstr "دنبال کنندگان"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_partner_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "دنبال کنندگان (همکار تجاری)"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__activity_type_icon
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "نماد عالی فونت به عنوان مثال کارهای فا"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Forward"
+msgstr "به جلو"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__frequency
+msgid "Frequency"
+msgstr "فرکانس"
+
+#. module: oi_risk_management
+#: model:res.groups,name:oi_risk_management.group_risk_gm
+msgid "GM"
+msgstr "جنرال موتورز"
+
+#. module: oi_risk_management
+#: model:res.groups,comment:oi_risk_management.group_risk_manager
+msgid "General access on risk management"
+msgstr "دسترسی عمومی به مدیریت آسیب توانش"
+
+#. module: oi_risk_management
+#: model:res.groups,comment:oi_risk_management.group_risk_gm
+msgid "General manager access on risk management"
+msgstr "دسترسی مدیر کل به مدیریت آسیب توانش"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_department_wizard
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard_department_wizard
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_profile_wizard
+msgid "Generate"
+msgstr "ایجاد کنید"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.list_of_risks_department_wizard_action
+msgid "Generate a List of Risks"
+msgstr "فهرستی از آسیب توانش ها را ایجاد کنید"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.risk_dashboard_wizard_action
+msgid "Generate a Risk Dashboard"
+msgstr "یک پیشخوان آسیب توانش ایجاد کنید"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.risk_profile_wizard_action
+msgid "Generate a Risk Profile"
+msgstr "یک نمایه آسیب توانش ایجاد کنید"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard_search
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_search
+msgid "Group By"
+msgstr "گروه توسط"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__group_class
+msgid "Group Class"
+msgstr "کلاس گروهی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__has_message
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__has_message
+msgid "Has Message"
+msgstr "دارای پیام"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_asymmetric_evaluation_criteria__risk_type__high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__current_risk_total_score__high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__inherent_risk_total_score__high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__main_risk_total_score__high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__residual_risk_total_score__high
+msgid "High"
+msgstr "بالا"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_high_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_high_str
+msgid "High Evaluation Criteria"
+msgstr "معیارهای ارزیابی بالا"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_list_of_risks_department_wizard__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_dashboard_department_wizard__id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_exception_icon
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_exception_icon
+msgid "Icon"
+msgstr "نماد"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__activity_exception_icon
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "نمادی برای نشان دادن یک فعالیت استثنایی."
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__message_needaction
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "اگر علامت زده شود، پیام‌های جدید به توجه شما نیاز دارند."
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__message_has_error
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__message_has_sms_error
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__message_has_error
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "اگر علامت زده شود، برخی از پیام ها دارای خطای تحویل هستند."
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_profile_table
+msgid "Impact (Severity/Consequence)"
+msgstr "تأثیر (شدت / پیامد)"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_treatment__status__in_progress
+msgid "In Progress"
+msgstr "در حال انجام است"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__current_risk_total_score__missing
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__inherent_risk_total_score__missing
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__main_risk_total_score__missing
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__residual_risk_total_score__missing
+msgid "Incomplete"
+msgstr "ناقص"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__inherent_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__email_verification_config__main_risk_type__inherent_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_risk_profile_wizard__evaluation_risk_type__inherent_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_settings__main_risk_type__inherent_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_test__main_risk_type__inherent_risk
+msgid "Inherent Risk"
+msgstr "آسیب توانش ذاتی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__inherent_risk_justification
+msgid "Inherent Risk Justification"
+msgstr "توجیه آسیب توانش ذاتی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Inherent Risk Score"
+msgstr "امتیاز آسیب توانش ذاتی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__inherent_risk_total_score
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_inherent_risk_total_score
+msgid "Inherent Risk Total Score"
+msgstr "امتیاز کل آسیب توانش ذاتی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_board_approval_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risks_tree
+msgid "Inherent risk"
+msgstr "آسیب توانش ذاتی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__is_assessment_complete
+msgid "Is Assessment Complete"
+msgstr "آیا ارزیابی کامل شده است"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__is_board
+msgid "Is Board"
+msgstr "هیئت است"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_is_follower
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_is_follower
+msgid "Is Follower"
+msgstr "فالوور است"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__is_overdue
+msgid "Is Overdue"
+msgstr "سررسید شده است"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__is_overdue_str
+msgid "Is Overdue Str"
+msgstr "خیابان معوقه است"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Justification"
+msgstr "توجیه"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__last_state_update
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__last_state_update
+msgid "Last State Update"
+msgstr "آخرین به روز رسانی ایالت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_list_of_risks_department_wizard__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_dashboard_department_wizard__write_uid
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_list_of_risks_department_wizard__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_dashboard_department_wizard__write_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_risk_profile_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_criteria__type__likelihood
+#: model:ir.ui.menu,name:oi_risk_management.configuration_risk_likelihood_menu
+msgid "Likelihood"
+msgstr "احتمال"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__likelihood_line_id
+msgid "Likelihood Line"
+msgstr "خط احتمال"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__p
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_evaluation_line__type__likelihood
+msgid "Likelihood/Probability"
+msgstr "احتمال/احتمال"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__line_no
+msgid "Line No"
+msgstr "خط شماره"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.list_of_risks_action
+#: model:ir.actions.act_window,name:oi_risk_management.risks_view
+#: model:ir.ui.menu,name:oi_risk_management.list_of_risks_activity_menu
+msgid "List of Risks"
+msgstr "لیست آسیب توانش ها"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.list_of_risks_board_approval_action
+msgid "List of Risks Board Approval"
+msgstr "لیست آسیب توانش ها تصویب هیئت مدیره"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_list_of_risks_department_wizard
+msgid "List of Risks Department Wizard"
+msgstr "فهرست جادوگر بخش خطرات"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_asymmetric_evaluation_criteria__risk_type__low
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__current_risk_total_score__low
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__inherent_risk_total_score__low
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__main_risk_total_score__low
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__residual_risk_total_score__low
+msgid "Low"
+msgstr "کم"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_low_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_low_str
+msgid "Low Evaluation Criteria"
+msgstr "معیارهای ارزشیابی پایین"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__main_cause
+msgid "Main Cause"
+msgstr "علت اصلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__main_risk_total_score
+msgid "Main Risk Total Score"
+msgstr "امتیاز کل آسیب توانش اصلی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "Main Risk Type"
+msgstr "نوع آسیب توانش اصلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__main_risk_type
+msgid "Main risk type"
+msgstr "نوع آسیب توانش اصلی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "Main risk type used in calculations."
+msgstr "نوع آسیب توانش اصلی مورد استفاده در محاسبات."
+
+#. module: oi_risk_management
+#: model:approval.config,name:oi_risk_management.approval_risk_manager_approve
+msgid "Manager Approval"
+msgstr "تایید مدیر"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_asymmetric_evaluation_criteria__risk_type__medium
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__current_risk_total_score__medium
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__inherent_risk_total_score__medium
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__main_risk_total_score__medium
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__residual_risk_total_score__medium
+msgid "Medium"
+msgstr "متوسط"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_medium_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_medium_str
+msgid "Medium Evaluation Criteria"
+msgstr "معیارهای ارزیابی متوسط"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_has_error
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_has_error
+msgid "Message Delivery error"
+msgstr "خطای تحویل پیام"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_ids
+msgid "Messages"
+msgstr "پیام ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__my_activity_date_deadline
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "مهلت فعالیت من"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_category__name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__name
+msgid "Name"
+msgstr "نام"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__needaction_partner_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__needaction_partner_ids
+msgid "Needaction Partner"
+msgstr "همکار تجاری Needaction"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_calendar_event_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "رویداد تقویم فعالیت بعدی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_date_deadline
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "مهلت فعالیت بعدی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_summary
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_summary
+msgid "Next Activity Summary"
+msgstr "خلاصه فعالیت بعدی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_type_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع فعالیت بعدی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "No."
+msgstr "خیر"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_needaction_counter
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_needaction_counter
+msgid "Number of Actions"
+msgstr "تعداد اقدامات"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_has_error_counter
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_has_error_counter
+msgid "Number of errors"
+msgstr "تعداد خطاها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__message_needaction_counter
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "تعداد پیام هایی که نیاز به اقدام دارند"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__message_has_error_counter
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "تعداد پیام های دارای خطای تحویل"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Old Versions"
+msgstr "نسخه های قدیمی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_treatment__status__open
+msgid "Open"
+msgstr "باز کنید"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+msgid "Open Assessment Form"
+msgstr "باز کردن فرم ارزیابی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__original_analysis_line_id
+msgid "Original Analysis Line"
+msgstr "خط تحلیل اصلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__original_line_current_control_id
+msgid "Original Current Control"
+msgstr "کنترل جریان اصلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__original_evaluation_line_id
+msgid "Original Evaluation Line"
+msgstr "خط ارزشیابی اصلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__original_risk_id
+msgid "Original Risk"
+msgstr "آسیب توانش اصلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__original_treatment_id
+msgid "Original Treatment"
+msgstr "درمان اصلی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__owner_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__risk_owner_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__owner_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_owner_id
+msgid "Owner"
+msgstr "مالک"
+
+#. module: oi_risk_management
+#: model:approval.config,name:oi_risk_management.approval_risk_owner_approve
+msgid "Owner Approval"
+msgstr "تاییدیه مالک"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__do_risk_treatments_have_owner
+msgid "Owner for treatments"
+msgstr "مالک برای درمان"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__parent_department_id
+msgid "Parent Department"
+msgstr "بخش والدین"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__percentage
+msgid "Percentage"
+msgstr "درصد"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_profile_table
+msgid "Probability (Likelihood)"
+msgstr "احتمال (احتمال)"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__name
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_criteria_form
+msgid "Rating"
+msgstr "رتبه بندی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__rating_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__rating_ids
+msgid "Ratings"
+msgstr "رتبه بندی ها"
+
+#. module: oi_risk_management
+#: model:approval.config,reject_button_name:oi_risk_management.approval_risk_manager_approve
+#: model:approval.config,reject_button_name:oi_risk_management.approval_risk_owner_approve
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Reject"
+msgstr "رد کردن"
+
+#. module: oi_risk_management
+#: model:approval.config,reject_confirm_msg:oi_risk_management.approval_risk_manager_approve
+#: model:approval.config,reject_confirm_msg:oi_risk_management.approval_risk_owner_approve
+msgid "Reject ?"
+msgstr "رد کردن؟"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__reject_button_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__reject_button_name
+msgid "Reject Button Name"
+msgstr "نام دکمه رد کردن"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__reject_button_wizard
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__reject_button_wizard
+msgid "Reject Button Wizard"
+msgstr "جادوگر دکمه رد کردن"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__reject_confirm_msg
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__reject_confirm_msg
+msgid "Reject Confirm Msg"
+msgstr "رد کردن تأیید پیام"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.reports_menu
+msgid "Reports"
+msgstr "گزارش ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__reputation
+msgid "Reputation"
+msgstr "شهرت"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Reset to draft"
+msgstr "بازنشانی به پیش نویس"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Reset to draft ?"
+msgstr "به پیش نویس بازنشانی شود؟"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__residual_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__email_verification_config__main_risk_type__residual_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_risk_profile_wizard__evaluation_risk_type__residual_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_settings__main_risk_type__residual_risk
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_test__main_risk_type__residual_risk
+msgid "Residual Risk"
+msgstr "آسیب توانش باقیمانده"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__residual_risk_justification
+msgid "Residual Risk Justification"
+msgstr "توجیه آسیب توانش باقیمانده"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Residual Risk Score"
+msgstr "امتیاز آسیب توانش باقیمانده"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__residual_risk_total_score
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_residual_risk_total_score
+msgid "Residual Risk Total Score"
+msgstr "امتیاز کل آسیب توانش باقیمانده"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_board_approval_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risks_tree
+msgid "Residual risk"
+msgstr "آسیب توانش باقیمانده"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__activity_user_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__activity_user_id
+msgid "Responsible User"
+msgstr "کاربر مسئول"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Return"
+msgstr "بازگشت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__risk_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity_tag__risk_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__risk_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__risk_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__risk_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_id
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_board_approval_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard_search
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risks_tree
+msgid "Risk"
+msgstr "آسیب توانش"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid ""
+"Risk\n"
+"                                Assessment"
+msgstr ""
+"آسیب توانش\n"
+"                                ارزیابی"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__risk_analysis_line_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__risk_analysis_line_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_analysis_line_id
+msgid "Risk Analysis Line"
+msgstr "خط تحلیل آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.configuration_risk_control_effectiveness_action
+msgid "Risk Control Effectiveness"
+msgstr "اثربخشی کنترل آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__risk_criteria_ids
+msgid "Risk Criteria"
+msgstr "معیارهای آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_risk_dashboard_department_wizard
+msgid "Risk Dashboard Department Wizard"
+msgstr "جادوگر بخش پیشخوان آسیب توانش"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+msgid "Risk Description"
+msgstr "شرح آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__risk_evaluation_line_ids
+msgid "Risk Evaluation Line"
+msgstr "خط ارزیابی آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.configuration_risk_likelihood_action
+msgid "Risk Likelihood"
+msgstr "احتمال آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_risk_line_current_control
+msgid "Risk Line Current Control"
+msgstr "کنترل جریان خط آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.module.category,name:oi_risk_management.module_category_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "Risk Management"
+msgstr "مدیریت آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.module.category,description:oi_risk_management.module_category_risk_management
+msgid "Risk Management Module"
+msgstr "افزونه مدیریت آسیب توانش"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+msgid "Risk Owner"
+msgstr "صاحب آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.actions.report,name:oi_risk_management.report_risk_profile
+#: model:ir.ui.menu,name:oi_risk_management.risk_profile_menu
+msgid "Risk Profile"
+msgstr "نمایه آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_risk_profile_wizard
+msgid "Risk Profile Configuration"
+msgstr "پیکربندی نمایه آسیب توانش"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Risk Score"
+msgstr "امتیاز آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.configuration_risk_severity_action
+msgid "Risk Severity"
+msgstr "شدت خطر"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_risk_treatment
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__risk_treatment_ids
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+msgid "Risk Treatment"
+msgstr "درمان خطر"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "Risk Treatments"
+msgstr "درمان های خطر"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__risk_type
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_profile_wizard
+msgid "Risk Type"
+msgstr "نوع آسیب توانش"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_profile_table
+msgid "Risk type:"
+msgstr "نوع آسیب توانش:"
+
+#. module: oi_risk_management
+#: model:ir.ui.menu,name:oi_risk_management.menu_root
+msgid "RiskWatch"
+msgstr "نظارت بر آسیب توانش ها"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_risk
+#: model:ir.ui.menu,name:oi_risk_management.risk_tree_menu
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard_search
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_search
+msgid "Risks"
+msgstr "خطرات"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_risk_criteria
+msgid "Risks Analysis Criteria"
+msgstr "معیارهای تحلیل آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_risk_analysis_line
+msgid "Risks Analysis Line"
+msgstr "خط تحلیل آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__risks_count
+msgid "Risks Count"
+msgstr "شمارش آسیب توانش ها"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.risk_dashboard_action
+#: model:ir.ui.menu,name:oi_risk_management.risk_dashboard_menu
+msgid "Risks Dashboard"
+msgstr "پیشخوان خطرات"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_management_risk_evaluation_line
+msgid "Risks Evaluation Line"
+msgstr "خط ارزیابی آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__message_has_sms_error
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطای تحویل پیامک"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__score
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Score"
+msgstr "امتیاز"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.configuration_settings_view_action
+#: model:ir.ui.menu,name:oi_risk_management.configuration_settings_menu
+msgid "Settings"
+msgstr "تنظیمات"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_criteria__type__severity
+#: model:ir.ui.menu,name:oi_risk_management.configuration_risk_severity_menu
+msgid "Severity"
+msgstr "شدت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__severity_line_id
+msgid "Severity Line"
+msgstr "خط شدت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_asymmetric_evaluation_criteria__s
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk_evaluation_line__type__severity
+msgid "Severity/Impact"
+msgstr "شدت/تاثیر"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__snapshot_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__snapshot_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__snapshot_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__snapshot_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__snapshot_ids
+msgid "Snapshot"
+msgstr "عکس فوری"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__snapshots_count
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__snapshots_count
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__snapshots_count
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__snapshots_count
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__snapshots_count
+msgid "Snapshots Count"
+msgstr "تعداد عکس های فوری"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__state_name
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__state_name
+msgid "State Name"
+msgstr "نام ایالت"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_board_approval_tree_view
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.list_of_risks_tree_view
+msgid "State of Risk Assessment"
+msgstr "ارزیابی وضعیت آسیب توانش"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__state
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__state
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__risk_state
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__risk_state
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__status
+msgid "Status"
+msgstr "حالت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__log_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__log_ids
+msgid "Status Log"
+msgstr "گزارش وضعیت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__state_id
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__state_id
+msgid "Status Settings"
+msgstr "تنظیمات وضعیت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__activity_state
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"وضعیت بر اساس فعالیت ها\n"
+"سررسید: تاریخ سررسید گذشته است\n"
+"امروز: تاریخ فعالیت امروز است\n"
+"برنامه ریزی شده: فعالیت های آینده."
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__stop_approval_trigger
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__stop_approval_trigger
+msgid "Stop Approval Trigger"
+msgstr "توقف ماشه تایید"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__email_verification_config__evaluation_system__symmetric
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_settings__evaluation_system__symmetric
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__res_config_test__evaluation_system__symmetric
+msgid "Symmetric"
+msgstr "متقارن"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__tag_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__tag_ids
+msgid "Tag"
+msgstr "برچسب بزنید"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_tags_tree
+msgid "Tag Name"
+msgstr "نام را تگ کنید"
+
+#. module: oi_risk_management
+#: model:ir.actions.act_window,name:oi_risk_management.configuration_activity_tags_view
+#: model:ir.ui.menu,name:oi_risk_management.configuration_activity_tags_menu
+msgid "Tags"
+msgstr "برچسب ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__target_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__target_date
+msgid "Target Date"
+msgstr "تاریخ هدف"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_calendar
+msgid "Test"
+msgstr "آزمایش کنید"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "The criteria for high evaluation score."
+msgstr "معیارهای نمره ارزشیابی بالا"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "The criteria for low evaluation score."
+msgstr "معیارهای نمره ارزشیابی پایین"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "The criteria for medium evaluation score."
+msgstr "معیارهای نمره متوسط ​​ارزیابی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "The criteria for very high evaluation score."
+msgstr "معیارهای نمره ارزشیابی بسیار بالا"
+
+#. module: oi_risk_management
+#: model:ir.model.constraint,message:oi_risk_management.constraint_oi_risk_management_activity_category_name_uniq
+#: model:ir.model.constraint,message:oi_risk_management.constraint_oi_risk_management_activity_tag_name_uniq
+msgid "The name should be unique!"
+msgstr "نام باید منحصر به فرد باشد!"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "The type of system to use for evaluation."
+msgstr "نوع سیستم مورد استفاده برای ارزیابی"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Title"
+msgstr "عنوان"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Transfer"
+msgstr "انتقال"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+msgid "Treatment comments"
+msgstr "نظرات درمان"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+msgid "Treatment status"
+msgstr "وضعیت درمان"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_dashboard
+msgid "Treatment target"
+msgstr "هدف درمان"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__risk_treatment_str
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.risk_form
+msgid "Treatments"
+msgstr "درمان ها"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.res_config_settings_view_form
+msgid "Treatments can have an owner."
+msgstr "درمان ها می توانند صاحب داشته باشند."
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_criteria__type
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__type
+msgid "Type"
+msgstr "تایپ کنید"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__activity_exception_decoration
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع فعالیت استثنا در ثبت."
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__uncertainty
+msgid "Uncertainty"
+msgstr "عدم قطعیت"
+
+#. module: oi_risk_management
+#: model:res.groups,name:oi_risk_management.group_risk_manager
+msgid "User"
+msgstr "کاربر"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__user_can_approve
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__user_can_approve
+msgid "User Can Approve"
+msgstr "کاربر می تواند تایید کند"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__version
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__version
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__version
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__version
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__version
+msgid "Version"
+msgstr "نسخه"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__version_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_analysis_line__version_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_evaluation_line__version_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_line_current_control__version_date
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk_treatment__version_date
+msgid "Version Date"
+msgstr "تاریخ نسخه"
+
+#. module: oi_risk_management
+#. odoo-python
+#: code:addons/oi_risk_management/models/risk.py:0
+#, python-format
+msgid "Versions"
+msgstr "نسخه ها"
+
+#. module: oi_risk_management
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_asymmetric_evaluation_criteria__risk_type__very_high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__current_risk_total_score__very_high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__inherent_risk_total_score__very_high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__main_risk_total_score__very_high
+#: model:ir.model.fields.selection,name:oi_risk_management.selection__oi_risk_management_risk__residual_risk_total_score__very_high
+msgid "Very High"
+msgstr "بسیار بالا"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_very_high_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_res_config_settings__asymmetric_evaluation_very_high_str
+msgid "Very High Evaluation Criteria"
+msgstr "معیارهای ارزیابی بسیار بالا"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__waiting_approval
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__waiting_approval
+msgid "Waiting Approval"
+msgstr "در انتظار تایید"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approval_partner_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approval_partner_ids
+msgid "Waiting Partner IDs Approval"
+msgstr "در انتظار تأیید شناسه‌های همکار تجاری"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approval_user_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approval_user_ids
+msgid "Waiting User Approval"
+msgstr "در انتظار تایید کاربر"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__approval_user2_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__approval_user2_ids
+msgid "Waiting User Approval (Without OdooBot)"
+msgstr "در انتظار تایید کاربر (بدون OdooBot)"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__website_message_ids
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__website_message_ids
+msgid "Website Messages"
+msgstr "پیام های وب سایت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_activity__website_message_ids
+#: model:ir.model.fields,help:oi_risk_management.field_oi_risk_management_risk__website_message_ids
+msgid "Website communication history"
+msgstr "تاریخچه ارتباطات وب سایت"
+
+#. module: oi_risk_management
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_activity__workflow_states
+#: model:ir.model.fields,field_description:oi_risk_management.field_oi_risk_management_risk__workflow_states
+msgid "Workflow States"
+msgstr "ایالات گردش کار"
+
+#. module: oi_risk_management
+#: model:ir.model,name:oi_risk_management.model_oi_risk_asymmetric_evaluation_criteria
+msgid "oi_risk.asymmetric_evaluation_criteria"
+msgstr "oi_risk.معیار_ارزیابی_نامتقارن"
+
+#. module: oi_risk_management
+#: model_terms:ir.ui.view,arch_db:oi_risk_management.activity_form
+msgid "tags"
+msgstr "برچسب ها"
+
+#. module: oi_risk_management
+#. odoo-python
+#: code:addons/oi_risk_management/models/res_config_settings.py:0
+#, python-format
+msgid "you must setup all the criteria for the asymmetric evaluation system"
+msgstr "شما باید تمام معیارهای سیستم ارزیابی نامتقارن را تنظیم کنید"

@@ -1,0 +1,174 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oi_multi_company_access
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-25 14:55+0000\n"
+"PO-Revision-Date: 2025-04-25 14:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oi_multi_company_access
+#. odoo-python
+#: code:addons/oi_multi_company_access/models/base.py:0
+#, python-format
+msgid "Access to unauthorized or invalid companies."
+msgstr "دسترسی به شرکت‌های غیرمجاز یا نامعتبر."
+
+#. module: oi_multi_company_access
+#: model:ir.model,name:oi_multi_company_access.model_mail_activity
+msgid "Activity"
+msgstr "فعالیت"
+
+#. module: oi_multi_company_access
+#: model:ir.model,name:oi_multi_company_access.model_base
+msgid "Base"
+msgstr "پایه"
+
+#. module: oi_multi_company_access
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_wizard
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__company_ids
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__company_ids
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users__company_id
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__company_id
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_search
+msgid "Company"
+msgstr "شرکت"
+
+#. module: oi_multi_company_access
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_search
+msgid "Company User Access"
+msgstr "دسترسی کاربران به شرکت‌ها"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__create_uid
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__create_date
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: oi_multi_company_access
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_users_form_multi_company
+msgid "Current Company"
+msgstr "شرکت فعلی"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__display_name
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: oi_multi_company_access
+#: model:ir.model.constraint,message:oi_multi_company_access.constraint_res_users_groups_unique_access
+msgid "Duplicate Group"
+msgstr "گروه تکراری"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__group_id
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__group_ids
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_search
+msgid "Group"
+msgstr "گروه"
+
+#. module: oi_multi_company_access
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_search
+msgid "Group By"
+msgstr "گروه‌بندی بر اساس"
+
+#. module: oi_multi_company_access
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_wizard
+msgid "Groups"
+msgstr "گروه‌ها"
+
+#. module: oi_multi_company_access
+#: model:ir.model,name:oi_multi_company_access.model_ir_http
+msgid "HTTP Routing"
+msgstr "مسیریابی HTTP"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__id
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__write_uid
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به‌روزرسانی توسط"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__write_date
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخرین به‌روزرسانی در"
+
+#. module: oi_multi_company_access
+#: model:ir.actions.act_window,name:oi_multi_company_access.act_res_users_groups_wizard
+msgid "Multi Companies Access"
+msgstr "دسترسی به چندین شرکت"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users__company_group_ids
+msgid "Multi Companies Groups"
+msgstr "گروه‌های شرکت‌های چندگانه"
+
+#. module: oi_multi_company_access
+#: model:ir.actions.act_window,name:oi_multi_company_access.act_res_users_groups
+#: model:ir.model,name:oi_multi_company_access.model_res_users_groups
+#: model:ir.ui.menu,name:oi_multi_company_access.menu_res_users_groups
+msgid "Multi Companies User Groups"
+msgstr "گروه‌های کاربری شرکت‌های چندگانه"
+
+#. module: oi_multi_company_access
+#: model:ir.model,name:oi_multi_company_access.model_res_users_groups_wizard
+msgid "Multi Companies User Groups Wizard"
+msgstr "جادوگر گروه‌های کاربری شرکت‌های چندگانه"
+
+#. module: oi_multi_company_access
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_users_form_multi_company
+msgid "Multi-Company Access Rights"
+msgstr "سطوح دسترسی چند شرکتی"
+
+#. module: oi_multi_company_access
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_wizard
+msgid "Save"
+msgstr "ذخیره"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users__show_multi_company_access
+msgid "Show Multi Company Access"
+msgstr "نمایش دسترسی به شرکت‌های چندگانه"
+
+#. module: oi_multi_company_access
+#: model:ir.model.fields,help:oi_multi_company_access.field_res_users__company_id
+msgid "The default company for this user."
+msgstr "شرکت پیش‌فرض برای این کاربر."
+
+#. module: oi_multi_company_access
+#: model:ir.model,name:oi_multi_company_access.model_res_users
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups__user_id
+#: model:ir.model.fields,field_description:oi_multi_company_access.field_res_users_groups_wizard__user_id
+#: model_terms:ir.ui.view,arch_db:oi_multi_company_access.view_res_users_groups_search
+msgid "User"
+msgstr "کاربر"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.menu" id="planning.planning_menu_settings">
+            <field name="groups_id" eval="[(6, 0, [ref('planning.group_planning_user')])]"/>
+        </record>
+
+        <record model="ir.ui.menu" id="planning.planning_menu_settings_role">
+            <field name="groups_id" eval="[(6, 0, [ref('planning.group_planning_user')])]"/>
+        </record>
+
+        <record model="ir.ui.menu" id="planning.planning_menu_settings_shift_template">
+            <field name="groups_id" eval="[(6, 0, [ref('planning.group_planning_user')])]"/>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+
+    <record id="base_popup_form_view" model="ir.ui.view">
+        <field name="name">base.popup.form</field>
+        <field name="model">base.popup</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="text" readonly="1"/>
+                <footer>
+                    <button special="cancel" data-hotkey="x" string="Close" class="btn-primary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

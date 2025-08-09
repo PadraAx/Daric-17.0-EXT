@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!-- Copyright (c) 2016-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<!-- License URL : <https://store.webkul.com/license.html/> -->
+<templates id="template" xml:space="preserve">
+    <t t-name="MyMessagePopup" owl="1">
+        <div class="popup popup-textinput">
+            <p class="modal-header">
+                <t t-esc=" props.title || 'Message' " class="modal-title"/>
+            </p>
+            <main class="modal-body">
+                <t t-esc="  props.body || '' " />
+            </main>
+            <footer class="footer modal-footer">
+                <div class="button cancel btn btn-lg btn-primary" t-on-click="cancel"> OK </div>
+            </footer>
+        </div>
+    </t>
+
+    <t t-name="PaymentScreenStatus" t-inherit="point_of_sale.PaymentScreenStatus" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('total')]" position="replace">
+            <t t-if="props.order.is_return_order and props.order.get_total_with_tax() &lt;=0">
+                <div class="total" style="color:#2b8b8e">
+                    <t t-esc="totalDueText" />
+                </div>
+            </t>
+            <t t-if="!(props.order.is_return_order and props.order.get_total_with_tax() &lt;=0)">
+                <div class="total">
+                    <t t-esc="totalDueText" />
+                </div>
+            </t>
+        </xpath>
+    </t>
+
+    <t t-name="ProductScreen" t-inherit="point_of_sale.ProductScreen" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('rightpane')]" position="inside">
+            <div id="refund_order_notify" style="color: rgb(0, 0, 0);top: 50%;left:45%;position: absolute;font-size: -webkit-xxx-large;font-family: fantasy;text-shadow: -5px 4px 2px #c5c5c5;display:none;">
+                THIS IS A REFUND ORDER
+            </div>
+             <span id="cancel_refund_order" t-on-click="click_cancel_refund_order" style="cursor: pointer;position: absolute;top: 60%;left:55%;color: white;font-size: xx-large;z-index: 333;text-align: center;height: 38px;border-radius: 5%;font-family: fantasy;font-style: normal;padding: 6px;opacity: 0.7;width: 112px;background-color: rgb(154, 71, 71);display: none;">
+                Cancel
+            </span>
+        </xpath>
+    </t> 
+
+    <t t-name="PaymentScreenTop" t-inherit="point_of_sale.PaymentScreenTop" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('top-content-center')]" position="before">
+            <span class='button cancel_refund_order btn btn-lg btn-secondary' t-on-click="click_delete_return_order" 
+            style="color:white; background:rgb(154, 71, 71); margin-left:1%;">
+                Cancel
+            </span>
+        </xpath>
+    </t> 
+
+    <t t-name="OrderReturnPopup" owl="1">
+        <div class="popup popup-textinput">
+            <div class="modal-header">
+                <span>
+                    Return Products 
+                </span>
+                <span class="button" id="complete_return" t-on-click="click_complete_return"
+                 style="background-color: #5c92a7; color: white; padding: 2%; border-radius: 5px; cursor: pointer;">
+                    Complete Return
+                </span>
+            </div>
+            <main class="modal-body" style="margin: 5px;">
+                <div class='container_div'>
+                    <table border="1" frame="void" rules="rows" class="return_popup_table">
+                        <tr class="return_popup_tr">
+                            <th class="table_data_cells"><p>Product (<span style="color:#2f6e75">Qty</span>.)</p></th>
+                            <th class="table_data_cells">Return Qty.</th>
+                        </tr>
+
+                        <t t-foreach="props.orderlines || []" t-as="line" t-key="line.id">
+                            <tr class="return_popup_tr">
+                                <td class="table_data_cells"><t t-esc="line.product_id[1]"/> (<b style="color:#2f6e75"><t t-esc="line.qty - line.line_qty_returned"/></b>)</td>
+                                <td class="table_data_cells return_qty"><input t-att-line-qty-remaining='line.qty - line.line_qty_returned' t-att-line-id="line.id" type="number" value="0"></input></td>
+                            </tr>
+                        </t>
+
+                    </table>
+                </div>
+            </main>
+            <footer class="footer modal-footer">
+                <div class="button btn btn-lg btn-primary" id="return_order" t-on-click="click_return_order" style="background-color: rgb(94, 191, 143);color: white;">
+                    Return
+                </div>
+                <div class="button cancel btn btn-lg btn-primary" t-on-click="cancel"> Cancel </div>
+            </footer>
+        </div>
+    </t>
+
+    <t t-name="OrderDetails">
+        <section class='order-details' style="border-bottom: solid 5px rgb(110,200,155);">
+            <div class='partner-details-box clearfix' style="background-color: rgb(252, 252, 252);">
+                <div style="display: flex; justify-content: space-between; padding: 10px;">
+                    <div>
+                        <h2 style="color: rgb(67, 134, 111); font-size: 25px; font-weight: revert;">Order Details</h2>
+                    </div>
+                    <t t-if="!order.refunded">
+                        <div id="wk_refund"> Return/Refund </div>
+                    </t>
+                    <img id="close_order_details" src="/pos_order_return/static/src/img/icon-cross.png" style="cursor: pointer; width:30px; height:30px;"/>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); padding: 10px; font-size:15px; gap:10px;">
+                    <div style="display: flex; gap: 5px;">
+                        <span style="font-weight: 900; color: #306847;">Name:</span>
+                        <span t-esc='order.name'/>
+                    </div>
+                    <t t-if="order.partner_id">
+                        <div style="display: flex; gap: 5px;">
+                            <span style="font-weight: 900; color: #306847;">Customer:</span>
+                            <span t-esc='order.partner_id[1]'/>
+                        </div>
+                    </t>
+                    <t t-if="!order.partner_id">
+                        <div style="display: flex; gap: 5px;">
+                            <span style="font-weight: 900; color: #306847;">Customer:</span> -
+                        </div>
+                    </t>
+                    <div style="display: flex; gap: 5px;">
+                        <span style="font-weight: 900; color: #306847;">Date:</span>
+                        <span t-esc='order.date_order'/>
+                    </div>
+                    <div style="display: flex; gap: 5px;">
+                        <span style="font-weight: 900; color: #306847;">Return/Refund:</span>
+                        <span t-esc='order.return_status'/>
+                    </div>
+                </div>
+
+                <div class='order-detail' style="padding:10px;">
+                    <table border="1" frame="void" rules="rows" id="order_line_content" style="width: 100%;text-align:center;border-bottom: 3px solid rgb(70, 150, 110);">
+                        <tr style="color: rgb(51, 112, 39);border-bottom: 3px solid rgb(67, 134, 111);">
+                            <th style="text-align:left;width: 35%;">Product</th>
+                            <th style="width: 10%;">Quantity</th>
+                            <th style="width: 10%;">Returns</th>
+                            <th style="width: 10%;">Unit Price</th>
+                            <th style="width: 10%;">Tax</th>
+                            <th style="width: 10%;">Discount(%)</th>
+                            <th style="width: 10%;">Price</th>
+                        </tr>
+                        <t t-foreach='orderlines' t-as='line' t-key="line">
+                            <tr>
+                                <td style="text-align:left">
+                                    <t t-if="widget.pos.db.get_product_by_id(line.product_id[0])">
+                                        <t t-if="widget.pos.db.get_product_by_id(line.product_id[0]).not_returnable">
+                                            <t t-esc="line.product_id[1]"/> <b style="color: rgb(160, 89, 89);">(Non-Returnable)</b>
+                                        </t>
+                                        <t t-if="!widget.pos.db.get_product_by_id(line.product_id[0]).not_returnable">
+                                            <t t-esc="line.product_id[1]"/>
+                                        </t>
+                                    </t>
+                                    <t t-if="!widget.pos.db.get_product_by_id(line.product_id[0])">
+                                        <t t-esc="line.product_id[1]"/> <b style="color: rgb(160, 89, 89);">(Unavailable In POS)</b>
+                                    </t>
+                                </td>
+                                <td>
+                                    <t t-esc="line.qty"/>
+                                </td>
+                                <td>
+                                    <t t-if="line.line_qty_returned == 0">
+                                        -
+                                    </t>
+                                    <t t-if="line.line_qty_returned != 0">
+                                        <t t-esc="line.line_qty_returned"/>
+                                    </t>
+                                </td>
+                                <td>
+                                    <t t-esc="env.utils.formatCurrency(line.price_unit)"/>
+                                </td>
+                                <td>
+                                    <t t-if="line.price_subtotal_incl - line.price_subtotal != 0.0">
+                                        <t t-esc="env.utils.formatCurrency(Math.abs(line.price_subtotal_incl - line.price_subtotal))"/>
+                                    </t>
+                                    <t t-if="line.price_subtotal_incl - line.price_subtotal == 0.0">
+                                        -
+                                    </t>
+                                </td>
+                                <td>
+                                    <t t-if="line.discount == 0">
+                                        -
+                                    </t>
+                                    <t t-if="line.discount != 0">
+                                        <t t-esc="line.discount"/>%
+                                    </t>
+                                </td>
+                                <td>
+                                    <t t-esc="env.utils.formatCurrency(line.price_subtotal_incl)"/>
+                                </td>
+                            </tr>
+                        </t>
+                    </table>
+                </div>
+
+                <div style="display: flex; flex-direction: row; justify-content: space-between; padding: 10px; font-size: 20px;">
+                    <div style="display: flex; gap: 5px;">
+                        <span style="color: rgb(67, 134, 111); font-weight: 900;">
+                            Payment modes:</span>
+                        <ul>
+                            <t t-foreach='statements' t-as='statement' t-key='statement'>
+                                <li><t t-esc="statement.journal_id[1]"/> (<t t-esc="env.utils.formatCurrency(statement.amount)"/>)</li>
+                            </t>
+                        </ul>
+                    </div>
+                    <div style="display: flex; gap: 5px;">
+                        <span style="color: rgb(67, 134, 111); font-weight: 900;">Total</span>
+                        <span><t t-esc='env.utils.formatCurrency(order.amount_total)'/></span>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </section>
+    </t>
+
+    <t t-name="OrdersScreenWidget" t-inherit="pos_orders.OrdersScreenWidget" t-inherit-mode="extension" owl="1">
+        <xpath expr="//table[hasclass('partner-list')]//thead//tr//th[4]" position="after">
+            <th>Return Status</th>
+        </xpath>
+    </t>
+
+    <t t-inherit="pos_orders.WkOrderLine" t-inherit-mode="extension">
+        <xpath expr="//tr[hasclass('wk-order-line')]" position="inside">
+            <td><t t-esc='order.return_status' /></td>
+        </xpath>
+    </t>
+
+    <t t-name="OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" owl="1">
+        <xpath expr="//ReceiptHeader" position="after">
+            <t t-if='props.data.is_return_order and !props.data.is_exchange_order'>
+                <div style="text-align: center; font-weight: bold;"><span>Return Order</span></div>
+            </t>
+            <t t-if='props.data.is_return_order and props.data.is_exchange_order'>
+                <div style="text-align: center; font-weight: bold;"><span>Exchange Order</span></div>
+            </t>
+        </xpath>
+
+        <xpath expr="//div[hasclass('pos-receipt-amount')][1]" position="replace">
+            <div class="pos-receipt-amount" style="padding-left:0px;" >
+                <t t-if="!props.data.is_return_order or props.data.amount_total>0">
+                    TOTAL <span t-esc='props.formatCurrency(props.data.amount_total)' class="pos-receipt-right-align"/>
+                </t>
+                <t t-if="props.data.is_return_order and props.data.amount_total&lt;=0">
+                    <br/> TOTAL Refund: <span t-esc='props.formatCurrency(props.data.amount_total * -1)' class="pos-receipt-right-align"/>
+                </t>
+            </div>
+        </xpath>
+    </t>
+</templates>

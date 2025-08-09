@@ -1,0 +1,40 @@
+/* Copyright (c) 2016-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) */
+/* See LICENSE file for full copyright and licensing details. */
+/* License URL : <https://store.webkul.com/license.html/> */
+.return_popup_table{
+	table-layout: fixed;
+	text-align: left;
+	width:100%;
+}
+.container_div{
+	height: 240px;
+    overflow-y: scroll;
+    margin-top: -3%;
+}
+.return_popup_tr{
+	height: 53px;
+	background-color: rgb(222, 224, 224);
+}
+.table_data_cells{
+    padding-left: 2%;
+}
+.return_order_button{
+	pointer-events: none;
+	opacity: 0.4;
+	background: #c1c1c1 !important;
+}
+
+.orders-screen-content .window{
+	overflow-y: scroll;
+}
+
+#wk_refund{
+    background: #df6363;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+	cursor: pointer;
+}

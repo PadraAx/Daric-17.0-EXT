@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_planning_slot_officer,planning.slot.officer,planning.model_planning_slot,planning.group_planning_user,1,1,1,1
+access_planning_role_officer,planning.role.officer,planning.model_planning_role,planning.group_planning_user,1,1,1,1
+access_planning_slot_template_officer,planning.slot.template.officer,planning.model_planning_slot_template,planning.group_planning_user,1,1,1,1
