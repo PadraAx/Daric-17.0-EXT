@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_hms_spreadsheet_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 17:18+0000\n"
+"PO-Revision-Date: 2025-04-04 17:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_treatment_dashboard.json:0
+#: model:spreadsheet.dashboard,name:acs_hms_spreadsheet_dashboard.acs_dashboard_appointment
+#, python-format
+msgid "Appointment"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_treatment_dashboard.json:0
+#, python-format
+msgid "Appointments"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Appointments by Consultation Type"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_treatment_dashboard.json:0
+#, python-format
+msgid "Appointments by Date"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Appointments by Diseases"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_treatment_dashboard.json:0
+#, python-format
+msgid "Appointments by Physician"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Appointments by Status"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Cancelled"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Consultation"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Date"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Department"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Done"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Followup"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#: model:spreadsheet.dashboard.group,name:acs_hms_spreadsheet_dashboard.spreadsheet_dashboard_group_acs_hms
+msgid "HMS"
+msgstr ""
+
+#. module: acs_hms_spreadsheet_dashboard
+#. odoo-javascript
+#: code:addons/acs_hms_spreadsheet_dashboard/data/files/acs_hms_appointment_dashboard.json:0
+#, python-format
+msgid "Physician"
+msgstr ""

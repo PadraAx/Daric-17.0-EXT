@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_whatsapp_meta
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 17:49+0000\n"
+"PO-Revision-Date: 2025-04-04 17:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields,field_description:acs_whatsapp_meta.field_acs_whatsapp_message__media_type
+msgid "ACS File Type"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields.selection,name:acs_whatsapp_meta.selection__acs_whatsapp_message__media_type__audio
+msgid "Audio"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model,name:acs_whatsapp_meta.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: acs_whatsapp_meta
+#. odoo-python
+#: code:addons/acs_whatsapp_meta/models/message.py:0
+#: code:addons/acs_whatsapp_meta/models/message.py:0
+#: code:addons/acs_whatsapp_meta/models/message.py:0
+#, python-format
+msgid "Currently only Message Type template upload is supported."
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields.selection,name:acs_whatsapp_meta.selection__acs_whatsapp_message__media_type__document
+msgid "Document"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model_terms:ir.ui.view,arch_db:acs_whatsapp_meta.view_company_form
+msgid "Get Templates from FB"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#. odoo-python
+#: code:addons/acs_whatsapp_meta/models/message.py:0
+#, python-format
+msgid "History not supported."
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields.selection,name:acs_whatsapp_meta.selection__acs_whatsapp_message__media_type__image
+msgid "Image"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields,field_description:acs_whatsapp_meta.field_acs_whatsapp_message__media_id
+msgid "Meta Media ID"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields,field_description:acs_whatsapp_meta.field_res_company__whatsapp_meta_token
+msgid "Meta Token"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#. odoo-python
+#: code:addons/acs_whatsapp_meta/models/message.py:0
+#, python-format
+msgid "Module Location %s does not have Write Access."
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields,field_description:acs_whatsapp_meta.field_res_company__whatsapp_meta_phone_number_id
+msgid "Phone Number ID"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#. odoo-python
+#: code:addons/acs_whatsapp_meta/models/company.py:0
+#, python-format
+msgid "Something went wrong."
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields.selection,name:acs_whatsapp_meta.selection__acs_whatsapp_message__media_type__video
+msgid "Video"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields,field_description:acs_whatsapp_meta.field_res_company__whatsapp_meta_url
+msgid "WhatsApp Meta API URL"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model,name:acs_whatsapp_meta.model_acs_whatsapp_mixin
+msgid "WhatsApp Mixin"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model.fields,field_description:acs_whatsapp_meta.field_res_company__whatsapp_business_acccountid
+msgid "Whatsapp Business Account ID"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model,name:acs_whatsapp_meta.model_acs_whatsapp_message
+msgid "whatsapp"
+msgstr ""
+
+#. module: acs_whatsapp_meta
+#: model:ir.model,name:acs_whatsapp_meta.model_acs_whatsapp_template
+msgid "whatsapp Template"
+msgstr ""

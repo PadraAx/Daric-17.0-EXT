@@ -1,0 +1,318 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_laboratory_website_booking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 17:34+0000\n"
+"PO-Revision-Date: 2025-04-04 17:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "&amp;times;"
+msgstr "×"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patients
+msgid ""
+"'Are you sure you want to Cofirm Appointment and Process payment? Once "
+"redirected to Invocie page you can not change Any data. To Retray payment go"
+" to lab Requests and do it.'"
+msgstr "'آیا مطمئن هستید که می‌خواهید نوبت را تأیید کرده و پرداخت را انجام دهید؟ پس از هدایت به صفحه فاکتور، دیگر نمی‌توانید هیچ داده‌ای را تغییر دهید. برای انجام مجدد پرداخت، به درخواست‌های آزمایشگاه بروید و آن را انجام دهید.'"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patient_and_location
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patients
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_tests
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "'Are you sure you want to cancel process?'"
+msgstr "'آیا مطمئن هستید که می‌خواهید فرآیند را لغو کنید؟'"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_thank_you
+msgid ", we will get back to you soon. Your reference number for this request is:"
+msgstr "به زودی با شما تماس خواهیم گرفت. شماره مرجع این درخواست شما عبارت است از:"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.acs_patient_card
+msgid "<i class=\"fa fa-pencil mx-1\"/>Edit"
+msgstr "<i class=\"fa fa-pencil mx-1\"/>ویرایش"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patients
+msgid "<i class=\"fa fa-plus mx-1\"/>Add New Family Member"
+msgstr "<i class=\"fa fa-plus mx-1\"/>افزودن عضو جدید خانواده"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patient_and_location
+msgid "<span class=\"s_website_form_label_content\">Number of Patients</span>"
+msgstr "<span class=\"s_website_form_label_content\">تعداد بیماران</span>"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+msgid "<span>No slots available for selected date.</span>"
+msgstr "<span>برای تاریخ انتخابی، هیچ زمان‌بندی موجود نیست.</span>"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+msgid "<span>There are no slots available to book appointment please check later or contact with Management.</span>"
+msgstr "<span>هیچ زمان‌بندی برای نوبت دهی نوبت موجود نیست. لطفاً بعداً بررسی کنید یا با مدیریت تماس بگیرید.</span>"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_lab_test__allowed_online_booking
+msgid "Allowed Online Booking"
+msgstr "نوبت دهی آنلاین مجاز"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_laboratory_request__booked_online
+msgid "Booked Online"
+msgstr "نوبت دهی آنلاین شده"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model,name:acs_laboratory_website_booking.model_acs_schedule
+msgid "Booking schedule"
+msgstr "برنامه نوبت دهی"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.acs_location_card
+msgid "Branch"
+msgstr "شعبه"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patient_and_location
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patients
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_tests
+msgid "Cancel"
+msgstr "لغو"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.actions.server,name:acs_laboratory_website_booking.ir_cron_clear_lab_appointment_ir_actions_server
+msgid "Clear Laboratory Appointment"
+msgstr "حذف نوبت آزمایشگاه"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patient_and_location
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+msgid "Click here to login."
+msgstr "برای ورود اینجا را کلیک کنید."
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "Close"
+msgstr "بستن"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_schedule__collection_center_id
+msgid "Collection Center"
+msgstr "مرکز جمع‌آوری"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+msgid "Fees:"
+msgstr "هزینه‌ها:"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model,name:acs_laboratory_website_booking.model_payment_link_wizard
+msgid "Generate Payment Link"
+msgstr "ایجاد لینک پرداخت"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.actions.act_window,name:acs_laboratory_website_booking.action_acs_payment_generate_link
+msgid "Generate a Payment Link"
+msgstr "تولید لینک پرداخت"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_lab_test__image_1920
+msgid "Image"
+msgstr "تصویر"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_payment_transaction__acs_laboratoryrequest_id
+msgid "Lab Request"
+msgstr "درخواست آزمایشگاه"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_schedule_slot_lines__laboratory_request_ids
+msgid "Lab Requests"
+msgstr "درخواست‌های آزمایشگاه"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model,name:acs_laboratory_website_booking.model_acs_lab_test
+msgid "Lab Test Type"
+msgstr "نوع آزمایشگاه"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "Lab Tests"
+msgstr "آزمایش‌های آزمایشگاهی"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields.selection,name:acs_laboratory_website_booking.selection__acs_schedule__schedule_type__laboratory
+msgid "Laboratory"
+msgstr "آزمایشگاه"
+
+#. module: acs_laboratory_website_booking
+#: model:website.menu,name:acs_laboratory_website_booking.menu_acs_laboratroy_appointment
+msgid "Laboratory Booking"
+msgstr "نوبت دهی آزمایشگاه"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model,name:acs_laboratory_website_booking.model_acs_laboratory_request
+msgid "Laboratory Request"
+msgstr "درخواست آزمایشگاه"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patient_and_location
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+msgid "Login to book an Appointment."
+msgstr "برای نوبت دهی نوبت وارد شوید."
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patient_and_location
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_slot
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_tests
+msgid "Next <span class=\"fa fa-long-arrow-right\"/>"
+msgstr "بعدی <span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.acs_location_card
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.acs_patient_card
+msgid "Patient"
+msgstr "بیمار"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_laboratory_request__patient_count
+msgid "Patient Count"
+msgstr "تعداد بیماران"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "Patient Count &amp; Location"
+msgstr "تعداد بیماران و موقعیت"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "Patient Data"
+msgstr "داده‌های بیمار"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patients
+msgid "Pay"
+msgstr "پرداخت"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.acs_lab_requests
+msgid "Pay Now"
+msgstr "همین حالا پرداخت کنید"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "Payment"
+msgstr "پرداخت"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model,name:acs_laboratory_website_booking.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "تراکنش پرداخت"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.acs_patient_card
+msgid "Physician"
+msgstr "پزشک"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_schedule__physician_ids
+msgid "Physicians"
+msgstr "پزشکان"
+
+#. module: acs_laboratory_website_booking
+#. odoo-python
+#: code:addons/acs_laboratory_website_booking/controllers/main.py:0
+#, python-format
+msgid "Please Select %s Patient to proceed ahead."
+msgstr "لطفاً %s بیمار را برای ادامه انتخاب کنید."
+
+#. module: acs_laboratory_website_booking
+#. odoo-python
+#: code:addons/acs_laboratory_website_booking/controllers/main.py:0
+#, python-format
+msgid "Please Select at least one Slot to proceed ahead."
+msgstr "لطفاً کمینه یک زمان را برای ادامه انتخاب کنید."
+
+#. module: acs_laboratory_website_booking
+#. odoo-python
+#: code:addons/acs_laboratory_website_booking/controllers/main.py:0
+#, python-format
+msgid "Please Select at least one Test to proceed ahead."
+msgstr "لطفاً کمینه یک آزمایش را برای ادامه انتخاب کنید."
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_laboratory_request__schedule_date
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.patient_laboratory_test_request_form
+msgid "Schedule Date"
+msgstr "تاریخ برنامه‌ریزی"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_laboratory_request__schedule_slot_id
+msgid "Schedule Slot"
+msgstr "زمان‌بندی زمان"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model.fields,field_description:acs_laboratory_website_booking.field_acs_schedule__schedule_type
+msgid "Schedule Type"
+msgstr "نوع برنامه‌ریزی"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_progress_checkout
+msgid "Select Slot"
+msgstr "زمان را انتخاب کنید"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patients
+msgid "Submit"
+msgstr "ارسال"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.acs_lab_test_card
+msgid "Test"
+msgstr "آزمایش"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_thank_you
+msgid "Thank You!"
+msgstr "متشکرم!"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_appointment_patient_and_location
+msgid "There is no Linked Patient with your Login. Please Contact Administartor."
+msgstr "هیچ بیمار پیوند خورده‌ای با ورود شما وجود ندارد. لطفاً با مدیر سیستم تماس بگیرید."
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_thank_you
+msgid "Your Laboratory request has been successfully"
+msgstr "درخواست آزمایشگاه شما با موفقیت"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_thank_you
+msgid "confirmed"
+msgstr "تأیید شد"
+
+#. module: acs_laboratory_website_booking
+#: model:ir.model,name:acs_laboratory_website_booking.model_acs_schedule_slot_lines
+msgid "schedule Slot Lines"
+msgstr "خطوط زمان‌بندی"
+
+#. module: acs_laboratory_website_booking
+#: model_terms:ir.ui.view,arch_db:acs_laboratory_website_booking.lab_req_thank_you
+msgid "submitted"
+msgstr "ارسال شد"

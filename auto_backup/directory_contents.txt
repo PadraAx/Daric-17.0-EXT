@@ -1,0 +1,35 @@
+﻿Root Directory: auto_backup
+
+[Folder] data
+[Folder] i18n
+[Folder] models
+[Folder] security
+[Folder] static
+[Folder] views
+[File] __init__.py (Extension: .py)
+[File] __manifest__.py (Extension: .py)
+[File] data\backup_data.xml (Extension: .xml)
+[File] i18n\ar.po (Extension: .po)
+[File] i18n\bg.po (Extension: .po)
+[File] i18n\ca.po (Extension: .po)
+[File] i18n\es.po (Extension: .po)
+[File] i18n\fa.po (Extension: .po)
+[File] i18n\ko_KR.po (Extension: .po)
+[File] i18n\nl.po (Extension: .po)
+[File] i18n\nl_BE.po (Extension: .po)
+[File] i18n\pl.po (Extension: .po)
+[File] i18n\pt_BR.po (Extension: .po)
+[File] i18n\zh_CN.po (Extension: .po)
+[File] models\db_backup.py (Extension: .py)
+[File] models\__init__.py (Extension: .py)
+[File] security\ir.model.access.csv (Extension: .csv)
+[File] security\user_groups.xml (Extension: .xml)
+[Folder] static\description
+[File] static\description\emailnotification.png (Extension: .png)
+[File] static\description\icon.png (Extension: .png)
+[File] static\description\index.html (Extension: .html)
+[File] static\description\overview.png (Extension: .png)
+[File] static\description\terminalssh.png (Extension: .png)
+[File] static\description\testconnection.png (Extension: .png)
+[File] static\description\testconnectionfailed.png (Extension: .png)
+[File] views\backup_view.xml (Extension: .xml)

@@ -1,0 +1,55 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_radiology_whatsapp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 17:42+0000\n"
+"PO-Revision-Date: 2025-04-04 17:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_radiology_whatsapp
+#: model:ir.model,name:acs_radiology_whatsapp.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: acs_radiology_whatsapp
+#: model:ir.model,name:acs_radiology_whatsapp.model_patient_radiology_test
+msgid "Patient Radiology Test"
+msgstr ""
+
+#. module: acs_radiology_whatsapp
+#. odoo-python
+#: code:addons/acs_radiology_whatsapp/models/hms.py:0
+#: code:addons/acs_radiology_whatsapp/models/hms.py:0
+#, python-format
+msgid "Please Define Mobile Number in Customer."
+msgstr ""
+
+#. module: acs_radiology_whatsapp
+#: model:ir.model,name:acs_radiology_whatsapp.model_acs_radiology_request
+msgid "Radiology Request"
+msgstr ""
+
+#. module: acs_radiology_whatsapp
+#: model:ir.model.fields,field_description:acs_radiology_whatsapp.field_res_company__acs_radiology_request_template_id
+msgid "Radiology Request Template"
+msgstr ""
+
+#. module: acs_radiology_whatsapp
+#: model:ir.model.fields,field_description:acs_radiology_whatsapp.field_res_company__acs_radiology_result_template_id
+msgid "Radiology Result Template"
+msgstr ""
+
+#. module: acs_radiology_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_radiology_whatsapp.patient_radiology_test_request_form
+#: model_terms:ir.ui.view,arch_db:acs_radiology_whatsapp.patient_radiology_test_view
+msgid "Send by Whatsapp"
+msgstr ""

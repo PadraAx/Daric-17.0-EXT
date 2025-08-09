@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="inherit_partners_form_view" model="ir.ui.view">
+            <field name="name">res.partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook/page[@name='internal_notes']" position="after">
+                    <page name="products" string="Products">
+                        <field name="seller_ids" readonly = "True">
+                            <tree>
+                                <field name="product_tmpl_id" string="Product" readonly = "True"/>
+                                <field name="product_id" string="Product Variant" readonly = "True"/>
+                                <field name="min_qty"  string="Minimum Quantity" readonly = "True"/>
+                                <field name="price" readonly = "True"/>
+                                <field name="delay" readonly = "True"/>
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

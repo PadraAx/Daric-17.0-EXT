@@ -1,0 +1,412 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_hms_pharmacy_pos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 17:05+0000\n"
+"PO-Revision-Date: 2025-04-04 17:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/overrides/components/product_screen/product_screen.xml:0
+#, python-format
+msgid "(Part of KIT:"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "A new order has been created."
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__acs_pos_processed
+msgid "Acs Pos Processed"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,help:acs_hms_pharmacy_pos.field_prescription_line__is_kit_product
+msgid ""
+"Adding this product will lead to component consumption when added in medical"
+" flow"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,help:acs_hms_pharmacy_pos.field_prescription_line__product_uom
+msgid "Amount of Medicine (eg, mg) per dose"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_control_panel/prescription_order_management_control_panel.xml:0
+#, python-format
+msgid "Back"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.js:0
+#, python-format
+msgid "Cancelled"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_pos_order__currency_rate
+msgid "Currency Rate"
+msgstr "نرخ ارز"
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__partner_id
+msgid "Customer"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "Customer loading error"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_list/prescription_order_list.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.xml:0
+#, python-format
+msgid "Date"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__deliver_only_once
+msgid "Deliver only Once"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "Do you want to load the SN/Lots linked to the Prescription Order?"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.js:0
+#, python-format
+msgid "Draft"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_control_panel/prescription_order_management_control_panel.xml:0
+#, python-format
+msgid "E.g. customer: Steward, date: 2020-05-09"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__fiscal_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/overrides/components/receipt_screen/order_receipt/order_receipt.xml:0
+#, python-format
+msgid "From"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_pos_order_line__acs_kit_details
+msgid "Kit Details"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_line__is_kit_product
+msgid "Kit Product"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-python
+#: code:addons/acs_hms_pharmacy_pos/models/prescription_order.py:0
+#, python-format
+msgid "Linked POS Orders"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_pos_order_line__prescription_order_origin_id
+msgid "Linked Prescription Order"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-python
+#: code:addons/acs_hms_pharmacy_pos/models/pos_order.py:0
+#, python-format
+msgid "Linked Prescription Orders"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_control_panel/prescription_order_management_control_panel.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_control_panel/prescription_order_management_control_panel.xml:0
+#, python-format
+msgid "Next Order List"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "No"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,help:acs_hms_pharmacy_pos.field_prescription_line__product_uom_qty
+msgid ""
+"Number of units of the medicament. Example : 30 capsules of amoxicillin"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_list/prescription_order_list.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.xml:0
+#, python-format
+msgid "Order"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__date_order
+msgid "Order Date"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_pos_order__pos_order_line_ids
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_line__pos_order_line_ids
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__pos_order_line_ids
+msgid "Order lines Transfered to Point of Sale"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_list/prescription_order_list.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.xml:0
+#, python-format
+msgid "POS Orders"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,help:acs_hms_pharmacy_pos.field_prescription_order__partner_id
+msgid "Partner-related data of the Patient"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_list/prescription_order_list.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.xml:0
+#, python-format
+msgid "Patient"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model,name:acs_hms_pharmacy_pos.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "سطرهای سفارش پایانه فروش"
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model,name:acs_hms_pharmacy_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "سفارشات پایانه فروش"
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__pos_order_count
+msgid "Pos Order Count"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.js:0
+#, python-format
+msgid "Prescribed"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_list/prescription_order_list.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.xml:0
+#, python-format
+msgid "Prescribing Doctor"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/set_prescription_order_button/set_prescription_order_button.xml:0
+#: model:ir.model,name:acs_hms_pharmacy_pos.model_prescription_order
+#, python-format
+msgid "Prescription Order"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_pos_order__prescription_order_count
+msgid "Prescription Order Count"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model,name:acs_hms_pharmacy_pos.model_prescription_line
+msgid "Prescription Order Line"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_line__order_id
+msgid "Prescription for POS"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_control_panel/prescription_order_management_control_panel.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_control_panel/prescription_order_management_control_panel.xml:0
+#, python-format
+msgid "Previous Order List"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_order__pricelist_id
+msgid "Pricelist"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "Products not available in POS"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_line__qty_delivered
+msgid "Qty Delivered"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_line__qty_invoiced
+msgid "Qty Invoiced"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_line__product_uom_qty
+msgid "Quantity for POS"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "SN/Lots Loading"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/overrides/components/product_screen/product_screen.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/overrides/components/product_screen/product_screen.xml:0
+#, python-format
+msgid "SO"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/set_prescription_order_button/set_prescription_order_button.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/set_prescription_order_button/set_prescription_order_button.xml:0
+#, python-format
+msgid "Set Prescription Order"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "Settle the order"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid ""
+"Some of the products in your Prescription Order are not available in POS, do"
+" you want to import them?"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_pos_order_line__prescription_order_line_id
+msgid "Source Prescription Order Line"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_list/prescription_order_list.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.xml:0
+#, python-format
+msgid "State"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,help:acs_hms_pharmacy_pos.field_pos_order__currency_rate
+msgid ""
+"The rate of the currency to the currency of rate applicable at the date of "
+"the order"
+msgstr "نرخ ارز به واحد پولی که در تاریخ سفارش اعمال می شود"
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "There was a problem in loading the %s customer."
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_list/prescription_order_list.xml:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_row/prescription_order_row.xml:0
+#, python-format
+msgid "Total"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model_terms:ir.ui.view,arch_db:acs_hms_pharmacy_pos.view_hms_prescription_order_form_pos
+msgid ""
+"Transfered<br/>\n"
+"                                to POS"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model_terms:ir.ui.view,arch_db:acs_hms_pharmacy_pos.view_pos_order_form_inherit_pos_prescription
+msgid ""
+"Transfered<br/>\n"
+"                            from Prescription"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#: model:ir.model.fields,field_description:acs_hms_pharmacy_pos.field_prescription_line__product_uom
+msgid "UOM for POS"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "What do you want to do?"
+msgstr ""
+
+#. module: acs_hms_pharmacy_pos
+#. odoo-javascript
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#: code:addons/acs_hms_pharmacy_pos/static/src/app/order_management_screen/prescription_order_management_screen/prescription_order_management_screen.js:0
+#, python-format
+msgid "Yes"
+msgstr ""

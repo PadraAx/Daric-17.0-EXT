@@ -1,0 +1,93 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_hms_whatsapp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 17:29+0000\n"
+"PO-Revision-Date: 2025-04-04 17:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_hms_whatsapp
+#: model:ir.model,name:acs_hms_whatsapp.model_hms_appointment
+msgid "Appointment"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model:ir.model.fields,field_description:acs_hms_whatsapp.field_res_company__acs_appointment_confirmation_template_id
+msgid "Appointment Registration Template"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model:ir.model.fields,field_description:acs_hms_whatsapp.field_res_company__acs_appointment_reminder_template_id
+msgid "Appointment Reminder Template"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model:ir.model.fields,field_description:acs_hms_whatsapp.field_res_company__acs_appointment_reschedule_template_id
+msgid "Appointment Reschedule Template"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_hms_whatsapp.view_hms_appointment_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_whatsapp.view_patient_form
+msgid "Chat History"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model:ir.model,name:acs_hms_whatsapp.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: acs_hms_whatsapp
+#. odoo-python
+#: code:addons/acs_hms_whatsapp/models/hms.py:0
+#: code:addons/acs_hms_whatsapp/models/hms.py:0
+#, python-format
+msgid "No Mobile no linked with Record."
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#. odoo-python
+#: code:addons/acs_hms_whatsapp/models/hms.py:0
+#, python-format
+msgid "No Patient linked with Record."
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model:ir.model,name:acs_hms_whatsapp.model_hms_patient
+msgid "Patient"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model:ir.model.fields,field_description:acs_hms_whatsapp.field_res_company__acs_patient_reg_template_id
+msgid "Patient Registration Template"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_hms_whatsapp.view_patient_form
+msgid "Send OTP"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model:ir.model,name:acs_hms_whatsapp.model_acs_send_whatsapp
+msgid "Send WhatsApp Message"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_hms_whatsapp.view_patient_form
+msgid "Verify OTP"
+msgstr ""
+
+#. module: acs_hms_whatsapp
+#: model_terms:ir.ui.view,arch_db:acs_hms_whatsapp.view_hms_appointment_form
+#: model_terms:ir.ui.view,arch_db:acs_hms_whatsapp.view_patient_form
+msgid "Whatsapp"
+msgstr ""

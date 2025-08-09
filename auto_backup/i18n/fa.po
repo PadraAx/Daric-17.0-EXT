@@ -1,0 +1,372 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* auto_backup
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-26 21:45+0000\n"
+"PO-Revision-Date: 2025-03-26 21:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid ""
+"<b>Warning:</b>\n"
+"                        Use SFTP with caution! This writes files to external servers under the path you specify."
+msgstr ""
+"<b>هشدار:</b>\n"
+"                        هنگام استفاده از SFTP احتیاط کنید! این فرآیند فایل‌ها را در مسیر مشخص‌شده روی سرورهای خارجی ذخیره می‌کند."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__folder
+msgid "Absolute path for storing the backups"
+msgstr "مسیر کامل برای ذخیره فایل‌های پشتیبان"
+
+#. module: auto_backup
+#: model:ir.module.category,name:auto_backup.module_management
+msgid "Auto backup access"
+msgstr "دسترسی به مدیریت پشتیبان‌گیری خودکار"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__send_mail_sftp_fail
+msgid "Auto. E-mail on backup fail"
+msgstr "ارسال خودکار ایمیل در صورت شکست پشتیبان‌گیری"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__autoremove
+msgid "Auto. Remove Backups"
+msgstr "حذف خودکار فایل‌های پشتیبان"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Back-up view"
+msgstr "نمای پشتیبان‌گیری"
+
+#. module: auto_backup
+#: model:ir.ui.menu,name:auto_backup.auto_backup_menu
+msgid "Back-ups"
+msgstr "پشتیبان‌ها"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__folder
+msgid "Backup Directory"
+msgstr "فهرست پشتیبان‌گیری"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__backup_type
+msgid "Backup Type"
+msgstr "نوع پشتیبان‌گیری"
+
+#. module: auto_backup
+#: model:ir.model,name:auto_backup.model_db_backup
+msgid "Backup configuration record"
+msgstr "رکورد تنظیمات پشتیبان‌گیری"
+
+#. module: auto_backup
+#: model:ir.actions.server,name:auto_backup.backup_scheduler_ir_actions_server
+msgid "Backup scheduler"
+msgstr "زمان‌بندی پشتیبان‌گیری"
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__days_to_keep_sftp
+msgid ""
+"Choose after how many days the backup should be deleted from the FTP server. For example:\n"
+"If you fill in 5 the backups will be removed after 5 days from the FTP server."
+msgstr ""
+"تعیین کنید که نسخه‌های پشتیبان پس از چند روز از سرور FTP حذف شوند. به عنوان مثال:\n"
+"اگر عدد ۵ را وارد کنید، پشتیبان‌ها پس از ۵ روز از سرور FTP حذف خواهند شد."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__days_to_keep
+msgid ""
+"Choose after how many days the backup should be deleted. For example:\n"
+"If you fill in 5 the backups will be removed after 5 days."
+msgstr ""
+"مشخص کنید که نسخه‌های پشتیبان پس از چند روز حذف شوند. به عنوان مثال:\n"
+"اگر عدد ۵ را وارد کنید، پشتیبان‌ها پس از ۵ روز حذف خواهند شد."
+
+#. module: auto_backup
+#: model:ir.actions.act_window,name:auto_backup.action_backup
+#: model:ir.ui.menu,name:auto_backup.backup_conf_menu
+msgid "Configure back-ups"
+msgstr "پیکربندی پشتیبان‌گیری"
+
+#. module: auto_backup
+#. odoo-python
+#: code:addons/auto_backup/models/db_backup.py:0
+#, python-format
+msgid "Connection Test Failed!"
+msgstr "آزمون اتصال ناموفق بود!"
+
+#. module: auto_backup
+#. odoo-python
+#: code:addons/auto_backup/models/db_backup.py:0
+#, python-format
+msgid ""
+"Connection Test Succeeded!\n"
+"Everything seems properly set up for FTP back-ups!"
+msgstr ""
+"آزمون اتصال موفقیت‌آمیز بود!\n"
+"همه چیز برای پشتیبان‌گیری FTP به درستی تنظیم شده است!"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Contact me!"
+msgstr "با من تماس بگیرید!"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__create_uid
+msgid "Created by"
+msgstr "ایجادکننده"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__create_date
+msgid "Created on"
+msgstr "تاریخ ایجاد"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__name
+msgid "Database"
+msgstr "پایگاه داده"
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__name
+msgid "Database you want to schedule backups for"
+msgstr "پایگاه داده‌ای که می‌خواهید برای آن پشتیبان‌گیری زمان‌بندی کنید"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: auto_backup
+#: model:ir.model.fields.selection,name:auto_backup.selection__db_backup__backup_type__dump
+msgid "Dump"
+msgstr "تهیه نسخه پشتیبان"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__email_to_notify
+msgid "E-mail to notify"
+msgstr "ایمیل جهت اطلاع‌رسانی"
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__email_to_notify
+msgid ""
+"Fill in the e-mail where you want to be notified that the backup failed on "
+"the FTP."
+msgstr ""
+"ایمیلی را وارد کنید که در صورت شکست پشتیبان‌گیری در FTP به آن اطلاع داده شود."
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "For example: /odoo/backups/"
+msgstr "مثال: /daric/backups/"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Go to Settings / Technical / Automation / Scheduled Actions."
+msgstr "به مسیر تنظیمات / فنی / اتوماسیون / اقدامات زمان‌بندی‌شده بروید."
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Help"
+msgstr "راهنما"
+
+#. module: auto_backup
+#. odoo-python
+#: code:addons/auto_backup/models/db_backup.py:0
+#, python-format
+msgid "Here is what we got instead:\n"
+msgstr "در عوض، این مورد دریافت شد:\n"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__host
+msgid "Host"
+msgstr "میزبان"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_host
+msgid "IP Address SFTP Server"
+msgstr "آدرس IP سرور SFTP"
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__send_mail_sftp_fail
+msgid ""
+"If you check this option you can choose to automaticly get e-mailed when the"
+" backup to the external server failed."
+msgstr ""
+"با فعال کردن این گزینه، در صورت ناموفق بودن پشتیبان‌گیری در سرور خارجی، به‌صورت خودکار ایمیل دریافت خواهید کرد."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__autoremove
+msgid ""
+"If you check this option you can choose to automaticly remove the backup "
+"after xx days"
+msgstr ""
+"با فعال کردن این گزینه، می‌توانید پشتیبان‌ها را به‌طور خودکار پس از xx روز حذف کنید."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_write
+msgid ""
+"If you check this option you can specify the details needed to write to a "
+"remote server with SFTP."
+msgstr ""
+"با فعال کردن این گزینه، می‌توانید جزئیات لازم برای ذخیره‌سازی در یک سرور راه دور از طریق SFTP را مشخص کنید."
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به‌روزرسانی توسط"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__write_date
+msgid "Last Updated on"
+msgstr "آخرین به‌روزرسانی در"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Local backup configuration"
+msgstr "پیکربندی پشتیبان‌گیری محلی"
+
+#. module: auto_backup
+#: model:res.groups,name:auto_backup.group_manager
+msgid "Manager"
+msgstr "مدیر"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Need more help?"
+msgstr "نیاز به کمک بیشتری دارید؟"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_password
+msgid "Password User SFTP Server"
+msgstr "رمز عبور کاربر سرور SFTP"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_path
+msgid "Path external server"
+msgstr "مسیر سرور خارجی"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__port
+msgid "Port"
+msgstr "پورت"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__days_to_keep_sftp
+msgid "Remove SFTP after x days"
+msgstr "حذف SFTP پس از X روز"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__days_to_keep
+msgid "Remove after x days"
+msgstr "حذف پس از X روز"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "SFTP"
+msgstr "SFTP"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_port
+msgid "SFTP Port"
+msgstr "پورت SFTP"
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Search the action named 'Backup scheduler'."
+msgstr "عملیاتی با نام «برنامه‌ریز پشتیبان» را جستجو کنید."
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid ""
+"Set the scheduler to active and fill in how often you want backups generated."
+msgstr ""
+"برنامه‌ریز را فعال کنید و مشخص کنید که هر چند وقت یک‌بار نسخه پشتیبان ایجاد شود."
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid "Test SFTP Connection"
+msgstr "آزمایش اتصال SFTP"
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_host
+msgid "The IP address from your remote server. For example 192.168.0.1"
+msgstr "آدرس IP سرور از راه دور شما. به عنوان مثال: 192.168.0.1"
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_path
+msgid ""
+"The location to the folder where the dumps should be written to. For example /odoo/backups/.\n"
+"Files will then be written to /odoo/backups/ on your remote server."
+msgstr ""
+"موقعیت پوشه‌ای که باید نسخه پشتیبان در آن نوشته شود. به عنوان مثال: /daric/backups/.\n"
+"سپس فایل‌ها به /daric/backups/ بر روی سرور از راه دور شما نوشته خواهند شد."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_password
+msgid ""
+"The password from the user where the SFTP connection should be made with. "
+"This is the password from the user on the external server."
+msgstr ""
+"رمز عبور کاربری که اتصال SFTP باید با آن برقرار شود. این رمز عبور متعلق به کاربر "
+"در سرور خارجی است."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_port
+msgid "The port on the FTP server that accepts SSH/SFTP calls."
+msgstr "پورت سرور FTP که درخواست‌های SSH/SFTP را می‌پذیرد."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup__sftp_user
+msgid ""
+"The username where the SFTP connection should be made with. This is the user"
+" on the external server."
+msgstr ""
+"نام کاربری که اتصال SFTP باید با آن برقرار شود. این کاربر در سرور خارجی است."
+
+#. module: auto_backup
+#: model_terms:ir.ui.view,arch_db:auto_backup.view_backup_config_form
+msgid ""
+"This configures the scheduler for automatic backup of the given database running on given host\n"
+"                        at given port on regular intervals.\n"
+"                        <br/>\n"
+"                        Automatic backups of the database can be scheduled as follows:"
+msgstr ""
+"این برنامه زمانبندی را برای تهیه نسخه پشتیبان خودکار از پایگاه داده داده شده در میزبان داده شده پیکربندی می‌کند\n"
+"                        در پورت داده شده در فواصل منظم.\n"
+"                        <br/>\n"
+"                        پشتیبان‌گیری خودکار از پایگاه داده به شرح زیر قابل برنامه‌ریزی است:"
+
+#. module: auto_backup
+#: model:ir.module.category,description:auto_backup.module_management
+msgid "User access level for this module"
+msgstr "سطح دسترسی کاربر برای این ماژول"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_user
+msgid "Username SFTP Server"
+msgstr "نام کاربری سرور SFTP"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup__sftp_write
+msgid "Write to external server with sftp"
+msgstr "نوشتن روی سرور خارجی با SFTP"
+
+#. module: auto_backup
+#: model:ir.model.fields.selection,name:auto_backup.selection__db_backup__backup_type__zip
+msgid "Zip"
+msgstr "زیپ"

@@ -1,0 +1,228 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* acs_sms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-04 17:44+0000\n"
+"PO-Revision-Date: 2025-04-04 17:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: acs_sms
+#: model:ir.model,name:acs_sms.model_res_company
+msgid "Companies"
+msgstr "شرکت‌ها"
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_sms_sms__company_id
+msgid "Company"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model,name:acs_sms.model_res_partner
+msgid "Contact"
+msgstr "مخاطب"
+
+#. module: acs_sms
+#: model:sms.template,name:acs_sms.verify_otp_msg_sms_template
+msgid "Customer: VerifyOTP"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,help:acs_sms.field_sms_sms__acs_templateid
+#: model:ir.model.fields,help:acs_sms.field_sms_template__acs_templateid
+msgid "DLT Approved Template ID"
+msgstr ""
+
+#. module: acs_sms
+#. odoo-python
+#: code:addons/acs_sms/models/partner.py:0
+#, python-format
+msgid "Dear %(name)s, %(otp)s is your OTP Verification."
+msgstr ""
+
+#. module: acs_sms
+#: model:sms.template,body:acs_sms.verify_otp_msg_sms_template
+msgid ""
+"Dear {{ object.name }},  {{ object.generated_otp_sms }} is your OTP "
+"Verification."
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model,name:acs_sms.model_mail_thread
+msgid "Email Thread"
+msgstr "موضوع ایمیل"
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_extra_param
+msgid "Extra Parameter"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_hms_patient__generated_otp_sms
+#: model:ir.model.fields,field_description:acs_sms.field_hms_physician__generated_otp_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_partner__generated_otp_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_users__generated_otp_sms
+msgid "Generated OTP SMS"
+msgstr ""
+
+#. module: acs_sms
+#: model:res.groups,name:acs_sms.group_sms_otp
+msgid "Manage SMS OTP"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_message_param
+msgid "Message Parameter"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_hms_patient__acs_otp_sms
+#: model:ir.model.fields,field_description:acs_sms.field_hms_physician__acs_otp_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_partner__acs_otp_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_users__acs_otp_sms
+msgid "OTP SMS"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model,name:acs_sms.model_sms_sms
+msgid "Outgoing SMS"
+msgstr "پیامک خروجی"
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_password
+msgid "Password"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_password_param
+msgid "Password Parameter"
+msgstr ""
+
+#. module: acs_sms
+#. odoo-python
+#: code:addons/acs_sms/models/partner.py:0
+#, python-format
+msgid "Please enter OTP."
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_receiver_param
+msgid "Receiver Parameter"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_sms_sms__acs_server_reply
+msgid "Reply Message"
+msgstr ""
+
+#. module: acs_sms
+#: model_terms:ir.ui.view,arch_db:acs_sms.view_company_form
+msgid "SMS Gateway"
+msgstr ""
+
+#. module: acs_sms
+#: model_terms:ir.ui.view,arch_db:acs_sms.view_company_form
+msgid "SMS Notifications"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_sms_sms__acs_url
+msgid "SMS Request URl"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model,name:acs_sms.model_sms_template
+msgid "SMS Templates"
+msgstr "قالب‌های پیامک"
+
+#. module: acs_sms
+#: model_terms:ir.ui.view,arch_db:acs_sms.view_partner_form_sms
+msgid "Send OTP"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_sender_id
+msgid "Sender"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_sender_param
+msgid "Sender Parameter"
+msgstr ""
+
+#. module: acs_sms
+#: model_terms:ir.ui.view,arch_db:acs_sms.view_company_form
+msgid "Technical Settings"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_sms_sms__acs_templateid
+#: model:ir.model.fields,field_description:acs_sms.field_sms_template__acs_templateid
+msgid "Template ID"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_templateid_param
+msgid "Template Parameter"
+msgstr ""
+
+#. module: acs_sms
+#. odoo-python
+#: code:addons/acs_sms/models/partner.py:0
+#, python-format
+msgid "The OTP you entered is invalid. Please enter the correct OTP."
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,help:acs_sms.field_hms_patient__verified_mobile_sms
+#: model:ir.model.fields,help:acs_sms.field_hms_physician__verified_mobile_sms
+#: model:ir.model.fields,help:acs_sms.field_res_partner__verified_mobile_sms
+#: model:ir.model.fields,help:acs_sms.field_res_users__verified_mobile_sms
+msgid "The mobile number is verified using the SMS message"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_url
+msgid "URL"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__acs_use_own_sms_server
+msgid "Use Own SMS Service"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_user_name
+msgid "User Name"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__sms_sms_user_name_param
+msgid "User Name Parameter"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_hms_patient__verified_mobile_sms
+#: model:ir.model.fields,field_description:acs_sms.field_hms_physician__verified_mobile_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_partner__verified_mobile_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_users__verified_mobile_sms
+msgid "Verified SMS"
+msgstr ""
+
+#. module: acs_sms
+#: model_terms:ir.ui.view,arch_db:acs_sms.view_partner_form_sms
+msgid "Verify OTP"
+msgstr ""
+
+#. module: acs_sms
+#: model:ir.model.fields,field_description:acs_sms.field_res_company__verify_otp_msg_sms_template_id
+msgid "Verify OTP SMS"
+msgstr ""

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- Form -->
+    <record id="view_model_form" model="ir.ui.view">
+        <field name="name">ir.model.form.display.attributes</field>
+        <field name="model">ir.model</field>
+        <field name="inherit_id" ref="base.view_model_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <button name="button_display_attributes" type="object" string="Show Attributes"/>
+                    <button name="button_display_methods" type="object" string="Show Methods"/>
+                </header>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>
